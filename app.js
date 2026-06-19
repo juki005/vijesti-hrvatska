@@ -5559,9 +5559,13 @@ function renderSubNavigation() {
         { id: 'biznis', name: 'Biznis', file: 'biznis.html' },
         { id: 'auti', name: 'Auti', file: 'auti.html' },
         { id: 'portali', name: 'Portali 🌐', file: 'portali.html' },
-        { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno.html' },
-        { id: 'analitika', name: 'Analitika 📊', file: 'analitika.html' }
+        { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno.html' }
     ];
+
+    // Only add Analitika category to secondary menu if logged in as admin
+    if (sessionStorage.getItem('admin_logged_in') === 'true') {
+        mainCats.push({ id: 'analitika', name: 'Analitika 📊', file: 'analitika.html' });
+    }
 
     mainCats.forEach(c => {
         const btn = document.createElement('a');
@@ -6386,7 +6390,7 @@ function setupEventListeners() {
 // Admin accessibility control
 function checkAdminAccess() {
     const filename = window.location.pathname.split('/').pop() || 'index.html';
-    const isAdminPage = filename.includes('analitika') || filename.includes('portali') || activeCategory === 'analitika' || activeCategory === 'portali';
+    const isAdminPage = filename.includes('analitika') || activeCategory === 'analitika';
     const isLogged = sessionStorage.getItem('admin_logged_in') === 'true';
     
     if (isAdminPage && !isLogged) {
