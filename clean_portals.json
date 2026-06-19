@@ -1,0 +1,8393 @@
+[
+  {
+    "name": "Škole.hr",
+    "slug": "skole-hr",
+    "url": "https://www.skole.hr/",
+    "rss": "",
+    "description": "CARNet-ov portal za škole",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "Škoda.hr",
+    "slug": "skoda-hr",
+    "url": "https://www.skoda.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Šibenik.in",
+    "slug": "sibenik-in",
+    "url": "https://www.sibenik.in/",
+    "rss": "",
+    "description": "Portal Šibensko-kninske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "ČitajKnjigu.com",
+    "slug": "citajknjigu-com",
+    "url": "https://citajknjigu.com/",
+    "rss": "",
+    "description": "stranica za knjigoljupce i sve one koji će to tek postati",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Čačkalo.hr/posao",
+    "slug": "cackalo-hr-posao",
+    "url": "https://www.cackalo.hr/posao",
+    "rss": "",
+    "description": "Poslovi na Čačkalo oglasniku",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Čačkalo",
+    "slug": "cackalo-2",
+    "url": "https://www.cackalo.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Čačkalo",
+    "slug": "cackalo",
+    "url": "https://www.cackalo.hr/auto-moto",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "oglasnici-za-auto-moto"
+    ]
+  },
+  {
+    "name": "Zpress.hr",
+    "slug": "zpress-hr",
+    "url": "https://www.zpress.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "ZOO.hr",
+    "slug": "zoo-hr",
+    "url": "https://zoo.hr/",
+    "rss": "",
+    "description": "Zološki vrt Zagreb",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": []
+  },
+  {
+    "name": "Znanje.hr",
+    "slug": "znanje-hr",
+    "url": "https://znanje.hr/",
+    "rss": "",
+    "description": "Hrvatska online knjižara",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Zimo",
+    "slug": "zimo",
+    "url": "https://zimo.dnevnik.hr/",
+    "rss": "",
+    "description": "Vodič kroz društvene mreže, dizajn, multimediju i biznis",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Ziher.hr",
+    "slug": "ziher-hr",
+    "url": "https://www.ziher.hr/",
+    "rss": "",
+    "description": "Kulturni portal s novostima iz svijeta glazbe, filma i kazališta",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "ZET.hr",
+    "slug": "zet-hr",
+    "url": "https://www.zet.hr/",
+    "rss": "",
+    "description": "Javni prijevoz u Zagrebu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "javni-prijevoz"
+    ]
+  },
+  {
+    "name": "ZdravoBudi.hr",
+    "slug": "zdravobudi-hr",
+    "url": "https://zdravobudi.hr/",
+    "rss": "",
+    "description": "Belupov zdravstveni portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "Zaloznaprava.fina.hr",
+    "slug": "zaloznaprava-fina-hr",
+    "url": "https://zaloznaprava.fina.hr/upzap/public/prepare.do",
+    "rss": "",
+    "description": "Upisnik založnih prava pokretnina",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "razno"
+    ]
+  },
+  {
+    "name": "ZagrebOnline.hr",
+    "slug": "zagrebonline-hr",
+    "url": "https://zagrebonline.hr/",
+    "rss": "",
+    "description": "Portal iz Zagreba i Zagrebačke županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Zagrebačka burza",
+    "slug": "zagrebacka-burza",
+    "url": "https://zse.hr/",
+    "rss": "",
+    "description": "Hrvatska burza vrijednosnih papira",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Zagrebačka banka",
+    "slug": "zagrebacka-banka",
+    "url": "https://www.zaba.hr/home/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Zagrebancija.com",
+    "slug": "zagrebancija-com",
+    "url": "https://www.zagrebancija.com/",
+    "rss": "",
+    "description": "Portal o Zagrebu",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Zagreb.info",
+    "slug": "zagreb-info",
+    "url": "https://www.zagreb.info/",
+    "rss": "",
+    "description": "Zagrebački portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Zagreb.hr",
+    "slug": "zagreb-hr",
+    "url": "https://www.zagreb.hr/",
+    "rss": "",
+    "description": "službeni portal grada Zagreba",
+    "categories": [
+      "dnevne-vijesti",
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi",
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Zagreb-airport.hr",
+    "slug": "zagreb-airport-hr",
+    "url": "https://www.zagreb-airport.hr/",
+    "rss": "",
+    "description": "Zračna luka Franjo Tuđman Zagreb",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "Zadarski.hr",
+    "slug": "zadarski-hr",
+    "url": "https://zadarski.slobodnadalmacija.hr/zadar",
+    "rss": "",
+    "description": "Vijesti iz Zadra i Zadarske županije/a> Zagorje.com - Portal iz Krapinsko-zagorske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Zadar.hr",
+    "slug": "zadar-hr",
+    "url": "https://www.zadar.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi"
+    ]
+  },
+  {
+    "name": "Zadar-airport.hr",
+    "slug": "zadar-airport-hr",
+    "url": "https://www.zadar-airport.hr/",
+    "rss": "",
+    "description": "Zračna luka Zadar",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "Z1TV.hr",
+    "slug": "z1tv-hr",
+    "url": "https://www.z1tv.hr/hr/",
+    "rss": "",
+    "description": "Z1 televizija",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "Yr",
+    "slug": "yr",
+    "url": "https://www.yr.no/en",
+    "rss": "",
+    "description": "Norveška prognoza",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Youtube.com",
+    "slug": "youtube-com",
+    "url": "https://www.youtube.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Yammat.fm",
+    "slug": "yammat-fm",
+    "url": "https://www.yammat.fm/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "Yamaha-motor.hr",
+    "slug": "yamaha-motor-hr",
+    "url": "https://www.yamaha-motor.eu/hr/hr/home/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "Yahoo.com",
+    "slug": "yahoo-com",
+    "url": "https://www.yahoo.com/",
+    "rss": "",
+    "description": "Globalni internetski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "X.com (Twitter)",
+    "slug": "x-com-twitter",
+    "url": "https://x.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "WorldMeters.info",
+    "slug": "worldmeters-info",
+    "url": "https://www.worldometers.info/",
+    "rss": "",
+    "description": "Trenutan broj ljudi na svijetu, broj količine potrošene energije...",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "WordPress.org",
+    "slug": "wordpress-org",
+    "url": "https://wordpress.org/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Winko.com",
+    "slug": "winko-com",
+    "url": "http://www.winko.com/",
+    "rss": "",
+    "description": "Tražilica ponuđača proizvoda i usluga",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Wikipedia.org",
+    "slug": "wikipedia-org",
+    "url": "https://www.wikipedia.org/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Wiener osiguranje",
+    "slug": "wiener-osiguranje",
+    "url": "https://www.wiener.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Webgradnja.hr",
+    "slug": "webgradnja-hr",
+    "url": "https://webgradnja.hr/",
+    "rss": "",
+    "description": "Web odredište za graditeljstvo",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Washingtonpost.com",
+    "slug": "washingtonpost-com",
+    "url": "https://www.washingtonpost.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Vrijeme i radar Hrvatska",
+    "slug": "vrijeme-i-radar-hrvatska",
+    "url": "https://www.vrijemeradar.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Volvo.com",
+    "slug": "volvo-com",
+    "url": "https://www.volvocars.com/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Volkswagen.hr",
+    "slug": "volkswagen-hr",
+    "url": "https://www.volkswagen.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Volim zdravlje",
+    "slug": "volim-zdravlje",
+    "url": "https://volimzdravlje.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Vlada HR",
+    "slug": "vlada-hr",
+    "url": "https://vlada.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Vizkultura.hr",
+    "slug": "vizkultura-hr",
+    "url": "https://vizkultura.hr/",
+    "rss": "",
+    "description": "Portal o vizualnim umjetnostima i kulturi",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Vitamini.hr",
+    "slug": "vitamini-hr",
+    "url": "https://vitamini.hr/",
+    "rss": "",
+    "description": "Portal za nutricionizam tvrtke Vitaminoteka",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "Virovitica.net",
+    "slug": "virovitica-net",
+    "url": "https://www.virovitica.net/",
+    "rss": "",
+    "description": "Neovisni virovitički portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Vinted",
+    "slug": "vinted",
+    "url": "https://www.vinted.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Vimeo.com",
+    "slug": "vimeo-com",
+    "url": "https://vimeo.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "ViktorMotoSport.hr",
+    "slug": "viktormotosport-hr",
+    "url": "https://viktormotosport.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "VidiLab.com",
+    "slug": "vidilab-com",
+    "url": "https://www.vidilab.com/",
+    "rss": "",
+    "description": "IT portal",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Vidi Auto",
+    "slug": "vidi-auto",
+    "url": "https://www.vidiauto.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "Vidi.hr",
+    "slug": "vidi-hr",
+    "url": "https://www.vidi.hr/",
+    "rss": "",
+    "description": "Web portal Vidi-To",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "VicMaher.com",
+    "slug": "vicmaher-com",
+    "url": "https://www.vicmaher.com/",
+    "rss": "",
+    "description": "Vicevi, šale i humor za svaki dan",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "smijesno"
+    ]
+  },
+  {
+    "name": "Vicevi.hr",
+    "slug": "vicevi-hr",
+    "url": "https://vicevi.hr/",
+    "rss": "",
+    "description": "Arhiva kvalitetnih viceva",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "smijesno"
+    ]
+  },
+  {
+    "name": "Večernji.hr",
+    "slug": "vecernji-hr",
+    "url": "https://www.vecernji.hr/",
+    "rss": "",
+    "description": "Portal Večernjeg lista",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Večernji.ba",
+    "slug": "vecernji-ba",
+    "url": "https://www.vecernji.ba/",
+    "rss": "",
+    "description": "Dnevno novinsko izdanje za BiH",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Verbum.hr",
+    "slug": "verbum-hr",
+    "url": "https://verbum.hr/",
+    "rss": "",
+    "description": "Verbum knjižara",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Varaždin.hr",
+    "slug": "varazdin-hr",
+    "url": "https://varazdin.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi"
+    ]
+  },
+  {
+    "name": "Vacom.hr",
+    "slug": "vacom-hr",
+    "url": "https://vacom.hr/",
+    "rss": "",
+    "description": "Informatička ponuda na jednome mjestu",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "UvijekVjerni.hr",
+    "slug": "uvijekvjerni-hr",
+    "url": "https://uvijekvjerni.hr/",
+    "rss": "",
+    "description": "Navijački portal hrvatske nogometne reprezentacije",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Usporedi.hr",
+    "slug": "usporedi-hr",
+    "url": "https://www.usporedi.hr/",
+    "rss": "",
+    "description": "Ponude tehničke robe",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "USAToday.com",
+    "slug": "usatoday-com",
+    "url": "https://www.usatoday.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Ured za zakonodavstvo",
+    "slug": "ured-za-zakonodavstvo",
+    "url": "https://zakonodavstvo.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za unutarnju reviziju",
+    "slug": "ured-za-unutarnju-reviziju",
+    "url": "https://vlada.gov.hr/o-vladi/kako-funkcionira-vlada/uredi-vlade/ured-za-unutarnju-reviziju/32001?lang=hr",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za udruge",
+    "slug": "ured-za-udruge",
+    "url": "https://udruge.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za suzbijanje zloupotrebe droga",
+    "slug": "ured-za-suzbijanje-zloupotrebe-droga",
+    "url": "https://drogeiovisnosti.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured zastupnika RH pred Europskim sudom za ljudska prava",
+    "slug": "ured-zastupnika-rh-pred-europskim-sudom-za-ljudska-prava",
+    "url": "https://uredzastupnika.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za razminiravanje",
+    "slug": "ured-za-razminiravanje",
+    "url": "https://sredisnjikatalogrh.gov.hr/adresar/adresar-tijela-javne-vlasti/detalji?searchTerm=filterfi5B106405D273920&id=338443&st=1",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za ravnopravnost",
+    "slug": "ured-za-ravnopravnost",
+    "url": "https://ravnopravnost.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za protokol",
+    "slug": "ured-za-protokol",
+    "url": "https://vlada.gov.hr/o-vladi/kako-funkcionira-vlada/uredi-vlade/ured-za-protokol/32000?lang=hr",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za opće poslove Hrvatskog sabora i Vlade RH",
+    "slug": "ured-za-opce-poslove-hrvatskog-sabora-i-vlade-rh",
+    "url": "https://gov.hr/ured-za-opce-poslove-hrvatskog-sabora-i-vlade-republike-hrvatske/1546",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured za ljudska prava i prava nacionalnih manjina",
+    "slug": "ured-za-ljudska-prava-i-prava-nacionalnih-manjina",
+    "url": "https://ljudskaprava.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured predsjednika Vlade Republike Hrvatske",
+    "slug": "ured-predsjednika-vlade-republike-hrvatske",
+    "url": "https://vlada.gov.hr/predsjednik-vlade-65/ured-predsjednika-vlade/87",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "Ured predsjednika/ce RH",
+    "slug": "ured-predsjednika-ce-rh",
+    "url": "https://www.predsjednik.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": []
+  },
+  {
+    "name": "Ured Komisije ua odnose s vjerskim zajednicama.",
+    "slug": "ured-komisije-ua-odnose-s-vjerskim-zajednicama",
+    "url": "https://gov.hr/ured-komisije-za-odnose-s-vjerskim-zajednicama/1548",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "UNIQA osiguranje",
+    "slug": "uniqa-osiguranje",
+    "url": "https://www.uniqa.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "UniCredit Leasing Croatia",
+    "slug": "unicredit-leasing-croatia",
+    "url": "https://unicreditleasing.hr/home/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "UEFA.com",
+    "slug": "uefa-com",
+    "url": "https://www.uefa.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Udruga franak",
+    "slug": "udruga-franak",
+    "url": "https://udrugafranak.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Tvrtke.com",
+    "slug": "tvrtke-com",
+    "url": "https://www.tvrtke.hr/",
+    "rss": "",
+    "description": "Poslovna tražilica",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Tutoriali.org",
+    "slug": "tutoriali-org",
+    "url": "https://tutoriali.org/",
+    "rss": "",
+    "description": "Razni tutorijali",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Tumblr.com",
+    "slug": "tumblr-com",
+    "url": "https://www.tumblr.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "TRTBalkan.com",
+    "slug": "trtbalkan-com",
+    "url": "https://www.trtbalkan.com/",
+    "rss": "",
+    "description": "Portal Turske radiotelevizije na hrvatskom jeziku",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "Trivago.hr",
+    "slug": "trivago-hr",
+    "url": "https://www.trivago.hr/",
+    "rss": "",
+    "description": "Tražilica hotela s web stranica za rezervaciju",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "putovanja"
+    ]
+  },
+  {
+    "name": "Trim",
+    "slug": "trim",
+    "url": "https://www.trim.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Triglav osiguranje",
+    "slug": "triglav-osiguranje",
+    "url": "https://www.triglav.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Trcaona.hr",
+    "slug": "trcaona-hr",
+    "url": "https://www.trcaona.hr/",
+    "rss": "",
+    "description": "Rekreativno trčanje",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Trcanje.hr",
+    "slug": "trcanje-hr",
+    "url": "https://www.trcanje.hr/",
+    "rss": "",
+    "description": "Portal o brdskom i cestovnom trčanju",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Tportal.hr",
+    "slug": "tportal-hr",
+    "url": "https://www.tportal.hr/",
+    "rss": "",
+    "description": "Internetski portal u izdanju Hrvatskog telekoma",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Toyota.hr",
+    "slug": "toyota-hr",
+    "url": "https://www.toyota.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Total/Coratia-News.com",
+    "slug": "total-coratia-news-com",
+    "url": "https://total-croatia-news.com/",
+    "rss": "",
+    "description": "Portal na engleskom",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "tomato",
+    "slug": "tomato",
+    "url": "https://www.tomato.com.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Tokic.hr",
+    "slug": "tokic-hr",
+    "url": "https://www.tokic.hr/",
+    "rss": "",
+    "description": "Tokić Autodijelovi",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-dijelovi"
+    ]
+  },
+  {
+    "name": "TikTok.com",
+    "slug": "tiktok-com",
+    "url": "https://www.tiktok.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "TheGuardian.com",
+    "slug": "theguardian-com",
+    "url": "https://www.theguardian.com/international",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Terapija.net",
+    "slug": "terapija-net",
+    "url": "http://www.terapija.net/",
+    "rss": "",
+    "description": "E-zine o zvuku & slici",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Temu.com",
+    "slug": "temu-com",
+    "url": "https://www.temu.com",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "Telemach",
+    "slug": "telemach",
+    "url": "https://telemach.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Telegraph.co.uk",
+    "slug": "telegraph-co-uk",
+    "url": "https://www.telegraph.co.uk/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Telegram.hr",
+    "slug": "telegram-hr",
+    "url": "https://www.telegram.hr/",
+    "rss": "",
+    "description": "Portal za društvena i kulturna pitanja",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Tehno-mag.hr",
+    "slug": "tehno-mag-hr",
+    "url": "https://tehno-mag.hr/",
+    "rss": "",
+    "description": "Trgovina bijele tehnike, potrošačke elektronike i informatik",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "TED.com",
+    "slug": "ted-com",
+    "url": "https://www.ted.com/",
+    "rss": "",
+    "description": "Globalni skup konferencija \"Ideje vrijedne širenja\"",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "SviPopusti.hr -Grupna kupovina u Hrvatskoj",
+    "slug": "svipopusti-hr-grupna-kupovina-u-hrvatskoj",
+    "url": "https://svipopusti.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "SvijetSkutera.com",
+    "slug": "svijetskutera-com",
+    "url": "https://svijetskutera.com/",
+    "rss": "",
+    "description": "Mrežne stranice o skuterima",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "SvijetKulture.com",
+    "slug": "svijetkulture-com",
+    "url": "https://svijetkulture.com/",
+    "rss": "",
+    "description": "Portal za kulturui umjetnost",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Svijet-medija.hr",
+    "slug": "svijet-medija-hr",
+    "url": "https://www.svijet-medija.hr/",
+    "rss": "",
+    "description": "Prodavaonica elektroničke opreme i softwarea",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Sveučilište u ZG",
+    "slug": "sveuciliste-u-zg",
+    "url": "https://www.unizg.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Suzuki.hr",
+    "slug": "suzuki-hr",
+    "url": "https://www.suzuki.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Suvremena.hr",
+    "slug": "suvremena-hr",
+    "url": "https://suvremena.hr/",
+    "rss": "",
+    "description": "Portal za trgovinu",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Supermame.hr",
+    "slug": "supermame-hr",
+    "url": "https://supermame.hr/",
+    "rss": "",
+    "description": "iskreno o majčinstvu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obitelj"
+    ]
+  },
+  {
+    "name": "SuperKnjižnica.hr",
+    "slug": "superknjiznica-hr",
+    "url": "https://www.superknjizara.hr/hr",
+    "rss": "",
+    "description": "Internet trgovina s najvećim izborom knjiga i udžbenika",
+    "categories": [
+      "korisni-web",
+      "kultura"
+    ],
+    "types": [
+      "knjige",
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "Sudski Registar",
+    "slug": "sudski-registar",
+    "url": "https://sudreg.pravosudje.hr/ords/r/esudreg/public/1?clear=APP",
+    "rss": "",
+    "description": "Evidencija trgovačkih društava u RH",
+    "categories": [
+      "biznis-financije",
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "Studentskiposlovi.hr",
+    "slug": "studentskiposlovi-hr",
+    "url": "https://studentski-poslovi.hr/",
+    "rss": "",
+    "description": "Najveći oglasnik za studentske poslove",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Studentski.hr",
+    "slug": "studentski-hr",
+    "url": "https://studentski.hr/",
+    "rss": "",
+    "description": "Studentski informativni kutak",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "Stripovi.com",
+    "slug": "stripovi-com",
+    "url": "https://www.stripovi.com/",
+    "rss": "",
+    "description": "Portal o stripovima",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Srednja.hr",
+    "slug": "srednja-hr",
+    "url": "https://www.srednja.hr/",
+    "rss": "",
+    "description": "Portal za srednjoškolce i studente",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "Središnji katalog službenih dokumenata RH",
+    "slug": "sredisnji-katalog-sluzbenih-dokumenata-rh",
+    "url": "https://sredisnjikatalogrh.gov.hr/sredisnji-katalog/pravni-propisi",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "Središnji državni ured za središnju javnu nabavu",
+    "slug": "sredisnji-drzavni-ured-za-sredisnju-javnu-nabavu",
+    "url": "https://sredisnjanabava.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-uredi"
+    ]
+  },
+  {
+    "name": "Središnji državni ured za Hrvate izvan RH",
+    "slug": "sredisnji-drzavni-ured-za-hrvate-izvan-rh",
+    "url": "https://hrvatiizvanrh.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-uredi"
+    ]
+  },
+  {
+    "name": "SPTV.hr",
+    "slug": "sptv-hr",
+    "url": "https://www.sptv.hr/",
+    "rss": "",
+    "description": "Sportska televizija uživo na internetu",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "SpreedTest.net",
+    "slug": "spreedtest-net",
+    "url": "https://www.speedtest.net/",
+    "rss": "",
+    "description": "Provjera brzine interneta",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "Sprdex.com",
+    "slug": "sprdex-com",
+    "url": "https://sprdex.com/",
+    "rss": "",
+    "description": "Satirični portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "smijesno"
+    ]
+  },
+  {
+    "name": "SportTube",
+    "slug": "sporttube",
+    "url": "https://www.sporttube.com/en/football",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Sportski klub",
+    "slug": "sportski-klub",
+    "url": "https://sportklub.n1info.hr/",
+    "rss": "",
+    "description": "Portal regionalnog sportskog TV kanala za Hrvatsku",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "Sportske novosti",
+    "slug": "sportske-novosti",
+    "url": "https://sportske.jutarnji.hr/sn",
+    "rss": "",
+    "description": "Online izdanje sportskih dnevnih novina",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "Sportnet.hr",
+    "slug": "sportnet-hr",
+    "url": "https://sportnet.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "SportCom.hr",
+    "slug": "sportcom-hr",
+    "url": "https://www.sportcom.hr/",
+    "rss": "",
+    "description": "Riječki regionalni sportski portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "Sport Arena",
+    "slug": "sport-arena",
+    "url": "https://www.sportarena.hr/",
+    "rss": "",
+    "description": "Objektivno i profesionalno o sportu",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "Split.hr",
+    "slug": "split-hr",
+    "url": "https://split.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi"
+    ]
+  },
+  {
+    "name": "Split.com.hr",
+    "slug": "split-com-hr",
+    "url": "https://www.split.com.hr/",
+    "rss": "",
+    "description": "Splitski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Split-airport.hr",
+    "slug": "split-airport-hr",
+    "url": "https://www.split-airport.hr/",
+    "rss": "",
+    "description": "Zračna luka Split",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "SoundCloud.com",
+    "slug": "soundcloud-com",
+    "url": "https://soundcloud.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Solvera štedionica",
+    "slug": "solvera-stedionica",
+    "url": "https://www.solverastedionica.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Soccerway",
+    "slug": "soccerway",
+    "url": "https://www.soccerway.com/",
+    "rss": "",
+    "description": "Uživo praćenje rezultata",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "SmartphoneHrvatska.com",
+    "slug": "smartphonehrvatska-com",
+    "url": "https://www.smartphonehrvatska.com/",
+    "rss": "",
+    "description": "Smartphone, tablet i telekomunikacije",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "SlobodnaLika.com",
+    "slug": "slobodnalika-com",
+    "url": "https://slobodnalika.com/",
+    "rss": "",
+    "description": "Portal Ličko-senjske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "SlobodnaEuropa.org",
+    "slug": "slobodnaeuropa-org",
+    "url": "https://www.slobodnaevropa.org/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "SlobodnaDalmacija.hr",
+    "slug": "slobodnadalmacija-hr",
+    "url": "https://slobodnadalmacija.hr/",
+    "rss": "",
+    "description": "Portal Slobodne Dalmacije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Sloboda.hr",
+    "slug": "sloboda-hr",
+    "url": "http://www.sloboda.hr/",
+    "rss": "",
+    "description": "Nezavisni medijski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "slavonijaInfo.com",
+    "slug": "slavonijainfo-com",
+    "url": "https://slavonijainfo.com/",
+    "rss": "",
+    "description": "Portal Slavonije i Baranje",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Skijanje.hr",
+    "slug": "skijanje-hr",
+    "url": "https://www.skijanje.hr/hr/skijanje/index.php",
+    "rss": "",
+    "description": "Hrvatski ski-board magazin",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Skidajmo.com",
+    "slug": "skidajmo-com",
+    "url": "https://www.skidajmo.com/",
+    "rss": "",
+    "description": "Hrvatski download portal",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Sistemac.srce.hr",
+    "slug": "sistemac-srce-hr",
+    "url": "https://sistemac.srce.hr/",
+    "rss": "",
+    "description": "Portal Sveučilišnog računskog centra za sistem inženjere",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Sisak.info",
+    "slug": "sisak-info",
+    "url": "https://www.sisak.info/",
+    "rss": "",
+    "description": "neslužbeni web portal grada Siska",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Sib.net.hr",
+    "slug": "sib-net-hr",
+    "url": "https://sib.net.hr/",
+    "rss": "",
+    "description": "Portal Udruge Slavonija i Baranja",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Seljaci.org",
+    "slug": "seljaci-org",
+    "url": "http://www.seljaci.org/",
+    "rss": "",
+    "description": "Hrvatski poljoprivredni portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Selekcija.hr",
+    "slug": "selekcija-hr",
+    "url": "https://online.selekcija.hr/home/jobs",
+    "rss": "",
+    "description": "natječaji za poslove",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "selectio.hr",
+    "slug": "selectio-hr",
+    "url": "https://selectio.hr/",
+    "rss": "",
+    "description": "Selectio",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Seat.hr",
+    "slug": "seat-hr",
+    "url": "https://www.seat.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "SBplusportal.hr",
+    "slug": "sbplusportal-hr",
+    "url": "https://plusportal.hr//",
+    "rss": "",
+    "description": "Portal Brodsko-posavske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "SbOnline.net",
+    "slug": "sbonline-net",
+    "url": "https://www.sbonline.net/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Sava osiguranje",
+    "slug": "sava-osiguranje",
+    "url": "https://www.sava-osiguranje.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "SamoborskiGlasnik.net",
+    "slug": "samoborskiglasnik-net",
+    "url": "http://www.samoborskiglasnik.net/",
+    "rss": "",
+    "description": "Portal Samobora i Svete Nedjelje",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "RTVSLO.si",
+    "slug": "rtvslo-si",
+    "url": "https://www.rtvslo.si/",
+    "rss": "",
+    "description": "Portal Slovenskog javnog RTV servisa",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "RTL.hr",
+    "slug": "rtl-hr",
+    "url": "https://www.rtl.hr/",
+    "rss": "",
+    "description": "Portal televizije RTL Hrvatska",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "RRiF.hr",
+    "slug": "rrif-hr",
+    "url": "https://www.rrif.hr/",
+    "rss": "",
+    "description": "Računovodstvo, revizija i financije.",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Roditelji.hr",
+    "slug": "roditelji-hr",
+    "url": "https://story.hr/roditelji",
+    "rss": "",
+    "description": "Portal za roditelje, djecu i obitelj",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obitelj"
+    ]
+  },
+  {
+    "name": "Roda.hr",
+    "slug": "roda-hr",
+    "url": "https://www.roda.hr/",
+    "rss": "",
+    "description": "Roditelji u akciji",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obitelj"
+    ]
+  },
+  {
+    "name": "Rimac-automobili.com",
+    "slug": "rimac-automobili-com",
+    "url": "https://www.rimac-automobili.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "RijekaDanas.com",
+    "slug": "rijekadanas-com",
+    "url": "https://www.rijekadanas.com/",
+    "rss": "",
+    "description": "riječki internetski dnevnik",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Rijeka.hr",
+    "slug": "rijeka-hr",
+    "url": "https://www.rijeka.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi"
+    ]
+  },
+  {
+    "name": "Rijeka-airport.hr",
+    "slug": "rijeka-airport-hr",
+    "url": "https://www.rijeka-airport.hr/",
+    "rss": "",
+    "description": "Zračna luka Rijeka",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "RIFIN.com",
+    "slug": "rifin-com",
+    "url": "http://www.rifin.com/",
+    "rss": "",
+    "description": "Ekonomska problematika",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Reuters.com",
+    "slug": "reuters-com",
+    "url": "https://www.reuters.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Reultati.com",
+    "slug": "reultati-com",
+    "url": "https://www.rezultati.com/",
+    "rss": "",
+    "description": "Web servis za uživo praćenje rezultata iz 26 sportova",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "Renault.hr",
+    "slug": "renault-hr",
+    "url": "https://www.renault.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Registar Udruga",
+    "slug": "registar-udruga",
+    "url": "https://registri-npo-mpu.gov.hr/#!udruge",
+    "rss": "",
+    "description": "Registar Udruga u RH",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "RegionalExpress.hr",
+    "slug": "regionalexpress-hr",
+    "url": "https://www.regionalexpress.hr/",
+    "rss": "",
+    "description": "Portal Istarskog mjesečnika",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Reddit.com",
+    "slug": "reddit-com",
+    "url": "https://www.reddit.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "ReciPeci.com",
+    "slug": "recipeci-com",
+    "url": "https://recipeci.com/",
+    "rss": "",
+    "description": "Blog Sandre Gašparić o kuhanju",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kuhanje"
+    ]
+  },
+  {
+    "name": "Recepti.hr",
+    "slug": "recepti-hr",
+    "url": "https://www.recepti.hr/",
+    "rss": "",
+    "description": "Autohtoni i tradicionalni hrvatski recepti",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kuhanje"
+    ]
+  },
+  {
+    "name": "Reboot Infogamer",
+    "slug": "reboot-infogamer",
+    "url": "https://www.rebootinfogamer.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Računalo.com",
+    "slug": "racunalo-com",
+    "url": "https://www.racunalo.com/",
+    "rss": "",
+    "description": "Portal o računalima i ICT tehnologiji",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Računalo.com/gamebox",
+    "slug": "racunalo-com-gamebox",
+    "url": "https://www.racunalo.com/gamebox/",
+    "rss": "",
+    "description": "Stranice o igrama",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "RavnoDoDna.com",
+    "slug": "ravnododna-com",
+    "url": "https://ravnododna.com/",
+    "rss": "",
+    "description": "Web mjesto za pop kulturu",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Raiffeisen Leasing",
+    "slug": "raiffeisen-leasing",
+    "url": "https://www.raiffeisen-leasing.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Raiffeisenbank",
+    "slug": "raiffeisenbank",
+    "url": "https://www.rba.hr/hr/gradani.html",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "RadioStanica.com",
+    "slug": "radiostanica-com",
+    "url": "https://www.radiostanica.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "RadioDalmacija.hr",
+    "slug": "radiodalmacija-hr",
+    "url": "https://www.radiodalmacija.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "Radio-mrežnica.hr",
+    "slug": "radio-mreznica-hr",
+    "url": "https://radio-mreznica.hr/",
+    "rss": "",
+    "description": "portal Karlovačke županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Racunovodstvo-porezi.hr",
+    "slug": "racunovodstvo-porezi-hr",
+    "url": "https://www.racunovodstvo-porezi.hr/",
+    "rss": "",
+    "description": "Računovodstvo i porezi u praksi",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Pučka pravobraniteljica",
+    "slug": "pucka-pravobraniteljica",
+    "url": "https://www.ombudsman.hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": []
+  },
+  {
+    "name": "PunKufer.hr",
+    "slug": "punkufer-hr",
+    "url": "https://punkufer.dnevnik.hr/",
+    "rss": "",
+    "description": "Portal za hranu i putovanja",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "putovanja"
+    ]
+  },
+  {
+    "name": "Pula.hr",
+    "slug": "pula-hr",
+    "url": "https://www.pula.hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi"
+    ]
+  },
+  {
+    "name": "Prvi.hr",
+    "slug": "prvi-hr",
+    "url": "https://www.prvi.hr/",
+    "rss": "",
+    "description": "Radijski informativni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "PrvaHNL.hr",
+    "slug": "prvahnl-hr",
+    "url": "https://www.prvahnl.hr/",
+    "rss": "",
+    "description": "Službene stranice Prve hrvatske nogometne lige",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Protis.hr",
+    "slug": "protis-hr",
+    "url": "https://www.protis.hr/",
+    "rss": "",
+    "description": "Web trgovina elektroničke opreme i softwarea",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Profitiraj.hr",
+    "slug": "profitiraj-hr",
+    "url": "https://profitiraj.hr/",
+    "rss": "",
+    "description": "Ekonomski interaktivni portal za poduzetnike",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "ProFightStore.hr",
+    "slug": "profightstore-hr",
+    "url": "https://www.profightstore.hr/",
+    "rss": "",
+    "description": "Portal za borilačke sportove i kulturu tijela",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Priznajem.hr",
+    "slug": "priznajem-hr",
+    "url": "https://www.priznajem.hr/",
+    "rss": "",
+    "description": "Hrvatski domoljubni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Privredna banka Zagreb",
+    "slug": "privredna-banka-zagreb",
+    "url": "https://www.pbz.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Prijedlozi i komentari",
+    "slug": "prijedlozi-i-komentari",
+    "url": "https://gov.hr/beta-komentari/1540",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "Prigorski.hr",
+    "slug": "prigorski-hr",
+    "url": "https://prigorski.hr/",
+    "rss": "",
+    "description": "Vijesti iz Križevca",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Prevoditelj",
+    "slug": "prevoditelj",
+    "url": "https://translate.google.hr",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Preporučamo.com",
+    "slug": "preporucamo-com",
+    "url": "https://preporucamo.com/",
+    "rss": "",
+    "description": "Portal preporuka za proizvode iz IT i CE svijeta",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Pozivi za žurnu pomoć",
+    "slug": "pozivi-za-zurnu-pomoc",
+    "url": "https://civilna-zastita.gov.hr/izdvojeno/pozivi-za-zurnu-pomoc/265",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "Povjerenik za informacije",
+    "slug": "povjerenik-za-informacije",
+    "url": "https://pristupinfo.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": []
+  },
+  {
+    "name": "POSLuH",
+    "slug": "posluh",
+    "url": "https://www.posluh.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "PoslovniPuls.com",
+    "slug": "poslovnipuls-com",
+    "url": "https://poslovnipuls.com/",
+    "rss": "",
+    "description": "Dnevne poslovne i financijske vijesti",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Poslovni.hr",
+    "slug": "poslovni-hr",
+    "url": "https://www.poslovni.hr/",
+    "rss": "",
+    "description": "Poslovni dnevnik",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Poslovni-savjetnik.com",
+    "slug": "poslovni-savjetnik-com",
+    "url": "https://www.poslovni-savjetnik.com/",
+    "rss": "",
+    "description": "Centralni poslovni portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Poslovna.hr",
+    "slug": "poslovna-hr",
+    "url": "http://www.poslovna.hr/",
+    "rss": "",
+    "description": "Registar poslovnih subjekata",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Poskok.info",
+    "slug": "poskok-info",
+    "url": "https://poskok.info/nestaje-oruzje-iz-vojnih-skladista-u-bih/",
+    "rss": "",
+    "description": "Hercegovački portal iz Posušja",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Posao.hr",
+    "slug": "posao-hr",
+    "url": "https://www.posao.hr/",
+    "rss": "",
+    "description": "Portal za zapošljavanje",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Portal RTV Federacije BiH",
+    "slug": "portal-rtv-federacije-bih",
+    "url": "https://www.federalna.ba/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Portal otvorenih podataka",
+    "slug": "portal-otvorenih-podataka",
+    "url": "https://data.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "PortalOko.hr",
+    "slug": "portaloko-hr",
+    "url": "https://www.portaloko.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Portal hrvatskog kazališta i glumačkog stvaralaštva",
+    "slug": "portal-hrvatskog-kazalista-i-glumackog-stvaralastva",
+    "url": "https://www.teatar.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Portal.hr",
+    "slug": "portal-hr",
+    "url": "https://www.portal.hr/",
+    "rss": "",
+    "description": "Vijesti iz Grada Kaštela",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Portal-ostro.hr",
+    "slug": "portal-ostro-hr",
+    "url": "https://www.portal-ostro.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "PORSCHE LEASING",
+    "slug": "porsche-leasing",
+    "url": "https://www.porscheleasing.com.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Porsche.com",
+    "slug": "porsche-com",
+    "url": "https://dealer.porsche.com/hr/zagreb?cs_redirect=1",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Popis tijela javne vlasti",
+    "slug": "popis-tijela-javne-vlasti",
+    "url": "https://tjv.pristupinfo.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "Popis javnih bilježnika",
+    "slug": "popis-javnih-biljeznika",
+    "url": "https://www.hjk.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "Političke stranke i izbori",
+    "slug": "politicke-stranke-i-izbori",
+    "url": "https://sredisnjikatalogrh.gov.hr/politicke-stranke-i-izbori/adresar-politickih-stranaka",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": []
+  },
+  {
+    "name": "PolitikaPlus.com",
+    "slug": "politikaplus-com",
+    "url": "https://politikaplus.com/",
+    "rss": "",
+    "description": "Političko analitički portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Pogledaj.to",
+    "slug": "pogledaj-to",
+    "url": "https://pogledaj.to/",
+    "rss": "",
+    "description": "Portal o prostoru, oblikovanju i dizajnu",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Poduzetništvo.org",
+    "slug": "poduzetnistvo-org",
+    "url": "https://www.poduzetnistvo.org/",
+    "rss": "",
+    "description": "Poduzetnički portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Podravska banka",
+    "slug": "podravska-banka",
+    "url": "https://www.poba.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "PLIVAzdravlje.hr",
+    "slug": "plivazdravlje-hr",
+    "url": "https://www.plivazdravlje.hr/",
+    "rss": "",
+    "description": "Plivin zdravstveni portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "Plavi Oglasnik",
+    "slug": "plavi-oglasnik-2",
+    "url": "https://www.oglasnik.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Plavi oglasnik",
+    "slug": "plavi-oglasnik",
+    "url": "https://www.oglasnik.hr/prodaja-automobila",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "oglasnici-za-auto-moto"
+    ]
+  },
+  {
+    "name": "Plavakamenica.hr",
+    "slug": "plavakamenica-hr",
+    "url": "https://plavakamenica.hr/",
+    "rss": "",
+    "description": "gastro portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kuhanje"
+    ]
+  },
+  {
+    "name": "PlanB.hr",
+    "slug": "planb-hr",
+    "url": "https://planb.hr/",
+    "rss": "",
+    "description": "Webzine o tehnologiji, mrežama, marketingu i dizajnu",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Pinterest.com",
+    "slug": "pinterest-com",
+    "url": "https://www.pinterest.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Piaggio.com",
+    "slug": "piaggio-com",
+    "url": "https://www.piaggio.com/hr_HR/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "Peugeot.hr",
+    "slug": "peugeot-hr",
+    "url": "https://www.peugeot.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Pegas Japanparts",
+    "slug": "pegas-japanparts",
+    "url": "https://www.pegas.hr/",
+    "rss": "",
+    "description": "autodijelovi i servis za japanska i korejska vozila",
+    "categories": [
+      "auto-moto",
+      "kultura"
+    ],
+    "types": [
+      "auto-dijelovi",
+      "film"
+    ]
+  },
+  {
+    "name": "PCekspert.com",
+    "slug": "pcekspert-com",
+    "url": "https://www.pcekspert.com/",
+    "rss": "",
+    "description": "Hardware e-zine",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "PCchip.hr",
+    "slug": "pcchip-hr",
+    "url": "https://pcchip.hr/",
+    "rss": "",
+    "description": "Informatičko-telekomunikacijski portal",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "PBZ Leasing",
+    "slug": "pbz-leasing",
+    "url": "https://www.pbz-leasing.hr/naslovnica/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "PayPal.com",
+    "slug": "paypal-com",
+    "url": "https://www.paypal.com/hr/home",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "Parentium.com",
+    "slug": "parentium-com",
+    "url": "https://www.parentium.com/",
+    "rss": "",
+    "description": "Vijesti iz Poreča i šire",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Paragliding.hr",
+    "slug": "paragliding-hr",
+    "url": "https://paragliding.hr/",
+    "rss": "",
+    "description": "Hrvatski paragliding portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Overseas express",
+    "slug": "overseas-express",
+    "url": "https://overseas.hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Outlook",
+    "slug": "outlook",
+    "url": "https://outlook.live.com/mail/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Otvoreni.hr",
+    "slug": "otvoreni-hr",
+    "url": "https://www.otvoreni.hr/naslovna/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "OTP Leasing",
+    "slug": "otp-leasing",
+    "url": "https://www.otpleasing.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "OTP banka Hrvatska",
+    "slug": "otp-banka-hrvatska",
+    "url": "https://www.otpbanka.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "OTP banka",
+    "slug": "otp-banka",
+    "url": "https://www.otpbanka.hr/gradani",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "O središnjem državnom portalu",
+    "slug": "o-sredisnjem-drzavnom-portalu",
+    "url": "https://vlada.gov.hr/default.aspx",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "OsijekExpress.com",
+    "slug": "osijekexpress-com",
+    "url": "https://www.osijekexpress.com/",
+    "rss": "",
+    "description": "Vijesti iz Osijeka",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Osijek031.com",
+    "slug": "osijek031-com",
+    "url": "https://www.osijek031.com/",
+    "rss": "",
+    "description": "Osječki informativni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Osijek.hr",
+    "slug": "osijek-hr",
+    "url": "https://www.osijek.hr/",
+    "rss": "",
+    "description": "službeni portal grada Osijeka",
+    "categories": [
+      "dnevne-vijesti",
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi",
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Osijek-airport.hr",
+    "slug": "osijek-airport-hr",
+    "url": "https://osijek-airport.hr/",
+    "rss": "",
+    "description": "Zračna luka Osijek",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "Ordinacija.hr",
+    "slug": "ordinacija-hr",
+    "url": "https://ordinacija.vecernji.hr/",
+    "rss": "",
+    "description": "Hrvatski medicinski portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "Optometrija.net",
+    "slug": "optometrija-net",
+    "url": "https://www.optometrija.net/",
+    "rss": "",
+    "description": "Portal za zdravlje očiju i vida",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "Opel.hr",
+    "slug": "opel-hr",
+    "url": "https://www.opel.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Oglasnik.hr/ponuda",
+    "slug": "oglasnik-hr-ponuda",
+    "url": "https://www.oglasnik.hr/ponuda-poslova",
+    "rss": "",
+    "description": "Poslovi na Oglasniku",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Obrtni Registar",
+    "slug": "obrtni-registar",
+    "url": "https://pretrazivac-obrta.gov.hr/pretraga",
+    "rss": "",
+    "description": "Portal obrtnog registra u RH",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "NYTimes.com",
+    "slug": "nytimes-com",
+    "url": "https://www.nytimes.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Nsk.hr",
+    "slug": "nsk-hr",
+    "url": "https://nsk.hr/",
+    "rss": "",
+    "description": "Nacionalna i sveučilišna knjižnica u Zagrebu",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Novo.hr",
+    "slug": "novo-hr",
+    "url": "https://novo.hr/",
+    "rss": "",
+    "description": "Vijesti iz poslovnog svijeta, političkog i društvenog života",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "NoviList.hr",
+    "slug": "novilist-hr",
+    "url": "https://www.novilist.hr/",
+    "rss": "",
+    "description": "Portal dnevnog lista iz Rijeke",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Novema-nova.hr",
+    "slug": "novema-nova-hr",
+    "url": "https://novema-nova.hr/",
+    "rss": "",
+    "description": "Najveći izbor moto opreme",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Novatv.dnevnik.hr",
+    "slug": "novatv-dnevnik-hr",
+    "url": "https://novatv.dnevnik.hr/",
+    "rss": "",
+    "description": "Portal televizije NOVA TV",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "Novac.hr",
+    "slug": "novac-hr",
+    "url": "https://novac.jutarnji.hr/novac",
+    "rss": "",
+    "description": "Financijski portal Hanza medije",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "NogometPlus.net",
+    "slug": "nogometplus-net",
+    "url": "https://nogometplus.net/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Njuškalo",
+    "slug": "njuskalo-2",
+    "url": "https://www.njuskalo.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Njuškalo",
+    "slug": "njuskalo",
+    "url": "https://www.njuskalo.hr/auto-moto",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "oglasnici-za-auto-moto"
+    ]
+  },
+  {
+    "name": "Njuskalo.hr/posao",
+    "slug": "njuskalo-hr-posao",
+    "url": "https://www.njuskalo.hr/posao",
+    "rss": "",
+    "description": "Poslovi na Njuškalo oglasniku",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "NikTitanikStudio.com",
+    "slug": "niktitanikstudio-com",
+    "url": "https://www.niktitanikstudio.com/blog/",
+    "rss": "",
+    "description": "Humoristički portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "smijesno"
+    ]
+  },
+  {
+    "name": "Nezavisni.hr",
+    "slug": "nezavisni-hr",
+    "url": "https://nezavisni.hr/",
+    "rss": "",
+    "description": "Portal neovisnog novinarstva",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "News.sky.com",
+    "slug": "news-sky-com",
+    "url": "https://news.sky.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Netokracija.com",
+    "slug": "netokracija-com",
+    "url": "https://www.netokracija.com/",
+    "rss": "",
+    "description": "Portal o internetskim tehnologijama i poslovanj",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Net.hr",
+    "slug": "net-hr",
+    "url": "https://net.hr/",
+    "rss": "",
+    "description": "Tabloidni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "NBA.com",
+    "slug": "nba-com",
+    "url": "https://www.nba.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "NašaTV.ba",
+    "slug": "nasatv-ba",
+    "url": "https://nasatv.ba/",
+    "rss": "",
+    "description": "Portall Kabelske tv sa sjedištem u Mostaru",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "NationalGeographic.com",
+    "slug": "nationalgeographic-com",
+    "url": "https://www.nationalgeographic.com/",
+    "rss": "",
+    "description": "National Geographic",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Nastavnici.org",
+    "slug": "nastavnici-org",
+    "url": "https://nastavnici.org/",
+    "rss": "",
+    "description": "Portal za učitelje i nastavnike",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "NASA.gov",
+    "slug": "nasa-gov",
+    "url": "https://www.nasa.gov/",
+    "rss": "",
+    "description": "Američka svemirska agencija",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "Narodne novine",
+    "slug": "narodne-novine-2",
+    "url": "https://www.nn.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Narodne novine",
+    "slug": "narodne-novine",
+    "url": "https://e-trgovina.nn.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Narod.hr",
+    "slug": "narod-hr",
+    "url": "https://narod.hr/",
+    "rss": "",
+    "description": "News portal udruge U ime obitelji",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "NakladaSlap.com",
+    "slug": "nakladaslap-com",
+    "url": "https://www.nakladaslap.com/",
+    "rss": "",
+    "description": "Naklada Slap",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Nacional.hr",
+    "slug": "nacional-hr",
+    "url": "https://www.nacional.hr/",
+    "rss": "",
+    "description": "Portal tjednika Nacional",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Nabava.net",
+    "slug": "nabava-net",
+    "url": "https://www.nabava.net/",
+    "rss": "",
+    "description": "Informatička ponuda na jednome mjestu",
+    "categories": [
+      "informatika",
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "N1info.hr",
+    "slug": "n1info-hr",
+    "url": "https://n1info.hr/",
+    "rss": "",
+    "description": "Portal N1 TV kanal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "Myspace.com",
+    "slug": "myspace-com",
+    "url": "https://myspace.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "MVInfo.hr",
+    "slug": "mvinfo-hr",
+    "url": "https://mvinfo.hr/",
+    "rss": "",
+    "description": "Portal za knjigu i kulturu Moderna vremena",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Muzika.hr",
+    "slug": "muzika-hr",
+    "url": "https://www.muzika.hr/",
+    "rss": "",
+    "description": "Internetski glazbeni magazin",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "MSN.com",
+    "slug": "msn-com",
+    "url": "https://www.msn.com/en-xl",
+    "rss": "",
+    "description": "Microsoftov portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Mreža.tv",
+    "slug": "mreza-tv",
+    "url": "https://www.mreza.tv/",
+    "rss": "",
+    "description": "Nezavisna televizija",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "MotorMania.hr",
+    "slug": "motormania-hr",
+    "url": "https://motormania.hr/",
+    "rss": "",
+    "description": "Motoristička oprema i dodaci",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Motori.hr",
+    "slug": "motori-hr",
+    "url": "https://www.motori.hr/",
+    "rss": "",
+    "description": "Hrvatski moto portal",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Motorevija.com",
+    "slug": "motorevija-com",
+    "url": "https://www.motorevija.com.hr/",
+    "rss": "",
+    "description": "Portal časopisa Motorevija",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Motopuls.hr",
+    "slug": "motopuls-hr",
+    "url": "https://www.motopuls.hr/",
+    "rss": "",
+    "description": "Portal časopisa Moto Plus",
+    "categories": [
+      "auto-moto",
+      "drzavni-portali"
+    ],
+    "types": [
+      "moto",
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "Motooprema.hr",
+    "slug": "motooprema-hr",
+    "url": "https://www.motooprema.hr/",
+    "rss": "",
+    "description": "Motoristička oprema i dodaci",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Monitor.hr",
+    "slug": "monitor-hr",
+    "url": "https://www.monitor.hr/",
+    "rss": "",
+    "description": "Web portal Internet Monitor",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Molydon.hr",
+    "slug": "molydon-hr",
+    "url": "https://www.molydon.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto",
+      "kultura"
+    ],
+    "types": [
+      "auto-dijelovi",
+      "film"
+    ]
+  },
+  {
+    "name": "Mok.hr",
+    "slug": "mok-hr",
+    "url": "https://mok.hr/",
+    "rss": "",
+    "description": "Portal grada Šibenika i okolice",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "MojZagreb.info",
+    "slug": "mojzagreb-info",
+    "url": "https://mojzagreb.info/",
+    "rss": "",
+    "description": "Zagrebački dnevno-informativni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Moj tv",
+    "slug": "moj-tv",
+    "url": "https://mojtv.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "MojSkuter.com",
+    "slug": "mojskuter-com",
+    "url": "https://www.mojskuter.com/",
+    "rss": "",
+    "description": "Mrežna lokacija o skuterima",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "MojPosao",
+    "slug": "mojposao",
+    "url": "https://mojposao.hr/",
+    "rss": "",
+    "description": "Portal za zapošljavanje",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "MojKvart.hr",
+    "slug": "mojkvart-hr",
+    "url": "https://www.mojkvart.hr/",
+    "rss": "",
+    "description": "Pretraživanje poslovnih subjekata u Hrvatskoj",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Moj-film.hr",
+    "slug": "moj-film-hr",
+    "url": "https://www.moj-film.hr/",
+    "rss": "",
+    "description": "Hrvatski filmski portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "Moj-bankar.hr",
+    "slug": "moj-bankar-hr",
+    "url": "https://www.moj-bankar.hr/",
+    "rss": "",
+    "description": "Financijske usluge banaka",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Mobile.de",
+    "slug": "mobile-de",
+    "url": "https://www.mobile.de/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "oglasnici-za-auto-moto"
+    ]
+  },
+  {
+    "name": "Mobil.hr",
+    "slug": "mobil-hr",
+    "url": "https://mobil.hr/",
+    "rss": "",
+    "description": "Mjesto za telekomunikacije i multimediju",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Mob.hr",
+    "slug": "mob-hr",
+    "url": "https://mob.hr/",
+    "rss": "",
+    "description": "Blog o mobilnim komunikacijama",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "MixMagAdria.com",
+    "slug": "mixmagadria-com",
+    "url": "https://mixmagadria.com/",
+    "rss": "",
+    "description": "Portal koji se bavi clubbingom i elektronskom glazbom",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "MissZdrava.hr",
+    "slug": "misszdrava-hr",
+    "url": "https://miss7zdrava.24sata.hr/",
+    "rss": "",
+    "description": "Portal o zdravlju s naglaskom na vitalnost",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "MissMama.hr",
+    "slug": "missmama-hr",
+    "url": "https://miss7mama.24sata.hr/",
+    "rss": "",
+    "description": "Moja obitelj, moja misija",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obitelj"
+    ]
+  },
+  {
+    "name": "Ministarstvo znanosti, obrazovanja i mladih",
+    "slug": "ministarstvo-znanosti-obrazovanja-i-mladih",
+    "url": "https://mzom.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo zdravstva",
+    "slug": "ministarstvo-zdravstva",
+    "url": "https://zdravlje.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo zaštite okoliša i zelene tranzicije",
+    "slug": "ministarstvo-zastite-okolisa-i-zelene-tranzicije",
+    "url": "https://mzozt.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo vanjskih i europskih poslova",
+    "slug": "ministarstvo-vanjskih-i-europskih-poslova",
+    "url": "https://mvep.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo unutarnjih poslova",
+    "slug": "ministarstvo-unutarnjih-poslova",
+    "url": "https://mup.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo turizma i sporta",
+    "slug": "ministarstvo-turizma-i-sporta",
+    "url": "https://mint.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo regionalnoga razvoja i fondova Europske unije",
+    "slug": "ministarstvo-regionalnoga-razvoja-i-fondova-europske-unije",
+    "url": "https://razvoj.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike",
+    "slug": "ministarstvo-rada-mirovinskoga-sustava-obitelji-i-socijalne-politike",
+    "url": "https://mrosp.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo prostornoga uređenja, graditeljstva i državne imovine",
+    "slug": "ministarstvo-prostornoga-uredenja-graditeljstva-i-drzavne-imovine",
+    "url": "https://mpgi.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo pravosuđa, uprave i digitalne transformacije",
+    "slug": "ministarstvo-pravosuda-uprave-i-digitalne-transformacije",
+    "url": "https://mpudt.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo poljoprivrede, šumarstva i ribarstva",
+    "slug": "ministarstvo-poljoprivrede-sumarstva-i-ribarstva",
+    "url": "https://poljoprivreda.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo obrane RH",
+    "slug": "ministarstvo-obrane-rh",
+    "url": "https://www.morh.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo mora, prometa i infrastrukture",
+    "slug": "ministarstvo-mora-prometa-i-infrastrukture",
+    "url": "https://mmpi.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo kulture i medija",
+    "slug": "ministarstvo-kulture-i-medija",
+    "url": "https://min-kulture.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo hrvatskih branitelja",
+    "slug": "ministarstvo-hrvatskih-branitelja",
+    "url": "https://branitelji.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo gospodarstva",
+    "slug": "ministarstvo-gospodarstva",
+    "url": "https://mingo.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Ministarstvo financija",
+    "slug": "ministarstvo-financija",
+    "url": "https://mfin.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "ministarstva"
+    ]
+  },
+  {
+    "name": "Mikronis.hr",
+    "slug": "mikronis-hr",
+    "url": "https://www.mikronis.hr/",
+    "rss": "",
+    "description": "Prodavaonica elektroničke opreme i softwarea",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Microsoft.com",
+    "slug": "microsoft-com",
+    "url": "https://www.microsoft.com/hr-hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Metro-portal.hr",
+    "slug": "metro-portal-hr",
+    "url": "http://metro-portal.hr/",
+    "rss": "",
+    "description": "Urbani portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Meteoblue",
+    "slug": "meteoblue",
+    "url": "https://www.meteoblue.com/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Meteo.hr",
+    "slug": "meteo-hr",
+    "url": "https://meteo.hr/",
+    "rss": "",
+    "description": "Državni meteorološki zavod",
+    "categories": [
+      "drzavni-portali",
+      "korisni-web"
+    ],
+    "types": [
+      "drzavne-upravne-organizacije"
+    ]
+  },
+  {
+    "name": "Merlin",
+    "slug": "merlin",
+    "url": "https://moodle.srce.hr/",
+    "rss": "",
+    "description": "sustav za e-učenje",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "Meridijani.com",
+    "slug": "meridijani-com",
+    "url": "http://www.meridijani.com/",
+    "rss": "",
+    "description": "Izdavačka kuća",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Mercedes-benz.hr",
+    "slug": "mercedes-benz-hr",
+    "url": "https://www.mercedes-benz.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Men&#8217;s Health",
+    "slug": "mens-health",
+    "url": "https://www.menshealth.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "MEGA.io",
+    "slug": "mega-io",
+    "url": "https://mega.io/",
+    "rss": "",
+    "description": "Usluga besplatne pohrane datoteka",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Mediaservis.hr",
+    "slug": "mediaservis-hr",
+    "url": "http://www.mediaservis.hr/",
+    "rss": "",
+    "description": "Izvor vijesti iz Hrvatske",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Maxportal.hr",
+    "slug": "maxportal-hr",
+    "url": "https://www.maxportal.hr/",
+    "rss": "",
+    "description": "Hrvatski desni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Matica.hr",
+    "slug": "matica-hr",
+    "url": "https://www.matica.hr/vijenac/",
+    "rss": "",
+    "description": "Novine Matice hrvatske za književnost, umjetnost i znanost",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "MarketWatch.com",
+    "slug": "marketwatch-com",
+    "url": "https://www.marketwatch.com/",
+    "rss": "",
+    "description": "Market Watch",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Mamin ručak",
+    "slug": "mamin-rucak",
+    "url": "https://maminrucak.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Mamaklik.com",
+    "slug": "mamaklik-com",
+    "url": "https://www.mamaklik.com/",
+    "rss": "",
+    "description": "magazin za žene",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obitelj"
+    ]
+  },
+  {
+    "name": "Mall.hr",
+    "slug": "mall-hr",
+    "url": "https://www.mall.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Made-in-Croatia.com.hr",
+    "slug": "made-in-croatia-com-hr",
+    "url": "https://made-in-croatia.com.hr/hr/",
+    "rss": "",
+    "description": "Hrvatski proizvodi i suveniri",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Lugera.hr",
+    "slug": "lugera-hr",
+    "url": "https://www.lugera.hr/",
+    "rss": "",
+    "description": "Agencija za zapošljavanje",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Louis.de",
+    "slug": "louis-de",
+    "url": "https://www.louis.de/",
+    "rss": "",
+    "description": "Motoristička oprema i dodaci",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Ljubiško.info",
+    "slug": "ljubisko-info",
+    "url": "https://www.ljubuski.info/",
+    "rss": "",
+    "description": "Neovisni lokalni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Ljevak.hr",
+    "slug": "ljevak-hr",
+    "url": "https://www.ljevak.hr/",
+    "rss": "",
+    "description": "Hrvatska online knjižara",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Livno-online.com",
+    "slug": "livno-online-com",
+    "url": "https://www.livno-online.com/",
+    "rss": "",
+    "description": "Vijesti iz Livna",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Linuxzasve.com",
+    "slug": "linuxzasve-com",
+    "url": "https://www.linuxzasve.com/",
+    "rss": "",
+    "description": "Linux podrška za početnike i napredne korisnik",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Linux.hr",
+    "slug": "linux-hr",
+    "url": "https://linux.hr/",
+    "rss": "",
+    "description": "Hrvatska udruga Linux korisnika (HULK)",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Links.hr",
+    "slug": "links-hr",
+    "url": "https://www.links.hr/hr/",
+    "rss": "",
+    "description": "Prodajni lanac informatičke opreme",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Linkedin",
+    "slug": "linkedin",
+    "url": "https://www.linkedin.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Lika-online.hr",
+    "slug": "lika-online-hr",
+    "url": "https://www.lika-online.hr/",
+    "rss": "",
+    "description": "Lički portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Lider.media",
+    "slug": "lider-media",
+    "url": "https://lidermedia.hr/",
+    "rss": "",
+    "description": "Poslovni tjednik",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Lektire.hr",
+    "slug": "lektire-hr",
+    "url": "https://www.lektire.hr/",
+    "rss": "",
+    "description": "Preuzimanje lektira za osnovnu i srednju školu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "obrazovanje"
+    ]
+  },
+  {
+    "name": "Latimes.com",
+    "slug": "latimes-com",
+    "url": "https://www.latimes.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Laganini.fm",
+    "slug": "laganini-fm",
+    "url": "http://laganini.fm/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "Labin.com",
+    "slug": "labin-com",
+    "url": "https://www.labin.com/",
+    "rss": "",
+    "description": "Vijesti iz Labina",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Kymco.hr",
+    "slug": "kymco-hr",
+    "url": "https://kymco.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "KupiMe.hr",
+    "slug": "kupime-hr",
+    "url": "https://www.kupime.hr/",
+    "rss": "",
+    "description": "Portal za grupnu kupovinu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "Kulturpunkt.hr",
+    "slug": "kulturpunkt-hr",
+    "url": "https://kulturpunkt.hr/",
+    "rss": "",
+    "description": "Kulturni portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "KulturIstra.hr",
+    "slug": "kulturistra-hr",
+    "url": "https://kulturistra.hr/",
+    "rss": "",
+    "description": "Mjesto za kulturu Istarske županije",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Ks.hr",
+    "slug": "ks-hr",
+    "url": "https://www.ks.hr/",
+    "rss": "",
+    "description": "Kršćanska sadašnjost",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Križevci.info",
+    "slug": "krizevci-info",
+    "url": "https://www.krizevci.info/",
+    "rss": "",
+    "description": "Nezavisni portal grada Križevci",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Knjižara.hr",
+    "slug": "knjizara-hr",
+    "url": "https://www.knjizara.hr/",
+    "rss": "",
+    "description": "Najposjećenija informatička knjižara",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "KlubskaScena.hr",
+    "slug": "klubskascena-hr",
+    "url": "https://www.klubskascena.hr/",
+    "rss": "",
+    "description": "Elektronički glazbeni portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "Klix.ba",
+    "slug": "klix-ba",
+    "url": "https://www.klix.ba/",
+    "rss": "",
+    "description": "Najposjećeniji bosanskohercegovački portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Kia.hr",
+    "slug": "kia-hr",
+    "url": "https://www.kia.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Kgz.hr",
+    "slug": "kgz-hr",
+    "url": "https://www.kgz.hr/hr",
+    "rss": "",
+    "description": "Knjižnice grada Zagreba",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "KentBank",
+    "slug": "kentbank",
+    "url": "https://www.kentbank.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Katastar",
+    "slug": "katastar",
+    "url": "https://oss.uredjenazemlja.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "KAportal.net.hr",
+    "slug": "kaportal-net-hr",
+    "url": "https://kaportal.net.hr/",
+    "rss": "",
+    "description": "Vijesti iz Karlovačke županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Kamenjar.com",
+    "slug": "kamenjar-com",
+    "url": "https://kamenjar.com/",
+    "rss": "",
+    "description": "Nezavisni informativni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Jutarnji.hr",
+    "slug": "jutarnji-hr-2",
+    "url": "https://www.jutarnji.hr/",
+    "rss": "",
+    "description": "Portal Jutarnjeg lista",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Jutarnji.hr",
+    "slug": "jutarnji-hr",
+    "url": "https://www.jutarnji.hr",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "Joombla.org",
+    "slug": "joombla-org",
+    "url": "https://www.joomla.org/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Jimdo.com",
+    "slug": "jimdo-com",
+    "url": "https://www.jimdo.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Jesenski-turk.hr",
+    "slug": "jesenski-turk-hr",
+    "url": "https://www.jesenski-turk.hr/hr",
+    "rss": "",
+    "description": "Jesenski & Turk",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Jeftinije.hr",
+    "slug": "jeftinije-hr",
+    "url": "https://www.jeftinije.hr/",
+    "rss": "",
+    "description": "Pronalaženje najjeftinijih proizvoda i usluga",
+    "categories": [
+      "informatika",
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "Jazz.hr",
+    "slug": "jazz-hr",
+    "url": "https://www.jazz.hr/index.php",
+    "rss": "",
+    "description": "Hrvatski jazz portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "JaTrgovac.com",
+    "slug": "jatrgovac-com",
+    "url": "https://jatrgovac.com/",
+    "rss": "",
+    "description": "Portal o maloprodaji i industriji robe široke potrošnje",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "JapanToday.com",
+    "slug": "japantoday-com",
+    "url": "https://japantoday.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "japantimes.co.jp",
+    "slug": "japantimes-co-jp",
+    "url": "https://www.japantimes.co.jp/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Jadrolinija.hr",
+    "slug": "jadrolinija-hr",
+    "url": "https://www.jadrolinija.hr/",
+    "rss": "",
+    "description": "Hrvatski putnički brodar",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "javni-prijevoz"
+    ]
+  },
+  {
+    "name": "Jabučnjak.hr",
+    "slug": "jabucnjak-hr",
+    "url": "https://www.jabucnjak.hr/",
+    "rss": "",
+    "description": "Portal za korisnike OS Macintosh",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Jabukatv.hr",
+    "slug": "jabukatv-hr",
+    "url": "https://jabukatv.hr/",
+    "rss": "",
+    "description": "Otvorena TV Zagreb",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "Izvorni portal",
+    "slug": "izvorni-portal",
+    "url": "https://izvoz.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "iTutorijali.net",
+    "slug": "itutorijali-net",
+    "url": "https://www.ittutorijali.net/",
+    "rss": "",
+    "description": "Razni tutorijali",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "ITnovosti.com",
+    "slug": "itnovosti-com",
+    "url": "https://www.itnovosti.com/",
+    "rss": "",
+    "description": "Pregled IT novosti na hrvatskome jeziku",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Istarski.hr",
+    "slug": "istarski-hr",
+    "url": "https://www.istarski.hr/",
+    "rss": "",
+    "description": "Novosti iz Istre",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Iskustva.hr",
+    "slug": "iskustva-hr",
+    "url": "https://www.iskustva.hr/",
+    "rss": "",
+    "description": "Sva na jednom mjestu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": []
+  },
+  {
+    "name": "Iskon",
+    "slug": "iskon",
+    "url": "https://iskon.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "iPress.hr",
+    "slug": "ipress-hr",
+    "url": "https://www.ipress.hr/",
+    "rss": "",
+    "description": "Vijesti iz Istre, Hrvatske i Svijeta",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "iPazin.net",
+    "slug": "ipazin-net",
+    "url": "https://www.ipazin.net/",
+    "rss": "",
+    "description": "Vijesti iz Pazina i Središnje Istre",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Invictum.hr",
+    "slug": "invictum-hr",
+    "url": "https://www.invictum.hr/nas-blog/",
+    "rss": "",
+    "description": "Blog o IT",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Instar-informatika.hr",
+    "slug": "instar-informatika-hr",
+    "url": "https://www.instar-informatika.hr/",
+    "rss": "",
+    "description": "Prodaja računalnih proizvoda i usluga",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Instagram.com",
+    "slug": "instagram-com",
+    "url": "https://www.instagram.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "InDizajn",
+    "slug": "indizajn",
+    "url": "https://indizajn.net.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Index recepti",
+    "slug": "index-recepti",
+    "url": "https://recepti.index.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Index oglasi",
+    "slug": "index-oglasi",
+    "url": "https://www.index.hr/oglasi/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Index.hr/poslovi",
+    "slug": "index-hr-poslovi",
+    "url": "https://www.index.hr/oglasi/poslovi",
+    "rss": "",
+    "description": "Poslovi na Index oglasniku",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Index.hr",
+    "slug": "index-hr",
+    "url": "https://www.index.hr/",
+    "rss": "",
+    "description": "Najposjećeniji internetski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Index",
+    "slug": "index",
+    "url": "https://www.index.hr/oglasi/auto-moto",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "oglasnici-za-auto-moto"
+    ]
+  },
+  {
+    "name": "Independent.co.uk",
+    "slug": "independent-co-uk",
+    "url": "https://www.independent.co.uk/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "IMPULS Leasing",
+    "slug": "impuls-leasing",
+    "url": "https://www.impuls-leasing.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Imex banka",
+    "slug": "imex-banka",
+    "url": "https://www.imexbanka.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "IMDB.com",
+    "slug": "imdb-com",
+    "url": "https://www.imdb.com/",
+    "rss": "",
+    "description": "Najveća baza podatka o filmu",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "ImamNovac.com",
+    "slug": "imamnovac-com",
+    "url": "https://www.imamnovac.com/",
+    "rss": "",
+    "description": "Portal za osobne financije",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "IKEA",
+    "slug": "ikea",
+    "url": "https://www.ikea.com/hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Igre123",
+    "slug": "igre123",
+    "url": "https://www.igre123.net/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Igre.hr",
+    "slug": "igre-hr",
+    "url": "http://www.igre.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Igra.hr (stari Gamer.hr)",
+    "slug": "igra-hr-stari-gamer-hr",
+    "url": "https://igre.hr/",
+    "rss": "",
+    "description": "Hrvatski elektronički magazin za PC igre",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Icv.hr",
+    "slug": "icv-hr",
+    "url": "https://www.icv.hr/",
+    "rss": "",
+    "description": "Informativni centar Virovitica",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "ICTbusiness.info",
+    "slug": "ictbusiness-info",
+    "url": "https://www.ictbusiness.info/",
+    "rss": "",
+    "description": "Portal o novim tehnologijama i njihovoj primjeni",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Icon",
+    "slug": "icon",
+    "url": "https://to-icon.fwh.is/?i=1",
+    "rss": "",
+    "description": "Prodavaonica računalne opreme",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "iCloud",
+    "slug": "icloud",
+    "url": "https://www.icloud.com/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "i4next leasing Croatia",
+    "slug": "i4next-leasing-croatia",
+    "url": "https://i4next.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "HŽpp.hr",
+    "slug": "hzpp-hr",
+    "url": "https://www.hzpp.hr/",
+    "rss": "",
+    "description": "Hrvatske željeznice putnički prijevoz",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "javni-prijevoz"
+    ]
+  },
+  {
+    "name": "HZZ.hr",
+    "slug": "hzz-hr",
+    "url": "https://www.hzz.hr/",
+    "rss": "",
+    "description": "Hrvatski zavod za zapošljavanje",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "HZZ (Burza rada)",
+    "slug": "hzz-burza-rada",
+    "url": "https://burzarada.hzz.hr/Posloprimac_RadnaMjesta.aspx?AspxAutoDetectCookieSupport=1",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Hyundai.hr",
+    "slug": "hyundai-hr",
+    "url": "https://www.hyundai.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Hvs.hr",
+    "slug": "hvs-hr",
+    "url": "https://hvs.hr/",
+    "rss": "",
+    "description": "Hrvatski vaterpolski portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "huspinjaca.hr",
+    "slug": "huspinjaca-hr",
+    "url": "https://www.uspinjaca.hr/",
+    "rss": "",
+    "description": "Uspinjača posao",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Huffpost.com",
+    "slug": "huffpost-com",
+    "url": "https://www.huffpost.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Hrvatski ured za osiguranje",
+    "slug": "hrvatski-ured-za-osiguranje",
+    "url": "https://huo.hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "razno"
+    ]
+  },
+  {
+    "name": "Hrvatski sabor",
+    "slug": "hrvatski-sabor-2",
+    "url": "https://www.sabor.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Hrvatski sabor",
+    "slug": "hrvatski-sabor",
+    "url": "https://www.sabor.hr/hr",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": []
+  },
+  {
+    "name": "Hrvatska udruga banaka",
+    "slug": "hrvatska-udruga-banaka",
+    "url": "https://www.hub.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Hrvatska poštanska banka",
+    "slug": "hrvatska-postanska-banka",
+    "url": "https://www.hpb.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Hrvatska pošta",
+    "slug": "hrvatska-posta",
+    "url": "https://www.posta.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Hrvatska narodna banka",
+    "slug": "hrvatska-narodna-banka",
+    "url": "https://www.hnb.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Hrvatska Lutrija",
+    "slug": "hrvatska-lutrija",
+    "url": "https://www.lutrija.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Hrvatska-danas.com",
+    "slug": "hrvatska-danas-com",
+    "url": "https://hrvatska-danas.com/",
+    "rss": "",
+    "description": "Portal udruge USB Lijepa naša",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Hrv.hr",
+    "slug": "hrv-hr",
+    "url": "https://www.hrv.hr/",
+    "rss": "",
+    "description": "Hrvatski radio Vukovar",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "HRT.hr",
+    "slug": "hrt-hr",
+    "url": "https://www.hrt.hr/",
+    "rss": "",
+    "description": "Portal Hrvatske radiotelevizije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "HRsvijet.net",
+    "slug": "hrsvijet-net",
+    "url": "http://www.hrsvijet.net/",
+    "rss": "",
+    "description": "Hrvatski informativni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Hrsport",
+    "slug": "hrsport",
+    "url": "https://hrsport.hr/",
+    "rss": "",
+    "description": "sportski internetski portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "HrPortfolio.hr",
+    "slug": "hrportfolio-hr",
+    "url": "https://hrportfolio.hr/",
+    "rss": "",
+    "description": "Financijski portal za investiranje",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "HR 2 program",
+    "slug": "hr-2-program",
+    "url": "https://radio.hrt.hr/drugi-program",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "hr.SEEbiz.eu",
+    "slug": "hr-seebiz-eu",
+    "url": "https://www.seebiz.eu/",
+    "rss": "",
+    "description": "Regionalni poslovni portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "hr.RBTH.com",
+    "slug": "hr-rbth-com",
+    "url": "https://hr.rbth.com/",
+    "rss": "",
+    "description": "Vijesti iz Rusije na hrvatskom jeziku",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "hr.Kompass.com",
+    "slug": "hr-kompass-com",
+    "url": "https://hr.kompass.com/",
+    "rss": "",
+    "description": "Hrvatska poslovna tražilica",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "hr.jooble.org",
+    "slug": "hr-jooble-org",
+    "url": "https://hr.jooble.org/",
+    "rss": "",
+    "description": "Pretraživanje poslova",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "HR-Tcom",
+    "slug": "hr-tcom",
+    "url": "https://www.hrvatskitelekom.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "HR-Rukomet.hr",
+    "slug": "hr-rukomet-hr",
+    "url": "https://hrsport.hr/rukomet/",
+    "rss": "",
+    "description": "Hrvatski rukometni portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Hos-cvf.hr",
+    "slug": "hos-cvf-hr",
+    "url": "https://hos-cvf.hr/",
+    "rss": "",
+    "description": "Hrvatski odbojkaški savez",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Hop.com.hr",
+    "slug": "hop-com-hr",
+    "url": "https://www.hop.com.hr/",
+    "rss": "",
+    "description": "Nezavisni news portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Honda.hr",
+    "slug": "honda-hr-2",
+    "url": "https://honda.hr/motocikli/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "Honda.hr",
+    "slug": "honda-hr",
+    "url": "https://www.honda.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "hns.family.hr",
+    "slug": "hns-family-hr",
+    "url": "https://hns.family/",
+    "rss": "",
+    "description": "Hrvatski nogometni savez",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "HNK-Rijeka.hr",
+    "slug": "hnk-rijeka-hr",
+    "url": "https://nk-rijeka.hr/",
+    "rss": "",
+    "description": "Mrežne stranice riječkog prvoligaša",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "HKV.hr",
+    "slug": "hkv-hr",
+    "url": "https://www.hkv.hr/",
+    "rss": "",
+    "description": "Portal Hrvatskog kulturnog vijeća",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "HKR.hr",
+    "slug": "hkr-hr",
+    "url": "https://hkr.hkm.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "Hitro.hr",
+    "slug": "hitro-hr",
+    "url": "https://www.hitro.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "HITA vrijednosnice",
+    "slug": "hita-vrijednosnice",
+    "url": "https://www.hita.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Hip-hop.hr",
+    "slug": "hip-hop-hr",
+    "url": "https://hip-hop.hr/",
+    "rss": "",
+    "description": "Hrvatski hip-hop portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "Hina.hr",
+    "slug": "hina-hr",
+    "url": "https://www.hina.hr/",
+    "rss": "",
+    "description": "Hrvatska izvještajna novinarska agencija",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Hill-international.com",
+    "slug": "hill-international-com",
+    "url": "https://www.hill-international.com/en-HR/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "HiFiMedia.hr",
+    "slug": "hifimedia-hr",
+    "url": "https://hifimedia.hr/",
+    "rss": "",
+    "description": "Portal magazina o audio i video sustavima",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Hia.com.hr",
+    "slug": "hia-com-hr",
+    "url": "https://www.hia.com.hr/",
+    "rss": "",
+    "description": "Hrvatsko iseljeništvo svijet",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Hhs-chf",
+    "slug": "hhs-chf",
+    "url": "https://hhs-chf.hr/",
+    "rss": "",
+    "description": "Hrvatski hokejaški savez",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "HGspot.hr",
+    "slug": "hgspot-hr",
+    "url": "https://www.hgspot.hr/",
+    "rss": "",
+    "description": "Informatička i audio-video trgovina",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Hercegbosna.org",
+    "slug": "hercegbosna-org",
+    "url": "https://www.hercegbosna.org/",
+    "rss": "",
+    "description": "Portala Hrvata iz BiH",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "HDtelevizija.com",
+    "slug": "hdtelevizija-com",
+    "url": "https://hdtelevizija.com/",
+    "rss": "",
+    "description": "HDTV eZine",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "HCL.hr",
+    "slug": "hcl-hr",
+    "url": "https://www.hcl.hr/",
+    "rss": "",
+    "description": "Gaming portal udruge Hrvatska cyber liga",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Hanfa.hr",
+    "slug": "hanfa-hr",
+    "url": "https://www.hanfa.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "HAK",
+    "slug": "hak",
+    "url": "https://www.hak.hr/",
+    "rss": "",
+    "description": "Hrvatski Auto Klub",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "razno"
+    ]
+  },
+  {
+    "name": "Hajduk.hr",
+    "slug": "hajduk-hr",
+    "url": "https://hajduk.hr/",
+    "rss": "",
+    "description": "Službene web stranice nogometnog kluba iz Splita",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "HAC",
+    "slug": "hac",
+    "url": "https://www.hac.hr/hr",
+    "rss": "",
+    "description": "Hrvatske Autoceste",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "razno"
+    ]
+  },
+  {
+    "name": "Groupie.hr",
+    "slug": "groupie-hr",
+    "url": "https://www.groupie.hr/",
+    "rss": "",
+    "description": "Glazbeni portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "Grobnik.hr",
+    "slug": "grobnik-hr",
+    "url": "https://grobnik.hr/",
+    "rss": "",
+    "description": "Automotodrom Grobnik",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "GRAWE Hrvatska",
+    "slug": "grawe-hrvatska",
+    "url": "https://www.grawe.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Gradimo.hr",
+    "slug": "gradimo-hr",
+    "url": "https://gradimo.hr/",
+    "rss": "",
+    "description": "Web za građenje, opremanje i nekretnine",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "GP1.hr",
+    "slug": "gp1-hr",
+    "url": "https://www.gp1.hr/",
+    "rss": "",
+    "description": "Hrvatski portal za Formulu 1",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Google News",
+    "slug": "google-news",
+    "url": "https://news.google.com/",
+    "rss": "",
+    "description": "Google Vijesti",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Google.com",
+    "slug": "google-com",
+    "url": "https://www.google.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Gol.hr",
+    "slug": "gol-hr",
+    "url": "https://gol.dnevnik.hr/",
+    "rss": "",
+    "description": "Sportski portal Nove TV",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "sportske-vijesti-i-vodici"
+    ]
+  },
+  {
+    "name": "Goal.com",
+    "slug": "goal-com",
+    "url": "https://www.goal.com/en",
+    "rss": "",
+    "description": "Izdavanje najvećega nogometnog portala na svijetu",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "GNKDinamo.hr",
+    "slug": "gnkdinamo-hr",
+    "url": "https://gnkdinamo.hr/",
+    "rss": "",
+    "description": "Službene web stranice nogometnog kluba iz Zagreba",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Gmail",
+    "slug": "gmail",
+    "url": "https://mail.google.com/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "GLS",
+    "slug": "gls",
+    "url": "https://gls-group.com/HR/hr/home/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Gloria",
+    "slug": "gloria",
+    "url": "https://www.gloria.hr/gl",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "GlobalTimes.cn",
+    "slug": "globaltimes-cn",
+    "url": "https://www.globaltimes.cn/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Global.chinadaily.com.cn",
+    "slug": "global-chinadaily-com-cn",
+    "url": "https://global.chinadaily.com.cn/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Gledalica.online",
+    "slug": "gledalica-online",
+    "url": "https://gledalica.online/",
+    "rss": "",
+    "description": "Portal za gledanje filmova",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "GlasIstre.hr",
+    "slug": "glasistre-hr",
+    "url": "https://www.glasistre.hr/",
+    "rss": "",
+    "description": "Portal iz Pule",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Github.com",
+    "slug": "github-com",
+    "url": "http://github.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Generali osiguranje",
+    "slug": "generali-osiguranje",
+    "url": "https://www.generali.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Gemius audience",
+    "slug": "gemius-audience",
+    "url": "https://e.gemius.com/login",
+    "rss": "",
+    "description": "Top lista posjećenosti hrvatskih web stranica",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "GeeK.hr",
+    "slug": "geek-hr",
+    "url": "https://geek.hr/",
+    "rss": "",
+    "description": "Zabava za geekove",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Game perspectives",
+    "slug": "game-perspectives",
+    "url": "https://gameperspectives.hr/",
+    "rss": "",
+    "description": "portal računalnim igrama",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "FT.com",
+    "slug": "ft-com",
+    "url": "https://www.ft.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Free PDF Magazines",
+    "slug": "free-pdf-magazines",
+    "url": "https://downmagaz.net/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Freemeteo",
+    "slug": "freemeteo",
+    "url": "https://freemeteo.com.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "freelance.hr",
+    "slug": "freelance-hr",
+    "url": "https://www.freelance.hr/hr",
+    "rss": "",
+    "description": "Honorarni posao",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Franchising.hr",
+    "slug": "franchising-hr",
+    "url": "https://franchising.hr/",
+    "rss": "",
+    "description": "Portal ideja za poduzetne",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Fotografija.hr",
+    "slug": "fotografija-hr",
+    "url": "https://fotografija.hr/",
+    "rss": "",
+    "description": "Portal za fotografsku i vizualnu kulturu",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "FORUM.HR",
+    "slug": "forum-hr",
+    "url": "https://www.forum.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Fortune",
+    "slug": "fortune",
+    "url": "https://fortune.com/",
+    "rss": "",
+    "description": "Fortune",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Ford.hr",
+    "slug": "ford-hr",
+    "url": "https://ford.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Forbes.com",
+    "slug": "forbes-com",
+    "url": "https://www.forbes.com/",
+    "rss": "",
+    "description": "Forbes",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Flickr.com",
+    "slug": "flickr-com",
+    "url": "https://flickr.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Fitness.com.hr",
+    "slug": "fitness-com-hr",
+    "url": "https://www.fitness.com.hr/",
+    "rss": "",
+    "description": "Aktivan i zdrav život",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "FinInfo.hr",
+    "slug": "fininfo-hr",
+    "url": "https://www.fininfo.hr/",
+    "rss": "",
+    "description": "Registar poslovnih subjekata",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Financijska agencija",
+    "slug": "financijska-agencija",
+    "url": "https://www.fina.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "FIMA vrijednosnice",
+    "slug": "fima-vrijednosnice",
+    "url": "https://fima-vrijednosnice.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "FilmskiMaraton.com",
+    "slug": "filmskimaraton-com",
+    "url": "https://filmskimaraton.com/",
+    "rss": "",
+    "description": "Novi filmovi za download s hr prijevodom",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "Filmski.net",
+    "slug": "filmski-net",
+    "url": "http://www.filmski.net/",
+    "rss": "",
+    "description": "Portal s vijestima iz svijeta filma",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "Filmovita.com",
+    "slug": "filmovita-com",
+    "url": "https://www.filmovita.com/",
+    "rss": "",
+    "description": "Online gledanje filmova s prijevodom",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "FightSite.hr",
+    "slug": "fightsite-hr",
+    "url": "https://fightsite.hr/fightsite",
+    "rss": "",
+    "description": "Portal za MMA, UFC i K1 vijesti i ostale sadržaje",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "FIFA.com",
+    "slug": "fifa-com",
+    "url": "https://www.fifa.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Fiat.hr",
+    "slug": "fiat-hr",
+    "url": "https://www.fiat.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Ferratum Bank",
+    "slug": "ferratum-bank",
+    "url": "https://www.ferratumbank.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Ferata.hr",
+    "slug": "ferata-hr",
+    "url": "https://www.ferata.hr/",
+    "rss": "",
+    "description": "Sinjski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Farmaceut.hr",
+    "slug": "farmaceut-hr",
+    "url": "https://farmaceut.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Fama.com.hr",
+    "slug": "fama-com-hr",
+    "url": "https://fama.com.hr/",
+    "rss": "",
+    "description": "Aktualnosti iz kulturnog i javnog života",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Facebook.com",
+    "slug": "facebook-com",
+    "url": "https://www.facebook.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Ezop-antikvarijat.hr",
+    "slug": "ezop-antikvarijat-hr",
+    "url": "https://ezop-antikvarijat.hr/",
+    "rss": "",
+    "description": "Ezop",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "eZadar.net.hr",
+    "slug": "ezadar-net-hr",
+    "url": "https://ezadar.net.hr/",
+    "rss": "",
+    "description": "Zadarski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "ExtraFM.hr",
+    "slug": "extrafm-hr",
+    "url": "https://extrafm.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "eVarazdin.hr",
+    "slug": "evarazdin-hr",
+    "url": "https://evarazdin.hr/",
+    "rss": "",
+    "description": "Varaždinske e-novine",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Europa.eu",
+    "slug": "europa-eu",
+    "url": "https://european-union.europa.eu/index_hr",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "EuroNogomet.com",
+    "slug": "euronogomet-com",
+    "url": "https://www.euronogomet.com/",
+    "rss": "",
+    "description": "Nogometni portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "nogomet"
+    ]
+  },
+  {
+    "name": "Euroherc osiguranje",
+    "slug": "euroherc-osiguranje",
+    "url": "https://www.euroherc.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Erste &#038; Steiermärkische S-Leasing",
+    "slug": "erste-steiermarkische-s-leasing",
+    "url": "https://www.ersteleasing.hr/hr/naslovnica",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Erste &#038; Steiermärkische Bank",
+    "slug": "erste-steiermarkische-bank",
+    "url": "https://www.erstebank.hr/hr/gradjanstvo",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "ePodravina.hr",
+    "slug": "epodravina-hr",
+    "url": "https://epodravina.hr/",
+    "rss": "",
+    "description": "Portal Podravine i Prigorja",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Entrepreneur.com",
+    "slug": "entrepreneur-com",
+    "url": "https://www.entrepreneur.com/",
+    "rss": "",
+    "description": "Entrepreneur",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "EnergyPress.net",
+    "slug": "energypress-net",
+    "url": "https://www.energypress.net/",
+    "rss": "",
+    "description": "Regionalni energetski portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Energetika-Net.com",
+    "slug": "energetika-net-com",
+    "url": "https://www.energetika-net.com/",
+    "rss": "",
+    "description": "Portal za energetiku",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "eMedjimurje.net.hr",
+    "slug": "emedjimurje-net-hr",
+    "url": "https://emedjimurje.net.hr/",
+    "rss": "",
+    "description": "Portal Međimurske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "ElektroničkeKnjige.com",
+    "slug": "elektronickeknjige-com",
+    "url": "https://elektronickeknjige.com/",
+    "rss": "",
+    "description": "Besplatne elentroničke knjige",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "electus.hr",
+    "slug": "electus-hr",
+    "url": "https://electus.hr/",
+    "rss": "",
+    "description": "Electus DSG",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "eKupi.hr",
+    "slug": "ekupi-hr",
+    "url": "https://www.ekupi.hr/",
+    "rss": "",
+    "description": "Informatička ponuda na jednome mjestu",
+    "categories": [
+      "informatika",
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "Economist.com",
+    "slug": "economist-com",
+    "url": "https://www.economist.com/",
+    "rss": "",
+    "description": "The Economist",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "eBrod.net",
+    "slug": "ebrod-net",
+    "url": "http://www.ebrod.net/",
+    "rss": "",
+    "description": "Portal Slavonskog Broda i okolice",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "ebay.com",
+    "slug": "ebay-com",
+    "url": "https://www.ebay.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "e-Savjetovanja",
+    "slug": "e-savjetovanja",
+    "url": "https://savjetovanja.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "e-Građani",
+    "slug": "e-gradani",
+    "url": "https://gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "sredisnji-drzavni-portal"
+    ]
+  },
+  {
+    "name": "DW.com",
+    "slug": "dw-com",
+    "url": "https://www.dw.com/hr/teme/s-9747",
+    "rss": "",
+    "description": "Deutsche Welle na hrvatskom jeziku",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Ducati.hr",
+    "slug": "ducati-hr",
+    "url": "https://ducati.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "Dubrovnik.hr",
+    "slug": "dubrovnik-hr",
+    "url": "https://www.dubrovnik.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "gradovi"
+    ]
+  },
+  {
+    "name": "DubrovačkiPress.hr",
+    "slug": "dubrovackipress-hr",
+    "url": "https://www.dubrovnikpress.hr/",
+    "rss": "",
+    "description": "Dubrovački portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "DubrovačkiNet.hr",
+    "slug": "dubrovackinet-hr",
+    "url": "https://www.dubrovniknet.hr/",
+    "rss": "",
+    "description": "Gradski portal Dubrovnika",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "DubrovačkiDnevnik.net.hr",
+    "slug": "dubrovackidnevnik-net-hr",
+    "url": "https://dubrovackidnevnik.net.hr/",
+    "rss": "",
+    "description": "Vijesti iz Dubrovačke regije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "DU-moto.com",
+    "slug": "du-moto-com",
+    "url": "https://du-moto.com/",
+    "rss": "",
+    "description": "Dubrovački moto portal",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "moto"
+    ]
+  },
+  {
+    "name": "Državni zavod za statistiku",
+    "slug": "drzavni-zavod-za-statistiku",
+    "url": "https://dzs.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "drzavne-upravne-organizacije"
+    ]
+  },
+  {
+    "name": "Državni zavod za mjeriteljstvo",
+    "slug": "drzavni-zavod-za-mjeriteljstvo",
+    "url": "https://dzm.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "drzavne-upravne-organizacije"
+    ]
+  },
+  {
+    "name": "Državni zavod za intelektualno vlasništvo",
+    "slug": "drzavni-zavod-za-intelektualno-vlasnistvo",
+    "url": "https://www.dziv.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "drzavne-upravne-organizacije"
+    ]
+  },
+  {
+    "name": "Državni proračun",
+    "slug": "drzavni-proracun",
+    "url": "https://mfin.gov.hr/proracun-86/86",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": []
+  },
+  {
+    "name": "Državna geodetska uprava",
+    "slug": "drzavna-geodetska-uprava",
+    "url": "https://dgu.gov.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "drzavne-upravne-organizacije"
+    ]
+  },
+  {
+    "name": "Drvoznanja.com",
+    "slug": "drvoznanja-com",
+    "url": "http://www.drvoznanja.com/",
+    "rss": "",
+    "description": "Drvo znanja",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Droid.hr",
+    "slug": "droid-hr",
+    "url": "https://droid.hr/",
+    "rss": "",
+    "description": "Hrvatska Android zajednica",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "dpd",
+    "slug": "dpd",
+    "url": "https://www.dpd.com/hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Dobra-hrana.hr",
+    "slug": "dobra-hrana-hr",
+    "url": "https://www.jutarnji.hr/dobrahrana",
+    "rss": "",
+    "description": "Gastronomski portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kuhanje"
+    ]
+  },
+  {
+    "name": "Dnevno.hr",
+    "slug": "dnevno-hr",
+    "url": "https://www.dnevno.hr/",
+    "rss": "",
+    "description": "Novinarski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Dnevnik.ba",
+    "slug": "dnevnik-ba",
+    "url": "https://www.dnevnik.ba/",
+    "rss": "",
+    "description": "Bosanskohercegovački portal iz Mostara",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Dnevnik",
+    "slug": "dnevnik",
+    "url": "https://dnevnik.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Direktno.hr",
+    "slug": "direktno-hr",
+    "url": "https://direktno.hr/?home",
+    "rss": "",
+    "description": "internetski portal okrenut državotvornoj javnosti",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Direkcija za korištenje službenih zrakoplova",
+    "slug": "direkcija-za-koristenje-sluzbenih-zrakoplova",
+    "url": "https://gov.hr/direkcija-za-koristenje-sluzbenih-zrakoplova/1560",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "uredi-vlade"
+    ]
+  },
+  {
+    "name": "DHMZ",
+    "slug": "dhmz",
+    "url": "https://www.meteo.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "dgs.hr",
+    "slug": "dgs-hr",
+    "url": "https://www.dgs.hr/home",
+    "rss": "",
+    "description": "DGS Pomorci",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Dekra-zapo.hr",
+    "slug": "dekra-zapo-hr",
+    "url": "https://dekra-arbeit.hr/",
+    "rss": "",
+    "description": "Dekra",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Deejay.hr",
+    "slug": "deejay-hr",
+    "url": "https://deejay.hr/",
+    "rss": "",
+    "description": "Radio i televizija za urbanu glazbenu kulturu",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "DalmatinskiPortal.hr",
+    "slug": "dalmatinskiportal-hr",
+    "url": "https://dalmatinskiportal.hr/",
+    "rss": "",
+    "description": "Vijesti iz Splita i Dalmacije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "DalmacijaNews.hr",
+    "slug": "dalmacijanews-hr",
+    "url": "https://www.dalmacijanews.hr/",
+    "rss": "",
+    "description": "Hrvatski neovisni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "DalmacijaDanas.h",
+    "slug": "dalmacijadanas-h",
+    "url": "https://www.dalmacijadanas.hr/",
+    "rss": "",
+    "description": "Splitsko dalmatinski portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "DajSve.com",
+    "slug": "dajsve-com",
+    "url": "https://www.dajsve.com/",
+    "rss": "",
+    "description": "Sve grupne kupovine na jednom mjestu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "Dailynews.com",
+    "slug": "dailynews-com",
+    "url": "https://www.dailynews.com/",
+    "rss": "",
+    "description": "Los Angeles Daily News",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "DailyMail.co.uk",
+    "slug": "dailymail-co-uk",
+    "url": "https://www.dailymail.co.uk/home/index.html",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Dacia.hr",
+    "slug": "dacia-hr",
+    "url": "https://www.dacia.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Culturenet.hr",
+    "slug": "culturenet-hr",
+    "url": "https://www.culturenet.hr/",
+    "rss": "",
+    "description": "Web centar hrvatske kulture",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "CTVNews.ca/canada",
+    "slug": "ctvnews-ca-canada",
+    "url": "https://www.ctvnews.ca/canada/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Crtanko.xyz",
+    "slug": "crtanko-xyz",
+    "url": "https://www.crtanko.xyz/",
+    "rss": "",
+    "description": "Sinkronizirani crtani filmovi i crtići",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "Croatis.ch",
+    "slug": "croatis-ch",
+    "url": "https://croatis.ch/",
+    "rss": "",
+    "description": "Portal za Hrvate u Švicarskoj",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Croatiaweek.com",
+    "slug": "croatiaweek-com",
+    "url": "https://www.croatiaweek.com/",
+    "rss": "",
+    "description": "HR portal na engleskom jeziku",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Croatia osiguranje",
+    "slug": "croatia-osiguranje",
+    "url": "https://crosig.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Croatian.cri.cn",
+    "slug": "croatian-cri-cn",
+    "url": "https://croatian.cri.cn/",
+    "rss": "",
+    "description": "Kineski međunarodni radio",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Croatian-music.info",
+    "slug": "croatian-music-info",
+    "url": "https://www.croatian-music.info/",
+    "rss": "",
+    "description": "Hrvatski glazbeni portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "Croatiabiz.com",
+    "slug": "croatiabiz-com",
+    "url": "https://www.croatiabiz.com/",
+    "rss": "",
+    "description": "HR poslovni imenik i info portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Croatia Airlines",
+    "slug": "croatia-airlines",
+    "url": "https://www.croatiaairlines.com/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Croatia.hr",
+    "slug": "croatia-hr",
+    "url": "https://croatia.hr/",
+    "rss": "",
+    "description": "Croatia Full of Life",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": []
+  },
+  {
+    "name": "Cro-portal.com",
+    "slug": "cro-portal-com",
+    "url": "https://cro-portal.com/",
+    "rss": "",
+    "description": "Hrvatski nezavisni portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "CrnoJaje.hr",
+    "slug": "crnojaje-hr",
+    "url": "https://www.crnojaje.hr/",
+    "rss": "",
+    "description": "Servis za grupnu kupovinu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kupnja"
+    ]
+  },
+  {
+    "name": "Cpanel.net",
+    "slug": "cpanel-net",
+    "url": "https://www.cpanel.net/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Cosmopolitan",
+    "slug": "cosmopolitan",
+    "url": "https://www.cosmopolitan.com/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "CoolKlub.com",
+    "slug": "coolklub-com",
+    "url": "https://coolklub.com/",
+    "rss": "",
+    "description": "Lifestyle design magazin",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Coolinarika.com",
+    "slug": "coolinarika-com",
+    "url": "https://www.coolinarika.com/",
+    "rss": "",
+    "description": "Podravkin kulinarski portal",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "kuhanje"
+    ]
+  },
+  {
+    "name": "CNN.com",
+    "slug": "cnn-com",
+    "url": "https://edition.cnn.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Citroen.hr",
+    "slug": "citroen-hr",
+    "url": "https://www.citroen.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Cineplexx.hr",
+    "slug": "cineplexx-hr",
+    "url": "https://www.cineplexx.hr/",
+    "rss": "",
+    "description": "Najveći regionalni kino pokazivač",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "CIAK-Auto.hr",
+    "slug": "ciak-auto-hr",
+    "url": "https://ciak-auto.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-dijelovi"
+    ]
+  },
+  {
+    "name": "Chipoteka.hr",
+    "slug": "chipoteka-hr",
+    "url": "https://www.chipoteka.hr/",
+    "rss": "",
+    "description": "Prodajni lanac informatičke, audio i video opreme",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "CERT.hr",
+    "slug": "cert-hr",
+    "url": "https://www.cert.hr/",
+    "rss": "",
+    "description": "Nacionalno središte za računalnu sigurnost",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "CentarZdravlja.hr",
+    "slug": "centarzdravlja-hr",
+    "url": "https://www.centarzdravlja.hr/",
+    "rss": "",
+    "description": "Portal za zdravlje i ljepotu",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zdravlje"
+    ]
+  },
+  {
+    "name": "Carnetmetar",
+    "slug": "carnetmetar",
+    "url": "https://www.carnet.hr/usluga/carnet-metar/",
+    "rss": "",
+    "description": "CARNet-ov metar",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "CARNet",
+    "slug": "carnet",
+    "url": "https://www.carnet.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "Careerjet.com.hr",
+    "slug": "careerjet-com-hr",
+    "url": "https://www.careerjet.com.hr/",
+    "rss": "",
+    "description": "Tražilica za posao",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "BusinessIN.hr",
+    "slug": "businessin-hr",
+    "url": "https://businessin.hr/",
+    "rss": "",
+    "description": "Internetski news i business portal",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Burza oglasi",
+    "slug": "burza-oglasi",
+    "url": "https://burza.com.hr/oglasi",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Burza.com.hr",
+    "slug": "burza-com-hr",
+    "url": "https://burza.com.hr/oglasi/posao",
+    "rss": "",
+    "description": "Tražilica za posao",
+    "categories": [
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Bug.hr",
+    "slug": "bug-hr",
+    "url": "https://www.bug.hr/",
+    "rss": "",
+    "description": "Portal informatičkog magazina",
+    "categories": [
+      "informatika"
+    ],
+    "types": []
+  },
+  {
+    "name": "Brija.com",
+    "slug": "brija-com",
+    "url": "https://www.brija.com/",
+    "rss": "",
+    "description": "Magazin elektroničke glazbe",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "glazba"
+    ]
+  },
+  {
+    "name": "Brač-otok.com",
+    "slug": "brac-otok-com",
+    "url": "https://brac-otok.com/portal",
+    "rss": "",
+    "description": "Portal otoka Brača",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Brazilian.report",
+    "slug": "brazilian-report",
+    "url": "https://brazilian.report/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Bravo.hr",
+    "slug": "bravo-hr",
+    "url": "https://bravo.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "Bosch.com",
+    "slug": "bosch-com",
+    "url": "https://www.boschaftermarket.com/hr/hr/",
+    "rss": "",
+    "description": "Bosch autodijelovi i servisna oprema",
+    "categories": [
+      "auto-moto",
+      "kultura"
+    ],
+    "types": [
+      "auto-dijelovi",
+      "film"
+    ]
+  },
+  {
+    "name": "Booksa.hr",
+    "slug": "booksa-hr",
+    "url": "https://www.booksa.hr/",
+    "rss": "",
+    "description": "Hrvatski književni portal",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Booking.com",
+    "slug": "booking-com-2",
+    "url": "https://www.booking.com/index.hr.html",
+    "rss": "",
+    "description": "Web smještajne rezervacije hotela diljem svijeta",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "putovanja"
+    ]
+  },
+  {
+    "name": "Booking.com",
+    "slug": "booking-com",
+    "url": "https://www.booking.com/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "BonBon",
+    "slug": "bonbon",
+    "url": "https://www.bonbon.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Bodybuilding",
+    "slug": "bodybuilding",
+    "url": "https://building-body.com/",
+    "rss": "",
+    "description": "Portal o bodybuildingu i fitnessu",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "BMW.hr",
+    "slug": "bmw-hr",
+    "url": "https://www.bmw.hr/hr/index.html",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "BMW-motorrad.com.hr",
+    "slug": "bmw-motorrad-com-hr",
+    "url": "https://www.bmw-motorrad.com.hr/hr/home.html#/filter-svi",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-motocikala"
+    ]
+  },
+  {
+    "name": "Bloomberg.com",
+    "slug": "bloomberg-com",
+    "url": "https://www.bloomberg.com/europe",
+    "rss": "",
+    "description": "Bloomberg Businessweek",
+    "categories": [
+      "biznis-financije",
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Blogger.com",
+    "slug": "blogger-com",
+    "url": "https://www.blogger.com/about/?bpli=1",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Bljesak.info",
+    "slug": "bljesak-info",
+    "url": "https://bljesak.info/",
+    "rss": "",
+    "description": "Bosansko-hercegovački portal",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "Blitz-CineStar.hr",
+    "slug": "blitz-cinestar-hr",
+    "url": "https://cinestarcinemas.hr/",
+    "rss": "",
+    "description": "Mrežne stranice pružatelja kino usluga u Hrvatskoj",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "film"
+    ]
+  },
+  {
+    "name": "BKS",
+    "slug": "bks",
+    "url": "https://www.bks.hr/leasing",
+    "rss": "",
+    "description": "leasing Croatia",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Bitno",
+    "slug": "bitno",
+    "url": "https://www.bitno.net/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Bijelo jaje",
+    "slug": "bijelo-jaje",
+    "url": "https://bijelojaje.dnevnik.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Biciklijade.com",
+    "slug": "biciklijade-com",
+    "url": "https://biciklijade.com/",
+    "rss": "",
+    "description": "Gdje se vozi",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "BBC.com",
+    "slug": "bbc-com",
+    "url": "https://www.bbc.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "baVOAnews.com",
+    "slug": "bavoanews-com",
+    "url": "https://ba.voanews.com/",
+    "rss": "",
+    "description": "Glas Amerike na jezicima naroda BiH",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "Basketball.hr",
+    "slug": "basketball-hr",
+    "url": "https://basketball.hr/",
+    "rss": "",
+    "description": "Hrvatska košarka, rezultati i vijesti",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Banka Kovanica",
+    "slug": "banka-kovanica",
+    "url": "https://www.kovanica.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Balkans.aljazeera.net",
+    "slug": "balkans-aljazeera-net",
+    "url": "https://balkans.aljazeera.net/",
+    "rss": "",
+    "description": "Internetski portal AI Jazeera Balkans",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-televizijskih-kompanija"
+    ]
+  },
+  {
+    "name": "Ayvens",
+    "slug": "ayvens",
+    "url": "https://www.ayvens.com/hr-hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Autosport.hr",
+    "slug": "autosport-hr",
+    "url": "https://hrsport.hr/automoto/",
+    "rss": "",
+    "description": "Portal o automobilima i automobilizmu",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "AutoPress",
+    "slug": "autopress",
+    "url": "https://www.autopress.hr/",
+    "rss": "",
+    "description": "Automobilski portal",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "AutoPortal",
+    "slug": "autoportal",
+    "url": "https://autoportal.hr/",
+    "rss": "",
+    "description": "Hrvatski specijalizirani automobilistički portal",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "AutoNet.hr",
+    "slug": "autonet-hr",
+    "url": "https://autonet.bug.hr/",
+    "rss": "",
+    "description": "Hrvatski automobilski e-zine",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "Auto Motor i Sport",
+    "slug": "auto-motor-i-sport",
+    "url": "https://ams.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "Auto Moto Nautic Vision",
+    "slug": "auto-moto-nautic-vision",
+    "url": "https://www.automotovision.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "Automania.hr",
+    "slug": "automania-hr",
+    "url": "https://automania.hr/",
+    "rss": "",
+    "description": "Portal o automobilima",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "Auto Magazin",
+    "slug": "auto-magazin",
+    "url": "https://www.magazinauto.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-moto"
+    ]
+  },
+  {
+    "name": "AutoKrešo.hr",
+    "slug": "autokreso-hr",
+    "url": "https://www.autokreso.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "auto-dijelovi"
+    ]
+  },
+  {
+    "name": "Autoklub Siget",
+    "slug": "autoklub-siget",
+    "url": "https://aksiget.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "razno"
+    ]
+  },
+  {
+    "name": "Auti.hr",
+    "slug": "auti-hr",
+    "url": "https://www.auti.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "oglasnici-za-auto-moto"
+    ]
+  },
+  {
+    "name": "AUSnews.com.au",
+    "slug": "ausnews-com-au",
+    "url": "https://www.news.com.au/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "AUSabc.net.au",
+    "slug": "ausabc-net-au",
+    "url": "https://www.abc.net.au/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Audi.hr",
+    "slug": "audi-hr",
+    "url": "https://www.audi.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "auto-moto"
+    ],
+    "types": [
+      "uvoznici-vozila"
+    ]
+  },
+  {
+    "name": "Arteist.hr",
+    "slug": "arteist-hr",
+    "url": "https://arteist.hr/",
+    "rss": "",
+    "description": "Prvo slovo kulture",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "portali-o-kulturi"
+    ]
+  },
+  {
+    "name": "Argentinatimes.com.ar",
+    "slug": "argentinatimes-com-ar",
+    "url": "https://www.batimes.com.ar/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Apple.com",
+    "slug": "apple-com",
+    "url": "https://www.apple.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "Apartmanija",
+    "slug": "apartmanija",
+    "url": "https://www.apartmanija.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Antikvarijat-mali-neboder.hr",
+    "slug": "antikvarijat-mali-neboder-hr",
+    "url": "https://www.antikvarijat-mali-neboder.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Antikvarijat-brala.hr",
+    "slug": "antikvarijat-brala-hr",
+    "url": "https://www.antikvarijat-brala.hr/",
+    "rss": "",
+    "description": "Antikvarijat Brala",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "Antikvarijat-biblos.hr",
+    "slug": "antikvarijat-biblos-hr",
+    "url": "https://www.antikvarijat-biblos.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "AntenaZagreb.hr",
+    "slug": "antenazagreb-hr",
+    "url": "https://www.antenazagreb.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "radio"
+    ]
+  },
+  {
+    "name": "Ambalaža.hr",
+    "slug": "ambalaza-hr",
+    "url": "https://www.ambalaza.hr/hr/",
+    "rss": "",
+    "description": "Informativni portal o ambalažnoj i grafičkoj industriji",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Amazon.com",
+    "slug": "amazon-com",
+    "url": "https://www.amazon.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "zanimljivosti"
+    ]
+  },
+  {
+    "name": "Allianz osiguranje",
+    "slug": "allianz-osiguranje",
+    "url": "https://www.allianz.hr/hr_HR/privatni-korisnici.html",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Alfa.hr",
+    "slug": "alfa-hr",
+    "url": "https://www.alfa.hr/",
+    "rss": "",
+    "description": "Izdavačka kuća",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "AKZ.hr",
+    "slug": "akz-hr",
+    "url": "https://www.akz.hr/",
+    "rss": "",
+    "description": "Autobusni kolodvor Zagreb",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "javni-prijevoz"
+    ]
+  },
+  {
+    "name": "AK-Split.hr",
+    "slug": "ak-split-hr",
+    "url": "https://www.ak-split.hr/",
+    "rss": "",
+    "description": "Autobusni kolodvor Split",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "javni-prijevoz"
+    ]
+  },
+  {
+    "name": "Airport-pula.hr",
+    "slug": "airport-pula-hr",
+    "url": "https://airport-pula.hr/",
+    "rss": "",
+    "description": "Zračna luka Pula",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "Airport-dubrovnik.hr",
+    "slug": "airport-dubrovnik-hr",
+    "url": "https://www.dbv.hr/",
+    "rss": "",
+    "description": "Zračna luka Dubrovnik",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "zracne-luke"
+    ]
+  },
+  {
+    "name": "Airbnb.com",
+    "slug": "airbnb-com",
+    "url": "https://hr.airbnb.com/",
+    "rss": "",
+    "description": "Portal za iznajmljivanje smještaja",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "putovanja"
+    ]
+  },
+  {
+    "name": "Air.hr",
+    "slug": "air-hr",
+    "url": "https://air.hr/",
+    "rss": "",
+    "description": "Pronalazimo najpovoljnije letove",
+    "categories": [
+      "korisni-web"
+    ],
+    "types": [
+      "putovanja"
+    ]
+  },
+  {
+    "name": "AgroPortal.hr",
+    "slug": "agroportal-hr",
+    "url": "https://www.agroportal.hr/",
+    "rss": "",
+    "description": "Poljoprivredna proizvodnja",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "AgroKlub.com",
+    "slug": "agroklub-com",
+    "url": "https://www.agroklub.com/",
+    "rss": "",
+    "description": "Poljoprivreda i prehrambena industrija",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": []
+  },
+  {
+    "name": "Agram Leasing",
+    "slug": "agram-leasing",
+    "url": "https://www.agramleasing.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "leasing-drustva"
+    ]
+  },
+  {
+    "name": "Agram Banka",
+    "slug": "agram-banka",
+    "url": "https://www.agrambanka.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "Agm.hr",
+    "slug": "agm-hr",
+    "url": "https://www.agm.hr/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "kultura"
+    ],
+    "types": [
+      "knjige"
+    ]
+  },
+  {
+    "name": "AficaNews.com",
+    "slug": "aficanews-com",
+    "url": "https://www.africanews.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "novine-i-vijesti"
+    ]
+  },
+  {
+    "name": "Adventure sport",
+    "slug": "adventure-sport",
+    "url": "https://adventure-sport.net/",
+    "rss": "",
+    "description": "Hrvatski pustolovno-sportski portal",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "Adriatic osiguranje",
+    "slug": "adriatic-osiguranje",
+    "url": "https://www.adriatic-osiguranje.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "osiguranja"
+    ]
+  },
+  {
+    "name": "Adresar političkih stranaka u RH",
+    "slug": "adresar-politickih-stranaka-u-rh",
+    "url": "https://vlada.gov.hr/footer/adresar/18?lang=hr",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "drzavni-portali"
+    ],
+    "types": [
+      "adresar"
+    ]
+  },
+  {
+    "name": "adorio.hr",
+    "slug": "adorio-hr",
+    "url": "https://www.adorio.hr/",
+    "rss": "",
+    "description": "oglasni portal za poslove",
+    "categories": [
+      "korisni-web",
+      "posao"
+    ],
+    "types": []
+  },
+  {
+    "name": "Adobe.com",
+    "slug": "adobe-com",
+    "url": "https://www.adobe.com/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "svijet"
+    ],
+    "types": [
+      "web-i-drustvene-mreze"
+    ]
+  },
+  {
+    "name": "ADM",
+    "slug": "adm",
+    "url": "https://www.adm.hr/",
+    "rss": "",
+    "description": "online trgovina računala i ostale potrebne tehnike",
+    "categories": [
+      "informatika"
+    ],
+    "types": [
+      "trgovine"
+    ]
+  },
+  {
+    "name": "Addiko Bank",
+    "slug": "addiko-bank",
+    "url": "https://www.addiko.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [
+      "biznis-financije"
+    ],
+    "types": [
+      "banke"
+    ]
+  },
+  {
+    "name": "AccuWeather",
+    "slug": "accuweather",
+    "url": "https://www.accuweather.com/hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "Abrakadabra",
+    "slug": "abrakadabra",
+    "url": "https://www.abrakadabra.com/hr-HR/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "ABA League",
+    "slug": "aba-league",
+    "url": "https://www.abaliga.com/",
+    "rss": "",
+    "description": "Službene stranice Jadranske košarkaške lige",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  },
+  {
+    "name": "A1",
+    "slug": "a1",
+    "url": "https://www.a1.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "057info.hr",
+    "slug": "057info-hr",
+    "url": "https://www.057info.hr/",
+    "rss": "",
+    "description": "Portal zadarskog radija",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "034portal.hr",
+    "slug": "034portal-hr",
+    "url": "https://www.034portal.hr/",
+    "rss": "",
+    "description": "Portal Požeško-slavonske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "031portal.hr",
+    "slug": "031portal-hr",
+    "url": "https://031portal.hr/",
+    "rss": "",
+    "description": "Vijesti iz Osijeka i osječko-baranjske županije",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "lokalne-vijesti"
+    ]
+  },
+  {
+    "name": "24sata",
+    "slug": "24sata",
+    "url": "https://www.24sata.hr/",
+    "rss": "",
+    "description": "",
+    "categories": [],
+    "types": []
+  },
+  {
+    "name": "20minuta.hr",
+    "slug": "20minuta-hr",
+    "url": "https://20minuta.hr/",
+    "rss": "",
+    "description": "Vijesti iz različitih područja",
+    "categories": [
+      "dnevne-vijesti"
+    ],
+    "types": [
+      "portali-dnevnih-vijesti"
+    ]
+  },
+  {
+    "name": "3sporta.com",
+    "slug": "3sporta-com",
+    "url": "https://3sporta.com/",
+    "rss": "",
+    "description": "Trčanje, biciklizam, plivanje",
+    "categories": [
+      "sport"
+    ],
+    "types": [
+      "ostalo"
+    ]
+  }
+]
