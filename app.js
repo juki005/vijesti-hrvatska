@@ -4152,7 +4152,7 @@ const CATEGORIZED_PORTALS = {
 
 // Category configurations
 const PORTAL_CATEGORIES = [
-    { id: 'vijesti', name: 'VIJESTI', color: 'bg-[#D13D1F] text-white hover:bg-klik-accent', subcategories: ['Dalmacija', 'Slavonija', 'Istra i Kvarner', 'Zagreb'] },
+    { id: 'vijesti', name: 'VIJESTI', color: 'bg-[#D13D1F] text-white hover:bg-red-800', subcategories: ['Dalmacija', 'Slavonija', 'Istra i Kvarner', 'Zagreb'] },
     { id: 'sport', name: 'SPORT', color: 'bg-emerald-600 text-white hover:bg-emerald-700', subcategories: ['Nogomet', 'Košarka', 'Tenis'] },
     { id: 'tech', name: 'TEHNOLOGIJA', color: 'bg-cyan-600 text-white hover:bg-cyan-700', subcategories: ['Znanost', 'Igre'] },
     { id: 'lifestyle', name: 'LIFESTYLE', color: 'bg-pink-600 text-white hover:bg-pink-700', subcategories: ['Moda', 'Zdravlje', 'Kuharica'] },
@@ -4919,7 +4919,7 @@ function renderFeed() {
                                 <h3 class="text-sm font-extrabold leading-snug text-slate-850 dark:text-slate-100 mt-1">Ovdje se prikazuje vaš Google AdSense oglas</h3>
                                 <p class="text-xs text-slate-700 dark:text-slate-400 leading-relaxed">Prilagodljivi nativni oglas koji se savršeno uklapa u sadržaj feeda i povećava doseg posjetitelja.</p>
                             </div>
-                            <a href="mailto:oglasi@klik-klon.hr" class="bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs px-3.5 py-1.5 rounded uppercase tracking-wider text-center transition-all shadow-sm">
+                            <a href="mailto:kontakt@vijesti-hrvatska.hr" class="bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs px-3.5 py-1.5 rounded uppercase tracking-wider text-center transition-all shadow-sm">
                                 Zakupi oglasni prostor
                             </a>
                         </div>
@@ -5644,7 +5644,7 @@ function handleRoute() {
     // Sync document titles
     const catName = activeCategory === 'sve' ? 'Sve Vijesti' : activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1);
     const subName = activeSubcategory === 'sve' ? '' : ` - ${activeSubcategory.charAt(0).toUpperCase() + activeSubcategory.slice(1)}`;
-    document.title = `${catName}${subName} | KLIK Klon`;
+    document.title = `${catName}${subName} | Vijesti Hrvatska`;
 
     // Render subnavigation
     renderSubNavigation();
