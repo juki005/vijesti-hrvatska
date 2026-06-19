@@ -6320,7 +6320,7 @@ function setupEventListeners() {
 
     if (tabSupabase && tabCustomFeeds && tabPortals && panelSupabase && panelCustomFeeds && panelPortals) {
         tabSupabase.onclick = () => {
-            tabSupabase.className = "flex-1 pb-2 border-b-2 border-[#3645a5] text-[#3645a5] dark:text-white dark:border-white uppercase tracking-wider font-bold text-center";
+            tabSupabase.className = "flex-1 pb-2 border-b-2 border-[#e11d48] text-[#e11d48] dark:text-white dark:border-white uppercase tracking-wider font-bold text-center";
             tabCustomFeeds.className = "flex-1 pb-2 border-b-2 border-transparent text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold text-center";
             tabPortals.className = "flex-1 pb-2 border-b-2 border-transparent text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold text-center";
             panelSupabase.classList.remove('hidden');
@@ -6328,7 +6328,7 @@ function setupEventListeners() {
             panelPortals.classList.add('hidden');
         };
         tabCustomFeeds.onclick = () => {
-            tabCustomFeeds.className = "flex-1 pb-2 border-b-2 border-[#3645a5] text-[#3645a5] dark:text-white dark:border-white uppercase tracking-wider font-bold text-center";
+            tabCustomFeeds.className = "flex-1 pb-2 border-b-2 border-[#e11d48] text-[#e11d48] dark:text-white dark:border-white uppercase tracking-wider font-bold text-center";
             tabSupabase.className = "flex-1 pb-2 border-b-2 border-transparent text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold text-center";
             tabPortals.className = "flex-1 pb-2 border-b-2 border-transparent text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold text-center";
             panelCustomFeeds.classList.remove('hidden');
@@ -6337,7 +6337,7 @@ function setupEventListeners() {
             renderCustomFeedsList();
         };
         tabPortals.onclick = () => {
-            tabPortals.className = "flex-1 pb-2 border-b-2 border-[#3645a5] text-[#3645a5] dark:text-white dark:border-white uppercase tracking-wider font-bold text-center";
+            tabPortals.className = "flex-1 pb-2 border-b-2 border-[#e11d48] text-[#e11d48] dark:text-white dark:border-white uppercase tracking-wider font-bold text-center";
             tabSupabase.className = "flex-1 pb-2 border-b-2 border-transparent text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold text-center";
             tabCustomFeeds.className = "flex-1 pb-2 border-b-2 border-transparent text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold text-center";
             panelPortals.classList.remove('hidden');
@@ -6356,6 +6356,66 @@ function setupEventListeners() {
     if (customFeedAddBtn) {
         customFeedAddBtn.onclick = window.addCustomFeed;
     }
+
+    // Admin login and logout trigger handler
+    const adminLoginBtn = document.getElementById('admin-login-btn');
+    if (adminLoginBtn) {
+        adminLoginBtn.onclick = (e) => {
+            e.preventDefault();
+            const isLogged = sessionStorage.getItem('admin_logged_in') === 'true';
+            if (isLogged) {
+                if (confirm("Želite li se odjaviti iz administratorskog načina rada?")) {
+                    sessionStorage.removeItem('admin_logged_in');
+                    alert("Uspješno ste se odjavili.");
+                    window.location.href = 'index.html';
+                }
+            } else {
+                const password = prompt("Unesite administratorsku lozinku:");
+                if (password === 'admin123') {
+                    sessionStorage.setItem('admin_logged_in', 'true');
+                    alert("Uspješno ste se prijavili!");
+                    location.reload();
+                } else if (password !== null) {
+                    alert("Pogrešna lozinka!");
+                }
+            }
+        };
+    }
+}
+
+// Admin accessibility control
+function checkAdminAccess() {
+    const filename = window.location.pathname.split('/').pop() || 'index.html';
+    const isAdminPage = filename.includes('analitika') || filename.includes('portali') || activeCategory === 'analitika' || activeCategory === 'portali';
+    const isLogged = sessionStorage.getItem('admin_logged_in') === 'true';
+    
+    if (isAdminPage && !isLogged) {
+        window.location.href = 'index.html';
+        return false;
+    }
+    
+    if (isLogged) {
+        showAdminElements();
+    } else {
+        hideAdminElements();
+    }
+    return true;
+}
+
+function showAdminElements() {
+    document.querySelectorAll('.admin-only').forEach(el => {
+        el.classList.remove('hidden');
+    });
+    const adminLoginBtn = document.getElementById('admin-login-btn');
+    if (adminLoginBtn) adminLoginBtn.textContent = 'Odjava';
+}
+
+function hideAdminElements() {
+    document.querySelectorAll('.admin-only').forEach(el => {
+        el.classList.add('hidden');
+    });
+    const adminLoginBtn = document.getElementById('admin-login-btn');
+    if (adminLoginBtn) adminLoginBtn.textContent = 'Admin';
 }
 
 // Initialize search query from URL params at startup
@@ -6372,5 +6432,7 @@ function initSearchQueryFromURL() {
 // Initialize on page load
 initSearchQueryFromURL();
 setupEventListeners();
-handleRoute(); // Render target page layout immediately
-fetchNewsFeed();
+if (checkAdminAccess()) {
+    handleRoute(); // Render target page layout immediately
+    fetchNewsFeed();
+}
