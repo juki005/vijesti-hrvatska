@@ -4870,7 +4870,15 @@ function renderFeed() {
         if (activeCategory === 'spremljeno') {
             categoryFiltered = filtered.filter(a => bookmarkedUrls.includes(a.link));
         } else {
-            categoryFiltered = filtered.filter(a => activeCategory === 'sve' || a.category === activeCategory);
+            categoryFiltered = filtered.filter(a => {
+                if (activeCategory === 'sve') return true;
+                if (a.category === activeCategory) return true;
+                // If we are in 'vijesti' category and filtering by a region, allow regional articles from other categories (e.g. a sport article from Zagreb.info)
+                if (activeCategory === 'vijesti' && activeSubcategory !== 'sve' && matchSubcategory(a, activeSubcategory)) {
+                    return true;
+                }
+                return false;
+            });
             // Further filter by subcategory if activeSubcategory is not 'sve'
             if (activeSubcategory !== 'sve') {
                 categoryFiltered = categoryFiltered.filter(a => matchSubcategory(a, activeSubcategory));
