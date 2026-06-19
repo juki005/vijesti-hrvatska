@@ -4919,7 +4919,7 @@ function renderFeed() {
                                 <h3 class="text-sm font-extrabold leading-snug text-slate-850 dark:text-slate-100 mt-1">Ovdje se prikazuje vaš Google AdSense oglas</h3>
                                 <p class="text-xs text-slate-700 dark:text-slate-400 leading-relaxed">Prilagodljivi nativni oglas koji se savršeno uklapa u sadržaj feeda i povećava doseg posjetitelja.</p>
                             </div>
-                            <a href="mailto:kontakt@vijesti-hrvatska.hr" class="bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs px-3.5 py-1.5 rounded uppercase tracking-wider text-center transition-all shadow-sm">
+                            <a href="mailto:kontakt@vijesti-hrvatska.hr" class="bg-[#e11d48] hover:bg-rose-700 text-white font-bold text-xs px-3.5 py-1.5 rounded uppercase tracking-wider text-center transition-all shadow-sm">
                                 Zakupi oglasni prostor
                             </a>
                         </div>
@@ -4928,7 +4928,7 @@ function renderFeed() {
                 }
 
                 const card = document.createElement('div');
-                card.className = 'group bg-white dark:bg-slate-855 border border-slate-200 dark:border-slate-700/60 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
+                card.className = 'group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/60 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
                 card.onclick = (e) => {
                     if (e.target.closest('.bookmark-btn')) return;
                     window.open(article.link, '_blank');
@@ -4987,7 +4987,7 @@ function renderFeed() {
         pagContainer.innerHTML = '';
         if (categoryFiltered.length > currentArticlesLimit) {
             const btn = document.createElement('button');
-            btn.className = 'bg-[#3645a5] hover:bg-blue-800 text-white text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-lg shadow-sm transition-all hover:-translate-y-0.5 select-none font-heading';
+            btn.className = 'bg-[#e11d48] hover:bg-rose-700 text-white text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-lg shadow-sm transition-all hover:-translate-y-0.5 select-none font-heading';
             btn.innerText = 'Prikaži više';
             btn.onclick = () => {
                 currentArticlesLimit += 12;
@@ -5594,7 +5594,7 @@ function renderSubNavigation() {
             const isAllActive = activeSubcategory === 'sve';
             allBtn.className = `px-3.5 py-1 text-xs font-bold rounded-full transition-all shrink-0 uppercase tracking-wide select-none ${
                 isAllActive
-                    ? 'bg-[#3645a5] dark:bg-indigo-650 text-white shadow-sm'
+                    ? 'bg-[#e11d48] dark:bg-rose-700 text-white shadow-sm'
                     : 'bg-slate-200 dark:bg-slate-800 text-slate-650 dark:text-slate-350 hover:bg-slate-300 dark:hover:bg-slate-700'
             }`;
             allBtn.innerText = 'Sve';
@@ -5607,7 +5607,7 @@ function renderSubNavigation() {
                 const isSubActive = activeSubcategory === subId;
                 btn.className = `px-3.5 py-1 text-xs font-bold rounded-full transition-all shrink-0 uppercase tracking-wide select-none ${
                     isSubActive
-                        ? 'bg-[#3645a5] dark:bg-indigo-650 text-white shadow-sm'
+                        ? 'bg-[#e11d48] dark:bg-rose-700 text-white shadow-sm'
                         : 'bg-slate-200 dark:bg-slate-800 text-slate-650 dark:text-slate-350 hover:bg-slate-300 dark:hover:bg-slate-700'
                 }`;
                 btn.innerText = sub;
