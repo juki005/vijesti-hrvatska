@@ -5689,6 +5689,9 @@ function handleRoute() {
             mainEl.classList.remove('lg:w-[72%]');
             mainEl.classList.add('lg:w-full');
         }
+        // Immediately hide news loading skeletons for static pages
+        const spinner = document.getElementById('loading-spinner');
+        if (spinner) spinner.classList.add('hidden');
     } else {
         if (sidebarEl) sidebarEl.classList.remove('hidden');
         if (mainEl) {
