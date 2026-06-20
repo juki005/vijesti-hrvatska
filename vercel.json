@@ -24,6 +24,10 @@
     {
       "src": "sitemap.xml",
       "use": "@vercel/static"
+    },
+    {
+      "src": "vrijeme.html",
+      "use": "@vercel/static"
     }
   ],
   "routes": [

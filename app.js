@@ -5687,15 +5687,10 @@ function handleRoute() {
     // Render subnavigation
     renderSubNavigation();
 
-    const feedArea = document.getElementById('feed-area');
-    const analyticsArea = document.getElementById('analytics-area');
-    const portaliArea = document.getElementById('portali-area');
-    const emptyState = document.getElementById('empty-state');
-    const mainEl = document.getElementById('main-content');
-    const sidebarEl = document.getElementById('sidebar');
+    const weatherArea = document.getElementById('weather-area');
 
     // Adjust sidebar and main layout width dynamically
-    if (activeCategory === 'portali' || activeCategory === 'analitika') {
+    if (activeCategory === 'portali' || activeCategory === 'analitika' || activeCategory === 'vrijeme') {
         if (sidebarEl) sidebarEl.classList.add('hidden');
         if (mainEl) {
             mainEl.classList.remove('lg:w-[72%]');
@@ -5715,6 +5710,7 @@ function handleRoute() {
     if (activeCategory === 'analitika') {
         if (feedArea) feedArea.classList.add('hidden');
         if (portaliArea) portaliArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
         if (emptyState) emptyState.classList.add('hidden');
         if (analyticsArea) {
             analyticsArea.classList.remove('hidden');
@@ -5723,14 +5719,25 @@ function handleRoute() {
     } else if (activeCategory === 'portali') {
         if (feedArea) feedArea.classList.add('hidden');
         if (analyticsArea) analyticsArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
         if (emptyState) emptyState.classList.add('hidden');
         if (portaliArea) {
             portaliArea.classList.remove('hidden');
             renderPortalsPage();
         }
+    } else if (activeCategory === 'vrijeme') {
+        if (feedArea) feedArea.classList.add('hidden');
+        if (analyticsArea) analyticsArea.classList.add('hidden');
+        if (portaliArea) portaliArea.classList.add('hidden');
+        if (emptyState) emptyState.classList.add('hidden');
+        if (weatherArea) {
+            weatherArea.classList.remove('hidden');
+            renderWeatherPage();
+        }
     } else {
         if (analyticsArea) analyticsArea.classList.add('hidden');
         if (portaliArea) portaliArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
         if (feedArea) {
             feedArea.classList.remove('hidden');
             renderFeed();
@@ -6458,6 +6465,365 @@ function hideAdminElements() {
     const adminLoginBtn = document.getElementById('admin-login-btn');
     if (adminLoginBtn) adminLoginBtn.textContent = 'Admin';
 }
+
+// ==========================================
+// WEATHER REPORT FEATURE (Open-Meteo API integration)
+// ==========================================
+const WMO_CODES = {
+    0: { text: "Vedro", bg: "from-amber-500 to-orange-400 dark:from-amber-600 dark:to-orange-700", icon: "sun" },
+    1: { text: "Pretežno vedro", bg: "from-amber-400 to-yellow-300 dark:from-amber-500/80 dark:to-yellow-500/60", icon: "sun-cloud" },
+    2: { text: "Djelomično oblačno", bg: "from-slate-450 to-slate-350 dark:from-slate-700 dark:to-slate-650", icon: "cloud" },
+    3: { text: "Oblačno", bg: "from-slate-500 to-slate-400 dark:from-slate-800 dark:to-slate-700", icon: "cloud" },
+    45: { text: "Magla", bg: "from-zinc-500 to-zinc-400 dark:from-zinc-800 dark:to-zinc-700", icon: "fog" },
+    48: { text: "Inje", bg: "from-zinc-500 to-zinc-400 dark:from-zinc-800 dark:to-zinc-700", icon: "fog" },
+    51: { text: "Slabo rominjanje", bg: "from-blue-400 to-slate-400 dark:from-blue-800 dark:to-slate-700", icon: "rain-light" },
+    53: { text: "Rominjanje kiše", bg: "from-blue-400 to-slate-400 dark:from-blue-800 dark:to-slate-700", icon: "rain-light" },
+    55: { text: "Jako rominjanje", bg: "from-blue-400 to-slate-450 dark:from-blue-800 dark:to-slate-750", icon: "rain-light" },
+    61: { text: "Slaba kiša", bg: "from-sky-500 to-blue-400 dark:from-sky-850 dark:to-blue-700", icon: "rain" },
+    63: { text: "Kiša", bg: "from-sky-600 to-blue-500 dark:from-sky-900 dark:to-blue-800", icon: "rain" },
+    65: { text: "Jaka kiša", bg: "from-blue-700 to-indigo-650 dark:from-blue-950 dark:to-indigo-900", icon: "rain-heavy" },
+    71: { text: "Slabi snijeg", bg: "from-blue-200 to-zinc-200 dark:from-blue-900 dark:to-zinc-800", icon: "snow" },
+    73: { text: "Snijeg", bg: "from-blue-300 to-zinc-300 dark:from-blue-900 dark:to-zinc-800", icon: "snow" },
+    75: { text: "Jaki snijeg", bg: "from-blue-400 to-zinc-400 dark:from-blue-950 dark:to-zinc-850", icon: "snow-heavy" },
+    77: { text: "Snježna zrnca", bg: "from-blue-300 to-zinc-300 dark:from-blue-900 dark:to-zinc-800", icon: "snow" },
+    80: { text: "Slabi pljuskovi", bg: "from-sky-500 to-blue-400 dark:from-sky-850 dark:to-blue-700", icon: "rain" },
+    81: { text: "Pljuskovi", bg: "from-sky-600 to-blue-500 dark:from-sky-900 dark:to-blue-800", icon: "rain" },
+    82: { text: "Jaki pljuskovi", bg: "from-blue-700 to-indigo-650 dark:from-blue-950 dark:to-indigo-900", icon: "rain-heavy" },
+    85: { text: "Slabi pljuskovi snijega", bg: "from-blue-300 to-zinc-300 dark:from-blue-900 dark:to-zinc-800", icon: "snow" },
+    86: { text: "Jaki pljuskovi snijega", bg: "from-blue-400 to-zinc-400 dark:from-blue-950 dark:to-zinc-850", icon: "snow-heavy" },
+    95: { text: "Grmljavina", bg: "from-purple-600 to-indigo-700 dark:from-purple-950 dark:to-indigo-900", icon: "thunderstorm" },
+    96: { text: "Grmljavina s tučom", bg: "from-purple-700 to-indigo-800 dark:from-purple-950 dark:to-indigo-950", icon: "thunderstorm" },
+    99: { text: "Nevrijeme s tučom", bg: "from-purple-800 to-red-950 dark:from-purple-950 dark:to-red-950", icon: "thunderstorm" }
+};
+
+const WEATHER_CITIES = [
+    { name: "Zagreb", lat: 45.8144, lon: 15.9780, region: "Središnja" },
+    { name: "Split", lat: 43.5081, lon: 16.4402, region: "Dalmacija" },
+    { name: "Rijeka", lat: 45.3271, lon: 14.4422, region: "Kvarner" },
+    { name: "Osijek", lat: 45.5550, lon: 18.6955, region: "Slavonija" },
+    { name: "Zadar", lat: 44.1194, lon: 15.2314, region: "Dalmacija" },
+    { name: "Pula", lat: 44.8683, lon: 13.8481, region: "Istra" },
+    { name: "Karlovac", lat: 45.4929, lon: 15.5553, region: "Središnja" },
+    { name: "Varaždin", lat: 46.3044, lon: 16.3378, region: "Sjeverna" },
+    { name: "Šibenik", lat: 43.7350, lon: 15.8949, region: "Dalmacija" },
+    { name: "Dubrovnik", lat: 42.6507, lon: 18.0944, region: "Dalmacija" }
+];
+
+let activeWeatherRegion = "Svi";
+let weatherFilterQuery = "";
+let fetchedWeatherData = null;
+
+function renderWeatherPage() {
+    const weatherArea = document.getElementById('weather-area');
+    if (!weatherArea) return;
+
+    // Render configuration bar and sizers if not yet initialized
+    if (!weatherArea.querySelector('#weather-grid')) {
+        weatherArea.innerHTML = `
+            <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm transition-colors space-y-4">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-base font-black tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-1 font-heading">
+                            🌤️ Vremenska prognoza za gradove
+                        </h2>
+                        <p class="text-[11px] text-slate-400 dark:text-slate-500 mt-1.5">Službene i točne informacije preuzete u realnom vremenu s meteorološke stanice Open-Meteo.</p>
+                    </div>
+                    
+                    <!-- Search City -->
+                    <div class="relative w-full md:w-64 max-w-xs">
+                        <input type="text" id="weather-search" placeholder="Pretraži grad..." 
+                               class="w-full bg-[#f4f5f6] dark:bg-slate-800 border border-slate-250 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 text-xs rounded-lg py-2 pl-8 pr-3 focus:outline-none focus:border-[#3645a5] transition-all">
+                        <div class="absolute left-2.5 top-2.5 text-slate-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Region Filters -->
+                <div class="flex flex-wrap gap-2 text-xs pt-1.5 border-t border-slate-100 dark:border-slate-800/80">
+                    <button class="weather-region-btn px-3 py-1.5 rounded-full font-bold transition-all bg-[#3645a5] text-white" data-region="Svi">Sve Regije</button>
+                    <button class="weather-region-btn px-3 py-1.5 rounded-full font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700" data-region="Dalmacija">Dalmacija</button>
+                    <button class="weather-region-btn px-3 py-1.5 rounded-full font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700" data-region="Kvarner / Istra">Istra & Kvarner</button>
+                    <button class="weather-region-btn px-3 py-1.5 rounded-full font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700" data-region="Kontinentalna">Kontinentalna</button>
+                </div>
+            </div>
+
+            <!-- Weather Cards Grid -->
+            <div id="weather-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="col-span-full py-20 text-center">
+                    <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-[#3645a5] mx-auto mb-4"></div>
+                    <p class="text-sm text-slate-500">Učitavanje vremenske prognoze...</p>
+                </div>
+            </div>
+        `;
+
+        // Attach listeners
+        const searchInp = document.getElementById('weather-search');
+        if (searchInp) {
+            searchInp.addEventListener('input', (e) => {
+                weatherFilterQuery = e.target.value.toLowerCase().trim();
+                filterAndRenderWeatherCards();
+            });
+        }
+
+        const regionBtns = weatherArea.querySelectorAll('.weather-region-btn');
+        regionBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                regionBtns.forEach(b => {
+                    b.className = "weather-region-btn px-3 py-1.5 rounded-full font-bold transition-all bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700";
+                });
+                e.currentTarget.className = "weather-region-btn px-3 py-1.5 rounded-full font-bold transition-all bg-[#3645a5] text-white";
+                activeWeatherRegion = e.currentTarget.getAttribute('data-region');
+                filterAndRenderWeatherCards();
+            });
+        });
+    }
+
+    if (fetchedWeatherData) {
+        filterAndRenderWeatherCards();
+        return;
+    }
+
+    // Load data from Open-Meteo
+    const lats = WEATHER_CITIES.map(c => c.lat).join(',');
+    const lons = WEATHER_CITIES.map(c => c.lon).join(',');
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&current_weather=true&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=Europe/Berlin`;
+
+    fetch(url)
+        .then(res => {
+            if (!res.ok) throw new Error("Vremenski servis trenutno nije dostupan.");
+            return res.json();
+        })
+        .then(data => {
+            fetchedWeatherData = data;
+            filterAndRenderWeatherCards();
+        })
+        .catch(err => {
+            const grid = document.getElementById('weather-grid');
+            if (grid) {
+                grid.innerHTML = `
+                    <div class="col-span-full py-16 text-center text-red-500">
+                        <svg class="w-10 h-10 mx-auto mb-2 opacity-80" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+                        </svg>
+                        <h4 class="font-bold text-sm">Povezivanje s Open-Meteo nije uspjelo!</h4>
+                        <p class="text-xs text-slate-500 mt-1">${err.message}</p>
+                    </div>
+                `;
+            }
+        });
+}
+
+function filterAndRenderWeatherCards() {
+    const grid = document.getElementById('weather-grid');
+    if (!grid || !fetchedWeatherData) return;
+
+    grid.innerHTML = "";
+
+    let count = 0;
+    WEATHER_CITIES.forEach((city, index) => {
+        // Text Search Filter
+        if (weatherFilterQuery && !city.name.toLowerCase().includes(weatherFilterQuery)) {
+            return;
+        }
+
+        // Region Filter
+        if (activeWeatherRegion !== "Svi") {
+            if (activeWeatherRegion === "Dalmacija" && city.region !== "Dalmacija") return;
+            if (activeWeatherRegion === "Kvarner / Istra" && city.region !== "Kvarner" && city.region !== "Istra") return;
+            if (activeWeatherRegion === "Kontinentalna" && city.region !== "Središnja" && city.region !== "Slavonija" && city.region !== "Sjeverna") return;
+        }
+
+        const cityWeather = fetchedWeatherData[index];
+        if (cityWeather) {
+            grid.innerHTML += createCityWeatherCard(city, cityWeather);
+            count++;
+        }
+    });
+
+    if (count === 0) {
+        grid.innerHTML = `
+            <div class="col-span-full py-16 text-center text-slate-400 dark:text-slate-500">
+                <svg class="w-8 h-8 mx-auto mb-2 opacity-40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+                </svg>
+                <p class="text-xs">Nema rezultata za odabrane kriterije.</p>
+            </div>
+        `;
+    }
+}
+
+function createCityWeatherCard(city, weather) {
+    const code = weather.current_weather.weathercode;
+    const info = WMO_CODES[code] || { text: "Nepoznato", bg: "from-slate-500 to-slate-400", icon: "sun" };
+    const temp = Math.round(weather.current_weather.temperature);
+    const wind = Math.round(weather.current_weather.windspeed);
+    const dir = weather.current_weather.winddirection;
+
+    return `
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md transition-all overflow-hidden flex flex-col justify-between group">
+            <!-- Card Header & Temperature -->
+            <div class="bg-gradient-to-tr ${info.bg} p-5 text-white relative">
+                <div class="absolute right-4 top-4 opacity-15 group-hover:scale-110 transition-transform duration-300">
+                    ${getWeatherIcon(info.icon)}
+                </div>
+                
+                <div class="flex justify-between items-start">
+                    <div>
+                        <span class="text-[9px] uppercase tracking-wider font-extrabold bg-white/20 px-2 py-0.5 rounded-full backdrop-blur-sm">${city.region} regija</span>
+                        <h3 class="text-base font-black tracking-tight mt-1.5 font-heading">${city.name}</h3>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-black tracking-tighter">${temp}°C</div>
+                        <div class="text-[9px] opacity-90 mt-0.5 font-bold uppercase tracking-wider">${info.text}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Body / Weather Stats -->
+            <div class="p-5 space-y-4">
+                <div class="grid grid-cols-2 gap-2 text-xs border-b border-slate-100 dark:border-slate-800/80 pb-3">
+                    <div class="flex items-center space-x-2 text-slate-500 dark:text-slate-400">
+                        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9.75h4.875a2.625 2.625 0 0 1 0 5.25H12M8.25 9.75 10.5 7.5M8.25 9.75 10.5 12" />
+                        </svg>
+                        <span>Vjetar: <strong class="text-slate-700 dark:text-slate-200">${wind} km/h</strong></span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-slate-500 dark:text-slate-400">
+                        <svg class="w-3.5 h-3.5 text-slate-400 rotate-45" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+                        </svg>
+                        <span>Smjer: <strong class="text-slate-700 dark:text-slate-200">${dir}°</strong></span>
+                    </div>
+                </div>
+
+                <!-- 3-Day Forecast Section -->
+                <div class="space-y-2.5">
+                    <h4 class="text-[9px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest">Prognoza 3 dana</h4>
+                    <div class="grid grid-cols-3 gap-2">
+                        ${renderThreeDayForecast(weather.daily)}
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function renderThreeDayForecast(daily) {
+    let html = "";
+    const dayNames = ["Danas", "Sutra", "Prekosutra"];
+    for (let i = 0; i < 3; i++) {
+        if (!daily.time[i]) continue;
+        const code = daily.weathercode[i];
+        const info = WMO_CODES[code] || { text: "Vedro", icon: "sun" };
+        const maxTemp = Math.round(daily.temperature_2m_max[i]);
+        const minTemp = Math.round(daily.temperature_2m_min[i]);
+        
+        html += `
+            <div class="bg-slate-50 dark:bg-slate-800/40 p-2 rounded-xl text-center flex flex-col justify-between items-center border border-slate-100/50 dark:border-slate-800/20">
+                <span class="text-[9px] text-slate-400 dark:text-slate-500 font-bold tracking-wider">${dayNames[i]}</span>
+                <div class="my-1 text-slate-500 dark:text-slate-400">
+                    ${getWeatherIconMini(info.icon)}
+                </div>
+                <div class="text-[9px] font-black text-slate-700 dark:text-slate-200">
+                    ${maxTemp}° <span class="text-slate-450 dark:text-slate-500 font-medium">${minTemp}°</span>
+                </div>
+            </div>
+        `;
+    }
+    return html;
+}
+
+function getWeatherIcon(iconName) {
+    const commonClass = "w-10 h-10 drop-shadow";
+    switch (iconName) {
+        case "sun":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M3 12h2.25m13.5 0H21M5.75 12a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z" />
+            </svg>`;
+        case "sun-cloud":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21M4.93 4.93l1.41 1.41M3 12h2.25m13.5 0H21" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+            </svg>`;
+        case "cloud":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+            </svg>`;
+        case "fog":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5M3.75 12h16.5M3.75 15h16.5M6.75 18h10.5" />
+            </svg>`;
+        case "rain-light":
+        case "rain":
+        case "rain-heavy":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 22l2-3m2 3l2-3" />
+            </svg>`;
+        case "snow":
+        case "snow-heavy":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M3 12h18" />
+            </svg>`;
+        case "thunderstorm":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25L9.75 14.25h3.75L12 18.75" />
+            </svg>`;
+        default:
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="${commonClass} text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21" />
+            </svg>`;
+    }
+}
+
+function getWeatherIconMini(iconName) {
+    const commonClass = "w-5 h-5";
+    switch (iconName) {
+        case "sun":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-amber-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M3 12h2.25m13.5 0H21M5.75 12a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z" />
+            </svg>`;
+        case "sun-cloud":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-amber-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+            </svg>`;
+        case "cloud":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-slate-400 dark:text-slate-350">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+            </svg>`;
+        case "fog":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-zinc-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5M3.75 12h16.5" />
+            </svg>`;
+        case "rain-light":
+        case "rain":
+        case "rain-heavy":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-sky-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 22l2-3m2 3l2-3" />
+            </svg>`;
+        case "snow":
+        case "snow-heavy":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-sky-200">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18" />
+            </svg>`;
+        case "thunderstorm":
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-yellow-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25L9.75 14.25h3.75L12 18.75" />
+            </svg>`;
+        default:
+            return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="${commonClass} text-slate-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25" />
+            </svg>`;
+    }
+}
+
 
 // Initialize search query from URL params at startup
 function initSearchQueryFromURL() {

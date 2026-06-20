@@ -50,4 +50,9 @@
     <changefreq>hourly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://vijesti-hrvatska.vercel.app/vrijeme</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
