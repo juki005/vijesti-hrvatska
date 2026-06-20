@@ -4677,6 +4677,33 @@ function renderDirectory() {
     });
 }
 
+let infiniteScrollObserver = null;
+
+function setupInfiniteScroll() {
+    const trigger = document.getElementById('infinite-scroll-trigger');
+    if (!trigger) return;
+
+    if (infiniteScrollObserver) {
+        infiniteScrollObserver.disconnect();
+    }
+
+    infiniteScrollObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (articles.length > 0) {
+                    currentArticlesLimit += 12;
+                    renderFeed();
+                }
+            }
+        });
+    }, {
+        rootMargin: '150px',
+        threshold: 0.1
+    });
+
+    infiniteScrollObserver.observe(trigger);
+}
+
 // Render Feed components (Splash Hero + Category Blocks or Grid cards)
 function renderFeed() {
     const splashSection = document.getElementById('splash-section');
@@ -4792,7 +4819,7 @@ function renderFeed() {
                     }
 
                     const card = document.createElement('div');
-                    card.className = 'group bg-slate-50 dark:bg-slate-950/40 border border-slate-200 dark:border-slate-850 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
+                    card.className = 'news-card group bg-slate-50 dark:bg-slate-950/40 border border-slate-200 dark:border-slate-850 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
                     card.onclick = (e) => {
                         if (e.target.closest('.bookmark-btn')) return;
                         window.open(article.link, '_blank');
@@ -4945,7 +4972,7 @@ function renderFeed() {
                 }
 
                 const card = document.createElement('div');
-                card.className = 'group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/60 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
+                card.className = 'news-card group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/60 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
                 card.onclick = (e) => {
                     if (e.target.closest('.bookmark-btn')) return;
                     window.open(article.link, '_blank');
@@ -4992,25 +5019,24 @@ function renderFeed() {
             });
         }
 
-        // Render "Prikaži više" (Show More) button if there are more items to load
+        // Render Infinite Scroll trigger element if there are more items to load
         let pagContainer = document.getElementById('pagination-container');
         if (!pagContainer) {
             pagContainer = document.createElement('div');
             pagContainer.id = 'pagination-container';
-            pagContainer.className = 'flex justify-center pt-6 pb-2 col-span-full';
+            pagContainer.className = 'flex justify-center pt-4 pb-2 col-span-full';
             if (grid) grid.parentNode.appendChild(pagContainer);
         }
 
         pagContainer.innerHTML = '';
         if (categoryFiltered.length > currentArticlesLimit) {
-            const btn = document.createElement('button');
-            btn.className = 'bg-[#e11d48] hover:bg-rose-700 text-white text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-lg shadow-sm transition-all hover:-translate-y-0.5 select-none font-heading';
-            btn.innerText = 'Prikaži više';
-            btn.onclick = () => {
-                currentArticlesLimit += 12;
-                renderFeed();
-            };
-            pagContainer.appendChild(btn);
+            pagContainer.innerHTML = `
+                <div id="infinite-scroll-trigger" class="py-6 flex flex-col items-center justify-center space-y-2 select-none w-full">
+                    <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-[#D13D1F] dark:border-[#E5472C]"></div>
+                    <span class="text-[10px] uppercase tracking-wider font-extrabold text-slate-405 dark:text-slate-500">Učitavanje još vijesti...</span>
+                </div>
+            `;
+            setupInfiniteScroll();
         }
     }
 }
@@ -5030,7 +5056,7 @@ function renderSplashHero(splashArticles) {
                </div>`;
 
         const card = document.createElement('div');
-        card.className = 'group bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer relative';
+        card.className = 'news-card group bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer relative';
         card.onclick = (e) => {
             if (e.target.closest('.bookmark-btn')) return;
             window.open(article.link, '_blank');
@@ -5057,15 +5083,6 @@ function renderSplashHero(splashArticles) {
             </div>
         `;
         splashSection.appendChild(card);
-    });
-
-    // Re-bind bookmark buttons clicks inside splash hero
-    document.querySelectorAll('.bookmark-btn').forEach(btn => {
-        btn.onclick = (e) => {
-            e.stopPropagation();
-            const link = btn.getAttribute('data-link');
-            toggleBookmark(link);
-        };
     });
 }
 
@@ -5575,6 +5592,7 @@ function renderSubNavigation() {
         { id: 'lifestyle', name: 'Lifestyle', file: 'lifestyle.html' },
         { id: 'biznis', name: 'Biznis', file: 'biznis.html' },
         { id: 'auti', name: 'Auti', file: 'auti.html' },
+        { id: 'vrijeme', name: 'Vrijeme 🌤️', file: 'vrijeme.html' },
         { id: 'portali', name: 'Portali 🌐', file: 'portali.html' },
         { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno.html' }
     ];
@@ -5600,7 +5618,7 @@ function renderSubNavigation() {
     const subMenuBar = document.getElementById('subcategory-menu-bar');
     const subContainer = document.getElementById('subcategory-container');
     
-    if (activeCategory !== 'sve' && activeCategory !== 'analitika' && activeCategory !== 'portali' && activeCategory !== 'spremljeno') {
+    if (activeCategory !== 'sve' && activeCategory !== 'analitika' && activeCategory !== 'portali' && activeCategory !== 'spremljeno' && activeCategory !== 'vrijeme') {
         const catConf = PORTAL_CATEGORIES.find(c => c.id === activeCategory);
         if (catConf && subContainer && subMenuBar) {
             subContainer.innerHTML = '';
@@ -5665,17 +5683,52 @@ function detectActivePage() {
         activeCategory = path.replace('.html', '');
     }
 
-    const hash = window.location.hash.substring(1) || 'sve';
-    activeSubcategory = hash;
+    let hash = window.location.hash.substring(1);
+    try {
+        hash = decodeURIComponent(hash);
+    } catch(e) {}
+    activeSubcategory = hash ? slugify(hash) : 'sve';
 }
 
 // Parse hash/url routing and render view
 function handleRoute() {
+    currentArticlesLimit = 12;
     detectActivePage();
 
     // Sync document titles and screen-reader H1 heading for SEO
-    const catName = activeCategory === 'sve' ? 'Sve Vijesti' : activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1);
-    const subName = activeSubcategory === 'sve' ? '' : ` - ${activeSubcategory.charAt(0).toUpperCase() + activeSubcategory.slice(1)}`;
+    let catName = 'Sve Vijesti';
+    if (activeCategory !== 'sve') {
+        const catConf = PORTAL_CATEGORIES.find(c => c.id === activeCategory);
+        if (catConf) {
+            catName = catConf.name.charAt(0).toUpperCase() + catConf.name.slice(1).toLowerCase();
+        } else if (activeCategory === 'analitika') {
+            catName = 'Analitika';
+        } else if (activeCategory === 'portali') {
+            catName = 'Portali';
+        } else if (activeCategory === 'spremljeno') {
+            catName = 'Spremljeno';
+        } else if (activeCategory === 'vrijeme') {
+            catName = 'Vrijeme';
+        } else {
+            catName = activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1);
+        }
+    }
+
+    let subName = '';
+    if (activeSubcategory !== 'sve') {
+        const catConf = PORTAL_CATEGORIES.find(c => c.id === activeCategory);
+        if (catConf) {
+            const originalSub = catConf.subcategories.find(sub => slugify(sub) === activeSubcategory);
+            if (originalSub) {
+                subName = ` - ${originalSub}`;
+            } else {
+                subName = ` - ${activeSubcategory.charAt(0).toUpperCase() + activeSubcategory.slice(1)}`;
+            }
+        } else {
+            subName = ` - ${activeSubcategory.charAt(0).toUpperCase() + activeSubcategory.slice(1)}`;
+        }
+    }
+
     const pageTitle = `${catName}${subName} | Vijesti Hrvatska`;
     document.title = pageTitle;
 
@@ -6254,10 +6307,22 @@ function savePortalMetadata() {
 
 // Setup Events
 function setupEventListeners() {
+    // Global delegated bookmark click handler
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.bookmark-btn');
+        if (btn) {
+            e.preventDefault();
+            e.stopPropagation();
+            const link = btn.getAttribute('data-link');
+            toggleBookmark(link);
+        }
+    });
+
     const searchInp = document.getElementById('search-input');
     if (searchInp) {
         searchInp.oninput = (e) => {
             searchQuery = e.target.value;
+            currentArticlesLimit = 12;
             
             // Sync with URL query parameter dynamically without reload
             const url = new URL(window.location.href);
@@ -6279,6 +6344,7 @@ function setupEventListeners() {
     if (datePicker) {
         datePicker.onchange = (e) => {
             selectedArchiveDate = e.target.value;
+            currentArticlesLimit = 12;
             if (selectedArchiveDate) {
                 if (clearDateBtn) clearDateBtn.classList.remove('hidden');
             } else {
@@ -6292,6 +6358,7 @@ function setupEventListeners() {
         clearDateBtn.onclick = () => {
             datePicker.value = '';
             selectedArchiveDate = '';
+            currentArticlesLimit = 12;
             clearDateBtn.classList.add('hidden');
             renderFeed();
         };
