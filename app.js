@@ -4273,26 +4273,21 @@ function matchSubcategory(article, subcatId) {
 
 // Resilient RSS fetch with fallback proxies
 async function fetchWithProxyFallback(feedUrl) {
+    // 1. Primary Proxy: Self-hosted Vercel serverless function (works in prod & local)
+    const proxyList = [
+        `/api/feed?url=${encodeURIComponent(feedUrl)}`
+    ];
+
+    // 2. Secondary Public Proxies (as fallbacks)
     const publicProxies = [
-        `https://corsproxy.io/?url=${encodeURIComponent(feedUrl)}`,
+        `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(feedUrl)}`,
+        `https://cors.lol/?url=${encodeURIComponent(feedUrl)}`,
         `https://api.allorigins.win/raw?url=${encodeURIComponent(feedUrl)}`,
-        `https://api.codetabs.com/v1/proxy?url=${encodeURIComponent(feedUrl)}`
+        `https://corsproxy.io/?url=${encodeURIComponent(feedUrl)}`
     ];
 
     // Shuffle public proxies to distribute request load and avoid rate limiting
     publicProxies.sort(() => Math.random() - 0.5);
-
-    const proxyList = [];
-    
-    // 1. Local Dev Proxy (highest priority when serving locally)
-    const isLocal = window.location.hostname === 'localhost' || 
-                    window.location.hostname === '127.0.0.1' || 
-                    window.location.port === '8000' ||
-                    window.location.port === '5500';
-                    
-    if (isLocal) {
-        proxyList.push(`/api/feed?url=${encodeURIComponent(feedUrl)}`);
-    }
     
     // Add shuffled public proxies
     proxyList.push(...publicProxies);
