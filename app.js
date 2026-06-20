@@ -5673,10 +5673,16 @@ function detectActivePage() {
 function handleRoute() {
     detectActivePage();
 
-    // Sync document titles
+    // Sync document titles and screen-reader H1 heading for SEO
     const catName = activeCategory === 'sve' ? 'Sve Vijesti' : activeCategory.charAt(0).toUpperCase() + activeCategory.slice(1);
     const subName = activeSubcategory === 'sve' ? '' : ` - ${activeSubcategory.charAt(0).toUpperCase() + activeSubcategory.slice(1)}`;
-    document.title = `${catName}${subName} | Vijesti Hrvatska`;
+    const pageTitle = `${catName}${subName} | Vijesti Hrvatska`;
+    document.title = pageTitle;
+
+    const h1Heading = document.getElementById('page-main-heading');
+    if (h1Heading) {
+        h1Heading.textContent = pageTitle;
+    }
 
     // Render subnavigation
     renderSubNavigation();
