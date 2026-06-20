@@ -4173,7 +4173,7 @@ const CATEGORY_KEYWORDS = {
 // Subcategory-specific keyword mappings
 const SUBCATEGORY_KEYWORDS = {
     'sport/nogomet': ['nogomet', 'dinamo', 'hajduk', 'hns', 'utakmica', 'liga', 'prvak', 'gol', 'trener', 'klub', 'transfer', 'anfield', 'liverpool', 'iraola'],
-    'sport/košarka': ['košarka', 'nba', 'cibona', 'zadar', 'abaz', 'trice', 'obruč', 'basket'],
+    'sport/kosarka': ['košarka', 'nba', 'cibona', 'zadar', 'abaz', 'trice', 'obruč', 'basket'],
     'sport/tenis': ['tenis', 'wimbledon', 'atp', 'wta', 'vekic', 'vekić', 'đoković', 'reket', 'set', 'gem', 'donna', 'vekic'],
     'vijesti/dalmacija': ['dalmacij', 'split', 'zadar', 'šibenik', 'dubrovnik', 'torcida', 'poljud', 'otok', 'more', 'hvar', 'brač', 'dalmatin'],
     'vijesti/slavonija': ['slavonij', 'osijek', 'vinkovci', 'brod', 'požega', 'vukovar', 'đakovo', 'ravnica'],
@@ -4184,7 +4184,7 @@ const SUBCATEGORY_KEYWORDS = {
     'lifestyle/moda': ['moda', 'ljepota', 'haljina', 'revija', 'stil', 'kozmetika', 'manekenka', 'odjeća'],
     'lifestyle/zdravlje': ['zdravlje', 'lijek', 'tijelo', 'bolest', 'simptom', 'doktor', 'bolnica', 'prehrana', 'zdrav'],
     'lifestyle/kuharica': ['recept', 'kuhar', 'jelo', 'kuhanje', 'sastojci', 'kolač', 'torta', 'okus', 'gastronom', 'hrana'],
-    'biznis/tržište': ['tržište', 'cijene', 'inflacija', 'dionice', 'hnb', 'plata', 'plaća', 'trgovina'],
+    'biznis/trziste': ['tržište', 'cijene', 'inflacija', 'dionice', 'hnb', 'plata', 'plaća', 'trgovina'],
     'biznis/financije': ['financije', 'porez', 'banka', 'euro', 'kredit', 'investicij', 'novac'],
     'auti/formula': ['formula', 'f1', 'russell', 'hamilton', 'ferrari', 'mclaren', 'verstappen', 'bolid', 'pole'],
     'auti/testovi': ['test', 'vožnja', 'recenzija', 'rimac', 'brzina', 'snaga', 'ubrzanje']
@@ -5618,7 +5618,7 @@ function renderSubNavigation() {
             subContainer.appendChild(allBtn);
 
             catConf.subcategories.forEach(sub => {
-                const subId = sub.toLowerCase().replace(/\s+/g, '-').replace(/i-kvarner/g, 'istra-i-kvarner');
+                const subId = slugify(sub);
                 const btn = document.createElement('a');
                 btn.href = `#${subId}`;
                 const isSubActive = activeSubcategory === subId;
@@ -5638,6 +5638,17 @@ function renderSubNavigation() {
             subMenuBar.classList.add('hidden');
         }
     }
+}
+
+function slugify(text) {
+    return text.toLowerCase()
+        .replace(/š/g, 's')
+        .replace(/ć/g, 'c')
+        .replace(/č/g, 'c')
+        .replace(/đ/g, 'd')
+        .replace(/ž/g, 'z')
+        .replace(/\s+/g, '-')
+        .replace(/[^a-z0-9\-]/g, '');
 }
 
 // Detect active category and subcategory based on URL filename and hash
