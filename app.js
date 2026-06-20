@@ -5606,7 +5606,11 @@ function renderSubNavigation() {
         const btn = document.createElement('a');
         btn.href = c.file;
         const isActive = activeCategory === c.id;
-        btn.className = `px-4 py-1 text-sm font-extrabold rounded transition-all shrink-0 uppercase tracking-wide select-none ${
+        
+        // Hide static page links in the category bar on desktop since they are already in the main header
+        const responsiveClasses = ['vrijeme', 'portali', 'spremljeno', 'analitika'].includes(c.id) ? ' lg:hidden' : '';
+        
+        btn.className = `px-4 py-1 text-sm font-extrabold rounded transition-all shrink-0 uppercase tracking-wide select-none${responsiveClasses} ${
             isActive 
                 ? 'bg-[#D13D1F] text-white shadow-sm' 
                 : 'bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700'
