@@ -4273,28 +4273,40 @@ function matchSubcategory(article, subcatId) {
 
 // Resilient RSS fetch with fallback proxies
 async function fetchWithProxyFallback(feedUrl) {
+    const publicProxies = [
+        `https://corsproxy.io/?url=${encodeURIComponent(feedUrl)}`,
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(feedUrl)}`,
+        `https://api.codetabs.com/v1/proxy?url=${encodeURIComponent(feedUrl)}`
+    ];
+
+    // Shuffle public proxies to distribute request load and avoid rate limiting
+    publicProxies.sort(() => Math.random() - 0.5);
+
     const proxyList = [];
     
     // 1. Local Dev Proxy (highest priority when serving locally)
     const isLocal = window.location.hostname === 'localhost' || 
                     window.location.hostname === '127.0.0.1' || 
                     window.location.port === '8000' ||
-                    window.location.port === '5500'; // common Live Server port
+                    window.location.port === '5500';
                     
     if (isLocal) {
         proxyList.push(`/api/feed?url=${encodeURIComponent(feedUrl)}`);
     }
     
-    // 2. Public Fallback Proxies
-    proxyList.push(`https://corsproxy.io/?url=${encodeURIComponent(feedUrl)}`);
-    proxyList.push(`https://api.allorigins.win/raw?url=${encodeURIComponent(feedUrl)}`);
-    proxyList.push(`https://api.codetabs.com/v1/proxy?url=${encodeURIComponent(feedUrl)}`);
+    // Add shuffled public proxies
+    proxyList.push(...publicProxies);
     
     let lastError = null;
     for (const proxyUrl of proxyList) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
+        
         try {
             console.log(`Fetching feed via proxy: ${proxyUrl}`);
-            const response = await fetch(proxyUrl);
+            const response = await fetch(proxyUrl, { signal: controller.signal });
+            clearTimeout(timeoutId);
+            
             if (!response.ok) {
                 throw new Error(`HTTP error status ${response.status}`);
             }
@@ -4308,7 +4320,9 @@ async function fetchWithProxyFallback(feedUrl) {
             }
             return text;
         } catch (err) {
-            console.warn(`Proxy failed: ${proxyUrl}`, err);
+            clearTimeout(timeoutId);
+            const isTimeout = err.name === 'AbortError';
+            console.warn(`Proxy failed ${isTimeout ? '(timeout)' : ''}: ${proxyUrl}`, err);
             lastError = err;
         }
     }
@@ -4512,7 +4526,7 @@ async function fetchFromRSSProxy() {
 
 // Fetch from Supabase
 async function fetchFromSupabase(config) {
-    const url = `${config.url}/rest/v1/news_feeds?select=*&order=published_at.desc&limit=120`;
+    const url = `${config.url}/rest/v1/news_feeds?select=*&order=published_at.desc&limit=800`;
     const response = await fetch(url, {
         method: 'GET',
         headers: {
