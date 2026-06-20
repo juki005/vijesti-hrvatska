@@ -5687,6 +5687,12 @@ function handleRoute() {
     // Render subnavigation
     renderSubNavigation();
 
+    const feedArea = document.getElementById('feed-area');
+    const analyticsArea = document.getElementById('analytics-area');
+    const portaliArea = document.getElementById('portali-area');
+    const emptyState = document.getElementById('empty-state');
+    const mainEl = document.getElementById('main-content');
+    const sidebarEl = document.getElementById('sidebar');
     const weatherArea = document.getElementById('weather-area');
 
     // Adjust sidebar and main layout width dynamically
