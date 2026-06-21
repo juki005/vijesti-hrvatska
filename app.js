@@ -6482,30 +6482,7 @@ function setupEventListeners() {
         customFeedAddBtn.onclick = window.addCustomFeed;
     }
 
-    // Admin login and logout trigger handler
-    const adminLoginBtn = document.getElementById('admin-login-btn');
-    if (adminLoginBtn) {
-        adminLoginBtn.onclick = (e) => {
-            e.preventDefault();
-            const isLogged = sessionStorage.getItem('admin_logged_in') === 'true';
-            if (isLogged) {
-                if (confirm("Želite li se odjaviti iz administratorskog načina rada?")) {
-                    sessionStorage.removeItem('admin_logged_in');
-                    alert("Uspješno ste se odjavili.");
-                    window.location.href = 'index.html';
-                }
-            } else {
-                const password = prompt("Unesite administratorsku lozinku:");
-                if (password === 'admin123') {
-                    sessionStorage.setItem('admin_logged_in', 'true');
-                    alert("Uspješno ste se prijavili!");
-                    location.reload();
-                } else if (password !== null) {
-                    alert("Pogrešna lozinka!");
-                }
-            }
-        };
-    }
+
 }
 
 // Admin accessibility control

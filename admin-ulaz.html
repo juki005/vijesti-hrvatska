@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Prijava | Vijesti Hrvatska</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        klik: {
+                            blue: '#3c4fe0',
+                            dark: '#0e111a',
+                            accent: '#2b39ba'
+                        },
+                        slate: {
+                            950: '#090d16',
+                            900: '#111827',
+                            850: '#1f2937',
+                            800: '#374151'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(circle at top, #1e293b, #090d16);
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .shake {
+            animation: shake 0.4s ease-in-out;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20%, 60% { transform: translateX(-6px); }
+            40%, 80% { transform: translateX(6px); }
+        }
+    </style>
+</head>
+<body class="text-slate-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Card Container -->
+    <div class="w-full max-w-md bg-slate-900/60 backdrop-blur-md border border-slate-800 rounded-2xl p-8 shadow-2xl transition-all duration-300 hover:border-slate-700/60 relative overflow-hidden">
+        
+        <!-- Glow effect -->
+        <div class="absolute -top-24 -left-24 w-48 h-48 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -right-24 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <!-- Back to Home -->
+        <div class="mb-8">
+            <a href="index.html" class="inline-flex items-center text-xs text-slate-400 hover:text-white transition-colors gap-1.5 font-medium">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                </svg>
+                Povratak na naslovnicu
+            </a>
+        </div>
+
+        <!-- Branding / Header -->
+        <div class="text-center mb-8 select-none">
+            <div class="inline-flex w-12 h-12 rounded-2xl bg-gradient-to-tr from-rose-600 to-red-500 items-center justify-center shadow-lg shadow-rose-950/20 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                </svg>
+            </div>
+            <h2 class="text-xl font-extrabold text-white tracking-tight uppercase">Admin Panel</h2>
+            <p id="admin-subtitle" class="text-xs text-slate-400 mt-1.5">Unesite lozinku za pristup administratorskom sučelju</p>
+        </div>
+
+        <!-- Logged In State Container (hidden by default) -->
+        <div id="logged-in-container" class="hidden space-y-4">
+            <div class="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-4 text-center">
+                <p class="text-sm font-semibold text-emerald-400 flex items-center justify-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4.5 h-4.5">
+                        <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.748-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                    Prijavljeni ste kao administrator
+                </p>
+            </div>
+            
+            <a href="analitika.html" 
+               class="w-full bg-gradient-to-r from-rose-600 to-red-500 hover:from-rose-500 hover:to-red-400 text-white font-bold text-sm py-3.5 rounded-xl transition-all duration-300 shadow-md hover:shadow-rose-500/20 active:scale-[0.99] select-none uppercase tracking-wider block text-center">
+                Idi na Analitiku
+            </a>
+            
+            <button id="logout-btn" 
+                    class="w-full bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-350 hover:text-white font-semibold text-xs py-3 rounded-xl transition-all duration-200 uppercase tracking-wider">
+                Odjavi se
+            </button>
+        </div>
+
+        <!-- Form (visible by default) -->
+        <form id="login-form" class="space-y-5">
+            <div>
+                <label for="password-input" class="block text-xs font-bold text-slate-450 uppercase tracking-wider mb-2">Lozinka</label>
+                <div class="relative">
+                    <input type="password" id="password-input" placeholder="••••••••" required
+                           class="w-full bg-[#111827]/80 border border-slate-700 hover:border-slate-650 text-slate-100 text-sm rounded-xl py-3 pl-4 pr-10 focus:outline-none focus:border-[#3c4fe0] focus:ring-1 focus:ring-[#3c4fe0] transition-all duration-200">
+                    <!-- Toggle Visibility Button -->
+                    <button type="button" id="toggle-password" class="absolute right-3.5 top-3.5 text-slate-400 hover:text-slate-200 transition-colors focus:outline-none">
+                        <!-- Eye Icon -->
+                        <svg id="eye-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.43 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        <!-- Eye Slash Icon (hidden by default) -->
+                        <svg id="eye-slash-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 hidden">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.815 7.815L21 21m-2.2-2.2-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+                        </svg>
+                    </button>
+                </div>
+                <p id="error-message" class="text-xs text-rose-500 font-bold mt-2 invisible">Pogrešna lozinka! Molimo pokušajte ponovno.</p>
+            </div>
+
+            <button type="submit" 
+                    class="w-full bg-gradient-to-r from-rose-600 to-red-500 hover:from-rose-500 hover:to-red-400 text-white font-bold text-sm py-3.5 rounded-xl transition-all duration-300 shadow-md hover:shadow-rose-500/20 active:scale-[0.99] select-none uppercase tracking-wider">
+                Prijavi se
+            </button>
+        </form>
+    </div>
+
+    <script>
+        const isLogged = sessionStorage.getItem('admin_logged_in') === 'true';
+        const loginForm = document.getElementById('login-form');
+        const loggedInContainer = document.getElementById('logged-in-container');
+        const adminSubtitle = document.getElementById('admin-subtitle');
+
+        if (isLogged) {
+            loginForm.classList.add('hidden');
+            loggedInContainer.classList.remove('hidden');
+            adminSubtitle.textContent = 'Upravljanje administratorskim načinom rada';
+        }
+
+        // Toggle password visibility
+        const passwordInput = document.getElementById('password-input');
+        const toggleBtn = document.getElementById('toggle-password');
+        const eyeIcon = document.getElementById('eye-icon');
+        const eyeSlashIcon = document.getElementById('eye-slash-icon');
+
+        toggleBtn.addEventListener('click', () => {
+            const isPassword = passwordInput.type === 'password';
+            passwordInput.type = isPassword ? 'text' : 'password';
+            
+            if (isPassword) {
+                eyeIcon.classList.add('hidden');
+                eyeSlashIcon.classList.remove('hidden');
+            } else {
+                eyeIcon.classList.remove('hidden');
+                eyeSlashIcon.classList.add('hidden');
+            }
+        });
+
+        // Hash helper using Web Crypto API
+        async function sha256(str) {
+            const buffer = new TextEncoder().encode(str);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', buffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // Handle Form Submit
+        const errorMessage = document.getElementById('error-message');
+        const card = loginForm.parentElement;
+
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            errorMessage.classList.add('invisible');
+            
+            const password = passwordInput.value;
+            const hashedPassword = await sha256(password);
+            
+            // Expected target SHA-256 hash of "VijestiHrvatska2026AdminSecure!"
+            const targetHash = 'd45fdd9e4ec0c2428a4ded35373b4a2f5a79c9f80a240877188d8010c7be5ecd';
+            
+            if (hashedPassword === targetHash) {
+                sessionStorage.setItem('admin_logged_in', 'true');
+                window.location.href = 'analitika.html';
+            } else {
+                card.classList.add('shake');
+                errorMessage.classList.remove('invisible');
+                passwordInput.value = '';
+                passwordInput.focus();
+                
+                setTimeout(() => {
+                    card.classList.remove('shake');
+                }, 400);
+            }
+        });
+
+        // Handle Logout
+        const logoutBtn = document.getElementById('logout-btn');
+        logoutBtn.addEventListener('click', () => {
+            if (confirm("Želite li se odjaviti iz administratorskog načina rada?")) {
+                sessionStorage.removeItem('admin_logged_in');
+                location.reload();
+            }
+        });
+    </script>
+</body>
+</html>
