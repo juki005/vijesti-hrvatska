@@ -4869,7 +4869,7 @@ function renderFeed() {
                 categoryBlocks.appendChild(block);
 
                 // Insert Ad slot after the second category block (Vijesti & Sport)
-                if (idx === 1) {
+                if (false) { // Disabled placeholder ad to focus on news traffic first
                     const homeAd = document.createElement('div');
                     homeAd.className = 'bg-white dark:bg-slate-850 p-4 border border-slate-200 dark:border-slate-750 rounded-xl shadow-sm text-center relative overflow-hidden transition-colors';
                     homeAd.innerHTML = `
@@ -4952,7 +4952,7 @@ function renderFeed() {
             const visibleArticles = categoryFiltered.slice(0, currentArticlesLimit);
             visibleArticles.forEach((article, idx) => {
                 // Inject a Native Ad card after the 4th item (index 3)
-                if (idx === 3) {
+                if (false) { // Disabled placeholder native ad
                     const adCard = document.createElement('div');
                     adCard.className = 'group bg-white dark:bg-slate-800 border border-amber-500/20 dark:border-amber-500/10 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between p-4 relative min-h-[220px] transition-colors';
                     adCard.innerHTML = `
