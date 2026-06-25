@@ -17,7 +17,11 @@ const RSS_SOURCES = [
     { id: 'poslovni', name: 'Poslovni dnevnik', url: 'https://www.poslovni.hr/feed', color: 'bg-amber-600 text-white', logoText: 'PD' },
     { id: 'autoportal', name: 'Autoportal.hr', url: 'https://autoportal.hr/feed/', color: 'bg-orange-600 text-white', logoText: 'AP' },
     { id: 'journal', name: 'Journal.hr', url: 'https://www.journal.hr/feed/', color: 'bg-pink-600 text-white', logoText: 'J' },
-    { id: 'punkufer', name: 'Punkufer.hr', url: 'https://punkufer.dnevnik.hr/rss', color: 'bg-pink-500 text-white', logoText: 'PK' }
+    { id: 'punkufer', name: 'Punkufer.hr', url: 'https://punkufer.dnevnik.hr/rss', color: 'bg-pink-500 text-white', logoText: 'PK' },
+    { id: 'jutarnji', name: 'Jutarnji list', url: 'https://www.jutarnji.hr/feed', color: 'bg-blue-900 text-white', logoText: 'JL' },
+    { id: 'telegram', name: 'Telegram.hr', url: 'https://www.telegram.hr/feed/', color: 'bg-[#005c8a] text-white', logoText: 'TG' },
+    { id: 'dnevnik', name: 'Dnevnik.hr', url: 'https://dnevnik.hr/index.rss', color: 'bg-red-700 text-white', logoText: 'DN' },
+    { id: 'monitor', name: 'Monitor.hr', url: 'https://www.monitor.hr/feed/', color: 'bg-[#C3151B] text-white', logoText: 'M' }
 ];
 
 
@@ -4915,10 +4919,14 @@ function renderFeed() {
                 }
                 return false;
             });
-            // Further filter by subcategory if activeSubcategory is not 'sve'
             if (activeSubcategory !== 'sve') {
                 categoryFiltered = categoryFiltered.filter(a => matchSubcategory(a, activeSubcategory));
             }
+        }
+        
+        // Limit category pages to 50 articles maximum
+        if (activeCategory !== 'sve' && activeCategory !== 'spremljeno') {
+            categoryFiltered = categoryFiltered.slice(0, 50);
         }
 
         const countEl = document.getElementById('news-count');

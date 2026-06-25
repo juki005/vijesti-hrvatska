@@ -51,6 +51,10 @@ def main():
         # Update cache-buster version for app.js
         content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.3', content)
         
+        # Replace SEO text placeholder with the page-specific text using regex
+        seo_text = seo.get("seo_text", "")
+        content = re.sub(r'<p id="seo-description-text">[\s\S]*?</p>', f'<p id="seo-description-text">{seo_text}</p>', content)
+        
         # Write compile results to destination file
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(content)
