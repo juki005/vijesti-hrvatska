@@ -106,12 +106,6 @@ const CATEGORIZED_PORTALS = {
             "description": "Portal Jutarnjeg lista"
         },
         {
-            "name": "Jutarnji.hr",
-            "url": "https://www.jutarnji.hr",
-            "domain": "jutarnji.hr",
-            "description": ""
-        },
-        {
             "name": "Index oglasi",
             "url": "https://www.index.hr/oglasi/",
             "domain": "index.hr",
@@ -3422,7 +3416,7 @@ const CATEGORIZED_PORTALS = {
                 "name": "Meteo.hr",
                 "url": "https://meteo.hr/",
                 "domain": "meteo.hr",
-                "description": "Državni meteorološki zavod"
+                "description": "Državni hidrometeorološki zavod (DHMZ)"
             },
             {
                 "name": "Merlin",
@@ -3596,12 +3590,6 @@ const CATEGORIZED_PORTALS = {
                 "name": "Igre123",
                 "url": "https://www.igre123.net/",
                 "domain": "igre123.net",
-                "description": ""
-            },
-            {
-                "name": "Igre.hr",
-                "url": "http://www.igre.hr/",
-                "domain": "igre.hr",
                 "description": ""
             },
             {
@@ -3890,12 +3878,6 @@ const CATEGORIZED_PORTALS = {
                 "name": "Direkcija za korištenje službenih zrakoplova",
                 "url": "https://gov.hr/direkcija-za-koristenje-sluzbenih-zrakoplova/1560",
                 "domain": "gov.hr",
-                "description": ""
-            },
-            {
-                "name": "DHMZ",
-                "url": "https://www.meteo.hr/",
-                "domain": "meteo.hr",
                 "description": ""
             },
             {
