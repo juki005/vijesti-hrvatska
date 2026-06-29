@@ -1,58 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/</loc>
+    <loc>https://www.vijesti-hrvatska.com/</loc>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/vijesti</loc>
+    <loc>https://www.vijesti-hrvatska.com/vijesti</loc>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/sport</loc>
+    <loc>https://www.vijesti-hrvatska.com/sport</loc>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/tech</loc>
+    <loc>https://www.vijesti-hrvatska.com/tech</loc>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/lifestyle</loc>
+    <loc>https://www.vijesti-hrvatska.com/lifestyle</loc>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/biznis</loc>
+    <loc>https://www.vijesti-hrvatska.com/biznis</loc>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/auti</loc>
+    <loc>https://www.vijesti-hrvatska.com/auti</loc>
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/portali</loc>
+    <loc>https://www.vijesti-hrvatska.com/portali</loc>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://vijesti-hrvatska.vercel.app/spremljeno</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://vijesti-hrvatska.vercel.app/analitika</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://vijesti-hrvatska.vercel.app/vrijeme</loc>
+    <loc>https://www.vijesti-hrvatska.com/vrijeme</loc>
     <changefreq>hourly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/impressum</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/pravila</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/uvjeti</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

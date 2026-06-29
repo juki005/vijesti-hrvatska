@@ -22,10 +22,10 @@ def main():
         
         # Calculate canonical URL
         if key == "index":
-            canonical_url = "https://vijesti-hrvatska.vercel.app/"
+            canonical_url = "https://www.vijesti-hrvatska.com/"
             file_name = "index.html"
         else:
-            canonical_url = f"https://vijesti-hrvatska.vercel.app/{key}"
+            canonical_url = f"https://www.vijesti-hrvatska.com/{key}"
             file_name = f"{key}.html"
             
         dest_path = os.path.join(cwd, file_name)
