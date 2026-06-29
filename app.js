@@ -21,7 +21,8 @@ const RSS_SOURCES = [
     { id: 'jutarnji', name: 'Jutarnji list', url: 'https://www.jutarnji.hr/feed', color: 'bg-blue-900 text-white', logoText: 'JL' },
     { id: 'telegram', name: 'Telegram.hr', url: 'https://www.telegram.hr/feed/', color: 'bg-[#005c8a] text-white', logoText: 'TG' },
     { id: 'dnevnik', name: 'Dnevnik.hr', url: 'https://dnevnik.hr/index.rss', color: 'bg-red-700 text-white', logoText: 'DN' },
-    { id: 'monitor', name: 'Monitor.hr', url: 'https://www.monitor.hr/feed/', color: 'bg-[#C3151B] text-white', logoText: 'M' }
+    { id: 'monitor', name: 'Monitor.hr', url: 'https://www.monitor.hr/feed/', color: 'bg-[#C3151B] text-white', logoText: 'M' },
+    { id: 'n1info', name: 'N1 Info', url: 'https://n1info.hr/feed/', color: 'bg-blue-800 text-white', logoText: 'N1' }
 ];
 
 
@@ -164,6 +165,12 @@ const CATEGORIZED_PORTALS = {
             "url": "https://www.24sata.hr/",
             "domain": "24sata.hr",
             "description": ""
+        },
+        {
+            "name": "Danas.hr",
+            "url": "https://danas.hr/",
+            "domain": "danas.hr",
+            "description": "Informativni portal RTL-a"
         }
     ],
     "lokalni": {
@@ -415,6 +422,12 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://www.057info.hr/",
                 "domain": "057info.hr",
                 "description": "Portal zadarskog radija"
+            },
+            {
+                "name": "Zadarski list",
+                "url": "https://www.zadarskilist.hr/",
+                "domain": "zadarskilist.hr",
+                "description": "Prve i jedine dnevne novine u Zadarskoj županiji"
             }
         ],
         "slavonija": [
@@ -465,6 +478,18 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://031portal.hr/",
                 "domain": "031portal.hr",
                 "description": "Vijesti iz Osijeka i osječko-baranjske županije"
+            },
+            {
+                "name": "Glas Slavonije",
+                "url": "http://www.glas-slavonije.hr/",
+                "domain": "glas-slavonije.hr",
+                "description": "Najznačajniji regionalni dnevni list i portal u Slavoniji"
+            },
+            {
+                "name": "Požega.eu",
+                "url": "https://pozega.eu/",
+                "domain": "pozega.eu",
+                "description": "Informativni portal grada Požege i županije"
             }
         ],
         "istra-i-kvarner": [
@@ -533,6 +558,12 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://airport-pula.hr/",
                 "domain": "airport-pula.hr",
                 "description": "Zračna luka Pula"
+            },
+            {
+                "name": "Fiuman.hr",
+                "url": "https://fiuman.hr/",
+                "domain": "fiuman.hr",
+                "description": "Riječki informativni portal za Kvarner"
             }
         ],
         "ostalo": [
@@ -745,6 +776,24 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://www.034portal.hr/",
                 "domain": "034portal.hr",
                 "description": "Portal Požeško-slavonske županije"
+            },
+            {
+                "name": "Podravski.hr",
+                "url": "https://podravski.hr/",
+                "domain": "podravski.hr",
+                "description": "Najčitaniji portal u Koprivničko-križevačkoj županiji"
+            },
+            {
+                "name": "Varaždinski.hr",
+                "url": "https://varazdinski.net.hr/",
+                "domain": "varazdinski.net.hr",
+                "description": "Lokalni informativni portal za Varaždinsku županiju"
+            },
+            {
+                "name": "Zagorje.com",
+                "url": "https://www.zagorje.com/",
+                "domain": "zagorje.com",
+                "description": "Vodeći portal u Krapinsko-zagorskoj županiji"
             }
         ]
     },
@@ -971,6 +1020,18 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://3sporta.com/",
                 "domain": "3sporta.com",
                 "description": "Trčanje, biciklizam, plivanje"
+            },
+            {
+                "name": "Sportnet.hr",
+                "url": "https://sportnet.hr/",
+                "domain": "sportnet.hr",
+                "description": "Najveći i najstariji hrvatski sportski portal"
+            },
+            {
+                "name": "Germanijak.hr",
+                "url": "https://www.germanijak.hr/",
+                "domain": "germanijak.hr",
+                "description": "Sportski portal s najnovijim vijestima i analizama"
             }
         ],
         "tech": [
@@ -1647,6 +1708,24 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://www.agm.hr/hr/",
                 "domain": "agm.hr",
                 "description": ""
+            },
+            {
+                "name": "Zadovoljna.hr",
+                "url": "https://zadovoljna.dnevnik.hr/",
+                "domain": "zadovoljna.dnevnik.hr",
+                "description": "Lifestyle portal za žene"
+            },
+            {
+                "name": "Scena.hr",
+                "url": "https://scena.hr/",
+                "domain": "scena.hr",
+                "description": "Showbiz, lifestyle i kulturni portal"
+            },
+            {
+                "name": "Journal.hr",
+                "url": "https://www.journal.hr/",
+                "domain": "journal.hr",
+                "description": "Jedan of vodećih lifestyle portala u Hrvatskoj"
             }
         ],
         "biznis": [
@@ -2255,6 +2334,18 @@ const CATEGORIZED_PORTALS = {
                 "url": "https://www.addiko.hr/",
                 "domain": "addiko.hr",
                 "description": ""
+            },
+            {
+                "name": "Lider.media",
+                "url": "https://lider.media/",
+                "domain": "lider.media",
+                "description": "Najutjecajniji poslovni tjednik i portal u Hrvatskoj"
+            },
+            {
+                "name": "Forbes Croatia",
+                "url": "https://forbes.n1info.hr/",
+                "domain": "forbes.n1info.hr",
+                "description": "Hrvatsko izdanje vodećeg svjetskog poslovnog medija"
             }
         ],
         "auti": [
@@ -2978,12 +3069,6 @@ const CATEGORIZED_PORTALS = {
                 "name": "SportTube",
                 "url": "https://www.sporttube.com/en/football",
                 "domain": "sporttube.com",
-                "description": ""
-            },
-            {
-                "name": "Sportnet.hr",
-                "url": "https://sportnet.hr/",
-                "domain": "sportnet.hr",
                 "description": ""
             },
             {
