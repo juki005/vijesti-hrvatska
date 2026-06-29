@@ -4233,11 +4233,11 @@ const PORTAL_CATEGORIES = [
 
 // Dynamic category keyword mappings (Croatian)
 const CATEGORY_KEYWORDS = {
-    vijesti: ['vijest', 'politika', 'vlada', 'hdz', 'sdp', 'sabor', 'zagreb', 'hrvatska', 'svijet', 'rat', 'policija', 'nesreća', 'požar', 'sud', 'izbori', 'ministar', 'sabor', 'štrajk', 'prosvjed', 'ubojstvo', 'kriminal', 'optužnic', 'gradonačelnik'],
-    sport: ['sport', 'nogomet', 'dinamo', 'hajduk', 'hns', 'modrić', 'tenis', 'košarka', 'liga', 'utakmica', 'reprezentacija', 'prvak', 'kup', 'gol', 'trener', 'klub', 'transfer', 'vekić', 'formula', 'vaterpolo', 'rukomet', 'hNL', 'olimpijsk', 'medalj', 'poraz', 'pobjed', 'ždrijeb'],
-    tech: ['tech', 'tehnolog', 'mobitel', 'android', 'iphone', 'apple', 'google', 'microsoft', 'igra', 'gaming', 'playstation', 'pc', 'računal', 'softver', 'ai', 'umjetna inteligencija', 'smartfon', 'oblaka', 'znanost', 'istraživanj', 'svemir', 'nasa', 'hakir', 'čip', 'aplikacij', 'cyber', 'robot'],
-    lifestyle: ['lifestyle', 'moda', 'ljepota', 'recept', 'kuhar', 'glazba', 'film', 'serija', 'estrada', 'horoskop', 'ljubav', 'zdravlje', 'savjet', 'putovan', 'pjevač', 'brak', 'glumac', 'turiz', 'turist', 'ljeto', 'gastro', 'restoran', 'koncert', 'pjesma'],
-    biznis: ['biznis', 'gospodarstvo', 'ekonomija', 'posao', 'tvrtka', 'investicij', 'dionice', 'financije', 'porez', 'inflacija', 'euro', 'cijena', 'tržište', 'plata', 'plaća', 'banka', 'bDP', 'kredit', 'kamata', 'dionica', 'kompanij', 'ulaganj', 'proračun'],
+    vijesti: ['vijest', 'politika', 'vlada', 'hdz', 'sdp', 'sabor', 'izbor', 'ministar', 'štrajk', 'prosvjed', 'ubojst', 'kriminal', 'optuž', 'gradonačelnik', 'policij', 'nesreć', 'požar', 'sud', 'rat', 'žrtv', 'tragedij', 'pogin', 'mrtv', 'smrt', 'ubij', 'napad', 'ranjen', 'ozlijeđ', 'sudar', 'uhićen'],
+    sport: ['sport', 'nogomet', 'dinamo', 'hajduk', 'hns', 'modrić', 'tenis', 'košark', 'lig', 'utakmic', 'reprezenta', 'reprezentativ', 'prvak', 'prvac', 'prvenstv', 'kup', 'gol', 'trener', 'klub', 'transfer', 'vekić', 'formula', 'vaterpol', 'rukometa', 'hnl', 'olimpij', 'medalj', 'poraz', 'pobjed', 'pobijed', 'ždrijeb', 'momčad', 'ekip', 'igrač', 'teren', 'stadion', 'izbornik', 'polufinal', 'finale'],
+    tech: ['tech', 'tehnolog', 'mobitel', 'android', 'iphone', 'apple', 'google', 'microsoft', 'gaming', 'playstation', 'xbox', 'nintendo', 'računal', 'softver', 'umjetn', 'inteligenc', 'smartfon', 'znanost', 'znanstv', 'istraživanj', 'svemir', 'nasa', 'hakir', 'čip', 'aplikacij', 'cyber', 'robot', 'videoigr', 'igric', 'gejm'],
+    lifestyle: ['lifestyle', 'moda', 'ljepot', 'recept', 'kuhar', 'glazb', 'film', 'serij', 'estrad', 'horoskop', 'ljubav', 'zdravlj', 'savjet', 'putovan', 'pjevač', 'brak', 'glumac', 'turiz', 'turist', 'ljet', 'gastro', 'restoran', 'koncert', 'pjesm', 'showbiz', 'celebrity', 'kuhinj'],
+    biznis: ['biznis', 'gospodar', 'ekonomij', 'posao', 'tvrtk', 'investicij', 'dionic', 'financij', 'porez', 'inflacij', 'cijen', 'tržišt', 'plata', 'plaća', 'banka', 'bdp', 'kredit', 'kamata', 'kompanij', 'ulaganj', 'proračun', 'eura', 'euri', 'eurima', '€'],
     auti: ['auti', 'auto', 'automobil', 'motor', 'vozil', 'promet', 'cesta', 'bmw', 'audi', 'mercedes', 'tesla', 'vožnja', 'brzina', 'volan', 'rimac', 'motocikl', 'autocesta', 'gume', 'bolid', 'hibrid']
 };
 
@@ -4502,21 +4502,41 @@ function extractMetadata(item, sourceId) {
     return { imageUrl, description };
 }
 
+const TRAGEDY_KEYWORDS = [
+    'nesreć', 'sudar', 'pogin', 'mrtv', 'smrt', 'ubij', 'napad', 'ranjen', 'ozlijeđ',
+    'kriminal', 'ubojst', 'pljačk', 'požar', 'policij', 'tragedij', 'obdukcij', 'pogibelj'
+];
+
+function hasKeyword(text, keyword) {
+    if (keyword.length <= 3) {
+        const escaped = keyword.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        const regex = new RegExp('(?<![a-zA-Z0-9čćđšžŠĐĆČŽ])' + escaped + '(?![a-zA-Z0-9čćđšžŠĐĆČŽ])', 'i');
+        return regex.test(text);
+    }
+    return text.includes(keyword);
+}
+
 function determineCategory(title, description, source) {
     if (source && SOURCE_ROUTING[source] && SOURCE_ROUTING[source].category) {
         return SOURCE_ROUTING[source].category;
     }
     const textToSearch = (title + ' ' + (description || '')).toLowerCase();
     
+    // Check if the article contains strong chronicle/accident/tragedy keywords
+    const hasTragedy = TRAGEDY_KEYWORDS.some(kw => hasKeyword(textToSearch, kw));
+    
     let bestCategory = 'vijesti';
     let maxScore = 0;
     
     for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
-        if (category === 'vijesti') continue;
+        // Disqualify specialized categories if negative/tragedy keywords are found
+        if (hasTragedy && (category === 'auti' || category === 'biznis' || category === 'tech')) {
+            continue;
+        }
         
         let score = 0;
         for (const keyword of keywords) {
-            if (textToSearch.includes(keyword)) {
+            if (hasKeyword(textToSearch, keyword)) {
                 score++;
             }
         }
@@ -4524,16 +4544,6 @@ function determineCategory(title, description, source) {
         if (score > maxScore) {
             maxScore = score;
             bestCategory = category;
-        }
-    }
-    
-    if (maxScore === 0) {
-        const vijestiKeywords = CATEGORY_KEYWORDS.vijesti;
-        const matchesVijesti = vijestiKeywords.some(keyword => textToSearch.includes(keyword));
-        if (matchesVijesti) {
-            bestCategory = 'vijesti';
-        } else {
-            bestCategory = 'vijesti';
         }
     }
     
