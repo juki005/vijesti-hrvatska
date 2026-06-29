@@ -2,6 +2,58 @@ import os
 import re
 import json
 
+def get_schema(key, seo):
+    title = seo.get("title", "")
+    description = seo.get("description", "")
+    
+    if key == "index":
+        # Homepage gets WebSite + Organization schema
+        schema = {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://www.vijesti-hrvatska.com/#website",
+                    "url": "https://www.vijesti-hrvatska.com/",
+                    "name": "Vijesti Hrvatska",
+                    "alternateName": "Hrvatski Medijski Agregator",
+                    "description": description,
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://www.vijesti-hrvatska.com/?q={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                },
+                {
+                    "@type": "Organization",
+                    "@id": "https://www.vijesti-hrvatska.com/#organization",
+                    "name": "Vijesti Hrvatska",
+                    "url": "https://www.vijesti-hrvatska.com/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://www.vijesti-hrvatska.com/favicon.svg"
+                    },
+                    "email": "kontakt@vijesti-hrvatska.com",
+                    "description": "Nekomercijalni medijski agregator vijesti u Republici Hrvatskoj."
+                }
+            ]
+        }
+    else:
+        # Category page gets CollectionPage schema
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": title,
+            "description": description,
+            "url": f"https://www.vijesti-hrvatska.com/{key}",
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.vijesti-hrvatska.com/#organization"
+            }
+        }
+    
+    return json.dumps(schema, ensure_ascii=False, indent=2)
+
 def main():
     cwd = os.path.dirname(os.path.abspath(__file__))
     index_path = os.path.join(cwd, "index.html")
@@ -49,17 +101,21 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Update cache-buster version for app.js
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.5', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.6', content)
         
         # Replace SEO text placeholder with the page-specific text using regex
         seo_text = seo.get("seo_text", "")
         content = re.sub(r'<p id="seo-description-text">[\s\S]*?</p>', f'<p id="seo-description-text">{seo_text}</p>', content)
         
+        # Replace JSON-LD schema placeholder
+        schema_json = get_schema(key, seo)
+        content = content.replace("SEO_SCHEMA_PLACEHOLDER", schema_json)
+        
         # Write compile results to destination file
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(content)
             
-        print(f"Generated {file_name} with custom SEO and version v=1.1.5")
+        print(f"Generated {file_name} with custom SEO, schemas, and version v=1.1.6")
 
 if __name__ == "__main__":
     main()
