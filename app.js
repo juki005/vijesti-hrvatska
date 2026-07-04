@@ -6343,16 +6343,16 @@ function drawVelocityChart(hourlyCounts) {
     chartDiv.innerHTML = svgHTML;
 }
 
-// Highlight selected nav elements in the sticky header menu (Supports MPA links)
+// Highlight selected nav elements in the sticky header menu (Supports Clean URLs and MPA links)
 function updateHeaderNavSelection() {
     const navLinks = document.querySelectorAll('header nav a');
     navLinks.forEach(link => {
         const href = link.getAttribute('href');
-        const isActive = (activeCategory === 'sve' && href === 'index.html') || 
-                         (activeCategory === 'analitika' && href === 'analitika.html') ||
-                         (activeCategory === 'portali' && href === 'portali.html') ||
-                         (activeCategory === 'spremljeno' && href === 'spremljeno.html') ||
-                         (href === `${activeCategory}.html`);
+        const isActive = (activeCategory === 'sve' && (href === 'index.html' || href === '/' || href === '')) || 
+                         (activeCategory === 'analitika' && (href === 'analitika.html' || href === 'analitika' || href === '/analitika')) ||
+                         (activeCategory === 'portali' && (href === 'portali.html' || href === 'portali' || href === '/portali')) ||
+                         (activeCategory === 'spremljeno' && (href === 'spremljeno.html' || href === 'spremljeno' || href === '/spremljeno')) ||
+                         (href === `${activeCategory}.html` || href === activeCategory || href === `/${activeCategory}`);
         
         if (isActive) {
             if (activeCategory === 'analitika') {
@@ -6363,9 +6363,9 @@ function updateHeaderNavSelection() {
                 link.className = 'text-[#E5472C] font-black uppercase text-[14px] select-none';
             }
         } else {
-            if (href === 'analitika.html') {
+            if (href === 'analitika.html' || href === 'analitika' || href === '/analitika') {
                 link.className = 'hover:text-amber-455 dark:hover:text-amber-350 transition-colors uppercase text-[14px] flex items-center gap-1 text-[#D13D1F] dark:text-amber-500 font-extrabold border-l border-slate-400 dark:border-slate-700 pl-4 select-none';
-            } else if (href === 'spremljeno.html') {
+            } else if (href === 'spremljeno.html' || href === 'spremljeno' || href === '/spremljeno') {
                 link.className = 'hover:text-red-500 dark:hover:text-red-400 transition-colors uppercase text-[14px] flex items-center gap-1 text-red-550 dark:text-red-450 font-extrabold border-l border-slate-400 dark:border-slate-700 pl-4 select-none';
             } else {
                 link.className = 'hover:text-[#D13D1F] dark:hover:text-[#E5472C] text-slate-550 dark:text-slate-400 transition-colors uppercase text-[14px] font-extrabold select-none';
