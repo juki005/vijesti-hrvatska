@@ -101,21 +101,21 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Update cache-buster version for app.js
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.7', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.8', content)
         
         # Replace SEO text placeholder with the page-specific text using regex
         seo_text = seo.get("seo_text", "")
         content = re.sub(r'<p id="seo-description-text">[\s\S]*?</p>', f'<p id="seo-description-text">{seo_text}</p>', content)
         
-        # Replace JSON-LD schema placeholder
+        # Replace Structured Data Schema
         schema_json = get_schema(key, seo)
-        content = content.replace("SEO_SCHEMA_PLACEHOLDER", schema_json)
+        content = re.sub(r'<script type="application/ld\+json">[\s\S]*?</script>', f'<script type="application/ld+json">\n{schema_json}\n</script>', content)
         
         # Write compile results to destination file
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(content)
             
-        print(f"Generated {file_name} with custom SEO, schemas, and version v=1.1.7")
+        print(f"Generated {file_name} with custom SEO, schemas, and version v=1.1.8")
 
 if __name__ == "__main__":
     main()

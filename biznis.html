@@ -125,36 +125,19 @@
     <!-- End Google Tag Manager -->
     
     <!-- Structured Data Schema -->
-    <script type="application/ld+json">{
+    <script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://www.vijesti-hrvatska.com/#website",
-      "url": "https://www.vijesti-hrvatska.com/",
-      "name": "Vijesti Hrvatska",
-      "alternateName": "Hrvatski Medijski Agregator",
-      "description": "Pratite najnovije vijesti iz Hrvatske i svijeta na jednom mjestu. Najbrži pregled vijesti s vodećih hrvatskih portala u realnom vremenu.",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://www.vijesti-hrvatska.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://www.vijesti-hrvatska.com/#organization",
-      "name": "Vijesti Hrvatska",
-      "url": "https://www.vijesti-hrvatska.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.vijesti-hrvatska.com/favicon.svg"
-      },
-      "email": "kontakt@vijesti-hrvatska.com",
-      "description": "Nekomercijalni medijski agregator vijesti u Republici Hrvatskoj."
-    }
-  ]
-}</script>
+  "@type": "CollectionPage",
+  "name": "Biznis Vijesti | Gospodarstvo, Financije, Tržište | Vijesti Hrvatska",
+  "description": "Najnovije ekonomske vijesti, analize tržišta, poslovni trendovi i financijski savjeti. Pratite stanje u hrvatskom i svjetskom gospodarstvu.",
+  "url": "https://www.vijesti-hrvatska.com/biznis",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.vijesti-hrvatska.com/#organization"
+  }
+}
+</script>
 </head>
 <body class="bg-[#f4f5f6] text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col antialiased transition-colors duration-200">
     <!-- Google Tag Manager (noscript) -->
@@ -401,7 +384,7 @@
 
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.1.7 -->
+                <!-- Rendered dynamically by app.js?v=1.1.8 -->
             </div>
 
             <!-- Empty State -->
@@ -766,6 +749,6 @@
     </style>
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.1.7"></script>
+    <script src="app.js?v=1.1.8"></script>
 </body>
 </html>

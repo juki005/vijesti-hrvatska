@@ -47,6 +47,12 @@ const TOP_PORTALS = [
 const CATEGORIZED_PORTALS = {
     "nacionalni": [
         {
+            "name": "Teleskop",
+            "url": "https://teleskop.hr/",
+            "domain": "teleskop.hr",
+            "description": "Političke analize i medijski osvrti"
+        },
+        {
             "name": "Večernji.hr",
             "url": "https://www.vecernji.hr/",
             "domain": "vecernji.hr",
@@ -493,6 +499,12 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "istra-i-kvarner": [
+        {
+            "name": "Istra24",
+            "url": "https://istra24.hr/",
+            "domain": "istra24.hr",
+            "description": "Neovisni istraživački portal za Istru"
+        },
             {
                 "name": "RijekaDanas.com",
                 "url": "https://www.rijekadanas.com/",
@@ -567,6 +579,18 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "ostalo": [
+        {
+            "name": "eMeđimurje",
+            "url": "https://emedimurje.hr/",
+            "domain": "emedimurje.hr",
+            "description": "Vodeći informativni portal za Međimurje"
+        },
+        {
+            "name": "Drava.info",
+            "url": "https://drava.info/",
+            "domain": "drava.info",
+            "description": "Informativni portal Podravine i Koprivnice"
+        },
             {
                 "name": "Zpress.hr",
                 "url": "https://www.zpress.hr/",
@@ -799,6 +823,12 @@ const CATEGORIZED_PORTALS = {
     },
     "tematski": {
         "sport": [
+        {
+            "name": "Crosport",
+            "url": "https://crosport.hr/",
+            "domain": "crosport.hr",
+            "description": "Hrvatski sportski portal"
+        },
             {
                 "name": "UvijekVjerni.hr",
                 "url": "https://uvijekvjerni.hr/",
@@ -1035,6 +1065,18 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "tech": [
+        {
+            "name": "GoodGame.hr",
+            "url": "https://goodgame.hr/",
+            "domain": "goodgame.hr",
+            "description": "Gaming portal i vijesti"
+        },
+        {
+            "name": "FFA.hr",
+            "url": "https://ffa.hr/",
+            "domain": "ffa.hr",
+            "description": "Gejming portal i forum"
+        },
             {
                 "name": "Zimo",
                 "url": "https://zimo.dnevnik.hr/",
@@ -1343,6 +1385,42 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "lifestyle": [
+        {
+            "name": "Ženski recenziRAJ",
+            "url": "https://zenski-recenziraj.com/",
+            "domain": "zenski-recenziraj.com",
+            "description": "Preporuke i lifestyle portal za žene"
+        },
+        {
+            "name": "Extravagant",
+            "url": "https://extravagant.com.hr/",
+            "domain": "extravagant.com.hr",
+            "description": "Lifestyle i modni magazin"
+        },
+        {
+            "name": "Elegant.hr",
+            "url": "https://elegant.hr/",
+            "domain": "elegant.hr",
+            "description": "Ljepota, moda i stil života"
+        },
+        {
+            "name": "Buro 24/7",
+            "url": "https://buro247.hr/",
+            "domain": "buro247.hr",
+            "description": "Luksuzni modni i lifestyle magazin"
+        },
+        {
+            "name": "Diva",
+            "url": "https://diva.hr/",
+            "domain": "diva.hr",
+            "description": "Modni i lifestyle portal"
+        },
+        {
+            "name": "After5",
+            "url": "https://after5.hr/",
+            "domain": "after5.hr",
+            "description": "Lifestyle portal i magazin"
+        },
             {
                 "name": "ČitajKnjigu.com",
                 "url": "https://citajknjigu.com/",
@@ -1729,6 +1807,42 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "biznis": [
+        {
+            "name": "Poduzetnik",
+            "url": "https://poduzetnik.biz/",
+            "domain": "poduzetnik.biz",
+            "description": "Poduzetnički portal i časopis"
+        },
+        {
+            "name": "Ekovjesnik",
+            "url": "https://ekovjesnik.hr/",
+            "domain": "ekovjesnik.hr",
+            "description": "Ekološke i gospodarske vijesti"
+        },
+        {
+            "name": "Bauštela.hr",
+            "url": "https://baustela.hr/",
+            "domain": "baustela.hr",
+            "description": "Građevinski i nekretninski portal"
+        },
+        {
+            "name": "Točka na i",
+            "url": "https://tockanai.hr/",
+            "domain": "tockanai.hr",
+            "description": "Poslovni i poduzetnički portal"
+        },
+        {
+            "name": "Ekonomski lab",
+            "url": "http://arhivanalitika.hr/",
+            "domain": "arhivanalitika.hr",
+            "description": "Ekonomski osvrti i analize"
+        },
+        {
+            "name": "Financije.hr",
+            "url": "https://financije.hr/",
+            "domain": "financije.hr",
+            "description": "Poslovno-financijski portal"
+        },
             {
                 "name": "Čačkalo.hr/posao",
                 "url": "https://www.cackalo.hr/posao",
@@ -2723,6 +2837,36 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "ostalo": [
+        {
+            "name": "Morski.HR",
+            "url": "https://morski.hr/",
+            "domain": "morski.hr",
+            "description": "Portal za more, nautiku i ekologiju Jadrana"
+        },
+        {
+            "name": "Mirovina.hr",
+            "url": "https://mirovina.hr/",
+            "domain": "mirovina.hr",
+            "description": "Portal za umirovljenike i starije generacije"
+        },
+        {
+            "name": "Mixer.hr",
+            "url": "https://mixer.hr/",
+            "domain": "mixer.hr",
+            "description": "Kultura, glazba i zabava"
+        },
+        {
+            "name": "Music Box",
+            "url": "https://music-box.hr/",
+            "domain": "music-box.hr",
+            "description": "Glazbene vijesti i recenzije"
+        },
+        {
+            "name": "Glazba.hr",
+            "url": "https://glazba.hr/",
+            "domain": "glazba.hr",
+            "description": "Hrvatski glazbeni portal"
+        },
             {
                 "name": "Škole.hr",
                 "url": "https://www.skole.hr/",
@@ -4222,13 +4366,16 @@ const CATEGORIZED_PORTALS = {
 };
 
 // Category configurations
+// Category configurations
 const PORTAL_CATEGORIES = [
-    { id: 'vijesti', name: 'VIJESTI', color: 'bg-[#D13D1F] text-white hover:bg-red-800', subcategories: ['Dalmacija', 'Slavonija', 'Istra i Kvarner', 'Zagreb'] },
+    { id: 'vijesti', name: 'VIJESTI', color: 'bg-[#D13D1F] text-white hover:bg-red-800', subcategories: ['Dalmacija', 'Slavonija', 'Istra i Kvarner', 'Kontinentalna HR', 'Lika i gorski kotar', 'Zagreb'] },
     { id: 'sport', name: 'SPORT', color: 'bg-emerald-600 text-white hover:bg-emerald-700', subcategories: ['Nogomet', 'Košarka', 'Tenis'] },
     { id: 'tech', name: 'TEHNOLOGIJA', color: 'bg-cyan-600 text-white hover:bg-cyan-700', subcategories: ['Znanost', 'Igre'] },
-    { id: 'lifestyle', name: 'LIFESTYLE', color: 'bg-pink-600 text-white hover:bg-pink-700', subcategories: ['Moda', 'Zdravlje', 'Kuharica'] },
-    { id: 'biznis', name: 'BIZNIS', color: 'bg-amber-600 text-white hover:bg-amber-700', subcategories: ['Tržište', 'Financije'] },
-    { id: 'auti', name: 'AUTI', color: 'bg-orange-600 text-white hover:bg-orange-700', subcategories: ['Formula', 'Testovi'] }
+    { id: 'lifestyle', name: 'LIFESTYLE', color: 'bg-pink-600 text-white hover:bg-pink-700', subcategories: ['Moda i ljepota', 'Zdravlje', 'Mama', 'Kuharica', 'Kućni ljubimci', 'Putovanja', 'Dom i dizajn'] },
+    { id: 'biznis', name: 'BIZNIS', color: 'bg-blue-800 text-white hover:bg-blue-900', subcategories: [] },
+    { id: 'auti', name: 'AUTI', color: 'bg-orange-600 text-white hover:bg-orange-700', subcategories: [] },
+    { id: 'showbiz', name: 'SHOWBIZ', color: 'bg-violet-600 text-white hover:bg-violet-700', subcategories: ['Film', 'Glazba', 'Kultura'] },
+    { id: 'zanimljivosti', name: 'ZANIMLJIVOSTI', color: 'bg-orange-500 text-white hover:bg-orange-600', subcategories: [] }
 ];
 
 // Dynamic category keyword mappings (Croatian)
@@ -4238,7 +4385,9 @@ const CATEGORY_KEYWORDS = {
     tech: ['tech', 'tehnolog', 'mobitel', 'android', 'iphone', 'apple', 'google', 'microsoft', 'gaming', 'playstation', 'xbox', 'nintendo', 'računal', 'softver', 'umjetn', 'inteligenc', 'smartfon', 'znanost', 'znanstv', 'istraživanj', 'svemir', 'nasa', 'hakir', 'čip', 'aplikacij', 'cyber', 'robot', 'videoigr', 'igric', 'gejm'],
     lifestyle: ['lifestyle', 'moda', 'ljepot', 'recept', 'kuhar', 'glazb', 'film', 'serij', 'estrad', 'horoskop', 'ljubav', 'zdravlj', 'savjet', 'putovan', 'pjevač', 'brak', 'glumac', 'turiz', 'turist', 'ljet', 'gastro', 'restoran', 'koncert', 'pjesm', 'showbiz', 'celebrity', 'kuhinj'],
     biznis: ['biznis', 'gospodar', 'ekonomij', 'posao', 'tvrtk', 'investicij', 'dionic', 'financij', 'porez', 'inflacij', 'cijen', 'tržišt', 'plata', 'plaća', 'banka', 'bdp', 'kredit', 'kamata', 'kompanij', 'ulaganj', 'proračun', 'eura', 'euri', 'eurima', '€'],
-    auti: ['auti', 'auto', 'automobil', 'motor', 'vozil', 'promet', 'cesta', 'bmw', 'audi', 'mercedes', 'tesla', 'vožnja', 'brzina', 'volan', 'rimac', 'motocikl', 'autocesta', 'gume', 'bolid', 'hibrid']
+    auti: ['auti', 'auto', 'automobil', 'motor', 'vozil', 'promet', 'cesta', 'bmw', 'audi', 'mercedes', 'tesla', 'vožnja', 'brzina', 'volan', 'rimac', 'motocikl', 'autocesta', 'gume', 'bolid', 'hibrid'],
+    showbiz: ['showbiz', 'estrada', 'celeb', 'film', 'glazba', 'kultura', 'kazališt', 'kino', 'pjevač', 'glumac', 'album', 'koncert', 'predstava', 'muzej', 'izložba', 'netflix', 'hbo', 'oskar', 'nagrad'],
+    zanimljivosti: ['zanimljivost', 'bizarno', 'ludo', 'viralno', 'čudno', 'video', 'društvene mreže', 'reddit', 'tiktok', 'zabavno', 'nevjerojatno', 'vicev', 'smiješno']
 };
 
 // Subcategory-specific keyword mappings
@@ -4250,15 +4399,20 @@ const SUBCATEGORY_KEYWORDS = {
     'vijesti/slavonija': ['slavonij', 'osijek', 'vinkovci', 'brod', 'požega', 'vukovar', 'đakovo', 'ravnica'],
     'vijesti/istra-i-kvarner': ['istr', 'kvarner', 'rijeka', 'pula', 'rovinj', 'poreč', 'opatija', 'istarski'],
     'vijesti/zagreb': ['zagreb', 'zg', 'metropola', 'holding', 'tomašević', 'maksimir', 'sljeme'],
+    'vijesti/kontinentalna-hr': ['kontinentaln', 'karlovac', 'varazdin', 'varaždin', 'čakovec', 'cakovec', 'krapina', 'koprivnica', 'bjelovar', 'sisak', 'petrinja', 'križevci', 'krizevci'],
+    'vijesti/lika-i-gorski-kotar': ['lika', 'gospić', 'gospic', 'otočac', 'otocac', 'gračac', 'gracac', 'plitvic', 'delnice', 'čabar', 'cabar', 'vrbovsko', 'gorski kotar'],
     'tech/znanost': ['znanost', 'istraživanj', 'svemir', 'nasa', 'planet', 'otkriće', 'rak', 'lijek', 'sveučilišt', 'laboratorij', 'znanstvenik'],
     'tech/igre': ['igra', 'gaming', 'playstation', 'xbox', 'nintendo', 'steam', 'game', 'gamer', 'igrica'],
-    'lifestyle/moda': ['moda', 'ljepota', 'haljina', 'revija', 'stil', 'kozmetika', 'manekenka', 'odjeća'],
+    'lifestyle/moda-i-ljepota': ['moda', 'ljepota', 'stil', 'haljina', 'revija', 'kozmetika', 'manekenka', 'odjeća', 'šminka'],
     'lifestyle/zdravlje': ['zdravlje', 'lijek', 'tijelo', 'bolest', 'simptom', 'doktor', 'bolnica', 'prehrana', 'zdrav'],
+    'lifestyle/mama': ['mama', 'trudnoća', 'trudnic', 'beba', 'bebe', 'dijete', 'djeca', 'roditelj', 'odgoj', 'majčinstvo', 'porođaj', 'rodiljn'],
     'lifestyle/kuharica': ['recept', 'kuhar', 'jelo', 'kuhanje', 'sastojci', 'kolač', 'torta', 'okus', 'gastronom', 'hrana'],
-    'biznis/trziste': ['tržište', 'cijene', 'inflacija', 'dionice', 'hnb', 'plata', 'plaća', 'trgovina'],
-    'biznis/financije': ['financije', 'porez', 'banka', 'euro', 'kredit', 'investicij', 'novac'],
-    'auti/formula': ['formula', 'f1', 'russell', 'hamilton', 'ferrari', 'mclaren', 'verstappen', 'bolid', 'pole'],
-    'auti/testovi': ['test', 'vožnja', 'recenzija', 'rimac', 'brzina', 'snaga', 'ubrzanje']
+    'lifestyle/kucni-ljubimci': ['ljubimac', 'ljubimci', 'pas', 'psi', 'mačka', 'mačke', 'veterinar', 'štene', 'udomljavanje'],
+    'lifestyle/putovanja': ['putovanje', 'putovanja', 'putopis', 'destinacija', 'izlet', 'turist', 'kofer', 'odmor', 'putuj'],
+    'lifestyle/dom-i-dizajn': ['dizajn interijera', 'uređenje', 'dekor', 'stan', 'kuća', 'dizajn doma', 'namještaj', 'dizajn'],
+    'showbiz/film': ['film', 'kino', 'oskar', 'glumac', 'glumica', 'hollywood', 'redatelj', 'netflix', 'hbo', 'premijera'],
+    'showbiz/glazba': ['glazba', 'koncert', 'pjesma', 'album', 'pjevač', 'pjevačica', 'bend', 'estrada', 'eurosong', 'glazben'],
+    'showbiz/kultura': ['kultura', 'kazalište', 'izložba', 'muzej', 'knjiga', 'pisac', 'umjetnost', 'galerija', 'predstava']
 };
 
 // State Management
@@ -4530,7 +4684,7 @@ function determineCategory(title, description, source) {
     
     for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
         // Disqualify specialized categories if negative/tragedy keywords are found
-        if (hasTragedy && (category === 'auti' || category === 'biznis' || category === 'tech')) {
+        if (hasTragedy && (category === 'auti' || category === 'biznis' || category === 'tech' || category === 'showbiz' || category === 'zanimljivosti')) {
             continue;
         }
         
@@ -5677,6 +5831,8 @@ function renderSubNavigation() {
         { id: 'lifestyle', name: 'Lifestyle', file: 'lifestyle.html' },
         { id: 'biznis', name: 'Biznis', file: 'biznis.html' },
         { id: 'auti', name: 'Auti', file: 'auti.html' },
+        { id: 'showbiz', name: 'Showbiz', file: 'showbiz.html' },
+        { id: 'zanimljivosti', name: 'Zanimljivosti', file: 'zanimljivosti.html' },
         { id: 'vrijeme', name: 'Vrijeme 🌤️', file: 'vrijeme.html' },
         { id: 'portali', name: 'Portali 🌐', file: 'portali.html' },
         { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno.html' }
