@@ -291,6 +291,24 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "dalmacija": [
+        {
+            "name": "Radio Imotski",
+            "url": "https://radioimotski.hr/",
+            "domain": "radioimotski.hr",
+            "description": "Lokalni vijesti iz Imotskog i zagore"
+        },
+        {
+            "name": "Zadarski.hr",
+            "url": "https://zadarski.slobodnadalmacija.hr/",
+            "domain": "zadarski.hr",
+            "description": "Vodeći portal Zadarske županije"
+        },
+        {
+            "name": "Antena Zadar",
+            "url": "https://www.antenazadar.hr/",
+            "domain": "antenazadar.hr",
+            "description": "Lokalni informativni portal za Zadar i regiju"
+        },
             {
                 "name": "Šibenik.in",
                 "url": "https://www.sibenik.in/",
@@ -371,8 +389,8 @@ const CATEGORIZED_PORTALS = {
             },
             {
                 "name": "eZadar.net.hr",
-                "url": "https://ezadar.net.hr/",
-                "domain": "ezadar.net.hr",
+                "url": "https://ezadar.hr/",
+                "domain": "ezadar.hr",
                 "description": "Zadarski portal"
             },
             {
@@ -437,6 +455,18 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "slavonija": [
+        {
+            "name": "Baranja info",
+            "url": "https://www.baranjainfo.hr/",
+            "domain": "baranjainfo.hr",
+            "description": "Informativni portal za regiju Baranje"
+        },
+        {
+            "name": "Osijek News",
+            "url": "https://osijeknews.hr/",
+            "domain": "osijeknews.hr",
+            "description": "Lokalni portal grada Osijeka"
+        },
             {
                 "name": "slavonijaInfo.com",
                 "url": "https://slavonijainfo.com/",
@@ -579,6 +609,36 @@ const CATEGORIZED_PORTALS = {
             }
         ],
         "ostalo": [
+        {
+            "name": "eMeđimurje (Alternative)",
+            "url": "http://www.emedjimurje.hr/",
+            "domain": "emedjimurje.hr",
+            "description": "Informativni portal za Međimursku županiju"
+        },
+        {
+            "name": "Klikaj.hr",
+            "url": "https://www.klikaj.hr/",
+            "domain": "klikaj.hr",
+            "description": "Informativni portal Koprivnice i Podravine"
+        },
+        {
+            "name": "Radio Banovina",
+            "url": "https://www.radio-banovina.hr/",
+            "domain": "radio-banovina.hr",
+            "description": "Informativni portal i radio Banovine i Siska"
+        },
+        {
+            "name": "Ni Zagorje malo",
+            "url": "https://nizagorjemalo.hr/",
+            "domain": "nizagorjemalo.hr",
+            "description": "Nezavisni portal za Zagorje"
+        },
+        {
+            "name": "Varaždinski.hr",
+            "url": "https://varazdinski.net.hr/",
+            "domain": "varazdinski.hr",
+            "description": "Vodeći portal za Varaždinsku županiju"
+        },
         {
             "name": "eMeđimurje",
             "url": "https://emedimurje.hr/",
