@@ -4814,6 +4814,34 @@ async function fetchFromRSSProxy() {
     return results.flat();
 }
 
+// Fetch pre-aggregated articles from static JSON
+async function fetchFromStaticJSON() {
+    const response = await fetch('articles.json');
+    if (!response.ok) throw new Error('Static JSON failed to load');
+    const data = await response.json();
+    return data.map(item => {
+        const sourceConf = RSS_SOURCES.find(s => s.name.toLowerCase() === item.source.toLowerCase()) || {
+            id: 'unknown',
+            name: item.source,
+            color: 'bg-slate-700 text-white',
+            logoText: item.source.substring(0, 2)
+        };
+
+        return {
+            title: item.title,
+            link: item.link,
+            source: item.source,
+            sourceId: sourceConf.id,
+            sourceColor: sourceConf.color,
+            sourceLogoText: sourceConf.logoText,
+            imageUrl: item.image_url || `placeholder-${sourceConf.id}`,
+            description: item.description || '',
+            publishedAt: new Date(item.published_at),
+            category: determineCategory(item.title, item.description || '', item.source)
+        };
+    });
+}
+
 // Fetch from Supabase
 async function fetchFromSupabase(config) {
     const url = `${config.url}/rest/v1/news_feeds?select=*&order=published_at.desc&limit=800`;
@@ -4911,7 +4939,12 @@ async function fetchNewsFeed(forceRefetch = false) {
         if (config.url && config.key) {
             results = await fetchFromSupabase(config);
         } else {
-            results = await fetchFromRSSProxy();
+            try {
+                results = await fetchFromStaticJSON();
+            } catch (jsonErr) {
+                console.warn('Failed to fetch from static JSON, falling back to legacy RSS proxy scraper:', jsonErr);
+                results = await fetchFromRSSProxy();
+            }
         }
 
         articles = results.sort((a, b) => b.publishedAt - a.publishedAt);
@@ -5913,7 +5946,7 @@ function renderSubNavigation() {
         
         btn.className = `px-4 py-1 text-sm font-extrabold rounded transition-all shrink-0 uppercase tracking-wide select-none${responsiveClasses} ${
             isActive 
-                ? 'bg-[#D13D1F] text-white shadow-sm' 
+                ? 'bg-[#D13D1F] text-white shadow-sm active-category-btn' 
                 : 'bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700'
         }`;
         btn.innerText = c.name;
@@ -5961,6 +5994,14 @@ function renderSubNavigation() {
             subMenuBar.classList.add('hidden');
         }
     }
+
+    // Auto-scroll the active category button into the center of the viewport on mobile screens
+    setTimeout(() => {
+        const activeBtn = nav.querySelector('.active-category-btn');
+        if (activeBtn) {
+            activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+    }, 100);
 }
 
 function slugify(text) {

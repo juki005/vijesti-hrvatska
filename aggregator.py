@@ -26,6 +26,7 @@ import os
 import re
 import uuid
 import logging
+import json
 from datetime import datetime, timezone
 import time
 import requests
@@ -226,6 +227,16 @@ def main():
     if articles:
         # Sort by publication date
         articles.sort(key=lambda x: x["published_at"], reverse=True)
+        
+        # Save to static JSON file (top 800 articles)
+        try:
+            logging.info("Spremam top 800 vijesti u articles.json...")
+            with open("articles.json", "w", encoding="utf-8") as f:
+                json.dump(articles[:800], f, ensure_ascii=False, indent=2)
+            logging.info("Uspješno spremljeno u articles.json.")
+        except Exception as json_err:
+            logging.error(f"Greška prilikom spremanja u articles.json: {json_err}")
+            
         save_to_supabase(articles)
         prune_old_articles()
     else:
