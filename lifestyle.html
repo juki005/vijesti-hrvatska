@@ -277,14 +277,14 @@
         <div class="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between w-full py-1.5 relative">
             <div class="relative flex-1 overflow-hidden flex items-center">
                 <!-- Left Fade Indicator -->
-                <div class="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-[#eee] to-transparent dark:from-slate-950 pointer-events-none z-10"></div>
+                <div class="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-[#eee] to-transparent dark:from-slate-950 pointer-events-none z-10 hidden lg:block"></div>
                 
                 <div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth">
                     <!-- Loaded dynamically -->
                 </div>
                 
                 <!-- Right Fade Indicator -->
-                <div class="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-[#eee] to-transparent dark:from-slate-950 pointer-events-none z-10"></div>
+                <div class="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-[#eee] to-transparent dark:from-slate-950 pointer-events-none z-10 hidden lg:block"></div>
             </div>
             <!-- Refresh Action -->
             <button id="refresh-btn" class="ml-4 p-1 rounded bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-750 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all shrink-0" title="Osvježi vijesti">
@@ -460,7 +460,7 @@
 
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.1.12 -->
+                <!-- Rendered dynamically by app.js?v=1.1.13 -->
             </div>
 
             <!-- Empty State -->
@@ -825,6 +825,6 @@
     </style>
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.1.12"></script>
+    <script src="app.js?v=1.1.13"></script>
 </body>
 </html>

@@ -5917,24 +5917,56 @@ function renderSubNavigation() {
     nav.innerHTML = '';
 
     const mainCats = [
-        { id: 'sve', name: 'Sve', file: 'index.html' },
-        { id: 'vijesti', name: 'Vijesti', file: 'vijesti.html' },
-        { id: 'sport', name: 'Sport', file: 'sport.html' },
-        { id: 'tech', name: 'Tehnologija', file: 'tech.html' },
-        { id: 'lifestyle', name: 'Lifestyle', file: 'lifestyle.html' },
-        { id: 'biznis', name: 'Biznis', file: 'biznis.html' },
-        { id: 'auti', name: 'Auti', file: 'auti.html' },
-        { id: 'showbiz', name: 'Showbiz', file: 'showbiz.html' },
-        { id: 'zanimljivosti', name: 'Zanimljivosti', file: 'zanimljivosti.html' },
-        { id: 'vrijeme', name: 'Vrijeme 🌤️', file: 'vrijeme.html' },
-        { id: 'portali', name: 'Portali 🌐', file: 'portali.html' },
-        { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno.html' }
+        { id: 'sve', name: 'Sve', file: '/' },
+        { id: 'vijesti', name: 'Vijesti', file: 'vijesti' },
+        { id: 'sport', name: 'Sport', file: 'sport' },
+        { id: 'tech', name: 'Tehnologija', file: 'tech' },
+        { id: 'lifestyle', name: 'Lifestyle', file: 'lifestyle' },
+        { id: 'biznis', name: 'Biznis', file: 'biznis' },
+        { id: 'auti', name: 'Auti', file: 'auti' },
+        { id: 'showbiz', name: 'Showbiz', file: 'showbiz' },
+        { id: 'zanimljivosti', name: 'Zanimljivosti', file: 'zanimljivosti' },
+        { id: 'vrijeme', name: 'Vrijeme 🌤️', file: 'vrijeme' },
+        { id: 'portali', name: 'Portali 🌐', file: 'portali' },
+        { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno' }
     ];
 
     // Only add Analitika category to secondary menu if logged in as admin
     if (sessionStorage.getItem('admin_logged_in') === 'true') {
-        mainCats.push({ id: 'analitika', name: 'Analitika 📊', file: 'analitika.html' });
+        mainCats.push({ id: 'analitika', name: 'Analitika 📊', file: 'analitika' });
     }
+
+    // 1. Render Mobile-only active category indicator (emoji + uppercase title)
+    const mobileIndicator = document.createElement('div');
+    mobileIndicator.className = 'flex lg:hidden items-center space-x-2 px-1 select-none';
+    
+    const emojiMap = {
+        sve: '⚡',
+        vijesti: '📰',
+        sport: '🏆',
+        tech: '💻',
+        lifestyle: '✨',
+        biznis: '📈',
+        auti: '🚗',
+        showbiz: '🎬',
+        zanimljivosti: '💡',
+        vrijeme: '🌤️',
+        portali: '🌐',
+        spremljeno: '📌',
+        analitika: '📊'
+    };
+    const activeEmoji = emojiMap[activeCategory] || '📰';
+    const activeCatObj = mainCats.find(c => c.id === activeCategory) || { name: 'Sve' };
+
+    mobileIndicator.innerHTML = `
+        <span class="text-lg leading-none">${activeEmoji}</span>
+        <span class="text-xs font-black uppercase tracking-widest text-[#1C1C1C] dark:text-[#F4F3EE] leading-none pt-0.5">${activeCatObj.name}</span>
+    `;
+    nav.appendChild(mobileIndicator);
+
+    // 2. Render Desktop-only scrollable categories row
+    const desktopRow = document.createElement('div');
+    desktopRow.className = 'hidden lg:flex items-center space-x-2 w-full';
 
     mainCats.forEach(c => {
         const btn = document.createElement('a');
@@ -5950,8 +5982,9 @@ function renderSubNavigation() {
                 : 'bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700'
         }`;
         btn.innerText = c.name;
-        nav.appendChild(btn);
+        desktopRow.appendChild(btn);
     });
+    nav.appendChild(desktopRow);
 
     const subMenuBar = document.getElementById('subcategory-menu-bar');
     const subContainer = document.getElementById('subcategory-container');
@@ -6020,16 +6053,17 @@ function slugify(text) {
 
 // Detect active category and subcategory based on URL filename and hash
 function detectActivePage() {
-    const path = window.location.pathname.split('/').pop() || 'index.html';
+    let path = window.location.pathname.split('/').pop() || 'index.html';
+    path = path.replace('.html', '');
     
-    if (path === '' || path === '/' || path.includes('index.html')) {
+    if (path === '' || path === '/' || path === 'index') {
         activeCategory = 'sve';
-    } else if (path.includes('analitika.html')) {
+    } else if (path === 'analitika') {
         activeCategory = 'analitika';
-    } else if (path.includes('portali.html')) {
+    } else if (path === 'portali') {
         activeCategory = 'portali';
     } else {
-        activeCategory = path.replace('.html', '');
+        activeCategory = path;
     }
 
     let hash = window.location.hash.substring(1);
