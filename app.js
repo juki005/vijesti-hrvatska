@@ -5995,6 +5995,9 @@ function renderSubNavigation() {
         }
     }
 
+    // Render category grid inside mobile navigation drawer
+    renderMobileDrawerMenu();
+
     // Auto-scroll the active category button into the center of the viewport on mobile screens
     setTimeout(() => {
         const activeBtn = nav.querySelector('.active-category-btn');
@@ -6824,7 +6827,8 @@ function setupEventListeners() {
         customFeedAddBtn.onclick = window.addCustomFeed;
     }
 
-
+    // Initialize mobile navigation drawer listeners
+    initMobileDrawer();
 }
 
 // Admin accessibility control
@@ -7238,4 +7242,91 @@ setupEventListeners();
 if (checkAdminAccess()) {
     handleRoute(); // Render target page layout immediately
     fetchNewsFeed();
+}
+
+// Initialize mobile drawer toggle handlers
+function initMobileDrawer() {
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const closeBtn = document.getElementById('mobile-drawer-close');
+    const backdrop = document.getElementById('mobile-drawer-backdrop');
+    const drawer = document.getElementById('mobile-drawer');
+
+    if (!toggleBtn || !drawer || !backdrop) return;
+
+    const openDrawer = () => {
+        backdrop.classList.remove('hidden');
+        // Force reflow
+        backdrop.offsetHeight;
+        backdrop.classList.remove('opacity-0');
+        backdrop.classList.add('opacity-100');
+        drawer.classList.remove('translate-x-full');
+        drawer.classList.add('translate-x-0');
+        document.body.classList.add('overflow-hidden'); // Prevent background scrolling
+    };
+
+    const closeDrawer = () => {
+        backdrop.classList.remove('opacity-100');
+        backdrop.classList.add('opacity-0');
+        drawer.classList.remove('translate-x-0');
+        drawer.classList.add('translate-x-full');
+        document.body.classList.remove('overflow-hidden');
+        setTimeout(() => {
+            backdrop.classList.add('hidden');
+        }, 300);
+    };
+
+    toggleBtn.addEventListener('click', openDrawer);
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+    backdrop.addEventListener('click', closeDrawer);
+
+    // Also close drawer if user clicks any link in it
+    drawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', closeDrawer);
+    });
+}
+
+// Render category menu inside the mobile drawer
+function renderMobileDrawerMenu() {
+    const grid = document.getElementById('mobile-categories-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    const categories = [
+        { id: 'vijesti', name: 'Vijesti', emoji: '📰' },
+        { id: 'sport', name: 'Sport', emoji: '🏆' },
+        { id: 'tech', name: 'Tehnologija', emoji: '💻' },
+        { id: 'lifestyle', name: 'Lifestyle', emoji: '✨' },
+        { id: 'biznis', name: 'Biznis', emoji: '📈' },
+        { id: 'auti', name: 'Auti', emoji: '🚗' },
+        { id: 'showbiz', name: 'Showbiz', emoji: '🎬' },
+        { id: 'zanimljivosti', name: 'Zanimljivosti', emoji: '💡' }
+    ];
+
+    categories.forEach(c => {
+        const btn = document.createElement('a');
+        btn.href = `${c.id}`;
+        const isActive = activeCategory === c.id;
+        
+        btn.className = `flex flex-col items-center justify-center p-3 rounded-xl border text-center transition-all ${
+            isActive
+                ? 'bg-[#D13D1F] border-[#D13D1F] text-white font-extrabold shadow-md scale-[1.02]'
+                : 'bg-slate-800/60 border-slate-700/50 text-slate-300 hover:bg-slate-800 hover:text-white'
+        }`;
+        
+        btn.innerHTML = `
+            <span class="text-xl mb-1">${c.emoji}</span>
+            <span class="text-[10px] uppercase font-black tracking-wide leading-tight">${c.name}</span>
+        `;
+        grid.appendChild(btn);
+    });
+
+    // Hide or show admin-only link in drawer
+    const adminLink = document.querySelector('#mobile-drawer .admin-only');
+    if (adminLink) {
+        if (sessionStorage.getItem('admin_logged_in') === 'true') {
+            adminLink.classList.remove('hidden');
+        } else {
+            adminLink.classList.add('hidden');
+        }
+    }
 }
