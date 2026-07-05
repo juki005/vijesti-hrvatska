@@ -1,3 +1,40 @@
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: YandexBot
+User-agent: Slurp
+User-agent: DuckDuckBot
+Allow: /
+
+# Block AI scrapers (LLM training crawlers)
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Omgilibot
+User-agent: FacebookBot
+User-agent: cohere-ai
+Disallow: /
+
+# Block aggressive SEO scrapers (consuming excess bandwidth)
+User-agent: SemrushBot
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: Rogerbot
+Disallow: /
+
+# Block generic scraping scripts & CLI tools
+User-agent: python-requests
+User-agent: Go-http-client
+User-agent: urllib
+User-agent: libwww
+User-agent: lwp-trivial
+User-agent: curl
+User-agent: Wget
+Disallow: /
+
 User-agent: *
 Allow: /
 
