@@ -1,5 +1,491 @@
 [
   {
+    "id": "10cc6623-aff3-5165-a066-8f47a9f33d56",
+    "title": "Povratak osuđenog silovatelja McGregora završio katastrofom, predao je nakon 69 sekundi!",
+    "link": "https://www.24sata.hr/sport/povratak-osudenog-silovatelja-mcgregora-zavrsio-katastrofom-predao-je-nakon-69-sekundi-1140710",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/J9O1l5VLCb99-di6_mdRaxk_z1Q=/800x450/smart/media/images/2026-27/2026-07-12t035620z-1660036393-mt1usatoday29373740-rtrmadp-3-mma-ufc-329-conor-mcgregor-v-max-holloway.jpg",
+    "description": "Bez obzira na poraz i ozljedu, McGregor će kući otići s velikom zaradom. Procjenjuje se da mu je zajamčeni honorar iznosio oko 14 milijuna eura",
+    "published_at": "2026-07-12T04:22:00+00:00"
+  },
+  {
+    "id": "248a9e22-1758-5ce5-b5a5-de7816160100",
+    "title": "Alvarez se izjednačio s Maradonom i približio Messiju, Argentina opet dokazala da je majstor produžetaka",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/alvarez-se-izjednacio-s-maradonom-i-priblizio-messiju-argentina-opet-dokazala-da-je-majstor-produzetaka/629032/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/76/0000000000527764_510_0.jpg",
+    "description": "Nova teško izborena pobjeda Argentine na Svjetskom prvenstvu, no tko te pita? Branitelj naslova prošao je u polufinale, opet nakon njemu dragih produžetaka, ali u utakmici u koj...",
+    "published_at": "2026-07-12T04:21:52+00:00"
+  },
+  {
+    "id": "f23ef59f-7d5e-5725-8010-58505b1a4a7e",
+    "title": "SAD pokrenuo napade na Iran, Teheran zatvorio Hormuški tjesnac",
+    "link": "https://www.poslovni.hr/svijet/sad-pokrenuo-napade-na-iran-teheran-zatvorio-hormuski-tjesnac-4546619",
+    "source": "Poslovni dnevnik",
+    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/07/2026-07-01T164535Z_267159373_RC2KVKADMUK6_RTRMADP_3_GLOBAL-OIL-1-800x500.jpg",
+    "description": "Iranski državni mediji izvijestili su o eksplozijama u brojnim lučkim gradovima.",
+    "published_at": "2026-07-12T04:18:05+00:00"
+  },
+  {
+    "id": "19443acd-5431-5809-b13d-d12cb25d378e",
+    "title": "FIFA uspjela u svome naumu? Potez iz studenog 2025. otkriva da su htjeli ovakvo polufinale",
+    "link": "https://www.tportal.hr/sport/clanak/fifa-uspjela-u-svome-naumu-potez-iz-studenog-2025-otkriva-da-su-htjeli-ovakvo-polufinale-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765542.jpeg?cropId=0",
+    "description": "U polufinalu Svjetskog prvenstva igrat će četiri najbolje momčadi svijeta prema FIFA rankingu.",
+    "published_at": "2026-07-12T04:10:00+00:00"
+  },
+  {
+    "id": "da38b449-8f61-55b6-bd4f-2d7822d758fc",
+    "title": "Ovaj robot može letjeti, plivati i roniti poput ptice",
+    "link": "https://mreza.bug.hr/robotika/ovaj-robot-moze-letjeti-plivati-i-roniti-poput-ptice-61312",
+    "source": "Bug.hr",
+    "image_url": "https://mreza.bug.hr/img/ovaj-robot-moze-letjeti-plivati-i-roniti-poput-ptice_ca7vc4.jpg",
+    "description": "Raphael Zufferey i njegovi kolege željeli su vidjeti mogu li izgraditi robota veličine ptice koji bi se također mogao kretati kroz oba medija i prelaziti između njih.",
+    "published_at": "2026-07-12T04:10:00+00:00"
+  },
+  {
+    "id": "cf009eaf-c0c5-5762-b30c-d76cc6c899a2",
+    "title": "Desetka, deseti put, u desetoj minuti. Pogledajte unikatnu priču iza rekorda Lionela Messija",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/desetka-deseti-put-u-desetoj-minuti-pogledajte-unikatnu-pricu-iza-rekorda-lionela-messija/629031/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/76/0000000000527766_510_0.jpg",
+    "description": "Ovoga puta nije bio strijelac, ali Lionel Messi ponovno je odigrao jako dobru utakmicu. Upisao je asistenciju za prvi gol Argentine, a time je samo podebljao nedavno postavljeni...",
+    "published_at": "2026-07-12T04:09:18+00:00"
+  },
+  {
+    "id": "7b34370c-039a-5933-8f52-a3dd94686216",
+    "title": "Igrač utakmice: Prekrasan pogodak bio je samo šlag na tortu briljantnog nastupa Juliana Alvareza",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/igrac-utakmice-prekrasan-pogodak-bio-je-samo-slag-na-tortu-briljantnog-nastupa-juliana-alvareza/629030/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/88/0000000000527886_510_0.jpg",
+    "description": "Argentina je porazila Švicarsku i prošla u polufinale Svjetskog prvenstva. Jedan od najzaslužnijih za to je Julian Alvarez, najbolji pojedinac ovog susreta...",
+    "published_at": "2026-07-12T04:05:32+00:00"
+  },
+  {
+    "id": "b5be1e39-b801-55a0-9229-ab4a75fcc52b",
+    "title": "Sve je poznato, pogledajte gdje i kad se igraju polufinala Mundijala",
+    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/sve-je-poznato-pogledajte-gdje-i-kad-se-igraju-polufinala-mundijala-1567443",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/12/32131196.jpg",
+    "description": "Poznati su svi polufinalisti Svjetskog nogometnog prvenstva. U prvom polufinalu u utorak igraju Francuska i Španjolska, dok Engleska protiv Argentine igra u srijedu. Utakmica za...",
+    "published_at": "2026-07-12T04:02:00+00:00"
+  },
+  {
+    "id": "0d14f31b-a70e-5e38-af34-0a982ac8fa43",
+    "title": "FOTO Muškarci zbog nje gube glavu: Ova čokoladna ljepotica figuru održava trbušnim plesom",
+    "link": "https://www.24sata.hr/lifestyle/foto-cokoladna-ljepotica-1140639",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/-5IBi0Vp9Abre90trlEy9f1jKu8=/800x450/smart/media/images/2026-27/untitled-design-2026-07-11t161737-935.jpg",
+    "description": "Australska ljepotica Amelia Marni plijeni pažnju gdje god se pojavi. Njezina vitka figura, egzotična ljepota i zarazan stil osvojili su brojne obožavatelje, a iza njezinog izgle...",
+    "published_at": "2026-07-12T04:00:00+00:00"
+  },
+  {
+    "id": "0037e395-4b4a-5f22-a650-d146b6a6b142",
+    "title": "FOTO Ukrotio je 'vikinge', a ona njega! Nestašni Bellingham je slab na djevojku Ashlyn Castro",
+    "link": "https://www.24sata.hr/sport/foto-ukrotio-je-vikinge-a-ona-njega-nestasni-bellingham-je-slab-na-djevojku-ashlyn-castro-1073671",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/5MAoQEIKcWxNqZaTAMT2dF_Whiw=/800x450/smart/media/images/2025-36/profimedia-1035522683.jpg",
+    "description": "Heroj Engleske protiv Norvežana Jude Bellingham bio je u rujnu 2025. godine na romantičnom odmoru na Sardiniji, gdje je razmjenjivao nježnosti, a možda i više toga na plaži s dj...",
+    "published_at": "2026-07-12T04:00:00+00:00"
+  },
+  {
+    "id": "2e48e6c8-9ff0-58fb-b8da-86e5643f9ea0",
+    "title": "SP 2026. Raspored i rezultati. Tko protiv koga igra u završnici?",
+    "link": "https://www.24sata.hr/sport/sp-2026-raspored-i-satnica-svih-utakmica-kad-igra-hrvatska-1090876",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/RDBeNNkRmb0qs5KO4jTd4lwACQA=/800x450/smart/media/images/2026-26/images-2026-26-pxl-reu-240626-154176858.jpg",
+    "description": "SP 2026. je u najuzbudljivijoj fazi, a Hrvatska se oprostila u šesnaestini finala proširenog Mundijala s 48 reprezentacija i ludim rasporedom po SAD-u, Kanadi i Meksiku",
+    "published_at": "2026-07-12T04:00:00+00:00"
+  },
+  {
+    "id": "71bc36b5-7c9e-5984-b1ec-1d02894c9f41",
+    "title": "Bikovi će znati kako zavesti osobu do koje im je stalo, a Rakovi će se osjećati usamljeno",
+    "link": "https://www.vecernji.hr/lifestyle/bikovi-ce-znati-kako-zavesti-osobu-do-koje-im-je-stalo-a-rakovi-ce-se-osjecati-usamljeno-1976843",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/e0/ce/44265a0dfc76f93f3e65.jpg",
+    "description": "Sazrela vam je ideja o tome kako zabaviti i zavesti jednu osobu do koje vam je stalo, pa ćete se potruditi to i učiniti.",
+    "published_at": "2026-07-12T04:00:00+00:00"
+  },
+  {
+    "id": "2054fc5f-2a18-59b8-bcf9-ecb61a4fc77d",
+    "title": "Bilića 29. rujna u Sevilli čeka dvoboj s jednim od najboljih izbornika i mogućim svjetskim prvakom",
+    "link": "https://www.vecernji.hr/sport/bilica-29-rujna-u-sevilli-ceka-dvoboj-s-jednim-od-najboljih-izbornika-i-mogucim-svjetskim-prvakom-1977182",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/0c/53/96cf48dcb874936c857e.jpeg",
+    "description": "Zanimljivo, taj vrsni strateg, koji sjajno predvodi furiju od 2022. godine, u klupskoj karijeri nikada nije bio trener nekog prvoligaškog kluba. Njegov najzvučniji, ali ujedno i...",
+    "published_at": "2026-07-12T04:00:00+00:00"
+  },
+  {
+    "id": "cf42448a-f345-5dc1-bd85-d9446fd601a5",
+    "title": "Šumarija Zagreb u pogonu: 'Ovo šumu čini zdravijom i otpornijom na ekstremne vremenske uvjete'",
+    "link": "https://www.tportal.hr/no-planet-b/clanak/sumarija-zagreb-u-pogonu-ovo-sumu-cine-zdravijom-i-otpornijom-na-ekstremne-vremenske-uvjete-20260710",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2764815.jpeg?cropId=0",
+    "description": "Šumarija Zagreb pristupila je sječi suhih i u olujnim nevremenima oštećenih stabala na širem području oko starog grada Medvedgrada, objavila je u petak Šumarija, napominjući da ...",
+    "published_at": "2026-07-12T04:00:00+00:00"
+  },
+  {
+    "id": "361a9bd8-c660-5f99-8779-d6f45249a676",
+    "title": "UŽIVO Prvi od dva dana pauze na Svjetskom prvenstvu. Poznati svi polufinalisti",
+    "link": "https://www.index.hr/sport/clanak/uzivo-prvi-od-dva-dana-pauze-na-svjetskom-prvenstvu-poznati-svi-polufinalisti/2810735.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PRATIMO najnovije vijesti sa Svjetskog prvenstva.",
+    "published_at": "2026-07-12T03:59:00+00:00"
+  },
+  {
+    "id": "848c8485-c25f-56b4-bdbe-02f4353c4257",
+    "title": "SP UŽIVO Argentina je zadnji polufinalist i ide na Englesku",
+    "link": "https://www.24sata.hr/sport/sp-uzivo-messi-i-argentina-u-lovu-na-prolaz-protiv-svicarske-1140688",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/cdrLqyb4QZ0bAdQWBqlaufYsZG4=/800x450/smart/media/images/2026-27/2026-07-12t035333z-945061422-up1em7c0at7x3-rtrmadp-3-soccer-worldcup-arg-swi.jpg",
+    "description": "U nedjelju u noći posljednji četvrtfinalni dvoboj odigrali su Argentina i Švicarska. Aktualni svjetski prvaci pobijedili su nakon produžetaka Švicarce koji su od 72. minute imal...",
+    "published_at": "2026-07-12T03:55:00+00:00"
+  },
+  {
+    "id": "b5bd1df4-e8b1-5751-afb5-cf6039da14f0",
+    "title": "Dinamo prodao igrača bez minutaže za milijun eura: Evo tko napušta Maksimir",
+    "link": "https://www.tportal.hr/sport/clanak/dinamo-prodao-igraca-bez-minutaze-za-milijun-eura-evo-tko-napusta-maksimir-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2762401.jpeg?cropId=4177675",
+    "description": "Ljetni prijelazni rok u Maksimiru sve je aktivniji.",
+    "published_at": "2026-07-12T03:55:00+00:00"
+  },
+  {
+    "id": "8b0cf116-eb07-50c2-a85d-45a8ac5a63aa",
+    "title": "14. dan nokaut-faze: Engleska i Argentina prošle u polufinale. Brojne kontroverze",
+    "link": "https://www.index.hr/sport/clanak/14-dan-nokautfaze-engleska-i-argentina-prosle-u-polufinale-brojne-kontroverze/2810751.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PRATIMO najnovije vijesti vezane uz Svjetsko prvenstvo.",
+    "published_at": "2026-07-12T03:51:00+00:00"
+  },
+  {
+    "id": "7e206147-7ece-5940-9c49-c5f5b286a6d3",
+    "title": "Argentina - Švicarska 3-1: Novo polufinale za 'gaučose'! Švicarci su posrnuli nakon produžetaka",
+    "link": "https://www.24sata.hr/sport/uzivo-argentina-svicarska-branitelji-naslova-u-lovu-na-polufinale-1140645",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/EPm7x5pqEEbfHAcDWUXQNynD-PQ=/800x450/smart/media/images/2026-27/2026-07-12t033456z-396307230-up1em7c09y6u3-rtrmadp-3-soccer-worldcup-arg-swi.jpg",
+    "description": "Argentina i Švicarska igrali su četvrtfinale Svjetskog prvenstva u Kansas Cityju. 'Gaučosi' su poveli golom Mac Allistera u 10. minuti susreta, a izjednačio je Ndoye. Alvarez i ...",
+    "published_at": "2026-07-12T03:50:00+00:00"
+  },
+  {
+    "id": "77fa584e-5112-57e6-bf3a-c61f86ac22d8",
+    "title": "Argentina svladala Švicarsku i prošla u polufinale Svjetskog prvenstva (3:1)",
+    "link": "https://www.vecernji.hr/sport/uzivo-argentina-i-svicarska-u-borbi-za-posljednje-mjesto-u-polufinalu-1977199",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/8b/65/1c36a6e326f339f8dcb2.jpeg",
+    "description": "Nalet Švicarske prekinula je sudačka postava dubioznom intervencijom VAR-a nakon koje je isključen švicarski napadač Breel Embolo",
+    "published_at": "2026-07-12T03:45:00+00:00"
+  },
+  {
+    "id": "a94e22d7-2d91-5037-be88-6b15a9f80a3c",
+    "title": "Argentina nakon još jedne drame izborila polufinale Svjetskog prvenstva, Švicarci bijesni zbog VAR-a",
+    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/argentina-nakon-jos-jedne-drame-izborila-polufinale-svjetskog-prvenstva-svicarci-bijesni-zbog-var-a-1567442",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/12/32134495.jpg",
+    "description": "Nogometna reprezentacija Argentine posljednji je polufinalist ovogodišnjeg Svetskog prvenstva nakon što je u četvrtfinalu u Kansas Cityju svladala Švicarsku sa 3-1 nakon produže...",
+    "published_at": "2026-07-12T03:45:00+00:00"
+  },
+  {
+    "id": "da9dbafb-0fb9-5689-b9dd-1d7e21ac3314",
+    "title": "Argentina - Švicarska 3:1 (n.p.): Kako je Alvarezova genijalnost odvela Argentinu u polufinale SP-a",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/argentina-svicarska-31-np-kako-je-alvarezova-genijalnost-odvela-argentinu-u-polufinale-sp-a/629029/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/87/0000000000527875_510_0.jpg",
+    "description": "U zadnjem četvrtfinalnom dvoboju Svjetskog prvenstva Argentina je nakon produžetaka izbacila Švicarsku, bilo je 3:1. Embolo je napravio veliku glupost i ostavio svoje suigrače n...",
+    "published_at": "2026-07-12T03:45:00+00:00"
+  },
+  {
+    "id": "7676a978-cdc6-5bd1-a1de-ad9fdcd5e238",
+    "title": "Argentina pobijedila Švicarsku u produžecima i ušla u polufinale SP-a",
+    "link": "https://www.index.hr/sport/clanak/argentina-pobijedila-svicarsku-u-produzecima-i-usla-u-polufinale-spa/2810752.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "DRAMATIČNA pobjeda branitelja naslova.",
+    "published_at": "2026-07-12T03:43:00+00:00"
+  },
+  {
+    "id": "fae25f7e-3059-5f44-a9a2-f1d6f3bd56ab",
+    "title": "Argentina u polufinalu nakon produžetaka izborila klasik s Engleskom",
+    "link": "https://www.tportal.hr/sport/clanak/argentina-u-polufinalu-nakon-produzetaka-izborila-klasik-s-engleskom-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765541.jpeg?cropId=0",
+    "description": "Argentina je nakon velike drame i produžetaka pobijedila Švicarsku 3:1 te izborila polufinale Svjetskog prvenstva, u kojem će igrati protiv Engleske. Junak branitelja naslova bi...",
+    "published_at": "2026-07-12T03:43:00+00:00"
+  },
+  {
+    "id": "93b1beb9-99c7-5209-ae91-f0c0d5a3b4a1",
+    "title": "Ovo što se Švicarcu dogodilo SP ne pamti 20 godina",
+    "link": "https://www.tportal.hr/sport/clanak/ovo-sto-se-svicarcu-dogodilo-sp-ne-pamti-20-godina-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765540.jpeg?cropId=0",
+    "description": "Švicarski napadač Breel Embolo izveo je jedan od najnevjerojatnijih poteza Svjetskog prvenstva.",
+    "published_at": "2026-07-12T03:36:00+00:00"
+  },
+  {
+    "id": "982870b8-868d-5f0f-914e-7b6b4d873b65",
+    "title": "'Ovo je najgluplji potez u povijesti SP-a. Treba ga biti sram što je napravio'",
+    "link": "https://www.tportal.hr/sport/clanak/ovo-je-najgluplji-potez-u-povijesti-sp-a-treba-ga-biti-sram-sto-je-napravio-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765533.jpeg?cropId=0",
+    "description": "Švicarski napadač Breel Embolo zaradio je nagradu za najgluplji potez Svjetskog prvenstva.",
+    "published_at": "2026-07-12T03:20:00+00:00"
+  },
+  {
+    "id": "090e6340-d40c-5ce2-8b19-70472a1830f9",
+    "title": "VIDEO Nova kontroverza, norveški izbornik proziva zbog spornog gola Engleske. Oglasila se FIFA: ‘Nema dokaza‘",
+    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/video-nova-kontroverza-norveski-izbornik-proziva-zbog-spornog-gola-engleske-oglasila-se-fifa-nema-dokaza-1567441",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/12/32131589.jpg",
+    "description": "Izbornik norveške nogometne reprezentacije Stale Solbakken na konferenciji za medije nakon 1-2 poraza od Engleske u četvrtfinalu Svjetskog prvenstva rekao je kako je uvjeren da ...",
+    "published_at": "2026-07-12T03:18:00+00:00"
+  },
+  {
+    "id": "e1df1ed1-1de9-5c9e-b8c5-a96627e5502e",
+    "title": "Engleski junak: ‘Karakter i upornost su nas odveli dalje, jako sam ponosan‘",
+    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/engleski-junak-karakter-i-upornost-su-nas-odveli-dalje-jako-sam-ponosan-1567440",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/12/32133653.jpg",
+    "description": "Izjave nakon utakmice Norveška - Engleska (1-2)... Engleski izbornik Thomas Tuchel: \"Sami smo sebi jako, jako otežali život danas. Rezultat je fantastičan, plasirali smo se u po...",
+    "published_at": "2026-07-12T03:10:00+00:00"
+  },
+  {
+    "id": "add18c6c-7bb2-57f7-87b8-3bb12e03b6da",
+    "title": "VIDEO Pogledajte kako je zbog simuliranja Švicarska ostala s igračem manje protiv Argentine",
+    "link": "https://www.24sata.hr/sport/video-pogledajte-kako-je-zbog-simuliranja-svicarska-ostala-s-igracem-manje-protiv-argentine-1140709",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/uygKJgueIAS-KdzmEWQqpac64v4=/800x450/smart/media/images/2026-27/2026-07-12t023556z-1585843821-up1em7c077tr5-rtrmadp-3-soccer-worldcup-arg-swi_gmabLq3.jpg",
+    "description": "VAR drama u Kansas Cityju! Embolo je zbog simuliranja dobio drugi žuti karton i rasplakao se, a Argentina je s igračem više prelomila četvrtfinale",
+    "published_at": "2026-07-12T03:05:00+00:00"
+  },
+  {
+    "id": "92af6eb1-6906-5099-a204-f0b97b7947fe",
+    "title": "Preokret za pamćenje: Engleska nakon produžetka slomila Norvešku i izborila polufinale Svjetskog prvenstva",
+    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/preokret-za-pamcenje-engleska-nakon-produzetka-slomila-norvesku-i-izborila-polufinale-svjetskog-prvenstva-1567439",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/12/32133667.jpg",
+    "description": "Nogometna reprezentacija Engleske plasirala se u polufinale Svjetskog prvenstva nakon što je u četvrtfinalu u Miamiju svladala Norvešku sa 2-1 (1-1, 1-1) nakon produžetka. Norve...",
+    "published_at": "2026-07-12T03:00:00+00:00"
+  },
+  {
+    "id": "28dfd26f-8b6e-57ab-9380-d13445eedc5e",
+    "title": "Haaland se slomio nakon skandaloznog ispadanja: Poslao je poruku koja će odjeknuti svijetom",
+    "link": "https://www.tportal.hr/sport/clanak/haaland-se-slomio-nakon-skandaloznog-ispadanja-poslao-je-poruku-koja-ce-odjeknuti-svijetom-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765531.jpeg?cropId=0",
+    "description": "Engleska je nakon produžetaka pobijedila Norvešku 2:1 i izborila polufinale Svjetskog prvenstva, a povijesna norveška avantura završila je u suzama i velikoj kontroverzi. Erling...",
+    "published_at": "2026-07-12T02:56:00+00:00"
+  },
+  {
+    "id": "00b3dde1-b677-5703-beeb-12646242af60",
+    "title": "Švicarac dobio bizaran crveni karton zbog \"pogrešnog identiteta\". Evo o čemu se radi",
+    "link": "https://www.index.hr/sport/clanak/svicarac-dobio-bizaran-crveni-karton-zbog-pogresnog-identiteta-evo-o-cemu-se-radi/2812490.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "BREEL EMBOLO na nevjerojatan je način zaradio crveni karton.",
+    "published_at": "2026-07-12T02:53:00+00:00"
+  },
+  {
+    "id": "8268f71b-94e7-50b0-b678-0c6515f960c5",
+    "title": "Švicarska izjednačila protiv Argentine, a onda odmah dobila najbizarniji crveni karton SP-a",
+    "link": "https://www.tportal.hr/sport/clanak/svicarska-izjednacila-protiv-argentine-a-onda-odmah-dobila-najbizarniji-crveni-karton-sp-a-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765530.jpeg?cropId=0",
+    "description": "Posljednju četvrtfinalnu utakmicu Svjetskog prvenstva igraju Švicarska i Argentina.",
+    "published_at": "2026-07-12T02:41:00+00:00"
+  },
+  {
+    "id": "081fd2ca-517b-58ed-b448-b4844b159176",
+    "title": "Slavni španjolski sudac presudio nakon skandala koji je izbacio Norvešku: 'Tu nema nikakve rasprave'",
+    "link": "https://www.tportal.hr/sport/clanak/slavni-spanjolski-sudac-presudio-nakon-skandala-koji-je-izbacio-norvesku-tu-nema-nikakve-rasprave-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765529.jpeg?cropId=0",
+    "description": "Engleska je nakon velike drame i produžetaka pobijedila Norvešku 2:1 te izborila polufinale Svjetskog prvenstva, ali utakmicu je zasjenio pogodak Judea Bellinghama za izjednačen...",
+    "published_at": "2026-07-12T02:24:00+00:00"
+  },
+  {
+    "id": "8cfedd56-23af-5b40-9081-77defa52f521",
+    "title": "Bellingham zabio dva gola pa ga naljutile izbornikove riječi: Ne znam što bih rekao...",
+    "link": "https://www.tportal.hr/sport/clanak/bellingham-zabio-dva-gola-pa-ga-naljutile-izbornikove-rijeci-ne-znam-sto-bih-rekao-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765528.jpeg?cropId=0",
+    "description": "Engleska je nakon velike drame i produžetaka svladala Norvešku 2:1 te izborila polufinale Svjetskog prvenstva.",
+    "published_at": "2026-07-12T02:23:00+00:00"
+  },
+  {
+    "id": "b87e5b0c-2d39-5036-a265-dd718136ace8",
+    "title": "Izbornik Norveške: Nije bila teška odluka izvaditi Haalanda. Trebao sam i ranije",
+    "link": "https://www.index.hr/sport/clanak/izbornik-norveske-nije-bila-teska-odluka-izvaditi-haalanda-trebao-sam-i-ranije/2812489.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NORVEŠKI izbornik Stale Solbakken objasnio je zašto je zamijenio Erlinga Haalanda.",
+    "published_at": "2026-07-12T02:19:00+00:00"
+  },
+  {
+    "id": "498d2db1-fb4f-5868-8e32-036e29f57c43",
+    "title": "Englezi nakon skandalozne pobjede brutalno napali svoju zvijezdu: 'On je sramota'",
+    "link": "https://www.tportal.hr/sport/clanak/englezi-nakon-skandalozne-pobjede-brutalno-napali-svoju-zvijezdu-ovaj-igrac-je-sramota-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765527.jpeg?cropId=0",
+    "description": "Engleska je nakon produžetaka u kontroverznoj utakmici pobijedila Norvešku 2:1 i izborila polufinale Svjetskog prvenstva, ali njezini navijači ni nakon prolaska nisu bili zadovo...",
+    "published_at": "2026-07-12T01:56:00+00:00"
+  },
+  {
+    "id": "5ba9c18c-bdf0-55e9-8e11-2e1059564504",
+    "title": "Otac Erlinga Haalanda oglasio se nakon ispadanja Norveške: Njegov komentar o sucu sve govori",
+    "link": "https://www.tportal.hr/sport/clanak/otac-erlinga-haalanda-oglasio-se-nakon-ispadanja-norveske-njegov-komentar-o-sucu-sve-govori-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765526.jpeg?cropId=0",
+    "description": "Engleska je izborila polufinale Svjetskog prvenstva nakon dramatične pobjede nad Norveškom 2:1 poslije produžetka, ali nakon utakmice veliku je pozornost privukla kratka i znako...",
+    "published_at": "2026-07-12T01:47:00+00:00"
+  },
+  {
+    "id": "0244ccae-2619-5d3f-8daa-81fc8c67f312",
+    "title": "Ovo što je Messi napravio protiv Švicarske zvuči nevjerojatno: Sigurni smo da ovo nikad nitko neće ponoviti",
+    "link": "https://www.tportal.hr/sport/clanak/ovo-sto-je-messi-napravio-protiv-svicarske-zvuci-nevjerojatno-sigurni-smo-da-ovo-nikad-nitko-nece-ponoviti-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2763313.jpeg?cropId=4180750",
+    "description": "Argentina i Švicarska igraju posljednju četvrtfinalnu utakmicu Svjetskog prvenstva, a branitelji naslova poveli su već u 10. minuti. Lionel Messi pronašao je Alexisa Mac Alliste...",
+    "published_at": "2026-07-12T01:37:00+00:00"
+  },
+  {
+    "id": "4e5a393a-8031-5ad4-b257-bf886454e548",
+    "title": "Ibrahimović brutalno prozvao zvijezdu Engleske: 'Igraju s igračem manje'",
+    "link": "https://www.tportal.hr/sport/clanak/ibrahimovic-brutalno-prozvao-zvijezdu-engleske-igraju-s-igracem-manje-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765525.jpeg?cropId=4187169",
+    "description": "Zlatan Ibrahimović žestoko je kritizirao Nonija Maduekea nakon njegova blijedog nastupa u prvom poluvremenu utakmice Engleske i Norveške u Miamiju.",
+    "published_at": "2026-07-12T01:25:00+00:00"
+  },
+  {
+    "id": "879123c0-9943-59e5-b1f2-f01c98f85dae",
+    "title": "Je li priča o krađi Norveške i kabelu ipak pretjerana? Stručnjak otkrio sve detalje",
+    "link": "https://www.tportal.hr/sport/clanak/je-li-prica-o-kradi-norveske-i-kabelu-ipak-pretjerana-strucnjak-otkrio-sve-detalje-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765518.jpeg?cropId=4187141",
+    "description": "Mnogi se žale na prvi gol Engleza, no daljnje rasprave otkrivaju da su prve reakcije možda bile pretjerane.",
+    "published_at": "2026-07-12T01:21:00+00:00"
+  },
+  {
+    "id": "8e5832f5-f22c-5858-94fa-8cf0f880dbab",
+    "title": "FIFA se oglasila nakon gola koji je izbacio Norvešku: Evo kako su objasnili skandaloznu odluku",
+    "link": "https://www.tportal.hr/sport/clanak/fifa-se-oglasila-nakon-gola-koji-je-izbacio-norvesku-evo-kako-su-objasnili-skandaloznu-odluku-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765524.jpeg?cropId=0",
+    "description": "FIFA se oglasila nakon velikog skandala koji je obilježio dramatično četvrtfinale Svjetskog prvenstva između Engleske i Norveške. Englezi su nakon produžetaka slavili 2:1, no po...",
+    "published_at": "2026-07-12T00:57:00+00:00"
+  },
+  {
+    "id": "59a889bc-223d-5ba6-8117-abca82b42e44",
+    "title": "KRONOLOGIJA: Argentina - Švicarska 3:1 (Svjetsko prvenstvo, četvrtfinale)",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/kronologija-argentina-svicarska-31-svjetsko-prvenstvo-cetvrtfinale/629028/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/35/0000000000527350_510_0.jpg",
+    "description": "Zadnja četvrtfinalna utakmica igra se u Kansasu, gdje Argentina nastavlja svoj pohod na obranu naslova. Švicarska joj je dosad najozbiljniji protivnik koji hvata svoju prvu pobj...",
+    "published_at": "2026-07-12T00:40:00+00:00"
+  },
+  {
+    "id": "22b40e04-1eb9-509c-a55e-df8e82884aba",
+    "title": "Norveški izbornik nakon jednog od najvećih skandala u povijesti u suzama pred kamerama: Evo što je rekao",
+    "link": "https://www.tportal.hr/sport/clanak/norveski-izbornik-nakon-jednog-od-najvecih-skandala-u-povijesti-u-suzama-pred-kamerama-evo-sto-je-rekao-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765523.jpeg?cropId=0",
+    "description": "Engleska je nakon produžetaka pobijedila Norvešku 2:1 i izborila polufinale Svjetskog prvenstva, a Norvežani su poslije dramatičnog ispadanja teško skrivali emocije. Posebno pot...",
+    "published_at": "2026-07-12T00:38:00+00:00"
+  },
+  {
+    "id": "a3931574-bc52-583e-8c6a-25c70f877c10",
+    "title": "Tuchel: Kako me uopće možete pitati za mentalitet? Imali smo sreće",
+    "link": "https://www.index.hr/sport/clanak/tuchel-kako-me-uopce-mozete-pitati-za-mentalitet-imali-smo-srece/2812488.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "KRITIZIRAO je igru svoje momčadi unatoč prolazu.",
+    "published_at": "2026-07-12T00:34:00+00:00"
+  },
+  {
+    "id": "d264d946-d08e-563e-b3ec-745e0629a4f1",
+    "title": "Odegaard: Sudac nam nikako nije pomogao. Nismo dobili nijednu odluku u svoju korist",
+    "link": "https://www.24sata.hr/sport/odegaard-sudac-nam-nikako-nije-pomogao-nismo-dobili-nijednu-odluku-u-svoju-korist-1140708",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/PyAbz7BqyL7VdxRXH2zahellrOQ=/800x450/smart/media/images/2026-27/2026-07-11t234027z-1494902204-up1em7b1treb0-rtrmadp-3-soccer-worldcup-nor-eng_EAjoqjO.jpg",
+    "description": "Engleska je nakon produžetka slomila Norvešku 2-1 i ušla u polufinale, a Bellingham je postao junak susreta. Odegaard je ogorčen porazom i suđenjem",
+    "published_at": "2026-07-12T00:30:00+00:00"
+  },
+  {
+    "id": "9040bda9-85a8-57b9-a536-a5f34e870919",
+    "title": "FIFA objavila video senzora: \"Nema dokaza da je lopta dotaknula kabel\"",
+    "link": "https://www.index.hr/sport/clanak/fifa-objavila-video-senzora-nema-dokaza-da-je-lopta-dotaknula-kabel/2812487.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "FIFA je objavila video sporne situacije na utakmici Norveške i Engleske.",
+    "published_at": "2026-07-12T00:26:00+00:00"
+  },
+  {
+    "id": "e2225f12-378b-5e97-8a4f-6f03ba9374ee",
+    "title": "Utakmica Norveške i Engleske postavila je i jedan negativan rekord, a Norvežani su nastavili loš niz",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/utakmica-norveske-i-engleske-postavila-je-i-jedan-negativan-rekord-a-norvezani-su-nastavili-los-niz/629027/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/98/0000000000527980_510_0.jpg",
+    "description": "Engleska je izbacila Norvešku i izborila polufinale Svjetskog prvenstva. Na prvi udarac na ovoj utakmici čekali smo sve do 29. minute što je negativan rekord ovog cijelog natjec...",
+    "published_at": "2026-07-12T00:22:45+00:00"
+  },
+  {
+    "id": "dbe8ed64-41f0-55b1-bcc8-0ca55ec1d38a",
+    "title": "Engleski mediji: Gdje uopće započeti? Ovo nije prava Engleska",
+    "link": "https://www.index.hr/sport/clanak/engleski-mediji-gdje-uopce-zapoceti-ovo-nije-prava-engleska/2812486.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "REAKCIJA engleskih medija na pobjedu protiv Norveške.",
+    "published_at": "2026-07-12T00:21:00+00:00"
+  },
+  {
+    "id": "3df75091-b240-58e2-9843-f8d85085391e",
+    "title": "Bellingham je golom koji nije smio vrijediti izbacio Norvešku: Evo što je rekao nakon skandala",
+    "link": "https://www.tportal.hr/sport/clanak/bellingham-je-golom-koji-nije-smio-vrijediti-izbacio-norvesku-evo-sto-je-rekao-nakon-skandala-specijal-108-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765522.jpeg?cropId=0",
+    "description": "Drama nakon utakmice Engleske i Norveške dobila je novi nastavak. Engleska je nakon produžetaka slavila 2:1 i izborila polufinale Svjetskog prvenstva, ali veliku sjenu na pobjed...",
+    "published_at": "2026-07-12T00:20:00+00:00"
+  },
+  {
+    "id": "132f2a4f-e233-507f-b46e-97afa5bfed64",
+    "title": "Odegaard: Nijedna odluka suca nije išla u našu korist",
+    "link": "https://www.index.hr/sport/clanak/odegaard-nijedna-odluka-suca-nije-isla-u-nasu-korist/2812485.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NORVEŠKI kapetan dao je izjavu nakon ispadanja sa Svjetskog prvenstva.",
+    "published_at": "2026-07-12T00:15:00+00:00"
+  },
+  {
+    "id": "1e6e50cf-44c1-5989-ad78-1b1eb8ef8992",
+    "title": "Bellingham se priključio elitnom društvu Mbappea i Pelea, Pickford prestigao Shiltona",
+    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/bellingham-se-prikljucio-elitnom-drustvu-mbappea-i-pelea-pickford-prestigao-shiltona/629026/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/527/97/0000000000527979_510_0.jpg",
+    "description": "Engleska je na krilima Judea Bellinghama izborila polufinale Svjetskog prvenstva. Ovo im je četvrto polufinale velikog natjecanja od Rusije 2018. godine, a i ova je utakmica s N...",
+    "published_at": "2026-07-12T00:13:12+00:00"
+  },
+  {
+    "id": "7c8f3019-dc70-5447-9c04-cbd296521f61",
+    "title": "Volkswagen slavi 20. rođendan Tiguana uz posebno izdanje",
+    "link": "https://autonet.bug.hr/automobili/volkswagen-slavi-20-rodjendan-tiguana-uz-posebno-izdanje-61315",
+    "source": "Bug.hr",
+    "image_url": "https://autonet.bug.hr/img/volkswagen-slavi-20-rodjendan-tiguana-uz-posebno-izdanje_d2MysL.jpg",
+    "description": "Dva desetljeća uspjeha modela Tiguan Volkswagen će obilježiti lansiranjem slavljeničkog izdanja EDITION 20, koje uz ekskluzivnu opremu obilježava i devet milijuna prodanih primj...",
+    "published_at": "2026-07-12T00:10:00+00:00"
+  },
+  {
+    "id": "c9428c15-3bde-5d68-842d-85d10d2dac37",
+    "title": "Tuchel šokirao Englesku, evo što je rekao o utakmici protiv Norveške",
+    "link": "https://www.tportal.hr/sport/clanak/tuchel-sokirao-englesku-evo-sto-je-rekao-o-utakmici-protiv-norveske-20260712",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765521.jpeg?cropId=0",
+    "description": "Tuchel nakon dramatične pobjede Engleske: 'Imali smo sreće'.",
+    "published_at": "2026-07-12T00:08:00+00:00"
+  },
+  {
     "id": "e652e761-2792-5963-b1f6-e6b6ca64d392",
     "title": "Engleska u kontroverznoj utakmici pobijedila Norvešku nakon produžetka i ušla u polufinale",
     "link": "https://www.tportal.hr/sport/clanak/engleska-u-kontroverznoj-utakmici-pobijedila-norvesku-nakon-produzetka-i-usla-u-polufinale-specijal-108-20260712",
@@ -7,15 +493,6 @@
     "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765519.jpeg?cropId=4187157",
     "description": "Engelska je u četvrtfinalu SP-a pobijedila Norvešku 2:1 nakon produžetka.",
     "published_at": "2026-07-11T23:59:00+00:00"
-  },
-  {
-    "id": "dcb022ff-bad7-538c-b070-1479c1c1d91e",
-    "title": "VAR Norveškoj ukrao polufinale SP-a, svijet u šoku: 'Milijuni su gledali ovu pljačku'",
-    "link": "https://www.tportal.hr/sport/clanak/var-norveskoj-ukrao-polufinale-sp-a-svijet-u-soku-milijuni-su-gledali-ovu-pljacku-specijal-108-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765520.jpeg?cropId=0",
-    "description": "Engleska je nakon produžetaka pobijedila Norvešku 2:1 i izborila polufinale Svjetskog prvenstva, no novi FIFA-in skandal bacio je veliku sjenu na utakmicu u Miamiju. Pogodak Jud...",
-    "published_at": "2026-07-11T23:58:00+00:00"
   },
   {
     "id": "b56ac2d5-c17f-5a28-8636-1d3eae979653",
@@ -27,26 +504,8 @@
     "published_at": "2026-07-11T23:54:21+00:00"
   },
   {
-    "id": "2e48e6c8-9ff0-58fb-b8da-86e5643f9ea0",
-    "title": "SP 2026. Raspored i rezultati. Tko protiv koga igra u završnici?",
-    "link": "https://www.24sata.hr/sport/sp-2026-raspored-i-satnica-svih-utakmica-kad-igra-hrvatska-1090876",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/RDBeNNkRmb0qs5KO4jTd4lwACQA=/800x450/smart/media/images/2026-26/images-2026-26-pxl-reu-240626-154176858.jpg",
-    "description": "SP 2026. je u najuzbudljivijoj fazi, a Hrvatska se oprostila u šesnaestini finala proširenog Mundijala s 48 reprezentacija i ludim rasporedom po SAD-u, Kanadi i Meksiku",
-    "published_at": "2026-07-11T23:54:00+00:00"
-  },
-  {
-    "id": "718b95aa-74f4-551c-b5ad-29a062932a7b",
-    "title": "OD 3:00 Stigli sastavi. Argentina i Švicarska za posljednje mjesto u polufinalu",
-    "link": "https://www.index.hr/sport/clanak/od-300-stigli-sastavi-argentina-i-svicarska-za-posljednje-mjesto-u-polufinalu/2810752.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "TEKSTUALNI prijenos možete pratiti na Indexu.",
-    "published_at": "2026-07-11T23:52:00+00:00"
-  },
-  {
     "id": "22cf0acd-8971-5f76-b9fa-c2ddd906c311",
-    "title": "Norveška - Engleska 1-2: Englezi  nakon VAR drame i produžetaka izborili polufinale Mundijala",
+    "title": "Norveška - Engleska 1-2: Englezi nakon VAR drame i produžetaka izborili polufinale Mundijala",
     "link": "https://www.24sata.hr/sport/uzivo-norveska-engleska-tri-lava-favoriti-protiv-vikinga-evo-pocetnih-sastava-za-dvoboj-1140643",
     "source": "24sata",
     "image_url": "https://img.24sata.hr/h5Mu_ZO7HzI9LMA-zZPy4-TqF6c=/800x450/smart/media/images/2026-27/2026-07-11t234853z-1066189560-up1em7b1u5gc9-rtrmadp-3-soccer-worldcup-nor-eng.jpg",
@@ -61,15 +520,6 @@
     "image_url": "https://www.vecernji.hr/media/img/14/9c/558974ef690bcb8a76b1.jpeg",
     "description": "Tek što se krenulo u produžetak Engleska je stigla do vodstva. Dugo se plela akcija pred norveškim kaznenim prostorom dok se Rogers nije odlučio na udarac s gotovo 25 metara. Ny...",
     "published_at": "2026-07-11T23:52:00+00:00"
-  },
-  {
-    "id": "4c90fd1a-8d8b-5672-8687-2a343fd28b1c",
-    "title": "14. dan nokaut-faze: Engleska prošla u polufinale. Žestoka izjava Jurčića",
-    "link": "https://www.index.hr/sport/clanak/14-dan-nokautfaze-engleska-prosla-u-polufinale-zestoka-izjava-jurcica/2810751.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PRATIMO najnovije vijesti vezane uz Svjetsko prvenstvo.",
-    "published_at": "2026-07-11T23:48:00+00:00"
   },
   {
     "id": "763b63cf-56d3-5ebe-941a-4bc22a91464b",
@@ -90,15 +540,6 @@
     "published_at": "2026-07-11T23:46:00+00:00"
   },
   {
-    "id": "7e206147-7ece-5940-9c49-c5f5b286a6d3",
-    "title": "UŽIVO Argentina - Švicarska: Branitelji naslova u lovu na polufinale",
-    "link": "https://www.24sata.hr/sport/uzivo-argentina-svicarska-branitelji-naslova-u-lovu-na-polufinale-1140645",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/I87ztqB87i4jaWcnkeV8RUXPWTU=/800x450/smart/media/images/2026-27/pxl-new-090726-155014628-dytwhfo.jpg",
-    "description": "Argentina i Švicarska igraju četvrtfinale Svjetskog prvenstva u Kansas Cityju, a branitelji naslova dolaze s 12 uzastopnih pobjeda i dramom u osmini finala u kojoj su preokrenul...",
-    "published_at": "2026-07-11T23:44:00+00:00"
-  },
-  {
     "id": "e4dccf31-21a7-57d8-87c0-879e293e3971",
     "title": "Gol Norveške za 2:1 ne bi bio poništen prije Svjetskog prvenstva",
     "link": "https://www.index.hr/sport/clanak/gol-norveske-za-21-ne-bi-bio-ponisten-prije-svjetskog-prvenstva/2812484.aspx",
@@ -108,15 +549,6 @@
     "published_at": "2026-07-11T23:39:00+00:00"
   },
   {
-    "id": "2ba78a94-ad9f-5fe1-bb48-3e630f8dead5",
-    "title": "Slavni engleski sudac: 'Ogroman propust VAR-a, gol Engleske morao je biti poništen'",
-    "link": "https://www.tportal.hr/sport/clanak/slavni-engleski-sudac-ogroman-propust-var-a-gol-engleske-morao-je-biti-ponisten-specijal-108-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765518.jpeg?cropId=4187141",
-    "description": "Engleska je u četvrtfinalu SP-a izjednačile protiv Norveške kontroverznim golom u sudačkoj nadoknadi prvog poluvremena.",
-    "published_at": "2026-07-11T23:21:00+00:00"
-  },
-  {
     "id": "5cf7c18c-d9cc-5f8a-9f27-732c09ce7b98",
     "title": "FOTO Zagrebački vatrogasci su usred noći krenuli prema Korčuli u pomoć pri gašenju požara",
     "link": "https://www.24sata.hr/news/foto-zagrebacki-vatrogasci-su-usred-noci-krenuli-prema-korculi-u-pomoc-pri-gasenju-pozara-1140707",
@@ -124,15 +556,6 @@
     "image_url": "https://img.24sata.hr/1MzRDIum89cwqX29v40zpzw6vgY=/800x450/smart/media/images/2026-27/pxl-110726-155140673_4Jgj0qi.jpg",
     "description": "Požar koji je izbio na otoku Korčuli i dalje se ne smiruje, a svim snagama gase ga 170 vatrogasaca. U pomoć lokalnim vatrogascima stižu i zagrebački vatrogasci koji su krenuli i...",
     "published_at": "2026-07-11T23:19:00+00:00"
-  },
-  {
-    "id": "81bcebb9-a38b-5380-a225-33ffd840c3f0",
-    "title": "Marca objasnila zašto je Norveškoj poništen gol: Aktivirano je novo pravilo koje Englezi zovu 'anti-Arsenal'",
-    "link": "https://www.tportal.hr/sport/clanak/marca-objasnila-zasto-je-norveskoj-ponisten-gol-aktivirano-je-novo-pravilo-koje-englezi-zovu-anti-arsenal-specijal-108-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765517.jpeg?cropId=0",
-    "description": "Norveška je u 55. minuti nakratko ponovno povela protiv Engleske i izazvala erupciju oduševljenja svojih navijača u Miamiju. Heggem je nakon kornera pogodio za 2:1, ali francusk...",
-    "published_at": "2026-07-11T23:13:00+00:00"
   },
   {
     "id": "3be2905e-2fef-534d-b0ae-43ffba04b91f",
@@ -162,15 +585,6 @@
     "published_at": "2026-07-11T23:00:00+00:00"
   },
   {
-    "id": "8966a627-14f4-5eca-9cbf-d07b29b51011",
-    "title": "FIFA se ruga čitavom svijetu. Svi su vidjeli da je lopta kod gola Engleza nešto dirala, FIFA kaže da nije",
-    "link": "https://www.tportal.hr/sport/clanak/fifa-se-ruga-citavom-svijetu-cijeli-svijet-vidio-da-je-lopta-kod-gola-engleza-nesto-dirala-fifa-kaze-da-nije-specijal-108-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765516.png?cropId=4187130",
-    "description": "Engleska je protiv Norveške izjednačila u sudačkoj nadoknadi prvog poluvremena.",
-    "published_at": "2026-07-11T22:59:00+00:00"
-  },
-  {
     "id": "caae444b-3d8e-5dfc-af1a-919710479501",
     "title": "VIDEO MOTAJ KABLOVE Fifa je asistirala gol Englezima!? Lopta je pogodila kabel, VAR šutio...",
     "link": "https://www.24sata.hr/sport/video-motaj-kablove-fifa-je-asistirala-pogodak-englezima-1140705",
@@ -187,15 +601,6 @@
     "image_url": "https://img.24sata.hr/itERI2bcwb4D9gW8XUi_wIJIk_o=/800x450/smart/media/images/2026-27/2026-07-11t222709z-1246089385-rc2ybmaaitkb-rtrmadp-3-soccer-worldcup-nor-eng.jpg",
     "description": "Drama u četvrtfinalu SP-a; Norveška je nakratko slavila gol za preokret, ali VAR ga je poništio zbog Haalandova prekršaja nad Andersonom",
     "published_at": "2026-07-11T22:40:00+00:00"
-  },
-  {
-    "id": "ea82ee88-a36e-5848-a3c6-c1649761f9c8",
-    "title": "Ovo što je Rooney rekao o poništenom golu Norveške neće se svidjeti Englezima",
-    "link": "https://www.tportal.hr/sport/clanak/rooney-imali-smo-jako-puno-srece-to-nije-bio-faul-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765515.jpeg?cropId=4187119",
-    "description": "Norveškoj je u 55. minuti susreta protiv Engleske kod rezultata 1:1 poništen gol Heggema.",
-    "published_at": "2026-07-11T22:39:00+00:00"
   },
   {
     "id": "8ee02cd2-8cfd-5ce9-b0d3-0ff221ca69db",
@@ -225,15 +630,6 @@
     "published_at": "2026-07-11T22:28:00+00:00"
   },
   {
-    "id": "1efb2d37-e114-5cf1-bc8c-2f2f4b404099",
-    "title": "Norveška je još jednom šokirala Engleze, ali gol je poništen: Pogledajte što se dogodilo",
-    "link": "https://www.tportal.hr/sport/clanak/norveska-je-jos-jednom-sokirala-engleze-ali-gol-je-ponisten-pogledajte-sto-se-dogodilo-specijal-108-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765514.jpeg?cropId=0",
-    "description": "Norveška je u 55. minuti ponovno povela protiv Engleske, ali samo nakratko. Nakon velike gužve u petercu Heggem je pogodio za 2:1, no VAR je pozvao suca na pregled snimke, a pog...",
-    "published_at": "2026-07-11T22:26:00+00:00"
-  },
-  {
     "id": "18841bb9-fcd6-5a1c-b002-1c56a36dc08f",
     "title": "VIDEO Fifinog disciplinca pitali o kazni za crveni karton SAD-a i Engleske. Evo kako je reagirao",
     "link": "https://www.24sata.hr/sport/video-fifinog-disciplinca-pitali-o-kazni-za-crveni-karton-sad-a-i-engleske-evo-kako-je-reagirao-1140703",
@@ -259,24 +655,6 @@
     "image_url": null,
     "description": "NIZ INCIDENATA je obilježio Svjetsko prvenstvo.",
     "published_at": "2026-07-11T22:10:00+00:00"
-  },
-  {
-    "id": "42b0943b-91bf-5709-9bd4-66ff9e9a9a54",
-    "title": "Bellingham napravio nešto što nije uspio nijedan engleski veznjak u povijesti",
-    "link": "https://www.tportal.hr/sport/clanak/bellingham-napravio-nesto-sto-nije-uspio-nijedan-engleski-veznjak-u-povijesti-specijal-108-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765513.jpeg?cropId=0",
-    "description": "Bellingham ispisao povijest Engleske, a s Kaneom ostvario nešto što se nikad nije dogodilo",
-    "published_at": "2026-07-11T22:08:00+00:00"
-  },
-  {
-    "id": "848c8485-c25f-56b4-bdbe-02f4353c4257",
-    "title": "SP UŽIVO Messi i Argentina u lovu na prolaz protiv Švicarske",
-    "link": "https://www.24sata.hr/sport/sp-uzivo-messi-i-argentina-u-lovu-na-prolaz-protiv-svicarske-1140688",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/CpuV_TB1vGaZA25_ctxsH9Fp0GU=/800x450/smart/media/images/2026-27/pxl-reu-070726-154935138_eIe4hbu.jpg",
-    "description": "U nedjelju u noći posljednji četvrtfinalni dvoboj igraju Argentina i Švicarska u Kansas Cityju. Branitelji naslova Argentina dolaze nakon dramatičnog preokreta 3-2 nad Egiptom, ...",
-    "published_at": "2026-07-11T22:06:00+00:00"
   },
   {
     "id": "fc9b2363-71cd-5df2-b910-401bd10aed3e",
@@ -306,48 +684,12 @@
     "published_at": "2026-07-11T22:01:00+00:00"
   },
   {
-    "id": "167f111a-2546-5d1f-a523-f5192ecbf3f4",
-    "title": "Pogledajte majstorski gol Bellinghama kojim je spasio Engleze",
-    "link": "https://www.tportal.hr/sport/clanak/pogledajte-majstorski-gol-bellinghama-kojim-je-spasio-engleze-20260712",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765511.jpeg?cropId=0",
-    "description": "Engleska je u susretu četvrtfinala SP-a izjednačila protiv Norveške na 1:1 u sudačkoj nadoknadi prvog poluvremena.",
-    "published_at": "2026-07-11T22:00:00+00:00"
-  },
-  {
-    "id": "c6488b5f-bebb-5d12-bd65-e1f7bae3804a",
-    "title": "Dnevni horoskop za 12. srpnja 2026. - što vam zvijezde danas donose",
-    "link": "https://www.tportal.hr/lifestyle/clanak/dnevni-horoskop-za-12-srpnja-2026-sto-vam-zvijezde-danas-donose-20260706",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2757083.jpeg?cropId=0",
-    "description": "Lavovi i dalje privlače pažnju u društvenim situacijama, ali će im više odgovarati opušten pristup bez potrebe za kontrolom. Rakovi pronalaze mir u bliskim odnosima i obiteljsko...",
-    "published_at": "2026-07-11T22:00:00+00:00"
-  },
-  {
-    "id": "b432642f-3694-5750-b61b-9450976b4c91",
-    "title": "Evo kako se Alan Shearer naklonio junaku Engleske",
-    "link": "https://www.tportal.hr/sport/clanak/evo-kako-se-alan-shearer-naklonio-junaku-engleske-specijal-108-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765512.jpeg?cropId=0",
-    "description": "Norveška je tek povela spektakularnim golom Andreasa Schjelderupa, a Engleska je već nekoliko minuta poslije uzvratila preko svog najvećeg aduta. Jude Bellingham završio je sjaj...",
-    "published_at": "2026-07-11T21:58:00+00:00"
-  },
-  {
     "id": "eb43945b-0a91-5546-8f91-cbf4c66c38c4",
     "title": "FOTO Mišićavi Marko Grubnić u gaćicama završio pod tušem",
     "link": "https://www.24sata.hr/show/foto-misicavi-marko-grubnic-u-gacicama-zavrsio-pod-tusem-1140671",
     "source": "24sata",
     "image_url": "https://img.24sata.hr/hGxZtpA-qETnw-iHdudKCR8tly0=/800x450/smart/media/images/2026-27/dizajn-bez-naslova-2026-07-11t202253-611.png.jpg",
     "description": "Modni stilist posljednjih je dana uživao u Španjolskoj s Majom Šuput, njezinim sinom Bloomom i Momčilom Gurovićem. Maja se danas vratila u Zagreb zbog nastupa u Lepoglavi, a Gru...",
-    "published_at": "2026-07-11T21:56:00+00:00"
-  },
-  {
-    "id": "f2f31ca1-b15a-57c3-ba06-7bf26ca08b6a",
-    "title": "Italija nakon nezapamćene katastrofe protiv BiH vratila najveću legendu. Dobio je potpunu moć",
-    "link": "https://www.tportal.hr/sport/clanak/italija-nakon-nezapamcene-katastrofe-protiv-bih-vratila-najvecu-legendu-dobio-je-potpunu-moc-specijal-108-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2708958.jpeg?cropId=0",
-    "description": "Paolo Maldini ponovno je dio talijanske reprezentacije. Jedan od najvećih braniča u povijesti nogometa imenovan je novim tehničkim direktorom Talijanskog nogometnog saveza, a nj...",
     "published_at": "2026-07-11T21:56:00+00:00"
   },
   {
@@ -396,15 +738,6 @@
     "published_at": "2026-07-11T21:44:00+00:00"
   },
   {
-    "id": "5f7c88da-cd22-58ff-aa69-1245cbfe5a76",
-    "title": "Šok za Engleze: Pogledajte kako je Norveška povela jednim od najspektakularnijih golova SP-a",
-    "link": "https://www.tportal.hr/sport/clanak/sok-za-engleze-pogledajte-kako-je-norveska-povela-jednim-od-najspektakularnijih-golova-sp-a-specijal-108-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765510.jpeg?cropId=0",
-    "description": "Ludnica u Miamiju.",
-    "published_at": "2026-07-11T21:44:00+00:00"
-  },
-  {
     "id": "6c06d16a-43d8-5640-a3df-b1247590c7ef",
     "title": "'Sitni lopovi' osvojili prestižni FIPRESCI u Karlovim Varima, nagrađen i 'Tri tjedna kasnije'",
     "link": "https://www.24sata.hr/show/sitni-lopovi-osvojili-prestizni-fipresci-u-karlovim-varima-nagraden-i-tri-tjedna-kasnije-1140699",
@@ -432,15 +765,6 @@
     "published_at": "2026-07-11T21:34:16+00:00"
   },
   {
-    "id": "755bb64a-bcef-5051-9c1b-09492bef974e",
-    "title": "Dio Zadra ostao bez struje: Kvar nastao nakon udara groma?",
-    "link": "https://www.24sata.hr/news/dio-zadra-ostao-bez-struje-kvar-nastao-nakon-udara-groma-1140697",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/ahqD5rr16o3ZqGdqn5UIcGZV5dM=/800x450/smart/media/images/2026-27/pxl-240825-137223238_2XIk4Mo.jpg",
-    "description": "Bez struje su iznenada ostali stanovnici Starigrada, Rovanjske, Selina, Posedarja, Maslenice, Vinjerca, Slivnice Gornje i Slivnice Donje.",
-    "published_at": "2026-07-11T21:33:00+00:00"
-  },
-  {
     "id": "934ed6d6-a76f-59a6-a82a-2903221e7d00",
     "title": "Potop hrvatskih tenisača u kvalifikacijama Umaga, svi su ispali! Splićanin je bio najbliži...",
     "link": "https://slobodnadalmacija.hr/sport/tenis/potop-hrvatskih-tenisaca-u-kvalifikacijama-umaga-svi-su-ispali-splicanin-je-bio-najblizi-1567434",
@@ -448,15 +772,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/31428034.jpg",
     "description": "Mili Poljičak, Duje Ajduković i Noa Vukadin nisu uspjeli izboriti plasman u drugo kolo kvalifikacija za 36. izdanje Plava Laguna Croatia Opena koje su u subotu započele u umaško...",
     "published_at": "2026-07-11T21:31:22+00:00"
-  },
-  {
-    "id": "3f6f191f-7332-5526-8f82-7585b4b3a1be",
-    "title": "Sin brončanog Vatrenog iz 1998. te junak BiH ima novi klub: Evo gdje nastavlja karijeru",
-    "link": "https://www.tportal.hr/sport/clanak/sin-broncanog-vatrenog-iz-1998-te-junak-bih-ima-novi-klub-evo-gdje-nastavlja-karijeru-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2749754.jpeg?cropId=0",
-    "description": "Bosanskohercegovački reprezentativni vratar Nikola Vasilj karijeru će nastaviti u Saudijskoj Arabiji. Tridesetogodišnjak je novi igrač Al Diriyaha, novog člana tamošnje elitne l...",
-    "published_at": "2026-07-11T21:28:00+00:00"
   },
   {
     "id": "7d2644db-74ac-5069-aac3-994a1f12152e",
@@ -468,15 +783,6 @@
     "published_at": "2026-07-11T21:26:00+00:00"
   },
   {
-    "id": "44bef29b-4c44-5fbc-a232-71df04adbc74",
-    "title": "FOTO Rundek i Ekipa obilježili 41. obljetnicu albuma 'Bolero'",
-    "link": "https://www.24sata.hr/show/foto-rundek-i-ekipa-obiljezili-41-obljetnicu-albuma-bolero-1140698",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/PUN2Sc9RPyCGkVl9NBLophpc7uc=/800x450/smart/media/images/2026-27/pxl-110726-155136373_G6LpZOf.jpg",
-    "description": "Šalata je u subotu navečer odzvanjala hitovima Darka Rundeka. Glazbenik je s Ekipom pred brojnom publikom obilježio 41. obljetnicu kultnog albuma 'Bolero', a na pozornici su mu ...",
-    "published_at": "2026-07-11T21:25:00+00:00"
-  },
-  {
     "id": "0de45d94-9898-50da-b355-5f628405c689",
     "title": "Očekivala se Premier liga, a onda je vratar BiH i sin bivšeg Vatrenog šokirao izborom kluba, navijači su nezadovoljni",
     "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/ocekivala-se-premier-liga-a-onda-je-vratar-bih-i-sin-bivseg-vatrenog-sokirao-izborom-kluba-navijaci-su-nezadovoljni-1567433",
@@ -486,15 +792,6 @@
     "published_at": "2026-07-11T21:18:41+00:00"
   },
   {
-    "id": "d47fd69e-bd2e-532c-9415-b7cb07f52cc6",
-    "title": "VIDEO Pogledajte Jagušićev prvi gol u dresu Panathinaikosa",
-    "link": "https://www.24sata.hr/sport/video-pogledajte-jagusicev-prvi-gol-u-dresu-panathinaikosa-1140696",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/f2lEqPCYQakzTvh37_9WRmS7Tsw=/800x450/smart/media/images/2026-06/screenshot-2026-02-12-11h04m33s031.jpg",
-    "description": "Jagušić je zabio prvijenac za Panathinaikos i najavio kako spreman dočekuje novu sezonu. Mladi Hrvat je pogodio protiv Grasshoppersa i najavio veću ulogu u grčkoj momčadi",
-    "published_at": "2026-07-11T21:10:00+00:00"
-  },
-  {
     "id": "57c08b17-58e7-53db-860d-91afbe60df39",
     "title": "Sudac finala SP-a 2006.: Glumio sam kako bih isključio Zidanea",
     "link": "https://www.index.hr/sport/clanak/sudac-finala-spa-2006-glumio-sam-kako-bih-iskljucio-zidanea/2812475.aspx",
@@ -502,15 +799,6 @@
     "image_url": null,
     "description": "OTKRIO je svoju stranu priče.",
     "published_at": "2026-07-11T21:09:00+00:00"
-  },
-  {
-    "id": "9f2f6e03-7d24-5d16-91b2-7fd4ce97a30a",
-    "title": "Ivana Knöll u Miamiju navijala za Norvešku. Svi su gledali u njezinu neobičnu kombinaciju",
-    "link": "https://www.24sata.hr/show/ivana-knoll-u-miamiju-navijala-za-norvesku-svi-su-gledali-u-njezinu-neobicnu-kombinaciju-1140695",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/NqOsr3YUyYJus_exUs8cGDCEdn4=/800x450/smart/media/images/2026-26/untitled-design_zRxlG4P.jpg",
-    "description": "Na tribinama je bila okružena engleskim navijačima, ali je svojim izdanjem jasno pokazala na čijoj je strani",
-    "published_at": "2026-07-11T21:08:00+00:00"
   },
   {
     "id": "31f73663-4de3-5004-b2bd-3808340d1b4a",
@@ -529,33 +817,6 @@
     "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-11-at-21.57.08.jpeg",
     "description": "Građanima upućen važan apel",
     "published_at": "2026-07-11T21:04:35+00:00"
-  },
-  {
-    "id": "cd2a6893-49f5-58df-beaf-cbba68638c63",
-    "title": "Rubio zaprijetio Kubi: Provedite reforme prije nego bude kasno",
-    "link": "https://www.24sata.hr/news/rubio-zaprijetio-kubi-provedite-reforme-prije-nego-bude-kasno-1140693",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/pghf09MBPaNxwzltxeHJDSHUSlI=/800x450/smart/media/images/2026-20/2026-05-14t124212z-79009800-rc209lasls23-rtrmadp-3-china-usa.jpg",
-    "description": "Kuba, karipska otočna država od oko 10 milijuna ljudi, pod socijalističkom je vladavinom od revolucije 1959. godine. Kao odgovor, SAD je nametnuo gospodarski embargo zemlji koji...",
-    "published_at": "2026-07-11T21:04:00+00:00"
-  },
-  {
-    "id": "e080af8a-351d-5b98-a113-c2041319909e",
-    "title": "Mladi Hrvat oduševio Grke! Pogledajte kakvu je golčinu zabio Adriano Jagušić",
-    "link": "https://www.tportal.hr/sport/clanak/mladi-hrvat-odusevio-grke-pogledajte-kakvu-je-golcinu-zabio-adriano-jagusic-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765508.jpeg?cropId=4187104",
-    "description": "Adriano Jagušić (20) je u pretposljednjoj pripremnoj utakmici Panathinaikosa zabio svoj prvi gol u dresu grčkog velikana i ponovno skrenuo pozornost na svoj veliki talent",
-    "published_at": "2026-07-11T21:04:00+00:00"
-  },
-  {
-    "id": "91f21a0d-6b8b-575a-9be7-83dca8a83400",
-    "title": "Guardian otvorio najtežu temu Svjetskog prvenstva: ‘Navijači više ne vjeruju da je sve pošteno’",
-    "link": "https://www.tportal.hr/sport/clanak/guardian-otvorio-najtezu-temu-svjetskog-prvenstva-navijaci-vise-ne-vjeruju-da-je-sve-posteno-specijal-108-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2762806.jpeg?cropId=4179107",
-    "description": "Svjetsko prvenstvo donijelo je golove, senzacije, pune stadione i utakmice o kojima će se dugo govoriti, ali ispod površine raste problem koji bi za FIFA-u mogao biti opasniji o...",
-    "published_at": "2026-07-11T21:03:00+00:00"
   },
   {
     "id": "712105c0-6045-560c-88c3-7a299fe9f5b3",
@@ -583,33 +844,6 @@
     "image_url": null,
     "description": "U FINALU je pobijedila Njemačku 2:0.",
     "published_at": "2026-07-11T21:00:00+00:00"
-  },
-  {
-    "id": "e34929ec-c7d9-5c66-bd51-3e3560185ccf",
-    "title": "Inspekcija kontrolirala pomorski promet kod Zadra: Evo što su sve našli",
-    "link": "https://www.tportal.hr/vijesti/clanak/inspekcija-kontrolirala-pomorski-promet-kod-zadra-evo-sto-su-sve-nasli-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2761631.jpeg?cropId=0",
-    "description": "U sklopu akcije \"Sigurna plovidba 2026 Zadar\" provedenoj u subotu, do 18 sati, u zadarskom akvatoriju inspekcija je provela nadzor nad 31 plovilom te utvrdila 19 povreda propisa...",
-    "published_at": "2026-07-11T20:58:00+00:00"
-  },
-  {
-    "id": "7fae2c2d-3b71-5f43-9af8-445583b293a7",
-    "title": "Goran Ivaniševič komentirao odlazak Dalića i dolazak Bilića: Evo što je rekao",
-    "link": "https://www.tportal.hr/sport/clanak/goran-ivanisevic-komentirao-odlazak-dalica-i-dolazak-bilica-evo-sto-je-rekao-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2765509.jpeg?cropId=0",
-    "description": "Goran Ivanišević za Dnevnik Nove TV najavio je početak ATP turnira u Umagu, koji je opisao kao jedno od najjačih izdanja u posljednjih deset godina. U razgovoru se potom dotaknu...",
-    "published_at": "2026-07-11T20:58:00+00:00"
-  },
-  {
-    "id": "0efed568-31ff-53d3-aa0f-39381c57bf9c",
-    "title": "Rubio poslao poruku Kubi: 'Provedite reforme prije nego što bude prekasno!'",
-    "link": "https://www.tportal.hr/vijesti/clanak/rubio-poslao-poruku-kubi-provedite-reforme-prije-nego-sto-bude-prekasno-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2755107.jpeg?cropId=0",
-    "description": "Američki državni tajnik Marco Rubio u subotu je pozvao kubansku socijalističku vladu da provede dalekosežne reforme, u povodu pete godišnjice protuvladinih prosvjeda koji su zah...",
-    "published_at": "2026-07-11T20:55:00+00:00"
   },
   {
     "id": "0e127e86-479e-5def-8e76-715990fceaab",
@@ -646,15 +880,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/32131539.png",
     "description": "Partijaneri iz svih dijelova svijeta zaposjeli su Park mladeži, a uz line up najpopularnijih DJ-eva sa svjetske elektroničke scene, među kojima se večeras, druge večeri Ultre is...",
     "published_at": "2026-07-11T20:50:00+00:00"
-  },
-  {
-    "id": "68198a2c-6aff-5a5c-9d2c-280b10fabe79",
-    "title": "Viralna teorija navodno je već otkrila prvaka SP-a. Pogledajte tko bi trebao podignuti trofej 19. srpnja",
-    "link": "https://www.tportal.hr/sport/clanak/viralna-teorija-navodno-je-vec-otkrila-prvaka-sp-a-pogledajte-tko-bi-trebao-podignuti-trofej-19-srpnja-specijal-108-20260711",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2748702.jpeg?cropId=0",
-    "description": "Norveška je izbacivanjem Brazila ostvarila jednu od najvećih pobjeda u svojoj povijesti, ali na društvenim mrežama sada se širi teorija prema kojoj momčad Erlinga Haalanda neće ...",
-    "published_at": "2026-07-11T20:48:00+00:00"
   },
   {
     "id": "6ffe9bcf-b57a-5761-ae53-7a486437a06e",
@@ -972,15 +1197,6 @@
     "published_at": "2026-07-11T19:39:00+00:00"
   },
   {
-    "id": "9d76a146-b2ab-516f-a9e1-f01b25ac8070",
-    "title": "Srđan Aleksić pronađen mrtav nakon što je slovenska policija tragala za njim gotovo 24 sata",
-    "link": "https://www.regionalexpress.hr/site/sran-aleksi-pronaen-mrtav-nakon-shto-je-slovenska-policija-tragala-za-njim-gotovo-24-sata",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "NAKON PUCNJAVE NA VALDEBEKU, ALEKSIĆ JE U PETAK OPLJAČKAO BENZINSKU POSTAJU U ČRNOMLJU PU istarska izdala je obavijest da se bustavljaju mjere traganja za Srđanom Aleksićem, s o...",
-    "published_at": "2026-07-11T19:37:00+00:00"
-  },
-  {
     "id": "e90ab861-d9e0-57e4-8f7e-ab26f7b19ce9",
     "title": "Sprema se ‘Bajdina godina‘, njegov sin: ‘I danas bi bio najbolji, igrao bi do 60-e! Nosio je Bearinu sliku u novčaniku‘",
     "link": "https://slobodnadalmacija.hr/sport/hajduk/sprema-se-bajdina-godina-njegov-sin-i-danas-bi-bio-najbolji-igrao-bi-do-60-e-nosio-je-bearinu-sliku-u-novcaniku-1567423",
@@ -1153,7 +1369,7 @@
   },
   {
     "id": "631e5d74-2af7-5dde-9322-cfd2867e44fd",
-    "title": "Županija upozorila iznajmljivače: Tko do tada ne preda zahtjev, riskira zabranu rada",
+    "title": "Županija upozorila građane: Tko do tada ne preda zahtjev, riskira zabranu rada",
     "link": "https://www.poslovni.hr/hrvatska/zupanija-upozorila-iznajmljivace-tko-do-tada-ne-preda-zahtjev-riskira-zabranu-rada-4546606",
     "source": "Poslovni dnevnik",
     "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/07/PXL_290124_109297463-800x500.jpg",
@@ -1203,15 +1419,6 @@
     "source": "Slobodna Dalmacija",
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/32130085.jpg",
     "description": "Majstorica transformacija, hrvatska vizažistica Marina Mamić ponovno je oduševila svoje obožavatelje, ovaj put transformiravši se u aktualnu zvijezdu Svjetskog nogometnog prvens...",
-    "published_at": "2026-07-11T18:50:00+00:00"
-  },
-  {
-    "id": "6f43aa9c-d3d0-5668-910e-edf34c326086",
-    "title": "Motociklist poginuo u teškoj prometnoj nesreći kod Raše",
-    "link": "https://www.regionalexpress.hr/site/motociklist-poginuo-u-teshkoj-prometnoj-nesrei-kod-rashe",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "TE&Scaron;KA PROMETNA NESREĆA U te&scaron;koj prometnoj nesreći koja se dogodila danas oko 18.55 sati na državnoj cesti D66 u Ra&scaron;i smrtno je stradao motociklist. Na mjest...",
     "published_at": "2026-07-11T18:50:00+00:00"
   },
   {
@@ -1287,15 +1494,6 @@
     "published_at": "2026-07-11T18:32:00+00:00"
   },
   {
-    "id": "172cc14e-772b-587c-af0a-b28b795f7e16",
-    "title": "Napadača iz Pule pronašli mrtvog u Sloveniji: Satima ga lovili specijalci i helikopter",
-    "link": "https://www.vecernji.hr/vijesti/bivsi-hrvatski-specijalac-naoruzan-bjezao-slovenskoj-policiji-satima-ga-lovili-policija-i-helikopter-na-kraju-pronaden-mrtav-1977157",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/bf/35/3a49c372c7113455e894.jpg",
-    "description": "Nakon što je muškarac pronađen mrtav, policija je poručila kako opasnost za građane više ne postoji",
-    "published_at": "2026-07-11T18:32:00+00:00"
-  },
-  {
     "id": "fb61b0ec-b51a-5790-b08d-d34ee2660fea",
     "title": "Dr. Arbanas Kovačević o gerijatrijskoj skrbi: kako da stariji ne budu samo na brizi obitelji, o modelu ‘kišobrana‘...",
     "link": "https://slobodnadalmacija.hr/mozaik/zivot/dr-arbanas-kovacevic-o-gerijatrijskoj-skrbi-kako-da-stariji-ne-budu-samo-na-brizi-obitelji-o-modelu-kisobrana-1567414",
@@ -1323,15 +1521,6 @@
     "published_at": "2026-07-11T18:28:00+00:00"
   },
   {
-    "id": "0f7c9882-3de7-5307-8bf6-44233072cf0a",
-    "title": "VIDEO Promašio izlaz na kružnom toku pa napravio nešto što je razbjesnilo vozače: 'Treba mu oduzeti vozačku'",
-    "link": "https://www.vecernji.hr/vijesti/video-promasio-izlaz-na-kruznom-toku-pa-napravio-nesto-sto-je-razbjesnilo-vozace-treba-mu-oduzeti-vozacku-1977155",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/fa/90/e723bedd228f605a9887.jpg",
-    "description": "Na snimci se vidi automobil čiji je vozač, čini se, propustio izlaz kojim je namjeravao nastaviti vožnju. Nakon kratkog oklijevanja usred kružnog toka pokušava ispraviti pogrešku",
-    "published_at": "2026-07-11T18:26:00+00:00"
-  },
-  {
     "id": "76fa738e-9fe4-5958-85a3-a23151581f61",
     "title": "Dinamo na pragu senzacije, mladi as PSG-a želi samo - Maksimir, evo koliko su Modri spremni platiti",
     "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/dinamo-na-pragu-senzacije-mladi-as-psg-a-zeli-samo-maksimir-evo-koliko-su-modri-spremni-platiti-1567413",
@@ -1348,15 +1537,6 @@
     "image_url": null,
     "description": "DVA VELIKA požara na otoku Korčuli spojila su se u jedan, a na terenu je preko 150 vatrogasaca. Požare, uzrokovane udarima groma, otežavaju jak vjetar i nepristupačan teren.",
     "published_at": "2026-07-11T18:25:00+00:00"
-  },
-  {
-    "id": "267e4eae-f82b-5767-a9e8-2f84fdb6969f",
-    "title": "Veliki preokret oko Modrića: Kapetan Vatrenih na korak do odluke koja će mnoge iznenaditi!",
-    "link": "https://www.vecernji.hr/sport/veliki-preokret-oko-modrica-kapetan-vatrenih-na-korak-do-odluke-koja-ce-mnoge-iznenaditi-1977153",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/e0/c7/875cec4ce595f714802f.jpeg",
-    "description": "Prema informacijama koje dolaze posljednjih dana, hrvatski veznjak sve je bliže odluci da prihvati ponudu Milana i ostane na San Siru, pišu talijanski mediji. Vrlo vjerojatno bi...",
-    "published_at": "2026-07-11T18:22:00+00:00"
   },
   {
     "id": "4365f0c1-0cdd-58cc-b1ae-41046a08314b",
@@ -2169,24 +2349,6 @@
     "published_at": "2026-07-11T15:17:00+00:00"
   },
   {
-    "id": "51d22dab-50ef-5870-a2c0-d01636d2efa6",
-    "title": "Doveli trenera, mlađi je od mnogih nogometaša. Evo zašto su angažirali ‘bosanskog Nagelsmanna‘",
-    "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/doveli-trenera-mladi-je-od-mnogih-nogometasa-evo-zasto-su-angazirali-bosanskog-nagelsmanna-1567389",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/31645941.jpg",
-    "description": "Novi trener Dugopolja je Eldin Čengić. Mladi 29-godišnji stručnjak na stadion Sportskog centra Hrvatskih vitezova stigao je s pozicije trenera juniora Sarajeva. Dugopolje je pro...",
-    "published_at": "2026-07-11T15:13:00+00:00"
-  },
-  {
-    "id": "c465523a-9792-54e1-baa3-d48de814355b",
-    "title": "Bili smo s ekipom Hitne kojoj ovaj vikend nema spavanja: ‘Nije lako, prvi radni dan imala sam dva smrtna slučaja...‘",
-    "link": "https://slobodnadalmacija.hr/split-i-zupanija/split/bili-smo-s-ekipom-hitne-kojoj-ovaj-vikend-nema-spavanja-nije-lako-prvi-radni-dan-imala-sam-dva-smrtna-slucaja-1567390",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/09/32128161.jpg",
-    "description": "Jednom mi je rekao jedan stari fratar: \"Kad god čujem da svira hitna pomoć, ja se pomolim u sebi: Bože, na pomoći budi onome koga spašavaju. A blagoslovi i medicinare!\" Ako stan...",
-    "published_at": "2026-07-11T15:12:52+00:00"
-  },
-  {
     "id": "5d5ddc8a-25b8-5a72-b49c-68cdd1bfd581",
     "title": "Preminuo čovjek koji je spasio engleskoga velikana: Kupio ga za nestvarni iznos i donio trofej nakon 26 godina čekanja",
     "link": "https://sportnet.hr/vijesti/nogomet-nogometni-svijet/preminuo-covjek-koji-je-spasio-engleskoga-velikana-kupio-ga-za-nestvarni-iznos-i-donio-trofej-nakon-26-godina-cekanja/629011/",
@@ -2295,15 +2457,6 @@
     "published_at": "2026-07-11T14:50:00+00:00"
   },
   {
-    "id": "70e7583a-c011-5f82-b389-b1a870799c28",
-    "title": "Splićanin ostao na korak do osvajanja Wimbledona, ali je zaradio dobar iznos; evo koliko je eura pospremio u džep",
-    "link": "https://slobodnadalmacija.hr/sport/tenis/splicanin-ostao-na-korak-do-osvajanja-wimbledona-ali-je-zaradio-dobar-iznos-evo-koliko-je-eura-pospremio-u-dzep-1567387",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/32081617.jpg",
-    "description": "Hrvatski tenisač Mate Pavić i njegov suigrač Marcelo Arevalo iz Salvadora ostali su bez naslova u konkurenciji muških parova na Wimbledonu. U finalnom susretu bolji su bili Fina...",
-    "published_at": "2026-07-11T14:47:22+00:00"
-  },
-  {
     "id": "3f4b9725-17b3-54ce-8725-d336fa46ae2f",
     "title": "Slatko, ali jedva automobil, kažu Amerikanci: Fiat Topolino krenuo u prodaju u SAD-u",
     "link": "https://autonet.bug.hr/trziste/slatko-ali-jedva-automobil-kazu-amerikanci-fiat-topolino-krenuo-u-prodaju-u-61278",
@@ -2365,24 +2518,6 @@
     "image_url": null,
     "description": "KAPRI hlače godinama su bile nezaobilazan ljetni klasik, no čini se da su dobile ozbiljnu konkurenciju.",
     "published_at": "2026-07-11T14:33:00+00:00"
-  },
-  {
-    "id": "4ce9cd1d-318d-5759-b53e-e65bc6e85148",
-    "title": "VIDEO Na Korčuli izbila dva požara, dignuti kanaderi; na terenu vatrogasci s cijelog otoka, otok u plamenu i dimu",
-    "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/video-na-korculi-izbila-dva-pozara-dignuti-kanaderi-na-terenu-vatrogasci-s-cijelog-otoka-otok-u-plamenu-i-dimu-1567386",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/32129077.gif",
-    "description": "Nakon nevere na Korčuli izbila su dva požara. Kako saznajemo, požari su planuli kod Blata na Korčuli, na teško pristupačnom terenu. Požare gase tri kanadera i jedan air traktor....",
-    "published_at": "2026-07-11T14:26:00+00:00"
-  },
-  {
-    "id": "b6a19217-dd98-5447-b9a4-22e41a6188b9",
-    "title": "Novi skandal oko Argentine i Egipta! Hakeri napali sustav saveza: ‘Krađa neće proći nekažnjeno‘",
-    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/novi-skandal-oko-argentine-i-egipta-hakeri-napali-sustav-saveza-krada-nece-proci-nekaznjeno-1567385",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/11/32128722.jpg",
-    "description": "Ni nekoliko dana nakon spektakularne pobjede Argentine nad Egiptom (3:2) u osmini finala Svjetskog prvenstva ne stišavaju se tenzije. Nakon što su Egipćani osporavali sudačke od...",
-    "published_at": "2026-07-11T14:23:00+00:00"
   },
   {
     "id": "9a4c0ea7-1083-54d4-9fc5-225dfdab82ad",
@@ -2538,21 +2673,21 @@
     "published_at": "2026-07-11T13:38:00+00:00"
   },
   {
-    "id": "8cae8329-1a35-55d5-b657-f5873e2393bf",
-    "title": "Jedan od najpoznatijih horora svih vremena dobiva novu seriju",
-    "link": "https://www.index.hr/chill/clanak/jedan-od-najpoznatijih-horora-svih-vremena-dobiva-novu-seriju/2812361.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NOVA horor serija u režiji Mikea Flanagana stiže na Prime Video prije kraja 2026. godine.",
-    "published_at": "2026-07-11T13:32:00+00:00"
-  },
-  {
     "id": "884b5a0a-da49-5258-8500-eacabca529b7",
     "title": "Andreas i Sarah uložili 400 eura u outfite za Ultru, otkrili su nam rave web shop",
     "link": "https://www.index.hr/shopping/clanak/andreas-i-sarah-ulozili-400-eura-u-outfite-za-ultru-otkrili-su-nam-rave-web-shop/2812367.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "ANDREAS i Sarah iz Švedske privukli su pažnju na Ultra Europe festivalu svojim usklađenim modnim kombinacijama. Otkrili su da su ih kupili online za oko 400 eura.",
+    "published_at": "2026-07-11T13:32:00+00:00"
+  },
+  {
+    "id": "8cae8329-1a35-55d5-b657-f5873e2393bf",
+    "title": "Jedan od najpoznatijih horora svih vremena dobiva novu seriju",
+    "link": "https://www.index.hr/chill/clanak/jedan-od-najpoznatijih-horora-svih-vremena-dobiva-novu-seriju/2812361.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NOVA horor serija u režiji Mikea Flanagana stiže na Prime Video prije kraja 2026. godine.",
     "published_at": "2026-07-11T13:32:00+00:00"
   },
   {
@@ -2673,21 +2808,21 @@
     "published_at": "2026-07-11T13:09:00+00:00"
   },
   {
-    "id": "b3762ad1-71d8-587d-9da4-724b446af59e",
-    "title": "Šibenska policija: U naletu teretnog vlaka kod Knina poginuo muškarac (50)",
-    "link": "https://www.index.hr/vijesti/clanak/sibenska-policija-u-naletu-teretnog-vlaka-kod-knina-poginuo-muskarac-50/2812357.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "U PETAK ujutro u Uzdolju kod Knina poginuo je 50-godišnji pješak. Na njega je, dok se nalazio na pruzi, naletio teretni vlak. Željeznički promet bio je u prekidu radi očevida.",
-    "published_at": "2026-07-11T13:09:00+00:00"
-  },
-  {
     "id": "851f47a1-8864-5903-a8b4-743d0e000ef7",
     "title": "VIDEO Outfit ovog para bio nam je neobičan pa smo im prišli: \"Slavimo zaruke\"",
     "link": "https://www.index.hr/magazin/clanak/video-outfit-ovog-para-bio-nam-je-neobican-pa-smo-im-prisli-slavimo-zaruke/2812360.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "KANADSKI par, Carrie i Devin, privukao je pažnju na Ultra Europe festivalu u Splitu. Osim upečatljivim stilom, festival će pamtiti i po nedavnim zarukama koje su podijelili s no...",
+    "published_at": "2026-07-11T13:09:00+00:00"
+  },
+  {
+    "id": "b3762ad1-71d8-587d-9da4-724b446af59e",
+    "title": "Šibenska policija: U naletu teretnog vlaka kod Knina poginuo muškarac (50)",
+    "link": "https://www.index.hr/vijesti/clanak/sibenska-policija-u-naletu-teretnog-vlaka-kod-knina-poginuo-muskarac-50/2812357.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "U PETAK ujutro u Uzdolju kod Knina poginuo je 50-godišnji pješak. Na njega je, dok se nalazio na pruzi, naletio teretni vlak. Željeznički promet bio je u prekidu radi očevida.",
     "published_at": "2026-07-11T13:09:00+00:00"
   },
   {
@@ -2842,69 +2977,6 @@
     "image_url": null,
     "description": "STRANKE SDP i Možemo poručile su u Slavonskom Brodu da vladina ekonomska politika ne štiti građane, već pogoduje bankama, trgovačkim lancima i telekomima.",
     "published_at": "2026-07-11T12:15:00+00:00"
-  },
-  {
-    "id": "ec81eeb2-5c88-50a1-a738-d1fd10522c61",
-    "title": "Hajduk šalje petoricu igrača u Zmijavce",
-    "link": "https://www.index.hr/sport/clanak/hajduk-salje-petoricu-igraca-u-zmijavce/2812346.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NOGOMETAŠI splitskog Hajduka Raymond Anthony, Peter Ugwuodo, Ivano Ora, Duje Milišić i Sebastian Kajtazi idu na posudbu u Croatiju iz Zmijavaca.",
-    "published_at": "2026-07-11T12:12:00+00:00"
-  },
-  {
-    "id": "a4cc547d-8c28-59d3-bb46-481b38354cea",
-    "title": "FOTO Pogledajte kako zaštićeni park u Zagrebu izgleda tri mjeseca od oluje",
-    "link": "https://www.index.hr/vijesti/clanak/foto-pogledajte-kako-zasticeni-park-u-zagrebu-izgleda-tri-mjeseca-od-oluje/2811650.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NO NAKON snažnog nevremena koje je krajem ožujka poharalo Zagreb, Mallinov park ostao je u prilično lošem stanju, govore nam građani koje smo susreli tijekom obilaska parka izna...",
-    "published_at": "2026-07-11T12:09:00+00:00"
-  },
-  {
-    "id": "46920d69-947f-55a6-b629-b982047a9a67",
-    "title": "Novi iranski vrhovni vođa: Obećavamo osvetu",
-    "link": "https://www.index.hr/vijesti/clanak/novi-iranski-vrhovni-vodja-obecavamo-osvetu/2812338.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "IRANSKI vrhovni vođa ajatolah Modžtaba Hamenei izjavio je da je osveta za njegova ubijenog oca i prethodnika \"zahtjev nacije\" i da se \"svakako mora\" dogoditi, prema pisanoj poru...",
-    "published_at": "2026-07-11T12:07:00+00:00"
-  },
-  {
-    "id": "7d5d52d4-e99b-5161-a606-90302ecee3fd",
-    "title": "Otvorene prijave za domove u Zagrebu 2026.: Manje soba, neki imaju izravno pravo",
-    "link": "https://www.index.hr/mame/clanak/otvorene-prijave-za-domove-u-zagrebu-2026-manje-soba-neki-imaju-izravno-pravo/2812341.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "OTVOREN je natječaj za smještaj u studentskim domovima u Zagrebu za 2026./2027. Prijave su online do 24. srpnja. Zbog obnove je manje mjesta, no dodjeljuju se i subvencije za po...",
-    "published_at": "2026-07-11T12:05:00+00:00"
-  },
-  {
-    "id": "901ae7d0-4481-565f-ba2b-60b2616a3dba",
-    "title": "Sprema se senzacionalni transfer? PSG želi zvijezdu Barcelone",
-    "link": "https://www.index.hr/sport/clanak/sprema-se-senzacionalni-transfer-psg-zeli-zvijezdu-barcelone/2812339.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PSG RAZMATRA dovođenje Ferrana Torresa kao zamjenu za Bradleya Barcolu. Trener Luis Enrique cijeni Torresa, no Barcelona ga ne želi lako pustiti i tražila bi visoku odštetu.",
-    "published_at": "2026-07-11T11:58:30+00:00"
-  },
-  {
-    "id": "ac52842f-2a57-50cf-91da-8b5e1b6a3c8c",
-    "title": "Kako je Kubrick u Odiseji postavio temelje za umjetnu inteligenciju u filmu",
-    "link": "https://www.index.hr/chill/clanak/kako-je-kubrick-u-odiseji-postavio-temelje-za-umjetnu-inteligenciju-u-filmu/2812331.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PROŠLO je 58 godina otkako je Stanley Kubrick predstavio jedan od najpoznatijih likova znanstvene fantastike, HAL 9000.",
-    "published_at": "2026-07-11T11:55:00+00:00"
-  },
-  {
-    "id": "be5b81b2-3956-5bb6-bfd8-c3260c7b1828",
-    "title": "Hrpa promjena za sve koji lete unutar EU, donosimo detalje. Ryanair: Ovo je smeće",
-    "link": "https://www.index.hr/vijesti/clanak/hrpa-promjena-za-sve-koji-lete-unutar-eu-donosimo-detalje-ryanair-ovo-je-smece/2812002.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "EUROPSKA unija postigla je dogovor o izmjeni pravila koja uređuju prava putnika u zračnom prometu.",
-    "published_at": "2026-07-11T11:52:00+00:00"
   },
   {
     "id": "54dfb1ab-405c-5e8e-89ba-be4da413bdc2",
@@ -3312,15 +3384,6 @@
     "published_at": "2026-07-11T05:23:00+00:00"
   },
   {
-    "id": "ebf35842-077f-5be0-9890-4c33bd7ce2b6",
-    "title": "Automobilski div najavio veliko restrukturiranje, sudbina radnih mjesta neizvjesna",
-    "link": "https://www.poslovni.hr/europska-unija/automobilski-div-najavio-veliko-restrukturiranje-sudbina-radnih-mjesta-neizvjesna-4546541",
-    "source": "Poslovni dnevnik",
-    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/03/2026-03-10T032338Z_203677730_RC2SEJA55J57_RTRMADP_3_CHINA-ECONOMY-TRADE-800x500.jpg",
-    "description": "Odbor je prihvatio plan uprave prema kojem bi ponuda modela do 2030. trebala biti prepolovljena, a broj mogućih izvedbi i paketa opreme bit će smanjeni za do 75 posto.",
-    "published_at": "2026-07-11T05:00:00+00:00"
-  },
-  {
     "id": "90aa7b31-dfb8-5588-9e76-a2a3c547cbbb",
     "title": "Zašto svaki virus iz šišmiša ne postane novi COVID?",
     "link": "https://www.bug.hr/znanost/zasto-svaki-virus-iz-sismisa-ne-postane-novi-covid-61226",
@@ -3384,15 +3447,6 @@
     "published_at": "2026-07-11T03:05:00+00:00"
   },
   {
-    "id": "bc34389d-88ff-5bdf-bd4b-177cf0cc8cd0",
-    "title": "Igrač utakmice: Cityjev veznjak poput savršenog metronoma vodio Španjolsku do polufinala",
-    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/igrac-utakmice-cityjev-veznjak-poput-savrsenog-metronoma-vodio-spanjolsku-do-polufinala/628982/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/527/95/0000000000527952_510_0.jpg",
-    "description": "Španjolska je uspješno odradila posao u četvrtfinalu Svjetskog prvenstva i izborila dvoboj protiv Francuske u polufinalu. Još jednu veliku utakmicu odigrao je Rodri, jedan od na...",
-    "published_at": "2026-07-10T21:48:06+00:00"
-  },
-  {
     "id": "d9d8b194-e19f-5e16-b99c-225d6abd8b7e",
     "title": "GPT-5.6 izašao iz vladine karantene, a ChatGPT i Codex postali jedna aplikacija",
     "link": "https://www.bug.hr/predstavljanja/gpt-56-izasao-iz-vladine-karantene-a-chatgpt-i-codex-postali-jedna-aplikacija-61329",
@@ -3402,33 +3456,6 @@
     "published_at": "2026-07-10T21:05:00+00:00"
   },
   {
-    "id": "9bafa0d6-7159-5119-813b-a0a4f225aef0",
-    "title": "Španjolska - Belgija 2:1: Furija u polufinalu Svjetskog prvenstva, Merino ponovno čovjek odluke",
-    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/spanjolska-belgija-21-furija-u-polufinalu-svjetskog-prvenstva-merino-ponovno-covjek-odluke/628981/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/527/94/0000000000527943_510_0.jpg",
-    "description": "Španjolska je izborila prolaz u polufinale Svjetskog prvenstva. Nakon velike borbe svladala je Belgiju s 2:1, a igrač odluke još jednom je bio Mikel Merino koji je u 88. minuti ...",
-    "published_at": "2026-07-10T21:02:25+00:00"
-  },
-  {
-    "id": "b12b5316-30d4-5f45-ad9d-d9cb10e7ed16",
-    "title": "Cardoso Varela raskinuo ugovor s Andyjem Barom, ima novog agenta",
-    "link": "https://sportnet.hr/vijesti/nogomet-supersport-hnl/cardoso-varela-raskinuo-ugovor-s-andyjem-barom-ima-novog-agenta/628980/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/524/53/0000000000524538_510_0.jpg",
-    "description": "Cardoso Varela u novoj sezoni igrat će za Dinamovu B momčad, a novi početak obilježio je i dolaskom novog agenta...",
-    "published_at": "2026-07-10T19:57:00+00:00"
-  },
-  {
-    "id": "6e1df1aa-2783-5094-bde8-28839677c9b0",
-    "title": "Dominik Livaković poslao jasnu poruku Fenerbahčeu",
-    "link": "https://sportnet.hr/vijesti/nogomet-nogometni-svijet/dominik-livakovic-poslao-jasnu-poruku-fenerbahceu/628979/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/526/77/0000000000526776_510_0.jpg",
-    "description": "Dominik Livaković već nekoliko godinu nema stabilnu situaciju u klubu. Nakon Fenerbahčea bio je u Gironi na posudbi, no nije upisao nijedan nastup. Modri su mu i dalje najveća ž...",
-    "published_at": "2026-07-10T19:18:00+00:00"
-  },
-  {
     "id": "8dfa339d-2803-543a-b257-43d5ac9e1bc9",
     "title": "Preminula je Wally Funk, najstarija žena ikad na svemirskom letu",
     "link": "https://www.bug.hr/in-memoriam/preminula-je-wally-funk-najstarija-zena-ikad-na-svemirskom-letu-61319",
@@ -3436,33 +3463,6 @@
     "image_url": "https://www.bug.hr/img/preminula-je-wally-funk-najstarija-zena-ikad-na-svemirskom-letu_C5oVud.jpg",
     "description": "Američka pionirka zrakoplovstva, koja se dobrovoljno prijavila za astronautkinju 1961. te zahvaljujući Blue Originu 2021. postala najstarija žena u svemiru, preminula je u Teksa...",
     "published_at": "2026-07-10T19:00:00+00:00"
-  },
-  {
-    "id": "2c129519-70a4-5c41-8a87-7fee01425a7e",
-    "title": "Varaždin minimalnim rezultatom upisao treću pobjedu u prijateljskim utakmicama",
-    "link": "https://sportnet.hr/vijesti/nogomet-nogometni-svijet/varazdin-minimalnim-rezultatom-upisao-trecu-pobjedu-u-prijateljskim-utakmicama/628976/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/526/05/0000000000526057_510_0.jpg",
-    "description": "Varaždin je pobjedom protiv Radomlja nastavio u pozitivnom tonu svoje prijateljske utakmice. Očekuje ih još jedna protiv Bihora iz Rumunjske...",
-    "published_at": "2026-07-10T18:50:00+00:00"
-  },
-  {
-    "id": "f8a20475-b5fa-59d5-9b30-7a89af7754e3",
-    "title": "KRONOLOGIJA: Španjolska - Belgija 2:1 (Svjetsko prvenstvo)",
-    "link": "https://sportnet.hr/vijesti/nogomet-sp-2026/kronologija-spanjolska-belgija-21-svjetsko-prvenstvo/628977/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/527/94/0000000000527942_510_0.jpg",
-    "description": "Francuska čeka protivnika u polufinalu Svjetskog prvenstva, a igrat će protiv boljeg iz susreta između Španjolske i Belgije. Španjolci su blagi favoriti i pokušat će to i opravd...",
-    "published_at": "2026-07-10T18:46:34+00:00"
-  },
-  {
-    "id": "530f7d35-5871-59fb-a02f-e6d180ab4b8b",
-    "title": "Lokomotiva odigrala prijateljsku utakmicu sa Partizanom",
-    "link": "https://sportnet.hr/vijesti/nogomet-nogometni-svijet/lokomotiva-odigrala-prijateljsku-utakmicu-sa-partizanom/628975/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/526/28/0000000000526287_510_0.jpg",
-    "description": "Lokomotiva je odigrala prvu prijateljsku utakmicu u kojoj nije upisala pobjedu. Četvrti susret, ovaj put protiv Partizana, završio je s 2:2...",
-    "published_at": "2026-07-10T18:37:00+00:00"
   },
   {
     "id": "a9ed0593-bd6e-5dc0-88af-523452535fa9",
@@ -3699,24 +3699,6 @@
     "published_at": "2026-07-09T22:44:00+00:00"
   },
   {
-    "id": "762b2e6c-e1e8-5cf9-80a9-cc1c7c6f4454",
-    "title": "De'Longhi Eletta Ultra vam donosi kafić na kuhinjski pult. Testirali smo ga",
-    "link": "https://www.bug.hr/recenzije/delonghi-eletta-ultra-vam-donosi-kafic-na-kuhinjski-pult-testirali-smo-ga-61238",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/delonghi-eletta-ultra-vam-donosi-kafic-na-kuhinjski-pult-testirali-smo-ga_m2di1n.jpg",
-    "description": "De'Longhijev novi predvodnik linije Eletta obećava tri stvari: više napitaka, tiši rad i precizniju pripremu kave. Provjerili smo drži li se obećanja te može li potpuno automats...",
-    "published_at": "2026-07-09T15:05:00+00:00"
-  },
-  {
-    "id": "6e596c68-d5fe-5486-946c-6cfa990e9c10",
-    "title": "Chat Control proceduralnim trikom prošao prvi korak u Europskom parlamentu",
-    "link": "https://www.bug.hr/propisi/chat-control-proceduralnim-trikom-prosao-prvi-korak-u-europskom-parlamentu-61296",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/chat-control-proceduralnim-trikom-prosao-prvi-korak-u-europskom-parlamentu_GAjSyP.jpg",
-    "description": "Prijedlog koji je većinom glasova odbačen u ožujku, pa je formalno istekao u travnju, ponovno je bio na glasanju pred eurozastupnicima, gdje nije dobio većinu glasova potrebnu d...",
-    "published_at": "2026-07-09T14:15:00+00:00"
-  },
-  {
     "id": "19076ec2-a369-5c59-8426-80ac5f6f1586",
     "title": "Gradu Pazinu odobreno 500 tisuća kuna za nastavak radova na zvoniku crkve Sv. Nikole",
     "link": "https://www.regionalexpress.hr/site/gradu-pazinu-odobreno-500-tisua-kuna-za-nastavak-radova-na-zvoniku-crkve-sv-nikole",
@@ -3778,5 +3760,23 @@
     "image_url": null,
     "description": "CIJELI TJEDAN OD 8 DO 14 SATI OSIM UTORKA KAD MUP RADI OD 11,30 DO 18,30 SATI Obavje&scaron;tavamo građane kako se od ponedjeljka, 7. rujna 2020. godine, mijenja radno vrijeme P...",
     "published_at": "2020-09-04T09:08:00+00:00"
+  },
+  {
+    "id": "8a214d0e-0b62-5080-9a06-a1960a9d5900",
+    "title": "Vatrogasci VZG Koprivnica na Brijunima",
+    "link": "https://www.regionalexpress.hr/site/vatrogasci-vzg-koprivnica-na-brijunima",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "VATROGASNA DISLOKACIJA NA BRIJUNIMA Svake se godine tijekom požarne sezone vatrogasci s kontinenta upućuju na dislokaciju na priobalje kako bi pomogli svojim kolegama. Prema zap...",
+    "published_at": "2020-07-28T08:30:00+00:00"
+  },
+  {
+    "id": "13cec93d-56ae-5df1-9b66-4286438b27bb",
+    "title": "Predstavljene nove e-propusnice",
+    "link": "https://www.regionalexpress.hr/site/predstavljene-nove-e-propusnice",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "POMOĆU E PROPUSNICA SMANJITI ĆE SE ZLOUPORABA TE ĆE KONTROLA BITI UČINKOVITIJA Ministar uprave Ivan Malenica predstavio je u 11 sati uslugu &bdquo;e-Propusnica&ldquo; u sklopu C...",
+    "published_at": "2020-04-01T09:25:00+00:00"
   }
 ]
