@@ -4970,7 +4970,7 @@ async function fetchNewsFeed(forceRefetch = false) {
         const errMsg = document.getElementById('error-message');
         if (errMsg) {
             if (window.location.protocol === 'file:') {
-                errMsg.innerHTML = `Preglednik blokira mrežne RSS zahtjeve na <strong>file://</strong> protokolu.<br>Molimo otvorite stranicu preko pokrenutog lokalnog poslužitelja: <a href="http://localhost:8000" class="text-[#D13D1F] dark:text-[#E5472C] underline font-bold">http://localhost:8000</a>`;
+                errMsg.innerHTML = `Preglednik blokira mrežne RSS zahtjeve na <strong>file://</strong> protokolu.<br>Molimo otvorite stranicu preko pokrenutog lokalnog poslužitelja: <a href="http://localhost:8000" class="text-editorial-navy dark:text-editorial-gold underline font-bold">http://localhost:8000</a>`;
             } else {
                 errMsg.innerText = `RSS veza je u prekidu ili je došlo do pogreške prilikom učitavanja. Pokušajte ponovno.`;
             }
@@ -5103,24 +5103,24 @@ function renderFeed() {
                 const listArticles = catArticles.slice(3, 6);
 
                 const block = document.createElement('div');
-                block.className = 'space-y-4 bg-white dark:bg-slate-900 p-4 border border-slate-200 dark:border-slate-800/80 rounded-xl shadow-sm transition-colors';
+                block.className = 'space-y-4 bg-slate-50 dark:bg-slate-900 p-4 border border-slate-200 dark:border-slate-800 rounded-none shadow-sm transition-colors';
 
                 const subcatHTML = catConf.subcategories.map(sub => {
                     const subId = sub.toLowerCase().replace(/\s+/g, '-').replace(/i-kvarner/g, 'istra-i-kvarner');
-                    return `<a href="${catConf.id}.html#${subId}" class="text-[11.5px] text-slate-700 dark:text-slate-400 font-bold hover:text-[#D13D1F] dark:hover:text-[#E5472C] transition-colors uppercase tracking-wider">${sub}</a>`;
+                    return `<a href="${catConf.id}.html#${subId}" class="text-[11.5px] text-slate-700 dark:text-slate-400 font-bold hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors uppercase tracking-wider">${sub}</a>`;
                 }).join('<span class="text-slate-400 dark:text-slate-700">·</span>');
 
                 block.innerHTML = `
-                    <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 dark:border-slate-800/60 pb-2.5 gap-2">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5 gap-2">
                         <div class="flex items-center space-x-4">
-                            <a href="${catConf.id}.html" class="text-base font-extrabold text-[#1C1C1C] dark:text-[#F4F3EE] hover:text-[#D13D1F] dark:hover:text-[#E5472C] transition-colors tracking-wide uppercase select-none font-heading">
+                            <a href="${catConf.id}.html" class="text-base font-bold text-[#1C1C1C] dark:text-[#F4F3EE] hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors tracking-wide uppercase select-none font-serif">
                                 ${catConf.name}
                             </a>
                             <div class="hidden sm:flex items-center space-x-2 text-xs">
                                 ${subcatHTML}
                             </div>
                         </div>
-                        <a href="${catConf.id}.html" class="text-[12.5px] text-[#D13D1F] dark:text-[#E5472C] hover:underline font-extrabold self-start sm:self-center font-heading">
+                        <a href="${catConf.id}.html" class="text-[12.5px] text-editorial-navy dark:text-editorial-gold hover:underline font-bold self-start sm:self-center font-serif">
                             Prikaži sve &rarr;
                         </a>
                     </div>
@@ -5147,7 +5147,7 @@ function renderFeed() {
                     }
 
                     const card = document.createElement('div');
-                    card.className = 'news-card group bg-slate-50 dark:bg-slate-950/40 border border-slate-200 dark:border-slate-850 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
+                    card.className = 'news-card group bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-none overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
                     card.onclick = (e) => {
                         if (e.target.closest('.bookmark-btn')) return;
                         window.open(article.link, '_blank');
@@ -5157,7 +5157,7 @@ function renderFeed() {
                         <div class="flex flex-col">
                             <div class="relative bg-slate-900">
                                 ${cardImage}
-                                <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-[#D13D1F] dark:hover:bg-[#E5472C] text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
+                                <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy dark:hover:bg-editorial-navy text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
                                     </svg>
@@ -5165,10 +5165,10 @@ function renderFeed() {
                             </div>
                             <div class="p-4 space-y-2.5">
                                 <div class="flex items-center justify-between text-xs text-slate-700 dark:text-slate-400">
-                                    <span class="${article.sourceColor} font-extrabold px-2 py-0.5 rounded text-[10px] uppercase select-none shadow-sm">${article.source}</span>
+                                    <span class="${article.sourceColor} font-extrabold px-2 py-0.5 rounded-none text-[9.5px] uppercase select-none shadow-sm">${article.source}</span>
                                     <span class="font-mono">${getRelativeTimeCroatian(article.publishedAt)}</span>
                                 </div>
-                                <h3 class="text-[15px] font-black leading-snug line-clamp-3 group-hover:text-[#D13D1F] dark:group-hover:text-[#E5472C] transition-colors">${article.title}</h3>
+                                <h3 class="text-[15.5px] font-serif font-bold leading-snug line-clamp-3 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${article.title}</h3>
                             </div>
                         </div>
                     `;
@@ -5182,9 +5182,9 @@ function renderFeed() {
                         const item = document.createElement('a');
                         item.href = article.link;
                         item.target = '_blank';
-                        item.className = 'flex items-center justify-between py-2 border-t border-slate-200 dark:border-slate-800/60 text-xs md:text-[13px] hover:text-[#D13D1F] dark:hover:text-[#E5472C] transition-colors group/cat-item';
+                        item.className = 'flex items-center justify-between py-2 border-t border-slate-200 dark:border-slate-800 text-xs md:text-[13px] hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors group/cat-item';
                         item.innerHTML = `
-                            <span class="truncate pr-4 text-slate-850 dark:text-slate-200 font-bold group-hover/cat-item:text-[#D13D1F] dark:group-hover/cat-item:text-[#E5472C]">${article.title}</span>
+                            <span class="truncate pr-4 text-slate-850 dark:text-slate-200 font-serif font-semibold group-hover/cat-item:text-editorial-navy dark:group-hover/cat-item:text-editorial-gold">${article.title}</span>
                             <div class="flex items-center space-x-2.5 shrink-0">
                                 <span class="text-[10px] uppercase font-extrabold text-slate-700 dark:text-slate-400">${article.source}</span>
                                 <span class="font-mono text-[10px] text-slate-600 dark:text-slate-450">${getRelativeTimeCroatian(article.publishedAt)}</span>
@@ -5304,7 +5304,7 @@ function renderFeed() {
                 }
 
                 const card = document.createElement('div');
-                card.className = 'news-card group bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/60 rounded-lg overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
+                card.className = 'news-card group bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-none overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer';
                 card.onclick = (e) => {
                     if (e.target.closest('.bookmark-btn')) return;
                     window.open(article.link, '_blank');
@@ -5327,7 +5327,7 @@ function renderFeed() {
                     <div class="flex flex-col">
                         <div class="relative bg-slate-900">
                             ${cardImage}
-                            <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-[#D13D1F] text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
+                            <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy dark:hover:bg-editorial-navy text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
                                 </svg>
@@ -5335,16 +5335,16 @@ function renderFeed() {
                         </div>
                         <div class="p-4 space-y-2.5">
                             <div class="flex items-center justify-between text-xs text-slate-700 dark:text-slate-400">
-                                <span class="${article.sourceColor} font-extrabold px-2 py-0.5 rounded text-[10px] uppercase select-none shadow-sm">${article.source}</span>
+                                <span class="${article.sourceColor} font-extrabold px-2 py-0.5 rounded-none text-[9.5px] uppercase select-none shadow-sm">${article.source}</span>
                                 <span class="font-mono text-[10px]">${getRelativeTimeCroatian(article.publishedAt)}</span>
                             </div>
-                            <h3 class="text-sm md:text-[14.5px] font-extrabold leading-snug line-clamp-3 group-hover:text-[#D13D1F] dark:group-hover:text-[#E5472C] transition-colors">${article.title}</h3>
-                            <p class="text-xs text-slate-800 dark:text-slate-300 line-clamp-2 leading-relaxed">${article.description || 'Pročitajte vijest na originalnom portalu.'}</p>
+                            <h3 class="text-sm md:text-[15px] font-serif font-bold leading-snug line-clamp-3 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${article.title}</h3>
+                            <p class="text-xs font-serif text-slate-700 dark:text-slate-400 line-clamp-2 leading-relaxed">${article.description || 'Pročitajte vijest na originalnom portalu.'}</p>
                         </div>
                     </div>
-                    <div class="px-4 pb-3.5 pt-1.5 flex justify-between items-center text-[10.5px] font-bold border-t border-slate-100 dark:border-slate-700/40">
-                        <span class="bg-[#D13D1F]/10 dark:bg-[#E5472C]/10 text-[#D13D1F] dark:text-[#E5472C] px-2 py-0.5 rounded uppercase select-none">${article.category}</span>
-                        <span class="text-slate-700 dark:text-slate-400 flex items-center gap-0.5">Otvori portal</span>
+                    <div class="px-4 pb-3.5 pt-1.5 flex justify-between items-center text-[10.5px] font-bold border-t border-slate-200 dark:border-slate-800">
+                        <span class="bg-editorial-navy/10 dark:bg-editorial-gold/10 text-editorial-navy dark:text-editorial-gold px-2 py-0.5 rounded-none uppercase select-none text-[9.5px]">${article.category}</span>
+                        <span class="text-slate-750 dark:text-slate-400 flex items-center gap-0.5">Otvori portal</span>
                     </div>
                 `;
                 grid.appendChild(card);
@@ -5364,7 +5364,7 @@ function renderFeed() {
         if (categoryFiltered.length > currentArticlesLimit) {
             pagContainer.innerHTML = `
                 <div id="infinite-scroll-trigger" class="py-6 flex flex-col items-center justify-center space-y-2 select-none w-full">
-                    <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-[#D13D1F] dark:border-[#E5472C]"></div>
+                    <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-editorial-navy dark:border-editorial-gold"></div>
                     <span class="text-[10px] uppercase tracking-wider font-extrabold text-slate-405 dark:text-slate-500">Učitavanje još vijesti...</span>
                 </div>
             `;
@@ -5388,7 +5388,7 @@ function renderSplashHero(splashArticles) {
                </div>`;
 
         const card = document.createElement('div');
-        card.className = 'news-card group bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer relative';
+        card.className = 'news-card group bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-none overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer relative';
         card.onclick = (e) => {
             if (e.target.closest('.bookmark-btn')) return;
             window.open(article.link, '_blank');
@@ -5399,9 +5399,9 @@ function renderSplashHero(splashArticles) {
                 <div class="relative bg-slate-900">
                     ${cardImage}
                     <div class="absolute top-2 left-2 flex gap-1.5">
-                        <span class="${article.sourceColor} font-extrabold text-[10.5px] px-2 py-0.5 rounded uppercase shadow-sm select-none">${article.source}</span>
+                        <span class="${article.sourceColor} font-extrabold text-[10.5px] px-2 py-0.5 rounded-none uppercase shadow-sm select-none">${article.source}</span>
                     </div>
-                    <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-[#D13D1F] text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
+                    <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
                         </svg>
@@ -5409,8 +5409,8 @@ function renderSplashHero(splashArticles) {
                 </div>
                 <div class="p-4 space-y-2.5">
                     <span class="font-mono text-xs text-slate-700 dark:text-slate-400 font-semibold">${getRelativeTimeCroatian(article.publishedAt)}</span>
-                    <h2 class="text-base md:text-lg font-black leading-snug group-hover:text-[#D13D1F] dark:group-hover:text-[#E5472C] transition-colors line-clamp-3">${article.title}</h2>
-                    <p class="text-xs text-slate-800 dark:text-slate-300 line-clamp-2 leading-relaxed">${article.description || 'Pročitajte vijest na originalnom portalu.'}</p>
+                    <h2 class="text-base md:text-[18.5px] font-serif font-bold leading-snug group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors line-clamp-3">${article.title}</h2>
+                    <p class="text-xs font-serif text-slate-700 dark:text-slate-400 line-clamp-2 leading-relaxed">${article.description || 'Pročitajte vijest na originalnom portalu.'}</p>
                 </div>
             </div>
         `;
@@ -5434,7 +5434,7 @@ function renderHeadlinesUnderneath(headlines) {
     
     headlines.slice(0, 3).forEach(article => {
         const item = document.createElement('div');
-        item.className = 'flex items-start gap-4 p-3 rounded hover:bg-slate-100 dark:hover:bg-[#161616] transition-colors cursor-pointer group';
+        item.className = 'flex items-start gap-4 p-3 rounded-none hover:bg-slate-200 dark:hover:bg-[#161616] transition-colors cursor-pointer group';
         item.onclick = () => window.open(article.link, '_blank');
         
         const hrs = article.publishedAt.getHours().toString().padStart(2, '0');
@@ -5442,10 +5442,10 @@ function renderHeadlinesUnderneath(headlines) {
         const timeString = `${hrs}:${mins}`;
         
         item.innerHTML = `
-            <span class="font-mono text-[#D13D1F] dark:text-[#E5472C] font-black text-[14px] mt-0.5 shrink-0">${timeString}</span>
+            <span class="font-mono text-editorial-navy dark:text-editorial-gold font-black text-[14px] mt-0.5 shrink-0">${timeString}</span>
             <div class="space-y-1 min-w-0">
-                <span class="text-[11px] uppercase font-black text-slate-800 dark:text-slate-300 group-hover:text-[#D13D1F] dark:group-hover:text-[#E5472C]">${article.source}</span>
-                <h4 class="text-[15px] font-black text-slate-950 dark:text-slate-50 line-clamp-2 leading-snug group-hover:text-[#D13D1F] dark:group-hover:text-[#E5472C] transition-colors">${article.title}</h4>
+                <span class="text-[11px] uppercase font-black text-slate-800 dark:text-slate-300 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold">${article.source}</span>
+                <h4 class="text-[15.5px] font-serif font-bold text-slate-950 dark:text-slate-55 line-clamp-2 leading-snug group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${article.title}</h4>
             </div>
         `;
         container.appendChild(item);
@@ -5464,10 +5464,10 @@ function renderPortalsPage() {
     let wrapper = document.getElementById('portal-page-wrapper');
     if (!wrapper) {
         portaliArea.innerHTML = `
-            <div id="portal-page-wrapper" class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm transition-colors space-y-6">
+            <div id="portal-page-wrapper" class="bg-slate-50 dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-none shadow-sm transition-colors space-y-6">
                 <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4">
                     <div>
-                        <h2 class="text-base font-black tracking-tight flex items-center gap-2 font-heading">
+                        <h2 class="text-base font-bold tracking-tight flex items-center gap-2 font-serif">
                             🌐 Imenik hrvatskih portala
                         </h2>
                         <p class="text-xs text-slate-700 dark:text-slate-400 mt-1">Pregledajte i pretražite hrvatske medijske portale i linkove razvrstane po regijama i temama.</p>
@@ -5476,7 +5476,7 @@ function renderPortalsPage() {
                     <!-- Search Input -->
                     <div class="relative w-full md:w-72">
                         <input type="text" id="portal-search-input" placeholder="Pretraži imenik (680+ portala)..." 
-                               class="w-full bg-slate-50 dark:bg-[#161616] border border-slate-200 dark:border-slate-800 text-[#1C1C1C] dark:text-[#F4F3EE] placeholder-slate-400 dark:placeholder-slate-500 text-xs rounded py-2 pl-8 pr-3 focus:outline-none focus:border-[#D13D1F] dark:focus:border-[#E5472C] transition-all">
+                               class="w-full bg-slate-50 dark:bg-[#161616] border border-slate-200 dark:border-slate-800 text-[#1C1C1C] dark:text-[#F4F3EE] placeholder-slate-400 dark:placeholder-slate-500 text-xs rounded-none py-2 pl-8 pr-3 focus:outline-none focus:border-editorial-navy dark:focus:border-editorial-gold transition-all">
                         <div class="absolute left-2.5 top-2.5 text-slate-400 dark:text-slate-500">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-3.5 h-3.5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
@@ -5486,11 +5486,11 @@ function renderPortalsPage() {
                 </div>
 
                 <!-- Primary Tabs Navigation -->
-                <div class="flex space-x-1.5 border-b border-slate-200 dark:border-slate-800 pb-2 overflow-x-auto scrollbar-none font-bold text-xs select-none font-heading">
-                    <button class="portal-tab-btn px-4 py-2 rounded-t-lg transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="nacionalni">🌐 Nacionalni</button>
-                    <button class="portal-tab-btn px-4 py-2 rounded-t-lg transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="lokalni">📍 Lokalni</button>
-                    <button class="portal-tab-btn px-4 py-2 rounded-t-lg transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="tematski">🏷️ Tematski</button>
-                    <button class="portal-tab-btn px-4 py-2 rounded-t-lg transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="korisni-web">🔗 Korisni Web</button>
+                <div class="flex space-x-1.5 border-b border-slate-200 dark:border-slate-800 pb-2 overflow-x-auto scrollbar-none font-bold text-xs select-none font-serif">
+                    <button class="portal-tab-btn px-4 py-2 rounded-none transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="nacionalni">🌐 Nacionalni</button>
+                    <button class="portal-tab-btn px-4 py-2 rounded-none transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="lokalni">📍 Lokalni</button>
+                    <button class="portal-tab-btn px-4 py-2 rounded-none transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="tematski">🏷️ Tematski</button>
+                    <button class="portal-tab-btn px-4 py-2 rounded-none transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent" data-tab="korisni-web">🔗 Korisni Web</button>
                 </div>
 
                 <!-- Secondary Sub-Tabs Navigation -->
@@ -5500,7 +5500,7 @@ function renderPortalsPage() {
 
                 <!-- Portals Count Indicator -->
                 <div class="text-[10px] font-bold text-slate-600 dark:text-slate-450 uppercase tracking-widest font-mono">
-                    Pronađeno: <span id="portals-filtered-count" class="text-[#D13D1F] dark:text-[#E5472C]">0</span> portala
+                    Pronađeno: <span id="portals-filtered-count" class="text-editorial-navy dark:text-editorial-gold">0</span> portala
                 </div>
 
                 <!-- Portals Directory Grid -->
@@ -5543,9 +5543,9 @@ function updateTabStyles() {
     tabBtns.forEach(btn => {
         const tab = btn.getAttribute('data-tab');
         if (tab === activePortalTab) {
-            btn.className = 'portal-tab-btn px-4 py-2 rounded-t-lg transition-all focus:outline-none uppercase tracking-wider border-b-2 border-[#D13D1F] dark:border-[#E5472C] text-[#D13D1F] dark:text-[#E5472C] bg-slate-50 dark:bg-slate-850/50';
+            btn.className = 'portal-tab-btn px-4 py-2 rounded-none transition-all focus:outline-none uppercase tracking-wider border-b-2 border-editorial-navy dark:border-editorial-gold text-editorial-navy dark:text-editorial-gold bg-slate-200 dark:bg-slate-800';
         } else {
-            btn.className = 'portal-tab-btn px-4 py-2 rounded-t-lg transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent text-slate-700 dark:text-slate-400 hover:text-[#D13D1F] dark:hover:text-[#E5472C]';
+            btn.className = 'portal-tab-btn px-4 py-2 rounded-none transition-all focus:outline-none uppercase tracking-wider border-b-2 border-transparent text-slate-750 dark:text-slate-400 hover:text-editorial-navy dark:hover:text-editorial-gold';
         }
     });
 }
@@ -5587,8 +5587,8 @@ function renderSubtabButtons(container, subtabs) {
         const btn = document.createElement('button');
         btn.innerText = sub.name;
         btn.className = activePortalSubTab === sub.id 
-            ? 'px-3 py-1 rounded bg-[#D13D1F] dark:bg-[#E5472C] text-white text-[11px] font-bold uppercase transition-all'
-            : 'px-3 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-750 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-750 text-[11px] font-bold uppercase transition-all';
+            ? 'px-3 py-1 rounded-none bg-editorial-navy dark:bg-editorial-gold text-white text-[11px] font-bold uppercase transition-all'
+            : 'px-3 py-1 rounded-none bg-slate-200 dark:bg-slate-800 text-slate-750 dark:text-slate-400 hover:bg-slate-300 dark:hover:bg-slate-750 text-[11px] font-bold uppercase transition-all';
         btn.onclick = () => {
             activePortalSubTab = sub.id;
             renderSubTabs();
@@ -5662,7 +5662,7 @@ function renderPortalsGrid() {
         card.href = portal.url || '#';
         card.target = '_blank';
         card.rel = 'noopener';
-        card.className = 'flex items-start space-x-3 bg-slate-50 dark:bg-slate-800/40 hover:bg-slate-100 dark:hover:bg-slate-750/70 border border-slate-200 dark:border-slate-800/80 p-3.5 rounded-xl transition-all text-xs group cursor-pointer';
+        card.className = 'flex items-start space-x-3 bg-slate-50 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 p-3.5 rounded-none transition-all text-xs group cursor-pointer';
 
         const faviconUrl = portal.domain 
             ? `https://www.google.com/s2/favicons?domain=${portal.domain}&sz=32`
@@ -5671,7 +5671,7 @@ function renderPortalsGrid() {
         card.innerHTML = `
             <img src="${faviconUrl}" alt="${portal.name}" class="w-4.5 h-4.5 mt-0.5 object-contain shrink-0" onerror="this.src='/favicon.ico'">
             <div class="min-w-0 flex-1 space-y-1">
-                <span class="block truncate text-slate-800 dark:text-slate-100 font-extrabold group-hover:text-[#D13D1F] dark:group-hover:text-[#E5472C] transition-colors">${portal.name}</span>
+                <span class="block truncate text-slate-800 dark:text-slate-100 font-serif font-bold group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${portal.name}</span>
                 <span class="block text-[10px] text-slate-700 dark:text-slate-400 font-mono truncate">${portal.domain || 'vanjski link'}</span>
                 ${portal.description ? `<p class="text-[11px] text-slate-600 dark:text-slate-450 line-clamp-2 leading-normal pt-0.5 font-normal">${portal.description}</p>` : ''}
             </div>
@@ -5775,7 +5775,7 @@ function renderSidebar() {
         item.href = article.link;
         item.target = '_blank';
         item.rel = 'noopener';
-        item.className = 'block py-2 border-b border-slate-200 dark:border-slate-850 hover:bg-slate-100 dark:hover:bg-[#161616] px-1.5 py-2 rounded transition-colors group/stream';
+        item.className = 'block py-2 border-b border-slate-200 dark:border-slate-850 hover:bg-slate-200 dark:hover:bg-[#161616] px-1.5 py-2 rounded-none transition-colors group/stream';
         
         const hrs = article.publishedAt.getHours().toString().padStart(2, '0');
         const mins = article.publishedAt.getMinutes().toString().padStart(2, '0');
@@ -5783,10 +5783,10 @@ function renderSidebar() {
 
         item.innerHTML = `
             <div class="flex items-center space-x-2.5 text-xs">
-                <span class="font-mono text-[#D13D1F] dark:text-[#E5472C] font-extrabold shrink-0">${timeString}</span>
+                <span class="font-mono text-editorial-navy dark:text-editorial-gold font-extrabold shrink-0">${timeString}</span>
                 <span class="font-mono text-slate-700 dark:text-slate-400 uppercase font-extrabold text-[9.5px] truncate max-w-[90px]">${article.source}</span>
             </div>
-            <h4 class="text-[13px] font-semibold text-slate-850 dark:text-slate-200 group-hover/stream:text-[#D13D1F] dark:group-hover/stream:text-[#E5472C] transition-colors leading-tight mt-0.5">${article.title}</h4>
+            <h4 class="text-[13px] font-serif font-semibold text-slate-850 dark:text-slate-200 group-hover/stream:text-editorial-navy dark:group-hover/stream:text-editorial-gold transition-colors leading-tight mt-0.5">${article.title}</h4>
         `;
         stream.appendChild(item);
     });
@@ -5809,7 +5809,7 @@ function renderSidebar() {
                 row.className = 'flex items-start justify-between py-2 border-b border-slate-200 dark:border-slate-800 text-[13px] gap-2.5 group/book';
 
                 row.innerHTML = `
-                    <a href="${article.link}" target="_blank" class="hover:text-[#D13D1F] dark:hover:text-[#E5472C] font-semibold truncate flex-grow leading-tight">${article.title}</a>
+                    <a href="${article.link}" target="_blank" class="hover:text-editorial-navy dark:hover:text-editorial-gold font-semibold truncate flex-grow leading-tight">${article.title}</a>
                     <button class="text-red-400 hover:text-red-650 transition-colors px-1" onclick="toggleBookmark('${article.link}')" title="Ukloni">
                         &times;
                     </button>
@@ -5877,7 +5877,7 @@ function updateMarqueeTicker() {
         const article = topNews[index];
         ticker.style.opacity = '0';
         setTimeout(() => {
-            ticker.innerHTML = `🔥 <span class="font-black uppercase text-[#D13D1F] dark:text-[#E5472C]">[${article.source}]</span> ${article.title}`;
+            ticker.innerHTML = `🔥 <span class="font-black uppercase text-editorial-navy dark:text-editorial-gold">[${article.source}]</span> ${article.title}`;
             ticker.onclick = () => window.open(article.link, '_blank');
             ticker.style.opacity = '1';
         }, 500);
@@ -5976,9 +5976,9 @@ function renderSubNavigation() {
         // Hide static page links in the category bar on desktop since they are already in the main header
         const responsiveClasses = ['vrijeme', 'portali', 'spremljeno', 'analitika'].includes(c.id) ? ' lg:hidden' : '';
         
-        btn.className = `px-4 py-1 text-sm font-extrabold rounded transition-all shrink-0 uppercase tracking-wide select-none${responsiveClasses} ${
+        btn.className = `px-4 py-1 text-sm font-extrabold rounded-none transition-all shrink-0 uppercase tracking-wide select-none${responsiveClasses} ${
             isActive 
-                ? 'bg-[#D13D1F] text-white shadow-sm active-category-btn' 
+                ? 'bg-editorial-navy text-white shadow-sm active-category-btn' 
                 : 'bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700'
         }`;
         btn.innerText = c.name;
@@ -6000,7 +6000,7 @@ function renderSubNavigation() {
             const isAllActive = activeSubcategory === 'sve';
             allBtn.className = `px-3.5 py-1 text-xs font-bold rounded-full transition-all shrink-0 uppercase tracking-wide select-none ${
                 isAllActive
-                    ? 'bg-[#e11d48] dark:bg-rose-700 text-white shadow-sm'
+                    ? 'bg-editorial-navyLight dark:bg-editorial-navy text-white shadow-sm'
                     : 'bg-slate-200 dark:bg-slate-800 text-slate-650 dark:text-slate-350 hover:bg-slate-300 dark:hover:bg-slate-700'
             }`;
             allBtn.innerText = 'Sve';
@@ -6013,7 +6013,7 @@ function renderSubNavigation() {
                 const isSubActive = activeSubcategory === subId;
                 btn.className = `px-3.5 py-1 text-xs font-bold rounded-full transition-all shrink-0 uppercase tracking-wide select-none ${
                     isSubActive
-                        ? 'bg-[#e11d48] dark:bg-rose-700 text-white shadow-sm'
+                        ? 'bg-editorial-navyLight dark:bg-editorial-navy text-white shadow-sm'
                         : 'bg-slate-200 dark:bg-slate-800 text-slate-650 dark:text-slate-350 hover:bg-slate-300 dark:hover:bg-slate-700'
                 }`;
                 btn.innerText = sub;
@@ -6434,19 +6434,19 @@ function updateHeaderNavSelection() {
         
         if (isActive) {
             if (activeCategory === 'analitika') {
-                link.className = 'text-amber-400 font-black uppercase text-[14px] flex items-center gap-1 border-l border-slate-750 pl-4 select-none';
+                link.className = 'text-amber-400 font-black uppercase text-[14px] flex items-center gap-1 border-l border-slate-700 pl-4 select-none';
             } else if (activeCategory === 'spremljeno') {
-                link.className = 'text-red-500 font-black uppercase text-[14px] flex items-center gap-1 border-l border-slate-750 pl-4 select-none';
+                link.className = 'text-red-400 font-black uppercase text-[14px] flex items-center gap-1 border-l border-slate-700 pl-4 select-none';
             } else {
-                link.className = 'text-[#E5472C] font-black uppercase text-[14px] select-none';
+                link.className = 'text-editorial-gold font-black uppercase text-[14px] select-none';
             }
         } else {
             if (href === 'analitika.html' || href === 'analitika' || href === '/analitika') {
-                link.className = 'hover:text-amber-455 dark:hover:text-amber-350 transition-colors uppercase text-[14px] flex items-center gap-1 text-[#D13D1F] dark:text-amber-500 font-extrabold border-l border-slate-400 dark:border-slate-700 pl-4 select-none';
+                link.className = 'hover:text-amber-400 transition-colors uppercase text-[14px] flex items-center gap-1 text-amber-500/80 font-extrabold border-l border-slate-700 pl-4 select-none';
             } else if (href === 'spremljeno.html' || href === 'spremljeno' || href === '/spremljeno') {
-                link.className = 'hover:text-red-500 dark:hover:text-red-400 transition-colors uppercase text-[14px] flex items-center gap-1 text-red-550 dark:text-red-450 font-extrabold border-l border-slate-400 dark:border-slate-700 pl-4 select-none';
+                link.className = 'hover:text-red-400 transition-colors uppercase text-[14px] flex items-center gap-1 text-red-400/85 font-extrabold border-l border-slate-700 pl-4 select-none';
             } else {
-                link.className = 'hover:text-[#D13D1F] dark:hover:text-[#E5472C] text-slate-550 dark:text-slate-400 transition-colors uppercase text-[14px] font-extrabold select-none';
+                link.className = 'hover:text-editorial-gold text-slate-300 dark:text-slate-400 transition-colors uppercase text-[14px] font-extrabold select-none';
             }
         }
     });
@@ -7341,10 +7341,10 @@ function renderMobileDrawerMenu() {
         btn.href = `${c.id}`;
         const isActive = activeCategory === c.id;
         
-        btn.className = `flex flex-col items-center justify-center p-3 rounded-xl border text-center transition-all ${
+        btn.className = `flex flex-col items-center justify-center p-3 rounded-none border text-center transition-all ${
             isActive
-                ? 'bg-[#D13D1F] border-[#D13D1F] text-white font-extrabold shadow-md scale-[1.02]'
-                : 'bg-slate-800/60 border-slate-700/50 text-slate-300 hover:bg-slate-800 hover:text-white'
+                ? 'bg-editorial-navy border-editorial-navy text-white font-extrabold shadow-md scale-[1.02]'
+                : 'bg-slate-800/70 border-slate-700/60 text-slate-300 hover:bg-slate-800 hover:text-white'
         }`;
         
         btn.innerHTML = `
