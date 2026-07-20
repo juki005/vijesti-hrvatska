@@ -4,8 +4,12 @@
     { "src": "api/feed.js", "use": "@vercel/node" },
     { "src": "*.html", "use": "@vercel/static" },
     { "src": "app.js", "use": "@vercel/static" },
+    { "src": "articles.json", "use": "@vercel/static" },
     { "src": "favicon.svg", "use": "@vercel/static" },
     { "src": "robots.txt", "use": "@vercel/static" },
     { "src": "sitemap.xml", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/api/feed", "dest": "/api/feed.js" }
   ]
 }

@@ -3,7 +3,9 @@
 requirements.txt
 
 # Ignore raw data files and cache
-*.json
+raw_portals.json
+clean_portals.json
+categorized_portals.json
 __pycache__/
 *.pyd
 *.pyc
