@@ -5378,44 +5378,86 @@ function renderSplashHero(splashArticles) {
     const splashSection = document.getElementById('splash-section');
     if (!splashSection || splashArticles.length === 0) return;
     splashSection.innerHTML = '';
+    splashSection.className = 'grid grid-cols-1 md:grid-cols-3 gap-4 bg-[#F4F0EA] dark:bg-[#121620] p-4 border border-[#D8D2C2] dark:border-[#222C3E] rounded-none';
 
-    splashArticles.slice(0, 3).forEach(article => {
-        const isBookmarked = bookmarkedUrls.includes(article.link);
-        const cardImage = article.imageUrl.startsWith('placeholder-') 
-            ? getGradientPlaceholder(article.sourceId, article.source)
-            : `<div class="w-full h-40 overflow-hidden relative">
-                   <img src="${article.imageUrl}" alt="${article.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
-               </div>`;
+    const mainHero = splashArticles[0];
+    const secondaryArticles = splashArticles.slice(1, 3);
 
-        const card = document.createElement('div');
-        card.className = 'news-card group bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-none overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer relative';
-        card.onclick = (e) => {
+    if (mainHero) {
+        const isBookmarked = bookmarkedUrls.includes(mainHero.link);
+        const heroImg = mainHero.imageUrl.startsWith('placeholder-')
+            ? getGradientPlaceholder(mainHero.sourceId, mainHero.source)
+            : `<img src="${mainHero.imageUrl}" alt="${mainHero.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">`;
+
+        const heroCard = document.createElement('div');
+        heroCard.className = 'news-card group md:col-span-2 relative h-[320px] md:h-[380px] overflow-hidden border border-slate-300 dark:border-slate-800 cursor-pointer bg-slate-900';
+        heroCard.onclick = (e) => {
             if (e.target.closest('.bookmark-btn')) return;
-            window.open(article.link, '_blank');
+            window.open(mainHero.link, '_blank');
         };
 
-        card.innerHTML = `
-            <div class="flex flex-col">
-                <div class="relative bg-slate-900">
-                    ${cardImage}
-                    <div class="absolute top-2 left-2 flex gap-1.5">
-                        <span class="${article.sourceColor} font-extrabold text-[10.5px] px-2 py-0.5 rounded-none uppercase shadow-sm select-none">${article.source}</span>
-                    </div>
-                    <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${article.link}" title="Spremi">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
-                        </svg>
-                    </button>
+        heroCard.innerHTML = `
+            <div class="w-full h-full absolute inset-0">
+                ${heroImg}
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent"></div>
+            </div>
+            <div class="absolute top-3 left-3 flex gap-2 z-10">
+                <span class="${mainHero.sourceColor} font-extrabold text-[10.5px] px-2.5 py-1 rounded-none uppercase shadow select-none">${mainHero.source}</span>
+                <span class="bg-editorial-navy text-white text-[10.5px] font-bold px-2 py-1 uppercase select-none">${mainHero.category}</span>
+            </div>
+            <button class="bookmark-btn absolute top-3 right-3 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy text-white shadow opacity-0 group-hover:opacity-100 transition-all z-10" data-link="${mainHero.link}" title="Spremi">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+            </button>
+            <div class="absolute bottom-0 inset-x-0 p-5 space-y-2 text-white z-10">
+                <div class="flex items-center space-x-2 text-xs text-slate-300 font-mono">
+                    <span>${getRelativeTimeCroatian(mainHero.publishedAt)}</span>
                 </div>
-                <div class="p-4 space-y-2.5">
-                    <span class="font-mono text-xs text-slate-700 dark:text-slate-400 font-semibold">${getRelativeTimeCroatian(article.publishedAt)}</span>
-                    <h2 class="text-base md:text-[18.5px] font-serif font-bold leading-snug group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors line-clamp-3">${article.title}</h2>
-                    <p class="text-xs font-serif text-slate-700 dark:text-slate-400 line-clamp-2 leading-relaxed">${article.description || 'Pročitajte vijest na originalnom portalu.'}</p>
-                </div>
+                <h2 class="text-xl md:text-2xl font-serif font-bold leading-tight group-hover:text-editorial-gold transition-colors line-clamp-2">${mainHero.title}</h2>
+                <p class="text-xs font-serif text-slate-300 line-clamp-2 leading-relaxed hidden sm:block">${mainHero.description || 'Pročitajte više na izvornom portalu.'}</p>
             </div>
         `;
-        splashSection.appendChild(card);
-    });
+        splashSection.appendChild(heroCard);
+    }
+
+    if (secondaryArticles.length > 0) {
+        const stackCol = document.createElement('div');
+        stackCol.className = 'md:col-span-1 flex flex-col space-y-3 justify-between';
+
+        const stackTitle = document.createElement('div');
+        stackTitle.className = 'border-b border-[#121316]/20 dark:border-[#F4F3EE]/20 pb-1.5 font-serif font-extrabold text-xs uppercase tracking-wider text-slate-800 dark:text-slate-200';
+        stackTitle.innerText = 'NAJNOVIJE IZDVAJAMO';
+        stackCol.appendChild(stackTitle);
+
+        secondaryArticles.forEach(secArt => {
+            const secCard = document.createElement('div');
+            secCard.className = 'news-card group flex flex-col justify-between p-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 cursor-pointer flex-1 space-y-2';
+            secCard.onclick = (e) => {
+                if (e.target.closest('.bookmark-btn')) return;
+                window.open(secArt.link, '_blank');
+            };
+
+            const secImg = secArt.imageUrl.startsWith('placeholder-')
+                ? getGradientPlaceholder(secArt.sourceId, secArt.source)
+                : `<div class="w-full h-28 overflow-hidden relative">
+                       <img src="${secArt.imageUrl}" alt="${secArt.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                   </div>`;
+
+            secCard.innerHTML = `
+                <div class="relative bg-slate-900">
+                    ${secImg}
+                    <span class="absolute top-1.5 left-1.5 ${secArt.sourceColor} font-extrabold text-[9px] px-1.5 py-0.5 uppercase shadow select-none">${secArt.source}</span>
+                </div>
+                <div class="space-y-1">
+                    <span class="font-mono text-[10px] text-slate-500 dark:text-slate-400 font-semibold">${getRelativeTimeCroatian(secArt.publishedAt)}</span>
+                    <h3 class="text-xs font-serif font-bold text-slate-900 dark:text-slate-100 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors line-clamp-2 leading-snug">${secArt.title}</h3>
+                </div>
+            `;
+            stackCol.appendChild(secCard);
+        });
+        splashSection.appendChild(stackCol);
+    }
 }
 
 function renderHeadlinesUnderneath(headlines) {
@@ -5445,7 +5487,7 @@ function renderHeadlinesUnderneath(headlines) {
             <span class="font-mono text-editorial-navy dark:text-editorial-gold font-black text-[14px] mt-0.5 shrink-0">${timeString}</span>
             <div class="space-y-1 min-w-0">
                 <span class="text-[11px] uppercase font-black text-slate-800 dark:text-slate-300 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold">${article.source}</span>
-                <h4 class="text-[15.5px] font-serif font-bold text-slate-950 dark:text-slate-55 line-clamp-2 leading-snug group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${article.title}</h4>
+                <h4 class="text-[15.5px] font-serif font-bold text-slate-900 dark:text-[#F4F3EE] line-clamp-2 leading-snug group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${article.title}</h4>
             </div>
         `;
         container.appendChild(item);
@@ -5763,30 +5805,41 @@ function getDynamicTags(articlesList) {
     return uniqueTags.slice(0, 14);
 }
 
-// Sidebar rendering (Najnovije vertical list + bookmarks + tags)
+// Sidebar rendering (Najnovije numbered list + bookmarks + tags + kolumne)
 function renderSidebar() {
     const stream = document.getElementById('latest-stream');
     if (!stream) return;
     stream.innerHTML = '';
     
-    const latest = articles.slice(0, 15);
-    latest.forEach(article => {
+    const latest = articles.slice(0, 10);
+    latest.forEach((article, idx) => {
         const item = document.createElement('a');
         item.href = article.link;
         item.target = '_blank';
         item.rel = 'noopener';
-        item.className = 'block py-2 border-b border-slate-200 dark:border-slate-850 hover:bg-slate-200 dark:hover:bg-[#161616] px-1.5 py-2 rounded-none transition-colors group/stream';
+        item.className = 'flex items-start justify-between gap-2.5 py-2.5 border-b border-slate-200 dark:border-slate-800 hover:bg-slate-200/60 dark:hover:bg-[#161616] px-1 transition-colors group/stream';
         
         const hrs = article.publishedAt.getHours().toString().padStart(2, '0');
         const mins = article.publishedAt.getMinutes().toString().padStart(2, '0');
         const timeString = `${hrs}:${mins}`;
 
+        const thumb = article.imageUrl.startsWith('placeholder-')
+            ? ''
+            : `<img src="${article.imageUrl}" alt="${article.title}" class="w-12 h-12 object-cover rounded-none shrink-0 border border-slate-300 dark:border-slate-800">`;
+
         item.innerHTML = `
-            <div class="flex items-center space-x-2.5 text-xs">
-                <span class="font-mono text-editorial-navy dark:text-editorial-gold font-extrabold shrink-0">${timeString}</span>
-                <span class="font-mono text-slate-700 dark:text-slate-400 uppercase font-extrabold text-[9.5px] truncate max-w-[90px]">${article.source}</span>
+            <div class="flex items-start space-x-2.5 min-w-0 flex-1">
+                <span class="font-serif font-black text-base text-[#121316] dark:text-editorial-gold leading-none shrink-0 w-4.5 mt-0.5">${idx + 1}.</span>
+                <div class="space-y-1 min-w-0 flex-1">
+                    <div class="flex items-center space-x-1.5 text-[9.5px] uppercase font-bold text-slate-500 dark:text-slate-400">
+                        <span class="font-mono text-editorial-navy dark:text-editorial-gold font-extrabold">${timeString}</span>
+                        <span>·</span>
+                        <span class="truncate max-w-[75px]">${article.source}</span>
+                    </div>
+                    <h4 class="text-[12.5px] font-serif font-bold text-slate-900 dark:text-slate-100 group-hover/stream:text-editorial-navy dark:group-hover/stream:text-editorial-gold transition-colors leading-snug line-clamp-2">${article.title}</h4>
+                </div>
             </div>
-            <h4 class="text-[13px] font-serif font-semibold text-slate-850 dark:text-slate-200 group-hover/stream:text-editorial-navy dark:group-hover/stream:text-editorial-gold transition-colors leading-tight mt-0.5">${article.title}</h4>
+            ${thumb}
         `;
         stream.appendChild(item);
     });
@@ -5816,6 +5869,52 @@ function renderSidebar() {
                 `;
                 bookmarkList.appendChild(row);
             });
+        }
+    }
+
+    // Render Top 6 Portals Spotlight at bottom of sidebar
+    let topPortalsSec = document.getElementById('top-portals-section');
+    if (!topPortalsSec) {
+        const oldKolumne = document.getElementById('kolumne-section');
+        if (oldKolumne) oldKolumne.remove();
+
+        const sidebar = document.getElementById('sidebar');
+        if (sidebar) {
+            topPortalsSec = document.createElement('section');
+            topPortalsSec.id = 'top-portals-section';
+            topPortalsSec.className = 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 shadow-sm space-y-3';
+            
+            const topPortals = [
+                { name: 'Index.hr', domain: 'index.hr', url: 'https://www.index.hr' },
+                { name: '24sata', domain: '24sata.hr', url: 'https://www.24sata.hr' },
+                { name: 'Večernji list', domain: 'vecernji.hr', url: 'https://www.vecernji.hr' },
+                { name: 'Jutarnji list', domain: 'jutarnji.hr', url: 'https://www.jutarnji.hr' },
+                { name: 'Slobodna Dalmacija', domain: 'slobodnadalmacija.hr', url: 'https://slobodnadalmacija.hr' },
+                { name: 'Tportal', domain: 'tportal.hr', url: 'https://www.tportal.hr' }
+            ];
+
+            const portalsHTML = topPortals.map(p => `
+                <a href="${p.url}" target="_blank" rel="noopener" class="flex items-center space-x-2.5 p-2 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 transition-colors group cursor-pointer">
+                    <img src="https://www.google.com/s2/favicons?domain=${p.domain}&sz=32" alt="${p.name}" class="w-4 h-4 object-contain shrink-0" onerror="this.src='/favicon.ico'">
+                    <div class="min-w-0 flex-1">
+                        <span class="block truncate text-xs font-serif font-bold text-slate-850 dark:text-slate-100 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${p.name}</span>
+                        <span class="block text-[9px] text-slate-500 dark:text-slate-400 font-mono truncate">${p.domain}</span>
+                    </div>
+                </a>
+            `).join('');
+
+            topPortalsSec.innerHTML = `
+                <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2">
+                    <h3 class="text-xs font-serif font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">
+                        TOP 6 PORTALA
+                    </h3>
+                    <a href="portali.html" class="text-[10px] text-editorial-navy dark:text-editorial-gold hover:underline font-bold uppercase">Svi portali &rarr;</a>
+                </div>
+                <div class="grid grid-cols-2 gap-2 pt-1">
+                    ${portalsHTML}
+                </div>
+            `;
+            sidebar.appendChild(topPortalsSec);
         }
     }
 
