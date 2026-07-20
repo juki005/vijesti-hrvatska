@@ -21,6 +21,11 @@
     <meta name="author" content="Vijesti Hrvatska">
     <link id="canonical-link" rel="canonical" href="https://www.vijesti-hrvatska.com/portali">
     
+    <!-- Performance Optimizations: Preload critical news dataset & DNS preconnect -->
+    <link rel="preload" href="articles.json" as="fetch" crossorigin="anonymous">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="dns-prefetch" href="https://www.google.com">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta id="og-url" property="og:url" content="https://www.vijesti-hrvatska.com/portali">
