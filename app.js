@@ -4890,22 +4890,21 @@ async function fetchNewsFeed(forceRefetch = false) {
     // Check client-side localStorage cache first
     const cacheKey = 'cached_news_articles';
     const cacheTimeKey = 'cached_news_timestamp';
-    const cacheDuration = 10 * 60 * 1000; // 10 minutes
-
+    
     // If forceRefetch is a MouseEvent or other truthy object (e.g. from event handlers), we treat it as true
     const isCacheBypass = forceRefetch === true || (forceRefetch && typeof forceRefetch === 'object');
-
     const isStaticOrAnalyticsPage = activeCategory === 'portali' || activeCategory === 'analitika';
+
+    let hasRenderedFromCache = false;
 
     if (!isCacheBypass) {
         const cachedData = localStorage.getItem(cacheKey);
         const cachedTime = localStorage.getItem(cacheTimeKey);
         
-        if (cachedData && cachedTime && (Date.now() - parseInt(cachedTime, 10)) < cacheDuration) {
+        if (cachedData) {
             console.log('Loading news feed from client-side cache...');
             try {
                 const parsed = JSON.parse(cachedData);
-                // Convert serialized ISO string dates back to Date objects
                 articles = parsed.map(art => ({
                     ...art,
                     publishedAt: new Date(art.publishedAt)
@@ -4916,7 +4915,16 @@ async function fetchNewsFeed(forceRefetch = false) {
                     renderSidebar();
                     updateMarqueeTicker();
                     handleRoute();
-                    return; // exit early, no network fetch needed
+                    if (spinner) spinner.classList.add('hidden');
+                    if (refreshIcon) refreshIcon.classList.remove('animate-spin');
+                    
+                    hasRenderedFromCache = true;
+
+                    // If the cache is very fresh (less than 2 minutes old), we exit early
+                    if (cachedTime && (Date.now() - parseInt(cachedTime, 10)) < 2 * 60 * 1000) {
+                        return; // Cache is fresh, no need for background fetch
+                    }
+                    console.log('Cache is older than 2 minutes, revalidating in background...');
                 }
             } catch (cacheErr) {
                 console.warn('Error parsing cached news, falling back to network fetch...', cacheErr);
@@ -4924,13 +4932,16 @@ async function fetchNewsFeed(forceRefetch = false) {
         }
     }
 
-    if (!isStaticOrAnalyticsPage) {
-        if (spinner) spinner.classList.remove('hidden');
-        if (feedArea) feedArea.classList.add('hidden');
+    // Only show spinners and hide feed area if we haven't already rendered from cache
+    if (!hasRenderedFromCache) {
+        if (!isStaticOrAnalyticsPage) {
+            if (spinner) spinner.classList.remove('hidden');
+            if (feedArea) feedArea.classList.add('hidden');
+        }
+        if (refreshIcon) refreshIcon.classList.add('animate-spin');
     }
     if (errBanner) errBanner.classList.add('hidden');
     if (emptyState) emptyState.classList.add('hidden');
-    if (refreshIcon) refreshIcon.classList.add('animate-spin');
 
     try {
         const config = getSupabaseConfig();
@@ -4947,6 +4958,9 @@ async function fetchNewsFeed(forceRefetch = false) {
             }
         }
 
+        const oldFirstLink = (articles && articles.length > 0) ? articles[0].link : '';
+        const oldLength = articles ? articles.length : 0;
+
         articles = results.sort((a, b) => b.publishedAt - a.publishedAt);
 
         if (articles.length === 0) {
@@ -4960,10 +4974,19 @@ async function fetchNewsFeed(forceRefetch = false) {
                 console.warn('Failed to write articles to localStorage cache:', cacheWriteErr);
             }
 
-            renderDirectory();
-            renderSidebar();
-            updateMarqueeTicker();
-            handleRoute(); // handles showing/hiding feed-area or analytics-area
+            // Only re-render if we haven't rendered from cache yet OR if the content has changed
+            const newFirstLink = articles[0].link;
+            const newLength = articles.length;
+
+            if (!hasRenderedFromCache || oldFirstLink !== newFirstLink || oldLength !== newLength) {
+                console.log('Updating UI with fresh articles...');
+                renderDirectory();
+                renderSidebar();
+                updateMarqueeTicker();
+                handleRoute(); // handles showing/hiding feed-area or analytics-area
+            } else {
+                console.log('UI is already up-to-date with latest articles.');
+            }
         }
     } catch (err) {
         console.error(err);
