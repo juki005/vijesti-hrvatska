@@ -1,7 +1,7 @@
 // Vercel Serverless Cron Job
 // Triggered every 15 minutes by Vercel Cron
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     try {
         console.log('Vercel 15-minute Cron trigger executed at:', new Date().toISOString());
         
