@@ -6985,6 +6985,7 @@ function setupEventListeners() {
 
     // Initialize mobile navigation drawer listeners
     initMobileDrawer();
+    initHeaderWeather();
 }
 
 // Admin accessibility control
@@ -7398,6 +7399,71 @@ setupEventListeners();
 if (checkAdminAccess()) {
     handleRoute(); // Render target page layout immediately
     fetchNewsFeed();
+}
+
+// Lightweight Weather Badge for Header Top Bar (Open-Meteo API, 0ms impact, cached 30 mins)
+async function initHeaderWeather() {
+    const badge = document.getElementById('header-weather-badge');
+    if (!badge) return;
+
+    const CITIES = [
+        { name: 'Zagreb', lat: 45.8150, lon: 15.9819 },
+        { name: 'Split', lat: 43.5081, lon: 16.4402 },
+        { name: 'Rijeka', lat: 45.3271, lon: 14.4422 },
+        { name: 'Osijek', lat: 45.5550, lon: 18.6955 },
+        { name: 'Zadar', lat: 44.1194, lon: 15.2314 }
+    ];
+
+    let currentCityIndex = parseInt(localStorage.getItem('header_weather_city_idx') || '0', 10);
+    if (isNaN(currentCityIndex) || currentCityIndex >= CITIES.length) currentCityIndex = 0;
+
+    const city = CITIES[currentCityIndex];
+
+    // Toggle city on click
+    badge.onclick = () => {
+        const nextIdx = (currentCityIndex + 1) % CITIES.length;
+        localStorage.setItem('header_weather_city_idx', nextIdx.toString());
+        localStorage.removeItem(`header_weather_cache_${city.name}`);
+        initHeaderWeather();
+    };
+
+    const cacheKey = `header_weather_cache_${city.name}`;
+    const cacheTimeKey = `header_weather_time_${city.name}`;
+    const cachedData = localStorage.getItem(cacheKey);
+    const cachedTime = localStorage.getItem(cacheTimeKey);
+
+    // Use cached temperature if less than 30 minutes old
+    if (cachedData && cachedTime && (Date.now() - parseInt(cachedTime, 10)) < 30 * 60 * 1000) {
+        badge.innerHTML = cachedData;
+        return;
+    }
+
+    try {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${city.lat}&longitude=${city.lon}&current_weather=true`;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Weather API error');
+        const data = await res.json();
+        
+        const temp = Math.round(data.current_weather.temperature);
+        const code = data.current_weather.weathercode;
+
+        let icon = '☀️';
+        if (code === 0) icon = '☀️';
+        else if (code >= 1 && code <= 3) icon = '⛅';
+        else if (code >= 45 && code <= 48) icon = '🌫️';
+        else if (code >= 51 && code <= 67) icon = '🌧️';
+        else if (code >= 71 && code <= 77) icon = '❄️';
+        else if (code >= 80 && code <= 82) icon = '🌦️';
+        else if (code >= 95) icon = '🌩️';
+
+        const weatherHTML = `<span class="font-bold text-editorial-gold">${city.name}</span> <span>${temp}°C</span> <span>${icon}</span>`;
+        badge.innerHTML = weatherHTML;
+
+        localStorage.setItem(cacheKey, weatherHTML);
+        localStorage.setItem(cacheTimeKey, Date.now().toString());
+    } catch (err) {
+        badge.innerHTML = `<span class="font-bold text-slate-300">${city.name}</span> <span>--°C</span> <span>⛅</span>`;
+    }
 }
 
 // Initialize mobile drawer toggle handlers

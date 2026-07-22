@@ -2,6 +2,7 @@
   "cleanUrls": true,
   "builds": [
     { "src": "api/feed.js", "use": "@vercel/node" },
+    { "src": "api/cron.js", "use": "@vercel/node" },
     { "src": "*.html", "use": "@vercel/static" },
     { "src": "app.js", "use": "@vercel/static" },
     { "src": "articles.json", "use": "@vercel/static" },
@@ -10,7 +11,14 @@
     { "src": "sitemap.xml", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/api/feed", "dest": "/api/feed.js" }
+    { "src": "/api/feed", "dest": "/api/feed.js" },
+    { "src": "/api/cron", "dest": "/api/cron.js" }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron",
+      "schedule": "*/15 * * * *"
+    }
   ],
   "headers": [
     {
