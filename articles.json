@@ -1,5 +1,23 @@
 [
   {
+    "id": "45c6e5ab-828d-5fc3-8e48-dde999b4e5c3",
+    "title": "Američki zrakoplov s humanitarnom pomoći sletio na Kubu: 'Pomoć stiže narodu, a ne režimu'",
+    "link": "https://www.vecernji.hr/vijesti/americki-zrakoplov-s-humanitarnom-pomoci-sletio-na-kubu-pomoc-stize-narodu-a-ne-rezimu-1980019",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/b1/2c/b5220ae1ec043bcd794e.jpeg",
+    "description": "State Department je priopćio u utorak da će pomoć, koja sadrži pakete hrane i higijenskih potrepština za oko 700 obitelji, dostaviti humanitarna organizacija Catholic Relief Ser...",
+    "published_at": "2026-07-22T01:00:00+00:00"
+  },
+  {
+    "id": "97ba9f08-bbae-5b86-a15c-af0b0315a541",
+    "title": "General Motors prvi put od početka 2025. bilježi rast prihoda",
+    "link": "https://www.tportal.hr/biznis/clanak/general-motors-prvi-put-od-pocetka-2025-biljezi-rast-prihoda-20260721",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2769796.jpeg?cropId=0",
+    "description": "Američki automobilski div General Motors izvijestio je u utorak da mu je prihod blago porastao u drugom tromjesečju, prvi puta od početka 2025. godine, oslonjen na dobre rezulta...",
+    "published_at": "2026-07-22T00:00:00+00:00"
+  },
+  {
     "id": "f5e1f18b-7a2a-52b3-9a79-5cf36985b378",
     "title": "Je li to moguće: Cesta prema Sitnom i Dubravi uskoro bi mogla biti otvorena za osobna vozila",
     "link": "https://www.dalmacijadanas.hr/je-li-to-moguce-cesta-prema-sitnom-i-dubravi-uskoro-bi-mogla-biti-otvorena-za-osobna-vozila/",
@@ -91,7 +109,7 @@
   },
   {
     "id": "264af512-3109-5f9f-9e38-2d7325baaca4",
-    "title": "Smoju su inspirirali Roko i Dujka: Živjeli su u staroj barci, a kada su je izgubili spavali su u kanalizacijskim cijevima",
+    "title": "Smoju su inspirirali Roko i Dujka: Živjeli su u staroj barci, a kada su je izgubili, spavali su u kanalizacijskim cijevima",
     "link": "https://www.dalmacijadanas.hr/smoju-su-inspirirali-roko-i-dujka-zivjeli-su-u-staroj-barci-a-kada-su-je-izgubili-spavali-su-u-kanalizacijskim-cijevima/",
     "source": "Dalmacija Danas",
     "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/07/roko-dujka.jpg",
@@ -729,15 +747,6 @@
     "published_at": "2026-07-21T20:32:19+00:00"
   },
   {
-    "id": "e749b6a3-1e34-5606-a7af-d81e256f0b35",
-    "title": "'Nije golman kriv za primljeni gol Dinama već drugi igrač. Ne mogu vjerovati koga je Kovačević ostavio na klupi'",
-    "link": "https://www.tportal.hr/sport/clanak/nije-golman-kriv-za-primljeni-gol-dinama-vec-drugi-igrac-ne-mogu-vjerovati-koga-je-kovacevic-ostavio-na-klupi-20260721",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2769855.jpeg?cropId=0",
-    "description": "Dinamo se iz Švicarske vraća s rezultatom koji je, prema svemu viđenom, bolji od igre. U prvoj utakmici drugog pretkola kvalifikacija za Ligu prvaka hrvatski prvak remizirao je ...",
-    "published_at": "2026-07-21T20:31:00+00:00"
-  },
-  {
     "id": "4bc94730-d04a-527e-a483-b86a7d947d15",
     "title": "Publika ljuta na redatelja: Nolan promijenio ‘Odiseju’",
     "link": "https://www.24sata.hr/show/publika-ljuta-na-redatelja-nolan-promijenio-odiseju-1142642",
@@ -936,21 +945,21 @@
     "published_at": "2026-07-21T20:09:00+00:00"
   },
   {
-    "id": "e11d093f-043d-5948-97d5-b8cefeeaf73c",
-    "title": "Srbin koji je skoro ispao kroz prozor Ryanaira: “Pojas mi je možda spasio život”",
-    "link": "https://www.index.hr/vijesti/clanak/srbin-koji-je-skoro-ispao-kroz-prozor-ryanaira-pojas-mi-je-mozda-spasio-zivot/2816123.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "SRPSKI poduzetnik Ljubiša Karović preživio je djelomičnu dekompresiju na letu Ryanaira kada ga je sila umalo isisala kroz prozor. Opisuje kaos i tvrdi da mu posada nije pomogla,...",
-    "published_at": "2026-07-21T20:08:00+00:00"
-  },
-  {
     "id": "611cc06b-cf4a-54c7-88a6-492ef96624a9",
     "title": "Kovačević: Žao mi je što nismo izjednačili ranije jer mislim da bi pobijedili",
     "link": "https://www.index.hr/sport/clanak/kovacevic-zao-mi-je-sto-nismo-izjednacili-ranije-jer-mislim-da-bi-pobijedili/2816116.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "REMI Dinama i Thuna na otvaranju europske sezone.",
+    "published_at": "2026-07-21T20:08:00+00:00"
+  },
+  {
+    "id": "e11d093f-043d-5948-97d5-b8cefeeaf73c",
+    "title": "Srbin koji je skoro ispao kroz prozor Ryanaira: “Pojas mi je možda spasio život”",
+    "link": "https://www.index.hr/vijesti/clanak/srbin-koji-je-skoro-ispao-kroz-prozor-ryanaira-pojas-mi-je-mozda-spasio-zivot/2816123.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SRPSKI poduzetnik Ljubiša Karović preživio je djelomičnu dekompresiju na letu Ryanaira kada ga je sila umalo isisala kroz prozor. Opisuje kaos i tvrdi da mu posada nije pomogla,...",
     "published_at": "2026-07-21T20:08:00+00:00"
   },
   {
@@ -1323,15 +1332,6 @@
     "published_at": "2026-07-21T19:30:00+00:00"
   },
   {
-    "id": "32365342-6306-5e92-a5ca-85632ff8f858",
-    "title": "VIDEO Robbieju Williamsu usred prijenosa iz usta ispao bijeli predmet, njegov odgovor sve nasmijao",
-    "link": "https://www.vecernji.hr/showbiz/video-robbieju-williamsu-usred-prijenosa-iz-usta-ispao-bijeli-predmet-njegov-odgovor-sve-nasmijao-1979801",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/39/f1/1e224b226d8713e0df46.jpeg",
-    "description": "Robbie Williams doživio je urnebesnu nezgodu nakon nastupa u finalu Svjetskog prvenstva. Snimka je postala viralna, a pjevač se oglasio u svom duhovitom stilu",
-    "published_at": "2026-07-21T19:30:00+00:00"
-  },
-  {
     "id": "5358f93f-b505-5dab-b943-2833cf48fc63",
     "title": "VIDEO Hajduk dobiva veliko pojačanje! Nadaju se na Poljudu da će biti idealno rješenje u vrhu napada",
     "link": "https://slobodnadalmacija.hr/sport/hajduk/video-hajduk-dobiva-veliko-pojacanje-nadaju-se-na-poljudu-da-ce-biti-idealno-rjesenje-u-vrhu-napada-1569279",
@@ -1575,21 +1575,21 @@
     "published_at": "2026-07-21T18:38:00+00:00"
   },
   {
-    "id": "6b69c5c0-1375-56e6-9d2a-9b55b7aaeca8",
-    "title": "Otkriveno je kada će Ronaldo prestati igrati za Portugal?",
-    "link": "https://www.index.hr/sport/clanak/otkriveno-je-kada-ce-ronaldo-prestati-igrati-za-portugal/2816110.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "SPREMA li se oproštaj?",
-    "published_at": "2026-07-21T18:37:00+00:00"
-  },
-  {
     "id": "b5fed155-8fc3-507d-9acd-301a49f42152",
     "title": "Trump neće spašavati braću Tate. Čeka ih izručenje Britaniji",
     "link": "https://www.index.hr/vijesti/clanak/trump-nece-spasavati-bracu-tate-ceka-ih-izrucenje-britaniji/2816097.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "BIJELA kuća neće spriječiti izručenje Andrewa i Tristana Tatea Velikoj Britaniji. Braća su uhićena u Miamiju na temelju novih optužbi za silovanje i trgovinu ljudima, unatoč vez...",
+    "published_at": "2026-07-21T18:37:00+00:00"
+  },
+  {
+    "id": "6b69c5c0-1375-56e6-9d2a-9b55b7aaeca8",
+    "title": "Otkriveno je kada će Ronaldo prestati igrati za Portugal?",
+    "link": "https://www.index.hr/sport/clanak/otkriveno-je-kada-ce-ronaldo-prestati-igrati-za-portugal/2816110.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SPREMA li se oproštaj?",
     "published_at": "2026-07-21T18:37:00+00:00"
   },
   {
@@ -1683,21 +1683,21 @@
     "published_at": "2026-07-21T18:14:00+00:00"
   },
   {
-    "id": "01ddf9e0-4a37-5f06-abdd-5d222e018509",
-    "title": "Novinari šokirali argentinskog izbornika: Ne mogu vjerovati što me pitate",
-    "link": "https://www.index.hr/sport/clanak/novinari-sokirali-argentinskog-izbornika-ne-mogu-vjerovati-sto-me-pitate/2816101.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ARGENTINSKI izbornik Lionel Scaloni teško je podnio poraz u finalu SP-a.",
-    "published_at": "2026-07-21T18:14:00+00:00"
-  },
-  {
     "id": "28b7282a-6a07-511e-8fb2-d741f2cb4ef7",
     "title": "Tirkizno more i restoran uz obalu: Plaža blizu Hvara privlači one koji traže mir",
     "link": "https://www.index.hr/magazin/clanak/tirkizno-more-i-restoran-uz-obalu-plaza-blizu-hvara-privlaci-one-koji-traze-mir/2815885.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "NUDI tirkizno more, prirodni hlad i restoran, a do nje se može doći pješice ili brodom.",
+    "published_at": "2026-07-21T18:14:00+00:00"
+  },
+  {
+    "id": "01ddf9e0-4a37-5f06-abdd-5d222e018509",
+    "title": "Novinari šokirali argentinskog izbornika: Ne mogu vjerovati što me pitate",
+    "link": "https://www.index.hr/sport/clanak/novinari-sokirali-argentinskog-izbornika-ne-mogu-vjerovati-sto-me-pitate/2816101.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ARGENTINSKI izbornik Lionel Scaloni teško je podnio poraz u finalu SP-a.",
     "published_at": "2026-07-21T18:14:00+00:00"
   },
   {
@@ -2196,21 +2196,21 @@
     "published_at": "2026-07-21T16:45:01+00:00"
   },
   {
-    "id": "6fea11cd-64a4-5c97-966a-4e6cea3def5b",
-    "title": "Policajac se posvađao u prometu pa iz službenog pištolja ispalio hitac u zrak",
-    "link": "https://www.index.hr/vijesti/clanak/policajac-se-posvadjao-u-prometu-pa-iz-sluzbenog-pistolja-ispalio-hitac-u-zrak/2816072.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "POLICAJAC koji je izvan službe prijetio trojici muškaraca i ispalio hitac iz službenog pištolja u Rogoznici udaljen je iz službe, a protiv njega je podnesena kaznena prijava.",
-    "published_at": "2026-07-21T16:39:00+00:00"
-  },
-  {
     "id": "d148f533-a2e6-5e1f-9452-a429c8a52eab",
     "title": "Ispao je iz lige i igrao za Nizozemsku na SP-u. Sad ide u Arabiju za 80 milijuna eura",
     "link": "https://www.index.hr/sport/clanak/ispao-je-iz-lige-i-igrao-za-nizozemsku-na-spu-sad-ide-u-arabiju-za-80-milijuna-eura/2816071.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "IZAZOV na novom kontinentu.",
+    "published_at": "2026-07-21T16:39:00+00:00"
+  },
+  {
+    "id": "6fea11cd-64a4-5c97-966a-4e6cea3def5b",
+    "title": "Policajac se posvađao u prometu pa iz službenog pištolja ispalio hitac u zrak",
+    "link": "https://www.index.hr/vijesti/clanak/policajac-se-posvadjao-u-prometu-pa-iz-sluzbenog-pistolja-ispalio-hitac-u-zrak/2816072.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "POLICAJAC koji je izvan službe prijetio trojici muškaraca i ispalio hitac iz službenog pištolja u Rogoznici udaljen je iz službe, a protiv njega je podnesena kaznena prijava.",
     "published_at": "2026-07-21T16:39:00+00:00"
   },
   {
@@ -2916,21 +2916,21 @@
     "published_at": "2026-07-21T14:26:00+00:00"
   },
   {
-    "id": "3fbd2ca2-cc3a-5fa1-a644-ef0c56e5e554",
-    "title": "Zaljubili smo se u točkastu posteljinu iz JYSK-a, stoji samo 14 eura",
-    "link": "https://www.index.hr/shopping/clanak/zaljubili-smo-se-u-tockastu-posteljinu-iz-jyska-stoji-samo-14-eura/2816017.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NOVA JYSK pamučna posteljina DAGMAR s popularnim retro točkicama unosi razigranost u spavaću sobu po pristupačnoj cijeni od samo 14 eura.",
-    "published_at": "2026-07-21T14:25:00+00:00"
-  },
-  {
     "id": "98d4057f-8820-5d66-99b1-5ebe73956719",
     "title": "Bila je \"najcool cura na faksu\", ljubav je tražila u realityju. Tko je prva dama UK-a?",
     "link": "https://www.index.hr/magazin/clanak/bila-je-najcool-cura-na-faksu-ljubav-je-trazila-u-realityju-tko-je-prva-dama-uka/2816008.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "BRITANIJA ima novog premijera i prvu damu.",
+    "published_at": "2026-07-21T14:25:00+00:00"
+  },
+  {
+    "id": "3fbd2ca2-cc3a-5fa1-a644-ef0c56e5e554",
+    "title": "Zaljubili smo se u točkastu posteljinu iz JYSK-a, stoji samo 14 eura",
+    "link": "https://www.index.hr/shopping/clanak/zaljubili-smo-se-u-tockastu-posteljinu-iz-jyska-stoji-samo-14-eura/2816017.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NOVA JYSK pamučna posteljina DAGMAR s popularnim retro točkicama unosi razigranost u spavaću sobu po pristupačnoj cijeni od samo 14 eura.",
     "published_at": "2026-07-21T14:25:00+00:00"
   },
   {
