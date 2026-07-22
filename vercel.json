@@ -14,12 +14,6 @@
     { "src": "/api/feed", "dest": "/api/feed.js" },
     { "src": "/api/cron", "dest": "/api/cron.js" }
   ],
-  "crons": [
-    {
-      "path": "/api/cron",
-      "schedule": "*/15 * * * *"
-    }
-  ],
   "headers": [
     {
       "source": "/articles.json",
