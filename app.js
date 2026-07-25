@@ -5687,11 +5687,24 @@ function renderPortalSpotlightPage(slug) {
         };
     }
 
-    // Filter articles from our feed for this portal
-    const portalArticles = articles.filter(a => 
-        a.source.toLowerCase().includes(foundPortal.name.toLowerCase()) || 
-        (foundPortal.domain && a.source.toLowerCase().includes(foundPortal.domain.split('.')[0].toLowerCase()))
-    );
+    // Smart multi-term search for matching articles by source name, domain, slug, or URL
+    const searchTerms = [
+        foundPortal.name.toLowerCase(),
+        foundPortal.domain ? foundPortal.domain.toLowerCase() : '',
+        foundPortal.domain ? foundPortal.domain.split('.')[0].toLowerCase() : '',
+        slug.replace(/-/g, ' '),
+        slug.replace(/-/g, '')
+    ].filter(term => term && term.length > 2);
+
+    const portalArticles = articles.filter(a => {
+        const src = (a.source || '').toLowerCase();
+        const link = (a.link || '').toLowerCase();
+        return searchTerms.some(term => {
+            if (src.includes(term)) return true;
+            if (term.length >= 4 && link.includes(term)) return true;
+            return false;
+        });
+    });
 
     const faviconUrl = foundPortal.domain 
         ? `https://www.google.com/s2/favicons?domain=${foundPortal.domain}&sz=64`
