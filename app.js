@@ -5525,9 +5525,16 @@ function renderPortalsPage() {
     const portaliArea = document.getElementById('portali-area');
     if (!portaliArea) return;
 
+    // Check URL hash for dedicated portal landing page view (e.g. #index-hr or #vecernji-list)
+    const hash = window.location.hash.replace('#', '').trim();
+    if (hash && hash !== '' && !['nacionalni', 'lokalni', 'tematski', 'korisni-web'].includes(hash)) {
+        renderPortalSpotlightPage(hash);
+        return;
+    }
+
     // Check if we have initialized the portal wrapper
     let wrapper = document.getElementById('portal-page-wrapper');
-    if (!wrapper) {
+    if (!wrapper || document.getElementById('portal-spotlight-view')) {
         portaliArea.innerHTML = `
             <div id="portal-page-wrapper" class="bg-slate-50 dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-none shadow-sm transition-colors space-y-6">
                 <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4">
@@ -5547,6 +5554,14 @@ function renderPortalsPage() {
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
                             </svg>
                         </div>
+                    </div>
+                </div>
+
+                <!-- Featured Top Portals Quick Bar -->
+                <div class="space-y-2">
+                    <span class="text-[10px] uppercase font-black text-slate-500 tracking-wider">Brzi pregled vodećih medija:</span>
+                    <div id="quick-portals-bar" class="flex flex-wrap gap-1.5">
+                        <!-- Loaded dynamically -->
                     </div>
                 </div>
 
@@ -5596,11 +5611,185 @@ function renderPortalsPage() {
             };
         });
 
+        renderQuickPortalsBar();
         updateTabStyles();
         renderSubTabs();
     }
 
     renderPortalsGrid();
+}
+
+// Render Quick Portal Chips at Top of Directory
+function renderQuickPortalsBar() {
+    const bar = document.getElementById('quick-portals-bar');
+    if (!bar) return;
+    bar.innerHTML = '';
+
+    const featured = [
+        { name: 'Index.hr', slug: 'index-hr' },
+        { name: '24sata', slug: '24sata' },
+        { name: 'Večernji list', slug: 'vecernji-list' },
+        { name: 'Jutarnji list', slug: 'jutarnji-list' },
+        { name: 'Slobodna Dalmacija', slug: 'slobodna-dalmacija' },
+        { name: 'Tportal', slug: 'tportal' },
+        { name: 'N1 Info', slug: 'n1-info' },
+        { name: 'Telegram.hr', slug: 'telegram-hr' },
+        { name: 'Bug.hr', slug: 'bug-hr' },
+        { name: 'Sportnet.hr', slug: 'sportnet-hr' },
+        { name: 'Poslovni dnevnik', slug: 'poslovni-dnevnik' },
+        { name: 'Dnevnik.hr', slug: 'dnevnik-hr' }
+    ];
+
+    featured.forEach(item => {
+        const btn = document.createElement('button');
+        btn.className = 'px-2.5 py-1 bg-slate-200 dark:bg-slate-800 hover:bg-editorial-navy dark:hover:bg-editorial-gold text-slate-800 dark:text-slate-200 hover:text-white dark:hover:text-slate-900 font-serif font-bold text-[11px] border border-slate-300 dark:border-slate-700 transition-colors';
+        btn.innerText = item.name;
+        btn.onclick = () => {
+            window.location.hash = item.slug;
+            renderPortalSpotlightPage(item.slug);
+        };
+        bar.appendChild(btn);
+    });
+}
+
+// Dedicated Landing View for a Specific Media Portal (e.g. Index.hr, Večernji, 24sata)
+function renderPortalSpotlightPage(slug) {
+    const portaliArea = document.getElementById('portali-area');
+    if (!portaliArea) return;
+
+    // Find portal details
+    let foundPortal = null;
+    let allPortals = [
+        ...CATEGORIZED_PORTALS.nacionalni,
+        ...CATEGORIZED_PORTALS.lokalni.zagreb,
+        ...CATEGORIZED_PORTALS.lokalni.dalmacija,
+        ...CATEGORIZED_PORTALS.lokalni.slavonija,
+        ...CATEGORIZED_PORTALS.lokalni["istra-i-kvarner"],
+        ...CATEGORIZED_PORTALS.lokalni.ostalo,
+        ...CATEGORIZED_PORTALS.tematski.sport,
+        ...CATEGORIZED_PORTALS.tematski.tech,
+        ...CATEGORIZED_PORTALS.tematski.lifestyle,
+        ...CATEGORIZED_PORTALS.tematski.biznis,
+        ...CATEGORIZED_PORTALS.tematski.auti,
+        ...CATEGORIZED_PORTALS.tematski.ostalo
+    ];
+
+    foundPortal = allPortals.find(p => slugify(p.name) === slug || (p.domain && slugify(p.domain) === slug));
+    
+    if (!foundPortal) {
+        // Fallback title from slug
+        const formattedName = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        foundPortal = {
+            name: formattedName,
+            domain: `${slug.replace('-', '.')}`,
+            url: `https://www.${slug.replace('-', '.')}`,
+            description: `Pregled najnovijih vijesti s medijskog portala ${formattedName}.`
+        };
+    }
+
+    // Filter articles from our feed for this portal
+    const portalArticles = articles.filter(a => 
+        a.source.toLowerCase().includes(foundPortal.name.toLowerCase()) || 
+        (foundPortal.domain && a.source.toLowerCase().includes(foundPortal.domain.split('.')[0].toLowerCase()))
+    );
+
+    const faviconUrl = foundPortal.domain 
+        ? `https://www.google.com/s2/favicons?domain=${foundPortal.domain}&sz=64`
+        : '/favicon.ico';
+
+    let articlesHTML = '';
+    if (portalArticles.length === 0) {
+        articlesHTML = `
+            <div class="col-span-full py-12 text-center space-y-2 border border-dashed border-slate-300 dark:border-slate-800 p-6">
+                <p class="text-sm font-serif font-bold text-slate-800 dark:text-slate-200">Trenutno nema učitanih vijesti za portal ${foundPortal.name}</p>
+                <p class="text-xs text-slate-500">Možete posjetiti službenu web stranicu portala klikom na gumb iznad.</p>
+            </div>
+        `;
+    } else {
+        articlesHTML = portalArticles.map(article => {
+            const isBookmarked = bookmarkedUrls.includes(article.link);
+            const cardImg = article.imageUrl.startsWith('placeholder-')
+                ? getGradientPlaceholder(article.sourceId, article.source)
+                : `<div class="w-full h-36 overflow-hidden relative bg-slate-900">
+                        <img src="${article.imageUrl}" alt="${article.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                   </div>`;
+
+            return `
+                <div class="news-card group bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-none overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer" onclick="window.open('${article.link}', '_blank')">
+                    <div class="flex flex-col">
+                        <div class="relative bg-slate-900">
+                            ${cardImg}
+                            <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy dark:hover:bg-editorial-navy text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" onclick="event.stopPropagation(); toggleBookmark('${article.link}')" title="Spremi">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="p-4 space-y-2.5">
+                            <div class="flex items-center justify-between text-xs text-slate-700 dark:text-slate-400">
+                                <span class="${article.sourceColor} font-extrabold px-2 py-0.5 rounded-none text-[9.5px] uppercase select-none shadow-sm">${article.source}</span>
+                                <span class="font-mono text-[10px]">${getRelativeTimeCroatian(article.publishedAt)}</span>
+                            </div>
+                            <h3 class="text-sm md:text-[15px] font-serif font-bold leading-snug line-clamp-3 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${article.title}</h3>
+                            <p class="text-xs font-serif text-slate-700 dark:text-slate-400 line-clamp-2 leading-relaxed">${article.description || 'Pročitajte vijest na izvornoj stranici.'}</p>
+                        </div>
+                    </div>
+                    <div class="px-4 pb-3.5 pt-1.5 flex justify-between items-center text-[10.5px] font-bold border-t border-slate-200 dark:border-slate-800">
+                        <span class="bg-editorial-navy/10 dark:bg-editorial-gold/10 text-editorial-navy dark:text-editorial-gold px-2 py-0.5 rounded-none uppercase select-none text-[9.5px]">${article.category}</span>
+                        <span class="text-slate-750 dark:text-slate-400 flex items-center gap-0.5">Otvori &rarr;</span>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    portaliArea.innerHTML = `
+        <div id="portal-spotlight-view" class="space-y-6">
+            <!-- Top Back Button & Navigation -->
+            <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3">
+                <button onclick="window.location.hash=''; renderPortalsPage();" class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-200 dark:bg-slate-800 hover:bg-editorial-navy hover:text-white dark:hover:bg-editorial-gold dark:hover:text-slate-900 font-serif font-bold text-xs uppercase tracking-wider transition-colors">
+                    &larr; Povratak na Imenik portala
+                </button>
+                <span class="text-[11px] font-mono text-slate-500">Preporučena stranica medijskog izvora</span>
+            </div>
+
+            <!-- Portal Header Banner -->
+            <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div class="flex items-start space-x-4">
+                    <img src="${faviconUrl}" alt="${foundPortal.name}" class="w-12 h-12 object-contain p-1 border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800 shrink-0" onerror="this.src='/favicon.ico'">
+                    <div class="space-y-1">
+                        <h1 class="text-2xl font-serif font-black text-slate-900 dark:text-white uppercase tracking-tight flex items-center gap-3">
+                            ${foundPortal.name}
+                        </h1>
+                        <span class="inline-block text-xs font-mono text-editorial-navy dark:text-editorial-gold font-bold">${foundPortal.domain || 'vanjski domena'}</span>
+                        <p class="text-xs font-serif text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl pt-1">
+                            ${foundPortal.description || `Pratite najnovije vijesti i objave s portala ${foundPortal.name} u realnom vremenu na medijskom agregatoru Vijesti Hrvatska.`}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0">
+                    <a href="${foundPortal.url || '#'}" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-editorial-navy dark:bg-editorial-gold hover:bg-slate-800 dark:hover:bg-amber-400 text-white dark:text-slate-950 font-serif font-extrabold text-xs uppercase tracking-wider transition-all shadow text-center">
+                        <span>Posjeti ${foundPortal.name}</span>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+                    </a>
+                    <span class="text-[10px] font-mono text-slate-500 text-center">Dohvaćeno ${portalArticles.length} najnovijih vijesti</span>
+                </div>
+            </div>
+
+            <!-- News Grid Stream -->
+            <div class="space-y-3">
+                <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2">
+                    <h3 class="text-xs font-serif font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">
+                        NAJNOVIJE VIJESTI IZ IZVORA ${foundPortal.name.toUpperCase()}
+                    </h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    ${articlesHTML}
+                </div>
+            </div>
+        </div>
+    `;
 }
 
 function updateTabStyles() {
@@ -5636,7 +5825,7 @@ function renderSubTabs() {
             { id: 'all', name: 'Sve teme' },
             { id: 'sport', name: 'Sport' },
             { id: 'tech', name: 'Tehnologija' },
-            { id: 'lifestyle', name: 'Lifestyle & Zabava' },
+            { id: 'lifestyle', name: 'Lifestyle' },
             { id: 'biznis', name: 'Biznis & Posao' },
             { id: 'auti', name: 'Auti / Auto-moto' }
         ];
@@ -5723,23 +5912,31 @@ function renderPortalsGrid() {
     grid.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3';
 
     list.forEach(portal => {
-        const card = document.createElement('a');
-        card.href = portal.url || '#';
-        card.target = '_blank';
-        card.rel = 'noopener';
-        card.className = 'flex items-start space-x-3 bg-slate-50 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 p-3.5 rounded-none transition-all text-xs group cursor-pointer';
+        const portalSlug = slugify(portal.name);
+        const card = document.createElement('div');
+        card.className = 'flex items-start justify-between space-x-3 bg-slate-50 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 p-3.5 rounded-none transition-all text-xs group cursor-pointer';
 
         const faviconUrl = portal.domain 
             ? `https://www.google.com/s2/favicons?domain=${portal.domain}&sz=32`
             : '/favicon.ico';
 
+        card.onclick = () => {
+            window.location.hash = portalSlug;
+            renderPortalSpotlightPage(portalSlug);
+        };
+
         card.innerHTML = `
-            <img src="${faviconUrl}" alt="${portal.name}" class="w-4.5 h-4.5 mt-0.5 object-contain shrink-0" onerror="this.src='/favicon.ico'">
-            <div class="min-w-0 flex-1 space-y-1">
-                <span class="block truncate text-slate-800 dark:text-slate-100 font-serif font-bold group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${portal.name}</span>
-                <span class="block text-[10px] text-slate-700 dark:text-slate-400 font-mono truncate">${portal.domain || 'vanjski link'}</span>
-                ${portal.description ? `<p class="text-[11px] text-slate-600 dark:text-slate-450 line-clamp-2 leading-normal pt-0.5 font-normal">${portal.description}</p>` : ''}
+            <div class="flex items-start space-x-3 min-w-0 flex-1">
+                <img src="${faviconUrl}" alt="${portal.name}" class="w-4.5 h-4.5 mt-0.5 object-contain shrink-0" onerror="this.src='/favicon.ico'">
+                <div class="min-w-0 flex-1 space-y-1">
+                    <span class="block truncate text-slate-800 dark:text-slate-100 font-serif font-bold group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${portal.name}</span>
+                    <span class="block text-[10px] text-slate-700 dark:text-slate-400 font-mono truncate">${portal.domain || 'vanjski link'}</span>
+                    ${portal.description ? `<p class="text-[11px] text-slate-600 dark:text-slate-450 line-clamp-2 leading-normal pt-0.5 font-normal">${portal.description}</p>` : ''}
+                </div>
             </div>
+            <a href="${portal.url || '#'}" target="_blank" rel="noopener" onclick="event.stopPropagation();" class="p-1 text-slate-400 hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors shrink-0" title="Posjeti izvorni portal ${portal.name}">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+            </a>
         `;
         grid.appendChild(card);
     });

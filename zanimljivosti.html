@@ -145,14 +145,35 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Zanimljivosti Vijesti | Bizarne Vijesti, Viralni Video, Društvene Mreže | Vijesti Hrvatska",
-  "description": "Najzanimljivije i najpopularnije priče s interneta, viralni videozapisi, lude vijesti, bizarne zanimljivosti i trendovi s društvenih mreža.",
-  "url": "https://www.vijesti-hrvatska.com/zanimljivosti",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://www.vijesti-hrvatska.com/#organization"
-  }
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "name": "Zanimljivosti Vijesti | Bizarne Vijesti, Viralni Video, Društvene Mreže | Vijesti Hrvatska",
+      "description": "Najzanimljivije i najpopularnije priče s interneta, viralni videozapisi, lude vijesti, bizarne zanimljivosti i trendovi s društvenih mreža.",
+      "url": "https://www.vijesti-hrvatska.com/zanimljivosti",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.vijesti-hrvatska.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Naslovnica",
+          "item": "https://www.vijesti-hrvatska.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Zanimljivosti | Viralne Vijesti i Neobične Priče",
+          "item": "https://www.vijesti-hrvatska.com/zanimljivosti"
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>
@@ -458,7 +479,7 @@
 
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.1.17 -->
+                <!-- Rendered dynamically by app.js?v=1.1.18 -->
             </div>
 
             <!-- Empty State -->
@@ -825,6 +846,6 @@
     </div><!-- /#newspaper-container -->
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.1.17"></script>
+    <script src="app.js?v=1.1.18"></script>
 </body>
 </html>

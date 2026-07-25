@@ -221,6 +221,31 @@ def prune_old_articles():
     except Exception as e:
         logging.error(f"Greška prilikom brisanja starih vijesti: {e}")
 
+def ping_indexnow():
+    """Notifies search engines via IndexNow API about new aggregated content."""
+    try:
+        url = "https://api.indexnow.org/indexnow"
+        payload = {
+            "host": "www.vijesti-hrvatska.com",
+            "key": "vijestihrvatska2026indexnowkey",
+            "urlList": [
+                "https://www.vijesti-hrvatska.com/",
+                "https://www.vijesti-hrvatska.com/vijesti",
+                "https://www.vijesti-hrvatska.com/sport",
+                "https://www.vijesti-hrvatska.com/tech",
+                "https://www.vijesti-hrvatska.com/lifestyle",
+                "https://www.vijesti-hrvatska.com/biznis",
+                "https://www.vijesti-hrvatska.com/auti",
+                "https://www.vijesti-hrvatska.com/showbiz",
+                "https://www.vijesti-hrvatska.com/zanimljivosti"
+            ]
+        }
+        headers = {"Content-Type": "application/json; charset=utf-8"}
+        res = requests.post(url, json=payload, headers=headers, timeout=5)
+        logging.info(f"IndexNow Ping poslan tražilicama: Status {res.status_code}")
+    except Exception as e:
+        logging.warning(f"IndexNow Ping preskočen ili pogreška: {e}")
+
 def main():
     start_time = time.time()
     articles = fetch_and_parse_feeds()
@@ -239,6 +264,7 @@ def main():
             
         save_to_supabase(articles)
         prune_old_articles()
+        ping_indexnow()
     else:
         logging.warning("Nema vijesti za sinkronizaciju.")
         

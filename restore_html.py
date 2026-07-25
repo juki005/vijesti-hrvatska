@@ -39,17 +39,39 @@ def get_schema(key, seo):
             ]
         }
     else:
-        # Category page gets CollectionPage schema
+        # Category page gets CollectionPage + BreadcrumbList schema
+        category_name = seo.get("heading", key.capitalize())
         schema = {
             "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            "name": title,
-            "description": description,
-            "url": f"https://www.vijesti-hrvatska.com/{key}",
-            "publisher": {
-                "@type": "Organization",
-                "@id": "https://www.vijesti-hrvatska.com/#organization"
-            }
+            "@graph": [
+                {
+                    "@type": "CollectionPage",
+                    "name": title,
+                    "description": description,
+                    "url": f"https://www.vijesti-hrvatska.com/{key}",
+                    "publisher": {
+                        "@type": "Organization",
+                        "@id": "https://www.vijesti-hrvatska.com/#organization"
+                    }
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Naslovnica",
+                            "item": "https://www.vijesti-hrvatska.com/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": category_name,
+                            "item": f"https://www.vijesti-hrvatska.com/{key}"
+                        }
+                    ]
+                }
+            ]
         }
     
     return json.dumps(schema, ensure_ascii=False, indent=2)
@@ -101,7 +123,7 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Update cache-buster version for app.js
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.17', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.1.18', content)
         
         # Replace SEO text placeholder with the page-specific text using regex
         seo_text = seo.get("seo_text", "")
@@ -115,7 +137,7 @@ def main():
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(content)
             
-        print(f"Generated {file_name} with custom SEO, schemas, and version v=1.1.17")
+        print(f"Generated {file_name} with custom SEO, schemas, and version v=1.1.18")
 
 if __name__ == "__main__":
     main()
