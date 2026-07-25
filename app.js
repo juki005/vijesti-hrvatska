@@ -5710,6 +5710,45 @@ function renderPortalSpotlightPage(slug) {
         ? `https://www.google.com/s2/favicons?domain=${foundPortal.domain}&sz=64`
         : '/favicon.ico';
 
+    // Dynamically update JSON-LD BreadcrumbList in head for this portal spotlight
+    const existingSchemaScript = document.querySelector('script[type="application/ld+json"]');
+    if (existingSchemaScript) {
+        try {
+            const schemaData = JSON.parse(existingSchemaScript.textContent);
+            if (schemaData["@graph"]) {
+                const breadcrumbIndex = schemaData["@graph"].findIndex(item => item["@type"] === "BreadcrumbList");
+                if (breadcrumbIndex !== -1) {
+                    schemaData["@graph"][breadcrumbIndex] = {
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Naslovnica",
+                                "item": "https://www.vijesti-hrvatska.com/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Imenik Portala",
+                                "item": "https://www.vijesti-hrvatska.com/portali"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 3,
+                                "name": foundPortal.name,
+                                "item": `https://www.vijesti-hrvatska.com/portali#${slug}`
+                            }
+                        ]
+                    };
+                    existingSchemaScript.textContent = JSON.stringify(schemaData, null, 2);
+                }
+            }
+        } catch (e) {
+            // Ignore parse errors
+        }
+    }
+
     let articlesHTML = '';
     if (portalArticles.length === 0) {
         articlesHTML = `
