@@ -4958,9 +4958,6 @@ async function fetchNewsFeed(forceRefetch = false) {
             }
         }
 
-        const oldFirstLink = (articles && articles.length > 0) ? articles[0].link : '';
-        const oldLength = articles ? articles.length : 0;
-
         articles = results.sort((a, b) => b.publishedAt - a.publishedAt);
 
         if (articles.length === 0) {
@@ -4974,19 +4971,11 @@ async function fetchNewsFeed(forceRefetch = false) {
                 console.warn('Failed to write articles to localStorage cache:', cacheWriteErr);
             }
 
-            // Only re-render if we haven't rendered from cache yet OR if the content has changed
-            const newFirstLink = articles[0].link;
-            const newLength = articles.length;
-
-            if (!hasRenderedFromCache || oldFirstLink !== newFirstLink || oldLength !== newLength) {
-                console.log('Updating UI with fresh articles...');
-                renderDirectory();
-                renderSidebar();
-                updateMarqueeTicker();
-                handleRoute(); // handles showing/hiding feed-area or analytics-area
-            } else {
-                console.log('UI is already up-to-date with latest articles.');
-            }
+            console.log('Updating UI with fresh articles...');
+            renderDirectory();
+            renderSidebar();
+            updateMarqueeTicker();
+            handleRoute(); // handles showing/hiding feed-area or analytics-area
         }
     } catch (err) {
         console.error(err);
