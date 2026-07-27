@@ -4435,7 +4435,11 @@ const PORTAL_CATEGORIES = [
     { id: 'biznis', name: 'BIZNIS', color: 'bg-blue-800 text-white hover:bg-blue-900', subcategories: [] },
     { id: 'auti', name: 'AUTI', color: 'bg-orange-600 text-white hover:bg-orange-700', subcategories: [] },
     { id: 'showbiz', name: 'SHOWBIZ', color: 'bg-violet-600 text-white hover:bg-violet-700', subcategories: ['Film', 'Glazba', 'Kultura'] },
-    { id: 'zanimljivosti', name: 'ZANIMLJIVOSTI', color: 'bg-orange-500 text-white hover:bg-orange-600', subcategories: [] }
+    { id: 'zanimljivosti', name: 'ZANIMLJIVOSTI', color: 'bg-orange-500 text-white hover:bg-orange-600', subcategories: [] },
+    { id: 'nedjelja', name: 'RADNE NEDJELJE 🛒', color: 'bg-amber-600 text-white hover:bg-amber-700', subcategories: [] },
+    { id: 'katalozi', name: 'KATALOZI 🛍️', color: 'bg-emerald-600 text-white hover:bg-emerald-700', subcategories: [] },
+    { id: 'kalendar', name: 'KALENDAR 📅', color: 'bg-rose-600 text-white hover:bg-rose-700', subcategories: [] },
+    { id: 'english', name: 'ENGLISH 🇬🇧', color: 'bg-blue-600 text-white hover:bg-blue-700', subcategories: [] }
 ];
 
 // Dynamic category keyword mappings (Croatian)
