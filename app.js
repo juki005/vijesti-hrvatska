@@ -6491,8 +6491,8 @@ function handleRoute() {
     const sidebarEl = document.getElementById('sidebar');
     const weatherArea = document.getElementById('weather-area');
 
-    // Adjust sidebar and main layout width dynamically
-    if (activeCategory === 'portali' || activeCategory === 'analitika' || activeCategory === 'vrijeme') {
+    const isFullWidthPage = ['portali', 'analitika', 'vrijeme', 'katalozi', 'kalendar', 'nedjelja', 'english'].includes(activeCategory);
+    if (isFullWidthPage) {
         if (sidebarEl) sidebarEl.classList.add('hidden');
         if (mainEl) {
             mainEl.classList.remove('lg:w-[72%]');
@@ -6526,6 +6526,42 @@ function handleRoute() {
         if (portaliArea) {
             portaliArea.classList.remove('hidden');
             renderPortalsPage();
+        }
+    } else if (activeCategory === 'katalozi') {
+        if (feedArea) feedArea.classList.add('hidden');
+        if (analyticsArea) analyticsArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
+        if (emptyState) emptyState.classList.add('hidden');
+        if (portaliArea) {
+            portaliArea.classList.remove('hidden');
+            renderCatalogsPage();
+        }
+    } else if (activeCategory === 'kalendar') {
+        if (feedArea) feedArea.classList.add('hidden');
+        if (analyticsArea) analyticsArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
+        if (emptyState) emptyState.classList.add('hidden');
+        if (portaliArea) {
+            portaliArea.classList.remove('hidden');
+            renderHolidaysPage();
+        }
+    } else if (activeCategory === 'nedjelja') {
+        if (feedArea) feedArea.classList.add('hidden');
+        if (analyticsArea) analyticsArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
+        if (emptyState) emptyState.classList.add('hidden');
+        if (portaliArea) {
+            portaliArea.classList.remove('hidden');
+            renderSundayStoresPage();
+        }
+    } else if (activeCategory === 'english') {
+        if (feedArea) feedArea.classList.add('hidden');
+        if (analyticsArea) analyticsArea.classList.add('hidden');
+        if (weatherArea) weatherArea.classList.add('hidden');
+        if (emptyState) emptyState.classList.add('hidden');
+        if (portaliArea) {
+            portaliArea.classList.remove('hidden');
+            renderEnglishNewsPage();
         }
     } else if (activeCategory === 'vrijeme') {
         if (feedArea) feedArea.classList.add('hidden');
