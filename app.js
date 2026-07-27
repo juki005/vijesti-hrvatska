@@ -4897,7 +4897,7 @@ async function fetchNewsFeed(forceRefetch = false) {
     
     // If forceRefetch is a MouseEvent or other truthy object (e.g. from event handlers), we treat it as true
     const isCacheBypass = forceRefetch === true || (forceRefetch && typeof forceRefetch === 'object');
-    const isStaticOrAnalyticsPage = activeCategory === 'portali' || activeCategory === 'analitika';
+    const isStaticOrAnalyticsPage = ['portali', 'analitika', 'vrijeme', 'katalozi', 'kalendar', 'nedjelja', 'english'].includes(activeCategory);
 
     let hasRenderedFromCache = false;
 
@@ -6290,6 +6290,10 @@ function renderSubNavigation() {
         { id: 'auti', name: 'Auti', file: 'auti' },
         { id: 'showbiz', name: 'Showbiz', file: 'showbiz' },
         { id: 'zanimljivosti', name: 'Zanimljivosti', file: 'zanimljivosti' },
+        { id: 'nedjelja', name: 'Nedjelja 🛒', file: 'nedjelja' },
+        { id: 'katalozi', name: 'Katalozi 🛍️', file: 'katalozi' },
+        { id: 'kalendar', name: 'Kalendar 📅', file: 'kalendar' },
+        { id: 'english', name: 'English 🇬🇧', file: 'english' },
         { id: 'vrijeme', name: 'Vrijeme 🌤️', file: 'vrijeme' },
         { id: 'portali', name: 'Portali 🌐', file: 'portali' },
         { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno' }
@@ -6314,6 +6318,10 @@ function renderSubNavigation() {
         auti: '🚗',
         showbiz: '🎬',
         zanimljivosti: '💡',
+        nedjelja: '🛒',
+        katalozi: '🛍️',
+        kalendar: '📅',
+        english: '🇬🇧',
         vrijeme: '🌤️',
         portali: '🌐',
         spremljeno: '📌',
@@ -8314,7 +8322,15 @@ function renderEnglishNewsPage() {
     if (!portaliArea) return;
 
     const englishSources = ['Croatia Week', 'Total Croatia News', 'The Dubrovnik Times'];
-    const englishArticles = articles.filter(a => englishSources.some(src => src.toLowerCase() === a.source.toLowerCase()));
+    let englishArticles = articles.filter(a => englishSources.some(src => src.toLowerCase() === (a.source || '').toLowerCase()));
+
+    if (englishArticles.length === 0) {
+        englishArticles = articles.filter(a => {
+            const title = (a.title || '').toLowerCase();
+            const desc = (a.description || '').toLowerCase();
+            return title.includes('croatia') || title.includes('zagreb') || desc.includes('croatia');
+        });
+    }
 
     portaliArea.innerHTML = `
         <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors">
@@ -8330,35 +8346,52 @@ function renderEnglishNewsPage() {
                 </span>
             </div>
 
-            ${englishArticles.length === 0 ? `
-                <div class="text-center py-12 space-y-2">
-                    <span class="text-3xl">🇬🇧</span>
-                    <h4 class="text-sm font-bold text-slate-700 dark:text-slate-300">Loading English news...</h4>
-                    <p class="text-xs text-slate-500">Fetching latest stories from Croatia Week and Total Croatia News.</p>
-                </div>
-            ` : `
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                    ${englishArticles.map(a => `
-                        <div onclick="window.open('${a.link}', '_blank')" class="news-card group bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer">
-                            <div class="space-y-3">
-                                ${a.imageUrl && !a.imageUrl.startsWith('placeholder-') ? `
-                                    <div class="h-44 w-full overflow-hidden bg-slate-200 dark:bg-slate-700 relative">
-                                        <img src="${a.imageUrl}" alt="${escapeHtml(a.title)}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                                    </div>
-                                ` : ''}
-                                <div class="p-4 space-y-2">
-                                    <div class="flex items-center justify-between">
-                                        <span class="bg-blue-600 text-white font-extrabold text-[10px] px-2 py-0.5 rounded uppercase tracking-wider">${a.source}</span>
-                                        <span class="text-[10px] text-slate-400 font-mono">${formatTimeAgo(a.publishedAt)}</span>
-                                    </div>
-                                    <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-blue-500 transition-colors">${escapeHtml(a.title)}</h3>
-                                    <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">${escapeHtml(a.description || '')}</p>
+            <!-- Portal Links -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
+                <a href="https://www.croatiaweek.com" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl hover:border-blue-500 transition-all flex items-center gap-3 group">
+                    <span class="text-xl">📰</span>
+                    <div>
+                        <h4 class="font-extrabold text-xs text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">Croatia Week</h4>
+                        <span class="text-[10px] text-slate-400">croatiaweek.com</span>
+                    </div>
+                </a>
+                <a href="https://www.total-croatia-news.com" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl hover:border-blue-500 transition-all flex items-center gap-3 group">
+                    <span class="text-xl">🌐</span>
+                    <div>
+                        <h4 class="font-extrabold text-xs text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">Total Croatia News</h4>
+                        <span class="text-[10px] text-slate-400">total-croatia-news.com</span>
+                    </div>
+                </a>
+                <a href="https://www.thedubrovniktimes.com" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl hover:border-blue-500 transition-all flex items-center gap-3 group">
+                    <span class="text-xl">🏖️</span>
+                    <div>
+                        <h4 class="font-extrabold text-xs text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">The Dubrovnik Times</h4>
+                        <span class="text-[10px] text-slate-400">thedubrovniktimes.com</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                ${englishArticles.map(a => `
+                    <div onclick="window.open('${a.link}', '_blank')" class="news-card group bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer">
+                        <div class="space-y-3">
+                            ${a.imageUrl && !a.imageUrl.startsWith('placeholder-') ? `
+                                <div class="h-44 w-full overflow-hidden bg-slate-200 dark:bg-slate-700 relative">
+                                    <img src="${a.imageUrl}" alt="${escapeHtml(a.title)}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                                 </div>
+                            ` : ''}
+                            <div class="p-4 space-y-2">
+                                <div class="flex items-center justify-between">
+                                    <span class="bg-blue-600 text-white font-extrabold text-[10px] px-2 py-0.5 rounded uppercase tracking-wider">${a.source}</span>
+                                    <span class="text-[10px] text-slate-400 font-mono">${formatTimeAgo(a.publishedAt)}</span>
+                                </div>
+                                <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-blue-500 transition-colors">${escapeHtml(a.title)}</h3>
+                                <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">${escapeHtml(a.description || '')}</p>
                             </div>
                         </div>
-                    `).join('')}
-                </div>
-            `}
+                    </div>
+                `).join('')}
+            </div>
         </div>
     `;
 }
