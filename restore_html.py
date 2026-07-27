@@ -435,6 +435,60 @@ def get_schema(key, seo):
     
     return json.dumps(schema, ensure_ascii=False, indent=2)
 
+def get_english_html():
+    try:
+        with open('articles.json', 'r', encoding='utf-8') as f:
+            articles = json.load(f)
+        english_sources = ['Croatia Week', 'Total Croatia News', 'The Dubrovnik Times']
+        eng_articles = [a for a in articles if any(src.lower() == a.get('source', '').lower() for src in english_sources)]
+    except Exception:
+        eng_articles = []
+
+    cards_html = ""
+    for a in eng_articles:
+        img_block = ""
+        if a.get('imageUrl') and not a.get('imageUrl').startswith('placeholder-'):
+            img_block = f'''
+                <div class="h-44 w-full overflow-hidden bg-slate-200 dark:bg-slate-700 relative">
+                    <img src="{a['imageUrl']}" alt="{a['title']}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+            '''
+        cards_html += f'''
+            <div onclick="window.open('{a['link']}', '_blank')" class="news-card group bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer">
+                <div class="space-y-3">
+                    {img_block}
+                    <div class="p-4 space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="bg-blue-600 text-white font-extrabold text-[10px] px-2 py-0.5 rounded uppercase tracking-wider">{a['source']}</span>
+                            <span class="text-[10px] text-slate-400 font-mono">UŽIVO</span>
+                        </div>
+                        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-blue-500 transition-colors">{a['title']}</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">{a.get('description', '')}</p>
+                    </div>
+                </div>
+            </div>
+        '''
+
+    return f'''
+        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex items-center justify-between">
+                <div>
+                    <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
+                        🇬🇧 Croatia News in English
+                    </h2>
+                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Latest news from Croatia in English language for international readers and expats.</p>
+                </div>
+                <span class="bg-blue-500/10 text-blue-600 dark:text-blue-400 font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+                    English Stream
+                </span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {cards_html}
+            </div>
+        </div>
+    '''
+
 def main():
     cwd = os.path.dirname(os.path.abspath(__file__))
     index_path = os.path.join(cwd, "index.html")
@@ -474,7 +528,7 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.3.5', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.3.6', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
@@ -485,7 +539,7 @@ def main():
         content = re.sub(r'<script type="application/ld\+json">[\s\S]*?</script>', f'<script type="application/ld\+json">\n{schema_json}\n</script>', content)
         
         # Feature page static HTML pre-rendering
-        if key in ['kalendar', 'nedjelja', 'katalozi']:
+        if key in ['kalendar', 'nedjelja', 'katalozi', 'english']:
             # Unhide portali-area and hide feed-area + sidebar statically in HTML
             content = content.replace('<div id="portali-area" class="hidden space-y-6"></div>', '<div id="portali-area" class="space-y-6">CONTAINER_BODY</div>')
             content = content.replace('<div id="feed-area" class="space-y-6">', '<div id="feed-area" class="hidden space-y-6">')
@@ -498,6 +552,8 @@ def main():
                 content = content.replace('CONTAINER_BODY', get_nedjelja_html())
             elif key == 'katalozi':
                 content = content.replace('CONTAINER_BODY', get_katalozi_html())
+            elif key == 'english':
+                content = content.replace('CONTAINER_BODY', get_english_html())
                 
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(content)

@@ -65,7 +65,9 @@ RSS_FEEDS = {
     "Poslovni dnevnik": "https://www.poslovni.hr/feed",
     "Autoportal.hr": "https://autoportal.hr/feed/",
     "Journal.hr": "https://www.journal.hr/feed/",
-    "Punkufer.hr": "https://punkufer.dnevnik.hr/rss"
+    "Punkufer.hr": "https://punkufer.dnevnik.hr/rss",
+    "Croatia Week": "https://www.croatiaweek.com/feed/",
+    "Total Croatia News": "https://www.total-croatia-news.com/feed/"
 }
 
 def clean_html(raw_html: str) -> str:
