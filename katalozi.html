@@ -142,36 +142,34 @@
     <!-- End Google Tag Manager -->
     
     <!-- Structured Data Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld\+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "CollectionPage",
-      "name": "Katalozi i Akcije Trgovina Hrvatska | Katalozi.net, Nabava.net | Vijesti Hrvatska",
-      "description": "Brzi popis najpopularnijih hrvatskih agregatora i službenih stranica trgovačkih lanaca s tjednim katalozima i popustima u Hrvatskoj.",
-      "url": "https://www.vijesti-hrvatska.com/katalozi",
-      "publisher": {
-        "@type": "Organization",
-        "@id": "https://www.vijesti-hrvatska.com/#organization"
+      "@type": "WebSite",
+      "@id": "https://www.vijesti-hrvatska.com/#website",
+      "url": "https://www.vijesti-hrvatska.com/",
+      "name": "Vijesti Hrvatska",
+      "alternateName": "Hrvatski Medijski Agregator",
+      "description": "Pratite najnovije vijesti iz Hrvatske i svijeta na jednom mjestu. Najbrži pregled vijesti s vodećih hrvatskih portala u realnom vremenu.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.vijesti-hrvatska.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Naslovnica",
-          "item": "https://www.vijesti-hrvatska.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Katalozi i Akcije Trgovina u Hrvatskoj",
-          "item": "https://www.vijesti-hrvatska.com/katalozi"
-        }
-      ]
+      "@type": "Organization",
+      "@id": "https://www.vijesti-hrvatska.com/#organization",
+      "name": "Vijesti Hrvatska",
+      "url": "https://www.vijesti-hrvatska.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.vijesti-hrvatska.com/favicon.svg"
+      },
+      "email": "kontakt@vijesti-hrvatska.com",
+      "description": "Nekomercijalni medijski agregator vijesti u Republici Hrvatskoj."
     }
   ]
 }
@@ -464,22 +462,100 @@
                 </div>
             </div>
 
-            <!-- Portal Directory Page Section -->
-            <div id="portali-area" class="hidden space-y-6">
-                <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm transition-colors">
-                    <h2 class="text-base font-black tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-3 font-heading">
-                        🌐 Imenik hrvatskih portala
-                    </h2>
-                    <p class="text-[11px] text-slate-450 dark:text-slate-500 mt-2 mb-4">Pregledajte i posjetite najpopularnije hrvatske portale i medije izravno s našeg popisa.</p>
-                    <div id="portal-directory-large" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                        <!-- Loaded dynamically -->
-                    </div>
+            <!-- Portal Directory / Custom Feature Page Section -->
+            <div id="portali-area" class="space-y-6">
+        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+                <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
+                    🛍️ Katalozi i Akcije Trgovina u Hrvatskoj
+                </h2>
+                <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Svi najnoviji tjedni letci, katalozi popusta i popisi akcija trgovačkih lanaca u RH na jednom mjestu.</p>
+            </div>
+
+            <div class="space-y-3">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Vodeći Agregatori Kataloga i Popusta</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    <a href="https://katalozi.net/" target="_blank" rel="noopener" class="p-4 bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-750 rounded-xl hover:border-editorial-gold transition-all group">
+                        <div class="flex items-center gap-3">
+                            <span class="text-2xl">📑</span>
+                            <div>
+                                <h4 class="font-extrabold text-sm text-slate-900 dark:text-white group-hover:text-editorial-gold transition-colors">Katalozi.net</h4>
+                                <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Svi aktualni katalozi</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.nabava.net/katalozi" target="_blank" rel="noopener" class="p-4 bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-750 rounded-xl hover:border-editorial-gold transition-all group">
+                        <div class="flex items-center gap-3">
+                            <span class="text-2xl">🔍</span>
+                            <div>
+                                <h4 class="font-extrabold text-sm text-slate-900 dark:text-white group-hover:text-editorial-gold transition-colors">Nabava.net</h4>
+                                <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Katalozi i usporedba cijena</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://katalozi.jeftinije.hr/" target="_blank" rel="noopener" class="p-4 bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-750 rounded-xl hover:border-editorial-gold transition-all group">
+                        <div class="flex items-center gap-3">
+                            <span class="text-2xl">🏷️</span>
+                            <div>
+                                <h4 class="font-extrabold text-sm text-slate-900 dark:text-white group-hover:text-editorial-gold transition-colors">Jeftinije.hr</h4>
+                                <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Letci i akcije trgovina</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://svi-katalozi.net/" target="_blank" rel="noopener" class="p-4 bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-750 rounded-xl hover:border-editorial-gold transition-all group">
+                        <div class="flex items-center gap-3">
+                            <span class="text-2xl">📦</span>
+                            <div>
+                                <h4 class="font-extrabold text-sm text-slate-900 dark:text-white group-hover:text-editorial-gold transition-colors">Svi-katalozi.net</h4>
+                                <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Kataloška ponuda u RH</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
+            <div class="space-y-3 pt-2">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Službene stranice vodećih trgovačkih lanaca</h3>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    <a href="https://www.lidl.hr" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-lg hover:border-amber-500 transition-all flex items-center gap-3">
+                        <img src="https://www.google.com/s2/favicons?domain=lidl.hr&sz=64" alt="Lidl" class="w-6 h-6 rounded shrink-0">
+                        <div>
+                            <h4 class="font-bold text-xs text-slate-900 dark:text-white">Lidl</h4>
+                            <span class="text-[10px] text-slate-400">lidl.hr</span>
+                        </div>
+                    </a>
+                    <a href="https://www.konzum.hr" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-lg hover:border-amber-500 transition-all flex items-center gap-3">
+                        <img src="https://www.google.com/s2/favicons?domain=konzum.hr&sz=64" alt="Konzum" class="w-6 h-6 rounded shrink-0">
+                        <div>
+                            <h4 class="font-bold text-xs text-slate-900 dark:text-white">Konzum</h4>
+                            <span class="text-[10px] text-slate-400">konzum.hr</span>
+                        </div>
+                    </a>
+                    <a href="https://www.kaufland.hr" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-lg hover:border-amber-500 transition-all flex items-center gap-3">
+                        <img src="https://www.google.com/s2/favicons?domain=kaufland.hr&sz=64" alt="Kaufland" class="w-6 h-6 rounded shrink-0">
+                        <div>
+                            <h4 class="font-bold text-xs text-slate-900 dark:text-white">Kaufland</h4>
+                            <span class="text-[10px] text-slate-400">kaufland.hr</span>
+                        </div>
+                    </a>
+                    <a href="https://www.spar.hr" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-lg hover:border-amber-500 transition-all flex items-center gap-3">
+                        <img src="https://www.google.com/s2/favicons?domain=spar.hr&sz=64" alt="Spar" class="w-6 h-6 rounded shrink-0">
+                        <div>
+                            <h4 class="font-bold text-xs text-slate-900 dark:text-white">SPAR</h4>
+                            <span class="text-[10px] text-slate-400">spar.hr</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.3.3 -->
+                <!-- Rendered dynamically by app.js?v=1.3.4 -->
             </div>
 
             <!-- Empty State -->
@@ -846,6 +922,6 @@
     </div><!-- /#newspaper-container -->
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.3.3"></script>
+    <script src="app.js?v=1.3.4"></script>
 </body>
 </html>

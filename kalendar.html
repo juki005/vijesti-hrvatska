@@ -142,36 +142,34 @@
     <!-- End Google Tag Manager -->
     
     <!-- Structured Data Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld\+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "CollectionPage",
-      "name": "Kalendar Blagdana i Neradnih Dana RH (2025., 2026., 2027.) | Vijesti Hrvatska",
-      "description": "Pregledajte kalendar državnih blagdana, neradnih dana i praznika u Republici Hrvatskoj za 2025., 2026. i 2027. godinu s odbrojavanjem do sljedećeg blagdana.",
-      "url": "https://www.vijesti-hrvatska.com/kalendar",
-      "publisher": {
-        "@type": "Organization",
-        "@id": "https://www.vijesti-hrvatska.com/#organization"
+      "@type": "WebSite",
+      "@id": "https://www.vijesti-hrvatska.com/#website",
+      "url": "https://www.vijesti-hrvatska.com/",
+      "name": "Vijesti Hrvatska",
+      "alternateName": "Hrvatski Medijski Agregator",
+      "description": "Pratite najnovije vijesti iz Hrvatske i svijeta na jednom mjestu. Najbrži pregled vijesti s vodećih hrvatskih portala u realnom vremenu.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.vijesti-hrvatska.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Naslovnica",
-          "item": "https://www.vijesti-hrvatska.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Kalendar Blagdana i Neradnih Dana u Hrvatskoj",
-          "item": "https://www.vijesti-hrvatska.com/kalendar"
-        }
-      ]
+      "@type": "Organization",
+      "@id": "https://www.vijesti-hrvatska.com/#organization",
+      "name": "Vijesti Hrvatska",
+      "url": "https://www.vijesti-hrvatska.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.vijesti-hrvatska.com/favicon.svg"
+      },
+      "email": "kontakt@vijesti-hrvatska.com",
+      "description": "Nekomercijalni medijski agregator vijesti u Republici Hrvatskoj."
     }
   ]
 }
@@ -464,22 +462,1870 @@
                 </div>
             </div>
 
-            <!-- Portal Directory Page Section -->
-            <div id="portali-area" class="hidden space-y-6">
-                <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm transition-colors">
-                    <h2 class="text-base font-black tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-3 font-heading">
-                        🌐 Imenik hrvatskih portala
+            <!-- Portal Directory / Custom Feature Page Section -->
+            <div id="portali-area" class="space-y-6">
+        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-8 transition-colors">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                    <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
+                        📅 Kalendar Blagdana i Neradnih Dana u RH (2026)
                     </h2>
-                    <p class="text-[11px] text-slate-450 dark:text-slate-500 mt-2 mb-4">Pregledajte i posjetite najpopularnije hrvatske portale i medije izravno s našeg popisa.</p>
-                    <div id="portal-directory-large" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                        <!-- Loaded dynamically -->
-                    </div>
+                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
+                </div>
+                
+                <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
+                    <button onclick="renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md bg-editorial-navy text-white shadow-sm">
+                        2026. (Tekuća)
+                    </button>
+                    <button onclick="renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                        2027. (Naredna)
+                    </button>
+                    <button onclick="renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                        2025. (Prošla)
+                    </button>
                 </div>
             </div>
 
+            <div class="flex items-center gap-4 text-xs font-bold select-none border-b border-slate-100 dark:border-slate-800 pb-3">
+                <span class="text-slate-500 uppercase tracking-wider text-[10px]">Legenda:</span>
+                <div class="flex items-center gap-1.5">
+                    <span class="w-3.5 h-3.5 rounded bg-rose-600 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-300">Državni Blagdan / Neradni Dan</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="w-3.5 h-3.5 rounded bg-amber-500/20 text-amber-500 border border-amber-500/30 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-300">Vikend (Subota / Nedjelja)</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Siječanj 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Nova Godina">
+                            1
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Nova Godina
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Bogojavljenje / Sveta tri kralja">
+                            6
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Bogojavljenje / Sveta tri kralja
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            31
+                        </div>
+                    <div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Veljača 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            28
+                        </div>
+                    <div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Ožujak 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            31
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Travanj 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Uskrs">
+                            5
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Uskrs
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Uskrsni ponedjeljak">
+                            6
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Uskrsni ponedjeljak
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Svibanj 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Praznik rada">
+                            1
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Praznik rada
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Dan državnosti">
+                            30
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Dan državnosti
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            31
+                        </div>
+                    
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Lipanj 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Tijelovo">
+                            4
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Tijelovo
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Dan antifašističke borbe">
+                            22
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Dan antifašističke borbe
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Srpanj 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            31
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Kolovoz 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Dan pobjede i domovinske zahvalnosti">
+                            5
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Dan pobjede i domovinske zahvalnosti
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Velika Gospa">
+                            15
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Velika Gospa
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            30
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            31
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Rujan 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Listopad 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            31
+                        </div>
+                    <div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Studeni 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Svi sveti">
+                            1
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Svi sveti
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Dan sjećanja na žrtve Domovinskog rata">
+                            18
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Dan sjećanja na žrtve Domovinskog rata
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            25
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            26
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+        <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+            <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                Prosinac 2026
+            </h4>
+            <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+            </div>
+            <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                <div class="h-7 w-7"></div>
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            1
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            2
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            3
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            4
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            5
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            6
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            7
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            8
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            9
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            10
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            11
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            12
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            13
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            14
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            15
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            16
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            17
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            18
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            19
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            20
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            21
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            22
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            23
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            24
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Božić">
+                            25
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Božić
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="Sveti Stjepan">
+                            26
+                            <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                                🎉 Sveti Stjepan
+                            </div>
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                            27
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            28
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            29
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            30
+                        </div>
+                    
+                        <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                            31
+                        </div>
+                    <div class="h-7 w-7"></div><div class="h-7 w-7"></div><div class="h-7 w-7"></div>
+            </div>
+        </div>
+    
+            </div>
+
+            <div class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Popis svih državnih blagdana u 2026. godini</h3>
+                <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
+                    <table class="w-full text-left text-xs">
+                        <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
+                            <tr>
+                                <th class="p-3">Datum</th>
+                                <th class="p-3">Dan u Tjednu</th>
+                                <th class="p-3">Naziv Blagdana / Praznika</th>
+                                <th class="p-3 text-right">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 dark:divide-slate-800 font-medium">
+                            
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">01.01.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Četvrtak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Nova Godina</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">06.01.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Utorak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Bogojavljenje / Sveta tri kralja</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">05.04.2026.</td>
+                <td class="p-3 text-amber-500 font-bold">Nedjelja</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Uskrs</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">06.04.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Ponedjeljak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Uskrsni ponedjeljak</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">01.05.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Petak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Praznik rada</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">30.05.2026.</td>
+                <td class="p-3 text-amber-500 font-bold">Subota</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Dan državnosti</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">04.06.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Četvrtak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Tijelovo</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">22.06.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Ponedjeljak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Dan antifašističke borbe</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">05.08.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Srijeda</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Dan pobjede i domovinske zahvalnosti</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">15.08.2026.</td>
+                <td class="p-3 text-amber-500 font-bold">Subota</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Velika Gospa</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">01.11.2026.</td>
+                <td class="p-3 text-amber-500 font-bold">Nedjelja</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Svi sveti</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">18.11.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Srijeda</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Dan sjećanja na žrtve Domovinskog rata</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">25.12.2026.</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">Petak</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Božić</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">26.12.2026.</td>
+                <td class="p-3 text-amber-500 font-bold">Subota</td>
+                <td class="p-3 font-bold text-slate-800 dark:text-slate-200">Sveti Stjepan</td>
+                <td class="p-3 text-right">
+                    <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                        Neradni dan
+                    </span>
+                </td>
+            </tr>
+        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.3.3 -->
+                <!-- Rendered dynamically by app.js?v=1.3.4 -->
             </div>
 
             <!-- Empty State -->
@@ -846,6 +2692,6 @@
     </div><!-- /#newspaper-container -->
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.3.3"></script>
+    <script src="app.js?v=1.3.4"></script>
 </body>
 </html>

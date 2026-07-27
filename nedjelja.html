@@ -142,36 +142,34 @@
     <!-- End Google Tag Manager -->
     
     <!-- Structured Data Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld\+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "CollectionPage",
-      "name": "Radne Nedjelje Trgovina po Gradovima RH | Košarica.app, Nedjelja.com | Vijesti Hrvatska",
-      "description": "Saznajte koje trgovine i trgovački centri rade ove nedjelje u vašem gradu. Organizirana tablica trgovačkih lanaca s izravnim poveznicama na službene lokatore.",
-      "url": "https://www.vijesti-hrvatska.com/nedjelja",
-      "publisher": {
-        "@type": "Organization",
-        "@id": "https://www.vijesti-hrvatska.com/#organization"
+      "@type": "WebSite",
+      "@id": "https://www.vijesti-hrvatska.com/#website",
+      "url": "https://www.vijesti-hrvatska.com/",
+      "name": "Vijesti Hrvatska",
+      "alternateName": "Hrvatski Medijski Agregator",
+      "description": "Pratite najnovije vijesti iz Hrvatske i svijeta na jednom mjestu. Najbrži pregled vijesti s vodećih hrvatskih portala u realnom vremenu.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.vijesti-hrvatska.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Naslovnica",
-          "item": "https://www.vijesti-hrvatska.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Radne Nedjelje Trgovina i Centara u Hrvatskoj",
-          "item": "https://www.vijesti-hrvatska.com/nedjelja"
-        }
-      ]
+      "@type": "Organization",
+      "@id": "https://www.vijesti-hrvatska.com/#organization",
+      "name": "Vijesti Hrvatska",
+      "url": "https://www.vijesti-hrvatska.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.vijesti-hrvatska.com/favicon.svg"
+      },
+      "email": "kontakt@vijesti-hrvatska.com",
+      "description": "Nekomercijalni medijski agregator vijesti u Republici Hrvatskoj."
     }
   ]
 }
@@ -464,22 +462,122 @@
                 </div>
             </div>
 
-            <!-- Portal Directory Page Section -->
-            <div id="portali-area" class="hidden space-y-6">
-                <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm transition-colors">
-                    <h2 class="text-base font-black tracking-tight flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-3 font-heading">
-                        🌐 Imenik hrvatskih portala
-                    </h2>
-                    <p class="text-[11px] text-slate-450 dark:text-slate-500 mt-2 mb-4">Pregledajte i posjetite najpopularnije hrvatske portale i medije izravno s našeg popisa.</p>
-                    <div id="portal-directory-large" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                        <!-- Loaded dynamically -->
+            <!-- Portal Directory / Custom Feature Page Section -->
+            <div id="portali-area" class="space-y-6">
+        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors">
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
+                            🛒 Radne Nedjelje Trgovina i Centara u RH
+                        </h2>
+                        <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Provjerite koje trgovine i shopping centri rade ove nedjelje u vašem gradu prema službenim lokatorima.</p>
                     </div>
+                    <span class="bg-amber-500/10 text-amber-600 dark:text-amber-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        16 Nedjelja Godišnje
+                    </span>
                 </div>
             </div>
 
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="https://kosarica.app/" target="_blank" rel="noopener" class="group p-4 bg-gradient-to-br from-amber-500/10 to-amber-600/5 dark:from-amber-950/30 dark:to-slate-900 border border-amber-500/30 dark:border-amber-500/20 rounded-xl hover:border-amber-500 transition-all flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500 text-white font-black text-xl flex items-center justify-center shrink-0 shadow-md group-hover:scale-105 transition-transform">
+                        🛒
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-extrabold text-sm text-slate-900 dark:text-white group-hover:text-amber-500 transition-colors">Košarica.app</h3>
+                            <span class="bg-emerald-500 text-white text-[9px] font-bold px-1.5 py-0.2 rounded uppercase">Preporuka</span>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Najbrži interaktivni tražilac radnih nedjelja po gradovima i kvartovima u RH.</p>
+                    </div>
+                </a>
+
+                <a href="https://nedjelja.com/" target="_blank" rel="noopener" class="group p-4 bg-gradient-to-br from-blue-500/10 to-indigo-600/5 dark:from-indigo-950/30 dark:to-slate-900 border border-blue-500/30 dark:border-blue-500/20 rounded-xl hover:border-blue-500 transition-all flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white font-black text-xl flex items-center justify-center shrink-0 shadow-md group-hover:scale-105 transition-transform">
+                        📍
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-extrabold text-sm text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">Nedjelja.com</h3>
+                            <span class="bg-blue-500 text-white text-[9px] font-bold px-1.5 py-0.2 rounded uppercase">Vodič</span>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Pregledan popis svih trgovačkih lanaca i centara otvorenih ove nedjelje.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="space-y-3 pt-2">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Službeni lokatori radnih nedjelja po trgovinama</h3>
+                <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
+                    <table class="w-full text-left text-xs">
+                        <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
+                            <tr>
+                                <th class="p-3">Trgovina / Lanac</th>
+                                <th class="p-3">Tip</th>
+                                <th class="p-3">Službeni Lokator Radnih Nedjelja</th>
+                                <th class="p-3 text-right">Akcija</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 dark:divide-slate-800 font-medium">
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🛍️</span> Lidl</td>
+                                <td class="p-3 text-slate-400">Prehrana</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Službena karta radnih nedjelja za sve Lidl filijale u RH</td>
+                                <td class="p-3 text-right"><a href="https://www.lidl.hr/radno-vrijeme" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Lidl →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🛒</span> Konzum</td>
+                                <td class="p-3 text-slate-400">Prehrana</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Konzum interaktivna tražilica radnih nedjelja i radnih vremena</td>
+                                <td class="p-3 text-right"><a href="https://www.konzum.hr/trgovine" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Konzum →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🔴</span> Kaufland</td>
+                                <td class="p-3 text-slate-400">Prehrana / Hipermarket</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Kaufland lokator radnih trgovina i radnih nedjelja u RH</td>
+                                <td class="p-3 text-right"><a href="https://www.kaufland.hr/poslovnice.html" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Kaufland →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🟢</span> SPAR / INTERSPAR</td>
+                                <td class="p-3 text-slate-400">Prehrana</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Spar raspored otvorenih trgovina po gradovima i nedjeljama</td>
+                                <td class="p-3 text-right"><a href="https://www.spar.hr/lokacije" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri SPAR →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🟡</span> Plodine</td>
+                                <td class="p-3 text-slate-400">Prehrana</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Plodine tjedni raspored radnih nedjelja po supermarketima</td>
+                                <td class="p-3 text-right"><a href="https://www.plodine.hr/supermarketi" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Plodine →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🔵</span> Eurospin</td>
+                                <td class="p-3 text-slate-400">Prehrana / Discount</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Eurospin popis radnih nedjelja po poslovnicama</td>
+                                <td class="p-3 text-right"><a href="https://www.eurospin.hr/trgovine/" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Eurospin →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🏠</span> Pevex</td>
+                                <td class="p-3 text-slate-400">Građevina / Dom</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Pevex centar radne nedjelje i radno vrijeme prodajnih centara</td>
+                                <td class="p-3 text-right"><a href="https://pevex.hr/prodajni-centri" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Pevex →</a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🛠️</span> Bauhaus</td>
+                                <td class="p-3 text-slate-400">Građevina / Dom</td>
+                                <td class="p-3 text-slate-600 dark:text-slate-400">Bauhaus prodajni centri - raspored radnih nedjelja u RH</td>
+                                <td class="p-3 text-right"><a href="https://www.bauhaus.hr/prodajni-centri" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Bauhaus →</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.3.3 -->
+                <!-- Rendered dynamically by app.js?v=1.3.4 -->
             </div>
 
             <!-- Empty State -->
@@ -846,6 +944,6 @@
     </div><!-- /#newspaper-container -->
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.3.3"></script>
+    <script src="app.js?v=1.3.4"></script>
 </body>
 </html>
