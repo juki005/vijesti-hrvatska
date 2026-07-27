@@ -8146,65 +8146,161 @@ function renderCatalogsPage() {
     `;
 }
 
-function renderHolidaysPage() {
+function renderHolidaysPage(selectedYear = 2026) {
     const portaliArea = document.getElementById('portali-area');
     if (!portaliArea) return;
-    
-    const year2025 = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith('2025'));
-    const year2026 = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith('2026'));
-    const year2027 = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith('2027'));
 
-    const renderYearTable = (holidays, yearTitle) => `
-        <div class="space-y-3">
-            <h3 class="text-sm font-extrabold uppercase tracking-wider text-slate-800 dark:text-slate-200 border-b border-slate-200 dark:border-slate-800 pb-2 flex items-center gap-2">
-                <span>📅</span> Neradni dani i blagdani ${yearTitle}
-            </h3>
-            <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
-                <table class="w-full text-left text-xs">
-                    <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
-                        <tr>
-                            <th class="p-3">Datum</th>
-                            <th class="p-3">Dan u Tjednu</th>
-                            <th class="p-3">Naziv Blagdana / Praznika</th>
-                            <th class="p-3 text-right">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-200 dark:divide-slate-800 font-medium">
-                        ${holidays.map(h => {
-                            const [y, m, d] = h.date.split('-');
-                            const formattedDate = `${d}.${m}.${y}.`;
-                            const isWeekend = h.day === 'Subota' || h.day === 'Nedjelja';
-                            return `
-                                <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                    <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">${formattedDate}</td>
-                                    <td class="p-3 ${isWeekend ? 'text-amber-500 font-bold' : 'text-slate-600 dark:text-slate-400'}">${h.day}</td>
-                                    <td class="p-3 font-bold text-slate-800 dark:text-slate-200">${h.name}</td>
-                                    <td class="p-3 text-right">
-                                        <span class="bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
-                                            Neradni dan
-                                        </span>
-                                    </td>
-                                </tr>
-                            `;
-                        }).join('')}
-                    </tbody>
-                </table>
+    const holidaysForYear = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith(selectedYear.toString()));
+
+    const renderMonthBox = (year, monthIndex) => {
+        const monthNames = [
+            'Siječanj', 'Veljača', 'Ožujak', 'Travanj', 'Svibanj', 'Lipanj',
+            'Srpanj', 'Kolovoz', 'Rujan', 'Listopad', 'Studeni', 'Prosinac'
+        ];
+        const monthName = monthNames[monthIndex];
+        const firstDay = new Date(year, monthIndex, 1);
+        const lastDay = new Date(year, monthIndex + 1, 0);
+        const daysInMonth = lastDay.getDate();
+        
+        let startDayOfWeek = firstDay.getDay() - 1;
+        if (startDayOfWeek === -1) startDayOfWeek = 6;
+        
+        let daysHTML = '';
+        for (let i = 0; i < startDayOfWeek; i++) {
+            daysHTML += `<div class="h-7 w-7"></div>`;
+        }
+        
+        for (let day = 1; day <= daysInMonth; day++) {
+            const mm = String(monthIndex + 1).padStart(2, '0');
+            const dd = String(day).padStart(2, '0');
+            const dateStr = `${year}-${mm}-${dd}`;
+            const holiday = holidaysForYear.find(h => h.date === dateStr);
+            
+            const dateObj = new Date(year, monthIndex, day);
+            const dayOfWeek = dateObj.getDay();
+            const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
+            
+            if (holiday) {
+                daysHTML += `
+                    <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="${holiday.name}">
+                        ${day}
+                        <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
+                            🎉 ${holiday.name}
+                        </div>
+                    </div>
+                `;
+            } else if (isWeekend) {
+                daysHTML += `
+                    <div class="h-7 w-7 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold text-[10px] flex items-center justify-center">
+                        ${day}
+                    </div>
+                `;
+            } else {
+                daysHTML += `
+                    <div class="h-7 w-7 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[10px] font-medium flex items-center justify-center">
+                        ${day}
+                    </div>
+                `;
+            }
+        }
+        
+        return `
+            <div class="bg-slate-50 dark:bg-slate-850 p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-2">
+                <h4 class="text-xs font-black text-slate-900 dark:text-white uppercase tracking-wider text-center border-b border-slate-200 dark:border-slate-800 pb-1.5 font-heading">
+                    ${monthName} ${year}
+                </h4>
+                <div class="grid grid-cols-7 gap-1 text-center text-[9px] font-bold text-slate-400 uppercase select-none">
+                    <span>P</span><span>U</span><span>S</span><span>Č</span><span>P</span><span class="text-amber-500">S</span><span class="text-amber-500">N</span>
+                </div>
+                <div class="grid grid-cols-7 gap-1 justify-items-center select-none">
+                    ${daysHTML}
+                </div>
             </div>
-        </div>
-    `;
+        `;
+    };
+
+    let monthsGridHTML = '';
+    for (let m = 0; m < 12; m++) {
+        monthsGridHTML += renderMonthBox(selectedYear, m);
+    }
 
     portaliArea.innerHTML = `
         <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-8 transition-colors">
-            <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
-                <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
-                    📅 Kalendar Blagdana i Neradnih Dana u RH
-                </h2>
-                <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Pregledajte sve državne blagdane, praznike i neradne dane u Republici Hrvatskoj za 2025., 2026. i 2027. godinu.</p>
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                    <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
+                        📅 Kalendar Blagdana i Neradnih Dana u RH (${selectedYear})
+                    </h2>
+                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
+                </div>
+                
+                <!-- Year selector tabs -->
+                <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
+                    <button onclick="renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${selectedYear === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                        2026. (Tekuća)
+                    </button>
+                    <button onclick="renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${selectedYear === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                        2027. (Naredna)
+                    </button>
+                    <button onclick="renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${selectedYear === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                        2025. (Prošla)
+                    </button>
+                </div>
             </div>
 
-            ${renderYearTable(year2026, '2026. (Tekuća Godina)')}
-            ${renderYearTable(year2027, '2027. (Naredna Godina)')}
-            ${renderYearTable(year2025, '2025. (Prošla Godina)')}
+            <!-- Legend -->
+            <div class="flex items-center gap-4 text-xs font-bold select-none border-b border-slate-100 dark:border-slate-800 pb-3">
+                <span class="text-slate-500 uppercase tracking-wider text-[10px]">Legenda:</span>
+                <div class="flex items-center gap-1.5">
+                    <span class="w-3.5 h-3.5 rounded bg-rose-600 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-300">Državni Blagdan / Neradni Dan</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="w-3.5 h-3.5 rounded bg-amber-500/20 text-amber-500 border border-amber-500/30 inline-block"></span>
+                    <span class="text-slate-700 dark:text-slate-300">Vikend (Subota / Nedjelja)</span>
+                </div>
+            </div>
+
+            <!-- 12 Months Visual Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                ${monthsGridHTML}
+            </div>
+
+            <!-- Detailed List Table -->
+            <div class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Popis svih državnih blagdana u ${selectedYear}. godini</h3>
+                <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
+                    <table class="w-full text-left text-xs">
+                        <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
+                            <tr>
+                                <th class="p-3">Datum</th>
+                                <th class="p-3">Dan u Tjednu</th>
+                                <th class="p-3">Naziv Blagdana / Praznika</th>
+                                <th class="p-3 text-right">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 dark:divide-slate-800 font-medium">
+                            ${holidaysForYear.map(h => {
+                                const [y, m, d] = h.date.split('-');
+                                const formattedDate = `${d}.${m}.${y}.`;
+                                const isWeekend = h.day === 'Subota' || h.day === 'Nedjelja';
+                                return `
+                                    <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
+                                        <td class="p-3 font-mono font-bold text-slate-900 dark:text-white">${formattedDate}</td>
+                                        <td class="p-3 ${isWeekend ? 'text-amber-500 font-bold' : 'text-slate-600 dark:text-slate-400'}">${h.day}</td>
+                                        <td class="p-3 font-bold text-slate-800 dark:text-slate-200">${h.name}</td>
+                                        <td class="p-3 text-right">
+                                            <span class="bg-rose-500/10 text-rose-600 dark:text-rose-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">
+                                                Neradni dan
+                                            </span>
+                                        </td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     `;
 }
