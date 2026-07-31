@@ -8248,13 +8248,13 @@ function renderHolidaysPage(selectedYear = null) {
                 
                 <!-- Year selector tabs -->
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button data-holiday-year="2026" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button type="button" data-holiday-year="2026" onclick="window.renderHolidaysPage(2026); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2026. (Tekuća)
                     </button>
-                    <button data-holiday-year="2027" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button type="button" data-holiday-year="2027" onclick="window.renderHolidaysPage(2027); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2027. (Naredna)
                     </button>
-                    <button data-holiday-year="2025" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button type="button" data-holiday-year="2025" onclick="window.renderHolidaysPage(2025); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2025. (Prošla)
                     </button>
                 </div>

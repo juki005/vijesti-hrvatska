@@ -110,13 +110,13 @@ def get_kalendar_html():
                 </div>
                 
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button data-holiday-year="2026" onclick="window.renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md bg-editorial-navy text-white shadow-sm">
+                    <button type="button" data-holiday-year="2026" onclick="window.renderHolidaysPage(2026); return false;" class="px-3 py-1 text-xs font-bold rounded-md bg-editorial-navy text-white shadow-sm">
                         2026. (Tekuća)
                     </button>
-                    <button data-holiday-year="2027" onclick="window.renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                    <button type="button" data-holiday-year="2027" onclick="window.renderHolidaysPage(2027); return false;" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
                         2027. (Naredna)
                     </button>
-                    <button data-holiday-year="2025" onclick="window.renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                    <button type="button" data-holiday-year="2025" onclick="window.renderHolidaysPage(2025); return false;" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
                         2025. (Prošla)
                     </button>
                 </div>
@@ -528,7 +528,7 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.3.9', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.0', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
