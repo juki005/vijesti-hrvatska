@@ -7683,7 +7683,6 @@ function initSearchQueryFromURL() {
 initSearchQueryFromURL();
 setupEventListeners();
 initHeaderWeather();
-initHeaderHolidayBadge();
 if (checkAdminAccess()) {
     handleRoute(); // Render target page layout immediately
     fetchNewsFeed();

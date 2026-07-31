@@ -595,7 +595,7 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.1', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.4', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
