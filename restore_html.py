@@ -2,31 +2,66 @@ import os
 import re
 import json
 
-PUBLIC_HOLIDAYS_2026 = [
-    {"name": "Nova Godina", "date": "2026-01-01", "day": "Četvrtak"},
-    {"name": "Bogojavljenje / Sveta tri kralja", "date": "2026-01-06", "day": "Utorak"},
-    {"name": "Uskrs", "date": "2026-04-05", "day": "Nedjelja"},
-    {"name": "Uskrsni ponedjeljak", "date": "2026-04-06", "day": "Ponedjeljak"},
-    {"name": "Praznik rada", "date": "2026-05-01", "day": "Petak"},
-    {"name": "Dan državnosti", "date": "2026-05-30", "day": "Subota"},
-    {"name": "Tijelovo", "date": "2026-06-04", "day": "Četvrtak"},
-    {"name": "Dan antifašističke borbe", "date": "2026-06-22", "day": "Ponedjeljak"},
-    {"name": "Dan pobjede i domovinske zahvalnosti", "date": "2026-08-05", "day": "Srijeda"},
-    {"name": "Velika Gospa", "date": "2026-08-15", "day": "Subota"},
-    {"name": "Svi sveti", "date": "2026-11-01", "day": "Nedjelja"},
-    {"name": "Dan sjećanja na žrtve Domovinskog rata", "date": "2026-11-18", "day": "Srijeda"},
-    {"name": "Božić", "date": "2026-12-25", "day": "Petak"},
-    {"name": "Sveti Stjepan", "date": "2026-12-26", "day": "Subota"}
-]
+PUBLIC_HOLIDAYS_ALL = {
+    2025: [
+        {"name": "Nova Godina", "date": "2025-01-01", "day": "Srijeda"},
+        {"name": "Bogojavljenje / Sveta tri kralja", "date": "2025-01-06", "day": "Ponedjeljak"},
+        {"name": "Uskrs", "date": "2025-04-20", "day": "Nedjelja"},
+        {"name": "Uskrsni ponedjeljak", "date": "2025-04-21", "day": "Ponedjeljak"},
+        {"name": "Praznik rada", "date": "2025-05-01", "day": "Četvrtak"},
+        {"name": "Dan državnosti", "date": "2025-05-30", "day": "Petak"},
+        {"name": "Tijelovo", "date": "2025-06-19", "day": "Četvrtak"},
+        {"name": "Dan antifašističke borbe", "date": "2025-06-22", "day": "Nedjelja"},
+        {"name": "Dan pobjede i domovinske zahvalnosti", "date": "2025-08-05", "day": "Utorak"},
+        {"name": "Velika Gospa", "date": "2025-08-15", "day": "Petak"},
+        {"name": "Svi sveti", "date": "2025-11-01", "day": "Subota"},
+        {"name": "Dan sjećanja na žrtve Domovinskog rata", "date": "2025-11-18", "day": "Utorak"},
+        {"name": "Božić", "date": "2025-12-25", "day": "Četvrtak"},
+        {"name": "Sveti Stjepan", "date": "2025-12-26", "day": "Petak"}
+    ],
+    2026: [
+        {"name": "Nova Godina", "date": "2026-01-01", "day": "Četvrtak"},
+        {"name": "Bogojavljenje / Sveta tri kralja", "date": "2026-01-06", "day": "Utorak"},
+        {"name": "Uskrs", "date": "2026-04-05", "day": "Nedjelja"},
+        {"name": "Uskrsni ponedjeljak", "date": "2026-04-06", "day": "Ponedjeljak"},
+        {"name": "Praznik rada", "date": "2026-05-01", "day": "Petak"},
+        {"name": "Dan državnosti", "date": "2026-05-30", "day": "Subota"},
+        {"name": "Tijelovo", "date": "2026-06-04", "day": "Četvrtak"},
+        {"name": "Dan antifašističke borbe", "date": "2026-06-22", "day": "Ponedjeljak"},
+        {"name": "Dan pobjede i domovinske zahvalnosti", "date": "2026-08-05", "day": "Srijeda"},
+        {"name": "Velika Gospa", "date": "2026-08-15", "day": "Subota"},
+        {"name": "Svi sveti", "date": "2026-11-01", "day": "Nedjelja"},
+        {"name": "Dan sjećanja na žrtve Domovinskog rata", "date": "2026-11-18", "day": "Srijeda"},
+        {"name": "Božić", "date": "2026-12-25", "day": "Petak"},
+        {"name": "Sveti Stjepan", "date": "2026-12-26", "day": "Subota"}
+    ],
+    2027: [
+        {"name": "Nova Godina", "date": "2027-01-01", "day": "Petak"},
+        {"name": "Bogojavljenje / Sveta tri kralja", "date": "2027-01-06", "day": "Srijeda"},
+        {"name": "Uskrs", "date": "2027-03-28", "day": "Nedjelja"},
+        {"name": "Uskrsni ponedjeljak", "date": "2027-03-29", "day": "Ponedjeljak"},
+        {"name": "Praznik rada", "date": "2027-05-01", "day": "Subota"},
+        {"name": "Dan državnosti", "date": "2027-05-30", "day": "Nedjelja"},
+        {"name": "Tijelovo", "date": "2027-05-27", "day": "Četvrtak"},
+        {"name": "Dan antifašističke borbe", "date": "2027-06-22", "day": "Utorak"},
+        {"name": "Dan pobjede i domovinske zahvalnosti", "date": "2027-08-05", "day": "Četvrtak"},
+        {"name": "Velika Gospa", "date": "2027-08-15", "day": "Nedjelja"},
+        {"name": "Svi sveti", "date": "2027-11-01", "day": "Ponedjeljak"},
+        {"name": "Dan sjećanja na žrtve Domovinskog rata", "date": "2027-11-18", "day": "Četvrtak"},
+        {"name": "Božić", "date": "2027-12-25", "day": "Subota"},
+        {"name": "Sveti Stjepan", "date": "2027-12-26", "day": "Nedjelja"}
+    ]
+}
 
 def render_month_html(year, month_idx):
     month_names = ['Siječanj', 'Veljača', 'Ožujak', 'Travanj', 'Svibanj', 'Lipanj', 'Srpanj', 'Kolovoz', 'Rujan', 'Listopad', 'Studeni', 'Prosinac']
     month_name = month_names[month_idx]
     
-    # Calculate days in month & first day offset
     import calendar
     cal = calendar.Calendar(firstweekday=0) # 0 is Monday
     month_days = cal.monthdayscalendar(year, month_idx + 1)
+    
+    holidays = PUBLIC_HOLIDAYS_ALL.get(year, [])
     
     days_html = ""
     for week in month_days:
@@ -35,9 +70,8 @@ def render_month_html(year, month_idx):
                 days_html += '<div class="h-7 w-7"></div>'
             else:
                 date_str = f"{year}-{month_idx+1:02d}-{day:02d}"
-                holiday = next((h for h in PUBLIC_HOLIDAYS_2026 if h["date"] == date_str), None)
+                holiday = next((h for h in holidays if h["date"] == date_str), None)
                 
-                # Check weekend
                 weekday = calendar.weekday(year, month_idx + 1, day)
                 is_weekend = weekday in (5, 6)
                 
@@ -77,11 +111,12 @@ def render_month_html(year, month_idx):
         </div>
     '''
 
-def get_kalendar_html():
-    months_html = "".join([render_month_html(2026, m) for m in range(12)])
+def render_single_year_view(year, is_hidden=False):
+    months_html = "".join([render_month_html(year, m) for m in range(12)])
+    holidays = PUBLIC_HOLIDAYS_ALL.get(year, [])
     
     table_rows = ""
-    for h in PUBLIC_HOLIDAYS_2026:
+    for h in holidays:
         y, m, d = h["date"].split('-')
         fmt = f"{d}.{m}.{y}."
         is_wk = h["day"] in ["Subota", "Nedjelja"]
@@ -99,24 +134,25 @@ def get_kalendar_html():
             </tr>
         '''
 
+    hidden_cls = " hidden" if is_hidden else ""
     return f'''
-        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-8 transition-colors">
+        <div id="kalendar-year-{year}" class="space-y-8{hidden_cls}">
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
                     <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
-                        📅 Kalendar Blagdana i Neradnih Dana u RH (2026)
+                        📅 Kalendar Blagdana i Neradnih Dana u RH ({year})
                     </h2>
                     <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
                 </div>
                 
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button type="button" data-holiday-year="2026" onclick="window.renderHolidaysPage(2026); return false;" class="px-3 py-1 text-xs font-bold rounded-md bg-editorial-navy text-white shadow-sm">
+                    <button type="button" onclick="switchYearTab(2026)" id="tab-btn-2026-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2026 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2026. (Tekuća)
                     </button>
-                    <button type="button" data-holiday-year="2027" onclick="window.renderHolidaysPage(2027); return false;" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                    <button type="button" onclick="switchYearTab(2027)" id="tab-btn-2027-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2027 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2027. (Naredna)
                     </button>
-                    <button type="button" data-holiday-year="2025" onclick="window.renderHolidaysPage(2025); return false;" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                    <button type="button" onclick="switchYearTab(2025)" id="tab-btn-2025-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2025 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2025. (Prošla)
                     </button>
                 </div>
@@ -139,7 +175,7 @@ def get_kalendar_html():
             </div>
 
             <div class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
-                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Popis svih državnih blagdana u 2026. godini</h3>
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Popis svih državnih blagdana u {year}. godini</h3>
                 <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
                     <table class="w-full text-left text-xs">
                         <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
@@ -157,6 +193,37 @@ def get_kalendar_html():
                 </div>
             </div>
         </div>
+    '''
+
+def get_kalendar_html():
+    view_2026 = render_single_year_view(2026, is_hidden=False)
+    view_2027 = render_single_year_view(2027, is_hidden=True)
+    view_2025 = render_single_year_view(2025, is_hidden=True)
+
+    return f'''
+        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-8 transition-colors">
+            {view_2026}
+            {view_2027}
+            {view_2025}
+        </div>
+        <script>
+            function switchYearTab(year) {{
+                [2025, 2026, 2027].forEach(function(y) {{
+                    var box = document.getElementById('kalendar-year-' + y);
+                    if (box) {{
+                        if (y === year) {{
+                            box.classList.remove('hidden');
+                        }} else {{
+                            box.classList.add('hidden');
+                        }}
+                    }}
+                }});
+                if (typeof window.renderHolidaysPage === 'function') {{
+                    window.renderHolidaysPage(year);
+                }}
+            }}
+            window.switchYearTab = switchYearTab;
+        </script>
     '''
 
 def get_nedjelja_html():
@@ -528,7 +595,7 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.0', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.1', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")

@@ -8154,13 +8154,26 @@ function renderCatalogsPage() {
 let currentSelectedHolidayYear = 2026;
 
 function renderHolidaysPage(selectedYear = null) {
-    if (selectedYear !== null) {
+    if (selectedYear !== null && selectedYear !== undefined) {
         currentSelectedHolidayYear = parseInt(selectedYear, 10);
     }
     const yearToRender = currentSelectedHolidayYear;
 
     const portaliArea = document.getElementById('portali-area');
     if (!portaliArea) return;
+
+    // Check if pre-rendered multi-year containers exist in DOM
+    const container2026 = document.getElementById('kalendar-year-2026');
+    if (container2026) {
+        [2025, 2026, 2027].forEach(y => {
+            const box = document.getElementById(`kalendar-year-${y}`);
+            if (box) {
+                if (y === yearToRender) box.classList.remove('hidden');
+                else box.classList.add('hidden');
+            }
+        });
+        return;
+    }
 
     const holidaysForYear = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith(yearToRender.toString()));
 
