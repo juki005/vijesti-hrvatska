@@ -111,6 +111,40 @@ def render_month_html(year, month_idx):
         </div>
     '''
 
+def get_next_holiday_info(year):
+    from datetime import datetime
+    today = datetime.now()
+    today_str = today.strftime("%Y-%m-%d")
+    
+    holidays = PUBLIC_HOLIDAYS_ALL.get(year, PUBLIC_HOLIDAYS_ALL[2026])
+    upcoming = next((h for h in holidays if h["date"] >= today_str), None)
+    
+    if not upcoming and holidays:
+        upcoming = holidays[0]
+        
+    if not upcoming:
+        return ""
+        
+    h_date = datetime.strptime(upcoming["date"], "%Y-%m-%d")
+    diff_days = (h_date - today).days + 1
+    
+    days_badge = "DANAS!" if diff_days <= 0 else f"za {diff_days} d."
+    fmt_date = f"{h_date.day:02d}.{h_date.month:02d}.{h_date.year}."
+    
+    return f'''
+        <div class="mt-3 p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl flex flex-wrap items-center gap-2 text-xs select-none">
+            <span class="bg-rose-600 text-white font-extrabold px-2 py-0.5 rounded text-[10px] uppercase tracking-wider shadow-sm">
+                Nadolazeći Blagdan / Praznik
+            </span>
+            <span class="font-extrabold text-slate-900 dark:text-white flex items-center gap-1">
+                🎉 {upcoming['name']} ({fmt_date})
+            </span>
+            <span class="bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-extrabold text-[10px] px-2 py-0.5 rounded uppercase">
+                {days_badge} ({upcoming['day']})
+            </span>
+        </div>
+    '''
+
 def render_single_year_view(year, is_hidden=False):
     months_html = "".join([render_month_html(year, m) for m in range(12)])
     holidays = PUBLIC_HOLIDAYS_ALL.get(year, [])
@@ -134,6 +168,7 @@ def render_single_year_view(year, is_hidden=False):
             </tr>
         '''
 
+    next_holiday_badge = get_next_holiday_info(year)
     hidden_cls = " hidden" if is_hidden else ""
     return f'''
         <div id="kalendar-year-{year}" class="space-y-8{hidden_cls}">
@@ -143,6 +178,7 @@ def render_single_year_view(year, is_hidden=False):
                         📅 Kalendar Blagdana i Neradnih Dana u RH ({year})
                     </h2>
                     <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
+                    {next_holiday_badge}
                 </div>
                 
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
@@ -595,7 +631,7 @@ def main():
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.4', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.5', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
