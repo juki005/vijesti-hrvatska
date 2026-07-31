@@ -8158,11 +8158,18 @@ function renderCatalogsPage() {
     `;
 }
 
-function renderHolidaysPage(selectedYear = 2026) {
+let currentSelectedHolidayYear = 2026;
+
+function renderHolidaysPage(selectedYear = null) {
+    if (selectedYear !== null) {
+        currentSelectedHolidayYear = parseInt(selectedYear, 10);
+    }
+    const yearToRender = currentSelectedHolidayYear;
+
     const portaliArea = document.getElementById('portali-area');
     if (!portaliArea) return;
 
-    const holidaysForYear = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith(selectedYear.toString()));
+    const holidaysForYear = PUBLIC_HOLIDAYS_HR.filter(h => h.date.startsWith(yearToRender.toString()));
 
     const renderMonthBox = (year, monthIndex) => {
         const monthNames = [
@@ -8233,7 +8240,7 @@ function renderHolidaysPage(selectedYear = 2026) {
 
     let monthsGridHTML = '';
     for (let m = 0; m < 12; m++) {
-        monthsGridHTML += renderMonthBox(selectedYear, m);
+        monthsGridHTML += renderMonthBox(yearToRender, m);
     }
 
     portaliArea.innerHTML = `
@@ -8241,20 +8248,20 @@ function renderHolidaysPage(selectedYear = 2026) {
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
                     <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
-                        📅 Kalendar Blagdana i Neradnih Dana u RH (${selectedYear})
+                        📅 Kalendar Blagdana i Neradnih Dana u RH (${yearToRender})
                     </h2>
                     <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
                 </div>
                 
                 <!-- Year selector tabs -->
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button onclick="renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${selectedYear === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button onclick="renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2026. (Tekuća)
                     </button>
-                    <button onclick="renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${selectedYear === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button onclick="renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2027. (Naredna)
                     </button>
-                    <button onclick="renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${selectedYear === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button onclick="renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2025. (Prošla)
                     </button>
                 </div>
@@ -8280,7 +8287,7 @@ function renderHolidaysPage(selectedYear = 2026) {
 
             <!-- Detailed List Table -->
             <div class="space-y-3 pt-4 border-t border-slate-200 dark:border-slate-800">
-                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Popis svih državnih blagdana u ${selectedYear}. godini</h3>
+                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Popis svih državnih blagdana u ${yearToRender}. godini</h3>
                 <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
                     <table class="w-full text-left text-xs">
                         <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
