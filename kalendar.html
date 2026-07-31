@@ -474,13 +474,13 @@
                 </div>
                 
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button onclick="renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md bg-editorial-navy text-white shadow-sm">
+                    <button data-holiday-year="2026" onclick="window.renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md bg-editorial-navy text-white shadow-sm">
                         2026. (Tekuća)
                     </button>
-                    <button onclick="renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                    <button data-holiday-year="2027" onclick="window.renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
                         2027. (Naredna)
                     </button>
-                    <button onclick="renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
+                    <button data-holiday-year="2025" onclick="window.renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md text-slate-600 dark:text-slate-400 hover:text-white">
                         2025. (Prošla)
                     </button>
                 </div>
@@ -2325,7 +2325,7 @@
 
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.3.8 -->
+                <!-- Rendered dynamically by app.js?v=1.3.9 -->
             </div>
 
             <!-- Empty State -->
@@ -2692,6 +2692,6 @@
     </div><!-- /#newspaper-container -->
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.3.8"></script>
+    <script src="app.js?v=1.3.9"></script>
 </body>
 </html>

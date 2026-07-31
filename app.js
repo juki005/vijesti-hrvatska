@@ -8145,13 +8145,6 @@ function renderCatalogsPage() {
                             <span class="text-[10px] text-slate-400">tommy.hr</span>
                         </div>
                     </a>
-                    <a href="https://pevex.hr" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-lg hover:border-amber-500 transition-all flex items-center gap-3">
-                        <img src="https://www.google.com/s2/favicons?domain=pevex.hr&sz=64" alt="Pevex" class="w-6 h-6 rounded shrink-0">
-                        <div>
-                            <h4 class="font-bold text-xs text-slate-900 dark:text-white">Pevex</h4>
-                            <span class="text-[10px] text-slate-400">pevex.hr</span>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
@@ -8255,13 +8248,13 @@ function renderHolidaysPage(selectedYear = null) {
                 
                 <!-- Year selector tabs -->
                 <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button onclick="renderHolidaysPage(2026)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button data-holiday-year="2026" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2026. (Tekuća)
                     </button>
-                    <button onclick="renderHolidaysPage(2027)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button data-holiday-year="2027" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2027. (Naredna)
                     </button>
-                    <button onclick="renderHolidaysPage(2025)" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                    <button data-holiday-year="2025" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
                         2025. (Prošla)
                     </button>
                 </div>
@@ -8323,6 +8316,20 @@ function renderHolidaysPage(selectedYear = null) {
         </div>
     `;
 }
+
+// Explicitly attach renderHolidaysPage to window object
+window.renderHolidaysPage = renderHolidaysPage;
+
+// Add event listener for data-holiday-year button clicks
+document.addEventListener('click', function(e) {
+    const btn = e.target.closest('[data-holiday-year]');
+    if (btn) {
+        const year = parseInt(btn.getAttribute('data-holiday-year'), 10);
+        if (year) {
+            window.renderHolidaysPage(year);
+        }
+    }
+});
 
 function renderEnglishNewsPage() {
     const portaliArea = document.getElementById('portali-area');
