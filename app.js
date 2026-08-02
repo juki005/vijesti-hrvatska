@@ -7919,7 +7919,8 @@ function renderSundayStoresPage() {
     const portaliArea = document.getElementById('portali-area');
     if (!portaliArea) return;
     if (document.getElementById('store-table-body')) return;
-        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors">
+    
+    portaliArea.innerHTML = `
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
                 <div class="flex items-center justify-between">
                     <div>

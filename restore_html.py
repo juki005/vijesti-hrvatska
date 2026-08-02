@@ -742,7 +742,7 @@ def main():
         content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.23', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.24', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
@@ -774,7 +774,11 @@ def main():
             
         print(f"Generated {file_name} with pre-rendered static HTML v1.3.4")
 
-    # AUTOMATED BUILD PROTECTION GUARD
+    # AUTOMATED BUILD PROTECTION GUARDS
+    import subprocess
+    js_check = subprocess.run(['node', '-c', 'app.js'], capture_output=True, text=True)
+    assert js_check.returncode == 0, f"SAFETY GUARD FAILED: app.js contains JavaScript syntax errors:\n{js_check.stderr}"
+
     with open(os.path.join(cwd, 'index.html'), 'r', encoding='utf-8') as f:
         idx_check = f.read()
         assert '<div id="feed-area" class="space-y-6">' in idx_check, "SAFETY GUARD: index.html feed-area must be visible!"
