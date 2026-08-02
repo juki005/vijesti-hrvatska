@@ -733,5 +733,13 @@ def main():
             
         print(f"Generated {file_name} with pre-rendered static HTML v1.3.4")
 
+    # AUTOMATED BUILD PROTECTION GUARD
+    with open(os.path.join(cwd, 'index.html'), 'r', encoding='utf-8') as f:
+        idx_check = f.read()
+        assert '<div id="feed-area" class="space-y-6">' in idx_check, "SAFETY GUARD: index.html feed-area must be visible!"
+        assert '<div id="category-container"' in idx_check and 'Sve' in idx_check, "SAFETY GUARD: index.html category buttons must be pre-rendered!"
+        assert '<div id="loading-spinner" class="space-y-6 hidden">' in idx_check, "SAFETY GUARD: index.html loading-spinner must be hidden!"
+    print("ALL BUILD SAFETY GUARDS PASSED SUCCESSFULLY!")
+
 if __name__ == "__main__":
     main()
