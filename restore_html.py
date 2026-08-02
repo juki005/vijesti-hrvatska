@@ -171,7 +171,7 @@ def render_single_year_view(year, is_hidden=False):
     next_holiday_badge = get_next_holiday_info(year)
     hidden_cls = " hidden" if is_hidden else ""
     return f'''
-        <div id="kalendar-year-{year}" class="space-y-8{hidden_cls}">
+        <div id="kalendar-year-{year}" class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors{hidden_cls}">
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
                     <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
@@ -237,7 +237,7 @@ def get_kalendar_html():
     view_2025 = render_single_year_view(2025, is_hidden=True)
 
     return f'''
-        <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-8 transition-colors">
+        <div class="space-y-6">
             {view_2026}
             {view_2027}
             {view_2025}
@@ -665,7 +665,7 @@ def main():
         content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.18', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.21', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")

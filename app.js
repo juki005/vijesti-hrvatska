@@ -6361,9 +6361,11 @@ function renderSubNavigation() {
     const subMenuBar = document.getElementById('subcategory-menu-bar');
     const subContainer = document.getElementById('subcategory-container');
     
-    if (activeCategory !== 'sve' && activeCategory !== 'analitika' && activeCategory !== 'portali' && activeCategory !== 'spremljeno' && activeCategory !== 'vrijeme') {
+    const FEATURE_PAGES = ['sve', 'analitika', 'portali', 'spremljeno', 'vrijeme', 'kalendar', 'nedjelja', 'katalozi', 'english'];
+    
+    if (!FEATURE_PAGES.includes(activeCategory)) {
         const catConf = PORTAL_CATEGORIES.find(c => c.id === activeCategory);
-        if (catConf && subContainer && subMenuBar) {
+        if (catConf && catConf.subcategories && catConf.subcategories.length > 0 && subContainer && subMenuBar) {
             subContainer.innerHTML = '';
             subMenuBar.classList.remove('hidden');
 
