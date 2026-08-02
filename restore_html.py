@@ -262,18 +262,78 @@ def get_kalendar_html():
         </script>
     '''
 
+STORE_LOCATORS_DATA = [
+    # Supermarketi
+    {"name": "Lidl", "category": "supermarketi", "catName": "Supermarketi", "domain": "lidl.hr", "desc": "Službena karta radnih nedjelja za sve Lidl filijale u RH", "url": "https://www.lidl.hr/radno-vrijeme"},
+    {"name": "Konzum", "category": "supermarketi", "catName": "Supermarketi", "domain": "konzum.hr", "desc": "Konzum interaktivna tražilica radnih nedjelja i radnih vremena", "url": "https://www.konzum.hr/trgovine"},
+    {"name": "Kaufland", "category": "supermarketi", "catName": "Supermarketi", "domain": "kaufland.hr", "desc": "Kaufland lokator radnih trgovina i radnih nedjelja u RH", "url": "https://www.kaufland.hr/poslovnice.html"},
+    {"name": "SPAR / INTERSPAR", "category": "supermarketi", "catName": "Supermarketi", "domain": "spar.hr", "desc": "Spar raspored otvorenih trgovina po gradovima i nedjeljama", "url": "https://www.spar.hr/lokacije"},
+    {"name": "Plodine", "category": "supermarketi", "catName": "Supermarketi", "domain": "plodine.hr", "desc": "Plodine tjedni raspored radnih nedjelja po supermarketima", "url": "https://www.plodine.hr/supermarketi"},
+    {"name": "Eurospin", "category": "supermarketi", "catName": "Supermarketi", "domain": "eurospin.hr", "desc": "Eurospin popis radnih nedjelja po poslovnicama", "url": "https://www.eurospin.hr/trgovine/"},
+    {"name": "Tommy", "category": "supermarketi", "catName": "Supermarketi", "domain": "tommy.hr", "desc": "Tommy prodajna mjesta i radne nedjelje u Dalmaciji i RH", "url": "https://www.tommy.hr/prodajna-mjesta"},
+    {"name": "Studenac", "category": "supermarketi", "catName": "Supermarketi", "domain": "studenac.hr", "desc": "Studenac tražilica susjedskih trgovina otvorenih nedjeljom", "url": "https://www.studenac.hr/pretrazi-trgovine"},
+    {"name": "KTC", "category": "supermarketi", "catName": "Supermarketi", "domain": "ktc.hr", "desc": "KTC robni centri i poljocentri - raspored radnih vremena", "url": "https://www.ktc.hr/lokacije/"},
+    {"name": "NTL", "category": "supermarketi", "catName": "Supermarketi", "domain": "ntl.hr", "desc": "Narodni Trgovački Lanac - lokator poslovnica i radnih nedjelja", "url": "https://ntl.hr/trgovine/"},
+    {"name": "Ribola", "category": "supermarketi", "catName": "Supermarketi", "domain": "ribola.hr", "desc": "Ribola supermarketi - popis otvorenih poslovnica nedjeljom", "url": "https://www.ribola.hr/trgovine/"},
+
+    # Drogerije
+    {"name": "dm-drogerie markt", "category": "drogerije", "catName": "Drogerije", "domain": "dm.hr", "desc": "dm lokator prodavaonica i radne nedjelje u vašoj blizini", "url": "https://www.dm.hr/store-finder"},
+    {"name": "Müller", "category": "drogerije", "catName": "Drogerije", "domain": "mueller.hr", "desc": "Müller tražilica poslovnica i radno vrijeme nedjeljom", "url": "https://www.mueller.hr/poslovnice/"},
+    {"name": "BIPA", "category": "drogerije", "catName": "Drogerije", "domain": "bipa.hr", "desc": "BIPA popis otvorenih drogerija i radnih nedjelja", "url": "https://www.bipa.hr/poslovnice"},
+    {"name": "Douglas", "category": "drogerije", "catName": "Drogerije", "domain": "douglas.hr", "desc": "Douglas parfumerije i radno vrijeme prodajnih mjesta", "url": "https://www.douglas.hr/nase-trgovine"},
+
+    # Dom, Alat & Tehnika
+    {"name": "Pevex", "category": "dom", "catName": "Dom & Alat", "domain": "pevex.hr", "desc": "Pevex prodajni centri - alati, građevina i kućanski aparati nedjeljom", "url": "https://pevex.hr/prodajni-centri"},
+    {"name": "Bauhaus", "category": "dom", "catName": "Dom & Alat", "domain": "bauhaus.hr", "desc": "Bauhaus prodajni centri - radionica, alat i vrt nedjeljom", "url": "https://www.bauhaus.hr/prodajni-centri"},
+    {"name": "Lesnina XXXL", "category": "dom", "catName": "Dom & Alat", "domain": "xxxlesnina.hr", "desc": "Lesnina XXXL centri namještaja i opreme za dom nedjeljom", "url": "https://www.xxxlesnina.hr/poslovnice"},
+    {"name": "Emmezeta", "category": "dom", "catName": "Dom & Alat", "domain": "emmezeta.hr", "desc": "Emmezeta centri namještaja, tehnike i dekoracija nedjeljom", "url": "https://www.emmezeta.hr/trgovine"},
+    {"name": "IKEA Zagreb", "category": "dom", "catName": "Dom & Alat", "domain": "ikea.com", "desc": "IKEA robna kuća Zagreb - kalendar radnih nedjelja i dostavnih centara", "url": "https://www.ikea.com/hr/hr/stores/zagreb/"},
+    {"name": "JYSK", "category": "dom", "catName": "Dom & Alat", "domain": "jysk.hr", "desc": "JYSK trgovine namještaja i opreme za spavanje nedjeljom", "url": "https://jysk.hr/trgovine"},
+    {"name": "Big Bang (ex Sancta Domenica)", "category": "dom", "catName": "Dom & Alat", "domain": "bigbang.hr", "desc": "Big Bang HR (ex Sancta Domenica) - tehnika i radno vrijeme trgovina", "url": "https://www.bigbang.hr/"},
+    {"name": "Links", "category": "dom", "catName": "Dom & Alat", "domain": "links.hr", "desc": "Links IT komponente, alati, računala i radno vrijeme poslovnica", "url": "https://www.links.hr/hr/poslovnice"},
+
+    # Shopping Centri
+    {"name": "City Center one (West & East)", "category": "centri", "catName": "Shopping Centri", "domain": "citycenterone.hr", "desc": "City Center one Zagreb i Split raspored radnih nedjelja", "url": "https://citycenterone.hr/radne-nedjelje/"},
+    {"name": "Arena Centar Zagreb", "category": "centri", "catName": "Shopping Centri", "domain": "arenacentar.hr", "desc": "Arena Centar Zagreb radne nedjelje i radno vrijeme trgovina", "url": "https://www.arenacentar.hr/hr/radno-vrijeme/"},
+    {"name": "Avenue Mall Zagreb", "category": "centri", "catName": "Shopping Centri", "domain": "avenuemall.hr", "desc": "Avenue Mall Novi Zagreb - raspored radnih nedjelja", "url": "https://avenuemall.hr/radno-vrijeme"},
+    {"name": "Z Centar Zagreb", "category": "centri", "catName": "Shopping Centri", "domain": "zcentar.hr", "desc": "Z Centar Špansko - popis otvorenih nedjelja i restorana", "url": "https://zcentar.hr/radno-vrijeme/"},
+    {"name": "Point Shopping Center", "category": "centri", "catName": "Shopping Centri", "domain": "pointshoppingcenter.hr", "desc": "Point Vrbani Zagreb radne nedjelje i sadržaji", "url": "https://pointshoppingcenter.hr/radne-nedjelje/"},
+    {"name": "Supernova Centri", "category": "centri", "catName": "Shopping Centri", "domain": "supernova-buzin.hr", "desc": "Supernova shopping parkovi (Buzin, Zadar, Varaždin, Karlovac) nedjeljom", "url": "https://www.supernova-buzin.hr/radne-nedjelje/"},
+    {"name": "Mall of Split", "category": "centri", "catName": "Shopping Centri", "domain": "mallofsplit.hr", "desc": "Mall of Split - raspored radnih nedjelja najvećeg centra u Dalmaciji", "url": "https://mallofsplit.hr/radno-vrijeme/"},
+    {"name": "Joker Split", "category": "centri", "catName": "Shopping Centri", "domain": "joker.hr", "desc": "Joker Centar Split radne nedjelje i radno vrijeme", "url": "https://joker.hr/radno-vrijeme/"},
+    {"name": "Tower Center Rijeka", "category": "centri", "catName": "Shopping Centri", "domain": "tower-center-rijeka.hr", "desc": "Tower Center Rijeka radne nedjelje i popis otvorenih trgovina", "url": "https://www.tower-center-rijeka.hr/radne-nedjelje"},
+    {"name": "Portanova Osijek", "category": "centri", "catName": "Shopping Centri", "domain": "portanova.hr", "desc": "Portanova Osijek kalendar radnih nedjelja u Slavoniji", "url": "https://portanova.hr/radno-vrijeme/"}
+]
+
 def get_nedjelja_html():
-    return '''
+    rows = ""
+    for s in STORE_LOCATORS_DATA:
+        favicon = f"https://www.google.com/s2/favicons?domain={s['domain']}&sz=64"
+        rows += f'''
+            <tr class="store-row hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors" data-category="{s['category']}" data-search="{s['name'].lower()} {s['catName'].lower()} {s['desc'].lower()}">
+                <td class="p-3 font-extrabold flex items-center gap-3">
+                    <img src="{favicon}" alt="{s['name']}" class="w-6 h-6 rounded-md object-contain shrink-0 bg-white p-0.5 border border-slate-200 dark:border-slate-700">
+                    <span class="text-slate-900 dark:text-white font-extrabold">{s['name']}</span>
+                </td>
+                <td class="p-3 text-slate-400 font-medium">{s['catName']}</td>
+                <td class="p-3 text-slate-600 dark:text-slate-400">{s['desc']}</td>
+                <td class="p-3 text-right">
+                    <a href="{s['url']}" target="_blank" rel="noopener" class="bg-editorial-navy hover:bg-slate-800 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs transition-all inline-block shadow-sm">Posjeti →</a>
+                </td>
+            </tr>
+        '''
+        
+    return f'''
         <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors">
             <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
-                <div class="flex items-center justify-between">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
                     <div>
                         <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
-                            🛒 Radne Nedjelje Trgovina i Centara u RH
+                            🛒 Radne Nedjelje Trgovina, Drogerija, Alata i Centara u RH
                         </h2>
-                        <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Provjerite koje trgovine i shopping centri rade ove nedjelje u vašem gradu prema službenim lokatorima.</p>
+                        <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Provjerite koje trgovine, drogerije i shopping centri rade ove nedjelje u vašem gradu prema službenim lokatorima.</p>
                     </div>
-                    <span class="bg-amber-500/10 text-amber-600 dark:text-amber-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    <span class="bg-amber-500/10 text-amber-600 dark:text-amber-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shrink-0">
                         16 Nedjelja Godišnje
                     </span>
                 </div>
@@ -307,72 +367,89 @@ def get_nedjelja_html():
                 </a>
             </div>
 
-            <div class="space-y-3 pt-2">
-                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Službeni lokatori radnih nedjelja po trgovinama</h3>
+            <!-- Retail Store Locators Filter Bar & Table -->
+            <div class="space-y-4 pt-2">
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-3">
+                    <!-- Category Tabs -->
+                    <div class="flex items-center gap-1 overflow-x-auto pb-1 sm:pb-0 select-none no-scrollbar">
+                        <button type="button" onclick="filterStoreCategory('all')" id="store-cat-all" class="store-cat-btn px-3 py-1.5 text-xs font-bold rounded-lg transition-all bg-editorial-navy text-white shadow-sm shrink-0">
+                            Sve (33)
+                        </button>
+                        <button type="button" onclick="filterStoreCategory('supermarketi')" id="store-cat-supermarketi" class="store-cat-btn px-3 py-1.5 text-xs font-bold rounded-lg transition-all text-slate-600 dark:text-slate-400 hover:text-white hover:bg-slate-800 shrink-0">
+                            🛒 Supermarketi (11)
+                        </button>
+                        <button type="button" onclick="filterStoreCategory('drogerije')" id="store-cat-drogerije" class="store-cat-btn px-3 py-1.5 text-xs font-bold rounded-lg transition-all text-slate-600 dark:text-slate-400 hover:text-white hover:bg-slate-800 shrink-0">
+                            💄 Drogerije (4)
+                        </button>
+                        <button type="button" onclick="filterStoreCategory('centri')" id="store-cat-centri" class="store-cat-btn px-3 py-1.5 text-xs font-bold rounded-lg transition-all text-slate-600 dark:text-slate-400 hover:text-white hover:bg-slate-800 shrink-0">
+                            🏬 Shopping Centri (10)
+                        </button>
+                        <button type="button" onclick="filterStoreCategory('dom')" id="store-cat-dom" class="store-cat-btn px-3 py-1.5 text-xs font-bold rounded-lg transition-all text-slate-600 dark:text-slate-400 hover:text-white hover:bg-slate-800 shrink-0">
+                            🔨 Dom & Alat (8)
+                        </button>
+                    </div>
+
+                    <!-- Search Input -->
+                    <div class="relative shrink-0 sm:w-64">
+                        <input type="text" id="store-search-input" onkeyup="searchStoreLocators()" placeholder="🔍 Pretraži trgovinu, centar..." class="w-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-1.5 text-xs text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-1 focus:ring-editorial-navy font-medium">
+                    </div>
+                </div>
+
                 <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl">
                     <table class="w-full text-left text-xs">
                         <thead class="bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 font-extrabold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
                             <tr>
                                 <th class="p-3">Trgovina / Lanac</th>
-                                <th class="p-3">Tip</th>
+                                <th class="p-3">Kategorija</th>
                                 <th class="p-3">Službeni Lokator Radnih Nedjelja</th>
                                 <th class="p-3 text-right">Akcija</th>
                             </tr>
                         </thead>
-                        <tbody class="divide-y divide-slate-200 dark:divide-slate-800 font-medium">
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🛍️</span> Lidl</td>
-                                <td class="p-3 text-slate-400">Prehrana</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Službena karta radnih nedjelja za sve Lidl filijale u RH</td>
-                                <td class="p-3 text-right"><a href="https://www.lidl.hr/radno-vrijeme" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Lidl →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🛒</span> Konzum</td>
-                                <td class="p-3 text-slate-400">Prehrana</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Konzum interaktivna tražilica radnih nedjelja i radnih vremena</td>
-                                <td class="p-3 text-right"><a href="https://www.konzum.hr/trgovine" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Konzum →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🔴</span> Kaufland</td>
-                                <td class="p-3 text-slate-400">Prehrana / Hipermarket</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Kaufland lokator radnih trgovina i radnih nedjelja u RH</td>
-                                <td class="p-3 text-right"><a href="https://www.kaufland.hr/poslovnice.html" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Kaufland →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🟢</span> SPAR / INTERSPAR</td>
-                                <td class="p-3 text-slate-400">Prehrana</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Spar raspored otvorenih trgovina po gradovima i nedjeljama</td>
-                                <td class="p-3 text-right"><a href="https://www.spar.hr/lokacije" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri SPAR →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🟡</span> Plodine</td>
-                                <td class="p-3 text-slate-400">Prehrana</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Plodine tjedni raspored radnih nedjelja po supermarketima</td>
-                                <td class="p-3 text-right"><a href="https://www.plodine.hr/supermarketi" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Plodine →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🔵</span> Eurospin</td>
-                                <td class="p-3 text-slate-400">Prehrana / Discount</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Eurospin popis radnih nedjelja po poslovnicama</td>
-                                <td class="p-3 text-right"><a href="https://www.eurospin.hr/trgovine/" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Eurospin →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🏠</span> Pevex</td>
-                                <td class="p-3 text-slate-400">Građevina / Dom</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Pevex centar radne nedjelje i radno vrijeme prodajnih centara</td>
-                                <td class="p-3 text-right"><a href="https://pevex.hr/prodajni-centri" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Pevex →</a></td>
-                            </tr>
-                            <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors">
-                                <td class="p-3 font-extrabold flex items-center gap-2"><span>🛠️</span> Bauhaus</td>
-                                <td class="p-3 text-slate-400">Građevina / Dom</td>
-                                <td class="p-3 text-slate-600 dark:text-slate-400">Bauhaus prodajni centri - raspored radnih nedjelja u RH</td>
-                                <td class="p-3 text-right"><a href="https://www.bauhaus.hr/prodajni-centri" target="_blank" rel="noopener" class="bg-slate-200 dark:bg-slate-800 hover:bg-amber-500 hover:text-white text-slate-800 dark:text-slate-200 font-bold px-3 py-1 rounded text-[11px] transition-all inline-block">Provjeri Bauhaus →</a></td>
-                            </tr>
+                        <tbody id="store-table-body" class="divide-y divide-slate-200 dark:divide-slate-800 font-medium">
+                            {rows}
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
+
+        <script>
+            function filterStoreCategory(cat) {{
+                var rows = document.querySelectorAll('.store-row');
+                var btns = document.querySelectorAll('.store-cat-btn');
+                btns.forEach(function(b) {{
+                    b.classList.remove('bg-editorial-navy', 'text-white', 'shadow-sm');
+                    b.classList.add('text-slate-600', 'dark:text-slate-400');
+                }});
+                var activeBtn = document.getElementById('store-cat-' + cat);
+                if (activeBtn) {{
+                    activeBtn.classList.add('bg-editorial-navy', 'text-white', 'shadow-sm');
+                    activeBtn.classList.remove('text-slate-600', 'dark:text-slate-400');
+                }}
+                rows.forEach(function(r) {{
+                    if (cat === 'all' || r.getAttribute('data-category') === cat) {{
+                        r.style.display = '';
+                    }} else {{
+                        r.style.display = 'none';
+                    }}
+                }});
+            }}
+
+            function searchStoreLocators() {{
+                var input = document.getElementById('store-search-input');
+                if (!input) return;
+                var q = input.value.toLowerCase().trim();
+                var rows = document.querySelectorAll('.store-row');
+                rows.forEach(function(r) {{
+                    var text = r.getAttribute('data-search') || '';
+                    if (text.indexOf(q) !== -1) {{
+                        r.style.display = '';
+                    }} else {{
+                        r.style.display = 'none';
+                    }}
+                }});
+            }}
+        </script>
     '''
 
 def get_katalozi_html():
@@ -665,7 +742,7 @@ def main():
         content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.21', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.22', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
