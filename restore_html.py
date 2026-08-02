@@ -592,6 +592,68 @@ def get_english_html():
         </div>
     '''
 
+def get_pre_rendered_subnav_html(active_key="sve"):
+    main_cats = [
+        {"id": "sve", "name": "Sve", "file": "/"},
+        {"id": "vijesti", "name": "Vijesti", "file": "vijesti"},
+        {"id": "sport", "name": "Sport", "file": "sport"},
+        {"id": "tech", "name": "Tehnologija", "file": "tech"},
+        {"id": "lifestyle", "name": "Lifestyle", "file": "lifestyle"},
+        {"id": "biznis", "name": "Biznis", "file": "biznis"},
+        {"id": "auti", "name": "Auti", "file": "auti"},
+        {"id": "showbiz", "name": "Showbiz", "file": "showbiz"},
+        {"id": "zanimljivosti", "name": "Zanimljivosti", "file": "zanimljivosti"},
+        {"id": "nedjelja", "name": "Nedjelja 🛒", "file": "nedjelja"},
+        {"id": "katalozi", "name": "Katalozi 🛍️", "file": "katalozi"},
+        {"id": "kalendar", "name": "Kalendar 📅", "file": "kalendar"},
+        {"id": "english", "name": "English 🇬🇧", "file": "english"},
+        {"id": "vrijeme", "name": "Vrijeme 🌤️", "file": "vrijeme"},
+        {"id": "portali", "name": "Portali 🌐", "file": "portali"},
+        {"id": "spremljeno", "name": "Spremljeno 📌", "file": "spremljeno"}
+    ]
+    
+    cat_target = "sve" if active_key == "index" else active_key
+    
+    html = ""
+    for cat in main_cats:
+        is_active = (cat["id"] == cat_target)
+        active_cls = "bg-editorial-navy text-white shadow-sm font-black" if is_active else "text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white"
+        html += f'<a href="{cat["file"]}" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 {active_cls}">{cat["name"]}</a>'
+        
+    return html
+
+def get_pre_rendered_splash_html():
+    try:
+        json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'articles.json')
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        top3 = data[:3]
+        cards = ""
+        for a in top3:
+            img = a.get('image_url', '')
+            if not img or 'placeholder' in img:
+                img = 'https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=600&auto=format&fit=crop&q=80'
+                
+            cards += f'''
+                <a href="{a['link']}" target="_blank" rel="noopener" class="group flex flex-col justify-between bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl border border-slate-200 dark:border-slate-750 hover:border-editorial-gold transition-all">
+                    <div class="space-y-2.5">
+                        <div class="relative aspect-video overflow-hidden rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <img src="{img}" alt="{a['title']}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                            <span class="absolute top-2 left-2 bg-editorial-navy text-white text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow">
+                                {a['source']}
+                            </span>
+                        </div>
+                        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-editorial-gold transition-colors line-clamp-2">
+                            {a['title']}
+                        </h3>
+                    </div>
+                </a>
+            '''
+        return cards
+    except Exception as e:
+        return ""
+
 def main():
     cwd = os.path.dirname(os.path.abspath(__file__))
     index_path = os.path.join(cwd, "index.html")
@@ -602,6 +664,10 @@ def main():
         
     with open(config_path, 'r', encoding='utf-8') as f:
         seo_config = json.load(f)
+        
+    splash_html = get_pre_rendered_splash_html()
+    if splash_html:
+        template = re.sub(r'<div id="splash-section"[\s\S]*?</div>', f'<div id="splash-section" class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white dark:bg-slate-900 p-4 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm">{splash_html}</div>', template, count=1)
         
     for key, seo in seo_config.items():
         title = seo["title"]
@@ -630,8 +696,12 @@ def main():
         content = re.sub(r'<meta id="twitter-description" name="twitter:description" content="[^"]*">', f'<meta id="twitter-description" name="twitter:description" content="{description}">', content)
         content = re.sub(r'<h1 id="page-main-heading" class="sr-only">.*?</h1>', f'<h1 id="page-main-heading" class="sr-only">{heading}</h1>', content)
         
+        # Pre-rendered Subnavigation category tabs
+        subnav_markup = get_pre_rendered_subnav_html(key)
+        content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
+        
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.5', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.13', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")

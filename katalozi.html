@@ -296,9 +296,7 @@
                 <!-- Left Fade Indicator -->
                 <div class="absolute left-0 top-0 bottom-0 w-6 bg-gradient-to-r from-[#eee] to-transparent dark:from-slate-950 pointer-events-none z-10"></div>
                 
-                <div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">
-                    <!-- Loaded dynamically -->
-                </div>
+                <div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2"><a href="/" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Sve</a><a href="vijesti" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Vijesti</a><a href="sport" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Sport</a><a href="tech" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Tehnologija</a><a href="lifestyle" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Lifestyle</a><a href="biznis" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Biznis</a><a href="auti" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Auti</a><a href="showbiz" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Showbiz</a><a href="zanimljivosti" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Zanimljivosti</a><a href="nedjelja" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Nedjelja 🛒</a><a href="katalozi" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 bg-editorial-navy text-white shadow-sm font-black">Katalozi 🛍️</a><a href="kalendar" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Kalendar 📅</a><a href="english" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">English 🇬🇧</a><a href="vrijeme" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Vrijeme 🌤️</a><a href="portali" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Portali 🌐</a><a href="spremljeno" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white">Spremljeno 📌</a></div>
                 
                 <!-- Right Fade Indicator -->
                 <div class="absolute right-0 top-0 bottom-0 w-6 bg-gradient-to-l from-[#eee] to-transparent dark:from-slate-950 pointer-events-none z-10"></div>
@@ -362,7 +360,7 @@
             <h1 id="page-main-heading" class="sr-only">Katalozi i Akcije Trgovina u Hrvatskoj</h1>
             
             <!-- Loading Skeleton Screen -->
-            <div id="loading-spinner" class="space-y-6">
+            <div id="loading-spinner" class="space-y-6 hidden">
                 <!-- Splash Hero Skeleton (simulates top 3 articles) -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white dark:bg-slate-900 p-4 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm">
                     <div class="animate-pulse space-y-3 flex flex-col">
@@ -436,12 +434,52 @@
             </div>
 
             <!-- Dynamic Feed Section (Splash & Grid) -->
-            <div id="feed-area" class="space-y-6 hidden">
+            <div id="feed-area" class="hidden space-y-6">
                 
                 <!-- SPLASH HERO AREA (Top 3 featured spotlight cards) -->
                 <div id="splash-section" class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white dark:bg-slate-900 p-4 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm">
-                    <!-- Loaded dynamically -->
-                </div>
+                <a href="https://www.vecernji.hr/sport/jos-jedan-odlazak-s-klupe-nakon-svjetskog-prvenstva-obala-bjelokosti-ostala-bez-izbornika-1982925" target="_blank" rel="noopener" class="group flex flex-col justify-between bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl border border-slate-200 dark:border-slate-750 hover:border-editorial-gold transition-all">
+                    <div class="space-y-2.5">
+                        <div class="relative aspect-video overflow-hidden rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <img src="https://www.vecernji.hr/media/img/44/02/92a43e5a8e0af9a0d110.jpeg" alt="Još jedan odlazak s klupe nakon Svjetskog prvenstva: Obala Bjelokosti ostala bez izbornika" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                            <span class="absolute top-2 left-2 bg-editorial-navy text-white text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow">
+                                Večernji list
+                            </span>
+                        </div>
+                        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-editorial-gold transition-colors line-clamp-2">
+                            Još jedan odlazak s klupe nakon Svjetskog prvenstva: Obala Bjelokosti ostala bez izbornika
+                        </h3>
+                    </div>
+                </a>
+            
+                <a href="https://www.24sata.hr/sport/video-beljo-nastavlja-u-formi-od-prosle-sezone-pogledajte-kako-je-dinamo-uzeo-tri-boda-1144766" target="_blank" rel="noopener" class="group flex flex-col justify-between bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl border border-slate-200 dark:border-slate-750 hover:border-editorial-gold transition-all">
+                    <div class="space-y-2.5">
+                        <div class="relative aspect-video overflow-hidden rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <img src="https://img.24sata.hr/K0S1Q8uHdNrqJmYCuaorvu1wdaw=/800x450/smart/media/images/2026-30/slika-zaslona-2026-07-31-u-22-44-50.png.jpg" alt="VIDEO Beljo nastavlja u formi od prošle sezone! Pogledajte kako je Dinamo uzeo tri boda" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                            <span class="absolute top-2 left-2 bg-editorial-navy text-white text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow">
+                                24sata
+                            </span>
+                        </div>
+                        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-editorial-gold transition-colors line-clamp-2">
+                            VIDEO Beljo nastavlja u formi od prošle sezone! Pogledajte kako je Dinamo uzeo tri boda
+                        </h3>
+                    </div>
+                </a>
+            
+                <a href="https://slobodnadalmacija.hr/sport/strani-nogomet/barcelona-dovela-talentiranog-belgijskog-juniora-koji-nema-niti-jedan-seniorski-nastup-provjerite-za-koliko-novca-1571210" target="_blank" rel="noopener" class="group flex flex-col justify-between bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl border border-slate-200 dark:border-slate-750 hover:border-editorial-gold transition-all">
+                    <div class="space-y-2.5">
+                        <div class="relative aspect-video overflow-hidden rounded-lg bg-slate-200 dark:bg-slate-800">
+                            <img src="https://static.slobodnadalmacija.hr/images/slike/2026/07/31/32239199.jpg" alt="Barcelona dovela talentiranog belgijskog juniora koji nema niti jedan seniorski nastup, provjerite za koliko novca" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                            <span class="absolute top-2 left-2 bg-editorial-navy text-white text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow">
+                                Slobodna Dalmacija
+                            </span>
+                        </div>
+                        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-editorial-gold transition-colors line-clamp-2">
+                            Barcelona dovela talentiranog belgijskog juniora koji nema niti jedan seniorski nastup, provjerite za koliko novca
+                        </h3>
+                    </div>
+                </a>
+            </div>
 
                 <!-- Simplified headlines section underneath featured spotlight -->
                 <div id="headlines-underneath-section" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-xl shadow-sm space-y-3 hidden transition-colors">
@@ -555,7 +593,7 @@
 
             <!-- Weather Report Page Section -->
             <div id="weather-area" class="hidden space-y-6">
-                <!-- Rendered dynamically by app.js?v=1.4.5 -->
+                <!-- Rendered dynamically by app.js?v=1.4.13 -->
             </div>
 
             <!-- Empty State -->
@@ -922,6 +960,6 @@
     </div><!-- /#newspaper-container -->
 
     <!-- JAVASCRIPT ENGINE -->
-    <script src="app.js?v=1.4.5"></script>
+    <script src="app.js?v=1.4.13"></script>
 </body>
 </html>
