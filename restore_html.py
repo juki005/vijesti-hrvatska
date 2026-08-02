@@ -622,38 +622,6 @@ def get_pre_rendered_subnav_html(active_key="sve"):
         
     return html
 
-def get_pre_rendered_splash_html():
-    try:
-        json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'articles.json')
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            
-        top3 = data[:3]
-        cards = ""
-        for a in top3:
-            img = a.get('image_url', '')
-            if not img or 'placeholder' in img:
-                img = 'https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=600&auto=format&fit=crop&q=80'
-                
-            cards += f'''
-                <a href="{a['link']}" target="_blank" rel="noopener" class="group flex flex-col justify-between bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl border border-slate-200 dark:border-slate-750 hover:border-editorial-gold transition-all">
-                    <div class="space-y-2.5">
-                        <div class="relative aspect-video overflow-hidden rounded-lg bg-slate-200 dark:bg-slate-800">
-                            <img src="{img}" alt="{a['title']}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-                            <span class="absolute top-2 left-2 bg-editorial-navy text-white text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow">
-                                {a['source']}
-                            </span>
-                        </div>
-                        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-editorial-gold transition-colors line-clamp-2">
-                            {a['title']}
-                        </h3>
-                    </div>
-                </a>
-            '''
-        return cards
-    except Exception as e:
-        return ""
-
 def main():
     cwd = os.path.dirname(os.path.abspath(__file__))
     index_path = os.path.join(cwd, "index.html")
@@ -664,10 +632,6 @@ def main():
         
     with open(config_path, 'r', encoding='utf-8') as f:
         seo_config = json.load(f)
-        
-    splash_html = get_pre_rendered_splash_html()
-    if splash_html:
-        template = re.sub(r'<div id="splash-section"[\s\S]*?</div>', f'<div id="splash-section" class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white dark:bg-slate-900 p-4 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm">{splash_html}</div>', template, count=1)
         
     for key, seo in seo_config.items():
         title = seo["title"]
