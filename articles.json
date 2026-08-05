@@ -1,12 +1,75 @@
 [
   {
-    "id": "79581219-860b-5776-88c6-116f8a409fb9",
-    "title": "FOTO Ovako je Zadar uživao na praznik: Prepune rive, more, sunce i čarobni zalazak sunca",
-    "link": "https://www.24sata.hr/news/foto-ovako-je-zadar-uzivao-na-praznik-prepune-rive-more-sunce-i-carobni-zalazak-sunca-1145700",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/tmmvw3EVvPjQkdY6-eG9RJkB3vI=/800x450/smart/media/images/2026-31/1_qLsEjxJ.png.jpg",
-    "description": "Ljetni ugođaj ispunio je Zadar, gdje su brojni domaći i strani gosti dan proveli uz more, šetnju rivom i ispijanje kave na terasama. Grad je bio prepun posjetitelja, a tražilo s...",
-    "published_at": "2026-08-05T21:28:00+00:00"
+    "id": "b1d539d1-d47a-5cb5-ac37-c31c4c4cfa33",
+    "title": "Nova tragedija na hrvatskim prometnicama: Auto sletio s kolnika i prepolovio se, jedna osoba poginula",
+    "link": "https://www.dalmacijadanas.hr/nova-tragedija-na-hrvatskim-prometnicama-auto-sletio-s-kolnika-i-prepolovio-se-jedna-osoba-poginula/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/prometna-zg.jpg",
+    "description": "Čovjek poginuo u Zagrebu, ima ozlijeđenih",
+    "published_at": "2026-08-05T22:17:34+00:00"
+  },
+  {
+    "id": "4fbbb151-2b39-5598-ab57-f2d09a8dbd0f",
+    "title": "Splićanin upozorava na veliki propust na Žnjanu: \"Zar ćemo zaboraviti ono što su naši stari radili još od srednjega vijeka?\"",
+    "link": "https://www.dalmacijadanas.hr/splicanin-upozorava-na-veliki-propust-na-znjanu-zar-cemo-zaboraviti-ono-sto-su-nasi-stari-radili-jos-od-srednjega-vijeka/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/znjan-crkvica.jpg",
+    "description": "Dok se mnogo ulaže u plaže, šetnice, sportske terene i ugostiteljske sadržaje, jedan Splićanin podsjeća da Žnjan ima i duboko kulturno, povijesno i duhovno nasljeđe",
+    "published_at": "2026-08-05T22:12:46+00:00"
+  },
+  {
+    "id": "a68832c6-f070-55ad-9a45-cd1eea05468e",
+    "title": "\"Ne možemo poletjeti niti imamo leteći tepih\": Biciklist doživio neugodnu situaciju u Dalmaciji",
+    "link": "https://www.dalmacijadanas.hr/ne-mozemo-poletjeti-niti-imamo-leteci-tepih-biciklist-dozivio-neugodnu-situaciju-u-dalmaciji/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/promet-bicikl.jpg",
+    "description": "Jedan mještanin opisao je incident koji se, prema njegovim navodima, dogodio nakon izlaska iz ljekarne. Kaže da je verbalni sukob izbio zbog parkiranog vozila i prolaska bicikli...",
+    "published_at": "2026-08-05T22:12:32+00:00"
+  },
+  {
+    "id": "770bdca3-1ce0-5690-9118-7a71dbd08c41",
+    "title": "Istinska splitska legenda: Sjećate li se Ante Perike? \"Razglas mu nije bio potreban. Volio je Split, a Hajduka iznad svega\"",
+    "link": "https://www.dalmacijadanas.hr/istinska-splitska-legenda-sjecate-li-se-ante-perike-razglas-mu-nije-bio-potreban-volio-je-split-a-hajduka-iznad-svega/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/ante-perika.jpg",
+    "description": "[SPLITSKI OSOBENJACI] Goran Borčić vraća u život svijet splitskih osobenjaka, a među njima i legendarnog Antu Periku, kolportera koji je svojim glasom, duhovitošću i ljubavlju p...",
+    "published_at": "2026-08-05T22:10:57+00:00"
+  },
+  {
+    "id": "9f0f4fba-29b6-5d29-91d4-f28ff61bfd11",
+    "title": "Dron s eksplozivom pronađen u zračnoj luci u Leipzigu, vlasti provode istragu",
+    "link": "https://www.vecernji.hr/vijesti/dron-s-eksplozivom-pronaden-u-zracnoj-luci-u-leipzigu-vlasti-provode-istragu-1984149",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/3f/b3/ac3a8d8a7218e696dbf0.jpeg",
+    "description": "Policijski stručnjaci zaplijenili su dron i deaktivirali napravu nakon što su je pregledali rendgenom",
+    "published_at": "2026-08-05T22:10:00+00:00"
+  },
+  {
+    "id": "8dd1fcef-13ec-5929-8a4f-39490af129f4",
+    "title": "Teška prometna nesreća u Zagrebu, auto se prepolovio: Jedna osoba poginula, dvoje ozlijeđenih",
+    "link": "https://www.vecernji.hr/vijesti/teska-prometna-nesreca-u-zagrebu-jedna-osoba-poginula-dvoje-ozlijedenih-1984151",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/32/23/118a4f5bbd257f7557ee.jpg",
+    "description": "U vozilu su se nalazile tri osobe. Jedna je osoba preminula na mjestu nesreće, dok su preostale dvije ozlijeđene te im je pružena hitna medicinska pomoć",
+    "published_at": "2026-08-05T22:09:00+00:00"
+  },
+  {
+    "id": "f551fa53-3975-5f12-8087-dfb5bc2a02fd",
+    "title": "Pogledajte s kim je Šuta pratio koncert Prljavog kazališta na Rivi",
+    "link": "https://www.dalmacijadanas.hr/pogledajte-s-kim-je-suta-pratio-koncert-prljavog-kazalista-na-rivi/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/toni-kukoc-tomislav-suta-nn.png",
+    "description": "Zvijezda u društvu gradonačelnika Šute",
+    "published_at": "2026-08-05T22:05:29+00:00"
+  },
+  {
+    "id": "73d7fa1c-69ed-586c-aaf0-001bf704f356",
+    "title": "Evo kako je Meghan Markle proslavila svoj rođendan: Veliki i važan dan obilježila je na jedinstven način",
+    "link": "https://www.vecernji.hr/showbiz/evo-kako-je-meghan-markle-proslavila-svoj-rodendan-veliki-i-vazan-dan-obiljezila-je-na-jedinstven-nacin-1983971",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/27/1e/ff6832894bdf107dcc0f.jpeg",
+    "description": "Na Instagramu je objavila dvije razigrane crno-bijele fotografije na kojima u jednodijelnom kupaćem kostimu, sa sunčanim naočalama i kosom svezanom u rep, skače u bazen držeći v...",
+    "published_at": "2026-08-05T22:02:00+00:00"
   },
   {
     "id": "422a850d-92aa-5fd8-9725-250fea59b058",
@@ -15,7 +78,97 @@
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/63/0f/0a12494a2984c847bbcc.jpeg",
     "description": "Jaissle je skrenuo pozornost na sebe još kao trener austrijskog Salzburga od 2021. do 2023. dok je zadnje tri godine proveo kao trener saudijskog Al Ahlija s kojim je osvojio dv...",
-    "published_at": "2026-08-05T21:25:00+00:00"
+    "published_at": "2026-08-05T22:02:00+00:00"
+  },
+  {
+    "id": "dccdbe1e-a480-541e-8b6f-33f08d838db4",
+    "title": "Dnevni horoskop za četvrtak 6. kolovoza: Blizancima odgovara mir, a Vage imaju volje za sve",
+    "link": "https://www.24sata.hr/lifestyle/dnevni-horoskop-za-cetvrtak-6-kolovoza-blizancima-odgovara-mir-a-vage-imaju-volje-za-sve-1145084",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/zXrUefS_KFplj0sOyaUqSXJ009Y=/800x450/smart/media/images/2026-03/153165221-m.jpg",
+    "description": "Pročitajte dnevni horoskop za četvrtak 6. kolovoza i saznajte koga očekuje uspjeh na poslu ili u financijama, kakva je situacija na ljubavnom planu, ali i tko mora pripaziti na ...",
+    "published_at": "2026-08-05T22:01:00+00:00"
+  },
+  {
+    "id": "d4a639a3-5009-52fb-8a94-f756e80363da",
+    "title": "FOTO: UŽAS U ZAGREBU Auto sletio s ceste i prepolovio se. Čovjek poginuo, ima ozlijeđenih",
+    "link": "https://www.24sata.hr/news/foto-uzas-u-zagrebu-auto-sletio-s-ceste-i-prepolovio-se-jedna-osoba-poginula-1145704",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/VT5wsIkegKi7-mGkPkkeAJeup3E=/800x450/smart/media/images/2026-31/bez-naslova-1500-x-900-piks-63.png.jpg",
+    "description": "Kako neslužbeno doznajemo, osobu koja je preminula liječnici su na mjestu jako dugo reanimirali",
+    "published_at": "2026-08-05T22:01:00+00:00"
+  },
+  {
+    "id": "1b7504bb-5a3f-5b68-8372-0da7221bcea3",
+    "title": "Auto sletio s ceste kod Zagreba. Jedna osoba poginula, dvoje ozlijeđenih",
+    "link": "https://www.index.hr/vijesti/clanak/auto-sletio-s-ceste-kod-zagreba-jedna-osoba-poginula-dvoje-ozlijedjenih/2821107.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "JEDNA osoba poginula je, a dvije su ozlijeđene u prometnoj nesreći koja se večeras dogodila u Zagrebu.",
+    "published_at": "2026-08-05T22:00:00+00:00"
+  },
+  {
+    "id": "f36c85ab-11d5-5204-a906-5bf4b06d47bb",
+    "title": "Dnevni horoskop za 6. kolovoza 2026. - što vam zvijezde danas donose",
+    "link": "https://www.tportal.hr/lifestyle/clanak/dnevni-horoskop-za-6-kolovoza-2026-sto-vam-zvijezde-danas-donose-20260728",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2772289.jpeg?cropId=4207246",
+    "description": "Ovnovi koriste mirniji tempo dana kako bi konačno dovršili obaveze koje su ih pratile kroz tjedan, što im donosi osjećaj olakšanja i kontrole. Bikovi uživaju u stabilnosti i rut...",
+    "published_at": "2026-08-05T22:00:00+00:00"
+  },
+  {
+    "id": "4abac0a5-88e7-549a-b8fc-d0a274ac2248",
+    "title": "FOTO Nick Cave napunio pulsku Arenu i drugu večer pa oduševio",
+    "link": "https://www.24sata.hr/show/foto-nick-cave-napunio-pulsku-arenu-i-drugu-vecer-pa-odusevio-1145703",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/ox5z1EFENfL21sRpWJw7Y0OAIFU=/800x450/smart/media/images/2026-31/pxl-050826-156271119_9RPgq5S.jpg",
+    "description": "Legendarni Nick Cave and The Bad Seeds drugu su večer za redom u trans bacili prepunu Arenu u Puli. A bacio se i sam Cave na publiku na kojoj je 'surfao' te se hladio lepezama...",
+    "published_at": "2026-08-05T21:55:00+00:00"
+  },
+  {
+    "id": "a00b2e55-7ae8-5f44-a6bc-f535444f5525",
+    "title": "Šok za PSG! Francuzi su 'dobili porciju' od kluba iz druge lige",
+    "link": "https://www.24sata.hr/sport/sok-za-psg-francuzi-su-dobili-porciju-od-kluba-iz-druge-lige-1145702",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/Bb30k53XnNMI1r5yrpMKLYoJBco=/800x450/smart/media/images/2026-31/icon-sport-050826-156269405_8Fvtxka.jpg",
+    "description": "Šok za PSG! Prvak Europe pao je 3-0 od Mallorce u prvoj pripremnoj utakmici, a Parižani su djelovali tromo i bez odgovora",
+    "published_at": "2026-08-05T21:54:00+00:00"
+  },
+  {
+    "id": "4fda6b1e-7db4-526a-962f-68ead98e145e",
+    "title": "FOTO Armada zapalila 222 baklje: Riječki lukobran zasjao u čast poginulim braniteljima",
+    "link": "https://www.24sata.hr/news/foto-armada-zapalila-222-baklje-rijecki-lukobran-zasjao-u-cast-poginulim-braniteljima-1145701",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/CcIdBMh076m1LcIQveu-wDih2dU=/800x450/smart/media/images/2026-31/pxl-050826-156270695_oRaLXcR.jpg",
+    "description": "Riječki lukobran u srijedu navečer obasjalo je 222 baklje koje su članovi Armade zapalili u čast poginulim hrvatskim braniteljima povodom obilježavanja obljetnice vojno-redarstv...",
+    "published_at": "2026-08-05T21:38:00+00:00"
+  },
+  {
+    "id": "c10b9e36-7a54-5275-93d1-d3cf2bae77bd",
+    "title": "Srbin je bio najpoželjniji igrač Europe, a danas proživljava pad i traži spas karijere",
+    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/srbin-je-bio-najpozeljniji-igrac-europe-a-danas-prozivljava-pad-i-trazi-spas-karijere-1572036",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/05/30627378.jpg",
+    "description": "Tužna je priča Dušana Vlahovića, koji je u svega nekoliko godina prešao put od jednog od najpoželjnijih talenata Europe do igrača koji je trenutačno bez kluba i traži sredinu u ...",
+    "published_at": "2026-08-05T21:35:25+00:00"
+  },
+  {
+    "id": "334914f3-696b-51c8-bda3-046b5581a300",
+    "title": "Bakljadom i vatrometom kulminirao koncert Prljavaca; publika nije htjela kući, bend produžio ‘po željama‘",
+    "link": "https://slobodnadalmacija.hr/split-i-zupanija/split/bakljadom-i-vatrometom-kulminirao-koncert-prljavaca-publika-nije-htjela-kuci-bend-produzio-po-zeljama-1572035",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/05/32261394.jpg",
+    "description": "Proslava Dana pobjede i domovinske zahvalnosti, Dana hrvatskih branitelja i 31. obljetnice Oluje na Rivi kulminirala je prigodnim vatrometom s Gata sv. Nikole na izmaku sjajnog ...",
+    "published_at": "2026-08-05T21:33:06+00:00"
+  },
+  {
+    "id": "79581219-860b-5776-88c6-116f8a409fb9",
+    "title": "FOTO Ovako je Zadar uživao na praznik: Prepune rive, more, sunce i čarobni zalazak sunca",
+    "link": "https://www.24sata.hr/news/foto-ovako-je-zadar-uzivao-na-praznik-prepune-rive-more-sunce-i-carobni-zalazak-sunca-1145700",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/tmmvw3EVvPjQkdY6-eG9RJkB3vI=/800x450/smart/media/images/2026-31/1_qLsEjxJ.png.jpg",
+    "description": "Ljetni ugođaj ispunio je Zadar, gdje su brojni domaći i strani gosti dan proveli uz more, šetnju rivom i ispijanje kave na terasama. Grad je bio prepun posjetitelja, a tražilo s...",
+    "published_at": "2026-08-05T21:28:00+00:00"
   },
   {
     "id": "af6898fd-55aa-51f7-8952-bf65fdc481d8",
@@ -180,6 +333,15 @@
     "published_at": "2026-08-05T20:46:00+00:00"
   },
   {
+    "id": "c068ea84-1477-5ca3-a138-9c92e8b592d4",
+    "title": "Evo kojom su pjesmom Prljavci završili spektakularni koncert na splitskoj Rivi",
+    "link": "https://www.dalmacijadanas.hr/evo-kojom-su-pjesmom-prljavci-zavrsili-spektakularni-koncert-na-splitskoj-rivi/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/prljavo-kazaliste-riva-split-5.jpeg",
+    "description": "Koncert za pamćenje",
+    "published_at": "2026-08-05T20:45:51+00:00"
+  },
+  {
     "id": "102ec031-1f39-59a9-94e0-540312c8789f",
     "title": "Incident u Svetom Ivanu Žabnu: Trojica opkolila vozilo u kojem su bili muškarac i dijete, jedan je uhićen",
     "link": "https://www.vecernji.hr/vijesti/incident-u-svetom-ivanu-zabnu-trojica-muskaraca-opkolila-vozilo-u-kojem-su-bili-muskarac-i-dijete-1984090",
@@ -214,15 +376,6 @@
     "image_url": "https://img.24sata.hr/uyx3E5NHrwAkAQI33j6Coq3mQ7w=/800x450/smart/media/images/2025-13/pxl-dpa-060120-27386472-erpndiy.jpg",
     "description": "Njihova ljubavna priča započela je 1994. u Meksiku, otprilike dvije godine nakon što je irski glumac izgubio svoju prvu suprugu, Cassandru Harris",
     "published_at": "2026-08-05T20:40:00+00:00"
-  },
-  {
-    "id": "77e57986-8c5e-5264-87e0-619f70977de6",
-    "title": "\"Lupi petama, reci evo sve za Hrvatsku\" pokrenula spektakularnu bakljadu. Vatromet obasjao nebo nad Splitom",
-    "link": "https://www.dalmacijadanas.hr/uzivo-prljavo-kazaliste-zapalilo-splitsku-rivu/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/prljavo-kazaliste-riva-foto-laura-kovacevic-9.jpeg",
-    "description": "Pogledajte djelić atmosfere",
-    "published_at": "2026-08-05T20:39:51+00:00"
   },
   {
     "id": "4059d4a6-b142-5cee-9446-0dd9ca04edc2",
@@ -370,12 +523,12 @@
   },
   {
     "id": "5b6ef0e1-d92d-596f-8801-6ebb37eaf2ea",
-    "title": "Naljepše domoljubne pjesme Dubrovačkog simfonijskog orkestra uz Dan pobjede i domovinske zahvalnosti",
+    "title": "Najljepše domoljubne pjesme Dubrovačkog simfonijskog orkestra uz Dan pobjede i domovinske zahvalnosti",
     "link": "https://slobodnadalmacija.hr/dubrovnik/zupanija/dubrovnik/naljepse-domoljubne-pjesme-dubrovackog-simfonijskog-orkestra-uz-dan-pobjede-i-domovinske-zahvalnosti-1572028",
     "source": "Slobodna Dalmacija",
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/05/32261056.jpg",
     "description": "Povodom obilježavanja Dana pobjede i domovinske zahvalnosti, Dana hrvatskih branitelja te 31. obljetnice VRO „Oluja“, ispred crkve sv. Vlaha nastupio je Dubrovački simfonijski o...",
-    "published_at": "2026-08-05T20:14:48+00:00"
+    "published_at": "2026-08-05T20:14:00+00:00"
   },
   {
     "id": "fa7c296e-73da-5aa0-83e3-89f74f35a885",
@@ -474,15 +627,6 @@
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/d5/de/5989414ff3ee6deb49b2.jpeg",
     "description": "U prvim blaženim trenucima odmah nakon seksa, vjerojatno ne razmišljate o tome što se događa s vašim tijelom u tom određenom trenutku.",
-    "published_at": "2026-08-05T20:00:00+00:00"
-  },
-  {
-    "id": "73d7fa1c-69ed-586c-aaf0-001bf704f356",
-    "title": "Evo kako je Meghan Markle proslavila svoj rođendan: Veliki i važan dan obilježila je na jedinstven način",
-    "link": "https://www.vecernji.hr/showbiz/evo-kako-je-meghan-markle-proslavila-svoj-rodendan-veliki-i-vazan-dan-obiljezila-je-na-jedinstven-nacin-1983971",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/27/1e/ff6832894bdf107dcc0f.jpeg",
-    "description": "Na Instagramu je objavila dvije razigrane crno-bijele fotografije na kojima u jednodijelnom kupaćem kostimu, sa sunčanim naočalama i kosom svezanom u rep, skače u bazen držeći v...",
     "published_at": "2026-08-05T20:00:00+00:00"
   },
   {
@@ -819,15 +963,6 @@
     "published_at": "2026-08-05T19:30:32+00:00"
   },
   {
-    "id": "e35bc03d-377c-55a5-992e-82836915583d",
-    "title": "Alkari u znaku Oluje: Uoči Alke trenirali u majicama posvećenima vojno-redarstvenoj operaciji",
-    "link": "https://www.dalmacijadanas.hr/alkari-u-znaku-oluje-uoci-alke-trenirali-u-majicama-posvecenima-vojno-redarstvenoj-operaciji/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/alka-nn.jpg",
-    "description": "Sinj se priprema za alkarske svečanosti, a današnji trening obilježile su majice s natpisom \"Oluja\" u povodu Dana pobjede i domovinske zahvalnosti",
-    "published_at": "2026-08-05T19:30:27+00:00"
-  },
-  {
     "id": "468bc2fa-99dd-5814-a5a4-60d1bc45f73e",
     "title": "Hoće li Hrvatska imati dovoljno struje i vode? Evo što kažu glavni opskrbljivači u državi",
     "link": "https://www.poslovni.hr/hrvatska/hep-i-u-slucaju-zaustavljanja-nek-a-osigurat-cemo-elektricnu-energiju-4550083",
@@ -853,15 +988,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/29/32235850.jpg",
     "description": "S ponosom i dubokim poštovanjem hrvatski narod svake godine obilježava početak kolovoza. Dane koji su zauvijek promijenili našu povijest. Vojno-redarstvena operacija „Oluja“ ost...",
     "published_at": "2026-08-05T19:28:32+00:00"
-  },
-  {
-    "id": "0a7662bd-dc4f-5ab1-8eb3-19aa969cb850",
-    "title": "Priveli načelnika koji je udarao po autu u kojem je bila beba",
-    "link": "https://www.24sata.hr/news/priveli-nacelnika-koji-je-udarao-po-autu-u-kojem-je-bila-beba-1145686",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/ARXbPT4Cm6fYcq7TGimPr2fJXV4=/800x450/smart/media/images/2026-31/slika-zaslona-2026-08-05-u-22-44-45.png.jpg",
-    "description": "Zbog sumnje u počinjenje kaznenog djela prijetnje protiv osumnjičenika podneseno je posebno izvješće nadležnom državnom odvjetništvu te je predan pritvorskom nadzorniku",
-    "published_at": "2026-08-05T19:27:00+00:00"
   },
   {
     "id": "80849956-6fd3-54e2-9ef9-e1b8aa72f714",
@@ -918,24 +1044,6 @@
     "published_at": "2026-08-05T19:15:00+00:00"
   },
   {
-    "id": "87053900-599c-53d9-ad83-4b01a4156662",
-    "title": "\"Ne mogu zatvoriti oči i praviti se da ne vidim neku ugrozu\": Gosti broda napravili divnu gestu kada su s broda vidjeli užas na viškoj plaži",
-    "link": "https://www.dalmacijadanas.hr/ne-mogu-zatvoriti-oci-i-praviti-se-da-ne-vidim-neku-ugrozu-gosti-broda-napravili-divnu-gestu-kada-su-s-broda-vidjeli-uzas-na-viskoj-plazi/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/vis-ciscenje.jpg",
-    "description": "[VIDEO] Tijekom krstarenja srednjodalmatinskim otocima gosti i posada broda M/S Navigator zasukali su rukave te iz uvale Travna uklonili smeće koje bi u prirodi ostalo desetljećima",
-    "published_at": "2026-08-05T19:14:02+00:00"
-  },
-  {
-    "id": "4da69d7f-65e1-5050-89e5-aa26dab80483",
-    "title": "VIDEO Napokon mu se otvorilo! Jagušić zabio novi gol za Panatu",
-    "link": "https://www.24sata.hr/sport/video-napokon-mu-se-ovorilo-jagusic-zabio-novi-gol-za-panatu-1145685",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/H13GqT_pXVbmqk8XAJwTe1_GcXI=/800x450/smart/media/images/2026-31/images-2026-31-none-300726-156016975.jpg",
-    "description": "Jagušić eksplodirao u Europi! Mladi Hrvat zabio za Panathinaikos protiv CSKA Sofije i napokon najavio veliku sezonu",
-    "published_at": "2026-08-05T19:12:00+00:00"
-  },
-  {
     "id": "2b94f38b-0374-5df3-b4d0-330321c214db",
     "title": "Newcastle imenovao novog glavnog trenera, stiže iz Saudijske Arabije",
     "link": "https://sportnet.hr/vijesti/nogomet-engleska/newcastle-imenovao-novog-glavnog-trenera-stize-iz-saudijske-arabije/630091/",
@@ -981,48 +1089,12 @@
     "published_at": "2026-08-05T19:01:00+00:00"
   },
   {
-    "id": "42da4454-d836-5ca6-ab54-7e67a0a7e271",
-    "title": "Gledajte '240 sekundi' 24sata: Knin u znaku Oluje, Plenković i Milanović se ignorirali...",
-    "link": "https://www.24sata.hr/news/gledajte-240-sekundi-24sata-knin-u-znaku-oluje-plenkovic-i-milanovic-se-ignorirali-1145681",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/SehzBmf3wuJ6ml6Jb3Y-JHziqtk=/800x450/smart/media/images/2026-31/slika-zaslona-2026-08-05-u-20-33-17.png.jpg",
-    "description": "Svakog dana u 21 sat na kanalu CMC-ja te na portalima i društvenim mrežama 24sata i Večernjeg lista gledajte najnovije vijesti dana u '240 sekundi 24sata'. Danas u vijestima Snj...",
-    "published_at": "2026-08-05T19:01:00+00:00"
-  },
-  {
-    "id": "87f9ab75-411f-5440-8211-d82d357035b2",
-    "title": "Preminuo Josip Grgurić, doajen hrvatske pedijatrije",
-    "link": "https://www.tportal.hr/vijesti/clanak/preminuo-josip-grguric-doajen-hrvatske-pedijatrije-20260805",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2776986.jpeg?cropId=0",
-    "description": "Preminuo je Josip Grgurić, istaknuti hrvatski pedijatar i sveučilišni profesor, dobitnik UNICEF-ova priznanja \"Prijatelj generacijama djece\", koji je ostavio dubok trag u hrvats...",
-    "published_at": "2026-08-05T19:01:00+00:00"
-  },
-  {
-    "id": "ce587269-cced-5753-849a-843696e2d336",
-    "title": "Teška prometna: Motociklist s ozljedama opasnima po život prevezen u splitsku bolnicu",
-    "link": "https://www.dalmacijadanas.hr/teska-prometna-motociklist-s-ozljedama-opasnima-po-zivot-prevezen-u-splitsku-bolnicu/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2025/01/1-7-bolnica-hitna-ilustracija-7.jpg",
-    "description": "Nesreća se dogodila nešto prije 19 sati",
-    "published_at": "2026-08-05T19:00:46+00:00"
-  },
-  {
     "id": "f923ae2d-6785-5626-866f-fe4e88bdadc4",
     "title": "Vrijeme je za obnovu zaliha: Cijene proizvoda za kućanstvo su se prepolovile",
     "link": "https://www.index.hr/shopping/clanak/vrijeme-je-za-obnovu-zaliha-cijene-proizvoda-za-kucanstvo-su-se-prepolovile/2820542.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "OVE PROIZVODE treba svako kućanstvo, a sad su dostupni po još boljim cijenama.",
-    "published_at": "2026-08-05T19:00:00+00:00"
-  },
-  {
-    "id": "a8769f9c-9c51-5eda-b883-cd9677808001",
-    "title": "Fore na koje 'padaju': Zavedite nekoga po horoskopskom znaku",
-    "link": "https://www.24sata.hr/lifestyle/fore-na-koje-padaju-zavedite-nekoga-po-horoskopskom-znaku-1073547",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/ot-Nj8eU846I2RC9ANO8jn4zs9o=/800x450/smart/media/images/2023-23/dreamstime-l-217444988.jpg",
-    "description": "Želite li osvojiti Vagu ili Vodenjaka budite neopterećeni, komunikativni i što opušteniji. S Ribama i Rakovima treba strpljivo, a kod Blizanaca će najbolje upaliti razgovori o g...",
     "published_at": "2026-08-05T19:00:00+00:00"
   },
   {
@@ -1060,15 +1132,6 @@
     "image_url": null,
     "description": "NAKON 18 godina stiže redateljska verzija filma Dosje X.",
     "published_at": "2026-08-05T18:55:00+00:00"
-  },
-  {
-    "id": "0c14149b-a315-5f04-8cff-ba19cb86159b",
-    "title": "BUKTINJA U ZAGREBU Aparat za gašenje eksplodirao, jedan vatrogasac-zaštitar u bolnici...",
-    "link": "https://www.24sata.hr/news/buktinja-u-zagrebu-aparat-za-gasenje-eksplodirao-jedan-vatrogasac-zastitar-u-bolnici-1145684",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/u0DRmrLhU1GUSPblJflm2DMfxlk=/800x450/smart/media/images/2026-31/pxl-050826-156268444.jpg",
-    "description": "Požar su u potpunosti ugasili vatrogasci JVP Grada Zagreba, a Hitna pomoć ozlijeđenog muškarca prevezla je u bolnicu",
-    "published_at": "2026-08-05T18:54:00+00:00"
   },
   {
     "id": "c190ed3c-e22f-5d3f-9077-8a40692fc972",
@@ -1123,42 +1186,6 @@
     "image_url": null,
     "description": "Objava Kada bismo ovog ljeta morali odabrati samo tri parfema, bili bi to ovi prvi put se pojavila na Journal.hr .",
     "published_at": "2026-08-05T18:45:01+00:00"
-  },
-  {
-    "id": "959137ba-691b-5eb9-bac6-e0bcfae89421",
-    "title": "Hrvatske rijeke na rubu nezapamćene hidrološke krize: Najdramatičnija je situacija na Dunavu u Batini",
-    "link": "https://www.vecernji.hr/vijesti/vodostaji-dunava-drave-i-save-nikad-nizi-susa-prijeti-zivotu-i-vodoopskrbi-1984064",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/33/b4/94638453448f77a421fa.jpeg",
-    "description": "Hidrolozi upozoravaju da se Hrvatska već suočava s posljedicama klimatskih promjena koje donose sve dulja sušna razdoblja, više temperature i sve izraženije oscilacije vodostaja.",
-    "published_at": "2026-08-05T18:45:00+00:00"
-  },
-  {
-    "id": "70ee7c7a-261e-5685-bd08-aaaef1d32fb3",
-    "title": "Je li ovo najljepša procesija morem u Dalmaciji? \"Višestoljetna zavjetna tradicija koja povezuje vjeru, otočni život i more\"",
-    "link": "https://www.dalmacijadanas.hr/je-li-ovo-najljepsa-procesija-morem-u-dalmaciji-visestoljetna-zavjetna-tradicija-koja-povezuje-vjeru-otocni-zivot-i-more/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/gospa-snjezna-kukljica-brodice-procesija.png",
-    "description": "Nakon mise za blagdan Gospe od Sniga okupila su se brojna plovila, dok su se morem širili glazba, pjesma i svjetlost baklji",
-    "published_at": "2026-08-05T18:43:40+00:00"
-  },
-  {
-    "id": "b356897d-e7e6-58a7-ba1b-5f279f8ed2d7",
-    "title": "Idete na Prljavo kazalište? Promet uveo dodatne autobusne linije nakon koncerta",
-    "link": "https://www.dalmacijadanas.hr/idete-na-prljavo-kazaliste-promet-uveo-dodatne-autobusne-linije-nakon-koncerta/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2019/09/promet_split_autobusi_24.jpg",
-    "description": "Zbog večerašnjeg koncerta na splitskoj Rivi građanima će nakon završetka programa biti na raspolaganju dodatni polasci na pet autobusnih linija",
-    "published_at": "2026-08-05T18:41:43+00:00"
-  },
-  {
-    "id": "dbe8ada8-1a7c-5f9c-a292-ac988fba03ea",
-    "title": "Garcia: Svi su nervozni kada izgubimo, posebno u Hajduku gdje poslije poraza postane glasno",
-    "link": "https://www.vecernji.hr/sport/garcia-svi-su-nervozni-kada-izgubimo-posebno-u-hajduku-gdje-poslije-poraza-postane-glasno-1984117",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/d6/63/9968ed67093ffceaadcb.jpeg",
-    "description": "Želimo pobijediti što prije. Svi su nervozni kada izgubimo. Posebno u klubu kao što je Hajduk gdje čim ne pobijediš postane glasno. Moramo se fokusirati, a sutra nam je jako važ...",
-    "published_at": "2026-08-05T18:41:00+00:00"
   },
   {
     "id": "77f2fccf-46c6-5ff1-9a4e-caaac1d6805a",
@@ -1449,21 +1476,21 @@
     "published_at": "2026-08-05T17:31:00+00:00"
   },
   {
-    "id": "624f04f1-132a-54ae-896d-b82f19f6e6bc",
-    "title": "\"Mama, uspio sam\": Bio je kandidat za predsjednika RH, sada ulazi u reality show",
-    "link": "https://www.index.hr/magazin/clanak/mama-uspio-sam-bio-je-kandidat-za-predsjednika-rh-sada-ulazi-u-reality-show/2821061.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "U PUSTOLOVNU utrku dugu 6000 kilometara ulazi sa svojim nećakom.",
-    "published_at": "2026-08-05T17:30:00+00:00"
-  },
-  {
     "id": "d1859887-7966-573d-a308-c75fd8aee98d",
     "title": "Astrolozi tvrde da će 9. kolovoza mnogima promijeniti planove",
     "link": "https://www.index.hr/horoskop/clanak/astrolozi-tvrde-da-ce-9-kolovoza-mnogima-promijeniti-planove/2821054.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "KOLOVOZ donosi nekoliko zanimljivih astroloških događaja.",
+    "published_at": "2026-08-05T17:30:00+00:00"
+  },
+  {
+    "id": "624f04f1-132a-54ae-896d-b82f19f6e6bc",
+    "title": "\"Mama, uspio sam\": Bio je kandidat za predsjednika RH, sada ulazi u reality show",
+    "link": "https://www.index.hr/magazin/clanak/mama-uspio-sam-bio-je-kandidat-za-predsjednika-rh-sada-ulazi-u-reality-show/2821061.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "U PUSTOLOVNU utrku dugu 6000 kilometara ulazi sa svojim nećakom.",
     "published_at": "2026-08-05T17:30:00+00:00"
   },
   {
@@ -2322,24 +2349,6 @@
     "published_at": "2026-08-05T14:26:00+00:00"
   },
   {
-    "id": "2aaddeba-110e-5aa1-8d52-f6e584f2ec26",
-    "title": "Cijeli Imotski bruji o dvojici dječaka; dok su se vozači ‘pržili‘ u koloni, Šime i Ljubo izveli su potez dana",
-    "link": "https://slobodnadalmacija.hr/split-i-zupanija/zagora/cijeli-imotski-bruji-o-dva-djecaka-dok-su-se-vozaci-przili-u-beskonacnoj-koloni-sime-i-ljubo-su-izveli-potez-dana-1571981",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/05/17801410.jpg",
-    "description": "Dok su vozači satima čekali u velikoj gužvi na graničnom prijelazu Vinjani Donji, dvojica dječaka odlučila su učiniti nešto što je mnogima uljepšalo dan. Na velikoj vrućini, s o...",
-    "published_at": "2026-08-05T14:25:00+00:00"
-  },
-  {
-    "id": "61304973-9679-5bfe-97f8-fe92f0aca878",
-    "title": "Marin prvi, Willie drugi, Richard treći: Napadni praktikabli na Lovrjencu zaista bodu oči! Prije predstave nisu useljavale u prostor, prostor je useljavao u predstavu!",
-    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/kultura/marin-prvi-willie-drugi-richard-treci-1571980",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/07/28/32252398.jpg",
-    "description": "Marin Držić je prvi, a William Shakespeare drugi najizvođeniji autor u dosadašnjoj povijesti Dubrovačkih ljetnih igara. Počevši od prvoga Dubrovačkoga festivala 1950. godine, s ...",
-    "published_at": "2026-08-05T14:24:09+00:00"
-  },
-  {
     "id": "6ce9e43f-14e5-5d3a-a66d-2e9829249a07",
     "title": "Igrač Hajduka ozlijedio se na treningu. Nije u kadru za Žalgiris",
     "link": "https://www.index.hr/sport/clanak/igrac-hajduka-ozlijedio-se-na-treningu-nije-u-kadru-za-zalgiris/2821019.aspx",
@@ -2385,21 +2394,21 @@
     "published_at": "2026-08-05T14:10:00+00:00"
   },
   {
-    "id": "a090adca-4aa9-594f-9522-690d7df987d8",
-    "title": "Dinamu se prilagodio raspored SHNL-a zbog LP-a. Evo kad se igraju utakmice 3. kola",
-    "link": "https://www.index.hr/sport/clanak/dinamu-se-prilagodio-raspored-shnla-zbog-lpa-evo-kad-se-igraju-utakmice-3-kola/2821016.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ŽELI SE omogućiti što više vremena za pripremu za LP.",
-    "published_at": "2026-08-05T14:09:00+00:00"
-  },
-  {
     "id": "591fd306-8e63-5750-8b53-69b679877e1b",
     "title": "FOTO Kontinentalci spas od vrućina pronašli u jezeru Čiče",
     "link": "https://www.index.hr/magazin/clanak/foto-kontinentalci-spas-od-vrucina-pronasli-u-jezeru-cice/2821017.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "JEDNO od omiljenih lokalnih kupališta i danas je bilo puno kupača.",
+    "published_at": "2026-08-05T14:09:00+00:00"
+  },
+  {
+    "id": "a090adca-4aa9-594f-9522-690d7df987d8",
+    "title": "Dinamu se prilagodio raspored SHNL-a zbog LP-a. Evo kad se igraju utakmice 3. kola",
+    "link": "https://www.index.hr/sport/clanak/dinamu-se-prilagodio-raspored-shnla-zbog-lpa-evo-kad-se-igraju-utakmice-3-kola/2821016.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ŽELI SE omogućiti što više vremena za pripremu za LP.",
     "published_at": "2026-08-05T14:09:00+00:00"
   },
   {
@@ -2601,21 +2610,21 @@
     "published_at": "2026-08-05T13:13:00+00:00"
   },
   {
-    "id": "97565219-64c4-5d56-b2af-570900698402",
-    "title": "FOTO Rusija zasula Kijev balističkim projektilima, najmanje 21 ubijeni",
-    "link": "https://www.index.hr/vijesti/clanak/foto-rusija-zasula-kijev-balistickim-projektilima-najmanje-21-ubijeni/2820998.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "U RUSKOM balističkom napadu na Kijev ubijena je najmanje 21 osoba, a Zelenski upozorava da su životi mogli biti spašeni uz sustave Patriot.",
-    "published_at": "2026-08-05T13:13:00+00:00"
-  },
-  {
     "id": "8efb71fd-77bd-51f5-9064-b6e3a6afa9fe",
     "title": "Njegovi sustavi nadziru hrvatsko nebo i Jadran. Rat ga je pretvorio u europskog diva",
     "link": "https://www.index.hr/vijesti/clanak/njegovi-sustavi-nadziru-hrvatsko-nebo-i-jadran-rat-ga-je-pretvorio-u-europskog-diva/2820024.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "\"I DALJE poslujemo u Hrvatskoj i bilježimo kontinuiran rast interesa za naše sustave\", rekli su iz Saaba iza Index",
+    "published_at": "2026-08-05T13:13:00+00:00"
+  },
+  {
+    "id": "97565219-64c4-5d56-b2af-570900698402",
+    "title": "FOTO Rusija zasula Kijev balističkim projektilima, najmanje 21 ubijeni",
+    "link": "https://www.index.hr/vijesti/clanak/foto-rusija-zasula-kijev-balistickim-projektilima-najmanje-21-ubijeni/2820998.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "U RUSKOM balističkom napadu na Kijev ubijena je najmanje 21 osoba, a Zelenski upozorava da su životi mogli biti spašeni uz sustave Patriot.",
     "published_at": "2026-08-05T13:13:00+00:00"
   },
   {
@@ -3139,15 +3148,6 @@
     "image_url": null,
     "description": "Objava Prva uloga nakon osvojenog Oscara: Michael B. Jordan sprema nam remake poznatog trilera prvi put se pojavila na Journal.hr .",
     "published_at": "2026-08-05T10:45:01+00:00"
-  },
-  {
-    "id": "4831a706-d553-5adf-9aee-bebc76a07097",
-    "title": "Shakira oživjela slavni meme nakon gotovo 30 godina",
-    "link": "https://www.index.hr/magazin/clanak/shakira-ozivjela-slavni-meme-nakon-gotovo-30-godina/2820948.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "KOLUMBIJSKA pjevačica Shakira rekreirala je svoju fotografiju iz 1997. koja je postala popularan internetski meme.",
-    "published_at": "2026-08-05T10:30:00+00:00"
   },
   {
     "id": "3bf776a8-1b50-5fdb-bb0f-3ad8f46c02ab",
