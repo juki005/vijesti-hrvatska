@@ -5152,20 +5152,20 @@ function renderFeed() {
 
                 const subcatHTML = catConf.subcategories.map(sub => {
                     const subId = sub.toLowerCase().replace(/\s+/g, '-').replace(/i-kvarner/g, 'istra-i-kvarner');
-                    return `<a href="${catConf.id}.html#${subId}" class="text-[11.5px] text-slate-700 dark:text-slate-400 font-bold hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors uppercase tracking-wider">${sub}</a>`;
+                    return `<a href="${catConf.id}#${subId}" class="text-[11.5px] text-slate-700 dark:text-slate-400 font-bold hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors uppercase tracking-wider">${sub}</a>`;
                 }).join('<span class="text-slate-400 dark:text-slate-700">·</span>');
 
                 block.innerHTML = `
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5 gap-2">
                         <div class="flex items-center space-x-4">
-                            <a href="${catConf.id}.html" class="text-base font-bold text-[#1C1C1C] dark:text-[#F4F3EE] hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors tracking-wide uppercase select-none font-serif">
+                            <a href="${catConf.id}" class="text-base font-bold text-[#1C1C1C] dark:text-[#F4F3EE] hover:text-editorial-navy dark:hover:text-editorial-gold transition-colors tracking-wide uppercase select-none font-serif">
                                 ${catConf.name}
                             </a>
                             <div class="hidden sm:flex items-center space-x-2 text-xs">
                                 ${subcatHTML}
                             </div>
                         </div>
-                        <a href="${catConf.id}.html" class="text-[12.5px] text-editorial-navy dark:text-editorial-gold hover:underline font-bold self-start sm:self-center font-serif">
+                        <a href="${catConf.id}" class="text-[12.5px] text-editorial-navy dark:text-editorial-gold hover:underline font-bold self-start sm:self-center font-serif">
                             Prikaži sve &rarr;
                         </a>
                     </div>
@@ -6236,7 +6236,7 @@ function renderSidebar() {
                     <h3 class="text-xs font-serif font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">
                         TOP 6 PORTALA
                     </h3>
-                    <a href="portali.html" class="text-[10px] text-editorial-navy dark:text-editorial-gold hover:underline font-bold uppercase">Svi portali &rarr;</a>
+                    <a href="portali" class="text-[10px] text-editorial-navy dark:text-editorial-gold hover:underline font-bold uppercase">Svi portali &rarr;</a>
                 </div>
                 <div class="grid grid-cols-2 gap-2 pt-1">
                     ${portalsHTML}
@@ -7385,7 +7385,7 @@ function checkAdminAccess() {
     const isLogged = sessionStorage.getItem('admin_logged_in') === 'true';
     
     if (isAdminPage && !isLogged) {
-        window.location.href = 'index.html';
+        window.location.href = '/';
         return false;
     }
     
@@ -8049,7 +8049,7 @@ function initHeaderHolidayBadge() {
         
         badge.innerHTML = `
             <a href="kalendar" class="inline-flex items-center gap-1 hover:text-editorial-gold transition-colors" title="Pregledaj kalendar blagdana">
-                <span class="font-bold text-slate-300 dark:text-slate-200">🎉 BLAGDAN:</span>
+                <span class="font-bold text-slate-300 dark:text-slate-200">🗓️ BLAGDAN:</span>
                 <span class="text-editorial-gold font-bold">${upcoming.name} (${dayFormatted})</span>
                 <span class="bg-emerald-500/20 text-emerald-400 font-extrabold text-[9.5px] px-1.5 py-0.5 rounded">
                     ${diffDays === 0 ? 'DANAS' : `za ${diffDays} d.`}
@@ -8355,7 +8355,7 @@ function renderHolidaysPage(selectedYear = null) {
                     <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="${holiday.name}">
                         ${day}
                         <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
-                            🎉 ${holiday.name}
+                            🗓️ ${holiday.name}
                         </div>
                     </div>
                 `;

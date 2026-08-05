@@ -80,7 +80,7 @@ def render_month_html(year, month_idx):
                         <div class="h-7 w-7 rounded bg-rose-600 text-white font-extrabold text-[10px] flex items-center justify-center shadow-sm cursor-pointer relative group" title="{holiday['name']}">
                             {day}
                             <div class="absolute bottom-full mb-1 hidden group-hover:block bg-slate-950 text-white text-[10px] p-2 rounded shadow-2xl whitespace-nowrap z-50 font-sans border border-slate-700">
-                                🎉 {holiday['name']}
+                                🗓️ {holiday['name']}
                             </div>
                         </div>
                     '''
@@ -139,7 +139,7 @@ def get_next_holiday_info(year):
                     Sljedeći blagdan
                 </span>
                 <span class="font-extrabold text-sm text-slate-900 dark:text-white flex items-center gap-1.5 font-serif">
-                    🎉 {upcoming['name']} <span class="font-mono text-xs text-slate-500 font-normal">({fmt_date})</span>
+                    🗓️ {upcoming['name']} <span class="font-mono text-xs text-slate-500 font-normal">({fmt_date})</span>
                 </span>
             </div>
             <div class="flex items-center gap-2 self-start sm:self-auto shrink-0">
@@ -756,7 +756,7 @@ def main():
         content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.39', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.41', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
