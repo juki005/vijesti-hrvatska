@@ -4429,7 +4429,7 @@ const CATEGORIZED_PORTALS = {
 // Category configurations
 const PORTAL_CATEGORIES = [
     { id: 'vijesti', name: 'VIJESTI', color: 'bg-[#D13D1F] text-white hover:bg-red-800', subcategories: ['Dalmacija', 'Slavonija', 'Istra i Kvarner', 'Kontinentalna HR', 'Lika i gorski kotar', 'Zagreb'] },
-    { id: 'sport', name: 'SPORT', color: 'bg-emerald-600 text-white hover:bg-emerald-700', subcategories: ['Nogomet', 'Košarka', 'Tenis'] },
+    { id: 'sport', name: 'SPORT', color: 'bg-emerald-600 text-white hover:bg-emerald-700', subcategories: ['Nogomet', 'Košarka', 'Tenis', 'Rukomet', 'Vaterpolo'] },
     { id: 'tech', name: 'TEHNOLOGIJA', color: 'bg-cyan-600 text-white hover:bg-cyan-700', subcategories: ['Znanost', 'Igre'] },
     { id: 'lifestyle', name: 'LIFESTYLE', color: 'bg-pink-600 text-white hover:bg-pink-700', subcategories: ['Moda i ljepota', 'Zdravlje', 'Mama', 'Kuharica', 'Kućni ljubimci', 'Putovanja', 'Dom i dizajn'] },
     { id: 'biznis', name: 'BIZNIS', color: 'bg-blue-800 text-white hover:bg-blue-900', subcategories: [] },
@@ -4445,7 +4445,7 @@ const PORTAL_CATEGORIES = [
 // Dynamic category keyword mappings (Croatian)
 const CATEGORY_KEYWORDS = {
     vijesti: ['vijest', 'politika', 'vlada', 'hdz', 'sdp', 'sabor', 'izbor', 'ministar', 'štrajk', 'prosvjed', 'ubojst', 'kriminal', 'optuž', 'gradonačelnik', 'policij', 'nesreć', 'požar', 'sud', 'rat', 'žrtv', 'tragedij', 'pogin', 'mrtv', 'smrt', 'ubij', 'napad', 'ranjen', 'ozlijeđ', 'sudar', 'uhićen'],
-    sport: ['sport', 'nogomet', 'dinamo', 'hajduk', 'hns', 'modrić', 'tenis', 'košark', 'lig', 'utakmic', 'reprezenta', 'reprezentativ', 'prvak', 'prvac', 'prvenstv', 'kup', 'gol', 'trener', 'klub', 'transfer', 'vekić', 'formula', 'vaterpol', 'rukometa', 'hnl', 'olimpij', 'medalj', 'poraz', 'pobjed', 'pobijed', 'ždrijeb', 'momčad', 'ekip', 'igrač', 'teren', 'stadion', 'izbornik', 'polufinal', 'finale'],
+    sport: ['sport', 'nogomet', 'dinamo', 'hajduk', 'hns', 'modrić', 'tenis', 'košark', 'lig', 'utakmic', 'reprezenta', 'reprezentativ', 'prvak', 'prvac', 'prvenstv', 'kup', 'gol', 'trener', 'klub', 'transfer', 'vekić', 'formula', 'vaterpol', 'rukometa', 'hnl', 'olimpij', 'medalj', 'poraz', 'pobjed', 'pobijed', 'ždrijeb', 'momčad', 'ekip', 'igrač', 'teren', 'stadion', 'izbornik', 'polufinal', 'finale', 'rukomet', 'vaterpolo'],
     tech: ['tech', 'tehnolog', 'mobitel', 'android', 'iphone', 'apple', 'google', 'microsoft', 'gaming', 'playstation', 'xbox', 'nintendo', 'računal', 'softver', 'umjetn', 'inteligenc', 'smartfon', 'znanost', 'znanstv', 'istraživanj', 'svemir', 'nasa', 'hakir', 'čip', 'aplikacij', 'cyber', 'robot', 'videoigr', 'igric', 'gejm'],
     lifestyle: ['lifestyle', 'moda', 'ljepot', 'recept', 'kuhar', 'glazb', 'film', 'serij', 'estrad', 'horoskop', 'ljubav', 'zdravlj', 'savjet', 'putovan', 'pjevač', 'brak', 'glumac', 'turiz', 'turist', 'ljet', 'gastro', 'restoran', 'koncert', 'pjesm', 'showbiz', 'celebrity', 'kuhinj'],
     biznis: ['biznis', 'gospodar', 'ekonomij', 'posao', 'tvrtk', 'investicij', 'dionic', 'financij', 'porez', 'inflacij', 'cijen', 'tržišt', 'plata', 'plaća', 'banka', 'bdp', 'kredit', 'kamata', 'kompanij', 'ulaganj', 'proračun', 'eura', 'euri', 'eurima', '€'],
@@ -4456,28 +4456,56 @@ const CATEGORY_KEYWORDS = {
 
 // Subcategory-specific keyword mappings
 const SUBCATEGORY_KEYWORDS = {
-    'sport/nogomet': ['nogomet', 'dinamo', 'hajduk', 'hns', 'utakmica', 'liga', 'prvak', 'gol', 'trener', 'klub', 'transfer', 'anfield', 'liverpool', 'iraola'],
-    'sport/kosarka': ['košarka', 'nba', 'cibona', 'zadar', 'abaz', 'trice', 'obruč', 'basket'],
-    'sport/tenis': ['tenis', 'wimbledon', 'atp', 'wta', 'vekic', 'vekić', 'đoković', 'reket', 'set', 'gem', 'donna', 'vekic'],
-    'vijesti/dalmacija': ['dalmacij', 'split', 'zadar', 'šibenik', 'dubrovnik', 'torcida', 'poljud', 'otok', 'more', 'hvar', 'brač', 'dalmatin'],
-    'vijesti/slavonija': ['slavonij', 'osijek', 'vinkovci', 'brod', 'požega', 'vukovar', 'đakovo', 'ravnica'],
-    'vijesti/istra-i-kvarner': ['istr', 'kvarner', 'rijeka', 'pula', 'rovinj', 'poreč', 'opatija', 'istarski'],
-    'vijesti/zagreb': ['zagreb', 'zg', 'metropola', 'holding', 'tomašević', 'maksimir', 'sljeme'],
-    'vijesti/kontinentalna-hr': ['kontinentaln', 'karlovac', 'varazdin', 'varaždin', 'čakovec', 'cakovec', 'krapina', 'koprivnica', 'bjelovar', 'sisak', 'petrinja', 'križevci', 'krizevci'],
+    // VIJESTI
+    'vijesti/dalmacija': ['dalmacij', 'split', 'zadar', 'šibenik', 'sibenik', 'dubrovnik', 'torcida', 'poljud', 'otok', 'more', 'hvar', 'brač', 'brac', 'dalmatin', 'korčula', 'vis'],
+    'vijesti/slavonija': ['slavonij', 'osijek', 'vinkovci', 'brod', 'požega', 'pozega', 'vukovar', 'đakovo', 'djakovo', 'ravnica', 'slavonski brod', 'baranja'],
+    'vijesti/istra-i-kvarner': ['istr', 'kvarner', 'rijeka', 'pula', 'rovinj', 'poreč', 'porec', 'opatija', 'istarski', 'labin', 'umag'],
+    'vijesti/zagreb': ['zagreb', 'zg', 'metropola', 'holding', 'tomašević', 'tomasevic', 'maksimir', 'sljeme', 'zet'],
+    'vijesti/kontinentalna-hr': ['kontinentaln', 'karlovac', 'varazdin', 'varaždin', 'čakovec', 'cakovec', 'krapina', 'koprivnica', 'bjelovar', 'sisak', 'petrinja', 'križevci', 'krizevci', 'zagorje', 'međimurje'],
     'vijesti/lika-i-gorski-kotar': ['lika', 'gospić', 'gospic', 'otočac', 'otocac', 'gračac', 'gracac', 'plitvic', 'delnice', 'čabar', 'cabar', 'vrbovsko', 'gorski kotar'],
-    'tech/znanost': ['znanost', 'istraživanj', 'svemir', 'nasa', 'planet', 'otkriće', 'rak', 'lijek', 'sveučilišt', 'laboratorij', 'znanstvenik'],
-    'tech/igre': ['igra', 'gaming', 'playstation', 'xbox', 'nintendo', 'steam', 'game', 'gamer', 'igrica'],
-    'lifestyle/moda-i-ljepota': ['moda', 'ljepota', 'stil', 'haljina', 'revija', 'kozmetika', 'manekenka', 'odjeća', 'šminka'],
-    'lifestyle/zdravlje': ['zdravlje', 'lijek', 'tijelo', 'bolest', 'simptom', 'doktor', 'bolnica', 'prehrana', 'zdrav'],
+
+    // SPORT
+    'sport/nogomet': ['nogomet', 'hnl', 'dinamo', 'hajduk', 'rijeka', 'osijek', 'varaždin', 'varazdin', 'rudeš', 'rudes', 'gorica', 'istra', 'slaven belupo', '2.hnl', 'hns', 'hrvatska reprezentacija', 'liga prvaka', 'europska liga', 'konferencijska liga', 'uefa', 'liga nacija', 'transfer', 'vatreni'],
+    'sport/kosarka': ['košarka', 'nba', 'cibona', 'zadar', 'split', 'basket', 'reprezentacija', 'olimpijsk'],
+    'sport/tenis': ['tenis', 'wimbledon', 'atp', 'wta', 'vekic', 'vekić', 'đoković', 'djokovic', 'čilić', 'cilic', 'davis cup', 'roland garros', 'gaross', 'australian open', 'grand slam', 'us open', 'reket', 'set', 'gem'],
+    'sport/rukomet': ['rukomet', 'rk zagreb', 'rukometn', 'svjetsko prvenstvo', 'europsko prvenstvo', 'olimpijsk'],
+    'sport/vaterpolo': ['vaterpolo', 'vk mladost', 'vk jug', 'vk primorje', 'barakude'],
+
+    // TECH
+    'tech/znanost': ['znanost', 'istraživanj', 'svemir', 'nasa', 'planet', 'otkriće', 'rak', 'lijek', 'sveučilišt', 'laboratorij', 'znanstvenik', 'ai', 'umjetna inteligencija'],
+    'tech/igre': ['igra', 'gaming', 'playstation', 'xbox', 'nintendo', 'steam', 'game', 'gamer', 'igrica', 'video igric', 'retro'],
+
+    // LIFESTYLE
+    'lifestyle/moda-i-ljepota': ['moda', 'ljepota', 'stil', 'haljina', 'revija', 'kozmetika', 'manekenka', 'odjeća', 'odjeca', 'šminka', 'sminka', 'trendov'],
+    'lifestyle/zdravlje': ['zdravlje', 'lijek', 'tijelo', 'bolest', 'simptom', 'doktor', 'bolnica', 'prehrana', 'zdrav', 'fitnes', 'wellness'],
     'lifestyle/mama': ['mama', 'trudnoća', 'trudnic', 'beba', 'bebe', 'dijete', 'djeca', 'roditelj', 'odgoj', 'majčinstvo', 'porođaj', 'rodiljn'],
-    'lifestyle/kuharica': ['recept', 'kuhar', 'jelo', 'kuhanje', 'sastojci', 'kolač', 'torta', 'okus', 'gastronom', 'hrana'],
-    'lifestyle/kucni-ljubimci': ['ljubimac', 'ljubimci', 'pas', 'psi', 'mačka', 'mačke', 'veterinar', 'štene', 'udomljavanje'],
-    'lifestyle/putovanja': ['putovanje', 'putovanja', 'putopis', 'destinacija', 'izlet', 'turist', 'kofer', 'odmor', 'putuj'],
-    'lifestyle/dom-i-dizajn': ['dizajn interijera', 'uređenje', 'dekor', 'stan', 'kuća', 'dizajn doma', 'namještaj', 'dizajn'],
-    'showbiz/film': ['film', 'kino', 'oskar', 'glumac', 'glumica', 'hollywood', 'redatelj', 'netflix', 'hbo', 'premijera'],
-    'showbiz/glazba': ['glazba', 'koncert', 'pjesma', 'album', 'pjevač', 'pjevačica', 'bend', 'estrada', 'eurosong', 'glazben'],
-    'showbiz/kultura': ['kultura', 'kazalište', 'izložba', 'muzej', 'knjiga', 'pisac', 'umjetnost', 'galerija', 'predstava']
+    'lifestyle/kuharica': ['recept', 'kuhar', 'jelo', 'kuhanje', 'sastojci', 'kolač', 'kolac', 'torta', 'okus', 'gastronom', 'hrana', 'mršavljenje', 'nutricioniz'],
+    'lifestyle/kucni-ljubimci': ['ljubimac', 'ljubimci', 'ljubimca', 'ljubimaca', 'pas', 'psi', 'psa', 'pasa', 'psom', 'psić', 'mačka', 'mačke', 'mačak', 'maca', 'mace', 'veterinar', 'štene', 'štenci', 'udomljavanje', 'akvarij', 'pasmins', 'ptica', 'ptice', 'zamorac', 'zamorci'],
+    'lifestyle/putovanja': ['putovanje', 'putovanja', 'putopis', 'destinacija', 'izlet', 'turist', 'kofer', 'odmor', 'putuj', 'smještaj', 'smjestaj', 'festival', 'događanja', 'dogadjanja', 'koncert'],
+    'lifestyle/dom-i-dizajn': ['dizajn interijera', 'uređenje', 'uređenje vrta', 'dekor', 'stan', 'kuća', 'kuca', 'dizajn doma', 'namještaj', 'namjestaj', 'dizajn', 'vrt'],
+
+    // SHOWBIZ
+    'showbiz/film': ['film', 'kino', 'oskar', 'oscar', 'glumac', 'glumica', 'hollywood', 'redatelj', 'netflix', 'hbo', 'amazon prime', 'hrt', 'kinematografija', 'festival', 'serija', 'serije', 'nagrad', 'bafta'],
+    'showbiz/glazba': ['glazba', 'koncert', 'pjesma', 'album', 'pjevač', 'pjevačica', 'bend', 'estrada', 'eurosong', 'glazben', 'izvođač', 'izvodjac'],
+    'showbiz/kultura': ['kultura', 'kazalište', 'kazaliste', 'izložba', 'izlozba', 'muzej', 'knjiga', 'pisac', 'umjetnost', 'galerija', 'predstava', 'folklor']
 };
+
+function hasKeyword(text, keyword) {
+    const regex = new RegExp(`\\b${keyword.replace(/([.*+?^${}()|[\]\\])/g, '\\$1')}`, 'i');
+    return regex.test(text);
+}
+
+function matchSubcategory(article, subcatId) {
+    const region = getPortalRegion(article.source);
+    if (region) {
+        return region === subcatId;
+    }
+    const key = `${article.category}/${subcatId}`;
+    const keywords = SUBCATEGORY_KEYWORDS[key];
+    if (!keywords) return false;
+    const text = (article.title + ' ' + (article.description || '')).toLowerCase();
+    return keywords.some(kw => hasKeyword(text, kw));
+}
 
 // State Management
 let articles = [];
@@ -4722,7 +4750,8 @@ function extractMetadata(item, sourceId) {
 
 const TRAGEDY_KEYWORDS = [
     'nesreć', 'sudar', 'pogin', 'mrtv', 'smrt', 'ubij', 'napad', 'ranjen', 'ozlijeđ',
-    'kriminal', 'ubojst', 'pljačk', 'požar', 'policij', 'tragedij', 'obdukcij', 'pogibelj'
+    'kriminal', 'ubojst', 'pljačk', 'požar', 'policij', 'tragedij', 'obdukcij', 'pogibelj',
+    'potres', 'katastrof', 'pritvor', 'optuž', 'istrag', 'presud', 'zatvor', 'havarij'
 ];
 
 function hasKeyword(text, keyword) {
@@ -4748,7 +4777,7 @@ function determineCategory(title, description, source) {
     
     for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
         // Disqualify specialized categories if negative/tragedy keywords are found
-        if (hasTragedy && (category === 'auti' || category === 'biznis' || category === 'tech' || category === 'showbiz' || category === 'zanimljivosti')) {
+        if (hasTragedy && (category === 'lifestyle' || category === 'auti' || category === 'biznis' || category === 'tech' || category === 'showbiz' || category === 'zanimljivosti')) {
             continue;
         }
         
@@ -4820,7 +4849,7 @@ async function fetchFromRSSProxy() {
 
 // Fetch pre-aggregated articles from static JSON
 async function fetchFromStaticJSON() {
-    const response = await fetch('articles.json');
+    const response = await fetch('/articles.json');
     if (!response.ok) throw new Error('Static JSON failed to load');
     const data = await response.json();
     return data.map(item => {
@@ -5638,12 +5667,33 @@ function renderQuickPortalsBar() {
         btn.className = 'px-2.5 py-1 bg-slate-200 dark:bg-slate-800 hover:bg-editorial-navy dark:hover:bg-editorial-gold text-slate-800 dark:text-slate-200 hover:text-white dark:hover:text-slate-900 font-serif font-bold text-[11px] border border-slate-300 dark:border-slate-700 transition-colors';
         btn.innerText = item.name;
         btn.onclick = () => {
-            window.location.hash = item.slug;
+            const cleanUrl = `/portali/${item.slug}`;
+            if (window.location.pathname !== cleanUrl) {
+                window.history.pushState(null, '', cleanUrl);
+            }
             renderPortalSpotlightPage(item.slug);
         };
         bar.appendChild(btn);
     });
 }
+
+const KNOWN_PORTAL_MAP = {
+    'vecernji-list': { name: 'Večernji list', domain: 'vecernji.hr', url: 'https://www.vecernji.hr', description: 'Vodeći hrvatski informativni dnevni list i portal s najnovijim vijestima iz Hrvatske i svijeta.' },
+    'vecernji': { name: 'Večernji list', domain: 'vecernji.hr', url: 'https://www.vecernji.hr', description: 'Vodeći hrvatski informativni dnevni list i portal s najnovijim vijestima iz Hrvatske i svijeta.' },
+    'jutarnji-list': { name: 'Jutarnji list', domain: 'jutarnji.hr', url: 'https://www.jutarnji.hr', description: 'Vodeći hrvatski medijski portal s najnovijim vijestima, analizama i komentarima.' },
+    'jutarnji': { name: 'Jutarnji list', domain: 'jutarnji.hr', url: 'https://www.jutarnji.hr', description: 'Vodeći hrvatski medijski portal s najnovijim vijestima, analizama i komentarima.' },
+    '24sata': { name: '24sata', domain: '24sata.hr', url: 'https://www.24sata.hr', description: 'Najčitaniji i najprodavaniji hrvatski medijski brand sa stavom.' },
+    'index-hr': { name: 'Index.hr', domain: 'index.hr', url: 'https://www.index.hr', description: 'Najposjećeniji neovisni hrvatski news portal s najbržim vijestima.' },
+    'index': { name: 'Index.hr', domain: 'index.hr', url: 'https://www.index.hr', description: 'Najposjećeniji neovisni hrvatski news portal s najbržim vijestima.' },
+    'slobodna-dalmacija': { name: 'Slobodna Dalmacija', domain: 'slobodnadalmacija.hr', url: 'https://slobodnadalmacija.hr', description: 'Najutjecajniji i najčitaniji medij u Dalmaciji i na južnom Jadranu.' },
+    'tportal': { name: 'tportal', domain: 'tportal.hr', url: 'https://www.tportal.hr', description: 'Hrvatski informativno-zabavni web portal Hrvatskog Telekoma.' },
+    'n1-info': { name: 'N1 Info', domain: 'n1info.hr', url: 'https://n1info.hr', description: 'Informativna 24-satna medijska platforma u Hrvatskoj.' },
+    'telegram-hr': { name: 'Telegram.hr', domain: 'telegram.hr', url: 'https://www.telegram.hr', description: 'Portal za društvena pitanja, analize, istrage i kulturu.' },
+    'bug-hr': { name: 'Bug.hr', domain: 'bug.hr', url: 'https://www.bug.hr', description: 'Vodeći hrvatski informatički i tehnološki magazin i portal.' },
+    'sportnet-hr': { name: 'Sportnet.hr', domain: 'sportnet.hr', url: 'https://sportnet.hr', description: 'Prvi i najčitaniji specijalizirani sportski portal u Hrvatskoj.' },
+    'poslovni-dnevnik': { name: 'Poslovni dnevnik', domain: 'poslovni.hr', url: 'https://www.poslovni.hr', description: 'Prvi poslovni dnevnik i vodeći portal za gospodarstvo i financije.' },
+    'dnevnik-hr': { name: 'Dnevnik.hr', domain: 'dnevnik.hr', url: 'https://dnevnik.hr', description: 'Informativni portal Nove TV s najnovijim vijestima u Hrvatskoj.' }
+};
 
 // Dedicated Landing View for a Specific Media Portal (e.g. Index.hr, Večernji, 24sata)
 function renderPortalSpotlightPage(slug) {
@@ -5651,31 +5701,35 @@ function renderPortalSpotlightPage(slug) {
     if (!portaliArea) return;
 
     // Find portal details
-    let foundPortal = null;
-    let allPortals = [
-        ...CATEGORIZED_PORTALS.nacionalni,
-        ...CATEGORIZED_PORTALS.lokalni.zagreb,
-        ...CATEGORIZED_PORTALS.lokalni.dalmacija,
-        ...CATEGORIZED_PORTALS.lokalni.slavonija,
-        ...CATEGORIZED_PORTALS.lokalni["istra-i-kvarner"],
-        ...CATEGORIZED_PORTALS.lokalni.ostalo,
-        ...CATEGORIZED_PORTALS.tematski.sport,
-        ...CATEGORIZED_PORTALS.tematski.tech,
-        ...CATEGORIZED_PORTALS.tematski.lifestyle,
-        ...CATEGORIZED_PORTALS.tematski.biznis,
-        ...CATEGORIZED_PORTALS.tematski.auti,
-        ...CATEGORIZED_PORTALS.tematski.ostalo
-    ];
+    let foundPortal = KNOWN_PORTAL_MAP[slug];
+    if (!foundPortal) {
+        let allPortals = [
+            ...CATEGORIZED_PORTALS.nacionalni,
+            ...CATEGORIZED_PORTALS.lokalni.zagreb,
+            ...CATEGORIZED_PORTALS.lokalni.dalmacija,
+            ...CATEGORIZED_PORTALS.lokalni.slavonija,
+            ...CATEGORIZED_PORTALS.lokalni["istra-i-kvarner"],
+            ...CATEGORIZED_PORTALS.lokalni.ostalo,
+            ...CATEGORIZED_PORTALS.tematski.sport,
+            ...CATEGORIZED_PORTALS.tematski.tech,
+            ...CATEGORIZED_PORTALS.tematski.lifestyle,
+            ...CATEGORIZED_PORTALS.tematski.biznis,
+            ...CATEGORIZED_PORTALS.tematski.auti,
+            ...CATEGORIZED_PORTALS.tematski.ostalo
+        ];
 
-    foundPortal = allPortals.find(p => slugify(p.name) === slug || (p.domain && slugify(p.domain) === slug));
+        foundPortal = allPortals.find(p => slugify(p.name) === slug || (p.domain && slugify(p.domain) === slug));
+    }
     
     if (!foundPortal) {
-        // Fallback title from slug
+        // Fallback title & domain from slug
         const formattedName = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        let cleanDomain = slug.endsWith('-hr') ? slug.replace(/-hr$/, '.hr') : `${slug.replace('-', '.')}`;
+        if (!cleanDomain.includes('.')) cleanDomain += '.hr';
         foundPortal = {
             name: formattedName,
-            domain: `${slug.replace('-', '.')}`,
-            url: `https://www.${slug.replace('-', '.')}`,
+            domain: cleanDomain,
+            url: `https://www.${cleanDomain}`,
             description: `Pregled najnovijih vijesti s medijskog portala ${formattedName}.`
         };
     }
@@ -5730,7 +5784,7 @@ function renderPortalSpotlightPage(slug) {
                                 "@type": "ListItem",
                                 "position": 3,
                                 "name": foundPortal.name,
-                                "item": `https://www.vijesti-hrvatska.com/portali#${slug}`
+                                "item": `https://www.vijesti-hrvatska.com/portali/${slug}`
                             }
                         ]
                     };
@@ -5792,7 +5846,7 @@ function renderPortalSpotlightPage(slug) {
         <div id="portal-spotlight-view" class="space-y-6">
             <!-- Top Back Button & Navigation -->
             <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3">
-                <button onclick="window.location.hash=''; renderPortalsPage();" class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-200 dark:bg-slate-800 hover:bg-editorial-navy hover:text-white dark:hover:bg-editorial-gold dark:hover:text-slate-900 font-serif font-bold text-xs uppercase tracking-wider transition-colors">
+                <button onclick="window.history.pushState(null, '', '/portali'); window.location.hash=''; renderPortalsPage();" class="inline-flex items-center gap-2 px-3 py-1.5 bg-slate-200 dark:bg-slate-800 hover:bg-editorial-navy hover:text-white dark:hover:bg-editorial-gold dark:hover:text-slate-900 font-serif font-bold text-xs uppercase tracking-wider transition-colors">
                     &larr; Povratak na Imenik portala
                 </button>
                 <span class="text-[11px] font-mono text-slate-500">Preporučena stranica medijskog izvora</span>
@@ -5801,7 +5855,7 @@ function renderPortalSpotlightPage(slug) {
             <!-- Portal Header Banner -->
             <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div class="flex items-start space-x-4">
-                    <img src="${faviconUrl}" alt="${foundPortal.name}" class="w-12 h-12 object-contain p-1 border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800 shrink-0" onerror="this.src='/favicon.ico'">
+                    <img src="${faviconUrl}" alt="${foundPortal.name}" class="w-12 h-12 rounded-lg object-contain p-1 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 shrink-0 shadow-sm" onerror="this.onerror=null; this.src='https://www.google.com/s2/favicons?domain=${foundPortal.domain}&sz=64'">
                     <div class="space-y-1">
                         <h1 class="text-2xl font-serif font-black text-slate-900 dark:text-white uppercase tracking-tight flex items-center gap-3">
                             ${foundPortal.name}
@@ -5812,6 +5866,15 @@ function renderPortalSpotlightPage(slug) {
                         </p>
                     </div>
                 </div>
+
+                <div class="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0">
+                    <a href="${foundPortal.url || '#'}" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-editorial-navy dark:bg-editorial-gold hover:bg-slate-800 dark:hover:bg-amber-400 text-white dark:text-slate-950 font-serif font-extrabold text-xs uppercase tracking-wider transition-all shadow text-center">
+                        <span>Posjeti ${foundPortal.name}</span>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+                    </a>
+                    <span class="text-[10px] font-mono text-slate-500 text-center">Dohvaćeno ${portalArticles.length} najnovijih vijesti</span>
+                </div>
+            </div>
 
                 <div class="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0">
                     <a href="${foundPortal.url || '#'}" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-editorial-navy dark:bg-editorial-gold hover:bg-slate-800 dark:hover:bg-amber-400 text-white dark:text-slate-950 font-serif font-extrabold text-xs uppercase tracking-wider transition-all shadow text-center">
@@ -6280,7 +6343,7 @@ function renderSubNavigation() {
     if (!nav) return;
     nav.innerHTML = '';
 
-    const mainCats = [
+    const newsCats = [
         { id: 'sve', name: 'Sve', file: '/' },
         { id: 'vijesti', name: 'Vijesti', file: 'vijesti' },
         { id: 'sport', name: 'Sport', file: 'sport' },
@@ -6289,20 +6352,16 @@ function renderSubNavigation() {
         { id: 'biznis', name: 'Biznis', file: 'biznis' },
         { id: 'auti', name: 'Auti', file: 'auti' },
         { id: 'showbiz', name: 'Showbiz', file: 'showbiz' },
-        { id: 'zanimljivosti', name: 'Zanimljivosti', file: 'zanimljivosti' },
-        { id: 'nedjelja', name: 'Nedjelja 🛒', file: 'nedjelja' },
-        { id: 'katalozi', name: 'Katalozi 🛍️', file: 'katalozi' },
-        { id: 'kalendar', name: 'Kalendar 📅', file: 'kalendar' },
-        { id: 'english', name: 'English 🇬🇧', file: 'english' },
-        { id: 'vrijeme', name: 'Vrijeme 🌤️', file: 'vrijeme' },
-        { id: 'portali', name: 'Portali 🌐', file: 'portali' },
-        { id: 'spremljeno', name: 'Spremljeno 📌', file: 'spremljeno' }
+        { id: 'zanimljivosti', name: 'Zanimljivosti', file: 'zanimljivosti' }
     ];
 
-    // Only add Analitika category to secondary menu if logged in as admin
-    if (sessionStorage.getItem('admin_logged_in') === 'true') {
-        mainCats.push({ id: 'analitika', name: 'Analitika 📊', file: 'analitika' });
-    }
+    const utilityCats = [
+        { id: 'nedjelja', name: 'Nedjelja 🛒', file: 'nedjelja' },
+        { id: 'katalozi', name: 'Katalozi 🛍️', file: 'katalozi' },
+        { id: 'kalendar', name: 'Kalendar 📅', file: 'kalendar' }
+    ];
+
+    const allCats = [...newsCats, ...utilityCats];
 
     // 1. Render Mobile-only active category indicator (emoji + uppercase title)
     const mobileIndicator = document.createElement('div');
@@ -6328,7 +6387,7 @@ function renderSubNavigation() {
         analitika: '📊'
     };
     const activeEmoji = emojiMap[activeCategory] || '📰';
-    const activeCatObj = mainCats.find(c => c.id === activeCategory) || { name: 'Sve' };
+    const activeCatObj = allCats.find(c => c.id === activeCategory) || { name: 'Sve' };
 
     mobileIndicator.innerHTML = `
         <span class="text-lg leading-none">${activeEmoji}</span>
@@ -6338,24 +6397,41 @@ function renderSubNavigation() {
 
     // 2. Render Desktop-only scrollable categories row
     const desktopRow = document.createElement('div');
-    desktopRow.className = 'hidden lg:flex items-center space-x-2 w-full';
+    desktopRow.className = 'hidden lg:flex items-center space-x-1.5 w-full overflow-x-auto scrollbar-none';
 
-    mainCats.forEach(c => {
+    // News categories
+    newsCats.forEach(c => {
         const btn = document.createElement('a');
         btn.href = c.file;
         const isActive = activeCategory === c.id;
-        
-        // Hide static page links in the category bar on desktop since they are already in the main header
-        const responsiveClasses = ['vrijeme', 'portali', 'spremljeno', 'analitika'].includes(c.id) ? ' lg:hidden' : '';
-        
-        btn.className = `px-4 py-1 text-sm font-extrabold rounded-none transition-all shrink-0 uppercase tracking-wide select-none${responsiveClasses} ${
+        btn.className = `px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider rounded transition-all shrink-0 select-none ${
             isActive 
-                ? 'bg-editorial-navy text-white shadow-sm active-category-btn' 
-                : 'bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700'
+                ? 'bg-editorial-navy text-white shadow-sm active-category-btn font-black' 
+                : 'text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white'
         }`;
         btn.innerText = c.name;
         desktopRow.appendChild(btn);
     });
+
+    // Divider line
+    const divider = document.createElement('span');
+    divider.className = 'inline-block h-4 w-px bg-slate-300 dark:bg-slate-700 mx-1 shrink-0';
+    desktopRow.appendChild(divider);
+
+    // Utility categories
+    utilityCats.forEach(c => {
+        const btn = document.createElement('a');
+        btn.href = c.file;
+        const isActive = activeCategory === c.id;
+        btn.className = `px-3 py-1 text-xs font-bold rounded transition-all shrink-0 select-none ${
+            isActive 
+                ? 'bg-editorial-navy text-white shadow-sm active-category-btn font-black' 
+                : 'bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-750 hover:text-slate-900 dark:hover:text-white'
+        }`;
+        btn.innerText = c.name;
+        desktopRow.appendChild(btn);
+    });
+
     nav.appendChild(desktopRow);
 
     const subMenuBar = document.getElementById('subcategory-menu-bar');
@@ -6425,19 +6501,32 @@ function slugify(text) {
         .replace(/[^a-z0-9\-]/g, '');
 }
 
+let currentPortalSlug = null;
+
 // Detect active category and subcategory based on URL filename and hash
 function detectActivePage() {
-    let path = window.location.pathname.split('/').pop() || 'index.html';
-    path = path.replace('.html', '');
-    
-    if (path === '' || path === '/' || path === 'index') {
-        activeCategory = 'sve';
-    } else if (path === 'analitika') {
-        activeCategory = 'analitika';
-    } else if (path === 'portali') {
+    const fullPath = window.location.pathname;
+    currentPortalSlug = null;
+
+    if (fullPath.includes('/portali/') || fullPath.endsWith('/portali') || fullPath.endsWith('/portali.html')) {
         activeCategory = 'portali';
+        if (fullPath.includes('/portali/')) {
+            const slug = fullPath.split('/portali/')[1].replace('.html', '').trim();
+            if (slug && slug !== '') {
+                currentPortalSlug = slug;
+            }
+        }
     } else {
-        activeCategory = path;
+        let path = fullPath.split('/').pop() || 'index.html';
+        path = path.replace('.html', '');
+
+        if (path === '' || path === '/' || path === 'index') {
+            activeCategory = 'sve';
+        } else if (path === 'analitika') {
+            activeCategory = 'analitika';
+        } else {
+            activeCategory = path;
+        }
     }
 
     let hash = window.location.hash.substring(1);
@@ -6445,6 +6534,10 @@ function detectActivePage() {
         hash = decodeURIComponent(hash);
     } catch(e) {}
     activeSubcategory = hash ? slugify(hash) : 'sve';
+
+    if (activeCategory === 'portali' && !currentPortalSlug && hash && !['nacionalni', 'lokalni', 'tematski', 'korisni-web'].includes(hash)) {
+        currentPortalSlug = hash;
+    }
 }
 
 // Parse hash/url routing and render view
@@ -6461,7 +6554,12 @@ function handleRoute() {
         } else if (activeCategory === 'analitika') {
             catName = 'Analitika';
         } else if (activeCategory === 'portali') {
-            catName = 'Portali';
+            if (currentPortalSlug) {
+                const known = KNOWN_PORTAL_MAP[currentPortalSlug];
+                catName = known ? known.name : currentPortalSlug.charAt(0).toUpperCase() + currentPortalSlug.slice(1);
+            } else {
+                catName = 'Portali';
+            }
         } else if (activeCategory === 'spremljeno') {
             catName = 'Spremljeno';
         } else if (activeCategory === 'vrijeme') {
@@ -6539,7 +6637,11 @@ function handleRoute() {
         if (emptyState) emptyState.classList.add('hidden');
         if (portaliArea) {
             portaliArea.classList.remove('hidden');
-            renderPortalsPage();
+            if (currentPortalSlug) {
+                renderPortalSpotlightPage(currentPortalSlug);
+            } else {
+                renderPortalsPage();
+            }
         }
     } else if (activeCategory === 'katalozi') {
         if (feedArea) feedArea.classList.add('hidden');
@@ -7681,13 +7783,101 @@ function initSearchQueryFromURL() {
     }
 }
 
+// --- HOLIDAYS & PUBLIC CALENDAR DATA ---
+const PUBLIC_HOLIDAYS_HR = [
+    { name: 'Nova Godina', date: '2025-01-01', day: 'Srijeda', type: 'blagdan' },
+    { name: 'Bogojavljenje / Sveta tri kralja', date: '2025-01-06', day: 'Ponedjeljak', type: 'blagdan' },
+    { name: 'Uskrs', date: '2025-04-20', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Uskrsni ponedjeljak', date: '2025-04-21', day: 'Ponedjeljak', type: 'blagdan' },
+    { name: 'Praznik rada', date: '2025-05-01', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Dan državnosti', date: '2025-05-30', day: 'Petak', type: 'blagdan' },
+    { name: 'Tijelovo', date: '2025-06-19', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Dan antifašističke borbe', date: '2025-06-22', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Dan pobjede i domovinske zahvalnosti', date: '2025-08-05', day: 'Utorak', type: 'blagdan' },
+    { name: 'Velika Gospa', date: '2025-08-15', day: 'Petak', type: 'blagdan' },
+    { name: 'Svi sveti', date: '2025-11-01', day: 'Subota', type: 'blagdan' },
+    { name: 'Dan sjećanja na žrtve Domovinskog rata', date: '2025-11-18', day: 'Utorak', type: 'blagdan' },
+    { name: 'Božić', date: '2025-12-25', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Sveti Stjepan', date: '2025-12-26', day: 'Petak', type: 'blagdan' },
+
+    { name: 'Nova Godina', date: '2026-01-01', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Bogojavljenje / Sveta tri kralja', date: '2026-01-06', day: 'Utorak', type: 'blagdan' },
+    { name: 'Uskrs', date: '2026-04-05', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Uskrsni ponedjeljak', date: '2026-04-06', day: 'Ponedjeljak', type: 'blagdan' },
+    { name: 'Praznik rada', date: '2026-05-01', day: 'Petak', type: 'blagdan' },
+    { name: 'Dan državnosti', date: '2026-05-30', day: 'Subota', type: 'blagdan' },
+    { name: 'Tijelovo', date: '2026-06-04', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Dan antifašističke borbe', date: '2026-06-22', day: 'Ponedjeljak', type: 'blagdan' },
+    { name: 'Dan pobjede i domovinske zahvalnosti', date: '2026-08-05', day: 'Srijeda', type: 'blagdan' },
+    { name: 'Velika Gospa', date: '2026-08-15', day: 'Subota', type: 'blagdan' },
+    { name: 'Svi sveti', date: '2026-11-01', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Dan sjećanja na žrtve Domovinskog rata', date: '2026-11-18', day: 'Srijeda', type: 'blagdan' },
+    { name: 'Božić', date: '2026-12-25', day: 'Petak', type: 'blagdan' },
+    { name: 'Sveti Stjepan', date: '2026-12-26', day: 'Subota', type: 'blagdan' },
+
+    { name: 'Nova Godina', date: '2027-01-01', day: 'Petak', type: 'blagdan' },
+    { name: 'Bogojavljenje / Sveta tri kralja', date: '2027-01-06', day: 'Srijeda', type: 'blagdan' },
+    { name: 'Uskrs', date: '2027-03-28', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Uskrsni ponedjeljak', date: '2027-03-29', day: 'Ponedjeljak', type: 'blagdan' },
+    { name: 'Praznik rada', date: '2027-05-01', day: 'Subota', type: 'blagdan' },
+    { name: 'Dan državnosti', date: '2027-05-30', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Tijelovo', date: '2027-05-27', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Dan antifašističke borbe', date: '2027-06-22', day: 'Utorak', type: 'blagdan' },
+    { name: 'Dan pobjede i domovinske zahvalnosti', date: '2027-08-05', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Velika Gospa', date: '2027-08-15', day: 'Nedjelja', type: 'blagdan' },
+    { name: 'Svi sveti', date: '2027-11-01', day: 'Ponedjeljak', type: 'blagdan' },
+    { name: 'Dan sjećanja na žrtve Domovinskog rata', date: '2027-11-18', day: 'Četvrtak', type: 'blagdan' },
+    { name: 'Božić', date: '2027-12-25', day: 'Subota', type: 'blagdan' },
+    { name: 'Sveti Stjepan', date: '2027-12-26', day: 'Nedjelja', type: 'blagdan' }
+];
+
 // Initialize on page load
 initSearchQueryFromURL();
 setupEventListeners();
 initHeaderWeather();
+initHeaderHolidayBadge();
 if (checkAdminAccess()) {
     handleRoute(); // Render target page layout immediately
     fetchNewsFeed();
+}
+
+function initHeaderHolidayBadge() {
+    const badge = document.getElementById('header-holiday-badge');
+    if (!badge) return;
+
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    const todayStr = `${yyyy}-${mm}-${dd}`;
+
+    const holidays = PUBLIC_HOLIDAYS_HR.filter(h => h.date >= todayStr);
+    const upcoming = holidays.length > 0 ? holidays[0] : PUBLIC_HOLIDAYS_HR[0];
+
+    if (!upcoming) return;
+
+    const parts = upcoming.date.split('-');
+    const hDate = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+    const todayZero = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+    const diffTime = hDate.getTime() - todayZero.getTime();
+    const diffDays = Math.ceil(diffTime / (1000 * 3600 * 24));
+
+    let daysText = '';
+    if (diffDays <= 0) {
+        daysText = 'DANAS!';
+    } else if (diffDays === 1) {
+        daysText = 'SUTRA!';
+    } else {
+        daysText = `za ${diffDays} d.`;
+    }
+
+    const shortDate = `${hDate.getDate()}.${hDate.getMonth() + 1}.`;
+
+    badge.innerHTML = `
+        <span class="text-rose-400 font-extrabold flex items-center gap-1">🗓️ Sljedeći blagdan:</span>
+        <span class="font-bold text-slate-100 group-hover:text-editorial-gold transition-colors">${upcoming.name}</span>
+        <span class="bg-rose-500/20 text-rose-300 font-extrabold text-[10px] px-1.5 py-0.5 rounded">${daysText} (${shortDate})</span>
+    `;
 }
 
 // Lightweight Weather Badge for Header Top Bar (Open-Meteo API, 0ms impact, cached 30 mins)
@@ -7842,53 +8032,7 @@ function renderMobileDrawerMenu() {
     }
 }
 
-// --- HOLIDAYS & PUBLIC CALENDAR DATA ---
-const PUBLIC_HOLIDAYS_HR = [
-    { name: 'Nova Godina', date: '2025-01-01', day: 'Srijeda', type: 'blagdan' },
-    { name: 'Bogojavljenje / Sveta tri kralja', date: '2025-01-06', day: 'Ponedjeljak', type: 'blagdan' },
-    { name: 'Uskrs', date: '2025-04-20', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Uskrsni ponedjeljak', date: '2025-04-21', day: 'Ponedjeljak', type: 'blagdan' },
-    { name: 'Praznik rada', date: '2025-05-01', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Dan državnosti', date: '2025-05-30', day: 'Petak', type: 'blagdan' },
-    { name: 'Tijelovo', date: '2025-06-19', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Dan antifašističke borbe', date: '2025-06-22', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Dan pobjede i domovinske zahvalnosti', date: '2025-08-05', day: 'Utorak', type: 'blagdan' },
-    { name: 'Velika Gospa', date: '2025-08-15', day: 'Petak', type: 'blagdan' },
-    { name: 'Svi sveti', date: '2025-11-01', day: 'Subota', type: 'blagdan' },
-    { name: 'Dan sjećanja na žrtve Domovinskog rata', date: '2025-11-18', day: 'Utorak', type: 'blagdan' },
-    { name: 'Božić', date: '2025-12-25', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Sveti Stjepan', date: '2025-12-26', day: 'Petak', type: 'blagdan' },
-
-    { name: 'Nova Godina', date: '2026-01-01', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Bogojavljenje / Sveta tri kralja', date: '2026-01-06', day: 'Utorak', type: 'blagdan' },
-    { name: 'Uskrs', date: '2026-04-05', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Uskrsni ponedjeljak', date: '2026-04-06', day: 'Ponedjeljak', type: 'blagdan' },
-    { name: 'Praznik rada', date: '2026-05-01', day: 'Petak', type: 'blagdan' },
-    { name: 'Dan državnosti', date: '2026-05-30', day: 'Subota', type: 'blagdan' },
-    { name: 'Tijelovo', date: '2026-06-04', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Dan antifašističke borbe', date: '2026-06-22', day: 'Ponedjeljak', type: 'blagdan' },
-    { name: 'Dan pobjede i domovinske zahvalnosti', date: '2026-08-05', day: 'Srijeda', type: 'blagdan' },
-    { name: 'Velika Gospa', date: '2026-08-15', day: 'Subota', type: 'blagdan' },
-    { name: 'Svi sveti', date: '2026-11-01', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Dan sjećanja na žrtve Domovinskog rata', date: '2026-11-18', day: 'Srijeda', type: 'blagdan' },
-    { name: 'Božić', date: '2026-12-25', day: 'Petak', type: 'blagdan' },
-    { name: 'Sveti Stjepan', date: '2026-12-26', day: 'Subota', type: 'blagdan' },
-
-    { name: 'Nova Godina', date: '2027-01-01', day: 'Petak', type: 'blagdan' },
-    { name: 'Bogojavljenje / Sveta tri kralja', date: '2027-01-06', day: 'Srijeda', type: 'blagdan' },
-    { name: 'Uskrs', date: '2027-03-28', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Uskrsni ponedjeljak', date: '2027-03-29', day: 'Ponedjeljak', type: 'blagdan' },
-    { name: 'Praznik rada', date: '2027-05-01', day: 'Subota', type: 'blagdan' },
-    { name: 'Dan državnosti', date: '2027-05-30', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Tijelovo', date: '2027-05-27', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Dan antifašističke borbe', date: '2027-06-22', day: 'Utorak', type: 'blagdan' },
-    { name: 'Dan pobjede i domovinske zahvalnosti', date: '2027-08-05', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Velika Gospa', date: '2027-08-15', day: 'Nedjelja', type: 'blagdan' },
-    { name: 'Svi sveti', date: '2027-11-01', day: 'Ponedjeljak', type: 'blagdan' },
-    { name: 'Dan sjećanja na žrtve Domovinskog rata', date: '2027-11-18', day: 'Četvrtak', type: 'blagdan' },
-    { name: 'Božić', date: '2027-12-25', day: 'Subota', type: 'blagdan' },
-    { name: 'Sveti Stjepan', date: '2027-12-26', day: 'Nedjelja', type: 'blagdan' }
-];
+// --- HOLIDAYS & PUBLIC CALENDAR LOGIC ---
 
 function initHeaderHolidayBadge() {
     const badge = document.getElementById('header-holiday-badge');
@@ -8252,25 +8396,27 @@ function renderHolidaysPage(selectedYear = null) {
 
     portaliArea.innerHTML = `
         <div class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-8 transition-colors">
-            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div>
-                    <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
-                        📅 Kalendar Blagdana i Neradnih Dana u RH (${yearToRender})
-                    </h2>
-                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
-                </div>
-                
-                <!-- Year selector tabs -->
-                <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button type="button" data-holiday-year="2026" onclick="window.renderHolidaysPage(2026); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
-                        2026. (Tekuća)
-                    </button>
-                    <button type="button" data-holiday-year="2027" onclick="window.renderHolidaysPage(2027); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
-                        2027. (Naredna)
-                    </button>
-                    <button type="button" data-holiday-year="2025" onclick="window.renderHolidaysPage(2025); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
-                        2025. (Prošla)
-                    </button>
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 space-y-4">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white font-serif">
+                            📅 Kalendar Blagdana i Neradnih Dana u RH (${yearToRender})
+                        </h2>
+                        <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
+                    </div>
+                    
+                    <!-- Year selector tabs -->
+                    <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
+                        <button type="button" data-holiday-year="2026" onclick="window.renderHolidaysPage(2026); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2026 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                            2026. (Tekuća)
+                        </button>
+                        <button type="button" data-holiday-year="2027" onclick="window.renderHolidaysPage(2027); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2027 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                            2027. (Naredna)
+                        </button>
+                        <button type="button" data-holiday-year="2025" onclick="window.renderHolidaysPage(2025); return false;" class="px-3 py-1 text-xs font-bold rounded-md transition-all ${yearToRender === 2025 ? 'bg-editorial-navy text-white shadow-sm' : 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                            2025. (Prošla)
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -8345,15 +8491,32 @@ document.addEventListener('click', function(e) {
     }
 });
 
+const ENGLISH_TRAGEDY_KEYWORDS = [
+    'accident', 'crash', 'died', 'dead', 'death', 'killed', 'killing', 'attack', 'injured', 'injury',
+    'crime', 'murder', 'robbery', 'fire', 'blaze', 'police', 'tragedy', 'tragic', 'autopsy', 'fatal',
+    'earthquake', 'disaster', 'arrested', 'arrest', 'charge', 'court', 'trial', 'sentenced', 'prison'
+];
+
 function renderEnglishNewsPage() {
     const portaliArea = document.getElementById('portali-area');
     if (!portaliArea) return;
 
     const englishSources = ['Croatia Week', 'Total Croatia News', 'The Dubrovnik Times'];
-    let englishArticles = articles.filter(a => englishSources.some(src => src.toLowerCase() === (a.source || '').toLowerCase()));
+    
+    // Filter articles from English sources and apply English negative tragedy keywords
+    let englishArticles = articles.filter(a => {
+        const isEngSource = englishSources.some(src => src.toLowerCase() === (a.source || '').toLowerCase());
+        if (!isEngSource) return false;
+        
+        const text = (a.title + ' ' + (a.description || '')).toLowerCase();
+        const hasEnglishTragedy = ENGLISH_TRAGEDY_KEYWORDS.some(kw => hasKeyword(text, kw));
+        return !hasEnglishTragedy;
+    });
 
     if (englishArticles.length === 0) {
         englishArticles = articles.filter(a => {
+            const isEngSource = englishSources.some(src => src.toLowerCase() === (a.source || '').toLowerCase());
+            if (isEngSource) return true;
             const title = (a.title || '').toLowerCase();
             const desc = (a.description || '').toLowerCase();
             return title.includes('croatia') || title.includes('zagreb') || desc.includes('croatia');
@@ -8367,7 +8530,7 @@ function renderEnglishNewsPage() {
                     <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
                         🇬🇧 Croatia News in English
                     </h2>
-                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Latest news from Croatia in English language for international readers and expats.</p>
+                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Latest news from Croatia in English language for international readers, expats and tourists.</p>
                 </div>
                 <span class="bg-blue-500/10 text-blue-600 dark:text-blue-400 font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
                     English Stream
@@ -8377,21 +8540,21 @@ function renderEnglishNewsPage() {
             <!-- Portal Links -->
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
                 <a href="https://www.croatiaweek.com" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl hover:border-blue-500 transition-all flex items-center gap-3 group">
-                    <span class="text-xl">📰</span>
+                    <img src="https://www.google.com/s2/favicons?domain=croatiaweek.com&sz=64" alt="Croatia Week" class="w-6 h-6 rounded shrink-0">
                     <div>
                         <h4 class="font-extrabold text-xs text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">Croatia Week</h4>
                         <span class="text-[10px] text-slate-400">croatiaweek.com</span>
                     </div>
                 </a>
                 <a href="https://www.total-croatia-news.com" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl hover:border-blue-500 transition-all flex items-center gap-3 group">
-                    <span class="text-xl">🌐</span>
+                    <img src="https://www.google.com/s2/favicons?domain=total-croatia-news.com&sz=64" alt="Total Croatia News" class="w-6 h-6 rounded shrink-0">
                     <div>
                         <h4 class="font-extrabold text-xs text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">Total Croatia News</h4>
                         <span class="text-[10px] text-slate-400">total-croatia-news.com</span>
                     </div>
                 </a>
                 <a href="https://www.thedubrovniktimes.com" target="_blank" rel="noopener" class="p-3 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl hover:border-blue-500 transition-all flex items-center gap-3 group">
-                    <span class="text-xl">🏖️</span>
+                    <img src="https://www.google.com/s2/favicons?domain=thedubrovniktimes.com&sz=64" alt="The Dubrovnik Times" class="w-6 h-6 rounded shrink-0">
                     <div>
                         <h4 class="font-extrabold text-xs text-slate-900 dark:text-white group-hover:text-blue-500 transition-colors">The Dubrovnik Times</h4>
                         <span class="text-[10px] text-slate-400">thedubrovniktimes.com</span>
@@ -8400,25 +8563,43 @@ function renderEnglishNewsPage() {
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                ${englishArticles.map(a => `
-                    <div onclick="window.open('${a.link}', '_blank')" class="news-card group bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-750 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer">
-                        <div class="space-y-3">
-                            ${a.imageUrl && !a.imageUrl.startsWith('placeholder-') ? `
-                                <div class="h-44 w-full overflow-hidden bg-slate-200 dark:bg-slate-700 relative">
-                                    <img src="${a.imageUrl}" alt="${escapeHtml(a.title)}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                ${englishArticles.map(a => {
+                    const isBookmarked = bookmarkedUrls.includes(a.link);
+                    let cardImage = '';
+                    if (!a.imageUrl || a.imageUrl.startsWith('placeholder-')) {
+                        cardImage = getGradientPlaceholder(a.sourceId || 'croatia-week', a.source);
+                    } else {
+                        cardImage = `
+                            <div class="w-full h-44 overflow-hidden relative bg-slate-900">
+                                <img src="${a.imageUrl}" alt="${escapeHtml(a.title)}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                            </div>
+                        `;
+                    }
+                    const sourceColorClass = a.sourceColor || 'bg-blue-600 text-white';
+                    
+                    return `
+                        <div onclick="if (!event.target.closest('.bookmark-btn')) window.open('${a.link}', '_blank')" class="news-card group bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-none overflow-hidden shadow-sm hover:shadow transition-all flex flex-col justify-between cursor-pointer">
+                            <div class="flex flex-col">
+                                <div class="relative bg-slate-900">
+                                    ${cardImage}
+                                    <button class="bookmark-btn absolute top-2 right-2 p-1.5 rounded-full bg-black/60 hover:bg-editorial-navy dark:hover:bg-editorial-navy text-white backdrop-blur-sm shadow opacity-0 group-hover:opacity-100 transition-all" data-link="${a.link}" title="Spremi">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="${isBookmarked ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                                        </svg>
+                                    </button>
                                 </div>
-                            ` : ''}
-                            <div class="p-4 space-y-2">
-                                <div class="flex items-center justify-between">
-                                    <span class="bg-blue-600 text-white font-extrabold text-[10px] px-2 py-0.5 rounded uppercase tracking-wider">${a.source}</span>
-                                    <span class="text-[10px] text-slate-400 font-mono">${formatTimeAgo(a.publishedAt)}</span>
+                                <div class="p-4 space-y-2.5">
+                                    <div class="flex items-center justify-between text-xs text-slate-700 dark:text-slate-400">
+                                        <span class="${sourceColorClass} font-extrabold px-2 py-0.5 rounded-none text-[9.5px] uppercase select-none shadow-sm">${a.source}</span>
+                                        <span class="font-mono text-[10.5px]">${getRelativeTimeCroatian(a.publishedAt)}</span>
+                                    </div>
+                                    <h3 class="text-[15.5px] font-serif font-bold leading-snug line-clamp-2 group-hover:text-editorial-navy dark:group-hover:text-editorial-gold transition-colors">${escapeHtml(a.title)}</h3>
+                                    <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2 font-sans">${escapeHtml(a.description || '')}</p>
                                 </div>
-                                <h3 class="font-extrabold text-sm text-slate-900 dark:text-white leading-snug group-hover:text-blue-500 transition-colors">${escapeHtml(a.title)}</h3>
-                                <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2">${escapeHtml(a.description || '')}</p>
                             </div>
                         </div>
-                    </div>
-                `).join('')}
+                    `;
+                }).join('')}
             </div>
         </div>
     `;

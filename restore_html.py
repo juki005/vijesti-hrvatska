@@ -113,10 +113,11 @@ def render_month_html(year, month_idx):
 
 def get_next_holiday_info(year):
     from datetime import datetime
+    if year != 2026:
+        return ""
+    holidays = PUBLIC_HOLIDAYS_ALL.get(year, [])
     today = datetime.now()
     today_str = today.strftime("%Y-%m-%d")
-    
-    holidays = PUBLIC_HOLIDAYS_ALL.get(year, PUBLIC_HOLIDAYS_ALL[2026])
     upcoming = next((h for h in holidays if h["date"] >= today_str), None)
     
     if not upcoming and holidays:
@@ -132,16 +133,21 @@ def get_next_holiday_info(year):
     fmt_date = f"{h_date.day:02d}.{h_date.month:02d}.{h_date.year}."
     
     return f'''
-        <div class="mt-3 p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl flex flex-wrap items-center gap-2 text-xs select-none">
-            <span class="bg-rose-600 text-white font-extrabold px-2 py-0.5 rounded text-[10px] uppercase tracking-wider shadow-sm">
-                Nadolazeći Blagdan / Praznik
-            </span>
-            <span class="font-extrabold text-slate-900 dark:text-white flex items-center gap-1">
-                🎉 {upcoming['name']} ({fmt_date})
-            </span>
-            <span class="bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-extrabold text-[10px] px-2 py-0.5 rounded uppercase">
-                {days_badge} ({upcoming['day']})
-            </span>
+        <div class="p-3.5 bg-gradient-to-r from-rose-500/10 via-rose-500/5 to-transparent border border-rose-500/20 dark:border-rose-500/30 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs select-none shadow-sm">
+            <div class="flex items-center gap-3">
+                <span class="bg-rose-600 text-white font-black px-2.5 py-1 rounded text-[10px] uppercase tracking-wider shadow-sm shrink-0">
+                    Sljedeći blagdan
+                </span>
+                <span class="font-extrabold text-sm text-slate-900 dark:text-white flex items-center gap-1.5 font-serif">
+                    🎉 {upcoming['name']} <span class="font-mono text-xs text-slate-500 font-normal">({fmt_date})</span>
+                </span>
+            </div>
+            <div class="flex items-center gap-2 self-start sm:self-auto shrink-0">
+                <span class="bg-emerald-600 text-white font-extrabold text-xs px-3 py-1 rounded uppercase shadow-sm flex items-center gap-1">
+                    <span>🗓️ {days_badge}</span>
+                    <span class="opacity-80 font-normal">({upcoming['day']})</span>
+                </span>
+            </div>
         </div>
     '''
 
@@ -168,30 +174,32 @@ def render_single_year_view(year, is_hidden=False):
             </tr>
         '''
 
-    next_holiday_badge = get_next_holiday_info(year)
+    next_holiday_badge = get_next_holiday_info(year) if year == 2026 else ""
     hidden_cls = " hidden" if is_hidden else ""
     return f'''
         <div id="kalendar-year-{year}" class="bg-white dark:bg-slate-900 p-6 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm space-y-6 transition-colors{hidden_cls}">
-            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div>
-                    <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white">
-                        📅 Kalendar Blagdana i Neradnih Dana u RH ({year})
-                    </h2>
-                    <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
-                    {next_holiday_badge}
+            <div class="border-b border-slate-200 dark:border-slate-800 pb-4 space-y-4">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-xl font-black tracking-tight flex items-center gap-2 text-slate-900 dark:text-white font-serif">
+                            📅 Kalendar Blagdana i Neradnih Dana u RH ({year})
+                        </h2>
+                        <p class="text-xs text-slate-450 dark:text-slate-400 mt-1">Interaktivni vizualni kalendar s istaknutim neradnim danima, blagdanima i produženim vikendima.</p>
+                    </div>
+                    
+                    <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
+                        <button type="button" onclick="switchYearTab(2026)" id="tab-btn-2026-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2026 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                            2026. (Tekuća)
+                        </button>
+                        <button type="button" onclick="switchYearTab(2027)" id="tab-btn-2027-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2027 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                            2027. (Naredna)
+                        </button>
+                        <button type="button" onclick="switchYearTab(2025)" id="tab-btn-2025-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2025 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
+                            2025. (Prošla)
+                        </button>
+                    </div>
                 </div>
-                
-                <div class="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg shrink-0">
-                    <button type="button" onclick="switchYearTab(2026)" id="tab-btn-2026-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2026 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
-                        2026. (Tekuća)
-                    </button>
-                    <button type="button" onclick="switchYearTab(2027)" id="tab-btn-2027-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2027 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
-                        2027. (Naredna)
-                    </button>
-                    <button type="button" onclick="switchYearTab(2025)" id="tab-btn-2025-{year}" class="px-3 py-1 text-xs font-bold rounded-md transition-all {'bg-editorial-navy text-white shadow-sm' if year == 2025 else 'text-slate-600 dark:text-slate-400 hover:text-white'}">
-                        2025. (Prošla)
-                    </button>
-                </div>
+                {next_holiday_badge}
             </div>
 
             <div class="flex items-center gap-4 text-xs font-bold select-none border-b border-slate-100 dark:border-slate-800 pb-3">
@@ -670,7 +678,7 @@ def get_english_html():
     '''
 
 def get_pre_rendered_subnav_html(active_key="sve"):
-    main_cats = [
+    news_cats = [
         {"id": "sve", "name": "Sve", "file": "/"},
         {"id": "vijesti", "name": "Vijesti", "file": "vijesti"},
         {"id": "sport", "name": "Sport", "file": "sport"},
@@ -679,24 +687,30 @@ def get_pre_rendered_subnav_html(active_key="sve"):
         {"id": "biznis", "name": "Biznis", "file": "biznis"},
         {"id": "auti", "name": "Auti", "file": "auti"},
         {"id": "showbiz", "name": "Showbiz", "file": "showbiz"},
-        {"id": "zanimljivosti", "name": "Zanimljivosti", "file": "zanimljivosti"},
+        {"id": "zanimljivosti", "name": "Zanimljivosti", "file": "zanimljivosti"}
+    ]
+
+    utility_cats = [
         {"id": "nedjelja", "name": "Nedjelja 🛒", "file": "nedjelja"},
         {"id": "katalozi", "name": "Katalozi 🛍️", "file": "katalozi"},
-        {"id": "kalendar", "name": "Kalendar 📅", "file": "kalendar"},
-        {"id": "english", "name": "English 🇬🇧", "file": "english"},
-        {"id": "vrijeme", "name": "Vrijeme 🌤️", "file": "vrijeme"},
-        {"id": "portali", "name": "Portali 🌐", "file": "portali"},
-        {"id": "spremljeno", "name": "Spremljeno 📌", "file": "spremljeno"}
+        {"id": "kalendar", "name": "Kalendar 📅", "file": "kalendar"}
     ]
     
     cat_target = "sve" if active_key == "index" else active_key
     
     html = ""
-    for cat in main_cats:
+    for cat in news_cats:
         is_active = (cat["id"] == cat_target)
         active_cls = "bg-editorial-navy text-white shadow-sm font-black" if is_active else "text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white"
-        html += f'<a href="{cat["file"]}" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 {active_cls}">{cat["name"]}</a>'
+        html += f'<a href="{cat["file"]}" class="px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider rounded transition-all shrink-0 select-none {active_cls}">{cat["name"]}</a>'
         
+    html += '<span class="inline-block h-4 w-px bg-slate-300 dark:bg-slate-700 mx-1 shrink-0"></span>'
+
+    for cat in utility_cats:
+        is_active = (cat["id"] == cat_target)
+        active_cls = "bg-editorial-navy text-white shadow-sm font-black" if is_active else "bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-750 hover:text-slate-900 dark:hover:text-white"
+        html += f'<a href="{cat["file"]}" class="px-3 py-1 text-xs font-bold rounded transition-all shrink-0 select-none {active_cls}">{cat["name"]}</a>'
+
     return html
 
 def main():
@@ -742,7 +756,7 @@ def main():
         content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.24', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.39', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
