@@ -8,7 +8,7 @@
   <url>
     <loc>https://www.vijesti-hrvatska.com/vijesti</loc>
     <changefreq>hourly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.vijesti-hrvatska.com/sport</loc>
@@ -46,9 +46,64 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.vijesti-hrvatska.com/nedjelja</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/katalozi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/kalendar</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/english</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.vijesti-hrvatska.com/portali</loc>
     <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/vecernji-list</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/jutarnji-list</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/index-hr</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/24sata</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/net-hr</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/tportal</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.vijesti-hrvatska.com/portali/slobodna-dalmacija</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.vijesti-hrvatska.com/vrijeme</loc>
@@ -58,7 +113,7 @@
   <url>
     <loc>https://www.vijesti-hrvatska.com/impressum</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.vijesti-hrvatska.com/pravila</loc>
