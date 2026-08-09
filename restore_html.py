@@ -756,11 +756,11 @@ def main():
         content = re.sub(r'<div id="category-container"[\s\S]*?</div>', f'<div id="category-container" class="flex space-x-2 overflow-x-auto pb-1 pt-1 scrollbar-none w-full scroll-smooth px-2">{subnav_markup}</div>', content, count=1)
         
         # Cache buster
-        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.43', content)
+        content = re.sub(r'app\.js(?:\?v=[\d\.]+)?', 'app.js?v=1.4.44', content)
         
         # SEO text
         seo_text = seo.get("seo_text", "")
-        content = re.sub(r'<p id="seo-description-text">[\s\S]*?</p>', f'<p id="seo-description-text">{seo_text}</p>', content)
+        content = re.sub(r'<div id="seo-description-text"[\s\S]*?</div>', f'<div id="seo-description-text" class="space-y-3">\n{seo_text}\n</div>', content)
         
         # Schema
         schema_json = get_schema(key, seo)
