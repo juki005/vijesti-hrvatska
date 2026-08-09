@@ -6584,12 +6584,44 @@ function handleRoute() {
         }
     }
 
-    const pageTitle = `${catName}${subName} | Vijesti Hrvatska`;
+    const SEO_PAGE_TITLES = {
+        'sve': { title: "Vijesti | Najnovije vijesti dana iz minute u minutu | HR", heading: "Vijesti – Najnovije vijesti dana iz minute u minutu" },
+        'index': { title: "Vijesti | Najnovije vijesti dana iz minute u minutu | HR", heading: "Vijesti – Najnovije vijesti dana iz minute u minutu" },
+        'vijesti': { title: "Najnovije vijesti danas | Vijesti iz Hrvatske i svijeta", heading: "Najnovije vijesti danas iz Hrvatske i svijeta" },
+        'sport': { title: "Sport vijesti | Najnovije sportske vijesti i rezultati", heading: "Sport vijesti – Najnovije sportske vijesti i rezultati" },
+        'tech': { title: "Tech vijesti | Najnovije vijesti iz tehnologije i znanosti", heading: "Tech vijesti – Tehnologija, znanost i gadgeti" },
+        'lifestyle': { title: "Lifestyle vijesti | Kultura, zdravlje, moda i recepti", heading: "Lifestyle vijesti – Kultura, zdravlje i moda" },
+        'biznis': { title: "Biznis vijesti | Gospodarstvo, financije i mirovine", heading: "Biznis vijesti – Gospodarstvo, financije i mirovine" },
+        'auti': { title: "Auto vijesti | Najnovije vijesti o automobilima i prometu", heading: "Auto vijesti – Testovi vozila i prometne novosti" },
+        'showbiz': { title: "Showbiz vijesti | Najnovije vijesti s estrade i filma", heading: "Showbiz vijesti – Estrada, film i glazba" },
+        'zanimljivosti': { title: "Zanimljivosti | Viralne i bizarne vijesti s interneta", heading: "Zanimljivosti – Viralne i bizarne vijesti" },
+        'nedjelja': { title: "Radne nedjelje trgovina | Koje trgovine rade ovu nedjelju", heading: "Radne nedjelje trgovina i shopping centara u RH" },
+        'katalozi': { title: "Katalozi i akcije trgovina | Tjedni popusti u Hrvatskoj", heading: "Katalozi i akcije trgovina u Hrvatskoj" },
+        'kalendar': { title: "Kalendar blagdana 2026 | Neradni dani i praznici u RH", heading: "Kalendar blagdana i neradnih dana u RH (2026)" },
+        'english': { title: "Croatia news in English | Latest daily news from Croatia", heading: "Croatia news in English – Daily updates" },
+        'portali': { title: "Imenik hrvatskih portala | Svi mediji na jednom mjestu", heading: "Imenik hrvatskih portala i medija" },
+        'vrijeme': { title: "Vremenska prognoza Hrvatska | Vrijeme u gradovima RH", heading: "Vremenska prognoza za gradove u Hrvatskoj" },
+        'spremljeno': { title: "Spremljene vijesti | Vaša osobna čitanka", heading: "Spremljene vijesti" },
+        'analitika': { title: "Medijska analitika i trendovi | Statistika portala", heading: "Medijska analitika i statistika objava" }
+    };
+
+    let pageTitle = `${catName}${subName} | Vijesti Hrvatska`;
+    let pageHeading = pageTitle;
+
+    if (activeSubcategory === 'sve' && !currentPortalSlug && SEO_PAGE_TITLES[activeCategory]) {
+        pageTitle = SEO_PAGE_TITLES[activeCategory].title;
+        pageHeading = SEO_PAGE_TITLES[activeCategory].heading;
+    } else if (activeSubcategory !== 'sve') {
+        const subClean = subName.replace(/^\s*-\s*/, '');
+        pageTitle = `${subClean} – ${catName} | Vijesti Hrvatska`;
+        pageHeading = `${subClean} – ${catName}`;
+    }
+
     document.title = pageTitle;
 
     const h1Heading = document.getElementById('page-main-heading');
     if (h1Heading) {
-        h1Heading.textContent = pageTitle;
+        h1Heading.textContent = pageHeading;
     }
 
     // Render subnavigation
