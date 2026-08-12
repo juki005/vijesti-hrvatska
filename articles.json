@@ -1,5 +1,14 @@
 [
   {
+    "id": "753397d4-0cbd-5497-b346-7d411cc50bb3",
+    "title": "Samobor roditeljima srednjoškolaca daje po 200 eura za kupnju udžbenika",
+    "link": "https://www.tportal.hr/vijesti/clanak/samobor-roditeljima-srednjoskolaca-daje-po-200-eura-za-kupnju-udzbenika-20260812",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2249954.jpeg?cropId=0",
+    "description": "Grad Samobor i u školskoj godini 2026./2027. nastavlja s financijskom podrškom srednjoškolcima i njihovim roditeljima osiguravanjem jednokratne naknade od 200 eura za kupnju udž...",
+    "published_at": "2026-08-12T23:43:00+00:00"
+  },
+  {
     "id": "92268678-de21-5e21-b5a1-7a6e6b2cea6c",
     "title": "Croatian Tourism Minister Says Last Minute Bookings are Saving August",
     "link": "https://total-croatia-news.com/news/croatian-last-minute-bookings/",
@@ -747,15 +756,6 @@
     "published_at": "2026-08-12T20:29:00+00:00"
   },
   {
-    "id": "9c3f68c8-5e01-52c3-8854-b79e93535b45",
-    "title": "Jelena Karleuša opet pričala o otkazanom koncertu u Vodicama, poručila: 'Bila sam žrtva strašnog napada'",
-    "link": "https://www.tportal.hr/showtime/clanak/jelena-karleusa-opet-pricala-o-otkazanom-koncertu-u-vodicama-porucila-bila-sam-zrtva-strasnog-napada-foto-20260812",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2778698.jpeg?cropId=0",
-    "description": "Otkazivanje koncerta Jelene Karleuše u vodičkoj Haciendi izazvalo je brojne reakcije, a sada je pjevačica prvi put opširnije komentirala cijeli slučaj. Tvrdi da se njezin nastup...",
-    "published_at": "2026-08-12T20:27:00+00:00"
-  },
-  {
     "id": "2265a127-420b-5a48-bda8-0b89406e51d5",
     "title": "Tko je Madjo (17), novi rekorder Superkupa? Villa se zbog njega borila s FIFA-om",
     "link": "https://www.index.hr/sport/clanak/tko-je-madjo-17-novi-rekorder-superkupa-villa-se-zbog-njega-borila-s-fifaom/2823205.aspx",
@@ -1332,21 +1332,21 @@
     "published_at": "2026-08-12T19:05:00+00:00"
   },
   {
-    "id": "0d991828-3824-5ad3-af66-b1c5be48a37f",
-    "title": "Liječnica iz Gospića: Vidimo sve više pacijenata s karcinomima. To su mladi ljudi",
-    "link": "https://www.index.hr/vijesti/clanak/lijecnica-iz-gospica-vidimo-sve-vise-pacijenata-s-karcinomima-to-su-mladi-ljudi/2823188.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "LIJEČNICA iz Like žali se na povećan broj karcinoma.",
-    "published_at": "2026-08-12T19:01:00+00:00"
-  },
-  {
     "id": "5c5f1928-ca4d-5000-ab88-ba8425b6069a",
     "title": "Auto sletio u provaliju u Zagori, dvoje mrtvih",
     "link": "https://www.index.hr/vijesti/clanak/auto-sjetio-u-provaliju-u-zagori-dvoje-mrtvih/2823182.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "MALO poslije 19 sati na sinjskom području na DC 1 u mjestu Podosoje došlo je do prometne nesreće, izlijetanje vozila s kolnika u provaliju, izvijestila je PU splitsko-dalmatinska.",
+    "published_at": "2026-08-12T19:01:00+00:00"
+  },
+  {
+    "id": "0d991828-3824-5ad3-af66-b1c5be48a37f",
+    "title": "Liječnica iz Gospića: Vidimo sve više pacijenata s karcinomima. To su mladi ljudi",
+    "link": "https://www.index.hr/vijesti/clanak/lijecnica-iz-gospica-vidimo-sve-vise-pacijenata-s-karcinomima-to-su-mladi-ljudi/2823188.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "LIJEČNICA iz Like žali se na povećan broj karcinoma.",
     "published_at": "2026-08-12T19:01:00+00:00"
   },
   {
@@ -2412,21 +2412,21 @@
     "published_at": "2026-08-12T14:52:00+00:00"
   },
   {
-    "id": "1ea9ba12-a101-50d8-8dd7-2218e0c908b6",
-    "title": "INDEX KVIZ 15 pitanja za one koji se vole hvaliti znanjem",
-    "link": "https://www.index.hr/chill/clanak/index-kviz-15-pitanja-za-one-koji-se-vole-hvaliti-znanjem/2823055.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ZNAMO koliko volite kvizove.",
-    "published_at": "2026-08-12T14:52:00+00:00"
-  },
-  {
     "id": "57a16a16-e78a-5e7a-a8cc-1e6971b99f15",
     "title": "Stižu Pokémon crocsice za djecu i odrasle",
     "link": "https://www.index.hr/shopping/clanak/stizu-pok%C3%A9mon-crocsice-za-djecu-i-odrasle/2823129.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "CROCS i Pokémon slave 30. godišnjicu novim klompama u stilu Poké loptice.",
+    "published_at": "2026-08-12T14:52:00+00:00"
+  },
+  {
+    "id": "1ea9ba12-a101-50d8-8dd7-2218e0c908b6",
+    "title": "INDEX KVIZ 15 pitanja za one koji se vole hvaliti znanjem",
+    "link": "https://www.index.hr/chill/clanak/index-kviz-15-pitanja-za-one-koji-se-vole-hvaliti-znanjem/2823055.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ZNAMO koliko volite kvizove.",
     "published_at": "2026-08-12T14:52:00+00:00"
   },
   {
