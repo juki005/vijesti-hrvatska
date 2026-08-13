@@ -1,12 +1,444 @@
 [
   {
+    "id": "39a94a0d-dee0-5909-a4f3-e8ee2aa695e2",
+    "title": "'Bježali smo s hrpom djece, trebalo je pet minuta da sve plane. Okružilo nas dok smo naručili piće'",
+    "link": "https://www.vecernji.hr/vijesti/bjezali-smo-s-hrpom-djece-trebalo-je-pet-minuta-da-sve-plane-okruzilo-nas-dok-smo-narucili-pice-1986253",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/62/1f/008119e6305dc9e92732.jpeg",
+    "description": "Grad Omiš otvorio je Gradsku sportsku dvoranu Ribnjak kao mjesto prihvata stanovnika i turista koji budu morali napustiti svoje domove i smještaje.",
+    "published_at": "2026-08-13T21:11:00+00:00"
+  },
+  {
+    "id": "0d9babc3-b6a7-53c2-b57c-e9b6ca54891a",
+    "title": "BOSANČIĆ NAKON PORAZA: \"Želim od srca da Hajduk uđe u grupu u KL-u\"",
+    "link": "https://www.dalmacijadanas.hr/bosancic-nakon-poraza-zelim-od-srca-da-hajduk-ude-u-grupu-u-kl-u/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/petar-bosancic-zalgiris.jpeg",
+    "description": "Hajduk je s ukupnih 9:2 prošao dalje",
+    "published_at": "2026-08-13T21:10:49+00:00"
+  },
+  {
+    "id": "5492e51f-9042-5ccd-8c26-cd4416a8e02c",
+    "title": "Žalgiris je ukupno dobio devet golova od Hajduka. Pogledajte njihove navijače",
+    "link": "https://www.index.hr/sport/clanak/zalgiris-je-ukupno-dobio-devet-golova-od-hajduka-pogledajte-njihove-navijace/2823563.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ODUŠEVILI su.",
+    "published_at": "2026-08-13T21:09:00+00:00"
+  },
+  {
+    "id": "4ac90d87-bbb9-5304-ac00-47ca8b3d203a",
+    "title": "Širi se veliki požar kod Omiša. Evakuiraju ljude, stižu vatrogasci iz cijele Dalmacije",
+    "link": "https://www.index.hr/vijesti/clanak/veliki-pozari-na-bracu-i-kod-skrljeva-vatru-gase-kanaderi-i-air-tractor/2823239.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VATROGASCI se jutros bore s dva veća požara, kod Škrljeva u Primorsko-goranskoj županiji te na području Pučišća na otoku Braču.",
+    "published_at": "2026-08-13T21:07:17+00:00"
+  },
+  {
+    "id": "42fe8113-22bb-58f0-adfb-ae26b19a865f",
+    "title": "UŽIVO Pratite prve reakcije nakon prolaska Hajduka u play-off Konferencijske lige",
+    "link": "https://www.index.hr/sport/clanak/uzivo-pratite-prve-reakcije-nakon-prolaska-hajduka-u-playoff-konferencijske-lige/2823553.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "HAJDUK je jedno pretkolo udaljen od Konferencijske lige.",
+    "published_at": "2026-08-13T21:07:00+00:00"
+  },
+  {
+    "id": "d18c4296-503c-5ce7-baa1-a3288d64c18f",
+    "title": "FOTO Strašan požar kod Omiša. U pomoć dolaze vatrogasci iz Dubrovnika, Zadra i Šibenika",
+    "link": "https://www.24sata.hr/news/foto-strasan-pozar-kod-omisa-u-pomoc-dolaze-vatrogasci-iz-dubrovnika-zadra-i-sibenika-1147274",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/bL3Z8PvBA38h3gYsop8TQyJNAL8=/800x450/smart/media/images/2026-32/whatsapp-image-2026-08-13-at-22-12-17.jpeg",
+    "description": "Zbog velike vatre i bure koja dodatno pogoršava situaciju, u pomoć dolazi preko 90 vatrogasaca iz Dubrovnika, Zadra i Šibenika. Zbog požara je za sav promet zatvorena Jadranska ...",
+    "published_at": "2026-08-13T21:06:00+00:00"
+  },
+  {
+    "id": "35e0a94f-1c1a-59af-b0ad-8fb07fcd3364",
+    "title": "Hajduk izborio playoff Konferencijske lige: Evo tko ga tamo čeka",
+    "link": "https://www.vecernji.hr/sport/hajduk-izborio-playoff-konferencijske-lige-evo-tko-ga-tamo-ceka-1986251",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/d8/40/b2d0d95b53c686b86a6a.jpeg",
+    "description": "U ovom dvomeču nema izrazitog favorita, pogotovo ako se pogledaju vrijednosti momčadi po Transfermarktu",
+    "published_at": "2026-08-13T21:04:00+00:00"
+  },
+  {
+    "id": "a6cc1279-62db-56c5-a869-83f14b801a40",
+    "title": "Na Pagu ponovno razbijena spomen-ploča žrtvama ustaških logora, oglasila se Vlada: 'Oštro osuđujemo taj čin'",
+    "link": "https://www.vecernji.hr/vijesti/na-pagu-ponovno-razbijena-spomen-ploca-zrtvama-ustaskih-logora-oglasila-se-vlada-ostro-osudujemo-taj-cin-1986249",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/84/06/f1d966691236e864fcbd.jpeg",
+    "description": "U objavi Vlade posebna savjetnica predsjednika Vlade za pitanja Holokausta i suzbijanje antisemitizma Sara Lustig istaknula je kako uništavanje spomen-ploče predstavlja izravan ...",
+    "published_at": "2026-08-13T21:04:00+00:00"
+  },
+  {
+    "id": "df10c05f-a6cf-57e6-8bfb-f273e8415878",
+    "title": "Povijesna večer za SuperSport HNL: Ovo se nije dogodilo skoro deset godina",
+    "link": "https://www.tportal.hr/sport/clanak/povijesna-vecer-za-supersport-hnl-ovo-se-nije-dogodilo-skoro-deset-godina-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780502.jpeg?cropId=0",
+    "description": "Hrvatski klupski nogomet napravio je nešto što nije uspio još od 2017. godine.",
+    "published_at": "2026-08-13T21:04:00+00:00"
+  },
+  {
+    "id": "a631d72e-add3-5771-88e4-57271285f8fa",
+    "title": "Kako su igrali: Šutalo briljirao, Raci držao obranu, Melnjaka je bio pun teren",
+    "link": "https://sportnet.hr/vijesti/nogomet-konferencijska-liga/kako-su-igrali-sutalo-briljirao-raci-drzao-obranu-melnjaka-je-bio-pun-teren/630450/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/528/61/0000000000528614_510_0.jpg",
+    "description": "Hajduk je pobijedio 4:0 protiv Žalgiris i izborio četvrtu kvalifikacijsku rundu Konferencijske lige. Bilo je dosta raspoloženih igrača, posebno u drugom poluvremenu...",
+    "published_at": "2026-08-13T21:01:07+00:00"
+  },
+  {
+    "id": "3e8e22e3-63a3-5e25-a9cc-39de0867b555",
+    "title": "Raspored HNL-a i Europe. Kad igraju Dinamo, Hajduk i Rijeka?",
+    "link": "https://www.24sata.hr/sport/hnl-raspored-2026-27-tablica-rezultati-kad-nasi-igraju-europu-1139157",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/nQx_E8spio8qDwHVaCnP1SuZLdk=/800x450/smart/media/images/2026-27/images-2026-27-pxl-230526-152427777.jpg",
+    "description": "Prvi \"vječni derbi\" igra se sredinom listopada. Dinamo nastavlja lov na Ligu prvaka, Hajduk se iz Europske lige seli u Konferencijsku, gdje je i Rijeka. Varaždin je završio avan...",
+    "published_at": "2026-08-13T21:00:00+00:00"
+  },
+  {
+    "id": "7641a895-5140-5537-b32b-e39dbbf87f31",
+    "title": "Iza raskoši Neverlanda krila su se stroga pravila: Paris Jackson otkrila detalje iz djetinjstva",
+    "link": "https://www.vecernji.hr/showbiz/iza-raskosi-neverlanda-krila-su-se-stroga-pravila-paris-jackson-otkrila-detalje-iz-djetinjstva-1986027",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/d8/5b/f969dd534e492ac0c7b2.jpeg",
+    "description": "U podcastu Call Her Daddy prisjetila se kako su izgledali njezini dani. „Budila bih se i išla u školu. Odlazili bismo u prostoriju koja je bila naša učionica i ondje bismo učili...",
+    "published_at": "2026-08-13T21:00:00+00:00"
+  },
+  {
+    "id": "66969722-d19e-5b4c-ab59-764469a7a524",
+    "title": "Najluđi maraton u povijesti osvojio je zidar koji je za vrijeme utrke pio konjak i otrov za štakore",
+    "link": "https://www.vecernji.hr/vijesti/najludi-maraton-u-povijesti-osvojio-je-zidar-koji-je-za-vrijeme-utrke-pio-konjak-i-otrov-za-stakore-1985132",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/62/29/729de196d35f0061fa43.jpeg",
+    "description": "U to je vrijeme na stadion, tri sata nakon starta, utrčao Amerikanac Fred Lorz, svjež i nasmiješen, pozdravljajući publiku. Gledatelji su gromoglasno klicali, a kći predsjednika...",
+    "published_at": "2026-08-13T21:00:00+00:00"
+  },
+  {
+    "id": "3f9bc6d1-69f5-5f42-a186-86955b65a165",
+    "title": "VIDEO/FOTO Vatra kod Omiša guta sve pred sobom, traje evakuacija; Tucaković: 'Situacija je jako teška'",
+    "link": "https://www.vecernji.hr/vijesti/pozar-izbio-u-lokvi-rogoznici-jadranska-magistrala-zatvorena-za-promet-1986234",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/9f/f8/3d8ab2178df50fcb0ec5.jpg",
+    "description": "Situacija na požarištu u Lokvi Rogoznici i okolici nije dobra. Požar se, nošen jakim vjetrom, brzo širi, a na terenu su brojne vatrogasne snage koje se bore s vatrenom stihijom",
+    "published_at": "2026-08-13T21:00:00+00:00"
+  },
+  {
+    "id": "4728e199-3320-5e4e-940b-43d74a38c9fb",
+    "title": "„VATRA NAS JE OKRUŽILA“: Bježali s djecom dok je sve oko njih gorjelo",
+    "link": "https://www.dalmacijadanas.hr/vatra-nas-je-okruzila-bjezali-s-djecom-dok-je-sve-oko-njih-gorjelo/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-lokva-rogoznica-3.jpeg",
+    "description": "Dramatični trenuci netom nakon izbijanja požara",
+    "published_at": "2026-08-13T20:58:57+00:00"
+  },
+  {
+    "id": "f5347ec0-a89c-5f91-bfe5-947c77fbdc0b",
+    "title": "Evo koliko je Hajduk zaradio plasmanom u play-off Konferencijske lige",
+    "link": "https://www.index.hr/sport/clanak/evo-koliko-je-hajduk-zaradio-plasmanom-u-playoff-konferencijske-lige/2823561.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "HAJDUK je na korak od ligaške faze.",
+    "published_at": "2026-08-13T20:58:00+00:00"
+  },
+  {
+    "id": "7c701281-e88e-5eca-bd9b-4a75e7a2ae05",
+    "title": "Evo s kim će Hajduk igrati u play-offu Konferencijske lige",
+    "link": "https://www.index.hr/sport/clanak/hajduk-saznao-protivnika-ako-prodje-u-playoff-konferencijske-lige/2823534.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PRVA utakmica igrat će se na Poljudu.",
+    "published_at": "2026-08-13T20:58:00+00:00"
+  },
+  {
+    "id": "cbf1e97c-73e7-5f42-85c1-e3d6380617f2",
+    "title": "Srbin visio iz Ryanairova aviona. Istraga: U motoru su pronađeni ostaci ptice",
+    "link": "https://www.index.hr/vijesti/clanak/srbin-visio-iz-ryanairova-aviona-istraga-u-motoru-su-pronadjeni-ostaci-ptice/2823560.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ISTRAGA o kvaru Ryanairova motora otkrila je ostatke ptice nakon drame u kojoj je putnik djelomično usisan kroz prozor tijekom leta iz Grčke.",
+    "published_at": "2026-08-13T20:56:00+00:00"
+  },
+  {
+    "id": "16d1231b-edd3-5a50-90c2-43ade9aaa569",
+    "title": "VIDEO Hajduk - Žalgiris 4-0: 'Bili' u drugom dijelu slomili Litavce i izborili 4. pretkolo",
+    "link": "https://www.24sata.hr/sport/uzivo-hajduk-zalgiris-livaja-starta-nema-mjesta-za-kiks-1147136",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/T2GofNg6WvMOCUFd75RmQehHYaI=/800x450/smart/media/images/2026-32/pxl-130826-156631659.jpg",
+    "description": "Hajduk je s ukupnih 9-2 protiv Žalgirisa izborio 4. pretkolo Konfrencijske lige gdje ih čeka poljski Rakow",
+    "published_at": "2026-08-13T20:56:00+00:00"
+  },
+  {
+    "id": "cedd6142-2a68-544d-b654-389ba03308d4",
+    "title": "Koliko je Hajduk dosad zaradio u Europi i koliko bi još mogao?",
+    "link": "https://www.24sata.hr/sport/koliko-je-hajduk-dosad-zaradio-u-europi-i-koliko-bi-jos-mogao-1147143",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/l1gkSG8xKXlhn7bvZhUajQBXp14=/800x450/smart/media/images/2026-32/pxl-130226-146477630_E0BSOBM.jpg",
+    "description": "HAJDUK - ŽALGIRIS 4-0 Hajduk je korak do europske jeseni i velike lovine: prolaz u skupinu Konferencijske lige donosi milijune, a svaki novi korak puni blagajnu",
+    "published_at": "2026-08-13T20:51:00+00:00"
+  },
+  {
+    "id": "824559cd-e45c-5737-8b29-ac0f74747db5",
+    "title": "KRAJ Bijeli prošli u play-off Konferencijske lige nakon golijade na Poljudu",
+    "link": "https://www.dalmacijadanas.hr/kraj-bijeli-prosli-u-play-off-konferencijske-lige-nakon-golijade-na-poljudu/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/hajduk-zalgiris-foto-roko-5-1.jpeg",
+    "description": "Bijeli će, ukoliko pobijede Žalgiris, igrati protiv poljskog Rakówa u play-offu Konferencijske lige",
+    "published_at": "2026-08-13T20:50:57+00:00"
+  },
+  {
+    "id": "4211df72-bd7d-5b27-87ee-bddc241d6bad",
+    "title": "U Omiš krenuli vatrogasci iz cijele Dalmacije",
+    "link": "https://www.index.hr/vijesti/clanak/u-omis-krenuli-vatrogasci-iz-dubrovnika-sibenika-i-zadra/2823559.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VIŠE od 90 vatrogasaca uz pomoć iz susjednih županija gasi požar kod Omiša koji prijeti kućama, dok je Jadranska magistrala zatvorena za promet.",
+    "published_at": "2026-08-13T20:50:00+00:00"
+  },
+  {
+    "id": "3ec0169d-648c-53e7-9d79-62bf7d653e1e",
+    "title": "Jedna od najljepših žena svijeta objavila fotke s proslave prvog rođendana kćeri",
+    "link": "https://www.index.hr/magazin/clanak/olivia-culpo-objavila-fotografije-proslave-prvog-rodjendana-kceri-ti-si-moje-srce/2823556.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "MANEKENKA Olivia Culpo proslavila je prvi rođendan kćeri.",
+    "published_at": "2026-08-13T20:50:00+00:00"
+  },
+  {
+    "id": "d4a67563-0439-5620-841b-5353b365c7c7",
+    "title": "ANKETA Ocijenite Garciju i igrače Hajduka nakon pobjede protiv Žalgirisa",
+    "link": "https://www.index.hr/sport/clanak/anketa-ocijenite-garciju-i-igrace-hajduka-nakon-pobjede-protiv-zalgirisa/2823555.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "TKO JE BIO najbolji, a tko najgori?",
+    "published_at": "2026-08-13T20:50:00+00:00"
+  },
+  {
+    "id": "be7f8846-b8c6-53bc-ab13-984cae5fb0e9",
+    "title": "Pratite prve reakcije nakon Hajdukova razbijanja Žalgirisa",
+    "link": "https://www.24sata.hr/sport/pratite-prve-reakcije-nakon-hajdukova-razbijanja-zalgirisa-1147152",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/yn-MC4sWTVeAkd9SkN_sBieq71c=/800x450/smart/media/images/2026-32/pxl-130826-156633193_uGykoYz.jpg",
+    "description": "HAJDUK - ŽALGIRIS 4-0 Splićani love glavnu fazu europskog natjecanja nakon 16 godina. Evo što kažu trener Gonzalo Garcia i igrači",
+    "published_at": "2026-08-13T20:50:00+00:00"
+  },
+  {
     "id": "d06d9b2b-64df-5c6e-8d25-3db8a6e5daeb",
-    "title": "UŽIVO Hajduk se razigrao nakon zabijenog gola: Nižu se prilike pred golom Žalgirisa",
+    "title": "Hajduk novom sjajnom predstavom osigurao playoff Konferencijske lige: Utrpali devet golova Žalgirisu (4:0)",
     "link": "https://www.vecernji.hr/sport/uzivo-od-21-hajduk-na-prepunom-poljudu-brani-ogromnu-prednost-livaja-napokon-zapocinje-utakmicu-1986217",
     "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/63/2c/7bf266ec2fa3c432b4c0.jpeg",
-    "description": "Tesktualni prijenos pratite na portalu Večernjeg lista od 21 sat.",
-    "published_at": "2026-08-13T20:22:00+00:00"
+    "image_url": "https://www.vecernji.hr/media/img/16/29/2981c4d98d329428b264.jpeg",
+    "description": "Hajduk je početkom drugog dijela ipak uspio slomiti Žalgiris. U 54. minuti je Melnjak bio strijelac za 1-0. Sjajno ga je pritom proigrao Šutalo, ovog četvrtka najraspoloženiji i...",
+    "published_at": "2026-08-13T20:50:00+00:00"
+  },
+  {
+    "id": "e8707057-7158-5c75-8163-42fd2aed1ee2",
+    "title": "Hajduk je u play-offu Konferencijske lige: Evo koliko su Bijeli zaradili",
+    "link": "https://www.tportal.hr/sport/clanak/hajduk-je-u-play-offu-konferencijske-lige-evo-koliko-su-bijeli-zaradili-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780478.jpeg?cropId=0",
+    "description": "Hajduk je izborio play-off Konferencijske lige i napravio posljednji korak prema ligaškoj fazi europskog natjecanja.",
+    "published_at": "2026-08-13T20:49:00+00:00"
+  },
+  {
+    "id": "20733fd5-5b81-5ef4-937c-404c2e90ba95",
+    "title": "Potresna ispovijest iz srca požara: ‘Bižali brat, sestra i ja s hrpom dice, okružilo nas dok je došlo piće...‘",
+    "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/dramaticna-ispovijest-iz-srca-pozara-bizali-brat-sestra-i-ja-s-hrpom-dice-okruzilo-nas-dok-je-doslo-pice-1573400",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32297831.jpg",
+    "description": "Požar koji bukti u Lokvi Rogoznici sve je opasniji. Počele su stizati i prve ispovijesti ljudi koji su se našli u vatrenoj stihiji. - Bižali brat, sestra i ja s hrpom dice iz “M...",
+    "published_at": "2026-08-13T20:49:00+00:00"
+  },
+  {
+    "id": "9aeb1ef8-0502-5bd6-93e9-f426fd69c2b4",
+    "title": "Hajduk je u play-offu! Bijeli natrpali Litavce na Poljudu za nastavak europskog puta",
+    "link": "https://slobodnadalmacija.hr/sport/hajduk/hajduk-zalgiris-1573384",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32298157.jpg",
+    "description": "Hajduk je u uzvratnom susretu trećeg pretkola Konferencijske lige na Poljudu pobijedio Žalgiris s 4:0. Bijeli su tako u play-off prošli ukupnim rezultatom od 9:2, nakon pobjede ...",
+    "published_at": "2026-08-13T20:49:00+00:00"
+  },
+  {
+    "id": "f660b86b-2b19-5612-8a6f-b412645170df",
+    "title": "Hajduk Seal Conference League Play-Off Spot with Dominant 4-0 Win Against Žalgiris",
+    "link": "https://total-croatia-news.com/news/sport/hajduk-zalgiris-conference-league/",
+    "source": "Total Croatia News",
+    "image_url": null,
+    "description": "Hajduk took on Žalgiris at Poljud in the return leg of the third qualifying round for the Conference League. The Split side easily defended a 5-2 advantage secured in Lithuania ...",
+    "published_at": "2026-08-13T20:48:53+00:00"
+  },
+  {
+    "id": "f0f9ee91-f92e-53b0-890a-00373322d686",
+    "title": "Hajduk ponovno deklasirao Litavce i ušao u play-off Konferencijske lige",
+    "link": "https://www.index.hr/sport/clanak/od-2100-hajduk-zalgiris-hajduk-brani-ogromnu-prednost-na-poljudu/2823346.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "RUTINSKA pobjeda Hajduka na Poljudu.",
+    "published_at": "2026-08-13T20:48:00+00:00"
+  },
+  {
+    "id": "124bb4b3-0c25-540f-96b4-075d03a8209c",
+    "title": "Hajduk - Žalgiris 4:0: Hajduk u drugom poluvremenu potpuno nadigrao Litavce za prolazak dalje!",
+    "link": "https://sportnet.hr/vijesti/nogomet-konferencijska-liga/hajduk-zalgiris-40-hajduk-u-drugom-poluvremenu-potpuno-nadigrao-litavce-za-prolazak-dalje/630445/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/528/61/0000000000528615_510_0.jpg",
+    "description": "U uzvratnoj utakmici treće kvalifikacijske runde Konferencijske lige, nogometaši Hajduka pobijedili su protiv Žalgirisa na Poljudu rezultatom 4:0 i prošli dalje s ukupnih 9:2...",
+    "published_at": "2026-08-13T20:48:00+00:00"
+  },
+  {
+    "id": "ad20a452-8ab9-5793-9ecd-16b10df825ea",
+    "title": "Pogledajte s čim se bore naši vatrogasci. Vjetar im stvara probleme",
+    "link": "https://www.dalmacijadanas.hr/pogledajte-s-cim-se-bore-nasi-vatrogasci-vjetar-im-stvara-probleme/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-lokva-rogoznica-4.jpeg",
+    "description": "Duga noć je pred vatrogascima",
+    "published_at": "2026-08-13T20:45:34+00:00"
+  },
+  {
+    "id": "9d7ed6ad-9d2a-52c6-a1b8-f87e8fa21324",
+    "title": "VIDEO Velika vatra guta sve pred sobom kod Omiša",
+    "link": "https://www.24sata.hr/news/video-velika-vatra-guta-sve-pred-sobom-kod-omisa-1147272",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/zcNh8t_ecSxgOck2ok4mgpL8KYo=/800x450/smart/media/images/2026-32/whatsapp-image-2026-08-13-at-22-35-23.jpeg",
+    "description": "Veliki požari divljaju u Dalmaciji. Posebno je teško kod Omiša i Lokvi Rogoznici. Grad Omiš je objavio informaciju o evakuaciji ljudi, a ova snimka prikazuje koliko je ozbiljna ...",
+    "published_at": "2026-08-13T20:45:00+00:00"
+  },
+  {
+    "id": "698ddb4e-74b7-5a9c-b42c-78a23c00f8f2",
+    "title": "Lokalizirani požari kod Primoštena i Vodica, vatrogasci idu u Lokvu Rogoznicu",
+    "link": "https://www.index.hr/vijesti/clanak/lokalizirani-pozari-kod-primostena-i-vodica-vatrogasci-idu-u-lokvu-rogoznicu/2823558.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "POŽARI kod Primoštena i Vodica su lokalizirani bez ugroze za objekte, a šibenski vatrogasci već odlaze na ispomoć kolegama kod Omiša.",
+    "published_at": "2026-08-13T20:44:00+00:00"
+  },
+  {
+    "id": "77a0a85f-5b92-5081-9050-2a4cced3aa56",
+    "title": "Senzacija u Birminghamu: Marino Bloudek osvojio europsko srebro na 800 metara!",
+    "link": "https://www.tportal.hr/sport/clanak/senzacija-u-birminghamu-marino-bloudek-osvojio-europsko-srebro-na-800-metara-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780500.jpeg?cropId=0",
+    "description": "Hrvatski atletičar Marino Bloudek osvojio je srebrnu medalju na 800 metara na Europskom prvenstvu u Birminghamu",
+    "published_at": "2026-08-13T20:44:00+00:00"
+  },
+  {
+    "id": "63f4dfe3-9308-597d-85fb-c824963910c3",
+    "title": "Policija se oglasila o požaru kod Omiša: Imaju upozorenje za vozače",
+    "link": "https://www.tportal.hr/vijesti/clanak/policija-se-oglasila-o-pozaru-kod-omisa-imaju-upozorenje-za-vozace-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780498.jpeg?cropId=4228553",
+    "description": "Zbog požara koji je izbio na području Lokve Rogoznice, Jadranska magistrala (D8) i dalje je zatvorena za promet",
+    "published_at": "2026-08-13T20:44:00+00:00"
+  },
+  {
+    "id": "81dcfdcd-e993-5c26-bf9e-852fd10c2c24",
+    "title": "Fantastični Marino Bloudek osvojio srebro na 800 metara na Europskom prvenstvu",
+    "link": "https://www.index.hr/sport/clanak/fantasticni-marino-bloudek-osvojio-srebro-na-800-metara-na-europskom-prvenstvu/2823557.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SJAJAN rezultat.",
+    "published_at": "2026-08-13T20:42:00+00:00"
+  },
+  {
+    "id": "783fea93-7b25-5839-b1bb-1f8ed093951f",
+    "title": "Senzacija u Birminghamu: Marino Bloudek osvojio srebrnu medalju na EP-u u atletici!",
+    "link": "https://www.vecernji.hr/sport/senzacija-u-birminghamu-marino-bloudek-osvojio-srebrnu-medalju-na-ep-u-u-atletici-1986248",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/b3/a7/ad258ea3f8fabf119a27.jpeg",
+    "description": "Hrvatski atletičar Marino Bloudek osvojio je srebrnu medalju na 800 metara na Europskom prvenstvu u Birminghamu",
+    "published_at": "2026-08-13T20:41:00+00:00"
+  },
+  {
+    "id": "b42af2ff-06e6-510b-9948-999db8a702eb",
+    "title": "ČUDESNI MARINO Hrvatska ima srebro s Europskog prvenstva!",
+    "link": "https://www.24sata.hr/sport/cudesni-marino-hrvatska-ima-srebro-s-europskog-prvenstva-1147271",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/Yvxzf3WCRXYpGj57sCNEyPfkQyA=/800x450/smart/media/images/2026-32/2026-08-13t204925z-61516798-up1em8d1lubb0-rtrmadp-3-athletics-european.jpg",
+    "description": "Hrvatski atletičar Marino Bloudek osvojio je srebrnu medalju u disciplini 800 metara na Europskom prvenstvu u Birminghamu",
+    "published_at": "2026-08-13T20:40:00+00:00"
+  },
+  {
+    "id": "6db5ff8f-68c4-59fa-ad91-3d26e5540a10",
+    "title": "'Tražite da vadim pare iz ćupa': Vučić poveo novinare u Bunar na jaja, mezu, rakiju i vino",
+    "link": "https://www.tportal.hr/vijesti/clanak/trazite-da-vadim-pare-iz-cupa-vucic-poveo-novinare-u-bunar-na-jaja-mezu-rakiju-i-vino-foto-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780480.jpeg?cropId=0",
+    "description": "Predsjednik Srbije Aleksandar Vučić još jednom je na svoja snažna pleća natovario naramak lojalnih novinara kako bi im pokazao stvarni život Srbije. Današnja destinacija bilo je...",
+    "published_at": "2026-08-13T20:40:00+00:00"
+  },
+  {
+    "id": "29002907-3a39-5795-a4d1-5f6329a96470",
+    "title": "Veliko slavlje na Poljudu! Pogledajte golove u Hajdukovoj europskoj rapsodiji",
+    "link": "https://www.tportal.hr/sport/clanak/hajduk-na-poljudu-lovi-konferencijsku-ligu-cekamo-sastace-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780476.jpeg?cropId=4228488",
+    "description": "Hajduk i Žagiris odigrali su uzvratnu utakmicu 3. pretkola Konferencijske lige. Bijeli su slavili s visokih 4-0 (9-2) i tako izborili doigravanje Konferencijske lige protiv polj...",
+    "published_at": "2026-08-13T20:40:00+00:00"
+  },
+  {
+    "id": "12444ee0-f3a0-5c97-adcb-094bf60aa430",
+    "title": "Pogledajte kako se mladi Huram sjajno snašao i razveselio Poljud",
+    "link": "https://www.tportal.hr/sport/clanak/pogledajte-kako-se-mladi-huram-sjajno-snasao-i-razveselio-poljud-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780495.jpeg?cropId=4228511",
+    "description": "Nogometaši Hajduka i u uzvratu 3. pretkola Konferencijske lige bolji su od Žalgirisa",
+    "published_at": "2026-08-13T20:39:00+00:00"
+  },
+  {
+    "id": "c0857a5c-6901-5690-b14d-11c5734880ab",
+    "title": "Kakav dan: Marino Bloudek donio Hrvatskoj srebro na Europskom prvenstvu u Birminghamu!",
+    "link": "https://sportnet.hr/vijesti/ostali-sportovi-atletika/kakav-dan-marino-bloudek-donio-hrvatskoj-srebro-na-europskom-prvenstvu-u-birminghamu/630449/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/528/61/0000000000528618_510_0.jpg",
+    "description": "Nastavlja se hrvatski niz s osvojenim odličjima na europskim prvenstvima u atletici! Marino Bloudek osvojio je srebrno odličje na EP u Birminghamu sjajno odrađenom utrkom na 800...",
+    "published_at": "2026-08-13T20:37:16+00:00"
+  },
+  {
+    "id": "b5a880d7-fa79-57a9-9ada-7f880177410a",
+    "title": "Pogledajte kako su hajdukovci probijali Žalgiris. Oduševio je mladi Šutalo, zabio i Ukrajinac",
+    "link": "https://www.24sata.hr/sport/pogledajte-kako-su-hajdukovci-probili-cvrsti-zalgiris-odusevio-mladi-sutalo-zabio-i-ukrajinac-1147270",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/lcsuArpw6UisbTVTm-_d6mjpLlE=/800x450/smart/media/images/2026-32/untitled-design_EvTKIfh.jpg",
+    "description": "HAJDUK - ŽALGIRIS 4-0 Hajduk rutinski slomio Žalgiris i na Poljudu, Šutalo i Melnjak otvorili put, mladi Huram i Bamba nastavili, Šego zaključio priču za veliko slavlje",
+    "published_at": "2026-08-13T20:37:00+00:00"
+  },
+  {
+    "id": "c970f942-0904-5943-b0d5-e01029a77ef6",
+    "title": "Isprobale smo još 10 kupovnih voda naslijepo. Neke su prošle odlično, jedna baš i ne",
+    "link": "https://www.index.hr/shopping/clanak/video-zatrpali-ste-nas-prijedlozima-kusale-smo-jos-voda-i-slozile-konacni-poredak/2822333.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NAKON prvog testa zatrpali ste nas prijedlozima voda koje smo preskočile, pa smo ih pronašle još 10 i ponovno stavile povez preko očiju.",
+    "published_at": "2026-08-13T20:30:00+00:00"
+  },
+  {
+    "id": "6b604586-2d92-518a-aa64-de70300c019e",
+    "title": "Na požaru u Lokvi Rogoznici trenutno je 76 vatrogasaca s 21 vozilom, stiže pomoć iz tri susjedne županije",
+    "link": "https://www.dalmacijadanas.hr/na-pozaru-u-lokvi-rogoznici-trenutno-je-76-vatrogasaca-s-21-vozilom-stize-pomoc-iz-tri-susjedne-zupanije/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-lokva-rogoznica-3-2.jpeg",
+    "description": "Evo što kažu iz HVZ-a",
+    "published_at": "2026-08-13T20:27:10+00:00"
+  },
+  {
+    "id": "6ff61e05-fb47-586c-95f3-c34b66f4664d",
+    "title": "Ubačaj za pamćenje: Pogledajte gol Hajduka za vodstvo protiv Žalgirisa",
+    "link": "https://www.tportal.hr/sport/clanak/ubacaj-za-pamcenje-pogledajte-gol-hajduka-za-vodstvo-protiv-zalgirisa-20260813",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780494.jpeg?cropId=0",
+    "description": "Hajduk je na pragu prvog nastupa u playoffu Konferencijske lige nakon četiri godine.",
+    "published_at": "2026-08-13T20:26:00+00:00"
+  },
+  {
+    "id": "8f2dcf41-ccc3-583f-b3e3-410edf1b9530",
+    "title": "Diddy više nije u samici, evo kad bi trebao izaći na slobodu",
+    "link": "https://www.24sata.hr/show/diddy-vise-nije-u-samici-evo-kad-bi-trebao-izaci-na-slobodu-1147268",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/YsmZXBSm04Fl9yNxOS6VB6nEqhM=/800x450/smart/media/images/2025-39/pxl-pa-091123-105904512.jpg",
+    "description": "Zloglasni reper prošlog se mjeseca sukobio s drugim zatvorenikom. Neposredno nakon datum mu je bio pomaknut mjesec dana ranije, na 24. siječnja 2028. godine. Međutim, ta je odlu...",
+    "published_at": "2026-08-13T20:23:00+00:00"
   },
   {
     "id": "3f03d030-fb92-55fe-b4db-15999621a57d",
@@ -18,31 +450,31 @@
     "published_at": "2026-08-13T20:22:00+00:00"
   },
   {
-    "id": "1656a5fe-7e35-58a4-abe3-a09ee3bb08dc",
-    "title": "UŽIVO Bijeli poveli, strijelac je Melnjak",
-    "link": "https://www.dalmacijadanas.hr/uzivo-bijeli-poveli-strijelac-je-melnjak/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/hajduk-zalgiris-foto-roko-66.jpeg",
-    "description": "Bijeli će, ukoliko pobijede Žalgiris, igrati protiv poljskog Rakówa",
-    "published_at": "2026-08-13T20:18:57+00:00"
-  },
-  {
-    "id": "9aeb1ef8-0502-5bd6-93e9-f426fd69c2b4",
-    "title": "HAJDUK - ŽALGIRIS 1:0; Hajduk poveo na Poljudu! Bijeli na korak do prolaska u play-off",
-    "link": "https://slobodnadalmacija.hr/sport/hajduk/hajduk-zalgiris-1573384",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32297762.jpg",
-    "description": "Hajduk na Poljudu od 21 sata igra uzvratni susret protiv litavskog Žalgirisa u trećem pretkolu Konferencijske lige. Bijeli su u prvoj utakmici odigranoj u Litvi stekli veliku pr...",
-    "published_at": "2026-08-13T20:18:00+00:00"
+    "id": "4f71767e-e3f7-56d9-ac8a-ec353e0138e0",
+    "title": "Nizozemci oduševljeni Pjacom: Zlatna izmjena spašava Twente",
+    "link": "https://www.index.hr/sport/clanak/nizozemci-odusevljeni-pjacom-zlatna-izmjena-spasava-twente/2823554.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NAHVALILI su ga.",
+    "published_at": "2026-08-13T20:20:00+00:00"
   },
   {
     "id": "7adf35f4-a16d-5dad-b027-e3259f49bc25",
-    "title": "VIDEO Dramatične snimke s požarišta: Vatra se rasplamsala",
+    "title": "VIDEO Pogledajte dramatične snimke goleme buktinje: Vatra se približila kućama",
     "link": "https://www.vecernji.hr/vijesti/video-dramaticne-snimke-s-pozarista-vatra-se-rasplamsala-1986247",
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/51/1f/909c254f33bb32366048.jpeg",
-    "description": "Na požarište je upućen i veći broj policajaca kako bi pomogli u evakuciji građana bude li potrebe",
+    "description": "Počela je evakucija građana",
     "published_at": "2026-08-13T20:16:00+00:00"
+  },
+  {
+    "id": "beade33e-59da-5fab-aaeb-da7c015cf969",
+    "title": "Kako nedostatak sna utječe na mentalno zdravlje djece",
+    "link": "https://www.index.hr/mame/clanak/kako-nedostatak-sna-utjece-na-mentalno-zdravlje-djece/2823552.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NEDOSTATAK sna kod djece narušava mentalno zdravlje, povećavajući rizik od anksioznosti i depresije.",
+    "published_at": "2026-08-13T20:15:00+00:00"
   },
   {
     "id": "1f9598cc-23d6-54f7-b076-a2e546cd6fdb",
@@ -72,15 +504,6 @@
     "published_at": "2026-08-13T20:13:20+00:00"
   },
   {
-    "id": "f0f9ee91-f92e-53b0-890a-00373322d686",
-    "title": "UŽIVO Hajduk je na pragu plasmana dalje. Dominira, ali ne uspijeva probiti Litavce",
-    "link": "https://www.index.hr/sport/clanak/od-2100-hajduk-zalgiris-hajduk-brani-ogromnu-prednost-na-poljudu/2823346.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "HRVATSKI sastav brani 5:2 prednost stečenu u Litvi prije sedam dana.",
-    "published_at": "2026-08-13T20:09:00+00:00"
-  },
-  {
     "id": "284be04a-9f09-5711-b43d-28ea58492fd1",
     "title": "Bivši dinamovci mogli bi stati Hajduku na put prema Konferencijskoj ligi",
     "link": "https://www.tportal.hr/sport/clanak/bivsi-dinamovci-mogli-bi-stati-hajduku-na-put-prema-konferencijskoj-ligi-20260813",
@@ -88,15 +511,6 @@
     "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780464.jpeg?cropId=4228474",
     "description": "Nogometaši poljskog Rakova uspjeli su proći u play-off Konferencijske lige, te čekati boljeg iz ogleda Hajduka i Žalgirisa",
     "published_at": "2026-08-13T20:09:00+00:00"
-  },
-  {
-    "id": "4ac90d87-bbb9-5304-ac00-47ca8b3d203a",
-    "title": "Veliki požar kod Omiša: Vatra bukti, prijeti kućama. Evakuiraju ljude",
-    "link": "https://www.index.hr/vijesti/clanak/veliki-pozari-na-bracu-i-kod-skrljeva-vatru-gase-kanaderi-i-air-tractor/2823239.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VATROGASCI se jutros bore s dva veća požara, kod Škrljeva u Primorsko-goranskoj županiji te na području Pučišća na otoku Braču.",
-    "published_at": "2026-08-13T20:08:00+00:00"
   },
   {
     "id": "066686d9-850e-545e-a4c9-876850536ee2",
@@ -222,15 +636,6 @@
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/ef/7c/83e9391a07b827c99c91.jpeg",
     "description": "Ruski predsjednik prvi je put posjetio dalekoistočne Kurilske otoke, japanski teritorij koji je Sovjetski Savez zauzeo pred kraj Drugog svjetskog rata",
-    "published_at": "2026-08-13T20:00:00+00:00"
-  },
-  {
-    "id": "29002907-3a39-5795-a4d1-5f6329a96470",
-    "title": "Hajduk proveo protiv Žalgirisa! Pogledajte gol Bijelih",
-    "link": "https://www.tportal.hr/sport/clanak/hajduk-na-poljudu-lovi-konferencijsku-ligu-cekamo-sastace-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780476.jpeg?cropId=4228488",
-    "description": "Hajduk protiv Žalgirisa od 21:00 igra uzvratnu utakmicu 3. pretkola Konferencijske lige. Splićani na Poljudu brane veliku 5:2 prednost.",
     "published_at": "2026-08-13T20:00:00+00:00"
   },
   {
@@ -374,7 +779,7 @@
     "link": "https://www.24sata.hr/sport/foto-torcida-izvizdala-garciju-i-digla-poruku-za-ubijenog-clana-pogledajte-atmosferu-s-poljuda-1147267",
     "source": "24sata",
     "image_url": "https://img.24sata.hr/l2b1Dlh5Txz40rexFDaHAKu7yaE=/800x450/smart/media/images/2026-32/whatsapp-image-2026-08-13-at-21-32-03.jpeg",
-    "description": "Lijepo ispunjen Poljud (20.229 gledatelja) gledao je uzvrat Hajduka i Žalgirisa, no na terenu se u prvom dijelu nije puno toga događalo. U uvodu je Livaja dobio ovacije, trener ...",
+    "description": "Lijepo ispunjen Poljud (20.229 gledatelja) gledao je uzvrat Hajduka i Žalgirisa (4-0) uz rapsodiju u drugom dijelu. U uvodu je Livaja dobio ovacije, trener Garcia zvižduke, a To...",
     "published_at": "2026-08-13T19:50:00+00:00"
   },
   {
@@ -495,31 +900,13 @@
     "published_at": "2026-08-13T19:36:00+00:00"
   },
   {
-    "id": "3f9bc6d1-69f5-5f42-a186-86955b65a165",
-    "title": "VIDEO/FOTO Požar kod Omiša izmiče kontroli: Kreće evakuacija stanovništva i turista, vatra prijeti kućama",
-    "link": "https://www.vecernji.hr/vijesti/pozar-izbio-u-lokvi-rogoznici-jadranska-magistrala-zatvorena-za-promet-1986234",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/9f/f8/3d8ab2178df50fcb0ec5.jpg",
-    "description": "Cesta je zatvorena za sav promet na dionici od Stanića iz smjera Splita do Medića iz smjera Makarske",
-    "published_at": "2026-08-13T19:36:00+00:00"
-  },
-  {
     "id": "95ccbfe8-96d8-5230-8754-040d3381ef97",
-    "title": "BUKTINJA KOD ROGOZNICE Zatvorili magistralu zbog požara: 'Posvuda je pepeo'",
+    "title": "BUKTINJA KOD OMIŠA Zatvorili su magistralu zbog požara: 'Posvuda je pepeo. Strašno je'",
     "link": "https://www.24sata.hr/news/buktinja-kod-rogoznice-zatvorili-i-cestu-zbog-pozara-posvuda-oko-nas-je-pepeo-1147265",
     "source": "24sata",
     "image_url": "https://img.24sata.hr/isIDMY5bkRcMcaXr2vFK3e-xRqA=/800x450/smart/media/images/2026-32/screenshot-2026-08-13-at-21-18-08.png.jpg",
     "description": "Nekoliko požara zahvatilo je hrvatsku obalu u četvrtak navečer. Gori u naselju Pogreben kod Primoštena te na predjelu Kovča u Vodičkom zaleđu, kao i na Omiškoj rivijeri te kod M...",
     "published_at": "2026-08-13T19:35:00+00:00"
-  },
-  {
-    "id": "eb4c25af-89f1-553f-9a91-c220a1e993cc",
-    "title": "Kek: Bio je veliki pritisak, uz dva, tri trenutka gdje smo imali i sreće, važno je bilo proći",
-    "link": "https://www.fiuman.hr/kek-bio-je-veliki-pritisak-uz-dva-tri-trenutka-gdje-smo-imali-i-srece-vazno-je-bilo-proci/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Nogometaši Rijeke izborili su plasman u playoff Konferencijske lige. Utakmica u Tampereu bila je sve samo ne lagan zadatak, ali Bijeli su na kraju stigli do vrijednog remija i p...",
-    "published_at": "2026-08-13T19:34:53+00:00"
   },
   {
     "id": "39369f4c-893d-5e4a-b729-16cadad34199",
@@ -675,15 +1062,6 @@
     "published_at": "2026-08-13T19:18:00+00:00"
   },
   {
-    "id": "2b9bf8bc-851c-5dcc-a3d6-1bbc93bdb15e",
-    "title": "Užasni prizori stižu iz Lokve Rogoznice. Policija spremna ako bude potrebe za evakuaciju",
-    "link": "https://www.dalmacijadanas.hr/uzasni-prizori-stizu-iz-lokve-rogoznice-policija-spremna-ako-bude-potrebe-za-evakuaciju/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-lokva-rogoznica-1.jpg",
-    "description": "Cesta je zatvorena za sav promet",
-    "published_at": "2026-08-13T19:16:33+00:00"
-  },
-  {
     "id": "fab0285f-62ef-5d9e-bfae-7c988a9e6d7e",
     "title": "Horvat: Obrana će biti naš forte i vidi se smjer kojim želimo ići",
     "link": "https://www.24sata.hr/sport/horvat-obrana-ce-biti-nas-forte-i-vidi-se-smjer-kojim-zelimo-ici-1147261",
@@ -711,15 +1089,6 @@
     "published_at": "2026-08-13T19:15:00+00:00"
   },
   {
-    "id": "afa56600-0296-5fcf-94e7-60199ad3f388",
-    "title": "Bivši hajdukovac i dinamovci čekaju Hajduk u play-offu KL-a",
-    "link": "https://www.24sata.hr/sport/sve-je-poznato-evo-tko-ceka-hajduk-ako-prode-u-playoff-kl-a-1147260",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/vb7J1-mzwnhGti2ehyoneKBudvs=/800x450/smart/media/images/2019-10/pxl_090319_23873053_yG9dDX0.jpg",
-    "description": "Hajduk je na korak do play-offa, a već zna i mogućeg rivala: poljski Rakow izbacio je Hammarby i stiže na Poljud ako Splićani potvrde prolaz",
-    "published_at": "2026-08-13T19:14:00+00:00"
-  },
-  {
     "id": "beac1ded-6037-5c08-89bf-3330715eb444",
     "title": "Poljud još jednom izrazio mišljenje: Poslušajte zvižduke Garciji prije utakmice",
     "link": "https://www.tportal.hr/sport/clanak/poljud-jos-jednom-izrazio-misljenje-poslusajte-zvizduke-garciji-prije-utakmice-20260813",
@@ -739,10 +1108,10 @@
   },
   {
     "id": "c7060d03-0aba-5aaf-8470-7e54229868a8",
-    "title": "Strašan požar kod Omiša, krenula evakuacija stanovništva! Zatvorena magistrala, vatra je nadomak kuća...",
+    "title": "Dramatično kod Omiša, evakuira se stanovništvo! Zatvorena magistrala, vatra je nadomak kuća...: ‘O moj Bože‘",
     "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/planulo-kod-omisa-zbog-pozara-za-sav-promet-je-zatvorena-dionica-magistrale-1573395",
     "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32297757.gif",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32298224.gif",
     "description": "- Zbog požara koji je izbio oko 20:21 sat u mjestu Lokva Rogoznica, uz magistralu, cesta je zatvorena za sav promet na dionici od Stanića iz smjera Splita do Medića iz smjera Ma...",
     "published_at": "2026-08-13T19:11:00+00:00"
   },
@@ -753,15 +1122,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "RUSIJA tvrdi da obrambena suradnja Hrvatske, Albanije i Kosova destabilizira Balkan i stvara opasan vojni kvaziblok usmjeren protiv Srbije.",
-    "published_at": "2026-08-13T19:10:00+00:00"
-  },
-  {
-    "id": "5bc76a86-7ddf-5b58-8039-f7b1eae0f54c",
-    "title": "Tko su brončani hrvatski plivači koji su napravili senzaciju?",
-    "link": "https://www.24sata.hr/sport/tko-su-broncani-hrvatski-plivaci-koji-su-napravili-senzaciju-1147256",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/Q9cxWV5P0067WlZgSiPAcKlufas=/800x450/smart/media/images/2026-32/none-130826-156626916_Kpty8Mg.jpg",
-    "description": "Vrhunsku finalnu utrku na Europskom plivačkom prvenstvu u Parizu odradili su Jere Hribar, Vlaho Nenadić, Vili Sivec i Toni Dragoja i osvojili broncu na 4x100 slobodno uz novi na...",
     "published_at": "2026-08-13T19:10:00+00:00"
   },
   {
@@ -792,24 +1152,6 @@
     "published_at": "2026-08-13T19:06:00+00:00"
   },
   {
-    "id": "438014dd-f768-5bd1-b007-866e521f538e",
-    "title": "Kek otkrio zašto Fruk nije dobio ni minutu i što slijedi: 'Sami smo si htjeli ovako zakuhati...'",
-    "link": "https://www.24sata.hr/sport/kek-otkrio-zasto-fruk-nije-dobio-ni-minutu-i-sto-slijedi-sami-smo-si-htjeli-ovako-zakuhati-1147259",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/0tBn5Ifxsn73K2eSfZ5aJv9AmdY=/800x450/smart/media/images/2026-32/pxl-020826-156154588-xhw0nqi.jpg",
-    "description": "ILVES - RIJEKA 1-1 (1-2) Kek bez Fruka prošao Ilves i zakazao okršaj s Midtjyllandom, a Rijeka čeka pakleni raspored",
-    "published_at": "2026-08-13T19:05:00+00:00"
-  },
-  {
-    "id": "7186bb4d-7437-54ff-8123-c204c623810f",
-    "title": "Pogledajte tko sve s tribina bodri Bijele",
-    "link": "https://www.dalmacijadanas.hr/pogledajte-tko-sve-s-tribina-bodri-bijele/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/hajduk-zalgiris-foto-pezzi-26.jpg",
-    "description": "Bacite oko na našu FOTOGALERIJU",
-    "published_at": "2026-08-13T19:04:47+00:00"
-  },
-  {
     "id": "d9c7e587-ac5e-5867-b649-7ae25740b72b",
     "title": "Goran Višnjić s obitelji se vraća u Hrvatsku: \"U procesu smo povratka\"",
     "link": "https://www.index.hr/magazin/clanak/goran-visnjic-s-obitelji-se-vraca-u-hrvatsku-u-procesu-smo-povratka/2823538.aspx",
@@ -826,24 +1168,6 @@
     "image_url": null,
     "description": "TRIBINE ne odustaju.",
     "published_at": "2026-08-13T19:01:00+00:00"
-  },
-  {
-    "id": "e4bc06a5-2ae6-57d2-9002-004cd45d0fad",
-    "title": "Horoskop otkriva kakav ste roditelj: Evo tko je vođa, tko mašta, a tko daje čvrsti temelj",
-    "link": "https://www.24sata.hr/lifestyle/horoskop-otkriva-kakav-ste-roditelj-evo-tko-je-voda-tko-masta-a-tko-daje-cvrsti-temelj-1070440",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/c01gJc3lvIziVv6cVX7pjW9nJTA=/800x450/smart/media/images/2024-32/197509690-m-normal-none.jpg",
-    "description": "Roditelji i horoskop su kombinacija koja može otkriti mnogo više nego što mislite. Dok jedni znakovi djecu uče kroz igru i avanture, drugi potiču red, odgovornost i emocionalnu ...",
-    "published_at": "2026-08-13T19:00:00+00:00"
-  },
-  {
-    "id": "f5ed03ce-b580-524f-91bc-dc2adf0634e6",
-    "title": "Gledajte '240 sekundi 24sata': 'Cure' novi detalji ekološke katastrofe na području Gospića",
-    "link": "https://www.24sata.hr/news/gledajte-240-sekundi-24sata-cure-novi-detalji-ekoloske-katastrofe-na-podrucju-gospica-1147252",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/NHg-CK7IGpv1TlyuoscNZsJSVRE=/800x450/smart/media/images/2026-32/screenshot-2026-08-13-at-18-09-31.png.jpg",
-    "description": "Svakog dana u 21 sat na kanalu CMC-ja te na portalima i društvenim mrežama 24sata i Večernjeg lista gledajte najnovije vijesti dana u '240 sekundi 24sata'. Danas u vijestima Boj...",
-    "published_at": "2026-08-13T19:00:00+00:00"
   },
   {
     "id": "149824db-f9e4-5010-8e4f-be0a3a220d6a",
@@ -873,67 +1197,13 @@
     "published_at": "2026-08-13T19:00:00+00:00"
   },
   {
-    "id": "0d7d2a17-14c2-50b1-b47b-fa63ddd9c5fa",
-    "title": "Rusija žestoko optužila Hrvatsku: Zagreb, Priština i Tirana destabiliziraju Balkan",
-    "link": "https://www.24sata.hr/news/rusija-zestoko-optuzila-hrvatsku-zagreb-pristina-i-tirana-destabiliziraju-balkan-1147258",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/zbIzEGcx_Tptqis5zMwrJER0GEI=/800x450/smart/media/images/2026-32/dizajn-bez-naslova-2026-08-13t194703-156.png.jpg",
-    "description": "Nigdje nisu spomenuli sporazum o vojnoj suradnji Hrvatske i Srbije iz 2010. koji je ratificiran u Saboru i kojeg su potpisali tadašnji ministri obrane Hrvatske i Srbije Branko V...",
-    "published_at": "2026-08-13T18:58:00+00:00"
-  },
-  {
     "id": "97a5a111-16a7-57a7-9b69-36eddb3633ed",
-    "title": "VIDEO Gori kod Omiša: Vatra nadomak kuća, krenula evakuacija",
+    "title": "VIDEO Gori kod Omiša, krenula evakuacija: 'Situacija je jako loša'",
     "link": "https://www.tportal.hr/vijesti/clanak/pozar-uz-jadransku-magistralu-kod-omisa-20260813",
     "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780477.jpeg?cropId=0",
-    "description": "Kako su izvijestili iz PU splitsko-dalmatinske, oko 20:21 sat u mjestu Lokva Rogoznica, uz Jadransku magistralu, izbio je požar",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780496.jpeg?cropId=4228536",
+    "description": "Kako su izvijestili iz PU splitsko-dalmatinske, oko 20.21 sat u mjestu Lokva Rogoznica, uz Jadransku magistralu, izbio je požar",
     "published_at": "2026-08-13T18:57:00+00:00"
-  },
-  {
-    "id": "7c701281-e88e-5eca-bd9b-4a75e7a2ae05",
-    "title": "Hajduk saznao protivnika ako prođe u play-off Konferencijske lige",
-    "link": "https://www.index.hr/sport/clanak/hajduk-saznao-protivnika-ako-prodje-u-playoff-konferencijske-lige/2823534.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PRVA utakmica igrala bi se na Poljudu.",
-    "published_at": "2026-08-13T18:56:00+00:00"
-  },
-  {
-    "id": "dc1deb7e-c22f-58cf-b825-96df8fc60757",
-    "title": "Iz Gospića se seli 30.000 tona opasnog otpada, vozi se u inozemstvo: 'U Hrvatskoj nemamo adekvatno odlagalište'",
-    "link": "https://www.vecernji.hr/vijesti/iz-gospica-se-seli-30-000-tona-opasnog-otpada-vozi-se-u-inozemstvo-u-hrvatskoj-nemamo-adekvatno-odlagaliste-1986233",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/40/62/9376b3408347b0f2a7fb.jpeg",
-    "description": "Govoreći o sanaciji ilegalno odloženog otpada, Bačić je rekao da Vlada aktivnosti nadležnih ministarstava vodi na najvišoj razini te da su postupanje usmjerili na tri načela, od...",
-    "published_at": "2026-08-13T18:56:00+00:00"
-  },
-  {
-    "id": "924195b6-89b4-510c-8272-960ae1de92db",
-    "title": "Hajduk nakon drame doznao tko ga čeka u playoffu",
-    "link": "https://www.tportal.hr/sport/clanak/hajduk-nakon-drame-doznao-tko-ga-ceka-u-playoffu-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2771572.jpeg?cropId=4204909",
-    "description": "Hajduk od 21 sat (HDTV) igra uzvratnu utakmicu 3. pretkola Konferencijske lige.",
-    "published_at": "2026-08-13T18:56:00+00:00"
-  },
-  {
-    "id": "3e8e22e3-63a3-5e25-a9cc-39de0867b555",
-    "title": "Raspored HNL-a i Europe. Kad igraju Dinamo, Hajduk i Rijeka?",
-    "link": "https://www.24sata.hr/sport/hnl-raspored-2026-27-tablica-rezultati-kad-nasi-igraju-europu-1139157",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/nQx_E8spio8qDwHVaCnP1SuZLdk=/800x450/smart/media/images/2026-27/images-2026-27-pxl-230526-152427777.jpg",
-    "description": "Prvi \"vječni derbi\" igra se sredinom listopada. Dinamo nastavlja lov na Ligu prvaka, Hajduk se iz Europske lige seli u Konferencijsku, gdje je i Rijeka. Varaždin je završio avan...",
-    "published_at": "2026-08-13T18:55:00+00:00"
-  },
-  {
-    "id": "52201da9-65aa-5c0d-bf03-91bd08dc9179",
-    "title": "Gdje s '30.000 tona' opasnog otpada? Bačić otkrio plan: Ovo će biti glavni kriterij",
-    "link": "https://www.tportal.hr/vijesti/clanak/gdje-s-30-000-tona-opasnog-otpada-bacic-otkrio-plan-ovo-ce-biti-glavni-kriterij-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2773745.jpeg?cropId=0",
-    "description": "Potpredsjednik Vlade i ministar prostornoga uređenja Branko Bačić izjavio je u četvrtak da je Vlada podigla aktivnosti na najvišu razinu kako bi se saniralo ilegalno odlagalište...",
-    "published_at": "2026-08-13T18:55:00+00:00"
   },
   {
     "id": "39929975-b7a8-532f-969b-49d783284b21",
@@ -954,24 +1224,6 @@
     "published_at": "2026-08-13T18:51:00+00:00"
   },
   {
-    "id": "103494a6-f0ec-56cb-87d5-28cf906c136c",
-    "title": "Dinamo mu je u krvi, ali u petak mu želi zagorčati život: Svaki klub ima mana, pa tako i Modri",
-    "link": "https://www.tportal.hr/sport/clanak/dinamo-mu-je-u-krvi-ali-u-petak-mu-zeli-zagorcati-zivot-svaki-klub-ima-mana-pa-tako-i-modri-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780460.jpeg?cropId=4228438",
-    "description": "U petak od 20 sati na maksimirskom stadionu Dinamo dočekuje Rudeš. Riječ je o utakmici 3. kola SuperSport Hrvatske nogometne lige, a koja će biti i u programu MAXSporta 1 (MAXtv)",
-    "published_at": "2026-08-13T18:51:00+00:00"
-  },
-  {
-    "id": "25c51b81-c5f3-5647-8049-dc807c4eac25",
-    "title": "Rusi našli protuotrov za najmoćniji ukrajinski projektil: Gotovo nijedan više ne prolazi",
-    "link": "https://www.tportal.hr/vijesti/clanak/rusi-nasli-protuotrov-za-najmocniji-ukrajinski-projektil-gotovo-nijedan-vise-ne-prolazi-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2748545.jpeg?cropId=0",
-    "description": "Rusija posljednjih tjedana obara većinu najboljih ukrajinskih krstarećih raketa dugog dometa gotovo istom brzinom kojom ih Ukrajinci lansiraju. Prema dostupnim podacima, samo su...",
-    "published_at": "2026-08-13T18:48:00+00:00"
-  },
-  {
     "id": "e12cc869-22b2-5112-bb06-fafe88669078",
     "title": "Od ‘klime‘ se možete razboljeti, a jednu pogrešku činimo gotovo svi; liječnik otkriva kako sačuvati pluća",
     "link": "https://slobodnadalmacija.hr/mozaik/zdravlje/klima-vas-moze-razboljeti-a-jednu-pogresku-radimo-gotovo-svi-lijecnik-otkriva-kako-sacuvati-pluca-1573393",
@@ -987,15 +1239,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "ODLIČNO je reagirao i odveo Rijeku dalje.",
-    "published_at": "2026-08-13T18:46:00+00:00"
-  },
-  {
-    "id": "48438afd-8c81-54f2-9a17-1804cb6f0293",
-    "title": "Požar izbio u Lokvi Rogoznici. Jadranska magistrala zatvorena za promet",
-    "link": "https://www.dalmacijadanas.hr/pozar-izbio-u-lokvi-rogoznici/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-lokva-rogoznica.jpg",
-    "description": "Pogledajte vatrenu buktinju",
     "published_at": "2026-08-13T18:46:00+00:00"
   },
   {
@@ -1062,24 +1305,6 @@
     "published_at": "2026-08-13T18:38:00+00:00"
   },
   {
-    "id": "7aee14f3-0e6a-5319-82d3-758133e7f0b5",
-    "title": "Dalić ne isključuje povratak u 'vatrene': 'Zašto ne? Ovo nije zbogom, nego samo doviđenja'",
-    "link": "https://www.24sata.hr/sport/dalic-ne-iskljucuje-povratak-u-vatrene-zasto-ne-ovo-nije-zbogom-nego-samo-dovidenja-1147254",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/w4U8ReA8Ut0QmgTQcUlo2W7bFZ0=/800x450/smart/media/images/2026-32/pxl-040726-154753451_YqqSy3Y.jpg",
-    "description": "Dalić u Emiratima kreće po 20 milijuna eura i poručuje: nije zbogom, nego doviđenja!",
-    "published_at": "2026-08-13T18:36:00+00:00"
-  },
-  {
-    "id": "7d8967d8-caea-57e8-9678-02f0bc27d9ca",
-    "title": "POŽARI U DALMACIJI Gori kod Primoštena i Omiša. Policija spremna za evakuaciju ljudi",
-    "link": "https://www.24sata.hr/news/video-izbio-pozar-u-podgrebenu-kod-primostena-gori-i-na-kovci-1147250",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/DN82RrxX3voBBulXNTB2QK3D13M=/800x450/smart/media/images/2026-32/whatsapp-image-2026-08-13-at-21-39-07.jpeg",
-    "description": "Vatru smo vidjeli s balkona i prvo smo mislili da netko pali granje, ali jako brzo se počelo širiti, govori nam naša čitateljica",
-    "published_at": "2026-08-13T18:36:00+00:00"
-  },
-  {
     "id": "900d4e56-f691-5b0d-8d24-0c25b9e43f78",
     "title": "Rijeka uz dosta muke prošla u play-off Konferencijske lige",
     "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/rijeka-uz-dosta-muke-prosla-u-play-off-konferencijske-lige-1573390",
@@ -1087,42 +1312,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32265589.jpg",
     "description": "Nogometaši Rijeke igrat će dvije utakmice play-offa Konferencijske lige, posljednjeg kvalifikacijskog kruga prije ligaškog dijela, nakon što su u dva dvoboja bili bolji od finsk...",
     "published_at": "2026-08-13T18:35:00+00:00"
-  },
-  {
-    "id": "2b472855-43ee-5a62-951b-e09cc9924f61",
-    "title": "Američki ministar: Rotiramo brodove, možemo neograničeno blokirati Iran",
-    "link": "https://www.tportal.hr/vijesti/clanak/americki-ministar-rotiramo-brodove-mozemo-neograniceno-blokirati-iran-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2769846.jpeg?cropId=0",
-    "description": "Američka vojska ima dovoljno snaga za neograničeno dugu pomorsku blokadu Irana, izjavio je u četvrtak američki ministar obrane Pete Hegseth, dodajući da se brodovi po potrebi mo...",
-    "published_at": "2026-08-13T18:34:00+00:00"
-  },
-  {
-    "id": "bb215d8b-62bf-5f60-8352-3f767f002822",
-    "title": "VIDEO Pogledajte kako je 42-godišnjak napravio kaos u kafiću u Stobreču",
-    "link": "https://www.dalmacijadanas.hr/video-pogledajte-kako-je-42-godisnjak-napravio-kaos-u-kaficu-u-stobrecu/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2024/07/noc-policija-rotacija-ilustracija-1.jpg",
-    "description": "Napadao goste, razbijao inventar pa krenuo na policajce",
-    "published_at": "2026-08-13T18:33:47+00:00"
-  },
-  {
-    "id": "7e1626fa-ef70-5fc8-a7b1-cc41881d2979",
-    "title": "Požar kod Škrljeva pod nadzorom, vatrogasci ostaju na terenu do jutra",
-    "link": "https://www.tportal.hr/vijesti/clanak/pozar-kod-skrljeva-pod-nadzorom-vatrogasci-ostaju-na-terenu-do-jutra-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780364.jpeg?cropId=0",
-    "description": "Pod nadzorom je požar koji je noćas buknuo na području Škrljeva nedaleko Rijeke i zahvatio oko 30 hektara trave i niskog raslinja, a požarište će tijekom noći nadzirati 20-ak va...",
-    "published_at": "2026-08-13T18:32:00+00:00"
-  },
-  {
-    "id": "60546942-ff88-5bf0-8b68-327ca68df93e",
-    "title": "Rijeka saznala protivnika u playoffu Konferencijske lige",
-    "link": "https://www.tportal.hr/sport/clanak/rijeka-saznala-protivnika-u-playoffu-konferencijske-lige-20260813",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2777415.jpeg?cropId=0",
-    "description": "Nogometaši Rijeke u play-offu Konferencijske lige igrat će protiv danskog Midtjyllanda. Danci su u trećem pretkolu izbacili irski Bohemians i tako postali posljednja prepreka mo...",
-    "published_at": "2026-08-13T18:32:00+00:00"
   },
   {
     "id": "fa293f53-6436-50e4-99d8-caebc6b0d1d3",
@@ -1134,9 +1323,9 @@
     "published_at": "2026-08-13T18:30:00+00:00"
   },
   {
-    "id": "3d8b45f1-2e26-500f-bede-fc85a9134920",
-    "title": "UŽIVO: Hajduk - Žalgiris 1:0 (Konferencijska liga, treća runda kvalifikacija, uzvrat)",
-    "link": "https://sportnet.hr/vijesti/nogomet-konferencijska-liga/uzivo-hajduk-zalgiris-10-konferencijska-liga-treca-runda-kvalifikacija-uzvrat/630436/",
+    "id": "811a44c3-105a-59d5-ab57-0cb300026399",
+    "title": "KRONOLOGIJA: Hajduk - Žalgiris 4:0 (Konferencijska liga, treća runda kvalifikacija, uzvrat)",
+    "link": "https://sportnet.hr/vijesti/nogomet-konferencijska-liga/kronologija-hajduk-zalgiris-40-konferencijska-liga-treca-runda-kvalifikacija-uzvrat/630436/",
     "source": "Sportnet.hr",
     "image_url": "https://sportnet.hr/photos/_resized/528/61/0000000000528613_510_0.jpg",
     "description": "Hajduk će u uzvratnoj utakmici treće kvalifikacijske runde Konferencijske lige igrati protiv Žalgirisa. U prvom susretu u Vilniusu slavio je s 2:5...",
@@ -1176,15 +1365,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "MINISTAR Bačić tvrdi je da je voda u Lici ispravna za piće.",
-    "published_at": "2026-08-13T18:23:00+00:00"
-  },
-  {
-    "id": "88d9f971-ab69-5fcd-85d4-937299f71a23",
-    "title": "Nevjerojatan rezultat: Hrvatska štafeta brončana na Europskom prvenstvu",
-    "link": "https://www.vecernji.hr/sport/nevjerojatan-rezultat-hrvatska-stafeta-broncana-na-europskom-prvenstvu-1986229",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/bc/85/eec72d1cc70a052e6b85.jpeg",
-    "description": "Kao prvi za Hrvatsku je plivao Hribar koji je odlično odradio svojih 100 metara. Otplivao je tu dionicu za 47.77 i samo je Španjolska u tom trenutku bila ispred Hrvatske",
     "published_at": "2026-08-13T18:23:00+00:00"
   },
   {
@@ -1260,15 +1440,6 @@
     "published_at": "2026-08-13T18:11:00+00:00"
   },
   {
-    "id": "9eb7806c-e918-5f7d-8514-be6465fce3f7",
-    "title": "Dalić iznenadio porukom nakon preuzimanja Emirata, spomenuo i nasljednika: 'Hrvatskoj sam rekao doviđenja, ne zbogom'",
-    "link": "https://www.vecernji.hr/sport/dalic-iz-emirata-otkrio-prve-dojmove-s-klupe-uae-a-hrvatskoj-sam-rekao-dovidenja-ne-zbogom-1986222",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/09/c3/75de055e5ecd15ed9d8f.jpeg",
-    "description": "Devet godina je puno vremena. Došlo je vrijeme da reprezentacija krene svojim putom, a ja svojim. Odlazak je bio pravovremen",
-    "published_at": "2026-08-13T18:11:00+00:00"
-  },
-  {
     "id": "90900ee7-2f69-5ef1-843c-56a7183d54fc",
     "title": "Znakovi Zodijaka koji gotovo uvijek kasne",
     "link": "https://www.index.hr/horoskop/clanak/znakovi-zodijaka-koji-gotovo-uvijek-kasne/2823307.aspx",
@@ -1320,33 +1491,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "PREGLED najčitanijih automobilskih oglasa na Index Oglasima. U ponudi su raznolika vozila, od BMW-a serije 5 i Jaguara XE do obiteljskih automobila poput Škode Octavije Scout i ...",
-    "published_at": "2026-08-13T18:00:00+00:00"
-  },
-  {
-    "id": "98b72069-a5e8-5e2b-8356-f7f2885bdd5c",
-    "title": "Našao stan na Kvatriću, ali jedan detalj ga muči: 'Ako ga kupiš, nemaš pravo pisnuti o tome'",
-    "link": "https://www.vecernji.hr/zagreb/nasao-stan-na-kvatricu-ali-jedan-detalj-ga-muci-ako-ga-kupis-nemas-pravo-pisnuti-o-tome-1986150",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/40/77/e66044d366cdb081ea08.jpeg",
-    "description": "\"Smanjuješ si izbor podstanara, svakako ga je bolje imati\", piše u jednom od komentara.",
-    "published_at": "2026-08-13T18:00:00+00:00"
-  },
-  {
-    "id": "a61e039f-3e6a-58dd-8037-253479e03d6d",
-    "title": "Ako želite imati sretan i zdrav život stručnjaci kažu da se trebate seksati češće nego što mislite",
-    "link": "https://www.vecernji.hr/lifestyle/ako-zelite-imati-sretan-i-zdrav-zivot-strucnjaci-kazu-da-se-trebate-seksati-cesce-nego-sto-mislite-1986083",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/fe/ag/d5f6a4f632743135c00a.jpeg",
-    "description": "Ako želite poboljšati svoje fizičko i mentalno zdravlje, stručnjaci savjetuju – ne zanemarujte važnost redovite seksualne aktivnosti!",
-    "published_at": "2026-08-13T18:00:00+00:00"
-  },
-  {
-    "id": "e9f617e5-dce3-50c7-8d61-46ba95cfa757",
-    "title": "VIDEO Naš pjevač na televiziji uputio ispriku svojim susjedima, evo što je napravio",
-    "link": "https://www.vecernji.hr/showbiz/video-nas-pjevac-na-televiziji-uputio-ispriku-svojim-susjedima-evo-sto-je-napravio-1986117",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/55/7e/beb6eed8cd8e45fd1b1a.jpeg",
-    "description": "U videu, koji je podijelio uz opis \"Boljeg mjesta za ispriku nije bilo\", glazbenik se smije dok prepričava kako je nedavni koncert u njegovom rodnom mjestu potrajao do dugo u noć",
     "published_at": "2026-08-13T18:00:00+00:00"
   },
   {
@@ -1411,15 +1555,6 @@
     "image_url": "https://sportnet.hr/photos/_resized/528/61/0000000000528610_510_0.jpg",
     "description": "Rijeka je izborila prolaz u play-off Konferencijske lige, ali dosta teško. U uzvratu protiv finskog Ilvesa odigrala je 1:1, a domaćin je prijetio do samog kraja susreta...",
     "published_at": "2026-08-13T17:50:00+00:00"
-  },
-  {
-    "id": "0ddf43de-59d9-526e-94b2-6be147a877c9",
-    "title": "Rijeka remijem u Finskoj izborila nastup u play-offu Konferencijske lige",
-    "link": "https://www.fiuman.hr/rijeka-remijem-u-finskoj-izborila-nastup-u-play-offu-konferencijske-lige/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Rijeka je večeras u Tampereu protiv Ilvesa odigrala uzvratnu utakmicu 3. pretkola Konferencijske lige. Bijeli su u Finsku stigli s minimalnom prednošću nakon pobjede 1:0 na Ruje...",
-    "published_at": "2026-08-13T17:49:39+00:00"
   },
   {
     "id": "685a884c-fde9-58c8-96b2-e32a9d19074f",
@@ -1537,15 +1672,6 @@
     "image_url": null,
     "description": "ARSENAL razmatra dovođenje napadača Victora Osimhena iz Galatasaraya.",
     "published_at": "2026-08-13T17:21:00+00:00"
-  },
-  {
-    "id": "b9129b6a-6031-5c65-8b59-4ccd287cbbf3",
-    "title": "Glazbena večer u Kraljevici: Joso Butorac i Karin Kuljanić stižu u Dvorac Frankopan",
-    "link": "https://www.fiuman.hr/glazbena-vecer-u-kraljevici-joso-butorac-i-karin-kuljanic-stizu-u-dvorac-frankopan/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "U atriju Dvorca Frankopan u Kraljevici u nedjelju, 16. kolovoza, održat će se posebna glazbena večer uz nastupe Jose Butorca i Karin Kuljanić. Koncert počinje u 21 sat, a ulaz z...",
-    "published_at": "2026-08-13T17:20:06+00:00"
   },
   {
     "id": "db813295-af0e-5028-ba89-92f3364d9da1",
@@ -1755,15 +1881,6 @@
     "published_at": "2026-08-13T16:28:00+00:00"
   },
   {
-    "id": "f2b11782-b8e3-5fb6-9031-068f7ac26339",
-    "title": "Od 18. kolovoza prijave za pomoć učenicima i studentima u Rijeci: Evo tko ima pravo na 150 eura",
-    "link": "https://www.fiuman.hr/od-18-kolovoza-prijave-za-pomoc-ucenicima-i-studentima-u-rijeci-evo-tko-ima-pravo-na-150-eura/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "U sklopu Socijalnog programa Grada Rijeke, od 18. kolovoza do 18. rujna 2026. godine zaprimat će se zahtjevi građana Rijeke za novčanu pomoć za obrazovanje redovitih učenika sre...",
-    "published_at": "2026-08-13T16:27:45+00:00"
-  },
-  {
     "id": "fc7b3dfe-c5c8-5f0c-91b1-03692afcdf4c",
     "title": "Škotski glumac Jack Lowden novi je favorit za ulogu Jamesa Bonda",
     "link": "https://www.index.hr/chill/clanak/skotski-glumac-jack-lowden-novi-je-favorit-za-ulogu-jamesa-bonda/2823502.aspx",
@@ -1780,15 +1897,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32296515.jpg",
     "description": "Više od 45 godina nakon jednog od najpoznatijih pokušaja atentata u američkoj povijesti, John Hinckley Jr. ponovno je spomenuo Jodie Foster – glumicu zbog koje je, prema vlastit...",
     "published_at": "2026-08-13T16:17:00+00:00"
-  },
-  {
-    "id": "d745ba0c-2599-5ca0-8949-16f5f54612f4",
-    "title": "200-tinjak mladih natjecatelja ove subote u Klani na 22. rokovskom natjecanju",
-    "link": "https://www.fiuman.hr/200-tinjak-mladih-natjecatelja-ove-subote-u-klani-na-22-rokovskom-natjecanju/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "U sklopu Rokove – Dana Općine Klana, u subotu, 15. kolovoza, održat će se 22. rokovsko natjecanje vatrogasne djece i mladeži, koje će okupiti oko 200 mladih vatrogasaca. Natjeca...",
-    "published_at": "2026-08-13T16:16:41+00:00"
   },
   {
     "id": "dfb9a688-c77f-5b37-8402-105eab759e7b",
@@ -2376,15 +2484,6 @@
     "published_at": "2026-08-13T14:13:00+00:00"
   },
   {
-    "id": "80943d96-cd5f-5ff3-a887-1b2f9efa29ca",
-    "title": "Omišalj u nedjelju slavi Stomorinu: Dalmatino, Trio Gušt i Klapa Tramuntana na tri pozornice",
-    "link": "https://www.fiuman.hr/omisalj-u-nedjelju-slavi-stomorinu-dalmatino-trio-gust-i-klapa-tramuntana-na-tri-pozornice/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Omišaljska povijesna jezgra u nedjelju, 16. kolovoza, ponovno će živjeti u znaku Stomorine, tradicionalne pučke fešte koja će glazbom i druženjem povezati nekoliko lokacija u st...",
-    "published_at": "2026-08-13T14:12:43+00:00"
-  },
-  {
     "id": "8a007637-d16a-5b44-bfe8-510524c75150",
     "title": "Je li ovaj potez Kopenhagena potvrda da Kotarski dolazi u Dinamo?",
     "link": "https://www.index.hr/sport/clanak/je-li-ovaj-potez-kopenhagena-potvrda-da-kotarski-dolazi-u-dinamo/2823470.aspx",
@@ -2428,15 +2527,6 @@
     "image_url": "https://mreza.bug.hr/img/mcdonalds-zna-vise-o-svojim-kupcima-nego-fbi_EN6mdj.jpg",
     "description": "Novinar je dobio izvješće od 515 stranica koje je uključivalo predviđanja o tome koliko često će posjećivati ​​restoran, kada i gdje će ga najvjerojatnije posjetiti i što će naj...",
     "published_at": "2026-08-13T14:07:00+00:00"
-  },
-  {
-    "id": "2a2abb79-8642-57ed-bb0e-0bca0d1487bb",
-    "title": "Riječanin uhvaćen s pola grama droge “Galaxy”, dobio je kaznu od 900 eura",
-    "link": "https://www.fiuman.hr/rijecanin-uhvacen-s-pola-grama-droge-galaxy-dobio-je-kaznu-od-900-eura/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Riječanin koji je uhvaćen s nešto više od 0,6 grama materijala koji je sadržavao sintetske kanabinoide, poznatog pod nazivom „Galaxy“, kažnjen je s 900 eura. Nedavna odluka Opći...",
-    "published_at": "2026-08-13T14:05:21+00:00"
   },
   {
     "id": "ae9fa99b-3df3-5118-ad80-5386534d3a21",
@@ -2565,15 +2655,6 @@
     "published_at": "2026-08-13T13:45:00+00:00"
   },
   {
-    "id": "c9707ce7-5bea-5b80-95df-323c70febb67",
-    "title": "Na Dupcu sudar četiri vozila, više osoba prevezeno u bolnicu",
-    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/crna-kronika/na-dupcu-sudar-cetiri-vozila-vise-osoba-prevezeno-u-bolnicu-1573348",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32295967.jpg",
-    "description": "U 14:46 sati OKC je zaprimio dojavu o prometnoj nesreći na magistrali D8 na Dupcu. U nesreći su sudjelovala četiri vozila, ozlijeđeno je više osoba koje su prevezene u OB Dubrov...",
-    "published_at": "2026-08-13T13:41:08+00:00"
-  },
-  {
     "id": "4bd03252-ed20-5473-babd-dcea203ac001",
     "title": "Hajdaš Dončić govorio o ilegalnom odlagalištu, HDZ-ovac ispred njega stavio WC papir",
     "link": "https://www.index.hr/vijesti/clanak/hajdas-doncic-govorio-o-ilegalnom-odlagalistu-hdzovac-ispred-njega-stavio-wc-papir/2823460.aspx",
@@ -2680,15 +2761,6 @@
     "image_url": null,
     "description": "U AMERIČKIM državama Tennessee, Alabama i Oklahoma zakazana su pogubljenja trojice osuđenika.",
     "published_at": "2026-08-13T13:15:00+00:00"
-  },
-  {
-    "id": "2e246493-483e-5612-9f3d-766fa3fe8754",
-    "title": "Medulinski vatrogasci napunili lokve svježom vodom",
-    "link": "https://www.regionalexpress.hr/site/medulinski-vatrogasci-napunili-lokve-svjezhom-vodom",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "U POMOĆ ŽIVOTINJAMA Visoke temperature posljednjih dana te&scaron;ko podnose i životinje koje obitavaju na području Medulina. Kako bi im barem malo olak&scaron;ali vruće ljetne ...",
-    "published_at": "2026-08-13T13:14:00+00:00"
   },
   {
     "id": "2ee5dc19-597f-5289-bcf4-c6d111c7252a",
@@ -2988,105 +3060,6 @@
     "published_at": "2026-08-13T12:10:00+00:00"
   },
   {
-    "id": "876672a8-8c6b-5084-9263-c8e9280bbb2a",
-    "title": "Englezi: Kovačić je preokrenuo situaciju u Cityju",
-    "link": "https://www.index.hr/sport/clanak/englezi-kovacic-je-preokrenuo-situaciju-u-cityju/2823417.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "MATEO KOVAČIĆ (32) izborio se za važniju ulogu u Manchester Cityju uoči početka nove sezone.",
-    "published_at": "2026-08-13T12:08:00+00:00"
-  },
-  {
-    "id": "5195d294-b1c1-5623-96ab-d074573ab229",
-    "title": "Otac kaže da su ga okružili ljudi s Metinim pametnim naočalama na plaži s kćeri",
-    "link": "https://www.index.hr/mame/clanak/otac-kaze-da-su-ga-okruzili-ljudi-s-metinim-pametnim-naocalama-na-plazi-s-kceri/2823416.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "OTAC je na plaži izrazio zabrinutost zbog ljudi s Metinim naočalama.",
-    "published_at": "2026-08-13T12:07:00+00:00"
-  },
-  {
-    "id": "e124bb22-91b2-5293-9fbc-64dd48982fbd",
-    "title": "Iva Čagalj odabrala Zimmermann za večer u Dubrovniku",
-    "link": "https://www.index.hr/shopping/clanak/iva-cagalj-nosila-haljinu-od-945-pronasli-smo-slicne-modele-za-puno-manje/2823412.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "IVA ČAGALJ oduševila je u cvjetnoj Zimmermann haljini od 945 eura.",
-    "published_at": "2026-08-13T12:07:00+00:00"
-  },
-  {
-    "id": "8e61cac5-3198-5558-be52-b16dea8876c7",
-    "title": "Na Netflix je stigla serija 'My Brilliant Career' prema kultnom romanu",
-    "link": "https://www.index.hr/chill/clanak/na-netflix-je-stigla-serija-my-brilliant-career-prema-kultnom-romanu/2823410.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NA NETFLIX je stigla serija \"My Brilliant Career\", moderna adaptacija romana Miles Franklin.",
-    "published_at": "2026-08-13T12:07:00+00:00"
-  },
-  {
-    "id": "d6aa107a-627e-50f5-a2c2-1c2ffda9a72a",
-    "title": "Zvijezda X-Mena ima 61 godinu, a u ovoj mini haljini izgleda fantastično",
-    "link": "https://www.index.hr/shopping/clanak/zvijezda-xmena-ima-61-godinu-a-u-ovoj-mini-haljini-izgleda-fantasticno/2823404.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "GLUMICA Famke Janssen u New Yorku je pokazala kako nositi mini traper haljinu i bordo balerinke za moderan ljetni izgled bez obzira na godine.",
-    "published_at": "2026-08-13T12:06:00+00:00"
-  },
-  {
-    "id": "f390f29b-8ce7-5fa6-a15b-418056c704bb",
-    "title": "Turiste zbog bure redovito spašavaju iz mora. Zašto nema SRUUK poruka?",
-    "link": "https://www.index.hr/vijesti/clanak/turiste-zbog-bure-redovito-spasavaju-iz-mora-zasto-nema-sruuk-poruka/2823406.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "IAKO bura često ugrožava turiste, o slanju SRUUK poruka odlučuje DHMZ, dok Civilna zaštita služi tek kao tehnički alat za prijenos tih upozorenja.",
-    "published_at": "2026-08-13T12:05:00+00:00"
-  },
-  {
-    "id": "b511b264-98ff-5c2b-8c6c-4f83aa816b62",
-    "title": "FOTO U Požegi nakon obnove uklonjena rampa za invalide na ulazu u HZMO i HZZO",
-    "link": "https://www.index.hr/vijesti/clanak/foto-u-pozegi-nakon-obnove-uklonjena-rampa-za-invalide-na-ulazu-u-hzmo-i-hzzo/2823413.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PRI OBNOVI ulaza zgrade HZMO-a i HZZO-a u Požegi uklonjena je pristupna rampa. Osobe s invaliditetom i smanjene pokretljivosti već dva mjeseca ne mogu samostalno ući u zgradu.",
-    "published_at": "2026-08-13T12:05:00+00:00"
-  },
-  {
-    "id": "d4d50af2-a036-5bd5-9378-78f3b08183ef",
-    "title": "Vrbnik slavi 20. Dane vina: Dva dana žlahtine, gastronomije, Wine Walka i odlične glazbe",
-    "link": "https://www.fiuman.hr/vrbnik-slavi-20-dane-vina-dva-dana-zlahtine-gastronomije-wine-walka-i-odlicne-glazbe/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Vrbnik će 21. i 22. kolovoza ponovno postati vinsko središte otoka Krka. Jubilarno, 20. izdanje Dana vina donosi dva dana posvećena žlahtini, kvarnerskim vinima, gastronomiji i ...",
-    "published_at": "2026-08-13T12:04:19+00:00"
-  },
-  {
-    "id": "d1bb861f-bd3f-5222-b515-685a1c666073",
-    "title": "Možemo PGŽ upozorio na brojne eko probleme u PGŽ-u i traži izvanredne izbore u Hrvatskoj",
-    "link": "https://www.fiuman.hr/mozemo-pgz-upozorio-na-brojne-eko-probleme-u-pgz-u-i-trazi-izvanredne-izbore-u-hrvatskoj/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Povodom situacije s otpadom u Gospiću, Možemo! je danas održao konferenciju za medije u Rijeci kako bi upozorio da Gospić nije izolirani slučaj, već posljedica sustava gospodare...",
-    "published_at": "2026-08-13T12:01:28+00:00"
-  },
-  {
-    "id": "5bc22fb9-e792-52d6-8042-64517bfe1592",
-    "title": "Pokrenut je Hajduk Business Network. U kratkom roku pristiglo više od 100 prijava",
-    "link": "https://www.index.hr/sport/clanak/pokrenut-je-hajduk-business-network/2823396.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NA POLJUDU službeno pokrenut Hajduk Business Network, nova poslovna mreža HNK Hajduk koja za cilj ima povezivanje partnera, sponzora, prijatelja Kluba i drugih predstavnika posl...",
-    "published_at": "2026-08-13T12:01:00+00:00"
-  },
-  {
-    "id": "17dd42fb-deb1-5163-bf35-ef3e79b1eeae",
-    "title": "Bradati Balkan Rally Gastro: 120 motorista promovira zdravlje kroz pet zemalja",
-    "link": "https://www.index.hr/magazin/clanak/bradati-balkan-rally-gastro-120-motorista-promovira-zdravlje-kroz-pet-zemalja/2823415.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PETNAESTI Bradati Balkan Rally (11.-19.9.) okupit će 120 motorista na ruti kroz pet zemalja. Novost je mobilna ambulanta za besplatne preventivne preglede prostate i testisa za ...",
-    "published_at": "2026-08-13T12:00:00+00:00"
-  },
-  {
     "id": "37ea5d2d-4164-5cfd-b226-3d925b1271e9",
     "title": "Tko je 'novi Lukaku' Brian Madjo? Ispisao je povijest protiv PSG-a, a Aston Villa je zbog njega išla na sud",
     "link": "https://sportnet.hr/vijesti/originalno-stat-mate/tko-je-novi-lukaku-brian-madjo-ispisao-je-povijest-protiv-psg-a-a-aston-villa-je-zbog-njega-isla-na-sud/630425/",
@@ -3103,33 +3076,6 @@
     "image_url": "https://cdn-sib.net.hr/wp-content/uploads/pxl_240816_13987474-52b347d70b754d96e0563813-1052x696.jpg",
     "description": "Donosimo provjerene upute za kuhanje ovoga crvenoga ploda punog vitamina i vrijednih antioksidansa",
     "published_at": "2026-08-13T11:58:29+00:00"
-  },
-  {
-    "id": "f57ed686-20b1-54a4-a5ea-306ee9b363ca",
-    "title": "Malena Trixie traži dom: Ima tri mjeseca i preslatka je",
-    "link": "https://www.index.hr/ljubimci/clanak/malena-trixie-trazi-dom-ima-tri-mjeseca-i-preslatka-je/2823411.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "MALENA Trixie tek je zakoračila u život, a već traži obitelj s kojom će ga provesti.",
-    "published_at": "2026-08-13T11:58:00+00:00"
-  },
-  {
-    "id": "88459ee6-f0ef-5415-8c86-d6509a6c085d",
-    "title": "Sumnjiv predmet pronađen među pragovima na pruzi u Njemačkoj. Evakuirane zgrade",
-    "link": "https://www.index.hr/vijesti/clanak/sumnjiv-predmet-pronadjen-medju-pragovima-na-pruzi-u-njemackoj-evakuirane-zgrade/2823409.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ZBOG sumnjivog predmeta na pruzi u južnoj Njemačkoj zaustavljeni su vlakovi i evakuirane zgrade radi istrage o mogućoj eksplozivnoj napravi.",
-    "published_at": "2026-08-13T11:50:00+00:00"
-  },
-  {
-    "id": "ab5ea28a-2779-5518-8dc0-dea59f3e7301",
-    "title": "Insajder: Gattuso je krenuo po hrvatskog reprezentativca. Evo koliko košta",
-    "link": "https://www.index.hr/sport/clanak/gattuso-odustao-od-domingueza-i-krenuo-po-hrvatskog-reprezentativca/2823407.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "JOSIP ŠUTALO (26) mogao bi ovog ljeta napustiti Ajax.",
-    "published_at": "2026-08-13T11:47:00+00:00"
   },
   {
     "id": "806bb1b7-49dd-5062-814e-777c6de03eca",
@@ -3157,15 +3103,6 @@
     "image_url": "https://cdn-sib.net.hr/wp-content/uploads/0-02-05-9f92986239da3e9951824c5fdd5db9ee94ae537f094899acd716d93c80c9ced7_1f11c603cc18e0ec-1f960e2247bf328798d2aca8-1052x696.jpg",
     "description": "U nadolazećim danima mnogim će domaćinstvima biti nezaobilazne pri pripremi zimnice",
     "published_at": "2026-08-13T11:27:27+00:00"
-  },
-  {
-    "id": "d240608c-344d-5205-ba51-0c2e5a518e64",
-    "title": "Legenda ČA-vala proslavila 80. rođendan: Dule oduševio prepunu Crekvinu",
-    "link": "https://www.fiuman.hr/legenda-ca-vala-proslavila-80-rodendan-dule-odusevio-prepunu-crekvinu/",
-    "source": "Fiuman.hr",
-    "image_url": null,
-    "description": "Duško Jeličić Dule, legenda čakavske glazbe i jedan od začetnika popularnog ČA-vala, proslavio je 80. rođendan velikim koncertom na kastavskoj Crekvini. Posebna večer održana je...",
-    "published_at": "2026-08-13T11:21:33+00:00"
   },
   {
     "id": "4729e2f3-ba49-58b3-8dd2-b97d3a4e9d6f",
@@ -3690,24 +3627,6 @@
     "published_at": "2026-08-12T21:26:04+00:00"
   },
   {
-    "id": "85945a84-fdd5-51a7-9f8d-b0da2e923172",
-    "title": "Igrač utakmice: Često je u sjeni suigrača, ali kvaliteta Desirea Douea uvijek ispliva",
-    "link": "https://sportnet.hr/vijesti/nogomet-ostalo/igrac-utakmice-cesto-je-u-sjeni-suigraca-ali-kvaliteta-desirea-douea-uvijek-ispliva/630400/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/528/59/0000000000528597_510_0.jpg",
-    "description": "Junak PSG-ove pobjede nad Aston Villom u Superkupu bio je Desire Doue, koji je nakon asistencije za prvi zabio drugi, odlučujući gol na utakmici. Time se prometnuo u junaka i na...",
-    "published_at": "2026-08-12T21:16:26+00:00"
-  },
-  {
-    "id": "2d236b01-0270-599d-9cb2-75b33d823223",
-    "title": "PSG - Aston Villa 2:1: Kako je Doue kaznio Cashovu neopreznost i donio PSG-u prvu titulu u novoj sezoni",
-    "link": "https://sportnet.hr/vijesti/nogomet-ostalo/psg-aston-villa-21-kako-je-doue-kaznio-cashovu-neopreznost-i-donio-psg-u-prvu-titulu-u-novoj-sezoni/630399/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/528/59/0000000000528596_510_0.jpg",
-    "description": "PSG je obranio naslov Uefinog Superkupa 2:1 pobjedom u Salzburgu nad Aston Villom. Odlična utakmica u Austriji, jako dobra predstava obje momčadi, ali presudio je trenutak nepaž...",
-    "published_at": "2026-08-12T20:50:00+00:00"
-  },
-  {
     "id": "841796e1-0057-580f-bea0-3ae47ab38c34",
     "title": "Google Pixel 11 stiže s 2-nanometarskim Tensorom G6 i bržim punjenjem",
     "link": "https://www.bug.hr/mobiteli/google-pixel-11-stize-s-2-nanometarskim-tensorom-g6-i-brzim-punjenjem-62043",
@@ -3715,15 +3634,6 @@
     "image_url": "https://www.bug.hr/img/google-pixel-11-stize-s-2-nanometarskim-tensorom-g6-i-brzim-punjenjem_URQD8A.jpeg",
     "description": "Google Pixel 11 donosi novi 2-nanometarski Tensor G6, poboljšanu glavnu kameru i brže punjenje, a početna mu cijena iznosi 1.000 eura",
     "published_at": "2026-08-12T20:32:00+00:00"
-  },
-  {
-    "id": "e211f090-409a-5620-bb5f-f5f051949b58",
-    "title": "Baturina oduševio protiv Arsenala: Pogledajte njegov spektakularan pogodak",
-    "link": "https://sportnet.hr/vijesti/nogomet-italija/baturina-odusevio-protiv-arsenala-pogledajte-njegov-spektakularan-pogodak/630398/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/527/73/0000000000527739_510_0.jpg",
-    "description": "Martin Baturina zabio je prekrasan pogodak protiv Arsenala. Hrvatski reprezentativac sjajnim se driblingom oslobodio dvojice čuvara, a zatim snažnim udarcem pogodio pod gredu.",
-    "published_at": "2026-08-12T19:57:00+00:00"
   },
   {
     "id": "e5a8cdde-5792-58b0-89bf-a54b78c2e591",
@@ -4174,95 +4084,5 @@
     "image_url": null,
     "description": "August the 11th, 2026 &#8211; The widely praised eVisitor system just recorded the best July in Croatia in the past two years, with enviable numbers of both arrivals and overnig...",
     "published_at": "2026-08-10T23:08:44+00:00"
-  },
-  {
-    "id": "0426a01b-1164-5e95-8080-c5547b1078d0",
-    "title": "Croatian Public Debt Rises by 4.6 Billion Euros in a Single Year",
-    "link": "https://total-croatia-news.com/news/croatian-public-debt-3/",
-    "source": "Total Croatia News",
-    "image_url": null,
-    "description": "August the 11th, 2026 &#8211; Croatian public debt has increased by 4.6 billion euros in a single year, with long-term borrowing dominating the entire picture. As Poslovni/Ana B...",
-    "published_at": "2026-08-10T23:08:30+00:00"
-  },
-  {
-    "id": "19076ec2-a369-5c59-8426-80ac5f6f1586",
-    "title": "Gradu Pazinu odobreno 500 tisuća kuna za nastavak radova na zvoniku crkve Sv. Nikole",
-    "link": "https://www.regionalexpress.hr/site/gradu-pazinu-odobreno-500-tisua-kuna-za-nastavak-radova-na-zvoniku-crkve-sv-nikole",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "ETAPNOM OBNOVOM DO REVALORIZACIJE ZVONIKA Ministarstvo kulture i medija Republike Hrvatske objavilo je koncem pro&scaron;log tjedna rezultate Natječaja za programe za&scaron;tit...",
-    "published_at": "2022-07-04T11:20:00+00:00"
-  },
-  {
-    "id": "a07da04f-26d7-5c67-b6e0-084ed8c06bea",
-    "title": "Samo tjedan dana ‘odmora’ od društvenih mreža smanjuje depresiju i tjeskobu",
-    "link": "https://www.regionalexpress.hr/site/samo-tjedan-dana-odmora-od-drushtvenih-mrezha-smanjuje-depresiju-i-tjeskobu",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "LJUDI KOJI SU SE ODMORILI OD TIKTOKA, FACEBOOKA, INSTAGRAMA ILI TWITERA OSJEĆAJU SE BOLJE Samo tjedan dana 'odmora' od dru&scaron;tvenih mreža smanjuje depresiju i tjeskobu, pok...",
-    "published_at": "2022-05-15T09:56:00+00:00"
-  },
-  {
-    "id": "3169bcdc-6f24-5594-aefd-e4ccd22e470b",
-    "title": "Hrvatska predvođena Filipovićem i Matkovićem slavila u neviđenoj drami u Švedskoj",
-    "link": "https://www.regionalexpress.hr/site/hrvatska-predvoena-filipoviem-i-matkoviem-slavila-u-nevienoj-drami-u-shvedskoj",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "&Scaron;VEDSKA &ndash; HRVATSKA &nbsp;98:105 (21:14, 20:12, 18:24, 20:29, 9:9, 10:17) Hrvatska ko&scaron;arka&scaron;ka reprezentacija je nakon velike drame u 4. kolu kvalifikac...",
-    "published_at": "2022-03-01T09:38:00+00:00"
-  },
-  {
-    "id": "a9e31422-1a1f-508c-9851-78c3a226a049",
-    "title": "Obale Jadranskog mora vrlo su ranjive na klimatske promjene",
-    "link": "https://www.regionalexpress.hr/site/obale-jadranskog-mora-vrlo-su-ranjive-na-klimatske-promjene",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "{summary}{body}",
-    "published_at": "2021-12-06T08:57:00+00:00"
-  },
-  {
-    "id": "7eb072de-737c-5904-94a8-b18f62b81cab",
-    "title": "Županijski vijećnici obišli ŽCGO Kaštijun",
-    "link": "https://www.regionalexpress.hr/site/zhupanijski-vijenici-obishli-zhcgo-kashtijun",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "DOZNALI SVE O NOVOM SUSTAVU GOSPODARENJA OTPADOM Vijećnice i vijećnici novog saziva Skup&scaron;tine Istarske županije, na čelu s predsjednicom Sandrom Ćakić Kuhar i zamjenikom ...",
-    "published_at": "2021-10-11T13:20:00+00:00"
-  },
-  {
-    "id": "c5dc67d3-d2b3-5e24-87cc-f21c3419529b",
-    "title": "Novo ruho Držićeve ulice u Puli",
-    "link": "https://www.regionalexpress.hr/site/novo-ruho-drzhieve-ulice-u-puli",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "BEZ NEUREDNIH GRAFITA Nismo protiv grafita, ali smo protiv neukusnih i neurednih grafita i&scaron;aranih na za to nepredviđenim lokacijama. Nekad grafiti daju poseban gradski &s...",
-    "published_at": "2021-06-15T10:35:00+00:00"
-  },
-  {
-    "id": "f6f51533-1d3c-5015-aab0-757c632c9a72",
-    "title": "Novo radno vrijeme PU istarske za rad sa strankama",
-    "link": "https://www.regionalexpress.hr/site/novo-radno-vrijeme-pu-istarske-za-rad-sa-strankama",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "CIJELI TJEDAN OD 8 DO 14 SATI OSIM UTORKA KAD MUP RADI OD 11,30 DO 18,30 SATI Obavje&scaron;tavamo građane kako se od ponedjeljka, 7. rujna 2020. godine, mijenja radno vrijeme P...",
-    "published_at": "2020-09-04T09:08:00+00:00"
-  },
-  {
-    "id": "8a214d0e-0b62-5080-9a06-a1960a9d5900",
-    "title": "Vatrogasci VZG Koprivnica na Brijunima",
-    "link": "https://www.regionalexpress.hr/site/vatrogasci-vzg-koprivnica-na-brijunima",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "VATROGASNA DISLOKACIJA NA BRIJUNIMA Svake se godine tijekom požarne sezone vatrogasci s kontinenta upućuju na dislokaciju na priobalje kako bi pomogli svojim kolegama. Prema zap...",
-    "published_at": "2020-07-28T08:30:00+00:00"
-  },
-  {
-    "id": "13cec93d-56ae-5df1-9b66-4286438b27bb",
-    "title": "Predstavljene nove e-propusnice",
-    "link": "https://www.regionalexpress.hr/site/predstavljene-nove-e-propusnice",
-    "source": "Regional Express",
-    "image_url": null,
-    "description": "POMOĆU E PROPUSNICA SMANJITI ĆE SE ZLOUPORABA TE ĆE KONTROLA BITI UČINKOVITIJA Ministar uprave Ivan Malenica predstavio je u 11 sati uslugu &bdquo;e-Propusnica&ldquo; u sklopu C...",
-    "published_at": "2020-04-01T09:25:00+00:00"
   }
 ]
