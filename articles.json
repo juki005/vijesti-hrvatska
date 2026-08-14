@@ -1,5 +1,680 @@
 [
   {
+    "id": "d1a5d500-fe71-57d8-9e51-2b4c721ef55a",
+    "title": "U utorak kreće isplata dječjeg doplatka. Dobit će ga više od 124.000 korisnika",
+    "link": "https://www.index.hr/vijesti/clanak/u-utorak-krece-isplata-djecjeg-doplatka-dobit-ce-ga-vise-od-124000-korisnika/2823750.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "U UTORAK, 18. kolovoza, počinje isplata doplatka za djecu za srpanj za ukupno 259.210 djece, a sve informacije dostupne su na stranicama HZMO-a.",
+    "published_at": "2026-08-14T11:28:00+00:00"
+  },
+  {
+    "id": "2b271bba-ddb6-5ff2-9051-3b49b0c1e05c",
+    "title": "VIDEO Prošli smo uz spaljeni dio kod Omiša, evo kako izgleda",
+    "link": "https://www.24sata.hr/news/video-prosli-smo-uz-spaljeni-dio-kod-omisa-evo-kako-izgleda-1147386",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/HKgTAyJEbBuNOI1bIkQX_2gqnDI=/800x450/smart/media/images/2026-32/screenshot-2026-08-14-at-12-16-20.png.jpg",
+    "description": "Opustošeno i izgoreno, ukratko je stanje u Omišu nakon razornog požara koji je sinoć pogodio okolicu grada. Šteta se zbraja, a vatrogasci i dalje imaju pune ruke posla...",
+    "published_at": "2026-08-14T11:26:00+00:00"
+  },
+  {
+    "id": "14ab6898-d76b-56f4-a731-694cd0dfb051",
+    "title": "U Ukrajini razbijena mreža lažnih pozivnih centara, zaplijenjeni milijuni i kriptovalute",
+    "link": "https://www.bug.hr/pravosudje/u-ukrajini-razbijena-mreza-laznih-pozivnih-centara-zaplijenjeni-milijuni-i-62080",
+    "source": "Bug.hr",
+    "image_url": "https://www.bug.hr/img/u-ukrajini-razbijena-mreza-laznih-pozivnih-centara-zaplijenjeni-milijuni-i_ZM2tvH.jpeg",
+    "description": "Opsežna akcija ukrajinskih službi obuhvatila je više od 400 pretresa, pri čemu je zaplijenjena računalna oprema i milijunska imovina te je zaustavljeno sustavno varanje građana ...",
+    "published_at": "2026-08-14T11:25:00+00:00"
+  },
+  {
+    "id": "012f2c6a-ec58-52b5-a196-57f0534ebad9",
+    "title": "Sigurnosni propust na Boeingu 737 - uređajem veličine kovanice moguće oteti kontrole zrakoplova",
+    "link": "https://www.bug.hr/sigurnost/sigurnosni-propust-na-boeingu-737-uredjajem-velicine-kovanice-moguce-oteti-62086",
+    "source": "Bug.hr",
+    "image_url": "https://www.bug.hr/img/sigurnosni-propust-na-boeingu-737-uredjajem-velicine-kovanice-moguce-oteti_CK1oyX.jpg",
+    "description": "Istraživači su otkrili ranjivost putničkog zrakoplova Boeing 737 koja napadačima omogućuje daljinsko upravljanje autopilotom i izmjenu podataka o letu putem vanjskog priključka ...",
+    "published_at": "2026-08-14T11:25:00+00:00"
+  },
+  {
+    "id": "29ea4b42-a10e-5c20-af60-da2f8adf8406",
+    "title": "Influencerica u zadnji čas sa sinom pobjegla od vatre: 'Mene je sami Bog probudio'",
+    "link": "https://www.tportal.hr/vijesti/clanak/influencerica-u-zadnji-cas-sa-sinom-pobjegla-od-vatre-mene-je-sami-bog-probudio-foto-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781305.png?cropId=0",
+    "description": "Influencerica Veronika Barišić sa sinom je tijekom noći napustila dom pred požarom koji se velikom brzinom proširio omiškim područjem",
+    "published_at": "2026-08-14T11:23:33+00:00"
+  },
+  {
+    "id": "77f71164-6891-5ce4-87a0-e93381614223",
+    "title": "FOTO/VIDEO Petero intubiranih prebacuju u Zagreb, među teško stradalima i 17-godišnje dijete. U autu ozlijeđena cijela obitelj?",
+    "link": "https://www.vecernji.hr/vijesti/katastrofa-u-dalmaciji-ozlijedeno-19-osoba-gorjele-kuce-i-auti-traje-evakucija-stizu-i-kanaderi-1986265",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/9c/47/0f542c7c0f3bfccf26b9.jpeg",
+    "description": "Požar koji je u četvrtak navečer izbio u Lokvi Rogoznici i dalje gori, vatra pomognuta vjetrom širi se u smjeru Omiša, a stanovnici napuštaju prostor zahvaćen vatrom",
+    "published_at": "2026-08-14T11:22:00+00:00"
+  },
+  {
+    "id": "7f6c7c06-90eb-542e-a44a-4bef9b60787c",
+    "title": "Glumac Otokar Levaj je među evakuiranima: \"U zadnji čas pobjegli smo iz kuće\"",
+    "link": "https://www.index.hr/magazin/clanak/glumac-otokar-levaj-je-medju-evakuiranima-u-zadnji-cas-pobjegli-smo-iz-kuce/2823734.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VELIKI požar zahvatio je područje od Lokve Rogoznice do Omiša.",
+    "published_at": "2026-08-14T11:21:00+00:00"
+  },
+  {
+    "id": "daffe100-a37f-5688-8914-d2a1e787ccfa",
+    "title": "Jadrolinija osigurava dodatne linije zbog požara na Pelješcu",
+    "link": "https://www.dalmacijadanas.hr/jadrolinija-osigurava-dodatne-linije-zbog-pozara-na-peljescu/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/07/dupin-trajekt.jpg",
+    "description": "Važna obavijest za putnike",
+    "published_at": "2026-08-14T11:20:40+00:00"
+  },
+  {
+    "id": "cf6cfe87-cda6-53dc-86ca-24e7946374fc",
+    "title": "Velika tvrtka ide u stečaj: 800 zaposlenika strahuje za svoja radna mjesta",
+    "link": "https://www.poslovni.hr/europska-unija/velika-tvrtka-ide-u-stecaj-800-zaposlenika-strahuje-za-svoja-radna-mjesta-4551098",
+    "source": "Poslovni dnevnik",
+    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/wal_172619-construction-worker-8037906-800x500.jpg",
+    "description": "Grupacija Thor nalazi se u ozbiljnim financijskim problemima, ali uprava ne planira zatvaranje tvrtke.",
+    "published_at": "2026-08-14T11:20:00+00:00"
+  },
+  {
+    "id": "3c941241-88e0-5282-a67c-4f06b9a51a35",
+    "title": "Rusija prozvala SAD zbog ukrajinskih napada. \"Čekamo odgovor\"",
+    "link": "https://www.index.hr/vijesti/clanak/rusija-prozvala-sad-zbog-ukrajinskih-napada-cekamo-odgovor/2823743.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "RUSIJA od SAD-a traži odgovore o potpori napadima na svoj teritorij i najavljuje uništenje zapadnog oružja dok Putin čeka američke izaslanike.",
+    "published_at": "2026-08-14T11:19:00+00:00"
+  },
+  {
+    "id": "8944137d-2a12-5d42-b650-d9ddb4dd9395",
+    "title": "Sedam ljudi se bori za život, izgorjele kuće, auti, brodice... Pogledajte stanje sada",
+    "link": "https://www.index.hr/vijesti/clanak/pozar-je-na-50-m-od-sredista-omisa-stalno-se-cuju-sirene-mnogi-bjeze/2823588.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SEDAM ljudi se bori za život nakon što su zadobili teške opekline u požaru koji je sinoć tijekom večeri buknuo u Lokvi Rogoznici i proširio se u noći prema Omišu.",
+    "published_at": "2026-08-14T11:18:31+00:00"
+  },
+  {
+    "id": "00946096-cf69-5b24-95ad-dc0e85731805",
+    "title": "Velika solidarnost kod Omiša, nude smještaj obiteljima, zbrinjavanje životinja i ručak: 'Sve je na naš račun'",
+    "link": "https://www.vecernji.hr/vijesti/velika-solidarnost-kod-omisa-nude-smjestaj-obiteljima-zbrinjavanje-zivotinja-i-rucak-sve-je-na-nas-racun-1986396",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/6c/ac/984f9b5d0bfb57d9679c.jpeg",
+    "description": "Osim smještaja, ponudili su i druge oblike pomoći.",
+    "published_at": "2026-08-14T11:18:00+00:00"
+  },
+  {
+    "id": "208127d5-096a-5d3e-b89a-0a7733b8dd07",
+    "title": "‘Da mi je znati gdje spavaš‘: Klapa Kaše novom pjesmom otkrila tko stoji iza njihovih uspjeha",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/moskar/zabava/da-mi-je-znati-gdje-spavas-klapa-kase-novom-pjesmom-otkrila-tko-stoji-iza-njihovih-uspjeha-1573486",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301855.jpg",
+    "description": "Klapa Kaše uspješnu festivalsku godinu nastavlja pjesmom „Da mi je znati gdje spavaš“ koju će predstaviti na 29. Dalmatinskoj šansoni u Šibeniku. Ovu su glazbenu priču dubrovačk...",
+    "published_at": "2026-08-14T11:17:35+00:00"
+  },
+  {
+    "id": "063d453c-c3c6-5a1e-bec2-7b8f560e6c37",
+    "title": "Liječnik iz splitske bolnice o stanju ozlijeđenih: ‘Šest osoba je na respiratoru. Ovo nisam vidio u 25 godina rada...‘",
+    "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/lijecnik-iz-splitske-bolnice-o-stanju-ozlijedenih-sest-osoba-je-na-respiratoru-ovo-nisam-vidio-u-25-godina-rada-1573485",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32281964.jpg",
+    "description": "Od 36 osoba koje su dovezene sa područja Omiša u KBC Split i kojima je trebalo pružiti medicinsku pomoć, njih 14 je hospitalizirano. Od 14 hospitaliziranih sedam pacijenata je ž...",
+    "published_at": "2026-08-14T11:16:10+00:00"
+  },
+  {
+    "id": "9109cbec-9955-5809-8833-b58a9c407b32",
+    "title": "Lavrov optužio SAD da podupire ukrajinske napade na ruski teritorij: 'Tražimo objašnjenje'",
+    "link": "https://www.tportal.hr/vijesti/clanak/lavrov-optuzio-sad-da-podupire-ukrajinske-napade-na-ruski-teritorij-trazimo-objasnjenje-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2753271.jpeg?cropId=0",
+    "description": "Rusija vjeruje da je SAD duboko uključen u ukrajinske napade i svoju je zabrinutost prenijela Washingtonu, rekao je ruski ministar vanjskih poslova Sergej Lavrov u petak.",
+    "published_at": "2026-08-14T11:16:00+00:00"
+  },
+  {
+    "id": "534a5b90-c5ce-5b52-a92c-0da7e6e21904",
+    "title": "Šuta najavio novčanu pomoć iz splitskog proračuna",
+    "link": "https://www.dalmacijadanas.hr/suta-najavio-novcanu-pomoc-iz-splitskog-proracuna/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/suta-bolnica-pozar.jpg",
+    "description": "Evo što je kazao splitski gradonačelnik",
+    "published_at": "2026-08-14T11:14:26+00:00"
+  },
+  {
+    "id": "87aae37c-057f-5535-8087-22097c301421",
+    "title": "FOTO U velikom požaru na Pelješcu izgorjela crkva na groblju",
+    "link": "https://www.index.hr/vijesti/clanak/foto-u-velikom-pozaru-na-peljescu-izgorjela-crkva-na-groblju/2823745.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NA PELJEŠCU je u požaru izgorjela crkva, no vatrogasci uz kanadere i pojačanja brane kuće te je situacija na požarištu sada nešto povoljnija.",
+    "published_at": "2026-08-14T11:14:00+00:00"
+  },
+  {
+    "id": "ed858e3d-f920-5cf4-9585-9160aae4a9f5",
+    "title": "Blanka Vlašić nije ostala nijema na vatrenu stihiju u Dalmaciji; evo što je poručila nakon dramatične noći...",
+    "link": "https://slobodnadalmacija.hr/mozaik/zivot/blanka-vlasic-nije-ostala-nijema-na-vatrenu-stihiju-u-dalmaciji-evo-sto-je-porucila-nakon-dramaticne-noci-1573484",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/31618893.jpg",
+    "description": "Blanka Vlašić pridružila se brojnim javnim osobama koje su se oglasile nakon velikog požara na području Omiša, uključujući Luku Modrića i Ivana Perišića. Proslavljena hrvatska a...",
+    "published_at": "2026-08-14T11:14:00+00:00"
+  },
+  {
+    "id": "a8c18863-2c97-5146-8d08-16b7ed7194fa",
+    "title": "Netko već više od godinu dana hara po portalima Salesforcea i ServiceNowa",
+    "link": "https://mreza.bug.hr/sigurnost/netko-vec-vise-od-godinu-dana-hara-po-portalima-salesforcea-i-servicenowa-62083",
+    "source": "Bug.hr",
+    "image_url": "https://mreza.bug.hr/img/netko-vec-vise-od-godinu-dana-hara-po-portalima-salesforcea-i-servicenowa_D5Lyaf.jpg",
+    "description": "Napadač se nije potrudio promijeniti svoju infrastrukturu: ista IP adresa i domena ostale su u upotrebi najmanje 17 mjeseci, a povezani prilagođeni alati kruže na obje platforme",
+    "published_at": "2026-08-14T11:14:00+00:00"
+  },
+  {
+    "id": "bb22b86b-a81a-5542-8fd2-92bbb22fd090",
+    "title": "Ronaldo se pojavio na treningu nakon vjenčanja, svi su primijetili jednu promjenu",
+    "link": "https://www.tportal.hr/sport/clanak/ronaldo-se-pojavio-na-treningu-nakon-vjencanja-svi-su-primijetili-jednu-promjenu-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2758759.jpeg?cropId=4167886",
+    "description": "Cristiano Ronaldo vratio se treninzima Al-Nassra samo nekoliko dana nakon što je potvrdio da se vjenčao s dugogodišnjom partnericom Georginom Rodriguez.",
+    "published_at": "2026-08-14T11:13:00+00:00"
+  },
+  {
+    "id": "6bcf585c-f71f-58f6-9924-89750ee4f27b",
+    "title": "Vir je sinoć velikom otočnom feštom obilježio 118. godišnjicu povijesnog otkupa otoka",
+    "link": "https://www.vecernji.hr/vijesti/vir-je-sinoc-velikom-otocnom-festom-obiljezio-118-godisnjicu-povijesnog-otkupa-otoka-1986394",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/9c/ee/b8797c65e9e5ad117bcf.jpeg",
+    "description": "Nakon svečanosti uslijedio je tradicionalni domjenak na terasi restorana Kotarina, gdje su se okupili poslovni partneri, prijatelji Općine Vir i brojni uzvanici.",
+    "published_at": "2026-08-14T11:12:00+00:00"
+  },
+  {
+    "id": "c2e2fed9-2d17-5707-9119-25c0997ce6fb",
+    "title": "Lana Jurčević shrvana prizorima požara kod Omiša: 'Djetinjstvo sam provela u ovim krajevima'",
+    "link": "https://www.tportal.hr/showtime/clanak/lana-jurcevic-shrvana-prizorima-pozara-kod-omisa-djetinjstvo-sam-provela-u-ovim-krajevima-foto-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781259.jpeg?cropId=4229033",
+    "description": "Pjevačica Lana Jurčević oglasila se na društvenim mrežama povodom strašne vatrene stihije koja je zahvatila okolicu Omiša. Dramatični prizori posebno su je pogodili jer je uprav...",
+    "published_at": "2026-08-14T11:11:00+00:00"
+  },
+  {
+    "id": "8a521eef-ea45-561f-be16-2666ff0dd2b2",
+    "title": "Hajduk je na čelu HNL-a! 'Bili' su po jednom segmentu bolji od Varaždina, Dinama i Rijeke...",
+    "link": "https://www.24sata.hr/sport/hajduk-je-na-celu-hnl-a-bili-su-po-jednom-segmentu-bolji-od-varazdina-dinama-i-rijeke-1147385",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/9KPreJaFJeTqDlCS4VWT4qcbPmA=/800x450/smart/media/images/2026-32/pxl-130826-156633193-ajqpeoo.jpg",
+    "description": "Hrvatski klubovi su ostvarili odlične rezultate u Europi: Dinamo, Hajduk i Rijeka su u play-offu, a Hajduk predvodi hrvatske klubove s čak četiri pobjede",
+    "published_at": "2026-08-14T11:10:00+00:00"
+  },
+  {
+    "id": "4b68874b-7c76-5ace-a25f-ed974fc11481",
+    "title": "'Nedavno sam otišla u policijsku postaju i prijavila prijetnje smrću. To su zastrašivanja, ali vodim se sloganom - no pasaran!'",
+    "link": "https://www.vecernji.hr/showbiz/nedavno-sam-otisla-u-policijsku-postaju-i-prijavila-prijetnje-smrcu-to-su-zastrasivanja-ali-vodim-se-sloganom-no-pasaran-1985784",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/c9/8f/3beec11f742765852645.jpeg",
+    "description": "Ususret 32. Sarajevo Film Festivalu s Ivanom Roščić razgovarali smo o novom filmu \"Male stvari\", glumačkim počecima i ulogama koje su obilježile njezinu karijeru. Dotaknuli smo ...",
+    "published_at": "2026-08-14T11:10:00+00:00"
+  },
+  {
+    "id": "a323a283-2ede-5ee2-9ae4-a014b3ba45df",
+    "title": "U Pitvama na Hvaru nalazi se kamena kuća iz 15. stoljeća koja je obnovljena i pretvorena u vilu",
+    "link": "https://www.journal.hr/lifestyle/interijeri/villa-dvor-giovanni-pitve/",
+    "source": "Journal.hr",
+    "image_url": null,
+    "description": "Objava U Pitvama na Hvaru nalazi se kamena kuća iz 15. stoljeća koja je obnovljena i pretvorena u vilu prvi put se pojavila na Journal.hr .",
+    "published_at": "2026-08-14T11:09:08+00:00"
+  },
+  {
+    "id": "76165b79-2267-5857-92d4-70e73b04871d",
+    "title": "Igo i Ivko su jedini iz legla koji još nisu pronašli dom, pomozimo im ❤️",
+    "link": "https://www.index.hr/ljubimci/clanak/igo-i-ivko-jos-cekaju-svoje-ljude-braca-iz-osjeckog-azila-traze-dom/2823738.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "IGO I IVKO, dva štenca iz Azila Osijek, još uvijek čekaju svoje obitelji.",
+    "published_at": "2026-08-14T11:09:00+00:00"
+  },
+  {
+    "id": "c547237a-20d1-5ced-b2b4-b916137cf893",
+    "title": "Solin uz Omiš: Grad će hitno uplatiti financijsku pomoć stradalima",
+    "link": "https://www.dalmacijadanas.hr/solin-uz-omis-grad-ce-hitno-uplatiti-financijsku-pomoc-stradalima/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/03/solin-3.jpeg",
+    "description": "Evo što kaže Ninčević",
+    "published_at": "2026-08-14T11:08:59+00:00"
+  },
+  {
+    "id": "2a883e62-39cf-5d67-8c75-c6d0441197e2",
+    "title": "Požar kod Omiša oštetio jednu od kuća Nadana Vidoševića",
+    "link": "https://www.index.hr/vijesti/clanak/pozar-kod-omisa-ostetio-jednu-od-kuca-nadana-vidosevica/2823742.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "U VELIKOM požaru na omiškom području, u mjestu Nemira, vatra je oštetila brojne objekte, uključujući i jednu od vila Nadana Vidoševića. Prvotne informacije o dvije uništene vile...",
+    "published_at": "2026-08-14T11:08:00+00:00"
+  },
+  {
+    "id": "5f2bcbd8-8ac2-5e6a-925f-aa7919f1cfe0",
+    "title": "Dobre vijesti za Hajduk: Rakow na Poljud stiže bez kapetana?",
+    "link": "https://www.vecernji.hr/sport/dobre-vijesti-za-hajduk-rakow-na-poljud-stize-bez-kapetana-1986393",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/c5/1a/3690bdf15b918d296d19.jpeg",
+    "description": "Rakow je prošlu sezonu završio na četvrtom mjestu u poljskoj Ekstraklasi. Boje tog kluba brane još dva igrača dobro poznata ljubiteljima HNL-a, bivši dinamovci Marko Bulat i Mah...",
+    "published_at": "2026-08-14T11:08:00+00:00"
+  },
+  {
+    "id": "a77821ce-479c-5a52-abc1-ac08a24afb47",
+    "title": "'American Horror Story' vraća najveće zvijezde i mrtve likove: Ovaj put ni Antikrist nije najveća prijetnja",
+    "link": "https://www.vecernji.hr/kultura/american-horror-story-vraca-najvece-zvijezde-i-mrtve-likove-ovaj-put-ni-antikrist-nije-najveca-prijetnja-1986386",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/7d/7d/6337e7decaaee101b18e.jpeg",
+    "description": "Nakon godina iščekivanja, Ryan Murphy okuplja najomiljenije likove iz svih prethodnih sezona u monumentalnom crossoveru. Trinaesta sezona, koja stiže 24. rujna, obećava biti naj...",
+    "published_at": "2026-08-14T11:08:00+00:00"
+  },
+  {
+    "id": "a6715b2f-6c8a-5b8f-9665-38bed8eb2ebc",
+    "title": "Sve više stradavaju civili u Ukrajini: Žrtve porasle za trećinu u mjesec dana",
+    "link": "https://www.tportal.hr/vijesti/clanak/sve-vise-stradavaju-civili-u-ukrajini-zrtve-porasle-za-trecinu-u-mjesec-dana-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2727621.jpeg?cropId=0",
+    "description": "Broj civilnih žrtava rata u Ukrajini u srpnju je porastao za gotovo trećinu u odnosu na lipanj, dosegnuvši najvišu razinu od svibnja 2022., dok Rusija raketama i dronovima napad...",
+    "published_at": "2026-08-14T11:08:00+00:00"
+  },
+  {
+    "id": "9f6a7343-84cc-5f6a-9a93-b5db0baad1e1",
+    "title": "Velik pritisak za odlazak s Pelješca. Jadrolinija pojačala liniju prema kopnu",
+    "link": "https://www.index.hr/vijesti/clanak/velik-pritisak-za-odlazak-s-peljesca-jadrolinija-pojacala-liniju-prema-kopnu/2823740.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ZBOG požara na Pelješcu, Jadrolinija uvodi neprekidne linije Trpanj – Ploče i dodatni brod Sveti Duje kako bi ubrzala odlazak ljudi prema kopnu.",
+    "published_at": "2026-08-14T11:05:00+00:00"
+  },
+  {
+    "id": "a09b6a3e-b4dc-5f8f-a406-af71f5b7b1c1",
+    "title": "VIDEO Naša reporterka prošla zgarištem kod Omiša: Još se dimi, smrdi po paljevini",
+    "link": "https://www.index.hr/vijesti/clanak/video-nasa-reporterka-prosla-zgaristem-kod-omisa-jos-se-dimi-smrdi-po-paljevini/2823741.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NA PUTU prema požarištu vidljivi su razmjeri štete. Izgorjeli su automobili, kuće, vile za odmor s bazenima i drugi objekti. Dim je i dalje prisutan, a na području se osjeti sna...",
+    "published_at": "2026-08-14T11:05:00+00:00"
+  },
+  {
+    "id": "3c037e2c-fea3-561f-93c8-db97c01c7150",
+    "title": "Olga Pakalović i Vladimir Tintor komentirali početke 'Kumova'",
+    "link": "https://www.24sata.hr/show/olga-pakalovic-i-vladimir-tintor-komentirali-pocetke-kumova-1147384",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/BPfB7DqtSRQ30JDpY2aApmn-5cU=/800x450/smart/media/images/2026-32/vladimir-tintor-i-olga-pakalovic-3.jpg",
+    "description": "Olga Pakalović i Vladimir Tintor, gledateljima poznati i kao Vesna i Aljoša Gotovac, vratili su se pet godina unatrag te su se prisjetili svojih prvih koraka u seriji 'Kumovi'",
+    "published_at": "2026-08-14T11:04:00+00:00"
+  },
+  {
+    "id": "0f163c30-bbdc-54c0-af93-ab6cab02ab21",
+    "title": "Dol večeras u znaku slavne bračke torte: Stiže 15. Noć hrapoćuše, donosimo i recept",
+    "link": "https://www.dalmacijadanas.hr/dol-veceras-u-znaku-slavne-bracke-torte-stize-15-noc-hrapocuse-donosimo-i-recept/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/hrapacusa-naslovna.jpg",
+    "description": "[FOTO] Jedno od najljepših bračkih mjesta večeras će ponovno postati središte tradicije, dobre hrane i dalmatinske pjesme. Jubilarna 15. Noć hrapoćuše počinje u 21 sat, a posjet...",
+    "published_at": "2026-08-14T11:03:04+00:00"
+  },
+  {
+    "id": "74b6359a-1f55-54af-a46f-6205852e0576",
+    "title": "Novo istraživanje pokazalo koliko dobro psi prepoznaju ljudske emocije",
+    "link": "https://www.index.hr/ljubimci/clanak/novo-istrazivanje-pokazalo-koliko-dobro-psi-prepoznaju-ljudske-emocije/2823737.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NOVO istraživanje pokazuje da pseći mozak različito obrađuje ljudske emocije.",
+    "published_at": "2026-08-14T11:03:00+00:00"
+  },
+  {
+    "id": "37e9ab43-eb21-535a-814d-11a11f24f8e8",
+    "title": "Emma Stone ponovno postavlja modne trendove na filmskom setu",
+    "link": "https://www.index.hr/shopping/clanak/emma-stone-nosi-jednostavnu-kombinaciju-koju-cemo-vidjati-posvuda-ove-jeseni/2823731.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "KLASIČNI komadi čine ovu kombinaciju idealnom za nadolazeću jesen.",
+    "published_at": "2026-08-14T11:03:00+00:00"
+  },
+  {
+    "id": "c63c4132-9b1e-5fa8-83e6-12d7528dc3ff",
+    "title": "VIDEO Iz vatrenog ognja 194 osobe izvučene brodovima; ljudi s djecom bježali u more, penjali se u brodove...",
+    "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/spasavanje-194-osobe-makarska-pozar-more-1573483",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301650.gif",
+    "description": "Nacionalna središnjica za usklađivanje traganja i spašavanja na moru, u Rijeci, u suradnji s Lučkom kapetanijom Split i pripadajućim ispostavama, u noći između četvrtka i petka ...",
+    "published_at": "2026-08-14T11:03:00+00:00"
+  },
+  {
+    "id": "69804c70-eda8-5969-a5dd-4e4c18d150f1",
+    "title": "Novi požar u Dalmaciji, planulo kod Trogira",
+    "link": "https://www.dalmacijadanas.hr/novi-pozar-u-dalmaciji-planulo-kod-trogira/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2019/07/airtractor01.jpg",
+    "description": "Gori Dalmacija",
+    "published_at": "2026-08-14T11:02:35+00:00"
+  },
+  {
+    "id": "ed0596ea-4375-58f1-9b23-eb20e346922a",
+    "title": "Liječnik iz KBC Split: 'Opečene površine pacijenata kreću se od 15 do 60 posto'",
+    "link": "https://www.tportal.hr/vijesti/clanak/lijecnik-iz-kbc-split-opecene-povrsine-pacijenata-krecu-se-od-15-do-60-posto-foto-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781258.png?cropId=0",
+    "description": "Josip Banović, liječnik iz KBC-a Split, otkrio je detalje o ozlijeđenima s područja Omiša. Požar napravio je veliku materijalnu štetu, a ukupno je stiglo 40 pacijenata",
+    "published_at": "2026-08-14T11:01:00+00:00"
+  },
+  {
+    "id": "5334082a-573e-5817-a60a-701d324776a7",
+    "title": "Sedam stradalih u požaru na respiratoru, među njima djevojka (17). Neke sele u Zagreb",
+    "link": "https://www.index.hr/vijesti/clanak/petero-stradalih-u-pozaru-na-respiratoru-sele-ih-u-zagreb-medju-njima-17godisnjak/2823735.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "STIGLE su nove informacije o ozlijeđenima u golemom požaru u Omišu i okolici.",
+    "published_at": "2026-08-14T11:00:00+00:00"
+  },
+  {
+    "id": "038b379e-74d6-5933-9975-f5cbb4878b58",
+    "title": "Radno vrijeme trgovina na Veliku Gospu: Evo gdje možete po kruh, namirnice i ostalo...",
+    "link": "https://www.24sata.hr/lifestyle/radno-vrijeme-trgovina-na-veliku-gospu-evo-gdje-mozete-po-kruh-namirnice-i-ostalo-1147318",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/Pf3HZLBqFuqh0UHlgmC5RcqP95I=/800x450/smart/media/images/2026-32/296427465-m.jpg",
+    "description": "Planirate u kupnju na Veliku Gospu? Prije nego krenete, svakako provjerite radno vrijeme trgovina jer će brojne poslovnice 15. kolovoza raditi prema posebnom rasporedu, dok će n...",
+    "published_at": "2026-08-14T11:00:00+00:00"
+  },
+  {
+    "id": "eac8be2e-974a-5b71-adeb-4b145ed10d80",
+    "title": "FOTO Govore joj da nije REALna: Zbog zanosne Marije se vrpolje sugovornici dok ih intervjuira",
+    "link": "https://www.24sata.hr/sport/foto-govore-joj-da-nije-realna-zbog-zanosne-marije-se-vrpolje-sugovornici-dok-ih-intervjuira-1034851",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/L_cMLGBfZsNaf2oii7H-BCDQoTc=/800x450/smart/media/images/2025-47/3655706922007655365-1461847841-2_cT2FkvN.jpg",
+    "description": "Bivša talijanska manekenka Maria Arreghini rado je viđeno lice na televiziji Real Madrida. Pridružila im se 2024. godine i ekspresno donijela rast gledanosti",
+    "published_at": "2026-08-14T11:00:00+00:00"
+  },
+  {
+    "id": "5e24ca96-ee62-5cfc-9288-6202287254fe",
+    "title": "Nožem prijetio ženi, a dolaskom policije nastao je pravi kaos: Krenuo na njih pa se obrušio i na vozilo",
+    "link": "https://www.vecernji.hr/zagreb/nozem-prijetio-zeni-a-dolaskom-policije-nastao-je-pravi-kaos-krenuo-na-njih-pa-se-obrusio-i-na-vozilo-1986374",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/39/68/1852c594e088f610c68c.jpeg",
+    "description": "Policajci su ga u pogodnom trenutku uspjeli razoružati, nakon čega su ga uhitili i priveli u službene prostorije. Utvrđeno je da je 28-godišnjak imao 2,46 promila alkohola u org...",
+    "published_at": "2026-08-14T11:00:00+00:00"
+  },
+  {
+    "id": "ab28ff6b-e833-5ffa-847a-86ef43a137dd",
+    "title": "Simović: ‘Cilj nam je spriječiti širenje požara prema objektima i dalje u pravcu Trstenika!‘",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/crna-kronika/simovic-cilj-nam-je-sprijeciti-sirenje-pozara-prema-objektima-i-dalje-u-pravcu-trstenika-1573482",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/30848637.jpg",
+    "description": "Vatrogasci iz cijele Županije i dalje se bore protiv vatrene stihije na Pelješcu. Kako ističu iz Hrvatske vatrogasne zajednice, gori trava, nisko raslinje i borova šuma. Na poža...",
+    "published_at": "2026-08-14T10:59:00+00:00"
+  },
+  {
+    "id": "959c21b1-f170-5c49-975f-4e0b6579bf13",
+    "title": "Američki turisti u Rimu htjeli platiti račun dolarima, snimka postala viralna",
+    "link": "https://www.index.hr/magazin/clanak/americki-turisti-u-rimu-htjeli-platiti-racun-dolarima-snimka-postala-viralna/2823739.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SNIMKA američkih turista koji u rimskom restoranu pokušavaju platiti dolarima postala je viralna.",
+    "published_at": "2026-08-14T10:57:00+00:00"
+  },
+  {
+    "id": "63350898-6c6d-5330-8fdc-80678c374ddf",
+    "title": "Nacionalna košarica za četveročlanu obitelj u srpnju 480,99 eura",
+    "link": "https://www.index.hr/vijesti/clanak/nacionalna-kosarica-za-cetveroclanu-obitelj-u-srpnju-48099-eura/2823736.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SRPANJSKA osnovna košarica za obitelj narasla je na 480,99 eura, pri čemu je najskuplja Zadarska, a najpovoljnija Sisačko-moslavačka županija.",
+    "published_at": "2026-08-14T10:56:00+00:00"
+  },
+  {
+    "id": "b97ce933-f0fb-55fb-af43-02f1b616736a",
+    "title": "Izbio novi požar, gori kod Trogira",
+    "link": "https://www.tportal.hr/vijesti/clanak/izbio-novi-pozar-gori-kod-trogira-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2752093.jpeg?cropId=0",
+    "description": "Izbio je požar u zaleđu Trogira. Planulo je u Trolokvama",
+    "published_at": "2026-08-14T10:56:00+00:00"
+  },
+  {
+    "id": "93bf7380-4a2f-57f1-91c3-a4fd7915a6aa",
+    "title": "Vatrogasci o dalmatinskim požarima: Kod Rogoznice nema širenja, ali na Pelješcu vjetar stvara probleme",
+    "link": "https://www.tportal.hr/vijesti/clanak/vatrogasci-o-dalmatinskim-pozarima-kod-rogoznice-nema-sirenja-ali-na-peljescu-vjetar-stvara-probleme-foto-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2780985.jpeg?cropId=0",
+    "description": "Situacija kod Lokve Rogoznice povoljnija je i nema širenja požara, no na području Kune Pelješke na Pelješcu požar koji je izbio jutros aktivan je, situaciju otežava jak vjetar, ...",
+    "published_at": "2026-08-14T10:55:00+00:00"
+  },
+  {
+    "id": "96034ac9-f94d-5d66-975c-e57db2513a4f",
+    "title": "Erol Gaši (SDP) pozvao na sastanak kako bi Zadar pomogao Omišu, a gradonačelnik Šime Erlić (HDZ) to odbio!",
+    "link": "https://slobodnadalmacija.hr/dalmacija/zadar/erol-gasi-pozvao-na-sastanak-da-zadar-pomogne-omisu-a-gradonacelnik-sime-erlic-to-odbio-1573481",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301495.jpg",
+    "description": "Katastrofalan požar u Omišu potaknuo je predsjednika zadarskog SDP-a Erola Gašija da u ime predsjednika Kluba vijećnika SDP-Možemo pozove političke predstavnike Zadra na solidar...",
+    "published_at": "2026-08-14T10:55:00+00:00"
+  },
+  {
+    "id": "e8269e7b-ec33-570b-94fb-f4a63dcfeeb6",
+    "title": "Proizvođačke cijene poljoprivrednih proizvoda porasle za 3,9 posto",
+    "link": "https://www.poslovni.hr/hrvatska/proizvodacke-cijene-poljoprivrednih-proizvoda-porasle-za-39-posto-4551096",
+    "source": "Poslovni dnevnik",
+    "image_url": "https://www.poslovni.hr/wp-content/uploads/2022/04/18kukuruz-1-800x500.jpg",
+    "description": "Cijene biljnih proizvoda porasle su za sedam posto, a cijene stoke, peradi i stočnih proizvoda za 1,4 posto.",
+    "published_at": "2026-08-14T10:55:00+00:00"
+  },
+  {
+    "id": "15da0334-6723-5965-b8e1-5484a2dcb880",
+    "title": "Liječnica: \"To u životu nisam vidjela, tako strašan prizor – djeca bez inzulina, trudnice pred porodom...\"",
+    "link": "https://www.dalmacijadanas.hr/lijecnica-to-u-zivotu-nisam-vidjela-tako-strasan-prizor-djeca-bez-inzulina-trudnice-pred-porodom/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/lijecnica-crveni-kriz-nn.jpg",
+    "description": "Liječnica i volonterka kazale su kako nikad nisu vidjele slične prizore – u prihvatne centre javilo se više od 2000 ljudi",
+    "published_at": "2026-08-14T10:54:58+00:00"
+  },
+  {
+    "id": "19a86f05-a0c1-58f2-b0ed-f0a89dd6be81",
+    "title": "Rusija odbacila primirje na Crnom moru. \"To bi Kijevu dalo vremena za predah\"",
+    "link": "https://www.index.hr/vijesti/clanak/rusija-odbacila-primirje-na-crnom-moru-to-bi-kijevu-dalo-vremena-za-predah/2823732.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "RUSIJA odbacuje ideju o primirju na Crnom moru jer bi ono Ukrajini dalo predah uslijed sve učestalijih napada na brodove.",
+    "published_at": "2026-08-14T10:53:00+00:00"
+  },
+  {
+    "id": "85f5b946-c74b-5d86-899b-1e4bf80ad7cb",
+    "title": "Martina Validžić o noći u Omišu: 'Hodali smo s mokrim krpama na glavi, bilo je apokaliptično'",
+    "link": "https://www.24sata.hr/show/martina-validzic-o-noci-u-omisu-hodali-smo-s-mokrim-krpama-na-glavi-bilo-je-apokalipticno-1147381",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/I2TQQ2PIVfD_wXRPHdCEJh4wXi0=/800x450/smart/media/images/2026-32/ne-znam-jel-ga-vise-volim-nocu-il-danju-al-ga-svakako-volim-onako-po-starinski-zato-i-ova-ol_ekaICjy.jpg",
+    "description": "Novinarka je u Omišu bila na odmoru, a opisala je kako je izgledala prošla noć. Rekla je kako je cijeli grad bio na nogama te da nisu ni oka sklopili",
+    "published_at": "2026-08-14T10:52:00+00:00"
+  },
+  {
+    "id": "d6c649ad-ad38-5b5f-9f8d-5eada7f4362a",
+    "title": "Loše vijesti za Hrvatsku! Zverev se vraća u njemački sastav: 'On je iznimno atletski sposoban'",
+    "link": "https://www.24sata.hr/sport/lose-vijesti-za-hrvatsku-zverev-se-vraca-u-njemacki-sastav-on-im-iznimnu-atletsku-sposobnost-1147382",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/6ve-I3D4CwKXWQLn_7jq9jJG0iU=/800x450/smart/media/images/2026-32/2026-08-05t203228z-1747339824-mt1usatoday29521823-rtrmadp-3-tennis-national-bank-open_Wret8H8.jpg",
+    "description": "Zverev se vraća u njemački Davis Cup sastav za okršaj s Hrvatskom u Halleu! Njemačka ide po završni turnir, a Dodig još skriva adute koje će pozvati na sraz s 'elfom'",
+    "published_at": "2026-08-14T10:51:00+00:00"
+  },
+  {
+    "id": "34e3a892-edc2-5d0e-a025-b45945b1c658",
+    "title": "Rakow bi na Poljud mogao bez kapetana: Bivši hajdukovac još nije počeo trenirati",
+    "link": "https://www.tportal.hr/sport/clanak/rakow-bi-na-poljud-mogao-bez-kapetana-bivsi-hajdukovac-jos-nije-poceo-trenirati-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781257.jpeg?cropId=0",
+    "description": "Bivši igrač Hajduka Fran Tudor ozlijedio se u prvoj utakmici Rakowa protiv švedskog Hammarbyja. Teren je morao napustiti već u 26. minuti zbog problema s ramenom.",
+    "published_at": "2026-08-14T10:51:00+00:00"
+  },
+  {
+    "id": "0a7dd710-74df-5b24-9d36-b1359924776b",
+    "title": "Dominacija kakvu nismo dugo vidjeli: Hrvatski klubovi uzeli 75 posto bodova, Hajduk pri samome vrhu Europe",
+    "link": "https://sportnet.hr/vijesti/nogomet-europski-kupovi/dominacija-kakvu-nismo-dugo-vidjeli-hrvatski-klubovi-uzeli-75-posto-bodova-hajduk-pri-samome-vrhu-europe/630476/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/528/47/0000000000528476_510_0.jpg",
+    "description": "Hrvatski klupski nogomet proživljava jedno od najuspješnijih europskih ljeta u povijesti. Predstavnici SuperSport Hrvatske nogometne lige u uvodnim su pretkolima upisali čak 11 ...",
+    "published_at": "2026-08-14T10:50:31+00:00"
+  },
+  {
+    "id": "885025eb-29a1-56e6-815b-daa1b40f64c6",
+    "title": "Grad Omiš uputio hitan apel ugostiteljima: 'Trebamo hranu i tople obroke za ljude'",
+    "link": "https://www.tportal.hr/vijesti/clanak/grad-omis-uputio-hitan-apel-ugostiteljima-trebamo-hranu-i-tople-obroke-za-ljude-foto-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781256.jpeg?cropId=0",
+    "description": "Grad Omiš objavio je jutros apel lokalnim ugostiteljima",
+    "published_at": "2026-08-14T10:50:00+00:00"
+  },
+  {
+    "id": "5a881d55-2b6f-5943-85d4-009695db2a36",
+    "title": "Požar na Pelješcu: Izgorjela crkva u Potomju, velika gužva u trajektnoj luci",
+    "link": "https://www.tportal.hr/vijesti/clanak/pozar-na-peljescu-izgorjela-crkva-u-potomju-velika-guzva-u-trajektnoj-luci-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781260.jpeg?cropId=0",
+    "description": "Snage koje su prvotno poslane na područje Omiša - VZŽ Šibensko-kninske, Koprivničko-križevačke i VZ Grada Zagreba - preusmjerene su na Pelješac, gdje je u jutarnjim satima krenu...",
+    "published_at": "2026-08-14T10:49:00+00:00"
+  },
+  {
+    "id": "5b0d28b0-9b9b-567e-87d7-84e770d6c3e1",
+    "title": "Omiški sportaši shrvani zbog požara, javio se i bivši Vatreni: ‘Ovo je katastrofa. Mogu samo zahvaliti svima‘",
+    "link": "https://slobodnadalmacija.hr/sport/vise-od-sporta/omiski-sportasi-shrvani-zbog-pozara-javio-se-i-bivsi-vatreni-ovo-je-katastrofa-mogu-samo-zahvaliti-svima-1573480",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32298997.jpg",
+    "description": "Zaista apokaliptične scene stizale su i još uvijek stižu sa šireg i užeg omiškog područja. Požar koji je sinoć buknuo u Lokvi Rogoznici proširio se i na Omiš te okolna mjesta, s...",
+    "published_at": "2026-08-14T10:49:00+00:00"
+  },
+  {
+    "id": "15bdaccb-472b-502d-a46f-d6ccfedfe678",
+    "title": "Izbio novi požar, gori kod Trogira!",
+    "link": "https://www.vecernji.hr/vijesti/izbio-novi-pozar-gori-kod-trogira-1986385",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/32/23/118a4f5bbd257f7557ee.jpg",
+    "description": "Planuo je novi požar",
+    "published_at": "2026-08-14T10:47:00+00:00"
+  },
+  {
+    "id": "d872f8f8-adf2-58c2-8046-9d36b9d63c61",
+    "title": "U Zadru izbušene gume na autu Srpkinje, policija traži počinitelja",
+    "link": "https://www.index.hr/vijesti/clanak/u-zadru-izbusene-gume-na-autu-srpkinje-policija-trazi-pocinitelja/2823729.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ZADARSKA policija istražuje 22 prometne nesreće, niz krađa i vandalizam nad automobilom u Jazinama, tragajući za nepoznatim počiniteljima.",
+    "published_at": "2026-08-14T10:46:00+00:00"
+  },
+  {
+    "id": "b06e0daa-5ffc-5e32-84db-dcda4dc8576d",
+    "title": "Četiri horoskopska znaka u kojima se rađaju najveći avanturisti",
+    "link": "https://www.index.hr/horoskop/clanak/cetiri-horoskopska-znaka-u-kojima-se-radjaju-najveci-avanturisti/2823730.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VOLE bježati od rutine.",
+    "published_at": "2026-08-14T10:45:00+00:00"
+  },
+  {
+    "id": "ce676704-2d16-56ba-8246-e963f462db50",
+    "title": "Rusija odbila primirje na Crnom moru, žale se na 'polovično rješenje'",
+    "link": "https://www.tportal.hr/vijesti/clanak/rusija-odbila-primirje-na-crnom-moru-zale-se-na-polovicno-rjesenje-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781255.jpeg?cropId=0",
+    "description": "Rusija je u petak odbacila ideju primirja s Ukrajinom na Crnom moru, rekavši da je to \"polovično rješenje\" koje bi drugoj strani samo dalo vrijeme za predah.",
+    "published_at": "2026-08-14T10:45:00+00:00"
+  },
+  {
+    "id": "46d682b3-f83f-540c-b967-6e984a59777f",
+    "title": "Mladi Talijan izazvao lančani sudar kod Dubrovnika: Sedam osoba ozlijeđeno",
+    "link": "https://www.vecernji.hr/vijesti/mladi-talijan-izazvao-lancani-sudar-kod-dubrovnika-sedam-osoba-ozlijedeno-1986384",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/14/d6/71eafe4231a28d63c9c8.jpeg",
+    "description": "Nakon tih sudara, vozilo 23-godišnjeg Talijana prednjim je dijelom izravno udarilo u prednji dio osobnog vozila pulskih registarskih oznaka kojim je iz suprotnog smjera upravlja...",
+    "published_at": "2026-08-14T10:44:00+00:00"
+  },
+  {
+    "id": "2bb35e53-2ed4-5edf-a5ff-8301f6d4471b",
+    "title": "Zaljubljeni Kaja i Karlo zaplesali u večernjem izlasku s još jednim 'Gospodinom Savršenim'...",
+    "link": "https://www.24sata.hr/show/zaljubljeni-kaja-i-karlo-zaplesali-u-vecernjem-izlasku-s-jos-jednim-gospodinom-savrsenim-1147375",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/rESdxVoyuCkBU4h4BwFuQy4i1g8=/800x450/smart/media/images/2026-27/744777.jpg",
+    "description": "Par iz 'Gospodina Savršenog' večer je proveo u društvu Antonele Jukičić i Miloša Mićovića, kolega iz reality showa. Uz glazbu uživo i čašu vina, zaplesali su vidno dobro raspolo...",
+    "published_at": "2026-08-14T10:43:00+00:00"
+  },
+  {
+    "id": "365583e8-d2b2-580b-ae4a-b19f19e68463",
+    "title": "Plenković o tome zašto se nije javio sustav koji smo platili 8,4 mil. eura: Vatra je bila prebrza",
+    "link": "https://www.24sata.hr/news/plenkovic-o-tome-zasto-se-nije-javio-sustav-koji-smo-platili-84-mil-eura-vatra-je-bila-prebrza-1147378",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/32c2HVsFPpFlwFBh5Cq6qT47Kfk=/800x450/smart/media/images/2026-32/dodajte-podnaslov-1_c3b6sXf.jpg",
+    "description": "Ovdje je stvar bila očito brza u smislu vjetra i noći. Da je bio dan, i kanaderi bi djelovali, rekao je...",
+    "published_at": "2026-08-14T10:43:00+00:00"
+  },
+  {
+    "id": "aafface6-ecc7-5811-b7cd-7cd21000339a",
+    "title": "Tko je Pero Kuterovac? Arhitekt hrvatskog plivačkog stroja unio je revoluciju u trenerski svijet",
+    "link": "https://www.24sata.hr/sport/tko-je-pero-kuterovac-arhitekt-hrvatskog-plivackog-stroja-unio-je-revoluciju-u-trenerski-svijet-1147380",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/P8BW5o5e8me_-58Ut5sxL9qqPqw=/800x450/smart/media/images/2026-32/images-2026-32-pxl-190721-33744568.jpg",
+    "description": "Kuterovac je vratio hrvatsko plivanje na postolje! Bronca štafete u Parizu stigla je nakon 10 godina suše! Tihi genijalac iz Slavonskog Broda vodi ekipu do medalja i nevjerojatn...",
+    "published_at": "2026-08-14T10:43:00+00:00"
+  },
+  {
+    "id": "53a1fb83-57a2-5d6b-b2c3-be1b7d1c0ca3",
+    "title": "KBC o ozlijeđenima u požarima: 'Šestero njih je na respiratoru, među njima je i maloljetnica'",
+    "link": "https://www.24sata.hr/news/kbc-o-ozlijedenima-u-pozarima-sestero-njih-je-na-respiratoru-medu-njima-je-i-maloljetnica-1147379",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/LmMDJrAlrnl-N7z4xDBNp0yP5Aw=/800x450/smart/media/images/2026-32/whatsapp-image-2026-08-14-at-12-38-31.jpeg",
+    "description": "Imamo i pacijente koji su primljeni zbog inhalacijskih ozljeda, a imamo i pacijente koji su primljeni s opeklinskim zbog trauma tijekom evakuacije s požarišta.",
+    "published_at": "2026-08-14T10:41:00+00:00"
+  },
+  {
+    "id": "bb4b1824-71b3-551b-91b9-f65658c479c9",
+    "title": "UŽIVO Liječnici splitske bolnice oglasili se o stanju ozlijeđenih u požaru",
+    "link": "https://www.dalmacijadanas.hr/uzivo-pozar-se-od-lokve-rogoznice-prosirio-do-omisa-gorjele-kuce-automobili-ima-i-ozlijedenih-stigla-cetiri-kanadera/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/lijecnici-kbc.jpg",
+    "description": "Najnovije informacije s požarišta",
+    "published_at": "2026-08-14T10:40:38+00:00"
+  },
+  {
+    "id": "b873f7d3-82ff-5776-abf3-1b2a206fccd0",
+    "title": "Top transferi: Sprema se spektakularna razmjena igrača od 155 milijuna eura",
+    "link": "https://www.index.hr/sport/clanak/top-transferi-turci-odbili-ponudu-od-130-mil-eura-chelsea-zeli-zvijezdu-arsenala/2823575.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NAJZANIMLJIVIJE vijesti s tržnice pratite na Indexu.",
+    "published_at": "2026-08-14T10:40:00+00:00"
+  },
+  {
+    "id": "3dd7e825-4669-580f-93f3-47408394ac67",
+    "title": "Lana Jurčević poslala poruku podrške pogođenima požarom kod Omiša: \"Uz vas smo\"",
+    "link": "https://www.index.hr/magazin/clanak/lana-jurcevic-poslala-poruku-podrske-pogodjenima-pozarom-kod-omisa-uz-vas-smo/2823724.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PJEVAČICA Lana Jurčević na društvenim mrežama je izrazila podršku stanovnicima Omiša.",
+    "published_at": "2026-08-14T10:37:00+00:00"
+  },
+  {
+    "id": "f7814719-f176-514f-acf2-f3747f8748c4",
+    "title": "Stephen King preradio poznatu bajku, dao si je 'malo slobode' za novu slikovnicu",
+    "link": "https://www.tportal.hr/kultura/clanak/stephen-king-preradio-poznatu-bajku-dao-si-je-malo-slobode-za-novu-slikovnicu-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2431035.jpeg?cropId=0",
+    "description": "Jednu od najpoznatijih bajki braće Grimm, „Ivicu i Maricu“, preradio je američki pisac Stephen King, a ilustrirao Maurice Sendak, a njihova je verzija sada objavljena na hrvatsk...",
+    "published_at": "2026-08-14T10:37:00+00:00"
+  },
+  {
+    "id": "5ec9c360-a298-512a-a436-65543eaf726e",
+    "title": "Veliki požar na Pelješcu. Tucaković za Index: Situacija je povoljnija",
+    "link": "https://www.index.hr/vijesti/clanak/gori-na-peljescu-tucakovic-rekao-indexu-da-je-stanje-je-ozbiljno/2823603.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VATROGASCI se bore s požarom na Pelješcu, a prema riječima zapovjednika, stambeni objekti trenutno nisu ugroženi vatrenom stihijom.",
+    "published_at": "2026-08-14T10:36:00+00:00"
+  },
+  {
+    "id": "6e7e8795-4f52-5129-8a0d-4b2178777a3a",
+    "title": "WWF: Umjesto prstaca jedite dagnje, umjesto kirnje ribu lav",
+    "link": "https://www.index.hr/vijesti/clanak/wwf-umjesto-prstaca-jedite-dagnje-umjesto-kirnje-ribu-lav/2823723.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "WWF KAMPANJOM potiče na održiv odabir morskih plodova i konzumaciju invazivnih vrsta kako bi se zaštitila prirodna ravnoteža Jadrana.",
+    "published_at": "2026-08-14T10:36:00+00:00"
+  },
+  {
     "id": "27096bbe-48cf-542f-8884-8706c4de5444",
     "title": "Ronaldova obitelj nije bila na vjenčanju? 'Za ceremoniju su saznali svega 30 sekundi ranije'",
     "link": "https://www.24sata.hr/show/ronaldova-obitelj-nije-bila-na-vjencanju-za-ceremoniju-su-saznali-svega-30-sekundi-ranije-1147340",
@@ -9,12 +684,39 @@
     "published_at": "2026-08-14T10:36:00+00:00"
   },
   {
+    "id": "8883c400-81b5-5f16-a66b-30648fa785ec",
+    "title": "Zaboravite polpete: Višak tikvica pretvorite sočan kolač koji osvaja mirisom i okusom",
+    "link": "https://www.tportal.hr/lifestyle/clanak/zaboravite-polpete-visak-tikvica-pretvorite-socan-kolac-koji-osvaja-mirisom-i-okusom-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781252.jpeg?cropId=4229023",
+    "description": "Ako vam se čini da ste ovog ljeta tikvice već pripremili na sve moguće načine, od polpeta i složenaca do tjestenine, vrijeme je za nešto sasvim drugačije. U ovom mekanom i sočno...",
+    "published_at": "2026-08-14T10:36:00+00:00"
+  },
+  {
+    "id": "2546c8a3-fe99-5384-a58c-3e48542eb494",
+    "title": "Liječnici otkrivaju najčešće pogreške roditelja koje ometaju dječji san",
+    "link": "https://www.index.hr/mame/clanak/najcesce-pogreske-roditelja-koje-ometaju-djecji-san/2823718.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "MNOGI roditelji nesvjesno uspostavljaju navike koje djetetu otežavaju razvoj zdravog ritma spavanja.",
+    "published_at": "2026-08-14T10:35:00+00:00"
+  },
+  {
     "id": "b3d48cda-c99f-58b8-9190-3b892dbb7265",
     "title": "Kovačević ponovno odmara najveće zvijezde: Ovo je sastav Dinama koji će istrčati protiv Rudeša",
     "link": "https://www.vecernji.hr/sport/kovacevic-ponovno-odmara-najvece-zvijezde-ovo-je-dinamo-koji-ce-istrcati-protiv-rudesa-1986380",
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/3c/be/59c97de8d993368ab742.jpeg",
     "description": "Kovačević je na konferenciji za medije potvrdio kako za nastup neće konkurirati Luka Stojković koji je osjetio aduktor u susretu s Litavcima",
+    "published_at": "2026-08-14T10:35:00+00:00"
+  },
+  {
+    "id": "5cfc4dd3-2b9f-5c79-9245-f6f3d3fa73d3",
+    "title": "Anja Šovagović Despot pokazala prizor s obitelji: Za stolom se našla i obitelj Radeljak",
+    "link": "https://www.tportal.hr/showtime/clanak/anja-sovagovic-despot-pokazala-prizor-s-obitelji-za-stolom-se-nasla-i-obitelj-radeljak-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781247.jpeg?cropId=4229010",
+    "description": "Topla večer u obiteljskom društvu okupila je Anju Šovagović Despot, njezina supruga Dragana i njihovu djecu, ali i obitelj Josipa Radeljaka. Fotografije otkrivaju opuštenu atmos...",
     "published_at": "2026-08-14T10:35:00+00:00"
   },
   {
@@ -36,15 +738,6 @@
     "published_at": "2026-08-14T10:34:00+00:00"
   },
   {
-    "id": "77f71164-6891-5ce4-87a0-e93381614223",
-    "title": "FOTO/VIDEO Petero intubiranih prebacuju u Zagreb, među teško stradalima i 17-godišnje dijete. U autu ozlijeđena cijela obitelj?",
-    "link": "https://www.vecernji.hr/vijesti/katastrofa-u-dalmaciji-ozlijedeno-19-osoba-gorjele-kuce-i-auti-traje-evakucija-stizu-i-kanaderi-1986265",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/9c/47/0f542c7c0f3bfccf26b9.jpeg",
-    "description": "Požar koji je u četvrtak navečer izbio u Lokvi Rogoznici i dalje gori, vatra pomognuta vjetrom širi se u smjeru Omiša, a stanovnici napuštaju prostor zahvaćen vatrom",
-    "published_at": "2026-08-14T10:34:00+00:00"
-  },
-  {
     "id": "25f2ad8f-ad7a-5509-b34d-3ff76697db8a",
     "title": "Potresno svjedočanstvo Martine Validžić o požaru u Omišu: Vatra je gorjela 50 metara iznad zgrada, nismo oka sklopili",
     "link": "https://www.vecernji.hr/showbiz/potresno-svjedocanstvo-martine-validzic-o-pozaru-u-omisu-vatra-je-gorjela-50-metara-iznad-zgrada-nismo-oka-sklopili-1986377",
@@ -54,12 +747,21 @@
     "published_at": "2026-08-14T10:33:00+00:00"
   },
   {
+    "id": "1edbadad-38d0-5419-ae3b-9f4dc494b473",
+    "title": "VIDEO Pogledajte kako izgledaju Omiš i okolica nakon strašnog požara",
+    "link": "https://www.tportal.hr/vijesti/clanak/video-pogledajte-kako-izgleda-omis-i-okolica-nakon-strasnog-pozara-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781253.jpeg?cropId=0",
+    "description": "Požar koji je u četvrtak izbio u Lokvi Rogoznici tijekom noći proširio se na Omiš zahvativši područje iznad grada. Ozlijeđeno je 36 osoba, a materijalna šteta je ogromna. U spli...",
+    "published_at": "2026-08-14T10:33:00+00:00"
+  },
+  {
     "id": "ef719615-c998-5128-9384-7def8d4eef3b",
     "title": "Sedmero ljudi bori se za život! Spremna i vojska. Upravo planulo i u zaleđu Trogira",
     "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/apokalipticni-prizori-iz-omisa-vatrena-stihija-i-dalje-sije-paniku-i-strah-ovo-se-ne-1573423",
     "source": "Slobodna Dalmacija",
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32300987.jpg",
-    "description": "NOVO: 12.31 - Gori i u zaleđu Trogira. Planulo u Trolokvama. Jedan airtraktor preusmjeren iz Omiša prema Trogiru. --- --- 11.55 - Andrej Plenković dao je izjavu nakon sastanaka ...",
+    "description": "NOVO: 13:27 - Od 36 osoba koje su dovezene sa područja Omiša u KBC Split i kojima je trebalo pružiti medicinsku pomoć, njih 14 je hospitalizirano. Od 14 hospitaliziranih sedam p...",
     "published_at": "2026-08-14T10:33:00+00:00"
   },
   {
@@ -79,6 +781,24 @@
     "image_url": "https://www.vecernji.hr/media/img/22/2b/43cd78fae7f41fdd1f24.jpeg",
     "description": "Hibridni animirano-dokumentarno-igrani film Pour the Water as I Leave bosansko-američke redateljice Daniele Repas regionalnu će premijeru imati u subotu, 15. kolovoza na 32. Sar...",
     "published_at": "2026-08-14T10:31:00+00:00"
+  },
+  {
+    "id": "9c6faa6a-982c-52fe-9945-72b7d0c3126c",
+    "title": "Na autocesti A1 kolona je duga osam kilometara: Požari zatvorili ceste kod Omiša",
+    "link": "https://www.tportal.hr/vijesti/clanak/na-autocesti-a1-kolona-je-duga-osam-kilometara-pozari-zatvorili-ceste-kod-omisa-foto-20260814",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781250.jpeg?cropId=0",
+    "description": "Pojačan promet, nesreća i kvarovi stvaraju velike probleme na autocesti A1 prema Zagrebu, dok požari otežavaju promet na području Omiša i Pelješca. Hrvatski autoklub (HAK) izvij...",
+    "published_at": "2026-08-14T10:31:00+00:00"
+  },
+  {
+    "id": "8c80cd02-90b1-51c5-863d-4960329f54d0",
+    "title": "Italija odbila povratak migranata iz Njemačke",
+    "link": "https://www.index.hr/vijesti/clanak/italija-odbija-povratak-migranata-iz-njemacke/2823727.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ITALIJA je službeno obavijestila Njemačku da više neće prihvaćati povrat migranata prema Dublinskim pravilima, pozivajući se na novi Pakt o migracijama i prethodni dogovor s Ber...",
+    "published_at": "2026-08-14T10:30:00+00:00"
   },
   {
     "id": "b7040d05-7b6c-563f-a3c5-2ff9988ae8a2",
@@ -163,7 +883,7 @@
   },
   {
     "id": "20af1fed-3bbe-5b1d-affd-8cd863366030",
-    "title": "Najbolje cijene danas: Eva tuna salata crvena kvinoja 160 g već od 2 eura, Krumpir 5 kg na 57% popusta",
+    "title": "Najbolje cijene danas: Eva tuna salata već od 2 eura, 5 kg krumpira na 57% popusta",
     "link": "https://www.index.hr/shopping/clanak/najbolje-cijene-danas-eva-tuna-salata-crvena-kvinoja-160-g-vec-od-2-eura-krumpir-5-kg-na-57-popusta/2823693.aspx",
     "source": "Index.hr",
     "image_url": null,
@@ -180,21 +900,21 @@
     "published_at": "2026-08-14T10:25:00+00:00"
   },
   {
-    "id": "fd8b3a89-9227-5ff9-bd50-62b7332a422f",
-    "title": "Kako preskakanje obroka utječe na razinu šećera u krvi?",
-    "link": "https://www.index.hr/fit/clanak/kako-preskakanje-obroka-utjece-na-razinu-secera-u-krvi/2823710.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "REDOVITO preskakanje obroka, osobito doručka, može otežati kontrolu šećera u krvi i povećati rizik od dijabetesa. Preporučuje se dosljedan raspored prehrane bogate proteinima i ...",
-    "published_at": "2026-08-14T10:24:00+00:00"
-  },
-  {
     "id": "09cd92c0-f25f-5106-8762-c7099f7f9411",
     "title": "Izbio novi požar, gori iznad Trogira",
     "link": "https://www.index.hr/vijesti/clanak/izbio-novi-pozar-gori-iznad-trogira/2823726.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "IZBIO je novi požar u Dalmaciji.",
+    "published_at": "2026-08-14T10:24:00+00:00"
+  },
+  {
+    "id": "fd8b3a89-9227-5ff9-bd50-62b7332a422f",
+    "title": "Kako preskakanje obroka utječe na razinu šećera u krvi?",
+    "link": "https://www.index.hr/fit/clanak/kako-preskakanje-obroka-utjece-na-razinu-secera-u-krvi/2823710.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "REDOVITO preskakanje obroka, osobito doručka, može otežati kontrolu šećera u krvi i povećati rizik od dijabetesa.",
     "published_at": "2026-08-14T10:24:00+00:00"
   },
   {
@@ -235,7 +955,7 @@
   },
   {
     "id": "4b0587af-6f61-5178-aa4f-1b8541179cd2",
-    "title": "Hrvatski klubovi briljiraju u Europi. Hajduk je konačno lider SHNL-a",
+    "title": "Hrvatska je druga u Europi po broju pobjeda i bodova. Hajduk je konačno lider SHNL-a",
     "link": "https://www.index.hr/sport/clanak/hrvatski-klubovi-briljiraju-u-europi-hajduk-je-konacno-lider-shnla/2823687.aspx",
     "source": "Index.hr",
     "image_url": null,
@@ -270,15 +990,6 @@
     "published_at": "2026-08-14T10:20:00+00:00"
   },
   {
-    "id": "8944137d-2a12-5d42-b650-d9ddb4dd9395",
-    "title": "Izgorjele kuće, auti i brodice. Sedam ljudi se bori za život, održana presica",
-    "link": "https://www.index.hr/vijesti/clanak/pozar-je-na-50-m-od-sredista-omisa-stalno-se-cuju-sirene-mnogi-bjeze/2823588.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "SEDAM ljudi se bori za život nakon što su zadobili teške opekline u požaru koji je sinoć tijekom večeri buknuo u Lokvi Rogoznici i proširio se u noći prema Omišu.",
-    "published_at": "2026-08-14T10:18:33+00:00"
-  },
-  {
     "id": "b643fcd0-bc06-5402-80ad-e6bdb56df66e",
     "title": "VIDEO Zvijezda ‘Svadbe‘ nasmijala urnebesnom scenom s plaže: počelo je jednom čvrstom odlukom, a onda...",
     "link": "https://slobodnadalmacija.hr/mozaik/scena/showbiz/viralni-video-poznate-glumice-na-plazi-nasmijao-mnoge-svaka-zena-ljeti-zna-ovu-muku-1573476",
@@ -286,15 +997,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32118779.jpg",
     "description": "Glumica Anđelka Stević Žugić ponovno je nasmijala pratitelje situacijom u kojoj će se, posebno tijekom godišnjih odmora, prepoznati mnoge žene. U novom humorističnom videu s lje...",
     "published_at": "2026-08-14T10:18:24+00:00"
-  },
-  {
-    "id": "fc0c28bb-576e-5657-9978-8ace4209ebb2",
-    "title": "WWF u novoj kampanji: 'Jedi kao lokalac i čuvaj more kao profesionalac'",
-    "link": "https://www.tportal.hr/no-planet-b/clanak/wwf-u-novoj-kampanji-jedi-kao-lokalac-i-cuvaj-more-kao-profesionalac-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2759900.jpeg?cropId=0",
-    "description": "Svjetska organizacija za zaštitu prirode WWF pokrenula je u petak kampanju \"Jedi kao lokalac i čuvaj more kao profesionalac\", kojom poziva građane da tijekom ljeta biraju održiv...",
-    "published_at": "2026-08-14T10:18:00+00:00"
   },
   {
     "id": "8d0a1f3d-ed50-5ab5-98d4-37af8fbd189b",
@@ -351,15 +1053,6 @@
     "published_at": "2026-08-14T10:13:00+00:00"
   },
   {
-    "id": "09227d5a-46fe-5948-99d6-1651ec7a666b",
-    "title": "Legenda bez milosti nakon Hajdukovih 4:0: 'Što smo napravili od naše lige - dječji vrtić?'",
-    "link": "https://www.tportal.hr/sport/clanak/legenda-bez-milosti-nakon-hajdukovih-4-0-sto-smo-napravili-od-nase-lige-djecji-vrtic-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781241.jpeg?cropId=0",
-    "description": "Hajduk je s dvije pobjede protiv litavskog Žalgirisa izborio plasman u play-off Konferencijske lige, posljednju kvalifikacijsku prepreku na putu prema ligaškoj fazi natjecanja.",
-    "published_at": "2026-08-14T10:13:00+00:00"
-  },
-  {
     "id": "00d2be5d-ab04-5338-a473-4ba4ebd08294",
     "title": "U prometnoj nesreći na Orsuli ozljeđeno sedam osoba, poznate su okolnosti",
     "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/crna-kronika/u-prometnoj-nesreci-na-orsuli-ozljedeno-sedam-osoba-poznate-su-okolnosti-1573475",
@@ -369,15 +1062,6 @@
     "published_at": "2026-08-14T10:12:21+00:00"
   },
   {
-    "id": "8746a2d1-5a2f-5701-b4c9-d8115fd9675e",
-    "title": "Dva sata je ozlijeđena čekala spas u špiljici kraj mora: 'Iznad nas je šikljala vatra'",
-    "link": "https://www.tportal.hr/vijesti/clanak/dva-sata-je-ozlijedena-cekala-spas-u-spiljici-kraj-mora-iznad-nas-je-sikljala-vatra-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781244.png?cropId=0",
-    "description": "Među stotinama ljudi evakuiranih s požarom zahvaćenog omiškog područja, koji su smješteni u prihvatnom centru na splitskim Gripama, nalazi se i Karla iz Zagreba. Iako su joj ost...",
-    "published_at": "2026-08-14T10:12:00+00:00"
-  },
-  {
     "id": "5a2a486d-4272-5dc1-a70e-b754943e1f73",
     "title": "Lasickas: Nije bitno tko zabije gol, najbitnije je proći u idući krug",
     "link": "https://www.fiuman.hr/lasickas-nije-bitno-tko-zabije-gol-najbitnije-je-proci-u-iduci-krug/",
@@ -385,24 +1069,6 @@
     "image_url": null,
     "description": "Za prvi gol čekao je 50 nastupa u dresu Rijeke, drugi gol stigao je već u 52. nastupu. Justas Lasickas našao se u pravo vrijeme na pravom mjestu i odbijanac nakon udarca Mladena...",
     "published_at": "2026-08-14T10:11:46+00:00"
-  },
-  {
-    "id": "98456f10-e14a-5674-ad87-7ca5a37d282b",
-    "title": "Zagrebački vatrogasci nakon Omiša, poslani na Pelješac",
-    "link": "https://www.tportal.hr/vijesti/clanak/zagrebacki-vatrogasci-nakon-omisa-poslani-na-peljesac-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781243.jpeg?cropId=0",
-    "description": "Iz Grada Zagreba objavili su u petak kako su 33 zagrebačka vatrogasca s 11 vozila noćas oko ponoći krenula prema požarištu u Lokvi Rogoznici i Omišu, a nakon poboljšanja situaci...",
-    "published_at": "2026-08-14T10:11:00+00:00"
-  },
-  {
-    "id": "44670f35-0bcf-53c1-bb76-136a91e064f9",
-    "title": "Ured splitskog gradonačelnika zahvalio građanima: 'Vaša podrška puno znači'",
-    "link": "https://www.tportal.hr/vijesti/clanak/ured-splitskog-gradonacelnika-zahvalio-gradanima-vasa-podrska-puno-znaci-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2777450.jpeg?cropId=0",
-    "description": "Kabinet splitskog gradonačelnika u petak je obavijestio građane da više nema potrebe donositi potrepštine u gradske kotareve jer su građani i gosti, koji su evakuirani zbog omiš...",
-    "published_at": "2026-08-14T10:11:00+00:00"
   },
   {
     "id": "ff18a379-882f-5e8c-b8bd-596a0e8fe981",
@@ -424,7 +1090,7 @@
   },
   {
     "id": "81b6c9d9-c56a-53f5-9e99-27bdbb0aa856",
-    "title": "Potreseni Luka Modrić javio se nakon strašnih scena iz Omiša, evo što je poručio...",
+    "title": "Potreseni Luka Modrić javio se nakon strašnih scena iz Omiša; evo što je poručio...",
     "link": "https://slobodnadalmacija.hr/sport/vise-od-sporta/javio-se-i-luka-modric-nakon-strasnih-scena-iz-omisa-evo-sto-je-napisao-1573474",
     "source": "Slobodna Dalmacija",
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301658.png",
@@ -495,24 +1161,6 @@
     "published_at": "2026-08-14T10:02:34+00:00"
   },
   {
-    "id": "eb177b24-a557-5c78-995d-3ee057080ac6",
-    "title": "Strašne scene i na Pelješcu: Vatrena buktinja zahvatila crkvu, u cijelosti je izgorjela",
-    "link": "https://www.dalmacijadanas.hr/strasne-scene-i-na-peljescu-vatrena-buktinja-zahvatila-crkvu-u-cijelosti-je-izgorjela/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/crkva-potomje1.jpg",
-    "description": "\"Uzeo sam Presveto iz crkve, matice iz ureda i ono najosnovnije, spremio u auto i bio spreman za evakuaciju\"",
-    "published_at": "2026-08-14T10:02:03+00:00"
-  },
-  {
-    "id": "ffbc7e61-4cb7-5615-bb59-2e2a4b3689ac",
-    "title": "Nadzor nautike na Kvarneru: Policija ispisala 45 kazni",
-    "link": "https://www.tportal.hr/vijesti/clanak/nadzor-nautike-na-kvarneru-policija-ispisala-45-kazni-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2779909.jpeg?cropId=0",
-    "description": "Pomorska policija je u proteklih tjedan dana u nedozvoljenom glisiranju na Kvarneru, na udaljenosti manjoj od 300 metara od obale, zatekla 45 nautičara te su im izrečene novčane...",
-    "published_at": "2026-08-14T10:02:00+00:00"
-  },
-  {
     "id": "904a154d-2d64-55b3-a786-5cc21f9e73cc",
     "title": "FOTO Luka Modrić je uz sve pogođene požarima u Omišu i okolici: Bože, čuvaj Hrvatsku!",
     "link": "https://www.24sata.hr/sport/foto-luka-modric-je-uz-sve-pogodene-pozarima-u-omisu-i-okolici-boze-cuvaj-hrvatsku-1147369",
@@ -531,24 +1179,6 @@
     "published_at": "2026-08-14T10:00:13+00:00"
   },
   {
-    "id": "f907c5c9-8b41-554e-9b3c-60ae881a9c33",
-    "title": "FOTO Bujna Vale prati nogomet: 'Skićem se i po Hrvatskoj...'",
-    "link": "https://www.24sata.hr/fun/foto-bujna-vale-prati-nogomet-a-voli-putovanja-i-mini-bikinije-skicem-se-i-po-hrvatskoj-1091758",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/3db4y3N6iN0XkIyFBm382p78ffE=/800x450/smart/media/images/2026-04/mixcollage-28-jan-2026-03-49-pm-9939.jpg",
-    "description": "Ona obožava putovanja i bikinije. Svako malo na Instagramu objavi golišavu fotografiju s neke luksuzne destinacije, a uživala je i U Hrvatskoj... Ona je Val Cortez zvana Vale, p...",
-    "published_at": "2026-08-14T10:00:00+00:00"
-  },
-  {
-    "id": "27c6562a-c91f-5006-b796-6d4b75cca734",
-    "title": "Živi flaster: Može li materijal inspiriran popularnim čajem pomoći u liječenju ekcema?",
-    "link": "https://www.24sata.hr/lifestyle/zivi-flaster-moze-li-materijal-inspiriran-popularnim-cajem-pomoci-u-lijecenju-ekcema-1147337",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/3P-KsebchUq0feWRy4hV0yaP0CQ=/800x450/smart/media/images/2026-32/43452213-l.jpg",
-    "description": "Istraživači razvijaju 'živi flaster' inspiriran kombuchom koji bi mogao pomoći u liječenju ekcema. Tehnologija koristi žive mikroorganizme koji prepoznaju promjene na koži i rea...",
-    "published_at": "2026-08-14T10:00:00+00:00"
-  },
-  {
     "id": "5bc55633-aeb7-5fcd-84ed-9ed72f1820b4",
     "title": "Idete na proštenje za Veliku Gospu? ZET uvodi važne promjene, evo koje će linije voziti drukčije",
     "link": "https://www.vecernji.hr/zagreb/idete-na-prostenje-za-veliku-gospu-zet-uvodi-vazne-promjene-evo-koje-ce-linije-voziti-drukcije-1986332",
@@ -564,15 +1194,6 @@
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/4f/9a/32d9bf99dc2c681d005e.jpeg",
     "description": "Naše su misli uz Omiš i sva mjesta u okolici pogođena požarom te uz sve koji su branili i još uvijek brane domove, imovinu i ljudske živote",
-    "published_at": "2026-08-14T10:00:00+00:00"
-  },
-  {
-    "id": "3552f442-26e7-567f-a0be-49e11c9c8b74",
-    "title": "Šef JVP Split: Plače mi se kad to vidim. Napravili smo sve što smo mogli",
-    "link": "https://www.tportal.hr/vijesti/clanak/sef-jvp-split-place-mi-se-kad-to-vidim-napravili-smo-sve-sto-smo-mogli-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781240.jpeg?cropId=0",
-    "description": "U požaru na omiškom području ozlijeđeno je najmanje 36 osoba, izgorjelo je između 900 i 1000 hektara, a o zahtjevnosti intervencije za N1 govorio zapovjednik JVP-a Split Ivan Ko...",
     "published_at": "2026-08-14T10:00:00+00:00"
   },
   {
@@ -594,39 +1215,12 @@
     "published_at": "2026-08-14T09:59:00+00:00"
   },
   {
-    "id": "e86cb5d4-0ee0-5fad-98e9-d45c34a840c1",
-    "title": "Gori Pelješac, vatra progutala crkvu u Potomju: Jak vjetar vatrogascima otežava gašenje",
-    "link": "https://www.24sata.hr/news/gori-peljesac-vatra-progutala-crkvu-u-potomju-jak-vjetar-vatrogascima-otezava-gasenje-1147366",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/jXJqFeSBLe6auwkqDpLldM6NK38=/800x450/smart/media/images/2026-32/773523937-2559748014465485-5375715734678929320-n.jpg",
-    "description": "Šumski požar buknuo je u petak ujutro kod Kune Pelješke na poluotoku Pelješcu, a zbog jakog vjetra brzo se širi",
-    "published_at": "2026-08-14T09:59:00+00:00"
-  },
-  {
-    "id": "df5146f7-8ecf-5fe0-a163-cdb9f32c8f27",
-    "title": "Porasle cijene poljoprivrednih proizvoda, ali pale cijene sjemena",
-    "link": "https://www.tportal.hr/biznis/clanak/porasle-cijene-poljoprivrednih-proizvoda-ali-pale-cijene-sjemena-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2735785.jpeg?cropId=0",
-    "description": "Prosječne proizvođačke cijene poljoprivrednih proizvoda u drugom tromjesečju ove godine porasle su za 3,9 posto u odnosu na isto razdoblje lani, pokazuju privremeni podaci Držav...",
-    "published_at": "2026-08-14T09:58:00+00:00"
-  },
-  {
     "id": "d60c27f2-f7c6-505d-9aa2-5d9bd82a092c",
     "title": "Ministarstvo aktiviralo sustav socijalne skrbi zbog požara kod Omiša, priprema jednokratne naknade",
     "link": "https://www.vecernji.hr/vijesti/ministarstvo-aktiviralo-sustav-socijalne-skrbi-zbog-pozara-kod-omisa-priprema-jednokratne-naknade-1986363",
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/dd/80/ea72471db2c1ba1bcc7a.jpeg",
     "description": "Nakon što je prihvatni centar u Gradskoj sportskoj dvorani Ribnjak u Omišu dosegnuo svoje kapacitete, dio evakuiranih osoba prevozi se u malu dvoranu Sportskog centra Gripe u Sp...",
-    "published_at": "2026-08-14T09:57:00+00:00"
-  },
-  {
-    "id": "5bd7e975-8049-558b-bf41-1004d8ba6947",
-    "title": "Paklena noć u Omišu iz prve ruke za tportal: 'Bilo je toliko pepela da nismo mogli disati'",
-    "link": "https://www.tportal.hr/vijesti/clanak/paklena-noc-u-omisu-iz-prve-ruke-za-tportal-bilo-je-toliko-pepela-da-nismo-mogli-disati-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781238.jpeg?cropId=0",
-    "description": "Požar koji je u četvrtak izbio u Lokvi Rogoznici tijekom noći proširio se prema Omišu i zahvatio područje iznad grada. Ozlijeđeno je 36 osoba, a materijalna šteta je ogromna. Vi...",
     "published_at": "2026-08-14T09:57:00+00:00"
   },
   {
@@ -637,24 +1231,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/26107637.jpg",
     "description": "U proteklih nekoliko dana na zadarskom i biogradskom području zabilježeno je više kaznenih djela imovinskog kriminaliteta, među kojima se posebno izdvaja provala u obiteljsku ku...",
     "published_at": "2026-08-14T09:55:17+00:00"
-  },
-  {
-    "id": "7d4829a9-d874-5297-a6ac-24680e130e24",
-    "title": "'Došle smo pobijediti': Borna Kotromanić i njena rođakinja Vesna zajedno u azijskoj divljini",
-    "link": "https://www.24sata.hr/show/dosle-smo-pobijediti-borna-kotromanic-i-njena-rodakinja-vesna-zajedno-u-azijskoj-divljini-1147354",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/3tQRWfE1AArYNoUFQUuYZDRrOI0=/800x450/smart/media/images/2026-32/borna-i-vesna.png.jpg",
-    "description": "Borna Kotromanić i njena rođakinja Vesna Banović zajedno se pridružuju RTL-ovu avanturističkom spektaklu 'Asia Express: Zmajeva ruta'",
-    "published_at": "2026-08-14T09:55:00+00:00"
-  },
-  {
-    "id": "f65059dc-37c6-5a69-94ec-300d79927f1f",
-    "title": "Za Omiš aktiviran sustav socijalne skrbi, pomaže se evakuiranima",
-    "link": "https://www.tportal.hr/vijesti/clanak/za-omis-aktiviran-sustav-socijalne-skrbi-pomaze-se-evakuiranima-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2772000.jpeg?cropId=0",
-    "description": "Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike aktiviralo je u petak sustav socijalne skrbi kako bi se osigurala pomoć osobama evakuiranima zbog velikog ...",
-    "published_at": "2026-08-14T09:54:00+00:00"
   },
   {
     "id": "d07c6838-c9bf-531f-b0b4-ee0fbc43df1a",
@@ -684,33 +1260,6 @@
     "published_at": "2026-08-14T09:53:00+00:00"
   },
   {
-    "id": "8b0c4c01-eae4-560b-a424-63823ecf6a02",
-    "title": "Ovo je daleko najtraženija boja kose ovog ljeta",
-    "link": "https://www.tportal.hr/lifestyle/clanak/ovo-je-daleko-najtrazenija-boja-kose-ovog-ljeta-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2773229.jpeg?cropId=4209520",
-    "description": "Brinete ovog ljeta ne traže dramatičnu promjenu, već kosu koja izgleda kao da ju je obasjalo zalazeće sunce. Upravo je zato 'Golden Hour Brunette', raskošna kombinacija smeđe ba...",
-    "published_at": "2026-08-14T09:53:00+00:00"
-  },
-  {
-    "id": "5b3df89c-3133-584d-83ca-222559707fcd",
-    "title": "Pažnja: Ako ste dobili ovakvu poruku ili e-mail, ne otvarajte ih",
-    "link": "https://www.tportal.hr/tehno/clanak/paznja-ako-ste-dobili-ovakvu-poruku-ili-e-mail-ne-otvarajte-ih-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2654797.jpeg?cropId=0",
-    "description": "Ministarstvo pravosuđa, uprave i digitalne transformacije uputilo je upozorenje vezano uz lažne poruke koje se predstavljaju kao kazneni ili sudski postupak",
-    "published_at": "2026-08-14T09:53:00+00:00"
-  },
-  {
-    "id": "1c6f41d8-d0a2-51af-a879-d20e3598b481",
-    "title": "Zvezda predstavila novog trenera: Na klupu stigao čovjek kojeg je želio i Dinamo",
-    "link": "https://www.tportal.hr/sport/clanak/zvezda-predstavila-novog-trenera-na-klupu-stigao-covjek-kojeg-je-zelio-i-dinamo-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2779970.jpeg?cropId=0",
-    "description": "Crvena zvezda službeno je potvrdila dolazak Alberta Riere na mjesto novog trenera.",
-    "published_at": "2026-08-14T09:53:00+00:00"
-  },
-  {
     "id": "273870e4-7101-555a-b7c2-6ada33ea205a",
     "title": "Tražite koncert, predstavu, kviz ili party u Rijeci? RiLife ih okuplja na jednom mjestu",
     "link": "https://www.fiuman.hr/trazite-koncert-predstavu-kviz-ili-party-u-rijeci-rilife-ih-okuplja-na-jednom-mjestu/",
@@ -720,24 +1269,6 @@
     "published_at": "2026-08-14T09:52:33+00:00"
   },
   {
-    "id": "5ec9c360-a298-512a-a436-65543eaf726e",
-    "title": "Veliki požar na Pelješcu. Izgorjela crkva na mjesnom groblju",
-    "link": "https://www.index.hr/vijesti/clanak/gori-na-peljescu-tucakovic-rekao-indexu-da-je-stanje-je-ozbiljno/2823603.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VATROGASCI se bore s požarom na Pelješcu, a prema riječima zapovjednika, stambeni objekti trenutno nisu ugroženi vatrenom stihijom.",
-    "published_at": "2026-08-14T09:51:00+00:00"
-  },
-  {
-    "id": "b76778da-ff46-55e9-b88e-97cd334594c4",
-    "title": "VIDEO Evo što je sve Plenković rekao na sastanku stožera o požaru: 'Vlada je uz vas'",
-    "link": "https://www.24sata.hr/news/video-evo-sto-je-sve-plenkovic-rekao-na-sastanku-stozera-o-pozaru-vlada-je-uz-vas-1147364",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/eMGFEamllkjj5Uex04uvo9bMtmE=/800x450/smart/media/images/2026-32/screenshot-2026-08-14-at-11-36-25.png.jpg",
-    "description": "Razorni požar opustošio je dijelove Omiša i okolice, a jutros su na sastanak stožera stigli premijer Andrej Plenković i ministri. Premijer je poručio da Vlada stoji uz grad Omiš...",
-    "published_at": "2026-08-14T09:51:00+00:00"
-  },
-  {
     "id": "9cd26740-ef5b-5519-8588-2e0b50ee2541",
     "title": "Zagrepčanka nam opisala bijeg iz omiškog ‘pakla‘: ‘Policajka mi je viknula, okrenula sam se, a iza leđa plamen...‘",
     "link": "https://slobodnadalmacija.hr/split-i-zupanija/split/u-17-godina-rada-ovo-je-najsokantnija-situacija-koju-sam-dozivio-ljudi-su-dosli-u-donjem-rublju-bez-dokumenata-mobitela-i-lijekova-bez-kojih-ne-mogu-disati-1573470",
@@ -745,24 +1276,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301576.jpg",
     "description": "Jedan od najvećih požara koji je posljednjih godina zahvatio područje Hrvatske u četvrtak navečer poharao je prostor od Lokve Rogoznice do Omiša. Prema prvim procjenama, izgorje...",
     "published_at": "2026-08-14T09:50:10+00:00"
-  },
-  {
-    "id": "b873f7d3-82ff-5776-abf3-1b2a206fccd0",
-    "title": "Top transferi: Turci odbili ponudu od 130 mil. eura. Legenda odbila Milan",
-    "link": "https://www.index.hr/sport/clanak/top-transferi-turci-odbili-ponudu-od-130-mil-eura-chelsea-zeli-zvijezdu-arsenala/2823575.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NAJZANIMLJIVIJE vijesti s tržnice pratite na Indexu.",
-    "published_at": "2026-08-14T09:50:00+00:00"
-  },
-  {
-    "id": "869a2591-1ff9-565d-9496-50ee5c375495",
-    "title": "Anušić: Vojska spremna pomoći na omiškom požarištu, čekamo...",
-    "link": "https://www.dalmacijadanas.hr/anusic-vojska-spremna-pomoci-na-omiskom-pozaristu-cekamo/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2025/01/ivan-anusic-nato.jpeg",
-    "description": "\"Pripadnici Hrvatske vojske su spremni uključiti se u gašenje velikog požara na omiškom području ako se za tim pokaže potreba\"",
-    "published_at": "2026-08-14T09:49:40+00:00"
   },
   {
     "id": "37db143e-7d46-55e4-b13f-43dc1f3d457b",
@@ -792,15 +1305,6 @@
     "published_at": "2026-08-14T09:48:24+00:00"
   },
   {
-    "id": "40494ac6-8611-57d5-b2b0-87879c219cd8",
-    "title": "Suša se osjeti u Njemačkoj: Izgubljeno oko tri milijuna tona žitarica",
-    "link": "https://www.tportal.hr/biznis/clanak/susa-se-osjeti-u-njemackoj-izgubljeno-oko-tri-milijuna-tona-zitarica-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2721056.jpeg?cropId=0",
-    "description": "Dugotrajno sušno razdoblje u velikom dijelu Njemačke naškodilo je žetvi, upozorila je krovna udruga trgovaca i prehrambenih tvrtki, procijenivši da je od sredine lipnja izgublje...",
-    "published_at": "2026-08-14T09:47:00+00:00"
-  },
-  {
     "id": "26d49099-6df9-500b-bc6b-3b53d183e222",
     "title": "Poljski premijer o spriječenom atentatu: \"Ovo je slučaj bez presedana\"",
     "link": "https://www.index.hr/vijesti/clanak/poljski-premijer-o-sprijecenom-atentatu-ovo-je-slucaj-bez-presedana/2823702.aspx",
@@ -810,57 +1314,12 @@
     "published_at": "2026-08-14T09:46:00+00:00"
   },
   {
-    "id": "9628322c-a01c-593a-a638-47020902aa1c",
-    "title": "Splitski taksist ponovno organizira akciju pomoći vatrogascima: Prikuplja se piće za Omiš",
-    "link": "https://www.dalmacijadanas.hr/splitski-taksist-ponovno-organizira-akciju-pomoci-vatrogascima-prikuplja-se-pice-za-omis/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-lokva-rogoznica-3-2.jpeg",
-    "description": "Detalji su tu",
-    "published_at": "2026-08-14T09:45:38+00:00"
-  },
-  {
-    "id": "151cbff1-1398-5a2e-a2f9-8b6b028320c8",
-    "title": "FOTO Knoll Doll se skinula u badić pa najavila novu pjesmu",
-    "link": "https://www.24sata.hr/show/foto-knoll-doll-se-skinula-u-badic-pa-najavila-novu-pjesmu-1147365",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/qLN21najp2WIfUYag3HEVe41rRM=/800x450/smart/media/images/2026-32/snimka-zaslona-2026-08-14-113037_9nvpkak.png.jpg",
-    "description": "Naša najpoznatija navijačica, ali i DJ-ica koja osvaja festivale diljem svijeta, Ivana Knoll, najavila je kako uskoro objavljuje svoju drugu pjesmu",
-    "published_at": "2026-08-14T09:43:00+00:00"
-  },
-  {
-    "id": "b3f36a96-35ae-5d40-bc79-04a3ad5b5916",
-    "title": "Vukovarska policija uništila dragovoljno predano oružje",
-    "link": "https://www.tportal.hr/vijesti/clanak/vukovarska-policija-unistila-dragovoljno-predano-oruzje-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781235.png?cropId=0",
-    "description": "Policijska uprava vukovarsko-srijemska izvijestila je u svom redovitom priopćenju kako su u periodu od 29. lipnja do 13. kolovoza 2026. godine policijski službenici protueksploz...",
-    "published_at": "2026-08-14T09:42:00+00:00"
-  },
-  {
     "id": "2bf44fb2-64a0-5950-b143-499638692b36",
     "title": "Sljedeća Witcher igra u problemima, CD Projekt Red najavio otpuštanja",
     "link": "https://www.index.hr/chill/clanak/sljedeca-witcher-igra-u-problemima-cd-projekt-red-najavio-otpustanja/2823708.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "CD PROJEKT Red ponovno je smanjio tim koji radi na multiplayer igri Project Sirius.",
-    "published_at": "2026-08-14T09:41:00+00:00"
-  },
-  {
-    "id": "5bf22f27-faac-5680-a8cb-5a342da3f2ad",
-    "title": "VIDEO Plenković iz Omiša: 'Ovo je ozbiljan i velik požar, bio je izrazito brz'",
-    "link": "https://www.vecernji.hr/vijesti/uskoro-uzivo-plenkovic-i-ministri-stizu-u-omis-sastaju-se-kljucne-sluzbe-1986307",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/6d/8f/43e63b36f09153c66878.jpeg",
-    "description": "Andrej Plenković uvodno je, govoreći na sastanku, zahvalio svima koji pomažu unesrećenima te rade na požarištu",
-    "published_at": "2026-08-14T09:41:00+00:00"
-  },
-  {
-    "id": "789e9005-570d-580a-95d1-7259aeb56b65",
-    "title": "Ronaldova mama nije bila na vjenčanju, a predbračni ugovor otkrio je još jedan detalj",
-    "link": "https://www.tportal.hr/showtime/clanak/ronaldova-mama-nije-bila-na-vjencanju-a-predbracni-ugovor-otkrio-je-jos-jedan-detal-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781228.jpeg?cropId=4228987",
-    "description": "Cristiano Ronaldo i Georgina Rodríguez uspjeli su ono što se za jedan od najpoznatijih parova na svijetu činilo gotovo nemogućim: vjenčati se bez kamera, slavnih uzvanika i veli...",
     "published_at": "2026-08-14T09:41:00+00:00"
   },
   {
@@ -873,66 +1332,12 @@
     "published_at": "2026-08-14T09:40:00+00:00"
   },
   {
-    "id": "5f490754-ba23-5354-9bf0-4a3aa7f72cb9",
-    "title": "Lanu Jurčević slomili prizori iz Omiša: 'Djetinjstvo sam provela u ovim krajevima, srce ti puca'",
-    "link": "https://www.vecernji.hr/showbiz/lanu-jurcevic-slomili-prizori-iz-omisa-djetinjstvo-sam-provela-u-ovim-krajevima-srce-ti-puca-1986357",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/c4/c5/f75ffc83908a23f34d57.jpeg",
-    "description": "Lana je objavila noćnu fotografiju na kojoj se vidi požar iznad Omiša, a uz nju je napisala kako je za taj kraj vežu brojne uspomene",
-    "published_at": "2026-08-14T09:40:00+00:00"
-  },
-  {
-    "id": "c4e7a18c-7ffa-58e8-8888-466e1637fd95",
-    "title": "Slavni glumac s obitelji bježao od stravičnog požara: 'Vatra se naglo počela širiti'",
-    "link": "https://www.tportal.hr/showtime/clanak/slavni-glumac-s-obitelji-bjezao-od-stravicnog-pozara-vatra-se-naglo-pocela-siriti-foto-20260814",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2781230.jpeg?cropId=4228999",
-    "description": "Poznati hrvatski glumac Otokar Levaj proživio je pravu dramu bježeći pred vatrenom stihijom koja je zahvatila područje Lokve Rogoznice. Sa sinom i snahom napustio je dom u zadnj...",
-    "published_at": "2026-08-14T09:40:00+00:00"
-  },
-  {
-    "id": "960408c8-390b-5ba2-ad04-93f2e8841d77",
-    "title": "Više od 6 milijuna igrača oduševljeno: Hit igra uskoro dobiva golemu ekspanziju!",
-    "link": "https://www.24sata.hr/tech/vise-od-6-milijuna-igraca-odusevljeno-hit-igra-uskoro-dobiva-golemu-ekspanziju-1147363",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/nI-Rdy06X-kiblf3CcQcMwhO30o=/800x450/smart/media/images/2026-11/ss-5de52275c30401e6b166b2194e75bb5b994ca357-1920x1080.jpg",
-    "description": "Pearl Abyss sprema veliki DLC za Crimson Desert, a detalji stižu tek 2026. Igra već broji 6 milijuna prodanih primjeraka i fanovi sanjaju još veću prilagodbu",
-    "published_at": "2026-08-14T09:38:00+00:00"
-  },
-  {
-    "id": "39e70b1d-81a0-5841-927f-06292699d36e",
-    "title": "Apple šalje upozorenja o špijunskim napadima: Ako ga dobijete, može biti ozbiljno...",
-    "link": "https://www.24sata.hr/tech/apple-salje-upozorenja-o-spijunskim-napadima-ako-ga-dobijete-moze-biti-ozbiljno-1147358",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/_Db2Fphnf7ervHgOiOp8jkk8Lco=/800x450/smart/media/images/2026-30/2026-07-31t082303z-654982060-rc2womaph093-rtrmadp-3-apple-stocks.jpg",
-    "description": "Apple je poslao nova upozorenja korisnicima u 110 zemalja zbog sumnje na špijunski softver, a poruka je jasna: napad je ozbiljan i treba odmah reagirati",
-    "published_at": "2026-08-14T09:38:00+00:00"
-  },
-  {
-    "id": "326eb011-c7d5-5271-944f-5e82d5d33f52",
-    "title": "Polaroide je potapao u različite tekućine i pustio vremenu da učini svoje: U MUO Galeriju stiže neobična izložba",
-    "link": "https://www.vecernji.hr/kultura/polaroide-je-potapao-u-razlicite-tekucine-i-pustio-vremenu-da-ucini-svoje-u-muo-galeriju-stize-neobicna-izlozba-1986358",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/aa/67/eefb24dcd5fc964e514d.jpeg",
-    "description": "Muzej za umjetnost i obrt u MUO Galeriji otvara izložbu „Pola trenutka života“ pulskog dizajnera, umjetnika i fotografa Vjerana Juhasa. Kustosica izložbe je Mihaela Cik, izložba...",
-    "published_at": "2026-08-14T09:38:00+00:00"
-  },
-  {
     "id": "bd01b4f4-f3cf-52e5-ae65-94c39ca31c8f",
     "title": "Hajduk se oglasio povodom katastrofe u Omišu: Dok Cetina teče, uvik će nas biti! ❤️💙",
     "link": "https://www.index.hr/sport/clanak/hajduk-se-oglasio-povodom-katastrofe-u-omisu-dok-cetina-tece-uvik-ce-nas-biti/2823700.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "KATASTROFALAN požar pogodio je područje od Lokve Rogoznice do Omiša.",
-    "published_at": "2026-08-14T09:37:00+00:00"
-  },
-  {
-    "id": "f952ea3f-389b-5845-ac3a-de28b04109a4",
-    "title": "Test Lynk & Co 01 More: 'Premium' plug-in hibrid s 276 KS za manje od 40.000 eura",
-    "link": "https://www.24sata.hr/tech/test-lynk-co-01-more-premium-plug-in-hibrid-s-276-ks-za-manje-od-40-000-eura-1147165",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/Cpo8ZXvS14WcguAhzIEjo_toOSE=/800x450/smart/media/images/2025-25/img-9294.jpeg",
-    "description": "S 276 KS, vrlo bogatom opremom i stvarnim električnim dosegom do 80 kilometara u gradu nudi mnogo, no kao i svaki plug-in hibrid pokazuje sasvim drugo lice kada se baterija ispr...",
     "published_at": "2026-08-14T09:37:00+00:00"
   },
   {
@@ -972,30 +1377,12 @@
     "published_at": "2026-08-14T09:33:00+00:00"
   },
   {
-    "id": "e935d1e3-19da-5f18-839e-8f80ec9d444e",
-    "title": "Otokar Levaj s obitelji u paklu požara: Vatra se naglo počela širiti, u zadnji čas smo pobjegli",
-    "link": "https://www.24sata.hr/show/otokar-levaj-s-obitelji-u-paklu-pozara-vatra-se-naglo-pocela-siriti-u-zadnji-cas-smo-pobjegli-1147362",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/acB8vZWkgaxDNEqTh_Ryq7Iq5dI=/800x450/smart/media/images/2022-33/pxl-100822-95058893.jpg",
-    "description": "Vatra se naglo počela širiti, a maknuli smo se kad je već bila jako blizu kuće, otkrio je glumac. Kako je sve izgledalo opisao je njegov sin Marin",
-    "published_at": "2026-08-14T09:32:00+00:00"
-  },
-  {
     "id": "e91ef3b9-c6ec-585f-a3c3-0d39db0fd3a5",
     "title": "Pretakao kisik pa došlo do eksplozije i požara u Varaždinu. Ozlijeđen 24-godišnjak",
     "link": "https://www.index.hr/vijesti/clanak/pretakao-kisik-pa-doslo-do-eksplozije-i-pozara-u-varazdinu-ozlijedjen-24godisnjak/2823704.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "POŽAR uzrokovan eksplozijom pri pretakanju kisika u Varaždinu ozlijedio je radnika te se s radionice proširio na okolna dvorišta i objekte.",
-    "published_at": "2026-08-14T09:31:00+00:00"
-  },
-  {
-    "id": "7aa62f92-9950-554d-8fdc-394f1d8c7d6b",
-    "title": "Sigur sve bliže odlasku iz Hajduka? Škoti povukli ključni potez za dovođenje kanadskog reprezentativca",
-    "link": "https://www.vecernji.hr/sport/sigur-sve-blize-odlasku-iz-hajduka-skoti-povukli-kljucni-potez-za-dovodenje-kanadskog-reprezentativca-1986354",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/2d/0e/efd3a194524f6f7d3f1d.jpeg",
-    "description": "Škotski mediji pisali su kako bi ga Celtic mogao dovesti za sedemeroznamenkastu cifru, odnosno manju od deset milijuna eura",
     "published_at": "2026-08-14T09:31:00+00:00"
   },
   {
@@ -1008,33 +1395,6 @@
     "published_at": "2026-08-14T09:30:35+00:00"
   },
   {
-    "id": "4c0a8698-a7b5-52da-bb53-3db40d029271",
-    "title": "Tko je Mladen Kršek? Lansirao je Marina Bloudeka u sami vrh i od njega napravio atletsko čudo",
-    "link": "https://www.24sata.hr/sport/tko-je-mladen-krsek-lansirao-je-marina-bloudeka-u-sami-vrh-i-od-njega-napravio-atletsko-cudo-1147361",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/OvvcRIrn7YSXKQAe2hm4TFJFcJs=/800x450/smart/media/images/2026-32/krsek-2_FSqnvCK.jpg",
-    "description": "Mladen Kršek, tihi arhitekt hrvatskih čuda, od posrnulog Marina Bloudeka napravio je senzaciju! Kenijski visinski kamp i brutalni rad omogućili su Bloudeku da dođe do svjetskoga...",
-    "published_at": "2026-08-14T09:30:00+00:00"
-  },
-  {
-    "id": "8c6dee2a-bbf5-513d-8155-234b2a68c028",
-    "title": "Jeste li se ikada zapitali zašto tjedan traje baš sedam dana? Razlog bi vas mogao iznenaditi",
-    "link": "https://www.vecernji.hr/lifestyle/jeste-li-se-ikada-zapitali-zasto-tjedan-traje-bas-sedam-dana-razlog-bi-vas-mogao-iznenaditi-1986322",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/57/dd/f8010521f6ab1298a322.jpeg",
-    "description": "U ritmu naših života, sedmodnevni tjedan je konstanta koju rijetko dovodimo u pitanje. No, za razliku od dana, mjeseca i godine, utemeljenih na jasnim astronomskim pojavama, on ...",
-    "published_at": "2026-08-14T09:30:00+00:00"
-  },
-  {
-    "id": "4b2d6130-ddf5-5a10-a66c-d81e6225c028",
-    "title": "Alarmantno upozorenje iz Zagreba: 'Prije Nove godine u manje od mjesec dana umrlo je pet branitelja beskućnika'",
-    "link": "https://www.vecernji.hr/zagreb/alarmantno-upozorenje-iz-zagreba-prije-nove-godine-u-manje-od-mjesec-dana-umrlo-je-pet-branitelja-beskucnika-1986326",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/b0/3e/22aadc3726c33ce2e34b.jpeg",
-    "description": "Prema aktualnim podacima Grada Zagreba, kaže Ribarić, u prihvatilištima u Velikoj Kosnici i Sesvetskom Kraljevcu osigurano je oko 115 mjesta, dok prenoćišta imaju 44 kreveta u K...",
-    "published_at": "2026-08-14T09:30:00+00:00"
-  },
-  {
     "id": "08e44856-add8-5442-b9e3-e7103d3df7c4",
     "title": "Viktorija Knežević: Služe li požari u Omišu i na Pelješcu da bi odvratili pozornosti od afere u Lici?",
     "link": "https://slobodnadalmacija.hr/dubrovnik/zupanija/dubrovnik/knezevic-trazi-istragu-jesam-li-jedina-koja-sumnja-da-bi-pozari-u-omisu-i-na-peljescu-mogli-sluziti-odvracanju-pozornosti-od-afere-s-otrovnim-otpadom-u-lici-1573467",
@@ -1042,15 +1402,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301115.jpg",
     "description": "Gradska vijećnica Centra, Viktorija Knežević, na svom je Facebook-profilu objavila post iznijevši sumnju kako bi požari u Omišu i na Pelješcu mogli služiti odvraćanju pozornosti...",
     "published_at": "2026-08-14T09:30:00+00:00"
-  },
-  {
-    "id": "a5bc13a0-83a3-5662-89fb-552f7a0839b8",
-    "title": "U Omišu sjednica Stožera civilne zaštite Splitsko-dalmatinske županije, stiže Milanović",
-    "link": "https://www.dalmacijadanas.hr/u-omisu-sjednica-stozera-civilne-zastite-splitsko-dalmatinske-zupanije/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-omis-lokva-foto-djurdja-9.jpeg",
-    "description": "Stigao je predsjednik Vlade, a uskoro u Omiš stiže i predsjednik Milanović",
-    "published_at": "2026-08-14T09:29:57+00:00"
   },
   {
     "id": "85b017b3-b723-5e27-9b22-3202ec709abc",
@@ -1069,15 +1420,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301556.jpg",
     "description": "Polako stižu informacije iz Omiša o tome što je i kome sve izgorjelo. Među onima čija je imovina nastradala i poznata je hrvatska starleta Ava Karabatić. \"U šoku sam. Probudim s...",
     "published_at": "2026-08-14T09:29:00+00:00"
-  },
-  {
-    "id": "941da7ca-a9b3-540d-99d8-99fb2bb6c633",
-    "title": "Nakon 40 tisuća nautičkih milja Arka Kinari stiže u Rabac: Jedrenjak iz 1947. pretvara se u plutajuću pozornicu",
-    "link": "https://www.vecernji.hr/kultura/nakon-40-tisuca-nautickih-milja-arka-kinari-stize-u-rabac-jedrenjak-iz-1947-pretvara-se-u-plutajucu-pozornicu-1986353",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/01/98/ecbfd99fde797bba5415.jpg",
-    "description": "Od 18. do 21. kolovoza u DKC-u Lamparna u Labinu održavat će se projekt „Kanvas Mutiny“ („Pobuna jedara“), u sklopu kojega će hrvatski ilustrator i street art umjetnik Vedran Št...",
-    "published_at": "2026-08-14T09:28:00+00:00"
   },
   {
     "id": "1a7f8dcd-fceb-5182-bb5c-1db6dafd7993",
@@ -1206,24 +1548,6 @@
     "published_at": "2026-08-14T09:16:00+00:00"
   },
   {
-    "id": "2a336dbd-02e7-52c7-a0f0-9c99548187f8",
-    "title": "Spasilačkim aktivnostima spašen veći broj osoba sa djecom iz mora pred vatrenom stihijom u makarskom primorju",
-    "link": "https://www.dalmacijadanas.hr/spasilackim-aktivnostima-spasen-veci-broj-osoba-sa-djecom-iz-mora-pred-vatrenom-stihijom-u-makarskom-primorju/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-makarska-spasavanje.jpg",
-    "description": "Nacionalna središnjica za usklađivanje traganja i spašavanja na moru, u Rijeci, u suradnji sa Lučkom kapetanijom Split i pripadajućim ispostavama, u noći sa četvrtka na petak ko...",
-    "published_at": "2026-08-14T09:14:10+00:00"
-  },
-  {
-    "id": "aaac58a9-a1a0-5af9-a6d3-60450e7a7875",
-    "title": "Jeste li spremni za novi Okolo? Centar Zagreba ponovno postaje velika galerija na otvorenom",
-    "link": "https://www.vecernji.hr/kultura/jeste-li-spremni-za-novi-okolo-centar-zagreba-ponovno-postaje-velika-galerija-na-otvorenom-1986345",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/80/22/d584d7eae4c1a584158c.jpeg",
-    "description": "Festival će se održavati na sedam lokacija u središtu Zagreba, od trgova Zelene potkove do ulaza u Tunel Grič",
-    "published_at": "2026-08-14T09:14:00+00:00"
-  },
-  {
     "id": "70f2c70e-5f3d-558a-b1f4-c7d30342e103",
     "title": "Kao djevojčica stigla je u SAD, a kasnije postala velika holivudska zvijezda",
     "link": "https://www.index.hr/magazin/clanak/glumica-koja-je-od-djecje-zvijezde-postala-jedno-od-poznatijih-lica-hollywooda/2823689.aspx",
@@ -1258,15 +1582,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301331.jpg",
     "description": "Hajduk se oglasio u povodu velikog požara koji je zahvatio Omiš i okolna mjesta te pružio podršku svima koji su pogođeni požarom, kao i onima koji sudjeluju u obrani domova, imo...",
     "published_at": "2026-08-14T09:05:00+00:00"
-  },
-  {
-    "id": "d4fd81e7-67d4-57b3-b18c-62449516f97f",
-    "title": "Odaberite svoje lice Vibreza: Mariza i Mario Biondi ili Mogwai i Laibach",
-    "link": "https://www.dalmacijadanas.hr/odaberite-svoje-lice-vibreza-mariza-i-mario-biondi-ili-mogwai-i-laibach/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/vibrez.jpg",
-    "description": "Četiri velika imena, dva posebna koncertna paketa i dvije različite glazbene priče u jedinstvenom ambijentu Galerije Meštrović",
-    "published_at": "2026-08-14T09:03:00+00:00"
   },
   {
     "id": "bd35cacc-9041-5bb6-9f9d-3dc646cac40c",
@@ -1378,7 +1693,7 @@
   },
   {
     "id": "73151e8b-9f42-501d-a7c4-3a7574fa2c08",
-    "title": "Kritično je, vjetar izluđuje vatrogasce, vratila se i četiri kanadera, Simović: ‘Cilj nam je spriječiti širenje požara prema objektima i dalje u pravcu Trstenika!‘",
+    "title": "Kritično je, vjetar izluđuje vatrogasce, vratila se i četiri kanadera",
     "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/crna-kronika/situacija-na-peljescu-i-dalje-vrlo-ozbiljna-vjetar-vatrogasce-dovodi-do-ludila-cetiri-kanadera-i-dalje-ce-pomoci-snagama-na-tlu-1573459",
     "source": "Slobodna Dalmacija",
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301660.jpg",
@@ -1438,15 +1753,6 @@
     "image_url": "https://sportnet.hr/photos/_resized/523/40/0000000000523409_510_0.jpg",
     "description": "Nogometni savez Novog Zelanda službeno je uskratio podršku Gianniju Infantinu u utrci za novi predsjednički mandat na čelu Fife. Kako prenosi The Independent, Novozelanđani su s...",
     "published_at": "2026-08-14T08:38:05+00:00"
-  },
-  {
-    "id": "7bcf8612-d3d8-51dc-a6ca-b1104fb2b1d6",
-    "title": "Pešić o stravičnoj noći u Lokvi Rogoznici: Ovaj požar je gori nego prošlogodišnji u Pisku",
-    "link": "https://www.dalmacijadanas.hr/pesic-o-stravicnoj-noci-u-lokvi-rogoznici-ovaj-pozar-je-gori-nego-proslogodisnji-u-pisku/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/viseslav-pesic.jpg",
-    "description": "Najnovije informacije iz Omiša",
-    "published_at": "2026-08-14T08:37:18+00:00"
   },
   {
     "id": "9895d0a6-d122-588b-a933-e1d5a8584fc2",
@@ -2601,30 +2907,12 @@
     "published_at": "2026-08-14T05:29:00+00:00"
   },
   {
-    "id": "4fc18670-c295-557a-a44d-e0a8ac0eac2a",
-    "title": "FOTO/VIDEO Sve veća drama: požar guta sve pred sobom, izgorjela crkva u Potomju - cesta zatvorena, gužve na trajektu",
-    "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/novi-pozar-nakon-dramaticne-noci-kod-omisa-jutros-planulo-na-peljescu-vatrogasci-su-na-terenu-1573432",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32301194.gif",
-    "description": "NOVO: --- --- Požar je aktivan, a situaciju otežava jak vjetar. Objekti su za sada obranjeni, a potrebe za evakuacijom trenutno nema. Cilj nam je spriječiti širenje požara prema...",
-    "published_at": "2026-08-14T05:26:00+00:00"
-  },
-  {
     "id": "fa940a48-d40e-5c75-9414-0bbcc579f4b3",
     "title": "Satelitske snimke otkrivaju razmjere požara kod Omiša",
     "link": "https://www.index.hr/vijesti/clanak/satelitske-snimke-otkrivaju-razmjere-pozara-kod-omisa/2823608.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "SATELITSKE snimke sustava OroraTech otkrile su 200 žarišta u velikom požaru kod Omiša koji se širi od Lokve Rogoznice prema obali i zaleđu.",
-    "published_at": "2026-08-14T05:24:00+00:00"
-  },
-  {
-    "id": "55088adc-f20e-53f4-ab6b-d95e64f5ae4e",
-    "title": "Povijesna večer za hrvatski nogomet. Ovo se nije dogodilo gotovo deset godina",
-    "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/povijesna-vecer-za-hrvatski-nogomet-ovo-se-nije-dogodilo-gotovo-deset-godina-1573430",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32298574.jpg",
-    "description": "Devet godina čekanja je gotovo. Hrvatska će u playoffu europskih natjecanja imati čak tri predstavnika. Dinamo, Hajduk i Rijeka prošli su svoje prepreke i izborili posljednji kv...",
     "published_at": "2026-08-14T05:24:00+00:00"
   },
   {
@@ -2644,15 +2932,6 @@
     "image_url": "https://sportnet.hr/photos/_resized/526/12/0000000000526129_510_0.jpg",
     "description": "Hrvatski tenisač Dino Prižmić završio je nastup na ATP Masters 1000 turniru u Cincinnatiju već na prvoj prepreci. Iako je 21-godišnji Splićanin sjajno otvorio meč i uzeo prvi se...",
     "published_at": "2026-08-14T05:18:28+00:00"
-  },
-  {
-    "id": "9e1dbad9-72f9-553c-9bdd-3cf5e71847ff",
-    "title": "Javio nam se vatrogasac iz srca požara: ‘Kao da se borimo protiv jačeg od nas, zastrašujuće. Moram biti iskren...‘",
-    "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/javio-nam-se-vatrogasac-iz-srca-pozara-kao-da-se-borimo-protiv-jaceg-od-nas-zastrasujuce-moram-biti-iskren-1573429",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32299665.jpg",
-    "description": "Javio nam se dubrovački vatrogasac Ivan Mataga iz srca požara koji plamti u Omišu i okolici. – Poštovanje, obraćam vam se kao vatrogasac JVP-a Dubrovnik koji se trenutno nalazi ...",
-    "published_at": "2026-08-14T05:17:00+00:00"
   },
   {
     "id": "81b8ba0c-65b0-5b68-ac18-9d319d1140b0",
@@ -2700,15 +2979,6 @@
     "published_at": "2026-08-14T05:08:20+00:00"
   },
   {
-    "id": "5ae99c66-60aa-590d-a5f5-c323c35819d3",
-    "title": "Od jeftinog komada mesa možete dobiti vrhunski toč! U ovom se jelu kombinira s omiljenom namirnicom, rezultat je odličan",
-    "link": "https://slobodnadalmacija.hr/mozaik/spiza/slano/od-jeftinog-komada-mesa-mozete-dobiti-vrhunski-toc-u-ovom-se-jelu-kombinira-sa-slanutkom-evo-rucka-za-prste-polizat-1573401",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32295109.jpg",
-    "description": "Svi će se rado mašiti za dobar bokun, ali jeftiniji komadi mesa često su najbolji za jela koja su puna okusa i točeve koji se kuhaju polako. Među takve komade spada i svinjski v...",
-    "published_at": "2026-08-14T05:05:00+00:00"
-  },
-  {
     "id": "0830238d-3ea2-52ad-99bb-a1fff9af5066",
     "title": "Od male države napravio vojničko carstvo - ovako je Fridrik Vilim stvorio Prusku",
     "link": "https://www.index.hr/vijesti/clanak/od-male-drzave-napravio-vojnicko-carstvo-ovako-je-fridrik-vilim-stvorio-prusku/2569128.aspx",
@@ -2716,15 +2986,6 @@
     "image_url": null,
     "description": "1713. godine naslijedio ga je njegov sin Fridrik Vilim I., koji je reformirao vojsku i upravu, osvojio nova područja i postao utjelovljenje pruske militarističke tradicije.",
     "published_at": "2026-08-14T05:01:22+00:00"
-  },
-  {
-    "id": "803dd186-b033-51a1-8d0b-8c1defd17479",
-    "title": "Vratili ste se s godišnjeg i odmah uskočili pod tuš? Ova skrivena opasnost iz cijevi mogla bi vas iznenaditi",
-    "link": "https://slobodnadalmacija.hr/mozaik/prostorija/vratili-ste-se-s-godisnjeg-i-odmah-uskocili-pod-tus-ova-skrivena-opasnost-iz-cijevi-mogla-bi-vas-iznenaditi-1573428",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32298777.jpg",
-    "description": "Mnogi se ovih dana vraćaju s godišnjeg odmora. Nakon dva ili tri tjedna putovanja, prvo što žele jest otvoriti prozore, raspakirati kofere, uključiti perilicu i konačno se istuš...",
-    "published_at": "2026-08-14T05:01:00+00:00"
   },
   {
     "id": "180803e8-0d5d-58d0-8268-e1788b3bcd00",
@@ -2754,24 +3015,6 @@
     "published_at": "2026-08-14T04:55:00+00:00"
   },
   {
-    "id": "747ffa47-1d57-5ac8-92f6-420e94007bc7",
-    "title": "Spas stiže s neba, kanaderi gase stravični požar u Omišu",
-    "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/spas-stize-s-neba-kanaderi-gase-stravicni-pozar-u-omisu-1573427",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32300715.jpg",
-    "description": "Strašna borba s požarom koji je hara na području Omiša se nastavlja. Dramatična noć je završila, ali osvanulo je teško jutro. Sva sila vatrogasaca je na terenu, a ono što je ola...",
-    "published_at": "2026-08-14T04:54:00+00:00"
-  },
-  {
-    "id": "b60be4e5-7aae-5729-9b29-115218369632",
-    "title": "Najpraćeniji letovi na Flight Radaru kanaderi koji gase požar kod Omiša",
-    "link": "https://www.index.hr/vijesti/clanak/najpraceniji-letovi-na-flight-radaru-kanaderi-koji-gase-pozar-kod-omisa/2823597.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ČETIRI hrvatska kanadera koja gase požar kod Omiša postala su najpraćeniji letovi na Flightradaru, a tisuće ljudi uživo prate njihovu akciju.",
-    "published_at": "2026-08-14T04:39:00+00:00"
-  },
-  {
     "id": "44965515-6dd8-5145-a991-e7eb8eb8fa07",
     "title": "Omiš wildfire: Split opens shelter as nearly 1,000 evacuated",
     "link": "https://www.croatiaweek.com/omis-wildfire-nearly-1000-evacuated-fire-croatia/",
@@ -2779,15 +3022,6 @@
     "image_url": "https://www.croatiaweek.com/wp-content/uploads/2026/08/Split-omis.jpg?x65325",
     "description": "OMIŠ, 14 August 2026 – The situation following a major wildfire near Omiš has eased, after the blaze forced the... The post Omiš wildfire: Split opens shelter as nearly 1,000 ev...",
     "published_at": "2026-08-14T04:37:00+00:00"
-  },
-  {
-    "id": "64603504-22ba-5566-b129-e8ecf39f1d83",
-    "title": "Kanaderi krenuli na požar kod Omiša, cijelu noć se borilo 157 vatrogasaca",
-    "link": "https://www.index.hr/vijesti/clanak/kanaderi-krenuli-na-pozar-kod-omisa-cijelu-noc-se-borilo-157-vatrogasaca/2823596.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar proširio se na Omiš uzrokujući evakuacije i ozljede, dok se vatrogasci iz cijele Hrvatske i kanaderi bore protiv vatrene stihije.",
-    "published_at": "2026-08-14T04:36:00+00:00"
   },
   {
     "id": "61a091ba-4d78-5bfb-b200-f1efff3c7f5d",
@@ -2817,42 +3051,6 @@
     "published_at": "2026-08-14T04:30:00+00:00"
   },
   {
-    "id": "264630bf-9eea-5e31-8f62-788636b91b6a",
-    "title": "Prihvatni centar u Omišu pun, dio evakuiranih se autobusima prevozi u Split",
-    "link": "https://www.index.hr/vijesti/clanak/prihvatni-centar-u-omisu-pun-dio-evakuiranih-se-autobusima-prevozi-u-split/2823594.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar zahvatio je područje Omiša, stigavši do samih kuća. Stotine ljudi su evakuirane, desetero je ozlijeđeno. Gašenje otežava jak vjetar, a izgorjela je i tvrđava Fortica.",
-    "published_at": "2026-08-14T04:25:00+00:00"
-  },
-  {
-    "id": "7ecca980-c081-5cb6-a390-9cc6dacf669f",
-    "title": "Hajduk je Žalgirisu zabio devet golova. Nijedan nije zabio Livaja",
-    "link": "https://www.index.hr/sport/clanak/hajduk-je-zalgirisu-zabio-devet-golova-nijedan-nije-zabio-livaja/2823577.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "OVO SE NEKAD činilo nemogućim.",
-    "published_at": "2026-08-14T04:25:00+00:00"
-  },
-  {
-    "id": "01733081-ebfa-5870-a580-6e1978b28e7d",
-    "title": "Poljud ga je opet izviždao. Onda su Garcijine zamjene razbile Žalgiris",
-    "link": "https://www.index.hr/sport/clanak/poljud-ga-je-opet-izvizdao-onda-su-garcijine-zamjene-razbile-zalgiris/2823576.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "GARCIA je odveo Hajduk do play-offa.",
-    "published_at": "2026-08-14T04:24:00+00:00"
-  },
-  {
-    "id": "95b136e2-2521-5583-b51f-bde9b8d303d1",
-    "title": "NATO srušio dron iznad Latvije, Finska ograničila zračni promet",
-    "link": "https://www.index.hr/vijesti/clanak/nato-srusio-dron-iznad-latvije-finska-ogranicila-zracni-promet/2823592.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NATO-OVI borbeni zrakoplovi srušili su dron iznad Latvije. Finska je zbog moguće pojave dronova ograničila promet. Incident se događa u vrijeme pojačanih napetosti s Rusijom.",
-    "published_at": "2026-08-14T04:16:00+00:00"
-  },
-  {
     "id": "464f5237-8e8a-57ec-a9d6-7a4448394f19",
     "title": "Omiljeni pariški modni brend najavio je novo poglavlje, a promjene se neće svidjeti svima",
     "link": "https://www.journal.hr/moda/vijesti/sezane-novo-poglavlje-rebranding/",
@@ -2860,24 +3058,6 @@
     "image_url": null,
     "description": "Objava Omiljeni pariški modni brend najavio je novo poglavlje, a promjene se neće svidjeti svima prvi put se pojavila na Journal.hr .",
     "published_at": "2026-08-14T04:15:00+00:00"
-  },
-  {
-    "id": "0dc4ed1f-8afb-542f-a296-5464b014de76",
-    "title": "Makarska organizirala prihvat za evakuirane zbog požara kod Omiša",
-    "link": "https://www.index.hr/vijesti/clanak/makarska-organizirala-prihvat-za-evakuirane-zbog-pozara-kod-omisa/2823593.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "GRAD Makarska i Crveni križ organizirali su prihvat i smještaj u osnovnoj školi za osobe s područja Omiša koje su evakuirane zbog požara. Sve službe su u pripravnosti.",
-    "published_at": "2026-08-14T04:13:00+00:00"
-  },
-  {
-    "id": "265ab1ae-f0b7-5cf1-b632-cb1a29530353",
-    "title": "Ondje gdje su hodali carevi, danas počinju ljubavne priče",
-    "link": "https://slobodnadalmacija.hr/mozaik/zivot/ondje-gdje-su-hodali-carevi-danas-pocinju-ljubavne-price-1573298",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/12/32294841.jpg",
-    "description": "Na korak od antičke Salone i tek nekoliko minuta od Splita, Hotel President Solin spaja povijest, mediteranski ambijent i organizaciju cijelog svadbenog putovanja – od prvog dol...",
-    "published_at": "2026-08-14T04:00:00+00:00"
   },
   {
     "id": "913df8a8-a458-592d-b141-cdebe13ecb0b",
@@ -2952,96 +3132,6 @@
     "published_at": "2026-08-14T03:37:00+00:00"
   },
   {
-    "id": "c85c7854-4e2b-58bc-b8a4-44585e361a82",
-    "title": "VELIKA GALERIJA Potresni prizori stravičnog požara kod Omiša",
-    "link": "https://www.index.hr/vijesti/clanak/velika-galerija-potresni-prizori-stravicnog-pozara-kod-omisa/2823590.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar koji je tijekom večeri buknuo u Lokvi Rogoznici tijekom noći proširio se prema Omišu i stigao nadomak samog središta grada. Fotografije s terena pokazuju razmjere v...",
-    "published_at": "2026-08-14T03:04:00+00:00"
-  },
-  {
-    "id": "585a4342-86b7-5204-a868-8079fe0dc710",
-    "title": "Vatrogasac s prve crte kod Omiša: Imamo osjećaj da gubimo borbu s požarom",
-    "link": "https://www.index.hr/vijesti/clanak/vatrogasac-s-prve-crte-kod-omisa-imamo-osjecaj-da-gubimo-borbu-s-pozarom/2823589.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "INDEXU SE s požarišta u Lokvi Rogoznici javio vatrogasac Javne vatrogasne postrojbe Dubrovnik koji je ondje angažiran u gašenju velikog požara. Zamolio je da objavimo samo njego...",
-    "published_at": "2026-08-14T02:46:00+00:00"
-  },
-  {
-    "id": "4ac90d87-bbb9-5304-ac00-47ca8b3d203a",
-    "title": "Požar u Omišu, vatra na 50 m od centra, ljudi bježe brodovima. \"Izgorjele brojne kuće\"",
-    "link": "https://www.index.hr/vijesti/clanak/veliki-pozari-na-bracu-i-kod-skrljeva-vatru-gase-kanaderi-i-air-tractor/2823239.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VATROGASCI se jutros bore s dva veća požara, kod Škrljeva u Primorsko-goranskoj županiji te na području Pučišća na otoku Braču.",
-    "published_at": "2026-08-14T02:00:00+00:00"
-  },
-  {
-    "id": "5735b23a-fd7f-58e0-983b-7aa9db3215af",
-    "title": "VIDEO Strašni prizori s magistrale prema Omišu: Izgorjeli auti, plamen posvuda",
-    "link": "https://www.index.hr/vijesti/clanak/strasni-prizori-s-magistrale-od-ruskamena-prema-omisu-izgorjeli-auti-plamen-posvuda/2823587.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar nošen burom zahvatio je područje od Ruskamena do Omiša. Izgorjeli su deseci vozila na Jadranskoj magistrali, a oštećene su i kuće. Promet je na toj dionici u prekidu.",
-    "published_at": "2026-08-14T01:53:00+00:00"
-  },
-  {
-    "id": "d5d14459-1269-5263-bf9d-0c114bca4a69",
-    "title": "Gradonačelnik Omiša: Imamo ozlijeđenog s opeklinama, voze ga u bolnicu",
-    "link": "https://www.index.hr/vijesti/clanak/gradonacelnik-omisa-ovo-je-ogromna-operacija-nikad-nisam-ovako-nesto-dozivio/2823586.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar kod Omiša zahvatio je naselja Nemiru i Staniće. Vatra je stigla do kuća, a gašenje otežava jak vjetar. Jedna je osoba ozlijeđena, a oko 1000 ljudi je evakuirano u s...",
-    "published_at": "2026-08-14T01:44:00+00:00"
-  },
-  {
-    "id": "18f6be5c-95be-5d5f-ad78-9837000ce1b9",
-    "title": "Dramatično stanje u Omišu. Župan: Ljudi izlaze iz kuća, neki su zadobili opekline",
-    "link": "https://www.index.hr/vijesti/clanak/dramaticno-stanje-u-omisu-zupan-ljudi-izlaze-iz-kuca-neki-su-zadobili-opekline/2823585.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "POŽAR koji je u četvrtak navečer izbio u Lokvi Rogoznici i dalje bukti. Vatra, pomognuta vjetrom, širi se u smjeru Omiša, a stanovnici napuštaju područje zahvaćeno vatrom, dozna...",
-    "published_at": "2026-08-14T01:20:00+00:00"
-  },
-  {
-    "id": "be4c7f30-50d6-5a19-ba9d-fef87da751b6",
-    "title": "Nove snimke iz Omiša. Situacija je alarmantna, požar prešao preko gradskog naselja",
-    "link": "https://www.index.hr/vijesti/clanak/nova-snimka-iz-omisa-situacija-je-alarmantna-pozar-je-dosao-do-gradskog-naselja/2823583.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar koji je večeras izbio u Lokvi Rogoznici proširio se do Omiša. Plamen je oko 1:45 stigao do predjela Borak, naselja neposredno iznad središta grada, gdje su ugrožene...",
-    "published_at": "2026-08-14T01:03:00+00:00"
-  },
-  {
-    "id": "58f2c12b-bb2b-5f8b-8a2c-bfeab924fdee",
-    "title": "VIDEO Pogledajte početak požara kod Omiša",
-    "link": "https://www.index.hr/vijesti/clanak/video-pogledajte-pocetak-pozara-kod-omisa/2823574.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "POŽAR koji je večeras izbio na području Lokve Rogoznice kod Omiša i dalje je aktivan, a Dalmacija Danas prenosi snimku čitatelja iz Povlja na Braču koji je zabilježio sam početa...",
-    "published_at": "2026-08-14T00:29:00+00:00"
-  },
-  {
-    "id": "0f214684-6d3a-5782-a784-1bca78ac51a3",
-    "title": "Stravična snimka. Kraj Omiša gori niz auta",
-    "link": "https://www.index.hr/vijesti/clanak/stravicne-snimke-kraj-omisa-gori-niz-auta/2823584.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar koji se proširio prema Omišu ostavio je golemu štetu na području Vrisovaca blizu Omiša.",
-    "published_at": "2026-08-14T00:00:00+00:00"
-  },
-  {
-    "id": "454b1475-8d24-5507-a1ea-0a53736f866c",
-    "title": "Ljude evakuiraju brodicama Lučke kapetanije",
-    "link": "https://www.index.hr/vijesti/clanak/ljude-evakuiraju-brodicama-lucke-kapetanije/2823582.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar koji je izbio u Lokvi Rogoznici iza ponoći se proširio prema Omišu. Unatoč naporima vatrogasaca, jak vjetar rasplamsao je vatru preko brda iznad Nemire.",
-    "published_at": "2026-08-13T23:37:00+00:00"
-  },
-  {
     "id": "9161f15b-2307-5d32-9e48-db003f9fe1b7",
     "title": "Should Croatia Send SRUUK Messages to Tourists Before Danger Strikes?",
     "link": "https://total-croatia-news.com/news/croatia-sruuk-messages/",
@@ -3076,33 +3166,6 @@
     "image_url": null,
     "description": "August the 14th, 2026 &#8211; The latest and by far most celebrated Croatian tourism campaign starring the one and only John Malkovich is still generating huge numbers worldwide...",
     "published_at": "2026-08-13T23:02:22+00:00"
-  },
-  {
-    "id": "6eaaf891-2a4a-5446-bba6-a1850e74793b",
-    "title": "Zastrašujuća snimka kod Omiša: Vozač u zapaljenom autu bježi od požara",
-    "link": "https://www.index.hr/vijesti/clanak/jeziva-snimka-kod-omisa-vozac-u-zapaljenom-autu-bjezi-od-pozara/2823581.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NA DRUŠTVENIM mrežama objavljena je dramatična snimka za koju se navodi da je nastala tijekom velikog požara u Lokvi Rogoznici kod Omiša.",
-    "published_at": "2026-08-13T22:50:00+00:00"
-  },
-  {
-    "id": "77a33954-31c6-5eb5-95d0-6483407158e0",
-    "title": "VIDEO Ljudi bježe iz Omiša, stvorio se prometni kolaps",
-    "link": "https://www.index.hr/vijesti/clanak/video-ljudi-bjeze-iz-omisa-stvorio-se-prometni-kolaps/2823580.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VELIKI požar u Lokvi Rogoznici kod Omiša uzrokovao je prekid prometa na Jadranskoj magistrali. Stvorile su se goleme gužve dok turisti napuštaju ugroženo područje, a dio ljudi j...",
-    "published_at": "2026-08-13T22:42:00+00:00"
-  },
-  {
-    "id": "32c086b0-7b82-55a2-a280-5dad23ccdff0",
-    "title": "Vatrogasci iz četiri županije s kontinenta hitno idu prema Omišu",
-    "link": "https://www.index.hr/vijesti/clanak/vatrogasci-iz-cetiri-zupanije-s-kontinenta-hitno-idu-prema-omisu/2823579.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VATROGASCI s kontinenta kreću prema Lokvi Rogoznici kod Omiša, gdje se već satima vodi velika borba s požarom koji je zahvatio travu, nisko raslinje i borovu šumu te ugrozio kuće.",
-    "published_at": "2026-08-13T22:38:00+00:00"
   },
   {
     "id": "9c4bec2b-4976-527c-991a-84d6884de98d",
@@ -3258,30 +3321,12 @@
     "published_at": "2026-08-13T20:00:00+00:00"
   },
   {
-    "id": "ef4af96b-72e4-5124-9606-7e2d538e2416",
-    "title": "Kad arhitektura čuva baštinu i stvara novu vrijednost",
-    "link": "https://www.poslovni.hr/lifestyle/kad-arhitektura-cuva-bastinu-i-stvara-novu-vrijednost-4550984",
-    "source": "Poslovni dnevnik",
-    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/32arhi-800x500.jpg",
-    "description": "Dva projekta promatraju prostor kao nastavak postojeće priče - Case Atrio Rovinj, kompleks dviju obiteljskih kuća, te cjelovita obnova stare gradske klaonice u Petrinji.",
-    "published_at": "2026-08-13T20:00:00+00:00"
-  },
-  {
     "id": "569f9e03-cc00-5bd8-a864-c87d4a8b1563",
     "title": "Što izbor rezidencijskog ljubimca govori o državama i liderima?",
     "link": "https://www.poslovni.hr/lifestyle/sto-izbor-rezidencijskog-ljubimca-govori-o-drzavama-i-liderima-4550997",
     "source": "Poslovni dnevnik",
     "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/22ljubimac-800x500.jpg",
     "description": "Kako je mačak Larry nadživio već šest premijera u Downing Streetu, Britancima je postao simbol onoga što im fali - stabilnosti.",
-    "published_at": "2026-08-13T20:00:00+00:00"
-  },
-  {
-    "id": "c6d7ece2-90a1-5653-ba73-d33077afdce9",
-    "title": "Visoki troškovi pritišću profitabilnost hotelijera",
-    "link": "https://www.poslovni.hr/hrvatska/visoki-troskovi-pritiscu-profitabilnost-hotelijera-4551023",
-    "source": "Poslovni dnevnik",
-    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/6tema-800x500.jpg",
-    "description": "Glavni razlog boljih prihoda je u rastu prosječnih cijena, a tek manjim dijelom u rastu broja noćenja.",
     "published_at": "2026-08-13T20:00:00+00:00"
   },
   {
@@ -3373,15 +3418,6 @@
     "image_url": "https://sportnet.hr/photos/_resized/520/59/0000000000520593_510_0.jpg",
     "description": "Hrvatski U16 košarkaši izborili su polufinale FIBA U16 EuroBasketa 2026. divizije B nakon pobjede protiv Nizozemske s 80:51. Udaljeni su samo jednu pobjedu od povratka u A diviz...",
     "published_at": "2026-08-13T19:00:00+00:00"
-  },
-  {
-    "id": "8d9d160b-1ab4-5aee-9d58-5f59684da2b8",
-    "title": "Tamne nijanse lakova nisu za ljeto? Ne slažemo se i biramo ovu trendi nijansu",
-    "link": "https://www.journal.hr/ljepota/trendovi-ljepota/berry-nails-trend-nokti-manikura/",
-    "source": "Journal.hr",
-    "image_url": null,
-    "description": "Objava Tamne nijanse lakova nisu za ljeto? Ne slažemo se i biramo ovu trendi nijansu prvi put se pojavila na Journal.hr .",
-    "published_at": "2026-08-13T18:45:02+00:00"
   },
   {
     "id": "5b598cdb-5ec8-5f22-bda9-e40331094ff4",
@@ -3652,15 +3688,6 @@
     "image_url": "https://cdn-sib.net.hr/wp-content/uploads/pxl_240816_13987474-52b347d70b754d96e0563813-1052x696.jpg",
     "description": "Donosimo provjerene upute za kuhanje ovoga crvenoga ploda punog vitamina i vrijednih antioksidansa",
     "published_at": "2026-08-13T11:58:29+00:00"
-  },
-  {
-    "id": "806bb1b7-49dd-5062-814e-777c6de03eca",
-    "title": "Jakirović doveo veliko pojačanje iz Leedsa: Hull City trajno potpisao napadača koji je prošle sezone bio na posudbi",
-    "link": "https://sportnet.hr/vijesti/nogomet-engleska/jakirovic-doveo-veliko-pojacanje-iz-leedsa-hull-city-trajno-potpisao-napadaca-koji-je-prosle-sezone-bio-na-posudbi/630426/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/526/33/0000000000526333_510_0.jpg",
-    "description": "Engleski 24-godišnji napadač Joe Gelhardt novi je član Hull Cityja nakon što je postignut dogovor s Leeds Unitedom oko transfera vrijednog 7.6 milijuna eura. Nakon dviju uspješn...",
-    "published_at": "2026-08-13T11:45:26+00:00"
   },
   {
     "id": "062c7377-0b04-5c70-9476-ccd6f8cfcdb3",
@@ -4156,33 +4183,6 @@
     "image_url": "https://autonet.bug.hr/img/kineski-chery-ulazi-u-kg-mobility-donedavno-ssangyong-i-daje-novi-zamah_uqrHvZ.jpg",
     "description": "Chery Automobile Co. u kompaniju ulazi s investicijom vrijednom 75 milijuna dolara (oko 65 milijuna eura) i to putem zamjenjivih obveznica",
     "published_at": "2026-08-11T16:00:00+00:00"
-  },
-  {
-    "id": "556d61ec-dc02-520a-bce4-b317cb9f870c",
-    "title": "Počast SEGA Dreamcastu: kada retro nostalgija dobije formalno ruho",
-    "link": "https://www.bug.hr/gadgeti/pocast-sega-dreamcastu-kada-retro-nostalgija-dobije-formalno-ruho-62012",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/pocast-sega-dreamcastu-kada-retro-nostalgija-dobije-formalno-ruho_ENJ6Kv.png",
-    "description": "Japanski modni brend i legenda japanske industrije videoigara udružili su snage oko kolekcionarskog sata inspiriranog konzolom koja je bila ispred svog vremena",
-    "published_at": "2026-08-11T15:43:00+00:00"
-  },
-  {
-    "id": "d08e64b0-2002-585f-a914-d084d25ad303",
-    "title": "Claude uvodi nevidljive 'vodene žigove' u tekstove i slike stvorene AI-jem",
-    "link": "https://www.bug.hr/umjetna-inteligencija/claude-uvodi-nevidljive-vodene-zigove-u-tekstove-i-slike-stvorene-ai-jem-62018",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/claude-uvodi-nevidljive-vodene-zigove-u-tekstove-i-slike-stvorene-ai-jem_UQx5AI.png",
-    "description": "Kao odgovor na nova pravila EU, tvrtka Anthropic će označavati sadržaj generiran uz pomoć Claude Ai modela. Cilj je povećati transparentnost i olakšati prepoznavanje AI sadržaja...",
-    "published_at": "2026-08-11T15:43:00+00:00"
-  },
-  {
-    "id": "940007b2-4ab4-58be-afe5-7501ddf0bff4",
-    "title": "Japanci otkrili čestice koje prkose poznatom Newtonovom zakonu",
-    "link": "https://mreza.bug.hr/istrazivanja/japanci-otkrili-cestice-koje-prkose-poznatom-newtonovom-zakonu-61998",
-    "source": "Bug.hr",
-    "image_url": "https://mreza.bug.hr/img/japanci-otkrili-cestice-koje-prkose-poznatom-newtonovom-zakonu_3XZf-H.jpg",
-    "description": "Istraživači u Japanu otkrili su kako se tisuće mikroskopskih čestica mogu spontano spariti, pomicati i reorganizirati narušavajući simetriju akcije i reakcije u poznatom zakonu ...",
-    "published_at": "2026-08-11T15:19:00+00:00"
   },
   {
     "id": "19076ec2-a369-5c59-8426-80ac5f6f1586",
