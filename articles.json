@@ -1,12 +1,705 @@
 [
   {
-    "id": "0f6b3df8-5fbb-5066-9922-95395d0671d6",
-    "title": "Anne Hathaway otkrila što jede i kako je odustala od veganstva i alkohola",
-    "link": "https://www.index.hr/food/clanak/anne-hathaway-otkrila-sto-jede-i-kako-je-odustala-od-veganstva-i-alkohola/2824826.aspx",
+    "id": "d151ba8e-f68c-5433-8475-589ce8d631e8",
+    "title": "Raj u Dalmatinskoj zagori magnet je za svjetske zvijezde. Poznati ugostitelj pozirao uz slavnog glazbenika: ‘Najveći!‘",
+    "link": "https://slobodnadalmacija.hr/dalmacija/sibenik/raj-u-dalmatinskoj-zagori-magnet-je-za-svjetske-zvijezde-poznati-ugostitelj-pozirao-uz-slavnog-glazbenika-1574054",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32324043.jpg",
+    "description": "Svjetska DJ zvijezda Armin van Buuren, koji je ovog ljeta nastupio na Ultri u Splitu uživa u Hrvatskoj i to u prirodi Nacionalnog parka Krka. Van Buuren je posjetio Roški slap i...",
+    "published_at": "2026-08-18T08:52:27+00:00"
+  },
+  {
+    "id": "9fffa610-ea11-5d51-ba9c-6b1111c9b76c",
+    "title": "VIDEO Pijavica se pojavila ispred Gradine na Korčuli",
+    "link": "https://www.dalmacijadanas.hr/video-pijavica-se-pojavila-ispred-gradine-na-korculi/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/collage-20.png",
+    "description": "Iako često traju relativno kratko, pijavice mogu biti opasne, osobito za manja plovila ako im se nađu na putu",
+    "published_at": "2026-08-18T08:50:51+00:00"
+  },
+  {
+    "id": "6bdf4db7-182b-5df2-add2-41f13f0ccc51",
+    "title": "Vozači, oprez, zatvoren je tunel Sveti Ilija, objavljeno i zbog čega",
+    "link": "https://slobodnadalmacija.hr/split-i-zupanija/zagora/vozaci-oprez-zatvoren-je-tunel-sveti-ilija-objavljeno-i-zbog-cega-1574052",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/30614418.jpg",
+    "description": "Vozači, oprez. Policija nam javlja da je zatvoren tunel koji spaja Makarsku sa zaleđem. - Obavještavamo Vvas da je od 9.46 sati za promet zatvoren tunel Sv. Ilija zbog vozila u ...",
+    "published_at": "2026-08-18T08:48:11+00:00"
+  },
+  {
+    "id": "996669e5-2956-511b-9df2-0fbf84f712b4",
+    "title": "TUGA U AUSTRIJI Otac ubio kćer (8), pokušao presuditi i sebi",
+    "link": "https://www.24sata.hr/news/tuga-u-austriji-otac-ubio-kcer-8-pokusao-presuditi-i-sebi-1148066",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/0nhU0Uo64fWhKMbPhmAoOLd_bD0=/800x450/smart/media/images/2021-36/pxl-dpa-250221-31950736.jpg",
+    "description": "Otac je nakon pružene liječničke pomoći uhićen i smješten u pritvor. Motiv ovog stravičnog čina još uvijek je misterij",
+    "published_at": "2026-08-18T08:47:00+00:00"
+  },
+  {
+    "id": "9d984a87-c99b-5431-aef6-84cade4b450e",
+    "title": "Muškarac (54) dosjetio se kako skriti gomile građevinskog otpada, no razotkriven je. Slijedi mu kaznena prijava",
+    "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/aaa-1574053",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32324042.jpg",
+    "description": "Policijski službenici Policijske postaje Vodice u suradnji s nadležnim Državnim inspektoratom proveli su kriminalističko istraživanje nad 54-godišnjim hrvatskim državljaninom zb...",
+    "published_at": "2026-08-18T08:46:00+00:00"
+  },
+  {
+    "id": "dcb3894a-13af-57dc-8245-3850228c8413",
+    "title": "Ovako je Vedrana Rudan pisala o Bori Đorđeviću: 'Četnik? Je*e mi se ako je bio “četnik”...'",
+    "link": "https://www.24sata.hr/news/ovako-je-vedrana-rudan-pisala-o-bori-dordevicu-cetnik-je-e-mi-se-ako-je-bio-cetnik-1148064",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/d1twm3P5-RNWQNjW91bfjgCABjY=/800x450/smart/media/images/2026-33/1_a70ZMyO.png.jpg",
+    "description": "Meni je četnik, primjerice, Plenković koji je svakoj hrvatskoj majci ili oteo dijete ili ga ubija glađu. On je Hrvatsku pretvorio u prah i pepeo, ni jedan mu četnik u tom zločin...",
+    "published_at": "2026-08-18T08:45:00+00:00"
+  },
+  {
+    "id": "e4e1b472-12e4-5cfc-a220-07fe7f114104",
+    "title": "VIDEO Kod Žirja snimljen veliki morski pas koji juri nevjerojatnih 70 na sat: To je najbrža vrsta, pogledajte predatora",
+    "link": "https://www.vecernji.hr/vijesti/video-kod-zirja-snimljen-veliki-morski-pas-koji-juri-nevjerojatnih-70-na-sat-to-je-najbrza-vrsta-pogledajte-predatora-1987283",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/f8/4f/977fba155ad790f41334.jpeg",
+    "description": "Mako, poznat i kao kratkoperajni mako, prepoznatljiv je po vitkom i izrazito aerodinamičnom tijelu, šiljastoj njušci te tamnoplavoj boji leđa i svjetlijem donjem dijelu tijela. ...",
+    "published_at": "2026-08-18T08:44:00+00:00"
+  },
+  {
+    "id": "2b45393c-275f-5e00-80f3-272c56f74777",
+    "title": "U Galeriji Flora izlažu članovi HDLU-a Dubrovnik: Susret različitih čitanja prostora i vremena, logika, poetika, generacija, medija i izraza!",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/kultura/u-galeriji-flora-izlazu-clanovi-hdlu-dubrovnik-susret-razlicitih-citanja-prostora-i-vremena-logika-poetika-generacija-medija-i-izraza-1574051",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32323961.jpg",
+    "description": "U Galeriji Flora otvorena je nedavno izložba Topografija trajanja koja okuplja članove Hrvatskog društva likovnih umjetnika Dubrovnik. Na izložbi sudjeluju: Katarina Alamat Kusi...",
+    "published_at": "2026-08-18T08:44:00+00:00"
+  },
+  {
+    "id": "38e4d33c-a965-5c40-82c5-8a61ea1d25d7",
+    "title": "Home Edit: Zara Home ima novu kolekciju za chic radni kutak",
+    "link": "https://www.journal.hr/lifestyle/interijeri/zara-home-kolekcija-kucni-ured/",
+    "source": "Journal.hr",
+    "image_url": null,
+    "description": "Objava Home Edit: Zara Home ima novu kolekciju za chic radni kutak prvi put se pojavila na Journal.hr .",
+    "published_at": "2026-08-18T08:42:12+00:00"
+  },
+  {
+    "id": "ed0d0f3f-5c28-5f7a-a6bf-38f238bd8b01",
+    "title": "Nakon Gospića potpuno je jasno da Plenković i HDZ mogu sasvim mirno spavati. Dva su osnovna razloga...",
+    "link": "https://slobodnadalmacija.hr/vijesti/politika/kakve-li-oporbe-hdz-im-se-s-otpadom-ponudio-na-volej-a-oni-ni-da-ga-udare-1574050",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32308369.jpg",
+    "description": "Svi elementi za pravu političku bombu bili su tu. Priča o nezakonitom odlaganju opasnog otpada u Gospiću – kasnije se utvrdilo i u Benkovcu – imala je i beskrupulozne poduzetnik...",
+    "published_at": "2026-08-18T08:42:00+00:00"
+  },
+  {
+    "id": "6b91d18d-31b8-571d-9d0e-fe3172a12a11",
+    "title": "Čudna priča: Zadarski ‘piroman‘ iznajmio golemu parcelu na kojoj je niknulo crno ‘kancerogeno‘ brdo. Kaže da je prevaren",
+    "link": "https://slobodnadalmacija.hr/dalmacija/zadar/jedan-od-zadarskih-piromana-iznajmio-parcelu-na-kojoj-je-niknulo-crno-brdo-s-140-tisuca-tona-kancerogene-troske-1574049",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32324041.jpg",
+    "description": "Vladimir Ćupić, jedan od četvero osumnjičenih za namjerno izazivanje deset požara na području Zadra i Zadarske županije, prije petnaestak godina našao se u središtu druge, mnogo...",
+    "published_at": "2026-08-18T08:42:00+00:00"
+  },
+  {
+    "id": "15b48bc9-143f-585d-9660-5ef28a0445dd",
+    "title": "Maloljetnik osumnjičen za dva napada u Splitu, predan pritvorskom nadzorniku",
+    "link": "https://www.dalmacijadanas.hr/maloljetnik-osumnjicen-za-dva-napada-u-splitu-predan-pritvorskom-nadzorniku/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2024/10/medjuvrsnjacko-nasilje-djeca.jpg",
+    "description": "U jednom od napada žrtva je zadobila lakše tjelesne ozljede",
+    "published_at": "2026-08-18T08:40:55+00:00"
+  },
+  {
+    "id": "4e0a2938-9059-55ba-be45-22cfc741eadf",
+    "title": "Dan kad je u strašnoj eksploziji na plaži u Puli poginulo 116 osoba",
+    "link": "https://www.index.hr/vijesti/clanak/dan-kad-je-u-strasnoj-eksploziji-na-plazi-u-puli-poginulo-116-osoba/2700923.aspx",
     "source": "Index.hr",
     "image_url": null,
-    "description": "ANNE Hathaway otkriva zašto je odustala od veganstva i alkohola, njezinu ljubav prema desertima te ekstremnu dijetu za ulogu u Jadnicima.",
-    "published_at": "2026-08-18T08:01:00+00:00"
+    "description": "DANAS se obilježava godišnjica velike tragedije u Puli koja se dogodila 18. kolovoza 1946. kada je u eksploziji protubrodskih mina na nekadašnjem popularnom gradskom kupalištu V...",
+    "published_at": "2026-08-18T08:40:00+00:00"
+  },
+  {
+    "id": "4083ad84-bc5f-5dfd-a682-ec59b450df87",
+    "title": "Putin povukao potez koji je razbjesnio Japan",
+    "link": "https://www.index.hr/vijesti/clanak/putin-povukao-potez-koji-je-razbjesnio-japan/2824865.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "DIPLOMATSKI spor Japana i Rusije dodatno se zaoštrio nakon.",
+    "published_at": "2026-08-18T08:38:00+00:00"
+  },
+  {
+    "id": "c8675a2a-2dc1-5db9-95c7-0ce636526729",
+    "title": "Osumnjičeni palitelj je vlasnik zemlje na kojoj je 'crno brdo' otrovnog otpada u Biljanima",
+    "link": "https://www.24sata.hr/news/osumnjiceni-palitelj-je-vlasnik-zemlje-na-kojoj-je-crno-brdo-otrovnog-otpada-u-biljanima-1148057",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/Kz2fm32AmqKYalL1zSsQosqB8Ek=/800x450/smart/media/images/2026-33/privodjenje04-170826_XmXuEwD.jpg",
+    "description": "Kako doznaje 24sata, Vladimir Ćupić koji je osumnjičen da je podmetao požare u zadarskom zaleđu, povezan je i s aferom 'crno brdo' i opasnim otpadom",
+    "published_at": "2026-08-18T08:38:00+00:00"
+  },
+  {
+    "id": "3cac9db6-5762-59a8-9086-9c0087f8230c",
+    "title": "Mali Svemirko bio je hrvatski odgovor na osvajanje svemira",
+    "link": "https://www.vecernji.hr/kultura/mali-svemirko-bio-je-hrvatski-odgovor-na-osvajanje-svemira-1987285",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/dd/9e/06c8cb2d7431e49afa19.jpeg",
+    "description": "Dok su se svjetske velesile utrkivale u osvajanju svemira, hrvatski je strip već imao svog malog astronauta. Vladimir Delač stvorio je 1958. Svemirka, dječaka u svemirskom odije...",
+    "published_at": "2026-08-18T08:38:00+00:00"
+  },
+  {
+    "id": "249c7253-59de-5bff-a72c-eb807516385b",
+    "title": "UŽIVO Milorad Pupovac o požarima i 'kampanji protiv srpske zajednice'",
+    "link": "https://www.vecernji.hr/vijesti/uskoro-milorad-pupovac-o-pozarima-i-kampanji-protiv-srpske-zajednice-1987273",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/1a/40/f7c7a71ba9805b9f84df.jpeg",
+    "description": "Policijska uprava zadarska navela je jučer kako je provela kriminalističko istraživanje nad trojicom hrvatskih državljana u dobi od 46, 45 i 42 godine te 33-godišnjom državljank...",
+    "published_at": "2026-08-18T08:37:00+00:00"
+  },
+  {
+    "id": "c7cba9c5-84f0-5c8f-8fe9-4baa66b61230",
+    "title": "U Srbiji raste tinejdžerska stoperska zvijer. BiH ga preotima u svoju reprezentaciju?",
+    "link": "https://www.index.hr/sport/clanak/u-srbiji-raste-tinejdzerska-stoperska-zvijer-bih-ga-preotima-u-svoju-reprezentaciju/2824861.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NOVI PAZAR traži minimalno pet milijuna eura za 18-godišnjeg stopera.",
+    "published_at": "2026-08-18T08:36:00+00:00"
+  },
+  {
+    "id": "69bb6e1e-e9db-5336-9cb9-010bbb9661b5",
+    "title": "Udomili ste psa iz skloništa? Zapamtite pravilo 3-3-3",
+    "link": "https://www.index.hr/ljubimci/clanak/udomili-ste-psa-iz-sklonista-zapamtite-pravilo-333/2824858.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "UDOMLJAVANJE psa iz skloništa velika je promjena, kako za vlasnika, tako i za životinju.",
+    "published_at": "2026-08-18T08:36:00+00:00"
+  },
+  {
+    "id": "cae0bf18-7661-5268-b6bb-25a6da097fc2",
+    "title": "Bad Blue Boysi poslali poruku pred važnu utakmicu Dinama: Evo što su napisali",
+    "link": "https://www.tportal.hr/sport/clanak/bad-blue-boysi-poslali-poruku-pred-vaznu-utakmicu-dinama-evo-sto-su-napisali-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2779791.jpeg?cropId=4226436",
+    "description": "Dinamo večeras od 21 na Maksimiru igra prvu utakmicu play-offa Lige prvaka protiv norveškog Vikinga.",
+    "published_at": "2026-08-18T08:36:00+00:00"
+  },
+  {
+    "id": "e22405a9-27d1-5c1c-9555-0fffdc982213",
+    "title": "Vratili ste se s mora? Ljeto u Zagrebu tek se zahuktava, evo što se sve sprema do kraja kolovoza",
+    "link": "https://www.vecernji.hr/zagreb/vratili-ste-se-s-mora-ljeto-u-zagrebu-tek-se-zahuktava-evo-sto-se-sve-sprema-do-kraja-kolovoza-1987286",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/e3/0c/dc0b7427e5b69fd671b9.jpeg",
+    "description": "Već ovaj tjedan program se nastavlja na Green River Festivalu, koji se smjestio na Savskom nasipu kod Hendrixova mosta, a na kojem se do nedjelje, 23. kolovoza, izmjenjuju filmo...",
+    "published_at": "2026-08-18T08:34:00+00:00"
+  },
+  {
+    "id": "e26bf072-dd47-5ef3-8efe-c05475d2c4ae",
+    "title": "Pupovac se obraća medijima",
+    "link": "https://www.tportal.hr/vijesti/clanak/uskoro-uzivo-pupovac-sazvao-konferenciju-za-medije-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2777566.jpeg?cropId=0",
+    "description": "Samostalna demokratska srpska stranka (SDSS) održat će danas dvije konferencije za novinare, u Zagrebu i Bruvnu, na kojima će govoriti o aktualnim događajima vezanim uz požare u...",
+    "published_at": "2026-08-18T08:34:00+00:00"
+  },
+  {
+    "id": "e27829a5-9ab3-553a-a9d9-1d1fcea4fec0",
+    "title": "Vedrana Rudan je 2024. otkrila da ima rak. Razmišljala je i o eutanaziji",
+    "link": "https://www.index.hr/magazin/clanak/vedrana-rudan-je-2024-otkrila-da-ima-rak-razmisljala-je-i-o-eutanaziji/2824851.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VEDRANA Rudan junački se borila s teškom bolešću.",
+    "published_at": "2026-08-18T08:33:00+00:00"
+  },
+  {
+    "id": "2fd4856f-a454-5daf-8acc-3330c4708735",
+    "title": "Poljakinja na Braču žarom od cigarete zapalila borove iglice. Odmah je kažnjena",
+    "link": "https://www.index.hr/vijesti/clanak/poljakinja-na-bracu-zarom-od-cigarete-zapalila-borove-iglice-odmah-je-kaznjena/2824869.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SPLITSKA policija prekršajno je kaznila 34-godišnju državljanku Poljske koja je u subotu, 15. kolovoza, nepažnjom izazvala požar u Milni na Braču.",
+    "published_at": "2026-08-18T08:32:57+00:00"
+  },
+  {
+    "id": "1ec888b1-674d-53ea-a1e8-61198a740f77",
+    "title": "Nema mira: Požarište na Pelješcu je pod nadzorom, tako će i ostati",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/crna-kronika/nema-mira-pozariste-na-peljescu-je-pod-nadzorom-tako-ce-i-ostati-1574047",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32303535.jpg",
+    "description": "Vatrogasci još uvijek imaju posla po hrvatskom priobalju, javlja Hrvatska vatrogasna zajednica. Evo kakvo je stanje jutros. Požar otvorenog prostora na području Pelješca za koji...",
+    "published_at": "2026-08-18T08:32:25+00:00"
+  },
+  {
+    "id": "6a22ffed-ec86-590b-ba21-3b74e789749e",
+    "title": "Policija u Senju maloljetnicima i Poljaku oduzela tri romobila. Pogledajte",
+    "link": "https://www.index.hr/vijesti/clanak/policija-u-senju-oduzela-tri-romobila-jedan-uzeli-poljaku-pogledajte/2824864.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "LIČKO-SENJSKA policija objavila je da je u protekla dva dana u Senju zaustavila dvojicu maloljetnika i 51-godišnjeg poljskog državljanina koji su vozili električne romobile koji...",
+    "published_at": "2026-08-18T08:31:00+00:00"
+  },
+  {
+    "id": "f933b35d-5e15-593c-a1c8-8551a4c0422a",
+    "title": "Poziranje na zgarištu i veseli selfie u zatrovanom Gospiću simboli su HDZ-ove vladavine",
+    "link": "https://www.24sata.hr/news/poziranje-na-zgaristu-i-veseli-selfie-u-zatrovanom-gospicu-simboli-su-hdz-ove-vladavine-1148059",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/SbaXaDGAtU4ayCRCViCxxTbkEhk=/800x450/smart/media/images/2026-33/pxl-170826-156864424-nzuf75v.jpg",
+    "description": "Fotografija Plenkovića i ministara na zgarištu u Omišu i vesela fotka ministrica Vučković i Hrstić s Hrvojem Zekanovićem na zgarištu sjednice odbora u Gospiću, simboliziraju men...",
+    "published_at": "2026-08-18T08:31:00+00:00"
+  },
+  {
+    "id": "cf5e3458-aaa1-5c9a-aa80-88eaa623e389",
+    "title": "Anthropic premašio 65 milijardi dolara dobiti: šuška se o izlasku na burzu",
+    "link": "https://www.tportal.hr/biznis/clanak/anthropic-premasio-65-milijardi-dolara-dobiti-suska-se-o-izlasku-na-burzu-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782795.jpeg?cropId=0",
+    "description": "Godišnja stopa prihoda američkog proizvođača umjetne inteligencije Anthropic krajem srpnja premašila je 65 milijardi dolara, rekao je u ponedjeljak izvor upućen u situaciju, što...",
+    "published_at": "2026-08-18T08:31:00+00:00"
+  },
+  {
+    "id": "55820eff-9d0b-596c-881b-d3cd18c9a3be",
+    "title": "Opasna bakterija pojela joj je velik dio noge, a sada upozorava: 'Ne brijte se prije ulaska u more, posljedice mogu biti strašne'",
+    "link": "https://www.vecernji.hr/lifestyle/zena-kojoj-je-opasna-bakterija-pojela-velik-dio-noge-upozorava-ne-brijte-se-prije-ulaska-u-more-posljedice-mogu-biti-strasne-1987266",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/72/1c/5065621f82c46aa0f27e.png",
+    "description": "Žena koja je preživjela stravičnu infekciju bakterijom koja jede meso, a zbog koje je izgubila velik dio noge, sada upozorava druge na opasnosti kupanja čak i s najmanjim otvore...",
+    "published_at": "2026-08-18T08:30:00+00:00"
+  },
+  {
+    "id": "509cea14-5ff5-5a77-baec-482f5b9e0a1a",
+    "title": "Ovo je vjerojatni Dinamov sastav za susret s Vikingom, Kovačević priprema dobro poznatih 11",
+    "link": "https://sportnet.hr/vijesti/nogomet-liga-prvaka/ovo-je-vjerojatni-dinamov-sastav-za-susret-s-vikingom-kovacevic-priprema-dobro-poznatih-11/630651/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/528/44/0000000000528442_510_0.jpg",
+    "description": "Danas je na rasporedu prva utakmica play-offa Lige prvaka u kojoj Dinamo dočekuje Viking. Posebnih nepoznanica oko sastava nema i nije teško pogoditi kojih 11 Mario Kovačević pr...",
+    "published_at": "2026-08-18T08:30:00+00:00"
+  },
+  {
+    "id": "2bbba8eb-0187-506d-9783-5cab46bc0eff",
+    "title": "Žar cigarete izazvao požar u Milni: Poljakinja kažnjena zbog neopreznog pušenja",
+    "link": "https://www.dalmacijadanas.hr/zar-cigarete-izazvao-pozar-u-milni-poljakinja-kaznjena-zbog-neopreznog-pusenja/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2025/01/1-27-policija-ilustracija.jpg",
+    "description": "Požar je brzo stavljen pod nadzor i ugašen pa nije bilo opasnosti za ljude ni imovinu",
+    "published_at": "2026-08-18T08:29:36+00:00"
+  },
+  {
+    "id": "35662749-b636-5904-b8b2-9ce5396c9915",
+    "title": "U Austriji ubijena osmogodišnja djevojčica. Otac uhićen",
+    "link": "https://www.index.hr/vijesti/clanak/u-austriji-ubijena-osmogodisnja-djevojcica-otac-uhicen/2824850.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "OPĆINA Kumberg, nedaleko od Graza u austrijskoj saveznoj pokrajini Štajerskoj, u šoku je nakon ubojstva osmogodišnje djevojčice.",
+    "published_at": "2026-08-18T08:29:00+00:00"
+  },
+  {
+    "id": "705493b4-6387-5fbe-8db9-36e3a577c2e2",
+    "title": "Blanka Vlašić poslala poruku podrške razočaranoj srpskoj zvijezdi: Atletičarka ostala oduševljena",
+    "link": "https://www.vecernji.hr/sport/blanka-vlasic-poslala-poruku-podrske-razocaranoj-srpskoj-zvijezdi-atleticarka-ostala-odusevljena-1987284",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/71/06/f630cfce79d8f8812f87.jpeg",
+    "description": "Topić je na društvenim mrežama objavila nekoliko fotografija s prvenstva, a vjerojatno ni sama nije očekivala tko će joj se zbog njih obratiti",
+    "published_at": "2026-08-18T08:29:00+00:00"
+  },
+  {
+    "id": "634c4999-8449-5e92-b3c8-29695b7dff8e",
+    "title": "Prihodi Anthropica skočili s 9 na 65 milijardi dolara",
+    "link": "https://www.index.hr/vijesti/clanak/prihodi-anthropica-skocili-s-9-na-65-milijardi-dolara/2824857.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ANTHROPIC bilježi impresivan rast prihoda iznad 65 milijardi dolara, učvršćujući svoju poziciju na AI tržištu prije izlaska na burzu.",
+    "published_at": "2026-08-18T08:28:00+00:00"
+  },
+  {
+    "id": "6cd7d9e4-e487-5fb4-849e-37036a1fce7b",
+    "title": "Motociklist u Kobiljači prešao u suprotnu prometnu traku pa pao u kamenjar, teško je ozlijeđen",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/crna-kronika/motociklist-u-kobiljaci-presao-u-suprotnu-prometnu-traku-pa-pao-u-kamenjar-tesko-je-ozlijeden-1574046",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/31954645.jpg",
+    "description": "U jučerašnjoj prometnoj nesreći koja se u ranim jutarnjim satima dogodila na području Kobiljače, teške tjelesne ozljede, opasne po život, zadobio je vozač motocikla u dobi od 50...",
+    "published_at": "2026-08-18T08:27:43+00:00"
+  },
+  {
+    "id": "f98f2138-1356-5af1-b269-f6701d4276ba",
+    "title": "Pep u dokumentarcu plače pred igračima, svađa se s njima i priča im o svom razvodu",
+    "link": "https://www.index.hr/sport/clanak/pep-u-dokumentarcu-place-pred-igracima-svadja-se-s-njim-i-prica-im-o-svom-razvodu/2824848.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PEP GUARDIOLA otkrio je igračima Cityja da se razvodi kako bi ih motivirao. Članak opisuje i njegov sukob s kapetanom Walkerom te trenutak kada je u suzama ponudio svoj odlazak ...",
+    "published_at": "2026-08-18T08:27:00+00:00"
+  },
+  {
+    "id": "79c10cc4-f242-5bc8-994d-b9427a62a9f6",
+    "title": "Od Irske i Estonije do Perua i Portorika: Na Lopud stiže trinaest mladih glazbenika iz 11 zemalja",
+    "link": "https://www.vecernji.hr/kultura/od-irske-i-estonije-do-perua-i-portorika-na-lopud-stize-trinaest-mladih-glazbenika-iz-11-zemalja-1987277",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/07/42/6f116ba77c206c076736.jpg",
+    "description": "Ovogodišnji sudionici četvrtog izdanja festivala na Lopud stižu s vrlo različitim glazbenim biografijama, a zajedničko im je da su svoje mjesto izborili na međunarodnom javnom p...",
+    "published_at": "2026-08-18T08:27:00+00:00"
+  },
+  {
+    "id": "c976ff05-d4b2-5630-8cdd-06e649477749",
+    "title": "Podstrana uz Omiš: 30.000 eura pomoći i konkretna podrška nakon požara",
+    "link": "https://www.dalmacijadanas.hr/podstrana-uz-omis-30-000-eura-pomoci-i-konkretna-podrska-nakon-pozara/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2024/02/maticni-ured-podstrana-10.jpeg",
+    "description": "Službe Vlastitog pogona Općine Podstrana, zajedno s raspoloživom mehanizacijom i ljudstvom, bit će na raspolaganju Gradu Omišu, u skladu s potrebama na terenu i dogovorom s nadl...",
+    "published_at": "2026-08-18T08:26:07+00:00"
+  },
+  {
+    "id": "78c4d633-1adb-5f63-a13e-86408c5f753b",
+    "title": "Miris Diet Cokea postao je beauty trend. Parfemi s notama cole sve su traženiji",
+    "link": "https://www.index.hr/shopping/clanak/miris-diet-cokea-postao-je-beauty-trend-parfemi-s-notama-cole-sve-su-trazeniji/2824840.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PARFEMI s mirisom kole, potaknuti nostalgijom i popularnošću dijetalnih pića, postaju ljetni hit.",
+    "published_at": "2026-08-18T08:26:00+00:00"
+  },
+  {
+    "id": "afa1c489-2834-561a-a944-1bd0d2c6c875",
+    "title": "Jedan od omiljenih domaćih parova svratio na SFF: Nives i Goran Ivanišević uživali u Sarajevu",
+    "link": "https://www.tportal.hr/showtime/clanak/jedan-od-omiljenih-domacih-parova-svratio-na-sff-nives-i-goran-ivanisevic-uzivali-u-sarajevu-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782657.jpeg?cropId=4233621",
+    "description": "Nives Ivanišević i njezin suprug, bivši tenisač Goran Ivanišević, nakratko su posjetili Sarajevo Film Festival i pritom privukli pažnju svojim festivalskim izdanjima. Nives je n...",
+    "published_at": "2026-08-18T08:26:00+00:00"
+  },
+  {
+    "id": "ff110c26-0ac6-535b-912b-3e145213910d",
+    "title": "Poduzetnici i mali iznajmljivači traže rasterećenje zbog požara",
+    "link": "https://www.poslovni.hr/hrvatska/poduzetnici-i-mali-iznajmljivaci-traze-rasterecenje-zbog-pozara-4551333",
+    "source": "Poslovni dnevnik",
+    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/2smoi-800x500.jpg",
+    "description": "Udruga Glas poduzetnika (UGP) predložila je Vladi donošenje hitnog paketa mjera kojima bi se poduzetnici pogođeni požarom na području tog grada privremeno rasteretili poreznih, ...",
+    "published_at": "2026-08-18T08:25:50+00:00"
+  },
+  {
+    "id": "4e53a55f-fcf2-59f6-baf6-71e0f0d31c98",
+    "title": "Tinejdžeri namjerno zapalili travu kod Kaštela pa pobjegli. Vatra prijetila kućama",
+    "link": "https://www.index.hr/vijesti/clanak/tinejdzeri-namjerno-zapalili-travu-kod-kastela-pa-pobjegli-vatra-prijetila-kucama/2824853.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "POLICIJA je uhitila dvojicu tinejdžera rođenih 2010. i 2011. godine koje sumnjiči da su u noći na 15. kolovoza namjerno podmetnuli požar na području Malačke iznad Kaštela.",
+    "published_at": "2026-08-18T08:25:00+00:00"
+  },
+  {
+    "id": "7a6a147f-525b-53ba-a00e-5b89adb42102",
+    "title": "Šafarić: Garcia kaže da je liga spora? Pa neka on igra brže...",
+    "link": "https://www.24sata.hr/sport/safaric-garcia-kaze-da-je-liga-spora-pa-neka-on-igra-brze-1148062",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/8mNa4emCj-C8p8-f94wQSGW9SxI=/800x450/smart/media/images/2026-33/pxl-150526-151876121_MmC9dOU.jpg",
+    "description": "Ja sam fokusiran samo na ono što trenutačno radim u Varaždinu. Najviše me veseli način na koji pobjeđujemo. Sve što radimo tijekom tjedna na treningu samo se ponavlja na utakmic...",
+    "published_at": "2026-08-18T08:25:00+00:00"
+  },
+  {
+    "id": "b1f719fc-6adb-571b-a1bf-2e92107961ab",
+    "title": "Maloljetnici uhićeni zbog velikog požara: Policija otkrila kako su ga podmetnuli",
+    "link": "https://www.tportal.hr/vijesti/clanak/maloljetnici-uhiceni-zbog-velikog-pozara-policija-otkrila-kako-su-ga-podmetnuli-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2752093.jpeg?cropId=0",
+    "description": "Policija je uhitila dvojicu maloljetnika, rođenih 2010. i 2011. godine, koje sumnjiči da su izazvali požar što je 15. kolovoza poslije ponoći izbio na području Malačke. Nakon do...",
+    "published_at": "2026-08-18T08:25:00+00:00"
+  },
+  {
+    "id": "917df7aa-38b8-54bc-8b7c-4d32ac54c665",
+    "title": "UŽIVO Pupovac sazvao izvanrednu presicu",
+    "link": "https://www.index.hr/vijesti/clanak/uskoro-uzivo-pupovac-sazvao-izvanrednu-presicu/2824855.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PREDSJEDNIK SDSS-a i saborski zastupnik Milorad Pupovac održava konferenciju za medije o požarima na području Benkovca, Zadra, Biograda i drugim dijelovima Dalmacije.",
+    "published_at": "2026-08-18T08:24:00+00:00"
+  },
+  {
+    "id": "53f565a7-abd1-5f16-9ec2-7e8ce11ddae6",
+    "title": "VIDEO Nije mogao vjerovati što se događa na utakmici Hajduka: ‘Glup sam pa ne razumijem...‘",
+    "link": "https://slobodnadalmacija.hr/sport/hajduk/video-1574045",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32317981.jpg",
+    "description": "Hajduk je u nedjelju upisao prvu ligašku pobjedu ove sezone, na gostovanju kod Gorice. Bijeli su poveli već u trećoj minuti pogotkom Šege, Gorica je izjednačila s bijele točke u...",
+    "published_at": "2026-08-18T08:24:00+00:00"
+  },
+  {
+    "id": "e95e146c-3633-5e26-97e7-cb18c0702823",
+    "title": "Šincek je do spornog zemljišta u Gospiću došao uz pomoć HBOR-a. Vrlo brzo je zaradio",
+    "link": "https://www.index.hr/vijesti/clanak/sincek-je-do-spornog-zemljista-u-gospicu-dosao-uz-pomoc-hbora-vrlo-brzo-je-zaradio/2824565.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PREDSJEDNIK Mosta Nikola Grmoja rekao je jučer u Gospiću da su sporni silos i pripadajuće nekretnine prodani Josipu Šinceku preko Hrvatske banke za obnovu i razvitak (HBOR) za 2...",
+    "published_at": "2026-08-18T08:23:00+00:00"
+  },
+  {
+    "id": "8c9b9dc7-cc49-5678-8e5e-ddf1cd1c282b",
+    "title": "VIDEO Kod otoka Žirja snimljen morski pas",
+    "link": "https://www.index.hr/vijesti/clanak/video-kod-otoka-zirja-snimljen-morski-pas/2824852.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "RIBOLOVCI su kod otoka Žirja snimili morskog psa mako, dugog preko tri metra. Mako (kučak) je najbrža vrsta morskog psa i strogo je zaštićen u Hrvatskoj. Snimka je objavljena na...",
+    "published_at": "2026-08-18T08:23:00+00:00"
+  },
+  {
+    "id": "45c9e899-6916-5f0c-b633-55db45ea53fa",
+    "title": "Tajna šifra u avionu koju nitko ne želi čuti",
+    "link": "https://www.index.hr/magazin/clanak/tajna-sifra-u-avionu-koju-nitko-ne-zeli-cuti/2824854.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "KABINSKO osoblje koristi tajne šifre za komunikaciju.",
+    "published_at": "2026-08-18T08:23:00+00:00"
+  },
+  {
+    "id": "ebe904fe-83d5-5771-8527-ed1ca7bd8075",
+    "title": "Oštre optužbe iz Ukrajine: 'Sustav podsjeća na prakse nacističkih koncentracijskih logora'",
+    "link": "https://www.vecernji.hr/vijesti/ostre-optuzbe-iz-ukrajine-sustav-podsjeca-na-prakse-nacistickih-koncentracijskih-logora-1987257",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/6f/2f/9686c71ea91579becb46.jpeg",
+    "description": "\"Zabilježeni su slučajevi kada je ruska policija zaustavljala strance, uključujući studente i radne migrante, te provjeravala imaju li brojeve\", dodaju Ukrajinci",
+    "published_at": "2026-08-18T08:22:00+00:00"
+  },
+  {
+    "id": "3617908c-ddf0-5141-ad25-cb8d95db627c",
+    "title": "Pijani vozač pritisnuo pješaka u drugo vozilo: Oduzeo mu prednost na zebri",
+    "link": "https://www.tportal.hr/vijesti/clanak/pijani-vozac-pritisnuo-pjesaka-u-drugo-vozilo-oduzeo-mu-prednost-na-zebri-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2416581.jpeg?cropId=3332907",
+    "description": "Nesreća se dogodila na raskrižju Ulice Braće Radić i Ulice Bana bana Tome Erdedija Bakača u Jastrebarskom. Pješak je teško ozlijeđen, a 47-godišnji vozač je napuhao 1.93 promila...",
+    "published_at": "2026-08-18T08:21:00+00:00"
+  },
+  {
+    "id": "56165227-e116-5dce-a33a-d0a46cd8cc3f",
+    "title": "Bio je novinarska zvijezda. Njegova iznenadna smrt šokirala je Hrvatsku",
+    "link": "https://www.index.hr/vijesti/clanak/bio-je-novinarska-zvijezda-njegova-iznenadna-smrt-sokirala-je-hrvatsku/2700856.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "DANAS se navršavaju tri godine od smrti Mislava Bage, jednog od najznačajnijih i najprepoznatljivijih hrvatskih novinara.",
+    "published_at": "2026-08-18T08:20:00+00:00"
+  },
+  {
+    "id": "9c0fc518-1e06-52e1-ba5d-3e7968809403",
+    "title": "Shakira posjetila Kolumbiju nakon potresa, osigurala 1,25 mil. dolara za obnovu škola",
+    "link": "https://www.index.hr/magazin/clanak/shakira-posjetila-kolumbiju-nakon-potresa-osigurala-125-mil-dolara-za-obnovu-skola/2824849.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "SHAKIRA je osigurala početnih 1,25 milijuna dolara za obnovu škola u rodnoj Kolumbiji, koje su oštećene u nedavnom razornom potresu.",
+    "published_at": "2026-08-18T08:20:00+00:00"
+  },
+  {
+    "id": "c851c41c-7909-5ae2-b521-780710643949",
+    "title": "Poznati se opraštaju od Vedrane Rudan: 'Imala je mozak i muda daleko veća od mnogih...'",
+    "link": "https://www.24sata.hr/show/poznati-se-oprastaju-od-vedrane-rudan-imala-je-mozak-i-muda-daleko-veca-od-mnogih-1148048",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/V0RiBqSKhIosnnnbW-7xOqBVX68=/800x450/smart/media/images/2026-33/pxl-130921-34596248_XjCNlWs.jpg",
+    "description": "Aleksandar Stanković podijelio je njihovu posljednju prepisku, a od književnice i novinarke oprostili su se i drugi poznati",
+    "published_at": "2026-08-18T08:20:00+00:00"
+  },
+  {
+    "id": "4944fb6d-b352-5a3b-a7ce-355b2a1c0b2d",
+    "title": "HBO potvrdio drugu sezonu jedne od svojih najuspješnijih serija",
+    "link": "https://www.index.hr/chill/clanak/hbo-potvrdio-drugu-sezonu-jedne-od-svojih-najuspjesnijih-serija/2824842.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "U NOVOJ sezoni dolazi i do promjene na čelu kreativnog tima.",
+    "published_at": "2026-08-18T08:19:00+00:00"
+  },
+  {
+    "id": "8014f0ce-2bc0-50ec-aad1-f5b81b1aeadf",
+    "title": "VIDEO MAKSIMIR SE RASPADA Norveški novinar čupao cigle i pod: 'Pogledajte oronulu rupu'",
+    "link": "https://www.24sata.hr/sport/video-maksimir-se-raspada-norveski-novinar-cupao-cigle-i-pod-pogledajte-oronulu-rupu-1148061",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/o7v0U5poTEfyLGLM5js2Wpm6xQU=/800x450/smart/media/images/2026-33/untitled-design-1_nePtoZQ.jpg",
+    "description": "Norveški novinar ostao u šoku na Maksimiru: ruševni stadion, spaljena umjetna trava i tunel kao iz bitke prije Dinama i Vikinga",
+    "published_at": "2026-08-18T08:18:00+00:00"
+  },
+  {
+    "id": "8def0a1f-0596-51dd-b76d-4065ad50567b",
+    "title": "Dvojica maloljetnika osumnjičena za izazivanje požara na Malačkoj: Zapaljene papiriće bacili u suhu travu",
+    "link": "https://www.dalmacijadanas.hr/dvojica-maloljetnika-osumnjicena-za-izazivanje-pozara-na-malackoj-zapaljene-papirice-bacili-u-suhu-travu/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/pozar-malacka-podmetanje.jpeg",
+    "description": "Požar se proširio na poljoprivrednu površinu od približno 5000 četvornih metara, a vatra se približila i stambenim objektima",
+    "published_at": "2026-08-18T08:17:37+00:00"
+  },
+  {
+    "id": "c7ccd58c-c121-5f3a-89a5-c75e94c96ed3",
+    "title": "Povijesno suđenje Meti: Facebook i Instagram optuženi da stvaraju ovisnost kod djece",
+    "link": "https://www.tportal.hr/tehno/clanak/povijesno-sudenje-meti-facebook-i-instagram-optuzeni-da-stvaraju-ovisnost-kod-djece-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782793.jpeg?cropId=0",
+    "description": "Tvrtka Meta, vlasnik društvenih mreža Facebook i Instagram, suočava se s povijesnom tužbom na suđenju koje u utorak počinje u američkoj saveznoj državi Kaliforniji nakon što su ...",
+    "published_at": "2026-08-18T08:17:00+00:00"
+  },
+  {
+    "id": "3a958482-8adc-582c-8911-70c3618f55f6",
+    "title": "Aplikacije za upoznavanje ulaze u novu eru, a AI mijenja pravila igre",
+    "link": "https://www.index.hr/magazin/clanak/aplikacije-za-upoznavanje-ulaze-u-novu-eru-a-ai-mijenja-pravila-igre/2824845.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "APLIKACIJE za upoznavanje poput Bumblea napuštaju svajpanje i okreću se umjetnoj inteligenciji.",
+    "published_at": "2026-08-18T08:16:00+00:00"
+  },
+  {
+    "id": "35cf03ac-4722-5b94-ae68-b5608dc1fb0e",
+    "title": "Četiri puta nominiran je za Oscara, a proslavile su ga neke od najtežih uloga",
+    "link": "https://www.index.hr/magazin/clanak/cetiri-puta-nominiran-je-za-oscara-a-proslavile-su-ga-neke-od-najtezih-uloga/2824843.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "PROSLAVIO se 90-ih, a njegove su mu uloge donijele četiri nominacije za Oscara.",
+    "published_at": "2026-08-18T08:16:00+00:00"
+  },
+  {
+    "id": "6154a247-42d4-59bb-ba7e-45e0ef0828e7",
+    "title": "Andrija Jarak dirljivom objavom čestitao rođendan udovici Blage Zadre: 'Sve ti cvalo, kraljice'",
+    "link": "https://www.vecernji.hr/showbiz/andrija-jarak-dirljivom-objavom-cestitao-rodendan-udovici-blage-zadre-sve-ti-cvalo-kraljice-1987262",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/5d/5f/b72def14971312a19b63.jpeg",
+    "description": "Uz zajedničku fotografiju na kojoj oboje ne skrivaju osmijeh, Jarak je napisao: \"Kata Zadro, 77. rođendan. Sve ti cvalo, kraljice\". Ova je objava u kratkom roku prikupila brojne...",
+    "published_at": "2026-08-18T08:16:00+00:00"
+  },
+  {
+    "id": "a984719c-6edc-5711-b64a-8e0f821104ed",
+    "title": "Ukrajinci dobili moćno oružje koje stiže za samo 15 minuta: 'Ovo djeluje kao revolucija u vojnoj tehnologiji'",
+    "link": "https://www.vecernji.hr/vijesti/ukrajinci-dobili-mocno-oruzje-koje-stize-za-samo-15-minuta-ovo-djeluje-kao-revolucija-u-vojnoj-tehnologiji-1987271",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/9e/f4/12533070fd7c4321e76f.jpeg",
+    "description": "Ukrajinske snage posljednjih mjeseci dobivaju novo oružje u tehnološkoj utrci s Rusijom – satelitske snimke koje do postrojbi na bojištu mogu stići gotovo u stvarnom vremenu.",
+    "published_at": "2026-08-18T08:16:00+00:00"
+  },
+  {
+    "id": "286ced51-f4a2-5a37-8687-f8f52d95327b",
+    "title": "Nikola Šafarić prokomentirao početak SHNL-a: 'Nakon Hajduka dobio sam benzina za dvije godine'",
+    "link": "https://sportnet.hr/vijesti/nogomet-supersport-hnl/nikola-safaric-prokomentirao-pocetak-shnl-a-nakon-hajduka-dobio-sam-benzina-za-dvije-godine/630652/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/525/30/0000000000525309_510_0.jpg",
+    "description": "Trener Varaždina Nikola Šafarić u razgovoru za Večernji list osvrnuo se na stopostotni prvenstveni učinak s tri pobjede, brzi oporavak nakon ispadanja iz Europe te najavio raste...",
+    "published_at": "2026-08-18T08:15:05+00:00"
+  },
+  {
+    "id": "4ea9f90b-a508-5ea1-813f-be4910d4d440",
+    "title": "Komplicira se velika prodaja Lakersa: Slavna obitelj u svađi",
+    "link": "https://www.tportal.hr/sport/clanak/komplicira-se-velika-prodaja-lakersa-slavna-obitelj-u-svadi-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2779961.jpeg?cropId=0",
+    "description": "Obitelj Buss, koja već više od 40 godina vodi Los Angeles Lakerse, podijeljena je oko ideje prodaje svog udjela u toj legendarnoj franšizi, samo tjedan dana nakon promjene većin...",
+    "published_at": "2026-08-18T08:15:00+00:00"
+  },
+  {
+    "id": "9dcdb7a0-2bfe-5b70-8e40-8cd14d727e3e",
+    "title": "Prodaje se stan s dvije spavaće sobe i pogled prema moru",
+    "link": "https://www.index.hr/shopping/clanak/prodaje-se-stan-s-dvije-spavace-sobe-i-pogled-prema-moru/2824846.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NEKRETNINE na koje se isplati obratiti pozornost.",
+    "published_at": "2026-08-18T08:13:00+00:00"
+  },
+  {
+    "id": "cd10727f-e90c-574c-aa36-10a73ae61714",
+    "title": "Korak koji mnogi preskaču, a može potpuno promijeniti domaću marmeladu",
+    "link": "https://www.index.hr/food/clanak/korak-koji-mnogi-preskacu-a-moze-potpuno-promijeniti-domacu-marmeladu/2824844.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "OTKRIJTE kako maceracija voća skraćuje kuhanje te domaćoj marmeladi osigurava bogatiji okus, intenzivnu boju i savršenu teksturu.",
+    "published_at": "2026-08-18T08:12:00+00:00"
+  },
+  {
+    "id": "cb86d39f-6c7b-5e5a-8cd5-875bbd904530",
+    "title": "Jugoslavija i Meksiko imali su slične 90-e. Suočili smo se s nasiljem i stvarnošću koje je prethodna generacija pokušala ignorirati",
+    "link": "https://www.vecernji.hr/kultura/jugoslavija-i-meksiko-imali-su-slicne-90-e-suocili-smo-se-s-nasiljem-i-stvarnoscu-koje-je-prethodna-generacija-pokusala-ignorirati-1987263",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/ee/5b/33c6f05a5693c0a64c47.jpeg",
+    "description": "Glumačka i redateljska zvijezda \"Andora\", \"Ratova zvijezda\" i kultnih klasika poput \"I tvoju mamu također\", u Sarajevu nam je govorio o svojim umjetničkim i političkim uvjerenjima",
+    "published_at": "2026-08-18T08:10:00+00:00"
+  },
+  {
+    "id": "65b59ebb-c446-593e-919c-c8a69c5cb220",
+    "title": "Skandal u Australiji: Zabrana društvenih mreža za mlađe od 16 temelji se na izmišljenim podacima?",
+    "link": "https://www.tportal.hr/tehno/clanak/skandal-u-australiji-zabrana-drustvenih-mreza-za-mlade-od-16-temelji-se-na-izmisljenim-podacima-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2766341.jpeg?cropId=0",
+    "description": "Kad je Australija krajem prošle godine donijela zakon kojim se uvodi zabrana korištenja društvenih mreža za mlađe od 16 godina, bila je prva država u svijetu koja je to napravil...",
+    "published_at": "2026-08-18T08:10:00+00:00"
+  },
+  {
+    "id": "fea3e068-ace3-5eae-9329-098a43cfbd05",
+    "title": "Cijeli život krivo ribate: Jednostavan trik s ribežom koji štedi ruke i sprječava nered u kuhinji",
+    "link": "https://www.tportal.hr/lifestyle/clanak/cijeli-zivot-krivo-ribate-jednostavan-trik-s-ribezom-koji-stedi-ruke-i-sprjecava-nered-u-kuhinji-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782790.jpeg?cropId=0",
+    "description": "Teško je zamisliti ijedno kućanstvo bez klasičnog četverostranog ribeža u kuhinjskom ormariću. Ovaj jednostavan metalni pribor generacijama je nezaobilazan saveznik u pripremi o...",
+    "published_at": "2026-08-18T08:10:00+00:00"
+  },
+  {
+    "id": "922c1237-a68c-58ac-ad8f-0e3c87a552d8",
+    "title": "Zadnja kolumna Vedrane Rudan para srce: ‘Doktorica Ivana je pukla. Nije više mogla izdržati patnje svojih kolegica...‘",
+    "link": "https://slobodnadalmacija.hr/vijesti/hrvatska/zadnja-kolumna-vedrane-rudan-para-srce-doktorica-ivana-je-pukla-nije-vise-mogla-izdrzati-patnje-svojih-kolegica-1574044",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32323878.jpg",
+    "description": "Naša britka novinarka i spisateljica Vedrana Rudan, koja je u 77. godini preminula nakon teške bolesti, o kojoj je otvoreno pisala, ni u najtežim danima nije odustajala od pisan...",
+    "published_at": "2026-08-18T08:09:00+00:00"
+  },
+  {
+    "id": "1fabe72d-d00a-583b-ba70-1693d4cf5b43",
+    "title": "Velika Gorica podiže ljestvicu: 45 posto zelenila kao standard višestambene gradnje",
+    "link": "https://www.vecernji.hr/vijesti/velika-gorica-podize-ljestvicu-45-posto-zelenila-kao-standard-visestambene-gradnje-1987275",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/7e/bd/5479dccfa1cde11c500f.jpeg",
+    "description": "Velika Gorica nastavit će se razvijati i privlačiti nove stanovnike, no pritom će, ističe Ačkar, posebna pozornost biti posvećena kvaliteti i standardima buduće izgradnje.",
+    "published_at": "2026-08-18T08:07:00+00:00"
+  },
+  {
+    "id": "5e52557e-f0b1-5d40-b188-e0d9f26a8813",
+    "title": "FOTO Posjetio je sve države na svijetu, kaže da je ovo najgorih 20 gradova: Biste li ih posjetili?",
+    "link": "https://www.24sata.hr/fun/foto-posjetio-je-sve-drzave-na-svijetu-kaze-da-je-ovo-najgorih-20-gradova-biste-li-ih-posjetili-1148058",
+    "source": "24sata",
+    "image_url": "https://img.24sata.hr/heRJpZrajkDFlgxnDb9lmmx0uOs=/800x450/smart/media/images/2026-33/dizajn-bez-naslova-9_Xc1b6tZ.jpg",
+    "description": "Proputovao je cijeli svijet, neki su ga gradovi oduševili, a neki.. I ne baš. Drew Binsky američki je putopisac i YouTuber koji je posjetio sve države na svijetu. Jedan je od na...",
+    "published_at": "2026-08-18T08:05:00+00:00"
+  },
+  {
+    "id": "0a7dba7e-08f6-5004-8b53-196f06344275",
+    "title": "Studija: Piloti i stjuardese izlažu se kozmičkom zračenju i češće oboljevaju od raka",
+    "link": "https://www.tportal.hr/tehno/clanak/studija-piloti-i-stjuardese-izlazu-se-kozmickom-zracenju-i-cesce-oboljevaju-od-raka-20260818",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782789.jpeg?cropId=0",
+    "description": "Novo istraživanje pokazuje da piloti i članovi kabinskog osoblja imaju najveći udio smrti od karcinoma povezanih sa zračenjem među stotinama analiziranih zanimanja u SAD-u",
+    "published_at": "2026-08-18T08:05:00+00:00"
+  },
+  {
+    "id": "a8d08e11-b38f-5467-abe9-039f51de8688",
+    "title": "Spider-Man: Novo doba prešao dvije milijarde dolara utrška i postao najunosniji film Sony Picturesa",
+    "link": "https://magnet.bug.hr/film/spider-man-novo-doba-presao-dvije-milijarde-dolara-utrska-i-postao-najunosniji-62161",
+    "source": "Bug.hr",
+    "image_url": "https://magnet.bug.hr/img/spider-man-novo-doba-presao-dvije-milijarde-dolara-utrska-i-postao-najunosniji_ZlHnGl.png",
+    "description": "Uz najjače ljeto od pandemije i godišnji utržak koji se primiče deset milijardi dolara, Hollywood bilježi rekordan oporavak, a tom rezultatu ključno pomaže najnoviji Spider-Man",
+    "published_at": "2026-08-18T08:05:00+00:00"
+  },
+  {
+    "id": "f3c3587e-6338-5857-b99e-44801db09867",
+    "title": "Općina Dugi Rat o upozorenju na vozilu DVD-a Omiš: \"Nije bila riječ o kažnjavanju vatrogasaca\"",
+    "link": "https://www.dalmacijadanas.hr/opcina-dugi-rat-o-upozorenju-na-vozilu-dvd-a-omis-nije-bila-rijec-o-kaznjavanju-vatrogasaca/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2024/06/vatrogasci-ilustracija-34.jpg",
+    "description": "Tvrde da nije bilo vidljivo da je vozilo u intervenciji",
+    "published_at": "2026-08-18T08:04:50+00:00"
+  },
+  {
+    "id": "98530a7c-2d46-54a6-9acd-0e222d11d6bc",
+    "title": "U Rijeci preventivno čiste slivnike zbog najavljenih obilnijih oborina",
+    "link": "https://www.fiuman.hr/u-rijeci-preventivno-ciste-slivnike-zbog-najavljenih-obilnijih-oborina/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Zbog najavljenih oborina, ekipe KD Vodovod i kanalizacija Rijeka preventivno su krenule s čišćenjem slivnika na više lokacija u gradu kako bi se osigurala što bolja protočnost s...",
+    "published_at": "2026-08-18T08:04:23+00:00"
+  },
+  {
+    "id": "40842970-427f-51d8-85ef-4f9e94ffba87",
+    "title": "BBB slavi 40. rođendan, Boban uputio emotivnu poruku: 'Zbog vas imamo Dinamo kakav smo godinama sanjali'",
+    "link": "https://sportnet.hr/vijesti/nogomet-supersport-hnl/bbb-slavi-40-rodjendan-boban-uputio-emotivnu-poruku-zbog-vas-imamo-dinamo-kakav-smo-godinama-sanjali/630650/",
+    "source": "Sportnet.hr",
+    "image_url": "https://sportnet.hr/photos/_resized/519/67/0000000000519672_510_0.jpg",
+    "description": "Navijačka skupina Bad Blue Boys obilježava 40 godina od svog osnutka, a povodom velikog jubileja posebnom se porukom oglasio predsjednik Dinama Zvonimir Boban...",
+    "published_at": "2026-08-18T08:04:17+00:00"
+  },
+  {
+    "id": "2c8151a0-12ae-530a-a95c-3a9f2cf3c863",
+    "title": "Ovako je pisala Vedrana Rudan: \"Ovo je zemlja krvi i idiota\"",
+    "link": "https://www.index.hr/vijesti/clanak/ovako-je-pisala-vedrana-rudan-ovo-je-zemlja-krvi-i-idiota/2824808.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "BESKOMPROMISNA Vedrana Rudan oštrim je i često vulgarnim stilom godinama secirala hrvatsku politiku, moćne elite i duboko ukorijenjeno licemjerje.",
+    "published_at": "2026-08-18T08:03:00+00:00"
   },
   {
     "id": "d48f4771-4f57-56e4-9764-e98e86641068",
@@ -15,6 +708,15 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "HRVATSKA spisateljica Vedrana Rudan preminula je u 77. godini.",
+    "published_at": "2026-08-18T08:01:00+00:00"
+  },
+  {
+    "id": "0f6b3df8-5fbb-5066-9922-95395d0671d6",
+    "title": "Anne Hathaway otkrila što jede i kako je odustala od veganstva i alkohola",
+    "link": "https://www.index.hr/food/clanak/anne-hathaway-otkrila-sto-jede-i-kako-je-odustala-od-veganstva-i-alkohola/2824826.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "ANNE Hathaway otkriva zašto je odustala od veganstva i alkohola, njezinu ljubav prema desertima te ekstremnu dijetu za ulogu u Jadnicima.",
     "published_at": "2026-08-18T08:01:00+00:00"
   },
   {
@@ -73,11 +775,11 @@
   },
   {
     "id": "780914c4-0bbc-5deb-b618-6e5aff4a2d50",
-    "title": "Krenuli ste na put? Zatvoren je važan tunel za sav promet",
+    "title": "Krenuli ste na put? Evo kakvo je stanje na cestama",
     "link": "https://www.tportal.hr/vijesti/clanak/krenuli-ste-na-put-zatvoren-je-vazan-tunel-za-sav-promet-20260818",
     "source": "Tportal",
     "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782788.jpeg?cropId=0",
-    "description": "Tunel Sveti Ilija zatvoren je jutros za sav promet zbog vozila u kvaru. Prema najnovijim informacijama Hrvatskog autokluba (HAK), promet je prekinut u oba smjera.",
+    "description": "Tunel Sveti Ilija jutros je bio nakratko zatvoren za sav promet zbog vozila u kvaru. Prema najnovijim informacijama Hrvatskog autokluba (HAK), promet je bio prekinut u oba smjera",
     "published_at": "2026-08-18T08:00:00+00:00"
   },
   {
@@ -108,13 +810,22 @@
     "published_at": "2026-08-18T07:59:00+00:00"
   },
   {
-    "id": "856d9560-934b-5e05-bc3d-c6b2eeb0356b",
+    "id": "60c118cd-25fb-5106-9ef9-fce620de7662",
     "title": "Što se događa? Splićane jutros uznemirio gust dim: ‘Disat se ne može!‘ Zvali smo vatrogasce, evo o čemu je riječ",
-    "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/sto-se-dogada-splicane-jutros-uznemirio-gust-dim-disat-se-ne-moze-zvali-smo-vatrogasce-evo-o-cemu-je-rijec-1574043",
+    "link": "https://slobodnadalmacija.hr/split-i-zupanija/split/sto-se-dogada-splicane-jutros-uznemirio-gust-dim-disat-se-ne-moze-zvali-smo-vatrogasce-evo-o-cemu-je-rijec-1574043",
     "source": "Slobodna Dalmacija",
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32301948.jpg",
     "description": "U iščekivanju najavljenog osvježenja, šire splitsko područje i njegovo zaleđe jutros je osvanulo pod gustim dimom i neugodnim smradom. Iako izvor paljevine na širem području Spl...",
     "published_at": "2026-08-18T07:58:00+00:00"
+  },
+  {
+    "id": "c8ad446c-66e4-541b-8cf5-88a2ce846f19",
+    "title": "Rinčić čestitala riječkim sportašima nakon velikih međunarodnih uspjeha",
+    "link": "https://www.fiuman.hr/rincic-cestitala-rijeckim-sportasima-nakon-velikih-medunarodnih-uspjeha/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Riječka gradonačelnica Iva Rinčić uputila je čestitke riječkim sportašima koji su proteklih dana ostvarili velike rezultate na međunarodnoj sceni. Posebno je istaknula europsko ...",
+    "published_at": "2026-08-18T07:57:49+00:00"
   },
   {
     "id": "200f2a19-126c-5d07-be37-618e1a5b8575",
@@ -149,7 +860,7 @@
     "link": "https://www.tportal.hr/vijesti/clanak/svi-se-zagledali-u-trumpovu-straznjicu-neobican-oblik-potaknuo-nagadanja-o-njegovu-zdravlju-20260818",
     "source": "Tportal",
     "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782776.jpeg?cropId=0",
-    "description": "Misteriozna izbočina uočena je na snimci gdje je američki predsjednik hodao prema okupljenima, a četvrtasti oblik je stajao nepomično prilikom njegova kretanja",
+    "description": "Misteriozna izbočina uočena je u snimci američkog predsjednika dok je hodao, a četvrtasti oblik koji je stršao bio je nepomičan prilikom njegova kretanja",
     "published_at": "2026-08-18T07:54:00+00:00"
   },
   {
@@ -199,7 +910,7 @@
   },
   {
     "id": "cab79262-b3da-5c4f-b825-e7c83608a8a2",
-    "title": "Otišao je iz Hrvatske 1993., a danas igra protiv Dinama: Malo je toga gore od rata",
+    "title": "Izbjegao je devedesetih i zlostavljan je jer je Hrvat. Danas igra protiv Dinama",
     "link": "https://www.index.hr/sport/clanak/otisao-je-iz-hrvatske-1993-a-danas-igra-protiv-dinama-malo-je-toga-gore-od-rata/2824813.aspx",
     "source": "Index.hr",
     "image_url": null,
@@ -244,7 +955,7 @@
   },
   {
     "id": "28aa47be-f038-52b0-9a9d-f60c1080634d",
-    "title": "VIDEO Navijač Juvea pokosio zvijezdu momčadi. Gazzetta: Ubojit start i strašan rizik",
+    "title": "VIDEO Invazija navijača Juventusa. Ultras s leđa pokosio zvijezdu momčadi",
     "link": "https://www.index.hr/sport/clanak/video-navijac-juvea-pokosio-zvijezdu-momcadi-gazzetta-ubojit-start-i-strasan-rizik/2824815.aspx",
     "source": "Index.hr",
     "image_url": null,
@@ -315,9 +1026,9 @@
     "published_at": "2026-08-18T07:45:00+00:00"
   },
   {
-    "id": "8d5ef04d-d7b0-50ae-a944-128cbe13824e",
-    "title": "Suptilni znakovi koji otkrivaju da vašem tijelu nedostaje kalcija",
-    "link": "https://www.index.hr/fit/clanak/suptilni-znakovi-koji-otkrivaju-da-vasem-tijelu-nedostaje-kalcija/2824822.aspx",
+    "id": "e01ed2a0-cc04-5398-93f8-316d48dd57d2",
+    "title": "Hipokalcemija: Prepoznajte simptome manjka kalcija na vrijeme",
+    "link": "https://www.index.hr/fit/clanak/hipokalcemija-prepoznajte-simptome-manjka-kalcija-na-vrijeme/2824822.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "MANJAK kalcija (hipokalcemija) uzrokuje suptilne simptome poput grčeva, trnaca i umora.",
@@ -348,6 +1059,15 @@
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/5c/3a/78b66219aa1ba96e3c90.jpeg",
     "description": "Obitelj Krznar ima plantažu lješnjaka koja se prostire na nekoliko parcela na 20 hektara",
+    "published_at": "2026-08-18T07:42:00+00:00"
+  },
+  {
+    "id": "42623a97-e1ad-55da-979a-388d61093a94",
+    "title": "Loris Peršurić: Dok je SDP-u najvažnije preuzimanje fotelja, IDS bira sigurnost i zdravlje građana",
+    "link": "https://www.regionalexpress.hr/site/loris-pershuri-dok-je-sdp-u-najvazhnije-preuzimanje-fotelja-ids-bira-sigurnost-i-zdravlje-graana",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "U CIJELOSTI PRENOSIMO PRIOPĆENJE IDS-A Danas je g. Hajda&scaron; Dončić u razgovoru s novinarkom RTL-a izjavio da je od sanacije ekolo&scaron;ke katastrofe u Gospiću važniji opo...",
     "published_at": "2026-08-18T07:42:00+00:00"
   },
   {
@@ -387,6 +1107,24 @@
     "published_at": "2026-08-18T07:40:00+00:00"
   },
   {
+    "id": "9cd508f1-3d34-5a3a-9ffb-4ae224fbf535",
+    "title": "\"Koliko ljepote je ostalo iza davno nestalog grada\": Čudesno mjesto koje vas čeka u Hercegovini",
+    "link": "https://punkufer.dnevnik.hr/clanak/putovanja/koliko-ljepote-iza-davno-nestalog-grada-cudesno-mjesto-koje-vas-ceka-u-hercegovini---996544.html",
+    "source": "Punkufer.hr",
+    "image_url": null,
+    "description": "",
+    "published_at": "2026-08-18T07:40:00+00:00"
+  },
+  {
+    "id": "f78074af-68b3-5d1d-a836-36f056ae40ae",
+    "title": "\"Koliko ljepote je ostalo iza davno nestalog grada\": Čudesno mjesto koje vas čeka u Hercegovini",
+    "link": "https://punkufer.dnevnik.hr/clanak/putovanja/grad-daorson-bosna-i-hercegovina---996544.html",
+    "source": "Punkufer.hr",
+    "image_url": null,
+    "description": "",
+    "published_at": "2026-08-18T07:40:00+00:00"
+  },
+  {
     "id": "13c8be25-2931-5c40-bbb5-e46cbed7dbf3",
     "title": "Kultni triler koji je dobio tri nominacije za Oscara i postao filmski klasik",
     "link": "https://www.index.hr/chill/clanak/kultni-triler-koji-je-s-budzetom-od-dva-milijuna-dolara-postao-hit/2824821.aspx",
@@ -414,6 +1152,15 @@
     "published_at": "2026-08-18T07:38:00+00:00"
   },
   {
+    "id": "1e6ce154-f2ca-5e26-8a51-3c0a0380a627",
+    "title": "Nizozemka s 2,28 promila autom došla na prugu i udarila u željezničke vagone u riječkoj luci",
+    "link": "https://www.fiuman.hr/nizozemka-s-228-promila-autom-dosla-na-prugu-i-udarila-u-zeljeznicke-vagone-u-rijeckoj-luci/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Na prometnicama na području Policijske uprave primorsko-goranske proteklog tjedna dogodilo se 128 prometnih nesreća, od kojih je 9 bilo težih, a 119 lakših prometnih nesreća. U ...",
+    "published_at": "2026-08-18T07:36:22+00:00"
+  },
+  {
     "id": "1ff18bd1-c192-598e-aef3-1ad8d69c4fb5",
     "title": "Bukti rat Melanie s plavokosom pomoćnicom: 'Kampirala' u ženskoj svlačionici da mu bude što bliže?",
     "link": "https://www.vecernji.hr/vijesti/bukti-rat-melanie-s-plavokosom-pomocnicom-kampirala-u-zenskoj-svlacionici-da-mu-bude-sto-blize-1987261",
@@ -432,15 +1179,6 @@
     "published_at": "2026-08-18T07:34:02+00:00"
   },
   {
-    "id": "6bfdec6d-d5f0-5771-b797-9093d35f7c78",
-    "title": "Iskra gradi novo vatrogasno plovilo: Potpisan ugovor od preko dva milijuna eura",
-    "link": "https://www.tportal.hr/vijesti/clanak/iskra-gradi-novo-vatrogasno-plovilo-potpisan-ugovor-od-preko-dva-milijuna-eura-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782760.jpeg?cropId=0",
-    "description": "Šibensko Iskra brodogradilište i Vatrogasna zajednica Zadarske županije potpisali su ugovor o projektiranju, izgradnji i isporuci novog vatrogasnog plovila namijenjenog djelovan...",
-    "published_at": "2026-08-18T07:34:00+00:00"
-  },
-  {
     "id": "96068943-5fc6-5984-8fd4-409e5ce7b86b",
     "title": "Salma Hayek postala je baka: Pohvalila se preslatkim videom",
     "link": "https://www.24sata.hr/show/salma-hayek-postala-je-baka-pohvalila-se-preslatkim-videom-1148047",
@@ -450,17 +1188,17 @@
     "published_at": "2026-08-18T07:33:00+00:00"
   },
   {
-    "id": "8ed78f74-feca-57dc-b457-c45d21c1d715",
-    "title": "Norvežani obišli Maksimir pa ostali zatečeni: 'Ovdje doslovno leži cigla, sve se raspada'",
-    "link": "https://www.tportal.hr/sport/clanak/norvezani-obisli-maksimir-pa-ostali-zateceni-ovdje-doslovno-lezi-cigla-sve-se-raspada-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782759.jpeg?cropId=0",
-    "description": "Norveški novinari obišli su Maksimir uoči večerašnjeg susreta Dinama i Vikinga, a stanje zagrebačkog stadiona očito ih je poprilično iznenadilo.",
-    "published_at": "2026-08-18T07:33:00+00:00"
+    "id": "5d7a75fb-d7e0-5088-a1bf-74607c648dea",
+    "title": "Sevdah u srcu Matulja: Ove nedjelje u Amfiteatru nastupa Amira Medunjanin",
+    "link": "https://www.fiuman.hr/sevdah-u-srcu-matulja-ove-nedjelje-u-amfiteatru-nastupa-amira-medunjanin/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "U nedjelju, 23. kolovoza 2026., u 21:00 sat, Amfiteatar u Matuljima ugostit će jednu od najistaknutijih interpretatorica sevdaha današnjice – Amiru Medunjanin. Amira Medunjanin ...",
+    "published_at": "2026-08-18T07:32:54+00:00"
   },
   {
     "id": "38c1578c-ce54-5212-a397-edd4444f44d7",
-    "title": "Reakcije na smrti Vedrane Rudan: \"Sjećat ćemo je se kao neustrašive i lucidne\"",
+    "title": "Reakcije na smrt Vedrane Rudan: \"Sjećat ćemo je se kao neustrašive i lucidne\"",
     "link": "https://www.index.hr/magazin/clanak/reakcije-na-smrti-vedrane-rudan-sjecat-cemo-je-se-kao-neustrasive-i-lucidne/2824827.aspx",
     "source": "Index.hr",
     "image_url": null,
@@ -486,15 +1224,6 @@
     "published_at": "2026-08-18T07:30:00+00:00"
   },
   {
-    "id": "1af04367-8ea5-5a82-8c9d-c1d45f056a74",
-    "title": "'Da sam bogata, dala bih im sve': U posljednjem tekstu prije smrti Rudan ogolila sustav i pozvala na otpor",
-    "link": "https://www.tportal.hr/showtime/clanak/da-sam-bogata-dala-bih-im-sve-u-posljednjem-tekstu-prije-smrti-rudan-ogolila-sustav-i-pozvala-na-otpor-foto-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782758.jpeg?cropId=4233882",
-    "description": "U svom prepoznatljivom, beskompromisnom stilu, Vedrana Rudan je u posljednjem zapisu na blogu Djevojka u zagrljaju metasta, objavljenom 26. srpnja progovorila o vlastitoj nemoći...",
-    "published_at": "2026-08-18T07:30:00+00:00"
-  },
-  {
     "id": "3d865346-834f-5577-8250-8790889d80db",
     "title": "FOTO Pogledajte kako su prije 17 godina Beyonce i Jay-Z uživali na jahti u Dubrovniku",
     "link": "https://www.24sata.hr/show/foto-pogledajte-kako-su-prije-17-godina-beyonce-i-jay-z-uzivali-na-jahti-u-dubrovniku-1148046",
@@ -510,15 +1239,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "ZARA Home predstavlja novu \"Home Office\" kolekciju.",
-    "published_at": "2026-08-18T07:28:00+00:00"
-  },
-  {
-    "id": "ebe904fe-83d5-5771-8527-ed1ca7bd8075",
-    "title": "Oštre optužbe iz Ukrajine: 'Sustav podsjeća na prakse nacističkih koncentracijskih logora'",
-    "link": "https://www.vecernji.hr/vijesti/ostre-optuzbe-iz-ukrajine-sustav-podsjeca-na-prakse-nacistickih-koncentracijskih-logora-1987257",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/6f/2f/9686c71ea91579becb46.jpeg",
-    "description": "\"Zabilježeni su slučajevi kada je ruska policija zaustavljala strance, uključujući studente i radne migrante, te provjeravala imaju li brojeve\", dodaju Ukrajinci",
     "published_at": "2026-08-18T07:28:00+00:00"
   },
   {
@@ -594,22 +1314,13 @@
     "published_at": "2026-08-18T07:23:00+00:00"
   },
   {
-    "id": "0732f8c2-20b2-5d66-87ed-3cd62e2f19bc",
-    "title": "VIDEO Veliki morski pas snimljen kod Žirja, ribari tvrde: Bio je duži od tri metra",
-    "link": "https://www.tportal.hr/vijesti/clanak/video-veliki-morski-pas-snimljen-kod-zirja-ribari-tvrde-bio-je-duzi-od-tri-metra-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782757.jpeg?cropId=0",
-    "description": "Neobičan susret na moru zabilježila je ekipa trgovine specijalizirane za ribolovnu opremu",
-    "published_at": "2026-08-18T07:23:00+00:00"
-  },
-  {
-    "id": "6a24e7a5-e939-5dff-b392-90d21706b094",
-    "title": "Hajduk je doveo novog igrača, a je li on pojačanje? Evo što o njemu kaže bivši izbornik Zmajeva",
-    "link": "https://www.tportal.hr/sport/clanak/hajduk-je-doveo-novog-igraca-a-je-li-on-pojacanje-evo-sto-o-njemu-kaze-bivsi-izbornik-zmajeva-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782755.jpeg?cropId=4233863",
-    "description": "Splitski Hajduk u ponedjeljak kasno navečer potvrdio je dolazak BiH reprezentativca Dennisa Hadžikadunića",
-    "published_at": "2026-08-18T07:23:00+00:00"
+    "id": "4bc4e0a4-898b-5934-8a1d-5355a27fcd20",
+    "title": "Preminula je riječka književnica Vedrana Rudan: Otišla je na “područje bez signala”",
+    "link": "https://www.fiuman.hr/preminula-je-rijecka-knjizevnica-vedrana-rudan-otisla-je-na-podrucje-bez-signala/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Preminula je Vedrana Rudan, jedna od najpoznatijih i najprovokativnijih hrvatskih književnica, novinarki i kolumnistica. Rudan je rođena 29. listopada 1949. godine u Opatiji, a ...",
+    "published_at": "2026-08-18T07:22:28+00:00"
   },
   {
     "id": "6baea71d-8707-5934-a93e-698a3965fc15",
@@ -675,15 +1386,6 @@
     "published_at": "2026-08-18T07:20:00+00:00"
   },
   {
-    "id": "fc49dd65-de04-5bb5-9e85-dce063a5d3ff",
-    "title": "FOTO Ivica Kostelić opet u akciji! Ono što je pronašao duboko u mljetskoj divljini mnoge je ostavilo bez riječi",
-    "link": "https://slobodnadalmacija.hr/mozaik/panorama/ivica-kostelic-opet-u-akciji-ono-sto-je-pronasao-duboko-u-mljetskoj-divljini-mnoge-je-ostavilo-bez-rijeci-1574038",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/31602624.jpg",
-    "description": "Ivica Kostelić pokazao je da mu očuvanje prirode nije samo usputni interes, nego dugogodišnja misija. Proslavljeni hrvatski skijaš na društvenim je mrežama podijelio fotografije...",
-    "published_at": "2026-08-18T07:19:41+00:00"
-  },
-  {
     "id": "e059633c-fdc1-511a-96f0-39e128725575",
     "title": "Što je to ispod Trumpovog sakoa? Širi se viralna snimka",
     "link": "https://www.index.hr/vijesti/clanak/sto-je-to-ispod-trumpovih-hlaca-siri-se-viralna-snimka/2824816.aspx",
@@ -699,6 +1401,24 @@
     "source": "24sata",
     "image_url": "https://img.24sata.hr/8mxh2vKmIlkdovlOR7l4aNwuPp0=/800x450/smart/media/images/2026-33/pxl-180826-156885072_luzP1tv.jpg",
     "description": "Voditeljica Jovana Jeremić izašla je iz klinike u kojoj su joj povećali grudi. Ispričala je kako jedva čeka vidjeti reakciju svojih gostiju u emisiji. 'Svi su na prvu rekli da d...",
+    "published_at": "2026-08-18T07:19:00+00:00"
+  },
+  {
+    "id": "fc88bc4e-dab7-5bd3-94cd-2c64a0d351ae",
+    "title": "Ivica Kostelić opet u akciji! Ono što je pronašao duboko u otočnoj divljini mnoge je ostavilo bez riječi",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/zupanija/dubrovnik/foto-ivica-kostelic-opet-u-akciji-ono-sto-je-pronasao-duboko-u-mljetskoj-divljini-mnoge-je-ostavilo-bez-rijeci-1574048",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/31602624.jpg",
+    "description": "Ivica Kostelić pokazao je da mu očuvanje prirode nije samo usputni interes, nego dugogodišnja misija. Proslavljeni hrvatski skijaš na društvenim je mrežama podijelio fotografije...",
+    "published_at": "2026-08-18T07:19:00+00:00"
+  },
+  {
+    "id": "2318a4d6-16bb-58f7-ba60-b51415cefdb8",
+    "title": "FOTO Ivica Kostelić opet u akciji! Ono što je pronašao duboko u mljetskoj divljini mnoge je ostavilo bez riječi",
+    "link": "https://slobodnadalmacija.hr/mozaik/panorama/foto-ivica-kostelic-opet-u-akciji-ono-sto-je-pronasao-duboko-u-mljetskoj-divljini-mnoge-je-ostavilo-bez-rijeci-1574038",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/31602624.jpg",
+    "description": "Ivica Kostelić pokazao je da mu očuvanje prirode nije samo usputni interes, nego dugogodišnja misija. Proslavljeni hrvatski skijaš na društvenim je mrežama podijelio fotografije...",
     "published_at": "2026-08-18T07:19:00+00:00"
   },
   {
@@ -729,24 +1449,6 @@
     "published_at": "2026-08-18T07:17:00+00:00"
   },
   {
-    "id": "8e40eac8-71f4-5b77-840f-37d845757402",
-    "title": "Slavonski grad dobiva spas od vrućina: Mogu se besplatno kupati na novim bazenima",
-    "link": "https://www.tportal.hr/vijesti/clanak/slavonski-grad-dobiva-spas-od-vrucina-mogu-se-besplatno-kupati-na-novim-bazenima-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782754.jpeg?cropId=0",
-    "description": "Novi vanjski bazeni u vinkovačkom naselju Lenije otvaraju se u srijedu, izvijestili su iz Grada Vinkovaca dodajući kako će do kraja ljetne sezone za sve građane kupanje biti bes...",
-    "published_at": "2026-08-18T07:16:00+00:00"
-  },
-  {
-    "id": "80e0d24b-6829-5cfd-b5d5-97573d3a5fb8",
-    "title": "Mourinho je povukao ključan potez: Ovako bi trebao izgledati novi Real",
-    "link": "https://www.tportal.hr/sport/clanak/mourinho-je-povukao-kljucan-potez-ovako-bi-trebao-izgledati-novi-real-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2779329.jpeg?cropId=0",
-    "description": "Jose Mourinho imao je šest utakmica kako bi testirao momčad prije prvenstvenog otvaranja protiv Espanyola, a Real Madrid pripreme završava bez poraza - s pet pobjeda i jednim re...",
-    "published_at": "2026-08-18T07:16:00+00:00"
-  },
-  {
     "id": "3fd5e704-c21e-5f2f-a19e-dfa55bfe27bd",
     "title": "Vejić nakon utakmice Gorice i Hajduka: 'Pratim nogomet cijeli život, ali nešto ovakvo stvarno nisam vidio'",
     "link": "https://sportnet.hr/vijesti/nogomet-supersport-hnl/vejic-nakon-utakmice-gorice-i-hajduka-pratim-nogomet-cijeli-zivot-ali-nesto-ovakvo-stvarno-nisam-vidio/630649/",
@@ -774,31 +1476,13 @@
     "published_at": "2026-08-18T07:14:00+00:00"
   },
   {
-    "id": "393f8ac1-c361-5fc7-822e-059975b5cb34",
-    "title": "Svaki korak na Ekotlonu ove godine pomaže djeci i osobama s invaliditetom",
-    "link": "https://www.24sata.hr/native-sadrzaj/svaki-korak-na-ekotlonu-ove-godine-pomaze-djeci-i-osobama-s-invaliditetom-1146022",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/JcauUM4PillsIX2o0Fwc01f7M44=/800x450/smart/media/images/2026-31/soba-cuda-senzorna-terapija.jpeg",
-    "description": "Udruga osoba s invaliditetom Sisačko-moslavačke županije više od 20 godina pruža podršku djeci, mladima i odraslima. Kroz terapije, osobnu asistenciju i projekte mijenja korisni...",
-    "published_at": "2026-08-18T07:14:00+00:00"
-  },
-  {
-    "id": "b2c1db97-2855-5305-a7f2-0e049b0562bd",
-    "title": "'Bila sam prestravljena i paničarila sam. Nisam jasno razmišljala':  Na Tik Toku kroz suze otkrila kako su je prevaranti opljačkali",
-    "link": "https://www.vecernji.hr/showbiz/bila-sam-prestravljena-i-panicarila-sam-nisam-jasno-razmisljala-na-tik-toku-kroz-suze-otkrila-kako-su-je-prevaranti-opljackali-1987248",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/c6/34/a982deb849c187b10e37.jpg",
-    "description": "Iako je Morgan bila uvjerena da razgovara s pravim policajcima, korisnici TikToka brzo su uočili brojne znakove za uzbunu. \"Policajac koji traži jamčevinu preko PayPala\", glasio...",
+    "id": "ecfebf35-2075-5648-af1a-0126088e57bd",
+    "title": "BRAVE Combat Federation stiže u Hrvatsku! Spektakl u pulskoj Areni",
+    "link": "https://www.regionalexpress.hr/site/brave-combat-federation-stizhe-u-hrvatsku-spektakl-u-pulskoj-areni",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "ARENA PULA, 5. RUJAN 2026. POGLEDAJTE FIGHT CARD Nova stranica europske povijesti mje&scaron;ovitih borilačkih sportova bit će ispisana 5. rujna, kada će BRAVE Combat Federation...",
     "published_at": "2026-08-18T07:13:00+00:00"
-  },
-  {
-    "id": "56cf0e34-25e9-5e85-a8c9-bed4b5ba44c2",
-    "title": "Ukrajina ostala bez ključnog aduta u obrani: 'Rakete lete, a vi ne možete ništa'",
-    "link": "https://www.tportal.hr/vijesti/clanak/ukrajina-ostala-bez-kljucnog-aduta-u-obrani-rakete-lete-a-vi-ne-mozete-nista-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2558618.jpeg?cropId=4187249",
-    "description": "Srpanj je bio najsmrtonosniji mjesec za civile u Ukrajini još od svibnja 2022. godine. Rusi uspijevaju projektilima gađati ukrajinske gradove zbog nestašice raketa Patriot. Iako...",
-    "published_at": "2026-08-18T07:12:00+00:00"
   },
   {
     "id": "ac29821b-4750-5bab-add4-83c6d968679f",
@@ -819,30 +1503,12 @@
     "published_at": "2026-08-18T07:09:34+00:00"
   },
   {
-    "id": "32abce26-e875-5f2a-9833-7b9e2b222b86",
-    "title": "Umrla je Vedrana Rudan",
-    "link": "https://www.dalmacijadanas.hr/umrla-je-vedrana-rudan/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/PXL_051219_27055725.jpg",
-    "description": "Vedrana Rudan rođena je 29. listopada 1949. godine u Opatiji, a odrasla je u Mošćeničkoj Dragi. Završila je studij hrvatskog i njemačkog jezika na Pedagoškoj akademiji u Rijeci",
-    "published_at": "2026-08-18T07:07:49+00:00"
-  },
-  {
     "id": "86267cbd-d62d-5db2-b536-b52a59583e41",
     "title": "Kako prepoznati da je dijete emocionalno preopterećeno, iako je tiho?",
     "link": "https://www.index.hr/mame/clanak/kako-prepoznati-da-je-dijete-emocionalno-preoptereceno-iako-je-tiho/2824799.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "KAD RODITELJI opisuju reaktivno dijete, najčešće govore o buci - vikanju, plakanju, lupanju vratima ili bacanju stvari.",
-    "published_at": "2026-08-18T07:07:00+00:00"
-  },
-  {
-    "id": "7f30e4d1-5f0f-56b6-84d6-646f5d10fef3",
-    "title": "AU, KOJI POSAO Nosio je lopte, Hazard ga 'cipelario', a sad će okrenuti stotine milijuna funti!",
-    "link": "https://www.24sata.hr/sport/au-koji-posao-nosio-je-lopte-hazard-ga-cipelario-a-sad-ce-okrenuti-milijune-na-votki-1148041",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/5w9LaHzUkbWKdNWL2AHQnuGietg=/800x450/smart/media/images/2026-33/profimedia-0152195700_Seh8u01.jpg",
-    "description": "Hazard ga je nekad udario, a danas Charlie Morgan broji milijune: bivši skupljač lopti blizu je prodaje svog biznisa sa zlatnom votkom (Au votka) za 500 milijuna funti!",
     "published_at": "2026-08-18T07:07:00+00:00"
   },
   {
@@ -855,42 +1521,6 @@
     "published_at": "2026-08-18T07:05:25+00:00"
   },
   {
-    "id": "3405eb9d-13eb-5415-a5ed-dfe51c739395",
-    "title": "Branitelji nezadovoljni dodatkom: 'Dan u rovu pod granatama vrijedi kao jedna plastična boca!'",
-    "link": "https://www.tportal.hr/vijesti/clanak/branitelji-nezadovoljni-dodatkom-dan-u-rovu-pod-granatama-vrijedi-kao-jedna-plasticna-boca-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/1983519.jpeg?cropId=0",
-    "description": "Izmjene i dopune Zakona o pravima hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji (ZOHBDR) te Zakona o pravima iz mirovinskog osiguranja djelatnih vojnih os...",
-    "published_at": "2026-08-18T07:05:00+00:00"
-  },
-  {
-    "id": "eacda6a6-6476-5374-9a8d-38693f8f9e3d",
-    "title": "KVIZ Da vas vidimo, majstorice i majstori: Tko može prepoznati sve ove zastave? Neće biti lako!",
-    "link": "https://www.24sata.hr/fun/kviz-da-vas-vidimo-majstorice-i-majstori-tko-moze-prepoznati-sve-ove-zastave-nece-biti-lako-1148039",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/MTwsr3pSWtxYQCqjv9UxItjSJiE=/800x450/smart/media/images/2026-33/dizajn-bez-naslova-8.jpg",
-    "description": "Pripremili smo za vas novi kviz/galeriju. Na prvoj fotki imate zastavu neke države, na vama je da prepoznate koje, na idućoj fotki čeka vas odgovor, i tako dalje... Mislite da i...",
-    "published_at": "2026-08-18T07:04:00+00:00"
-  },
-  {
-    "id": "37164024-94a7-58a7-86b0-e5f1d6dfed27",
-    "title": "Policajac otkrio što mu je Tupac rekao neposredno prije smrti",
-    "link": "https://www.24sata.hr/show/policajac-otkrio-sto-mu-je-tupac-rekao-neposredno-prije-smrti-1148040",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/tS62yUaE9somhQgBrQwKlfpIN7A=/800x450/smart/media/images/2020-02/maxresdefault-1.jpg",
-    "description": "Duane 'Keffe D' Davis optužen je da je 1996. ubio 25-godišnjeg repera. Jučer mu je počelo suđenje, a svjedočili su policajac koji je bio na mjestu događaja i žena koja se skoro ...",
-    "published_at": "2026-08-18T07:04:00+00:00"
-  },
-  {
-    "id": "9190b4d1-35e5-5d7e-a3ec-8904040577fe",
-    "title": "Memorijski uređaj koji troši 100 puta manje energije? Tajna se skriva u DNK",
-    "link": "https://www.tportal.hr/tehno/clanak/memorijski-uredaj-koji-trosi-100-puta-manje-energije-tajna-se-skriva-u-dnk-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782752.jpeg?cropId=0",
-    "description": "Znanstvenici su otkrili kako iskoristiti snagu DNK u kombinaciji s poluvodičem i stvorili memorijski uređaj koji bi, u budućnosti, mogao revolucionirati računala",
-    "published_at": "2026-08-18T07:04:00+00:00"
-  },
-  {
     "id": "775656da-ffdc-51aa-9f6d-6f0a2884c50f",
     "title": "Bitka za Lakerse: Jeanie Buss ne želi prodati, ušla je u otvoreni sukob s braćom i sestrama",
     "link": "https://slobodnadalmacija.hr/sport/kosarka/a-1574037",
@@ -898,24 +1528,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32323839.jpg",
     "description": "Obitelj Buss, koja već više od 40 godina vodi Los Angeles Lakerse, podijeljena je oko ideje prodaje svog udjela u toj legendarnoj franšizi, samo tjedan dana nakon promjene većin...",
     "published_at": "2026-08-18T07:02:00+00:00"
-  },
-  {
-    "id": "dd7590d6-19e0-5d4d-9a38-eb0fd211a4ea",
-    "title": "Preminula je Vedrana Rudan: 'Otišla je na mjesto bez signala'",
-    "link": "https://www.24sata.hr/news/sluzbeni-profil-vedrane-rudan-otisla-je-na-mjesto-bez-signala-1148037",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/6QlQk35Hg2OkmO-dwYzypzqZr5s=/800x450/smart/media/images/2026-33/dodajte-podnaslov_MF7CcdM.jpg",
-    "description": "Vedrana Rudan je posljednjih godina otvoreno govorila o borbi s karcinomom",
-    "published_at": "2026-08-18T07:01:00+00:00"
-  },
-  {
-    "id": "d4134ef6-4dd4-595b-9ece-ae35583768e0",
-    "title": "Za Mikulićeva mandata 250 inspektora manje, ali mnogima to odgovara",
-    "link": "https://www.vecernji.hr/vijesti/za-mikuliceva-mandata-250-inspektora-manje-ali-mnogima-to-odgovara-1987173",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/d3/55/5ffb96257567fe2b8063.jpeg",
-    "description": "Inspektorat treba biti stup pravne države, ali tko bolje od premijera zna što je za nas važno",
-    "published_at": "2026-08-18T07:01:00+00:00"
   },
   {
     "id": "dc55073e-6c6c-59f4-8979-fd5b60f659b5",
@@ -945,42 +1557,6 @@
     "published_at": "2026-08-18T07:00:00+00:00"
   },
   {
-    "id": "9e153d9e-6040-585e-aa15-54aedc07a126",
-    "title": "Evo što biste trebali raditi na sprovodu i što se nikada ne radi",
-    "link": "https://www.24sata.hr/lifestyle/evo-sto-biste-trebali-raditi-na-sprovodu-i-sto-se-nikada-ne-radi-1063541",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/A1maGv7asoWLW8U43OS4O3sset8=/800x450/smart/media/images/2020-42/sprovod-xxl-21714467.jpg",
-    "description": "Pogreb je jedan od najsnažnijih trenutaka ljudske povezanosti, vrijeme kada se okupljamo kako bismo odali počast nečijem životu i pružili podršku onima koji tuguju. S time ide i...",
-    "published_at": "2026-08-18T07:00:00+00:00"
-  },
-  {
-    "id": "cc6298f8-dba0-5e98-afdf-45289734a801",
-    "title": "Putin skriva mobilizaciju? Zelenski: 'U Rusiju stiže čak 50 tisuća Sjevernokorejaca...'",
-    "link": "https://www.24sata.hr/news/putin-skriva-mobilizaciju-zelenski-u-rusiju-stize-cak-50-tisuca-sjevernokorejaca-1148032",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/S5eeRxTAw78F2YW_XDaCN2dLv4c=/800x450/smart/media/images/2026-24/2026-06-18t151947z-1132878496-rc2fwla7ldm4-rtrmadp-3-eu-summit.jpg",
-    "description": "Američki nevladin Institut za proučavanje rata (ISW) ocjenjuje da Kremlj postupno stvara pravne preduvjete za moguću mobilizaciju, istovremeno se pripremajući za moguće nemire",
-    "published_at": "2026-08-18T07:00:00+00:00"
-  },
-  {
-    "id": "ebd3a593-e699-5d80-b6c1-7e939affd361",
-    "title": "Agent Ivana Perišića progovorio o povratku legendarnog vatrenog u Inter: 'Čekamo novosti'",
-    "link": "https://www.vecernji.hr/sport/agent-ivana-perisica-progovorio-o-povratku-legendarnog-vatrenog-u-inter-cekamo-novosti-1987254",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/b3/cb/76c4effa87303f7a51b2.jpeg",
-    "description": "Perišić je za Inter odigrao 254 utakmice za zabio 55 golova i asistirao za još 50. Osvojio je Serie A i Superkup, a nakon odlaska sa San Sira igrao je za Tottenham i Hajduk",
-    "published_at": "2026-08-18T07:00:00+00:00"
-  },
-  {
-    "id": "22ce9ca3-0923-59dc-989e-091a5b60e278",
-    "title": "Južnokorejski predsjednik pokušava smiriti Kim Jong Una: Naše vježbe nisu prijetnja",
-    "link": "https://www.tportal.hr/vijesti/clanak/juznokorejski-predsjednik-pokusava-smiriti-kim-jong-una-nase-vjezbe-nisu-prijetnja-20260818",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2782750.jpeg?cropId=0",
-    "description": "Južnokorejski predsjednik Lee Jae Myung u utorak je pozvao na jačanje neovisnih obrambenih sposobnosti te poručio da su godišnje vježbe civilne obrane, koje se održavaju u vrije...",
-    "published_at": "2026-08-18T07:00:00+00:00"
-  },
-  {
     "id": "a6bc57a5-de9b-5844-81ce-8d1634e8b931",
     "title": "Predstavljamo Viking: Nasljednici Haralda Lijepokosog veslaju s riječkim kapetanom na komandnom mostu",
     "link": "https://sportnet.hr/kolumne/originalno-sportnetissimo/predstavljamo-viking-nasljednici-haralda-lijepokosog-veslaju-s-rijeckim-kapetanom-na-komandnom-mostu/630646/",
@@ -999,15 +1575,6 @@
     "published_at": "2026-08-18T07:00:00+00:00"
   },
   {
-    "id": "9caeb764-0ba3-5e4d-b95a-c8282efbf7c6",
-    "title": "Zlatna Sara Kolak i srebrni Marino Bloudek stigli kući: Hrvatski atletičari dočekani nakon velikog uspjeha u Birminghamu",
-    "link": "https://www.dalmacijadanas.hr/zlatna-sara-kolak-i-srebrni-marino-bloudek-stigli-kuci-hrvatski-atleticari-docekani-nakon-velikog-uspjeha-u-birminghamu/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/sara-kolak.jpg",
-    "description": "To je njezina prva medalja na velikom natjecanju nakon punih deset godina",
-    "published_at": "2026-08-18T06:58:07+00:00"
-  },
-  {
     "id": "c2a75565-15a9-5f65-8772-41c9763d9b78",
     "title": "Poznata književnica i kolumnistica izgubila je bitku s karcinomom: ‘Vedrana Rudan otišla je na područje bez signala‘",
     "link": "https://slobodnadalmacija.hr/vijesti/hrvatska/poznata-hrvatska-knjizevnica-i-kolumnistica-izgubila-bitku-s-karcinomom-vedrana-rudan-je-otisla-na-podrucje-bez-signala-1574036",
@@ -1015,15 +1582,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/18/32323845.jpg",
     "description": "Nakon borbe s teškom bolešću, u 77. godini života preminula je hrvatska spisateljica i kolumnistica Vedrana Rudan. Rođena je u Opatiji 29. listopada 1949. godine. Poznata je po ...",
     "published_at": "2026-08-18T06:58:00+00:00"
-  },
-  {
-    "id": "63534576-bf80-5c11-8b08-2f1adeacaafe",
-    "title": "Hanka Paldum na Sarajevo Film Festivalu nosila  kreaciju koja nosi jednu snažnu poruku...",
-    "link": "https://www.24sata.hr/show/hanka-paldum-na-sarajevo-film-festivalu-nosila-kreaciju-koja-nosi-jednu-snaznu-poruku-1148034",
-    "source": "24sata",
-    "image_url": "https://img.24sata.hr/HEOXrUKOE7dDPAoBOisvdRP5T6Q=/800x450/smart/media/images/2026-33/pxl-170826-156874098-xg0jfka.jpg",
-    "description": "Crvenim tepihom prošetala se u dugom bijelom ogrtaču nalik kaftanu, ispod kojeg je nosila crni sako s prozirnim detaljima od tila te široke bijele hlače. No najviše pogleda priv...",
-    "published_at": "2026-08-18T06:54:00+00:00"
   },
   {
     "id": "2598c656-4d2b-55ff-b829-e69a42f56667",
@@ -1044,15 +1602,6 @@
     "published_at": "2026-08-18T06:52:49+00:00"
   },
   {
-    "id": "97c03f82-1272-55bc-890b-ac557f622202",
-    "title": "Otkriveno što je pronađeno u stanu u kojem je umrla Hayden Panettiere: Oglasio se ured mrtvozornika",
-    "link": "https://www.dalmacijadanas.hr/otkriveno-sto-je-pronadeno-u-stanu-u-kojem-je-umrla-hayden-panettiere-oglasio-se-ured-mrtvozornika/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/hayden-panettiere.jpg",
-    "description": "Slučaj se istražuje",
-    "published_at": "2026-08-18T06:52:26+00:00"
-  },
-  {
     "id": "607ec441-8643-5723-bcdf-1a3f05333641",
     "title": "Jedan od glavnih vještaka tragedije na Kornatu: ‘Požar u Omišu jako je odstupao od dosadašnjih‘",
     "link": "https://slobodnadalmacija.hr/split-i-zupanija/obala/jedan-od-glavnih-vjestaka-tragedije-na-kornatu-pozar-u-omisu-jako-je-odstupao-od-dosadasnjih-1574035",
@@ -1062,21 +1611,12 @@
     "published_at": "2026-08-18T06:51:00+00:00"
   },
   {
-    "id": "24234c7e-a473-5938-a5f7-c244266b5cd1",
-    "title": "Muškarac (73) po Istri namjerno palio suho raslinje, 18-godišnjak u Međimurju zapalio kuću",
-    "link": "https://www.vecernji.hr/vijesti/muskarac-73-po-istri-namjerno-palio-suho-raslinje-18-godisnjak-u-medimurju-zapalio-kucu-1987252",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/2a/3e/c9422b1d82adc6b0116e.jpeg",
-    "description": "Vatra je u nekom trenutku zaprijetila stambenim objektima, no širenje vatre spriječili su vatrogasci i mještani.",
-    "published_at": "2026-08-18T06:50:00+00:00"
-  },
-  {
-    "id": "afca79c9-d35b-53b7-aa0c-7f5616e5e053",
-    "title": "Policija upala u zgradu Brodsko-posavske županije",
-    "link": "https://www.vecernji.hr/vijesti/policija-upala-u-zgradu-brodsko-posavske-zupanije-1987251",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/32/23/118a4f5bbd257f7557ee.jpg",
-    "description": "Istražitelji su jutros ušli u zgradu",
+    "id": "3b766dc0-8210-58e7-a6ae-c3e36c74979d",
+    "title": "Preminula Vedrana Rudan: Otišla je na područje bez signala",
+    "link": "https://www.regionalexpress.hr/site/preminula-vedrana-rudan-otishla-je-na-podrucje-bez-signala",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "KNJIŽEVNICA, NOVINARKA I KOLUMNISTICA Hrvatska književnica, novinarka i kolumnistica Vedrana Rudan preminula je nakon dugotrajne borbe s rijetkim oblikom raka žučnih kanalića. V...",
     "published_at": "2026-08-18T06:50:00+00:00"
   },
   {
@@ -1170,33 +1710,6 @@
     "published_at": "2026-08-18T06:40:00+00:00"
   },
   {
-    "id": "8ff4506f-0885-5cec-ab6a-123a4fa11278",
-    "title": "Vještak Kornatske tragedije o požaru u Omišu: \"Plan evakuacije nije bio dovoljno dobar, SRUUK se trebao aktivirati\"",
-    "link": "https://www.dalmacijadanas.hr/vjestak-kornatske-tragedije-o-pozaru-u-omisu-plan-evakuacije-nije-bio-dovoljno-dobar-sruuk-se-trebao-aktivirati/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/8-17-pozariste-omis-54.jpg",
-    "description": "Kocijan smatra da se u Omišu trebao aktivirati i Sustav za rano upozoravanje i upravljanje krizama",
-    "published_at": "2026-08-18T06:39:57+00:00"
-  },
-  {
-    "id": "f2ec6267-0765-50cc-88f0-220eb6d31974",
-    "title": "Mehaničar otkrio koji rabljeni auto vrijedi kupiti: 'Napravljen je da traje cijeli život'",
-    "link": "https://www.vecernji.hr/barkod/mehanicar-otkrio-koji-rabljeni-auto-vrijedi-kupiti-napravljen-je-da-traje-cijeli-zivot-1987247",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/bf/50/cb37282db442851eec01.jpg",
-    "description": "Prema Jiménezovim riječima, dobro očuvani primjerci Nissan Micre iz tog razdoblja na većim oglasnicima mogu se pronaći za otprilike 2000 do 2500 eura.",
-    "published_at": "2026-08-18T06:39:00+00:00"
-  },
-  {
-    "id": "0179dbd8-92d7-5038-a1c9-0825f753d7a3",
-    "title": "Britanci se našli na meti? Procurili brojevi trojice ministara, premijer nasjeo na prijevaru",
-    "link": "https://www.vecernji.hr/vijesti/britanci-se-nasli-na-meti-procurili-brojevi-trojice-ministara-premijer-nasjeo-na-prijevaru-1987243",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/26/53/5de2ca1a5a462b5cbe32.jpeg",
-    "description": "Andy Burnham razmjenjivao je poruke s osobom koja se predstavljala kao Susie Wiles, šefica osoblja Bijele kuće",
-    "published_at": "2026-08-18T06:37:00+00:00"
-  },
-  {
     "id": "22d30913-d447-5a63-baa8-f9cc32a93623",
     "title": "VIDEO Livaković je preskup, Kotarski se ozlijedio, a dijete Dinama briljira u Italiji",
     "link": "https://www.index.hr/sport/clanak/video-talijanski-kralj-penala-i-zelja-dinama-opet-obranio-jedanaesterac/2824780.aspx",
@@ -1206,33 +1719,6 @@
     "published_at": "2026-08-18T06:36:00+00:00"
   },
   {
-    "id": "b9ddec00-0813-5f97-bf56-278dacd453ae",
-    "title": "Kovačević napravio promjenu u posljednji trenutak: Miljenik navijača ipak konkurira za nastup",
-    "link": "https://www.vecernji.hr/sport/kovacevic-napravio-promjenu-u-posljednji-trenutak-miljenik-navijaca-ipak-konkurira-za-nastup-1987244",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/13/0c/5cef11d1fb8b0d27af14.jpeg",
-    "description": "Dodajmo kako Dinamo za utakmice s Vikingom nije prijavio Rusa Kirila Kravcova iako je on u ponedjeljak potpisao za plave",
-    "published_at": "2026-08-18T06:36:00+00:00"
-  },
-  {
-    "id": "8cb4083f-5f48-5974-a052-d6d07c1f388a",
-    "title": "Lovačka društva u dva tjedna odstrijelila 797 divljih svinja",
-    "link": "https://www.vecernji.hr/vijesti/lovacka-drustva-u-dva-tjedna-odstrijelila-797-divljih-svinja-1987154",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/a9/1d/97da327c8cc1aa1b9929.jpeg",
-    "description": "Podaci s terena istodobno pokazuju da je na pojedinim područjima brojnost divljih svinja znatno smanjena, kažu iz HLS-a",
-    "published_at": "2026-08-18T06:35:00+00:00"
-  },
-  {
-    "id": "f729a42a-2887-5487-a25f-61e3a97ca90a",
-    "title": "HPK: Treba nam fond za prilagodbu poljoprivrede",
-    "link": "https://www.vecernji.hr/vijesti/hpk-treba-nam-fond-za-prilagodbu-poljoprivrede-1987152",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/85/71/c2b075953c2de1683ba9.jpeg",
-    "description": "Rješenje je povezivanje proizvodnje, prerade, kvalitete i tržišta te spremnost na promjenu koju ne može financirati samo poljoprivrednik. Ali ni država umjesto njega",
-    "published_at": "2026-08-18T06:35:00+00:00"
-  },
-  {
     "id": "1ec425f1-2f36-5934-970a-487b4868f518",
     "title": "Shein doživio ogroman udarac: nekad je vrijedio gotovo 100 milijardi dolara, pogledajte gdje je sada",
     "link": "https://slobodnadalmacija.hr/mozaik/panorama/shein-dozivio-ogroman-udarac-nekad-je-vrijedio-gotovo-100-milijardi-dolara-pogledajte-gdje-je-sada-1574033",
@@ -1240,15 +1726,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32321619.jpg",
     "description": "Popularni modni div Shein, koji je godinama bio jedan od najvećih simbola procvata ultrajeftine internetske mode, pred važnim je trenutkom u svojoj povijesti. Kompanija se pripr...",
     "published_at": "2026-08-18T06:35:00+00:00"
-  },
-  {
-    "id": "cfb608b5-9632-57f1-b905-1e6d9729f04a",
-    "title": "Čiste teren, miču olupine, spašavaju kuće i – strahuju od kiše i dodatne štete",
-    "link": "https://www.vecernji.hr/vijesti/ciste-teren-micu-olupine-spasavaju-kuce-i-strahuju-od-kise-i-dodatne-stete-1987139",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/ca/e8/a501d539a41d9eccbdc8.jpeg",
-    "description": "U požaru je potpuno uništen i azil za pse. Prema trenutačnim podacima, potpuno je izgorjelo 117 vozila, dok ih je još 21 djelomično oštećeno. Izgorjelo je i šest motocikala, 12 ...",
-    "published_at": "2026-08-18T06:34:00+00:00"
   },
   {
     "id": "ec1fcfba-bb4b-508c-a973-d481c0de6b6f",
@@ -1294,15 +1771,6 @@
     "image_url": "https://cdn-sib.net.hr/wp-content/uploads/pxl_170826_156871023-edd8317743e849bed5b588f9-1052x696.jpg",
     "description": "Kiša je donijela i osjetno osvježenje pa su se stanovnici Slavonije i Baranje jutros probudili uz temperature od oko 16 Celzijevih stupnjeva",
     "published_at": "2026-08-18T06:27:08+00:00"
-  },
-  {
-    "id": "5c81dc8f-c511-5061-8c08-cc2fb24b9c7a",
-    "title": "Državni inspektorat o otpadu u Gospiću: \"Bilo je krivotvorenja dokumentacije, napisali smo 140 tisuća eura kazni\"",
-    "link": "https://www.dalmacijadanas.hr/drzavni-inspektorat-o-otpadu-u-gospicu-bilo-je-krivotvorenja-dokumentacije-napisali-smo-140-tisuca-eura-kazni/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/otpad-gospic-lika.jpg",
-    "description": "Tvrdi da su u nadzoru napuštenog silosa bili prije tri godine",
-    "published_at": "2026-08-18T06:26:50+00:00"
   },
   {
     "id": "7bce0817-0d7c-5088-b882-e6635af0fe7f",
@@ -1393,15 +1861,6 @@
     "image_url": null,
     "description": "NAKON što je na Europskom prvenstvu ostala bez medalje, srpska skakačica u vis Angelina Topić primila je poruku podrške od hrvatske atletske legende Blanke Vlašić.",
     "published_at": "2026-08-18T06:17:00+00:00"
-  },
-  {
-    "id": "c6882d92-0d9c-583f-b40f-fc77dc40e7fc",
-    "title": "Trump ponovno zaprijetio Omanu: \"Lako bismo s njima izašli na kraj\"",
-    "link": "https://www.dalmacijadanas.hr/trump-ponovno-zaprijetio-omanu-lako-bismo-s-njima-izasli-na-kraj/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2020/11/trump.jpg",
-    "description": "Američki predsjednik tako je još jednom jasno postavio iranski nuklearni program kao ključnu točku eventualnog sporazuma",
-    "published_at": "2026-08-18T06:16:47+00:00"
   },
   {
     "id": "42cfbe02-3923-505a-9c12-be259e0cf6c7",
@@ -1900,7 +2359,7 @@
   },
   {
     "id": "b4e222dc-0a27-54cc-99a8-91d4e022b1b9",
-    "title": "Od srpnja 2026. automobili u EU dolaze sa novim sigurnosnim dodacima koji postaju obvezni",
+    "title": "Svi novi automobili u EU od srpnja 2026. moraju imati ugrađene nove sustave, evo o čemu se radi",
     "link": "https://www.poslovni.hr/europska-unija/od-srpnja-2026-automobili-u-eu-dolaze-sa-novim-sigurnosnim-dodacima-koji-postaju-obvezni-4551357",
     "source": "Poslovni dnevnik",
     "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/jan-baborak-4STq2B24S1k-unsplash-800x500.jpg",
@@ -2250,6 +2709,15 @@
     "published_at": "2026-08-17T21:23:54+00:00"
   },
   {
+    "id": "2d21d0b8-057d-5ea1-a8d6-c6f1743348e4",
+    "title": "Mošćenička Draga nagradila svoje najvjernije goste, obitelj Mitschele dolazi već 48 godina",
+    "link": "https://www.fiuman.hr/moscenicka-draga-nagradila-svoje-najvjernije-goste-obitelj-mitschele-dolazi-vec-48-godina/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "U Mošćeničkoj Dragi, ispred hotela Mediteran, u opuštenoj ljetnoj atmosferi održano je druženje i dodjela priznanja vjernim gostima koji ovu poznatu kvarnersku destinaciju posje...",
+    "published_at": "2026-08-17T21:17:53+00:00"
+  },
+  {
     "id": "8f4724ff-c7b5-5f54-973a-dae1dffbc104",
     "title": "Trumpov zet tražio od Netanyahua da prihvati američki plan za Gazu",
     "link": "https://www.index.hr/vijesti/clanak/trumpov-zet-trazio-od-netanyahua-da-prihvati-americki-plan-za-gazu/2824745.aspx",
@@ -2385,6 +2853,33 @@
     "published_at": "2026-08-17T20:37:31+00:00"
   },
   {
+    "id": "a832284a-25cb-5feb-8b48-a7f2eded9efd",
+    "title": "Majstorović: Nema alibija, moramo biti puno bolji. Hvala Armadi koja je stala uz nas",
+    "link": "https://www.fiuman.hr/majstorovic-nema-alibija-moramo-biti-puno-bolji-hvala-armadi-koja-je-stala-uz-nas/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Varaždin je u trećem kolu SuperSport HNL-a na domaćem terenu svladao Rijeku 2:0 i nastavio savršen ulazak u sezonu. Momčad Nikole Šafarića do treće je pobjede stigla zahvaljujuć...",
+    "published_at": "2026-08-17T20:34:16+00:00"
+  },
+  {
+    "id": "3a97bed5-aabe-5c2a-9ceb-df68795f8cc1",
+    "title": "HMNK Rijeka ponovno na okupu, pripreme počele u novom domu na Zametu",
+    "link": "https://www.fiuman.hr/hmnk-rijeka-ponovno-na-okupu-pripreme-pocele-u-novom-domu-na-zametu/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Dugo toplo ljeto završilo je za igrače HMNK Rijeka. Aktualni osvajači Hrvatskog kupa i viceprvaci Hrvatske okupili su se na prvom treningu u svom novom sportskom domu, dvorani C...",
+    "published_at": "2026-08-17T20:32:06+00:00"
+  },
+  {
+    "id": "3d4715a1-3964-51c1-840d-6b664970d28a",
+    "title": "Kozala krenula u jubilarnu 15. sezonu Prve HRL, cilj je približiti se vrhu",
+    "link": "https://www.fiuman.hr/kozala-krenula-u-jubilarnu-15-sezonu-prve-hrl-cilj-je-pribliziti-se-vrhu/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "Rukometaši Kozale večerašnjim su treningom, popularnom prozivkom, krenuli u svoju jubilarnu 15. sezonu u Prvoj HRL. Treneru Ivanu Marenčiću se odazvalo 16 prvotimaca, među kojim...",
+    "published_at": "2026-08-17T20:31:30+00:00"
+  },
+  {
     "id": "0e29b593-b90e-5c45-8692-1a541ade885c",
     "title": "Porastao uvoz ruskog ukapljenog plina u Europsku uniju",
     "link": "https://www.index.hr/vijesti/clanak/porastao-uvoz-ruskog-plina-u-europsku-uniju/2824734.aspx",
@@ -2401,6 +2896,15 @@
     "image_url": null,
     "description": "GLUMICA se godinama borila s ovisnošću o opioidima i alkoholu.",
     "published_at": "2026-08-17T20:30:00+00:00"
+  },
+  {
+    "id": "e7245df3-1952-56b3-a9f0-15eb2bbbcb60",
+    "title": "Posebno hodočašće iz Rijeke: Osobe s invaliditetom i njihove obitelji krenule prema Assisiju",
+    "link": "https://www.fiuman.hr/posebno-hodocasce-iz-rijeke-osobe-s-invaliditetom-i-njihove-obitelji-krenule-prema-assisiju/",
+    "source": "Fiuman.hr",
+    "image_url": null,
+    "description": "S radošću, ali i s nestrpljenjem, 18 hodočasnika iz Riječke nadbiskupije – osobe s invaliditetom, djeca s teškoćama u razvoju, njihovi članovi obitelji i volonteri – dočekali su...",
+    "published_at": "2026-08-17T20:29:06+00:00"
   },
   {
     "id": "af7e3df2-a378-54d2-ab5a-bb85fe5728c6",
@@ -2520,12 +3024,12 @@
     "published_at": "2026-08-17T20:01:00+00:00"
   },
   {
-    "id": "ff110c26-0ac6-535b-912b-3e145213910d",
-    "title": "Poduzetnici i mali iznajmljivači traže rasterećenje zbog požara",
-    "link": "https://www.poslovni.hr/hrvatska/poduzetnici-i-mali-iznajmljivaci-traze-rasterecenje-zbog-pozara-4551333",
+    "id": "a67d0e8f-2552-5daa-957e-27f73ed7f18f",
+    "title": "Rast u EU ubrzao na 1,2 posto, u Hrvatskoj usporava, ali je i dalje oko dva posto",
+    "link": "https://www.poslovni.hr/hrvatska/rast-u-eu-ubrzao-na-12-posto-u-hrvatskoj-usporava-ali-je-i-dalje-oko-dva-posto-4551335",
     "source": "Poslovni dnevnik",
-    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/2smoi-800x500.jpg",
-    "description": "Udruga Glas poduzetnika (UGP) predložila je Vladi donošenje hitnog paketa mjera kojima bi se poduzetnici pogođeni požarom na području tog grada privremeno rasteretili poreznih, ...",
+    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/2rast-800x500.jpg",
+    "description": "Za RH se procjena očekuje tek potkraj mjeseca, ali sve upućuje na 'kočenje' u drugom kvartal.",
     "published_at": "2026-08-17T20:00:00+00:00"
   },
   {
@@ -2535,15 +3039,6 @@
     "source": "Poslovni dnevnik",
     "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/12reci-800x500.jpg",
     "description": "U Srbiji Brantner posluje na četiri lokacije, u Novom Bečeju, Kovačici, Kanjiži i Opovu, u okviru poslovanja koje uključuje gospodarenje otpadom, njegovo prikupljanje i reciklir...",
-    "published_at": "2026-08-17T20:00:00+00:00"
-  },
-  {
-    "id": "a67d0e8f-2552-5daa-957e-27f73ed7f18f",
-    "title": "Rast u EU ubrzao na 1,2 posto, u Hrvatskoj usporava, ali je i dalje oko dva posto",
-    "link": "https://www.poslovni.hr/hrvatska/rast-u-eu-ubrzao-na-12-posto-u-hrvatskoj-usporava-ali-je-i-dalje-oko-dva-posto-4551335",
-    "source": "Poslovni dnevnik",
-    "image_url": "https://www.poslovni.hr/wp-content/uploads/2026/08/2rast-800x500.jpg",
-    "description": "Za RH se procjena očekuje tek potkraj mjeseca, ali sve upućuje na 'kočenje' u drugom kvartal.",
     "published_at": "2026-08-17T20:00:00+00:00"
   },
   {
@@ -2628,21 +3123,21 @@
     "published_at": "2026-08-17T19:47:37+00:00"
   },
   {
-    "id": "06ed66a1-9325-5468-912e-d095d7039628",
-    "title": "Njemačka se protivi planu EU o nižem porezu na struju",
-    "link": "https://www.index.hr/vijesti/clanak/njemacka-se-protivi-planu-eu-o-nizem-porezu-na-struju/2824722.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NJEMAČKA se protivi planu EK o nižem oporezivanju struje od plina, tvrdeći da se time krši nacionalni porezni suverenitet jer se zaobilazi pravilo jednoglasnosti za porezna pita...",
-    "published_at": "2026-08-17T19:47:00+00:00"
-  },
-  {
     "id": "fc193e1e-a424-552e-a101-9ea97d612b97",
     "title": "VIDEO Privatni helikopter srušio se na grčkom otoku. Poginulo troje ljudi",
     "link": "https://www.index.hr/vijesti/clanak/video-privatni-helikopter-srusio-se-na-grckom-otoku-poginulo-troje-ljudi/2824723.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "TROJE ljudi poginulo je u padu privatnog helikoptera na grčkom otoku Sifnosu, a nesreća se dogodila svega nekoliko sekundi nakon uzlijetanja.",
+    "published_at": "2026-08-17T19:47:00+00:00"
+  },
+  {
+    "id": "06ed66a1-9325-5468-912e-d095d7039628",
+    "title": "Njemačka se protivi planu EU o nižem porezu na struju",
+    "link": "https://www.index.hr/vijesti/clanak/njemacka-se-protivi-planu-eu-o-nizem-porezu-na-struju/2824722.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NJEMAČKA se protivi planu EK o nižem oporezivanju struje od plina, tvrdeći da se time krši nacionalni porezni suverenitet jer se zaobilazi pravilo jednoglasnosti za porezna pita...",
     "published_at": "2026-08-17T19:47:00+00:00"
   },
   {
@@ -2655,33 +3150,6 @@
     "published_at": "2026-08-17T19:46:00+00:00"
   },
   {
-    "id": "c0debba7-ba97-5ad5-9b4e-1f2436fefb35",
-    "title": "KHL Sisak nakon povijesne sezone mora trenirati u Sloveniji jer u Sisku nema leda",
-    "link": "https://www.index.hr/sport/clanak/khl-sisak-nakon-povijesne-sezone-mora-trenirati-u-sloveniji-jer-u-sisku-nema-leda/2824726.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "BIZARNI uvjeti rada u Sisku.",
-    "published_at": "2026-08-17T19:45:00+00:00"
-  },
-  {
-    "id": "75270064-be5b-51f7-b5dc-acb2eb31a8eb",
-    "title": "Norveški kralj završio u bolnici, dužnosti preuzima njegov sin",
-    "link": "https://www.index.hr/vijesti/clanak/norveski-kralj-zavrsio-u-bolnici-duznosti-preuzima-njegov-sin/2824721.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NORVEŠKI kralj Harald V. (89) hospitaliziran je zbog hemolitičke anemije. Na bolovanju će biti dva tjedna, a kao regent će ga mijenjati prijestolonasljednik Haakon. I drugi član...",
-    "published_at": "2026-08-17T19:33:00+00:00"
-  },
-  {
-    "id": "d63523cd-a580-5a72-8b67-d1463ed6efa9",
-    "title": "Pripadnici četiri znaka teško ostaju tamo gdje se ne osjećaju cijenjeno",
-    "link": "https://www.index.hr/horoskop/clanak/pripadnici-cetiri-znaka-tesko-ostaju-tamo-gdje-se-ne-osjecaju-cijenjeno/2824694.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NE VOLE kada ih drugi uzimaju zdravo za gotovo.",
-    "published_at": "2026-08-17T19:33:00+00:00"
-  },
-  {
     "id": "666eafda-7da6-5843-8a7b-d394cdc52ebf",
     "title": "VIDEO Lude scene na nogometnoj utakmici, navijači se sjurili s tribina i upali na travnjak, te prekinuli utakmicu",
     "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/video-lude-scene-na-nogometnoj-utakmici-navijaci-se-sjurili-s-tribina-i-upali-na-travnjak-te-prekinuli-utakmicu-1574004",
@@ -2689,33 +3157,6 @@
     "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32321978.jpg",
     "description": "Talijanski velikan Juventus tradicionalno pred početak nove sezone odigrava provjeru na internoj utakmici, gdje igra prva momčad protiv Next Gen momčadi. Susret na Allianz Stadi...",
     "published_at": "2026-08-17T19:32:07+00:00"
-  },
-  {
-    "id": "41c48a01-1d81-5f00-8875-0c0e56d679c4",
-    "title": "Jedan od najbogatijih Arapa gradi ‘Beograd na vodi‘, a njegov hotel na Bolu nudi sobe dok dozvole ‘vise u zraku‘",
-    "link": "https://slobodnadalmacija.hr/vijesti/turizam/luksuzni-hotel-u-sredistu-bola-jos-nije-otvorio-vrata-a-vec-je-po-medijima-otvaranje-pomaknuto-na-1-rujna-1574003",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/14/32321242.jpg",
-    "description": "Prema informacijama kojima raspolaže Općina Bol, službeni datum otvorenja trenutačno je pomaknut na 1. rujna 2026. godine. U međuvremenu se hotel već nudi gostima. Na Bookingu j...",
-    "published_at": "2026-08-17T19:26:59+00:00"
-  },
-  {
-    "id": "7a0059eb-17a7-5d77-b052-5ace473610ce",
-    "title": "Tinejdžeri iz okupirane Ukrajine rade na ruskim dronovima. Nude im novac i posao",
-    "link": "https://www.index.hr/vijesti/clanak/tinejdzeri-iz-okupirane-ukrajine-rade-na-ruskim-dronovima-nude-im-novac-i-posao/2824715.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "RUSKO sveučilište Alabuga Polytech regrutira ukrajinske maloljetnike za rad u tvornicama dronova Šahed, kojima se napada njihova domovina. Takvo zapošljavanje smatra se ratnim z...",
-    "published_at": "2026-08-17T19:26:00+00:00"
-  },
-  {
-    "id": "08e72906-7e20-58ba-b72c-5a4b0c45ce2c",
-    "title": "Kod Popovače poginuo muškarac u vozilu vlastite izrade. S njim bio maloljetnik",
-    "link": "https://www.index.hr/vijesti/clanak/kod-popovace-poginuo-muskarac-u-vozilu-vlastite-izrade-s-njim-bio-maloljetnik/2824718.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "47-GODIŠNJI muškarac poginuo je u Repušnici nakon što se na njega prevrnulo neregistrirano vozilo vlastite izrade. Maloljetni suputnik je uspio iskočiti i nije ozlijeđen.",
-    "published_at": "2026-08-17T19:24:00+00:00"
   },
   {
     "id": "1972e728-620c-5a42-9461-566118a1a292",
@@ -2727,42 +3168,6 @@
     "published_at": "2026-08-17T19:23:33+00:00"
   },
   {
-    "id": "766c6fff-29a1-5a89-9545-a9ad0571ce7d",
-    "title": "Vrhovni sud opet odbio žalbu Trumpa. Odgovoran je za seksualni napad i klevetu",
-    "link": "https://www.index.hr/vijesti/clanak/vrhovni-sud-opet-odbio-zalbu-trumpa-odgovoran-je-za-seksualni-napad-i-klevetu/2824719.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VRHOVNI sud SAD-a drugi put je odbio zahtjev Donalda Trumpa za poništenje presude za klevetu, kojom je spisateljici E. Jean Carroll dodijeljena odšteta od 83 milijuna dolara.",
-    "published_at": "2026-08-17T19:23:00+00:00"
-  },
-  {
-    "id": "e2ccca82-1c66-50b1-bf36-c23e3aebe4ad",
-    "title": "Trump: Razumijem Kim Jong Una. On razumije mene",
-    "link": "https://www.index.hr/vijesti/clanak/trump-razumijem-kim-jong-una-on-razumije-mene/2824717.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "AMERIČKI predsjednik Donald Trump je danas rekao da je sjevernokorejski vođa Kim Jong Un odgovorio na njegove zahtjeve za razgovorom.",
-    "published_at": "2026-08-17T19:22:00+00:00"
-  },
-  {
-    "id": "afa3ffa3-b09b-5d60-816b-dd2e6e942b81",
-    "title": "Nekad su ga ismijavali zbog Sumraka, danas je miljenik interneta",
-    "link": "https://www.index.hr/magazin/clanak/kako-je-robert-pattinson-postao-omiljeni-cudak-interneta/2824706.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ROBERT Pattinson ima dva najveća mema ljeta, a nije napravio gotovo ništa.",
-    "published_at": "2026-08-17T19:17:00+00:00"
-  },
-  {
-    "id": "a83d7404-be78-5990-9861-db0dc72c11dd",
-    "title": "Prije vjenčanja Arsen Dedić je Gabi Novak postavio uvjet: ‘Rekao da se nećemo oženiti dok mu ja...‘",
-    "link": "https://slobodnadalmacija.hr/mozaik/scena/showbiz/prije-vjencanja-arsen-je-gabi-postavio-uvjet-rekao-da-se-necemo-ozeniti-dok-mu-ja-1574002",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/29984233.jpg",
-    "description": "Na današnji dan prije jedanaest godina, 17. kolovoza 2015., preminuo je Arsen Dedić, jedan od najvažnijih hrvatskih kantautora, pjesnika i skladatelja. Njegov život desetljećima...",
-    "published_at": "2026-08-17T19:13:57+00:00"
-  },
-  {
     "id": "3c64cd26-1b0d-574a-a756-16254b573ed3",
     "title": "Dvije noći u Vukovaru bit će potpuno drukčije: Evo do kada će raditi restorani i barovi",
     "link": "https://sib.net.hr/vijesti/regija/1281512/dvije-noci-u-vukovaru-bit-ce-potpuno-drukcije-evo-do-kada-ce-raditi-restorani-i-barovi/",
@@ -2770,15 +3175,6 @@
     "image_url": "https://cdn-sib.net.hr/wp-content/uploads/PXL_040825_136387931-1052x696.jpg",
     "description": "Iz Grada Vukovara pritom su ugostitelje obvezali da poduzmu sve potrebne mjere kako ne bi došlo do narušavanja javnog reda i mira u objektima i njihovoj neposrednoj blizini",
     "published_at": "2026-08-17T19:12:16+00:00"
-  },
-  {
-    "id": "c37f0f7f-f2e1-57c7-b274-c8eb7e047f7b",
-    "title": "Real za 10 mil. eura prodao igrača koji nema nijedan nastup za prvu momčad",
-    "link": "https://www.index.hr/sport/clanak/real-za-10-mil-eura-prodao-igraca-koji-nema-nijedan-nastup-za-prvu-momcad/2824716.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "OTIŠAO je u Francusku.",
-    "published_at": "2026-08-17T19:11:00+00:00"
   },
   {
     "id": "c4852881-546d-58b2-8cd8-36cbace3a994",
@@ -2790,132 +3186,6 @@
     "published_at": "2026-08-17T19:08:53+00:00"
   },
   {
-    "id": "6074770a-73eb-5900-a098-77064c535493",
-    "title": "Prozvao Cro Copa, nazvao ga komunjarom i veleizdajnikom, a onda je dobio odgovor: ‘Prava je rijetkost vidjeti nekoga...‘",
-    "link": "https://slobodnadalmacija.hr/sport/vise-od-sporta/prozvao-cro-copa-nazvao-ga-komunjarom-i-veleizdajnikom-a-onda-je-dobio-odgovor-prava-je-rijetkost-vidjeti-nekoga-1574001",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/29537101.jpg",
-    "description": "Legendarni hrvatski MMA borac Mirko Filipović jedan je od \"oglednih primjeraka\" cjeloživotnog rada na svom tijelu i održavanju fizičke spreme. I nakon kraja karijere \"Cro Cop\" j...",
-    "published_at": "2026-08-17T19:08:28+00:00"
-  },
-  {
-    "id": "536391f9-f2a0-57e4-a670-5111bd993704",
-    "title": "Nives i Goran Ivanišević posjetili Sarajevo Film Festival: \"Predobro kao i uvijek\"",
-    "link": "https://www.index.hr/magazin/clanak/nives-i-goran-ivanisevic-posjetili-sarajevo-film-festival-predobro-kao-i-uvijek/2824707.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "SARAJEVO Film Festival i ove je godine okupio brojna poznata lica.",
-    "published_at": "2026-08-17T19:05:00+00:00"
-  },
-  {
-    "id": "76615717-e8f6-5116-9385-96ec5c1909c4",
-    "title": "VIDEO Francuski premijer stigao na požarom pogođeno područje. Ljudi ga izviždali",
-    "link": "https://www.index.hr/vijesti/clanak/video-francuski-premijer-stigao-na-pozarom-pogodjeno-podrucje-ljudi-ga-izvizdali/2824712.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "FRANCUSKI premijer Sébastien Lecornu najavio je mjere pomoći stanovnicima jugozapada zemlje pogođenima šumskim požarima kako bi ponovno izgradili svoje živote.",
-    "published_at": "2026-08-17T19:02:00+00:00"
-  },
-  {
-    "id": "d04a669c-f4c2-5558-b778-42be53c25e02",
-    "title": "Psi koji ne vjeruju vlasnicima često rade sedam stvari",
-    "link": "https://www.index.hr/ljubimci/clanak/znakovi-koji-pokazuju-da-vam-pas-ne-vjeruje-u-potpunosti/2824710.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "POVJERENJE se gradi postupno, a ponašanje psa može pokazati kako se zaista osjeća.",
-    "published_at": "2026-08-17T19:02:00+00:00"
-  },
-  {
-    "id": "bd8850a7-c515-5cf3-92c1-438899bb19a6",
-    "title": "Vučković o otpadu u Gospiću: Sanacija kasni zbog istrage, ne nerada",
-    "link": "https://www.index.hr/vijesti/clanak/vuckovic-o-otpadu-u-gospicu-sanacija-kasni-zbog-istrage-ne-nerada/2824714.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "MINISTRICA Vučković odbacila je optužbe za nerad na sanaciji otpada u Gospiću, tvrdeći da je postupak kasnio zbog istrage. Optužila je oporbu za manipulaciju i SDP za izdavanje ...",
-    "published_at": "2026-08-17T19:01:00+00:00"
-  },
-  {
-    "id": "cf65726c-c068-5879-88ed-f14bac476f6e",
-    "title": "Jeste li spremni staviti jezik tamo gdje su ga stavili Petar i Nedjeljka iz Trnbusa? U braku su 50 godina baš zbog toga",
-    "link": "https://slobodnadalmacija.hr/split-i-zupanija/zagora/petar-i-nedjeljka-iz-trnbusa-proslavili-zlatni-pir-otkrili-tajnu-bracne-dugovjecnosti-digod-triba-stavit-jezik-u-kucu-1574000",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32320695.jpg",
-    "description": "– Digod triba stavit jezik u kuću, to ti je riceta bračne dugovičnosti – uglas će supružnici Jurić, Petar i Nedjeljka, koji su ovog vikenda proslavili svoj \"zlatni pir\" u Trnbus...",
-    "published_at": "2026-08-17T19:00:24+00:00"
-  },
-  {
-    "id": "af8a0a3a-a471-5490-8313-2b416dac602c",
-    "title": "Kiril Kravcov je novi igrač Dinama",
-    "link": "https://www.index.hr/sport/clanak/kiril-kravtsov-je-novi-igrac-dinama/2824685.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "POTPISAO je ugovor i uzeo Ademijev broj.",
-    "published_at": "2026-08-17T19:00:00+00:00"
-  },
-  {
-    "id": "ec5f1a40-a8ff-5b3b-b4ec-53a2f7478488",
-    "title": "VIDEO Nepoznati objekt eksplodirao u zračnom prostoru Moldavije",
-    "link": "https://www.index.hr/vijesti/clanak/video-nepoznati-objekt-eksplodirao-u-zracnom-prostoru-moldavije/2824702.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NEPOZNATI objekt ušao je u zračni prostor Moldavije i eksplodirao. Vlasti istražuju incident, a ukrajinski izvori sumnjaju na ruski dron. Ovo je posljednji u nizu sličnih incide...",
-    "published_at": "2026-08-17T18:58:00+00:00"
-  },
-  {
-    "id": "6779318a-14eb-5175-8a56-60f31823f279",
-    "title": "Konavoski vinar o ljetnim berbama: ‘ Prije su bile nezamislive, a sad nas spašavaju. U subotu kreće pošip...‘",
-    "link": "https://slobodnadalmacija.hr/dubrovnik/zupanija/konavle/konavoski-vinar-o-ljetnim-berbama-prije-su-bile-nezamislive-a-sad-nas-spasavaju-u-subotu-krece-1573999",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/19332406.jpg",
-    "description": "Nesnosne vrućine ove godine su ‘pomaknule‘ početak berbe grožđa iz rujna u kolovoz, oko mjesec dana ranije od donedavno uobičajenog termina. Nekad nepojmljive, kolovoške berbe p...",
-    "published_at": "2026-08-17T18:55:45+00:00"
-  },
-  {
-    "id": "6d234d12-5270-5b93-9f72-6df5f3686dba",
-    "title": "VIDEO Prometna nesreća na autocesti A1, pogledajte kolonu",
-    "link": "https://www.index.hr/vijesti/clanak/video-prometna-nesreca-na-autocesti-a1-pogledajte-kolonu/2824709.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "PROMETNA nesreća dogodila se večeras na autocesti A1 između čvorova Ogulin i Bosiljevo 2, u smjeru Zagreba. Zbog nesreće se na tom dijelu autoceste stvorila kolona, a promet je ...",
-    "published_at": "2026-08-17T18:55:00+00:00"
-  },
-  {
-    "id": "365565bc-e8e3-5724-843c-f1dd20aa1b90",
-    "title": "Milanović drugi put saziva izvanrednu sjednicu Sabora. Što sada slijedi?",
-    "link": "https://www.index.hr/vijesti/clanak/milanovic-drugi-put-saziva-izvanrednu-sjednicu-sabora-sto-sada-slijedi/2824703.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "MILANOVIĆ traži izvanrednu sjednicu Sabora zbog ilegalnog otpada u Lici, drugi put koristeći ustavnu ovlast za prekid ljetne stanke zastupnika.",
-    "published_at": "2026-08-17T18:52:00+00:00"
-  },
-  {
-    "id": "2d63697a-e54f-5a8b-8763-46a304e07591",
-    "title": "Ovo je drugi put u povijesti da Milanović saziva izvanrednu sjednicu Sabora. Na potezu je HDZ, evo što mogu napraviti",
-    "link": "https://slobodnadalmacija.hr/vijesti/politika/ovo-je-drugi-put-u-povijesti-da-milanovic-saziva-izvanrednu-sjednicu-sabora-na-potezu-je-hdz-evo-sto-mogu-napraviti-1573998",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32277867.jpg",
-    "description": "Predsjednik Republike Hrvatske Zoran Milanović će zbog ekološke katastrofe u Gospiću predsjedniku Sabora Gordanu Jandrokoviću uputiti zahtjev za izvanredno zasjedanje Hrvatskoga...",
-    "published_at": "2026-08-17T18:50:12+00:00"
-  },
-  {
-    "id": "72c1341d-8189-5bef-b1e7-7d8f9440d05c",
-    "title": "Hrvatski golman postaje \"Kralj penala\". Ponovno ga slave u Italiji",
-    "link": "https://www.index.hr/sport/clanak/semper-je-ponovno-junak-u-italiji-obranio-je-penal-i-donio-prolaz-u-kupu/2824708.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ADRIAN ŠEMPER sjajno brani u Pisi.",
-    "published_at": "2026-08-17T18:49:00+00:00"
-  },
-  {
-    "id": "d64afab3-b7ce-5ff3-92cf-594e0452bfec",
-    "title": "Trump: Iran želi dogovor, ali ne pod američkim uvjetima",
-    "link": "https://www.index.hr/vijesti/clanak/trump-iran-zeli-dogovor-ali-ne-pod-americkim-uvjetima/2824711.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "AMERIČKI predsjednik Trump izjavio je da Iran želi dogovor o nuklearnom programu, ali ne pod uvjetima SAD-a. Ponovio je da Iran ne smije imati nuklearno oružje i kritizirao je u...",
-    "published_at": "2026-08-17T18:48:00+00:00"
-  },
-  {
     "id": "106dbff8-8f6a-5ff2-ad5f-a717b00a9087",
     "title": "City blizu transfera marokanskoga čuda od djeteta za 100 milijuna, ne odustaje ni od argentinske zvijezde",
     "link": "https://sportnet.hr/vijesti/nogomet-engleska/city-blizu-transfera-marokanskoga-cuda-od-djeteta-za-100-milijuna-ne-odustaje-ni-od-argentinske-zvijezde/630638/",
@@ -2923,69 +3193,6 @@
     "image_url": "https://sportnet.hr/photos/_resized/526/20/0000000000526202_510_0.jpg",
     "description": "Manchester City nalazi se u poodmaklim pregovorima s Lilleom oko dovođenja 18-godišnjeg marokanskog veznjaka Ayyouba Bouaddija u poslu vrijednom 100 milijuna eura. Transfer bi t...",
     "published_at": "2026-08-17T18:43:58+00:00"
-  },
-  {
-    "id": "0eb732b3-b822-5233-99f3-3928416ee5a1",
-    "title": "Italija: Nema dokaza o ruskoj umiješanosti u eksploziju u tvornici streljiva",
-    "link": "https://www.index.hr/vijesti/clanak/italija-nema-dokaza-o-ruskoj-umijesanosti-u-eksploziju-u-tvornici-streljiva/2824705.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "TALIJANSKI ministar obrane Guido Crosetto izjavio je da nema dokaza koji bi upućivali na rusku umiješanost u nedavnu eksploziju u tvornici streljiva u Colleferru, odbacujući nag...",
-    "published_at": "2026-08-17T18:41:00+00:00"
-  },
-  {
-    "id": "ed547f45-8ed9-56c6-adc6-6b8658169820",
-    "title": "Nutricionisti: Ljetno piće koje mnogi smatraju zdravim može opteretiti srce",
-    "link": "https://www.index.hr/fit/clanak/nutricionisti-ljetno-pice-koje-mnogi-smatraju-zdravim-moze-opteretiti-srce/2824691.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "SPORTSKI napitci, popularni ljeti, mogu štetiti srcu neaktivnih osoba zbog visokog udjela šećera.",
-    "published_at": "2026-08-17T18:39:00+00:00"
-  },
-  {
-    "id": "1dcbb364-71d8-57ef-ac73-502b99b6e491",
-    "title": "Sergio Busquets vratio se u Barcelonu i postao trener",
-    "link": "https://www.index.hr/sport/clanak/sergio-busquets-vratio-se-u-barcelonu-i-postao-trener/2824704.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "DOBIO je prvi trenerski posao.",
-    "published_at": "2026-08-17T18:34:00+00:00"
-  },
-  {
-    "id": "3f20f125-a3c1-5545-9fed-5851a34503b9",
-    "title": "Što sa zaradom od turističke sezone, a da ne bude ono uobičajeno - nekretnine? Imamo nekoliko preporuka...",
-    "link": "https://slobodnadalmacija.hr/vijesti/biznis/sto-s-novcem-od-sezone-osim-nekretnina-1573729",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32240815.jpg",
-    "description": "Hrvatska je prošle godine od turizma zaradila 15 milijardi i 298 milijuna eura, ako je suditi po medijskim napisima. Zapravo se radi o stavci \"Putovanja-turizam\" u Platnoj bilan...",
-    "published_at": "2026-08-17T18:34:00+00:00"
-  },
-  {
-    "id": "d9b137f0-ed31-5c61-a339-c2c37a2ea38a",
-    "title": "Zakačili se SDP i IDS",
-    "link": "https://www.index.hr/vijesti/clanak/zakacili-se-sdp-i-ids/2824698.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "LIJEVA oporba održala je sastanak uoči današnje sjednice saborskog Odbora za zaštitu okoliša i prirode u Gospiću.",
-    "published_at": "2026-08-17T18:33:00+00:00"
-  },
-  {
-    "id": "ea942236-25e7-560b-af74-ecd81c08ee6f",
-    "title": "PODCAST Vladimir Balić: Garcia je evoluirao, a Hajduku ne treba više novca za titulu! Možeš imati 100 milijuna, ali...",
-    "link": "https://slobodnadalmacija.hr/sport/hajduk/vladimir-balic-garcia-je-evoluirao-prestao-je-muciti-loptu-1573997",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32321473.jpg",
-    "description": "Dočekali smo napokon dvije pobjede u jednom tjednu. Nakon Žalgirisa u Europi, Bijeli su upisali i prvo slavlje u HNL-u. Teškom mukom pala je Gorica. Bilo je to sve samo ne lako ...",
-    "published_at": "2026-08-17T18:31:47+00:00"
-  },
-  {
-    "id": "7e4ac83e-0ae0-5f91-9482-dc9afc2aa92a",
-    "title": "Ured mrtvozornika objavio detalje o smrti Hayden Panettiere",
-    "link": "https://www.index.hr/magazin/clanak/ured-mrtvozornika-objavio-detalje-o-smrti-hayden-panettiere/2824700.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "ISTRAGA o uzroku smrti je u tijeku, no preliminarni rezultati ne ukazuju na nasilje.",
-    "published_at": "2026-08-17T18:30:00+00:00"
   },
   {
     "id": "10f86692-7487-5c35-a184-053cfedb9989",
@@ -3015,24 +3222,6 @@
     "published_at": "2026-08-17T18:22:00+00:00"
   },
   {
-    "id": "4f783cb0-43f2-5b8b-aba4-a88834953719",
-    "title": "Napokon nas čeka predah od vrućina! Pogledajte što ide prema Hrvatskoj, kiša i grmljavina neće zaobići ni Dalmaciju",
-    "link": "https://slobodnadalmacija.hr/vijesti/hrvatska/napokon-nas-ceka-predah-od-vrucina-pogledajte-sto-ide-prema-hrvatskoj-kisa-i-grmljavina-nece-zaobici-ni-dalmaciju-1573996",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/32322175.gif",
-    "description": "U središnju Hrvatsku i Liku stiglo je nevrijeme. Na autocesti A1 kiša pada jaka kiša i teško se vozi pa vozači staju u zaustavnu traku. Počela je padati i tuča, prenosi Jutarnji...",
-    "published_at": "2026-08-17T18:21:00+00:00"
-  },
-  {
-    "id": "8a667a2e-2a24-511b-837a-c7d7b5c17269",
-    "title": "VIDEO ‘Moj pokojni muž nije znao ni jaje ispržiti!‘ Trogirska baka Perina (87) kuha s unukom Tonijem, hit je na YouTubeu",
-    "link": "https://slobodnadalmacija.hr/mozaik/panorama/najstarija-youtuberica-u-dalmaciji-ima-87-godina-s-unukom-kuha-pred-kamerama-a-ljudi-je-vec-prepoznaju-na-ulici-1573995",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/13/32322284.jpg",
-    "description": "Ima 87 godina, energije napretek i životnih priča za nekoliko knjiga. Četrdeset godina prodavala je na pijaci, radila u polju, podizala troje djece, a onda ju je unuk Toni nagov...",
-    "published_at": "2026-08-17T18:19:00+00:00"
-  },
-  {
     "id": "5c3bb9cd-6b3b-5a00-9bb7-6b036c7f59ca",
     "title": "Uber Eats u SAD-u pokreće brzu dostavu hrane dronovima",
     "link": "https://www.bug.hr/dronovi/uber-eats-u-sad-u-pokrece-brzu-dostavu-hrane-dronovima-62155",
@@ -3040,15 +3229,6 @@
     "image_url": "https://www.bug.hr/img/uber-eats-u-sad-u-pokrece-brzu-dostavu-hrane-dronovima_E_Z-7D.jpg",
     "description": "Strateško partnerstvo i Uberova investicija u Zipline omogućit će korisnicima bržu i održiviju dostavu autonomnim dronovima, s ciljem dosizanja milijun isporuka dnevno do kraja ...",
     "published_at": "2026-08-17T18:17:00+00:00"
-  },
-  {
-    "id": "5a77ea0c-5b43-5c6f-b7c1-4de8b8187751",
-    "title": "Bivši nogometaš Hajduka debitirao na drugom kraju svijeta, ali svoj prvi nastup neće zapamtiti po dobrom rezultatu",
-    "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/bivsi-nogometas-hajduka-debitirao-na-drugom-kraju-svijeta-ali-svoj-prvi-nastup-nece-zapamtiti-po-dobrom-rezultatu-1573994",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/17/31277735.jpg",
-    "description": "Prije tri tjedna Filip Krovinović završio je svoju pet godina dugu priču s Hajdukom, početkom ove sezone označen je kao višak i dobio je slobodne papire. A onda je prilično izne...",
-    "published_at": "2026-08-17T18:14:00+00:00"
   },
   {
     "id": "f84c2917-5524-5233-9271-945552994a72",
@@ -3429,15 +3609,6 @@
     "published_at": "2026-08-17T12:21:30+00:00"
   },
   {
-    "id": "1fe83f26-2eea-5de1-acef-4e92dd70c658",
-    "title": "Do kraja mjeseca nastavljamo besplatno gledati filmove na lokacijama gdje su snimljeni u Zagrebu",
-    "link": "https://www.journal.hr/kultura/film-kazaliste-tv/zagreb-filmski-grad-2026/",
-    "source": "Journal.hr",
-    "image_url": null,
-    "description": "Objava Do kraja mjeseca nastavljamo besplatno gledati filmove na lokacijama gdje su snimljeni u Zagrebu prvi put se pojavila na Journal.hr .",
-    "published_at": "2026-08-17T12:12:25+00:00"
-  },
-  {
     "id": "a6e034f4-ce18-5756-98b2-68d223625f23",
     "title": "TOP 10 klubova s najviše trofeja: Svaka federacija ima barem jednog predstavnika",
     "link": "https://sportnet.hr/vijesti/originalno-lako-pero/top-10-klubova-s-najvise-trofeja-svaka-federacija-ima-barem-jednog-predstavnika/630612/",
@@ -3690,33 +3861,6 @@
     "published_at": "2026-08-17T07:58:00+00:00"
   },
   {
-    "id": "d473c009-c2ce-515a-bb7f-e84680a975ef",
-    "title": "Recept koji će spasiti radni tjedan: Piletina u kremastom umaku od kukuruza, slanine i češnjaka",
-    "link": "https://punkufer.dnevnik.hr/clanak/hrana-i-pice/piletina-u-kremastom-umaku-od-kukuruza-slanine-i-cesnjaka-recept---996359.html",
-    "source": "Punkufer.hr",
-    "image_url": null,
-    "description": "",
-    "published_at": "2026-08-17T07:39:00+00:00"
-  },
-  {
-    "id": "9f455730-2de7-5568-82e7-c49fe9d9e0a6",
-    "title": "Livaja: 'Kontrolirali smo utakmicu od početka, šteta što je nismo prije riješili'",
-    "link": "https://sportnet.hr/vijesti/nogomet-supersport-hnl/livaja-kontrolirali-smo-utakmicu-od-pocetka-steta-sto-je-nismo-prije-rijesili/630603/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/528/70/0000000000528705_510_0.jpg",
-    "description": "Hajduk je u Gorici stigao do prve prvenstvene pobjede, a Marko Livaja ponovno je bio čovjek odluke. Nakon utakmice kapetan Bijelih osvrnuo se na pobjedu i ono što slijedi.",
-    "published_at": "2026-08-17T07:31:00+00:00"
-  },
-  {
-    "id": "3dbcde82-2514-5d5a-986e-cd2f89cc9cb2",
-    "title": "Ples Pepeljuga: Tko će od nogometnih 'patuljaka' izboriti put u raj zvan Liga prvaka?",
-    "link": "https://sportnet.hr/kolumne/originalno-sportnetissimo/ples-pepeljuga-tko-ce-od-nogometnih-patuljaka-izboriti-put-u-raj-zvan-liga-prvaka/630602/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/528/70/0000000000528704_510_0.jpg",
-    "description": "Play-off, ta posljednja stepenica na putu do raja zvanog Liga prvaka, bit će pravi \"ples Pepeljuga\", preciznije, europskih nogometnih liliputanaca u pokušaju da ostvare pothvat ...",
-    "published_at": "2026-08-17T07:01:53+00:00"
-  },
-  {
     "id": "76ae7d95-da52-5b5c-ab0c-9f813645ac71",
     "title": "Plenković: Main Tourist Season is Good, We Expect a Good Post-Season",
     "link": "https://total-croatia-news.com/news/plenkovic-tourist-season/",
@@ -3751,15 +3895,6 @@
     "image_url": null,
     "description": "August the 17th, 2026 &#8211; The material damage caused by the catastrophic Omiš fire is astronomical, with the full scale of the damage almost too difficult to cope with for s...",
     "published_at": "2026-08-17T06:53:10+00:00"
-  },
-  {
-    "id": "4d02ce78-adff-5ad9-9062-f844e9859758",
-    "title": "Štrlek o povratku u Zagreb i Ligi prvaka: 'Zašto ne bismo iznenadili nekog od jačih?'",
-    "link": "https://sportnet.hr/vijesti/rukomet-liga-prvaka/strlek-o-povratku-u-zagreb-i-ligi-prvaka-zasto-ne-bismo-iznenadili-nekog-od-jacih/630601/",
-    "source": "Sportnet.hr",
-    "image_url": "https://sportnet.hr/photos/_resized/524/34/0000000000524341_510_0.jpg",
-    "description": "Nakon povratka u klub u kojem je napravio prve rukometne korake, Manuel Štrlek je već usmjerio pogled prema najvećem izazovu nove sezone. Zagreb čeka zahtjevna skupina Lige prva...",
-    "published_at": "2026-08-17T06:35:00+00:00"
   },
   {
     "id": "257676c9-4afd-5d18-bb46-9d13ce6adf56",
@@ -4023,15 +4158,6 @@
     "published_at": "2026-08-16T03:45:00+00:00"
   },
   {
-    "id": "1a8c3746-688c-5018-823d-46d384c4b6ad",
-    "title": "Espresso aparat od 400 eura s tehnologijom mnogo skupljih i mikrofon kakav koriste omiljeni podcasti",
-    "link": "https://www.bug.hr/tv/espresso-aparat-od-400-eura-s-tehnologijom-mnogo-skupljih-i-mikrofon-kakav-62093",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/espresso-aparat-od-400-eura-s-tehnologijom-mnogo-skupljih-i-mikrofon-kakav__Lfpmf.png",
-    "description": "Na YouTubeu donosimo dvije nove recenzije: poluautomatski espresso aparat MOVA S20 Pro, koji za 400 eura nudi rješenja iz puno skupljih modela, te Elgatov dinamički XLR mikrofon...",
-    "published_at": "2026-08-16T00:53:00+00:00"
-  },
-  {
     "id": "00c6c5db-db81-52a6-acea-edae276c626e",
     "title": "Rimac: Top Croatian Export Products are Luxury Cars and Battery Systems",
     "link": "https://total-croatia-news.com/news/croatian-luxury-cars/",
@@ -4077,12 +4203,66 @@
     "published_at": "2026-08-10T15:16:00+00:00"
   },
   {
-    "id": "fc0b4c6d-827c-5253-9d3c-cbdc03282d7c",
-    "title": "Najlakši ručak za ljeto – složiti ga možete za 15 minuta i ništa se ne kuha",
-    "link": "https://punkufer.dnevnik.hr/clanak/hrana-i-pice/salata-od-graha-slanutka-i-povrca-s-kremastim-preljevom-recept---995421.html",
-    "source": "Punkufer.hr",
+    "id": "19076ec2-a369-5c59-8426-80ac5f6f1586",
+    "title": "Gradu Pazinu odobreno 500 tisuća kuna za nastavak radova na zvoniku crkve Sv. Nikole",
+    "link": "https://www.regionalexpress.hr/site/gradu-pazinu-odobreno-500-tisua-kuna-za-nastavak-radova-na-zvoniku-crkve-sv-nikole",
+    "source": "Regional Express",
     "image_url": null,
-    "description": "",
-    "published_at": "2026-08-10T13:15:00+00:00"
+    "description": "ETAPNOM OBNOVOM DO REVALORIZACIJE ZVONIKA Ministarstvo kulture i medija Republike Hrvatske objavilo je koncem pro&scaron;log tjedna rezultate Natječaja za programe za&scaron;tit...",
+    "published_at": "2022-07-04T11:20:00+00:00"
+  },
+  {
+    "id": "a07da04f-26d7-5c67-b6e0-084ed8c06bea",
+    "title": "Samo tjedan dana ‘odmora’ od društvenih mreža smanjuje depresiju i tjeskobu",
+    "link": "https://www.regionalexpress.hr/site/samo-tjedan-dana-odmora-od-drushtvenih-mrezha-smanjuje-depresiju-i-tjeskobu",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "LJUDI KOJI SU SE ODMORILI OD TIKTOKA, FACEBOOKA, INSTAGRAMA ILI TWITERA OSJEĆAJU SE BOLJE Samo tjedan dana 'odmora' od dru&scaron;tvenih mreža smanjuje depresiju i tjeskobu, pok...",
+    "published_at": "2022-05-15T09:56:00+00:00"
+  },
+  {
+    "id": "3169bcdc-6f24-5594-aefd-e4ccd22e470b",
+    "title": "Hrvatska predvođena Filipovićem i Matkovićem slavila u neviđenoj drami u Švedskoj",
+    "link": "https://www.regionalexpress.hr/site/hrvatska-predvoena-filipoviem-i-matkoviem-slavila-u-nevienoj-drami-u-shvedskoj",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "&Scaron;VEDSKA &ndash; HRVATSKA &nbsp;98:105 (21:14, 20:12, 18:24, 20:29, 9:9, 10:17) Hrvatska ko&scaron;arka&scaron;ka reprezentacija je nakon velike drame u 4. kolu kvalifikac...",
+    "published_at": "2022-03-01T09:38:00+00:00"
+  },
+  {
+    "id": "a9e31422-1a1f-508c-9851-78c3a226a049",
+    "title": "Obale Jadranskog mora vrlo su ranjive na klimatske promjene",
+    "link": "https://www.regionalexpress.hr/site/obale-jadranskog-mora-vrlo-su-ranjive-na-klimatske-promjene",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "{summary}{body}",
+    "published_at": "2021-12-06T08:57:00+00:00"
+  },
+  {
+    "id": "7eb072de-737c-5904-94a8-b18f62b81cab",
+    "title": "Županijski vijećnici obišli ŽCGO Kaštijun",
+    "link": "https://www.regionalexpress.hr/site/zhupanijski-vijenici-obishli-zhcgo-kashtijun",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "DOZNALI SVE O NOVOM SUSTAVU GOSPODARENJA OTPADOM Vijećnice i vijećnici novog saziva Skup&scaron;tine Istarske županije, na čelu s predsjednicom Sandrom Ćakić Kuhar i zamjenikom ...",
+    "published_at": "2021-10-11T13:20:00+00:00"
+  },
+  {
+    "id": "c5dc67d3-d2b3-5e24-87cc-f21c3419529b",
+    "title": "Novo ruho Držićeve ulice u Puli",
+    "link": "https://www.regionalexpress.hr/site/novo-ruho-drzhieve-ulice-u-puli",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "BEZ NEUREDNIH GRAFITA Nismo protiv grafita, ali smo protiv neukusnih i neurednih grafita i&scaron;aranih na za to nepredviđenim lokacijama. Nekad grafiti daju poseban gradski &s...",
+    "published_at": "2021-06-15T10:35:00+00:00"
+  },
+  {
+    "id": "f6f51533-1d3c-5015-aab0-757c632c9a72",
+    "title": "Novo radno vrijeme PU istarske za rad sa strankama",
+    "link": "https://www.regionalexpress.hr/site/novo-radno-vrijeme-pu-istarske-za-rad-sa-strankama",
+    "source": "Regional Express",
+    "image_url": null,
+    "description": "CIJELI TJEDAN OD 8 DO 14 SATI OSIM UTORKA KAD MUP RADI OD 11,30 DO 18,30 SATI Obavje&scaron;tavamo građane kako se od ponedjeljka, 7. rujna 2020. godine, mijenja radno vrijeme P...",
+    "published_at": "2020-09-04T09:08:00+00:00"
   }
 ]
