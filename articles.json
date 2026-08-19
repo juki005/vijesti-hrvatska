@@ -1,5 +1,23 @@
 [
   {
+    "id": "ecc2e424-b2ba-579a-b1f5-8011966fdb99",
+    "title": "Izložba „Straight to R’n’R #2“ prikazuje neponovljive glazbene trenutke i magiju koncertne fotografije",
+    "link": "https://slobodnadalmacija.hr/dubrovnik/vijesti/kultura/izlozba-straight-to-r-n-r-2-prikazuje-neponovljive-glazbene-trenutke-i-magiju-koncertne-fotografije-1574383",
+    "source": "Slobodna Dalmacija",
+    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/20/32330216.jpg",
+    "description": "U izložbenom prostoru Narodne knjižnice Grad u ponedjeljak, 17. kolovoza, otvorena je konceptualna izložba koncertne fotografije „Straight to R’n’R #2“, u javnosti poznata i pod...",
+    "published_at": "2026-08-19T23:15:00+00:00"
+  },
+  {
+    "id": "9923b9a1-54e2-5b5f-87c7-a566958b3b68",
+    "title": "\"Stobreč je 700 godina stariji od Splita\": Polufinalna ludnica posebnog turnira u Hrvatskoj, domaćini će morati igrati za \"broncu\"",
+    "link": "https://www.dalmacijadanas.hr/stobrec-je-700-godina-stariji-od-splita-polufinalna-ludnica-posebnog-turnira-u-hrvatskoj-domacini-ce-morati-igrati-za-broncu/",
+    "source": "Dalmacija Danas",
+    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/08/salbun-stobrec.jpg",
+    "description": "[VELIKA FOTO GALERIJA] Legendarni turnir ove je godine okupio rekordnih 48 ekipa, a veliko finale igra se u petak. Organizatori najavljuju pune tribine, bengalke i posebnu posve...",
+    "published_at": "2026-08-19T23:07:18+00:00"
+  },
+  {
     "id": "ab86bfe3-5f6d-5491-a9f7-9e9805b3c5c3",
     "title": "Donosimo priču o beauty brendu koji je u tri godine ispisao povijest, a tek je počeo",
     "link": "https://www.journal.hr/ljepota/trendovi-ljepota/moonglaze-makeup-beauty-brend/",
@@ -574,15 +592,6 @@
     "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2783778.jpeg?cropId=0",
     "description": "Predsjednik Srbije Aleksandar Vučić tijekom posjeta Prokuplju ušao je u burnu raspravu sa starijom građankom koja mu je prišla tražeći pomoć za ženu po imenu Miljana Stojanović....",
     "published_at": "2026-08-19T20:37:00+00:00"
-  },
-  {
-    "id": "9fcb9c1b-d05c-533d-b9a8-3ab71eaa2089",
-    "title": "Plenković (opet) dolazi u Split",
-    "link": "https://www.dalmacijadanas.hr/plenkovic-opet-dolazi-u-split/",
-    "source": "Dalmacija Danas",
-    "image_url": "https://www.dalmacijadanas.hr/wp-content/uploads/2026/07/7-24-plenkovic-ragbi-15.jpg",
-    "description": "Često je u podmarjanskom gradu",
-    "published_at": "2026-08-19T20:35:16+00:00"
   },
   {
     "id": "5096ad68-aa70-5f0d-9cd0-c45b6f704552",
@@ -2664,15 +2673,6 @@
     "published_at": "2026-08-19T15:37:00+00:00"
   },
   {
-    "id": "bddb6ad4-675d-53d8-adc6-5bd0f5ba4f3d",
-    "title": "Grad Zadar pomaže Omišu s 30 tisuća eura: nove investicije u škole, infrastrukturu i projekte",
-    "link": "https://slobodnadalmacija.hr/dalmacija/zadar/grad-zadar-pomaze-omisu-s-30-tisuca-eura-nove-investicije-u-skole-infrastrukturu-i-projekte-1574331",
-    "source": "Slobodna Dalmacija",
-    "image_url": "https://static.slobodnadalmacija.hr/images/slike/2026/08/19/32325980.jpg",
-    "description": "Grad Zadar izdvojit će 30.000 eura financijske pomoći Gradu Omišu za sanaciju posljedica velikog požara koji je u noći s 13. na 14. kolovoza zahvatio područje od Lokve Rogoznice...",
-    "published_at": "2026-08-19T15:36:12+00:00"
-  },
-  {
     "id": "300a77e1-6939-5fa8-9c13-cc33bbd85db7",
     "title": "Plenković neće doći na izvanrednu sjednicu Sabora o opasnom otpadu u Gospiću",
     "link": "https://www.index.hr/vijesti/clanak/plenkovic-nece-doci-na-izvanrednu-sjednicu-saboru-zbog-opasnog-otpada-u-gospicu/2825550.aspx",
@@ -2844,21 +2844,21 @@
     "published_at": "2026-08-19T14:50:00+00:00"
   },
   {
-    "id": "98d03e7c-e06e-5e05-a08a-7d6fca09f064",
-    "title": "Kako su nastali horoskopski znakovi?",
-    "link": "https://www.index.hr/horoskop/clanak/kako-su-nastali-horoskopski-znakovi/2825390.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "OD DREVNIH promatranja neba do današnjeg horoskopa, priča o 12 horoskopskih znakova traje tisućama godina.",
-    "published_at": "2026-08-19T14:50:00+00:00"
-  },
-  {
     "id": "52756b60-25f4-52e2-a006-f8eb9999c946",
     "title": "Johnny Depp bi povratkom u \"Pirate s Kariba\" mogao zaraditi 22,5 milijuna dolara",
     "link": "https://www.index.hr/chill/clanak/johnny-depp-bi-povratkom-u-pirate-s-kariba-mogao-zaraditi-225-milijuna-dolara/2825515.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "PRODUCENT Jerry Bruckheimer pregovara s Johnnyjem Deppom o povratku u \"Pirate s Kariba\".",
+    "published_at": "2026-08-19T14:50:00+00:00"
+  },
+  {
+    "id": "98d03e7c-e06e-5e05-a08a-7d6fca09f064",
+    "title": "Kako su nastali horoskopski znakovi?",
+    "link": "https://www.index.hr/horoskop/clanak/kako-su-nastali-horoskopski-znakovi/2825390.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "OD DREVNIH promatranja neba do današnjeg horoskopa, priča o 12 horoskopskih znakova traje tisućama godina.",
     "published_at": "2026-08-19T14:50:00+00:00"
   },
   {
