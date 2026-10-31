@@ -1,11 +1,83 @@
 [
   {
+    "id": "30cc42eb-6b77-52eb-a988-606d645dfbf2",
+    "title": "Razmišljate o promjeni posla? Izdvojili smo nekoliko zanimljivih oglasa, evo ponude",
+    "link": "https://www.tportal.hr/biznis/clanak/razmisljate-o-promjeni-posla-izdvojili-smo-nekoliko-zanimljivih-oglasa-evo-ponude-20261029",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2807551.jpeg?cropId=0",
+    "description": "MojPosao i ovog tjedna donosi pregled atraktivnih oglasa za otvorena radna mjesta",
+    "published_at": "2026-10-31T02:00:00+00:00"
+  },
+  {
+    "id": "759aea74-d879-5df3-830a-a55e5c45a32c",
+    "title": "Novo istraživanje: DeepSeek se poboljšava, ali i dalje ima velike sigurnosne probleme",
+    "link": "https://www.tportal.hr/tehno/clanak/novo-istrazivanje-deepseek-se-poboljsava-ali-i-dalje-ima-velike-sigurnosne-probleme-20261029",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2818604.jpeg?cropId=0",
+    "description": "Rizici dolaze od mogućnosti 'umanjenja' sigurnosnih ograničenja, a istraživači upozoravaju na probleme u ponašanju autonomnih AI agenata i mogućnost uklanjanja zaštita koje bi i...",
+    "published_at": "2026-10-31T01:00:00+00:00"
+  },
+  {
+    "id": "8907f4f1-6cf1-5641-95d7-cf8ae18e4d81",
+    "title": "Odgovor bez adrese",
+    "link": "https://www.bug.hr/komentar/odgovor-bez-adrese-63896",
+    "source": "Bug.hr",
+    "image_url": "https://www.bug.hr/img/odgovor-bez-adrese_W9rRoP.png",
+    "description": "AI tražilice odgovaraju sve sigurnije, provjerava ih sve manje ljudi, a izvora koje bi uopće mogle citirati svakim je danom manje…",
+    "published_at": "2026-10-31T00:13:00+00:00"
+  },
+  {
+    "id": "57fd8842-93b4-5cd3-9539-ca95996b98e9",
+    "title": "Tehnološki giganti u slobodnom padu zbog golemih troškova umjetne inteligencije",
+    "link": "https://www.bug.hr/biznis/tehnoloski-giganti-u-slobodnom-padu-zbog-golemih-troskova-umjetne-inteligencije-63981",
+    "source": "Bug.hr",
+    "image_url": "https://www.bug.hr/img/tehnoloski-giganti-u-slobodnom-padu-zbog-golemih-troskova-umjetne-inteligencije_3smbQI.png",
+    "description": "Vrijednosti dionica Intela, Alphabeta i Nvidije značajno su pale na burzama. Investitori se pitaju kada će se stotine milijardi dolara uloženih u umjetnu inteligenciju napokon p...",
+    "published_at": "2026-10-30T23:36:00+00:00"
+  },
+  {
+    "id": "0c46b808-6642-5a4b-876a-d686491cbc94",
+    "title": "Zagrebačka ekipa virtualno leti oko svijeta i prikuplja donacije za Krijesnicu",
+    "link": "https://www.bug.hr/dogadjaji/zagrebacka-ekipa-virtualno-leti-oko-svijeta-i-prikuplja-donacije-za-krijesnicu-63973",
+    "source": "Bug.hr",
+    "image_url": "https://www.bug.hr/img/zagrebacka-ekipa-virtualno-leti-oko-svijeta-i-prikuplja-donacije-za-krijesnicu_4zy_IU.jpeg",
+    "description": "Zagrebačka ekipa The Flight Rooma sudjelovat će u međunarodnoj inicijativi WorldFlight 2026, tijekom koje će u simulatoru Airbusa A320 virtualno letjeti oko svijeta i prikupljat...",
+    "published_at": "2026-10-30T23:36:00+00:00"
+  },
+  {
+    "id": "3c9c309e-58ca-5d1b-9be3-eb6ec2d691cb",
+    "title": "Šest mjeseci za ispravak: Litavski premijer prošao istragu o plagiranju bez gubitka titule",
+    "link": "https://www.vecernji.hr/vijesti/sest-mjeseci-za-ispravak-litavski-premijer-prosao-istragu-o-plagiranju-bez-gubitka-titule-2009274",
+    "source": "Večernji list",
+    "image_url": "https://www.vecernji.hr/media/img/9a/38/d1d5c8c10fb1abfaf70e.jpeg",
+    "description": "Prema pisanju litavskih medija, u radu je pronađeno pet slučajeva plagiranja i dva slučaja nedopuštenog korištenja teksta",
+    "published_at": "2026-10-30T23:15:00+00:00"
+  },
+  {
+    "id": "803f1014-b75f-5af2-a8fa-ad8ef65bba03",
+    "title": "Rusija uvodi vize Crnogorcima. To je odgovor na odluku Podgorice",
+    "link": "https://www.index.hr/vijesti/clanak/rusija-uvodi-vize-crnogorcima-to-je-odgovor-na-odluku-podgorice/2851700.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "RUSIJA od 30. prosinca uvodi vize za državljane Crne Gore kao odgovor na odluku Podgorice o uvođenju viza Rusima radi usklađivanja s politikom EU.",
+    "published_at": "2026-10-30T23:06:00+00:00"
+  },
+  {
     "id": "c05d94ce-7473-5b13-a473-a5b8d334ee4e",
     "title": "Od zaboravljene košarice do pobjede: Crveni tim napokon slavi!",
     "link": "https://www.vecernji.hr/showbiz/od-zaboravljene-kosarice-do-pobjede-crveni-tim-napokon-slavi-2009228",
     "source": "Večernji list",
     "image_url": "https://www.vecernji.hr/media/img/cb/36/98f38cb6a8ff65b26c42.jpeg",
     "description": "",
+    "published_at": "2026-10-30T23:05:00+00:00"
+  },
+  {
+    "id": "260f81ae-8f3f-52c1-a909-aa58ad7e0bc1",
+    "title": "Kriza u Poljskoj se širi: Veleposlanik dao ostavku, javio se šef Vrhovnog suda",
+    "link": "https://www.tportal.hr/vijesti/clanak/kriza-u-poljskoj-se-siri-veleposlanik-dao-ostavku-javio-se-sef-vrhovnog-suda-20261031",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2820031.jpeg?cropId=0",
+    "description": "Predsjednik poljskog Vrhovnog suda Zbigniew Kapiński osudio je događaje oko Ustavnog suda u Varšavi, poručivši da je riječ o presedanu koji ugrožava temelje demokratske pravne d...",
     "published_at": "2026-10-30T23:05:00+00:00"
   },
   {
@@ -34,6 +106,15 @@
     "image_url": "https://www.vecernji.hr/media/img/73/d2/3a3846e1ae99aa9490fd.png",
     "description": "Rukometaši Zagreba uvjerljivo su svladali Bjelovar s 37:24 u osmom kolu Paket24 Premijer lige, no utakmica u Kutiji šibica donijela je i vijest koja bi mogla imati puno šire pos...",
     "published_at": "2026-10-30T23:04:00+00:00"
+  },
+  {
+    "id": "341d24ff-7bf5-530b-b505-bf76614bc9b9",
+    "title": "Dnevni horoskop za 31.10.: Blizancima jedan poziv mijenja planove, Ovnovi upoznaju zanimljivu osobu",
+    "link": "https://www.tportal.hr/lifestyle/clanak/dnevni-horoskop-za-31-10-blizancima-jedan-poziv-mijenja-planove-ovnovi-upoznaju-zanimljivu-osobu-20261030",
+    "source": "Tportal",
+    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2820117.jpeg?cropId=4326123",
+    "description": "Ovnovima bi prijateljev neočekivan prijedlog mogao potpuno promijeniti subotnje planove, a odlazak na zanimljiv događaj mogao bi im donijeti novo poznanstvo koje će ih potaknuti...",
+    "published_at": "2026-10-30T23:00:00+00:00"
   },
   {
     "id": "9e6eeeb5-60c4-56c3-a95f-ecf0efec6146",
@@ -90,21 +171,21 @@
     "published_at": "2026-10-30T22:34:00+00:00"
   },
   {
-    "id": "2bb847a0-b4bf-539f-8cb9-7705af614060",
-    "title": "Hakeri ukrali 6 milijardi s Binancea. CNN: Ovo nije prvi put, a neće biti ni zadnji",
-    "link": "https://www.index.hr/vijesti/clanak/hakeri-ukrali-6-milijardi-s-binancea-cnn-ovo-nije-prvi-put-a-nece-biti-ni-zadnji/2851698.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "S NAJVEĆE kriptomjenjačnice Binance ukradeno je preko 6 mlrd. dolara, što otvara pitanje sigurnosti. Iako će Binance pokriti gubitke, stručnjaci upozoravaju na rizike centralizi...",
-    "published_at": "2026-10-30T22:26:00+00:00"
-  },
-  {
     "id": "10a4489b-1ce3-5732-aae7-ae55b79fad94",
     "title": "Lekin stroj nastavlja gaziti. Četiri gola, nova pobjeda i skok na prvo mjesto",
     "link": "https://www.index.hr/sport/clanak/lekin-stroj-nastavlja-gaziti-cetiri-gola-nova-pobjeda-i-skok-na-prvo-mjesto/2851697.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "MOMČAD hrvatskog trenera nalazi se na prvom mjestu ljestvice belgijske lige.",
+    "published_at": "2026-10-30T22:26:00+00:00"
+  },
+  {
+    "id": "2bb847a0-b4bf-539f-8cb9-7705af614060",
+    "title": "Hakeri ukrali 6 milijardi s Binancea. CNN: Ovo nije prvi put, a neće biti ni zadnji",
+    "link": "https://www.index.hr/vijesti/clanak/hakeri-ukrali-6-milijardi-s-binancea-cnn-ovo-nije-prvi-put-a-nece-biti-ni-zadnji/2851698.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "S NAJVEĆE kriptomjenjačnice Binance ukradeno je preko 6 mlrd. dolara, što otvara pitanje sigurnosti. Iako će Binance pokriti gubitke, stručnjaci upozoravaju na rizike centralizi...",
     "published_at": "2026-10-30T22:26:00+00:00"
   },
   {
@@ -558,48 +639,12 @@
     "published_at": "2026-10-30T21:16:00+00:00"
   },
   {
-    "id": "4a316a2f-7ebe-5d42-9de4-addbf57f36d8",
-    "title": "On ne podnosi njezine glasovne poruke od deset minuta, ona ne želi odustati: Tko je u pravu?",
-    "link": "https://www.tportal.hr/lifestyle/clanak/on-ne-podnosi-njezine-glasovne-poruke-od-deset-minuta-ona-ne-zeli-odustati-tko-je-u-pravu-20261030",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2820103.jpeg?cropId=0",
-    "description": "Glasovne poruke mnogima su najjednostavniji način komunikacije, no što kada se kratko javljanje pretvori u desetominutni monolog? Jedan par zbog toga je završio u zanimljivoj ra...",
-    "published_at": "2026-10-30T21:15:00+00:00"
-  },
-  {
-    "id": "1e38979d-29f2-5b9e-a006-03bfe798c80d",
-    "title": "Duhovita, britka i uvijek svoja: Daniela Trbović rođena je u znaku koji cijeni iskrenost",
-    "link": "https://www.tportal.hr/lifestyle/clanak/duhovita-britka-i-uvijek-svoja-daniela-trbovic-rodena-je-u-znaku-koji-cijeni-iskrenost-foto-20261030",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2820098.jpeg?cropId=4326090",
-    "description": "Daniela Trbović desetljećima osvaja publiku prepoznatljivim humorom, neposrednošću i sposobnošću da uvijek pronađe pravu riječ. Njezin horoskopski znak poznat je po šarmu, komun...",
-    "published_at": "2026-10-30T21:15:00+00:00"
-  },
-  {
-    "id": "b4ad9d51-abcb-5d7c-bb61-88a0cfb17a8f",
-    "title": "Šarić sjajno odigrao u Euroligi: Pogledajte najbolje poteze",
-    "link": "https://www.tportal.hr/sport/clanak/saric-sjajno-odigrao-u-euroligi-pogledajte-najbolje-poteze-20261030",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2820084.jpeg?cropId=0",
-    "description": "Košarkaši Anadolu Efesa u devetom su kolu Eurolige na domaćem parketu pobijedili vodeći na ljestvici Panathinaikos s 83-68.",
-    "published_at": "2026-10-30T21:10:00+00:00"
-  },
-  {
     "id": "3853e5f3-564b-5522-ac53-3f242340bb7e",
     "title": "Možete li pojesti pizzu od 1.2 kg za pola sata? Hrvatska pizzerija nudi 100 eura",
     "link": "https://www.index.hr/food/clanak/mozete-li-pojesti-pizzu-od-12-kg-za-pola-sata-hrvatska-pizzerija-nudi-100-eura/2851679.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "ČAKOVEČKA pizzerija Špizza nudi 100 eura i besplatan obrok onome tko sam uspije pojesti njihovu pizzu promjera 60 cm, tešku preko 1,2 kg, unutar 30 minuta.",
-    "published_at": "2026-10-30T21:09:00+00:00"
-  },
-  {
-    "id": "07454232-d0d6-524a-b9da-b8b96c200409",
-    "title": "Orbán pao, krenule smjene i uhićenja: Čeka li isto Vučićeve ljude?",
-    "link": "https://www.tportal.hr/vijesti/clanak/orban-pao-krenule-smjene-i-uhicenja-ceka-li-isto-vuciceve-ljude-foto-20261030",
-    "source": "Tportal",
-    "image_url": "https://www.tportal.hr/media/thumbnail/500x300/2783098.jpeg?cropId=0",
-    "description": "Otkako je Péter Magyar na izborima u travnju okončao 16-godišnju vladavinu Viktora Orbána, Mađarska je zahvaćena velikim političkim i institucionalnim promjenama, a pred njima s...",
     "published_at": "2026-10-30T21:09:00+00:00"
   },
   {
@@ -1023,15 +1068,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "KOŠARKAŠI Anadolu Efesa pobijedili su vodeći Panathinaikos 83:68 u 9. kolu Eurolige.",
-    "published_at": "2026-10-30T20:15:00+00:00"
-  },
-  {
-    "id": "85a3f040-0cb5-54ae-a746-32ebb91d69fe",
-    "title": "Starački domovi za – djecu?!",
-    "link": "https://www.vecernji.hr/vijesti/staracki-domovi-za-djecu-2008315",
-    "source": "Večernji list",
-    "image_url": "https://www.vecernji.hr/media/img/c1/85/007615f815825fdc8b77.jpeg",
-    "description": "Izvan vlastite obitelji trenutačno su smještena 3724 djeteta. Njih 1347 nalazi se u ustanovama, 1962 je u udomiteljskim obiteljima, a 415 u organiziranom stanovanju. Ministarstv...",
     "published_at": "2026-10-30T20:15:00+00:00"
   },
   {
@@ -1629,21 +1665,21 @@
     "published_at": "2026-10-30T18:03:57+00:00"
   },
   {
-    "id": "d762b3d6-965a-587e-be8e-c46a72fbab25",
-    "title": "Europski diplomati odbili pozirati s Lavrovom. Amerikanci otkazali fotografiranje",
-    "link": "https://www.index.hr/vijesti/clanak/europski-diplomati-odbili-pozirati-s-lavrovom-amerikanci-otkazali-fotografiranje/2851639.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "NA SASTANKU ministara vanjskih poslova G20 otkazano je zajedničko fotografiranje jer su europski diplomati, uključujući britanskog, odbili pozirati s ruskim ministrom Sergejem L...",
-    "published_at": "2026-10-30T18:00:00+00:00"
-  },
-  {
     "id": "0ccbb3c5-5397-5f48-b57e-0d937930343e",
     "title": "Bentley je odradio maratonsko testiranje: Torcal je prevalio čak milijun kilometara",
     "link": "https://www.index.hr/auto/clanak/bentley-odradio-istinsko-testiranje-novi-torcal-prevalio-cak-milijun-kilometara/2851582.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "BENTLEY je svoj prvi električni SUV, Torcal, podvrgnuo testiranju od milijun km u ekstremnim uvjetima. Fokus je bio na performansama, 800V bateriji i sigurnosti prije izlaska na...",
+    "published_at": "2026-10-30T18:00:00+00:00"
+  },
+  {
+    "id": "d762b3d6-965a-587e-be8e-c46a72fbab25",
+    "title": "Europski diplomati odbili pozirati s Lavrovom. Amerikanci otkazali fotografiranje",
+    "link": "https://www.index.hr/vijesti/clanak/europski-diplomati-odbili-pozirati-s-lavrovom-amerikanci-otkazali-fotografiranje/2851639.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "NA SASTANKU ministara vanjskih poslova G20 otkazano je zajedničko fotografiranje jer su europski diplomati, uključujući britanskog, odbili pozirati s ruskim ministrom Sergejem L...",
     "published_at": "2026-10-30T18:00:00+00:00"
   },
   {
@@ -2871,21 +2907,21 @@
     "published_at": "2026-10-30T14:04:00+00:00"
   },
   {
-    "id": "30854a4a-f2eb-50de-90c3-26bc45357339",
-    "title": "Volkswagenov Tukan uhvaćen u Njemačkoj",
-    "link": "https://www.index.hr/auto/clanak/volkswagenov-tukan-uhvacen-u-njemackoj/2851436.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "VOLKSWAGENOV novi pick-up nosi ime tropske ptice, razvijen je za Južnu Ameriku, a sada je snimljen u Njemačkoj.",
-    "published_at": "2026-10-30T14:00:00+00:00"
-  },
-  {
     "id": "780f564f-990a-5fa6-ac97-f724c9edb0b4",
     "title": "Često zajedno poziraju: Junior Fernandes nakon razvoda od Hrvatice ljubi Turkinju",
     "link": "https://www.index.hr/magazin/clanak/cesto-zajedno-poziraju-junior-fernandes-nakon-razvoda-od-hrvatice-ljubi-turkinju/2851565.aspx",
     "source": "Index.hr",
     "image_url": null,
     "description": "BIVŠI nogometaš Dinama Junior Fernandes nakon razvoda od Hrvatice Marte Radić pronašao je sreću s 12 godina mlađom turskom manekenkom Çağlayan Namlıgez.",
+    "published_at": "2026-10-30T14:00:00+00:00"
+  },
+  {
+    "id": "30854a4a-f2eb-50de-90c3-26bc45357339",
+    "title": "Volkswagenov Tukan uhvaćen u Njemačkoj",
+    "link": "https://www.index.hr/auto/clanak/volkswagenov-tukan-uhvacen-u-njemackoj/2851436.aspx",
+    "source": "Index.hr",
+    "image_url": null,
+    "description": "VOLKSWAGENOV novi pick-up nosi ime tropske ptice, razvijen je za Južnu Ameriku, a sada je snimljen u Njemačkoj.",
     "published_at": "2026-10-30T14:00:00+00:00"
   },
   {
@@ -3093,15 +3129,6 @@
     "source": "Index.hr",
     "image_url": null,
     "description": "POTPUNO odricanje od kave možda uopće nije potrebno.",
-    "published_at": "2026-10-30T13:15:00+00:00"
-  },
-  {
-    "id": "bae99e76-a956-57da-9b0c-9dbbbcc076b8",
-    "title": "Estetski zahvati više nisu tabu za slavne muškarce. Ovi su promijenili izgled",
-    "link": "https://www.index.hr/magazin/clanak/estetski-zahvati-vise-nisu-tabu-za-slavne-muskarce-ovi-su-promijenili-izgled/2851081.aspx",
-    "source": "Index.hr",
-    "image_url": null,
-    "description": "SVE VIŠE slavnih muškaraca, poput Waynea Rooneyja i Barryja Keoghana, odlučuje se na estetske zahvate.",
     "published_at": "2026-10-30T13:15:00+00:00"
   },
   {
@@ -3940,33 +3967,6 @@
     "image_url": "https://mreza.bug.hr/img/evo-jos-jednog-racunalnog-misa-sa-zaslonom-biste-li-ga-koristili_Hb-7iD.jpg",
     "description": "Super Mouse izgleda kao da je netko uzeo velikog starog miša za Atari ST, pa na njega \"nalijepio\" zaslon osjetljiv na dodir i kotačić za pomicanje. No, ima i par zanimljivih zna...",
     "published_at": "2026-10-29T12:15:00+00:00"
-  },
-  {
-    "id": "0a3fa460-2264-57d4-81c2-940534a36e04",
-    "title": "Nvidia ima novi AI model za transkripciju zvuka na 40 jezika",
-    "link": "https://www.bug.hr/umjetna-inteligencija/nvidia-ima-novi-ai-model-za-transkripciju-zvuka-na-40-jezika-63931",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/nvidia-ima-novi-ai-model-za-transkripciju-zvuka-na-40-jezika_ytYfp2.png",
-    "description": "Novi Nemotron 3.5 Transcribe objedinjuje transkripciju, prepoznavanje govornika i prevođenje u jednom modelu, a Nvidia tvrdi da postiže vrlo dobre rezultate na standardiziranim ...",
-    "published_at": "2026-10-29T12:07:00+00:00"
-  },
-  {
-    "id": "46d86576-32db-53d6-b00e-b042b184b544",
-    "title": "Amazon proširio ponudu uređaja za pametni dom",
-    "link": "https://www.bug.hr/gadgeti/amazon-prosirio-ponudu-uredjaja-za-pametni-dom-63932",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/amazon-prosirio-ponudu-uredjaja-za-pametni-dom_9TqjsI.png",
-    "description": "Nova generacija Amazonovih uređaja donosi naprednije mogućnosti glasovnog asistenta Alexa+, snažniji hardver i dodatne senzore",
-    "published_at": "2026-10-29T12:07:00+00:00"
-  },
-  {
-    "id": "4fe954a7-10a5-531d-bd51-45987c89b80c",
-    "title": "Gdje je i zašto zapeo EU Inc., \"28. režim\" za startupe i male tvrtke?",
-    "link": "https://www.bug.hr/propisi/gdje-je-i-zasto-zapeo-eu-inc-28-rezim-za-startupe-i-male-tvrtke-63928",
-    "source": "Bug.hr",
-    "image_url": "https://www.bug.hr/img/gdje-je-i-zasto-zapeo-eu-inc-28-rezim-za-startupe-i-male-tvrtke_QvQTlU.jpg",
-    "description": "Inicijativa EU Inc, zamišljena kao jedinstveni pravni okvir za startupe, suočava se s blokadom u Europskom parlamentu zbog spora oko radničkih prava, pa se čeka izmjena prijedloga",
-    "published_at": "2026-10-29T12:07:00+00:00"
   },
   {
     "id": "abde18ff-f2c8-5a3e-a411-7c4efad7fff1",
